@@ -1,0 +1,12 @@
+active=0
+preset_begin
+name=Valwood Traveler
+model=models/traveler.glb
+scale=1
+anim_idle=Idle_11
+anim_walk=Walking
+anim_run=Running
+anim_attack=Double_Combo_Attack
+anim_attack2=Triple_Combo_Attack
+anim_jump=Basic_Jump
+preset_end

@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "terrain": "valwood_atlas",
+  "seed": 4217,
+  "world_width_metres": 100800.0,
+  "world_depth_metres": 56708.80415252545,
+  "standard_walk_metres_per_second": 3.5,
+  "straight_width_walk_hours": 8.0,
+  "scale_reference": "Uninterrupted straight west-to-east width at standard walk speed; slopes, detours and water crossings add time.",
+  "map_width_pixels": 5009,
+  "map_height_pixels": 2818,
+  "map_sha256": "1323e072540d785833b3af792bf782d46f43a15350c0711f50308dad53704086",
+  "axes": "X east, Z south; map north is negative Z; 1 world unit = 1 metre.",
+  "runtime_authority": "Engine atlas terrain/landmark definitions; this file records the preparation inputs.",
+  "seldonne_project": "Preserved separately at projects/seldonne; no scene data or saves copied."
+}

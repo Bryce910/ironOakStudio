@@ -1,0 +1,38 @@
+Thomas character quality — Linux Valwood, 20 November 2026
+
+Launch with the usual Valwood launcher after publication; restart an already
+running game to load this generation. World, Demo and Editor share the same
+third-person protagonist, motion bank and saved character/model preference.
+
+In F10 > Quality > Characters / models, choose Character detail: Low, Medium,
+High or Ultra. Apply and restart. This changes the main character's geometry
+and texture resolution together. Existing saves retain their prior selection;
+profiles without a selection use Medium. Global graphics presets preserve this
+independent choice. The Loaded line shows the model tier actually resident,
+even if a different preference has just been applied for the next launch.
+Third person remains the default; V retains the existing camera-view switch.
+The quality tier is a manual preference, so choose the detail your computer
+can run comfortably. Automatic scene-resolution adjustment stays independent.
+
+Low and Medium use reduced model and texture detail while preserving the
+character's identity, hair and material boundaries. High uses the full original
+character mesh with detailed textures. Ultra retains that full original mesh
+and adds finer original color maps up to 4K, with surface maps kept within the
+existing budget. Smaller source maps remain native, and hair keeps sufficient
+coverage detail on every tier. Existing skin, mesh and crowded-roster texture
+budgets remain enforced. Thomas keeps the same face when story armor equips.
+
+Tier       Civilian triangles   Armored triangles
+Low                    61,810             57,328
+Medium                 80,636             73,553
+High                  114,168            103,337
+Ultra                 114,168            103,337
+Hair topology is retained at every tier; Low keeps its coverage map at 1K.
+
+The purchased Kubold idle/walk/run bank and existing weapon, swim, defeat and
+equipment clips are retained. Saves, settings files and world authoring data
+are preserved. Original licensed Unity packages are unchanged.
+
+The quality source and shader banks are owned copies and the native executable
+is rebuilt from a verified 104-unit closure. Windows is unchanged. Validation
+and the practical limits of the visual review are recorded in review/FINAL_REVIEW.json.

@@ -1,0 +1,10 @@
+# NPC spawn points
+# n model_idx x y z yaw scale speed wait
+# v visual_yaw_offset_radians
+# o collision_enabled(0/1)
+# l patrol_loop(0/1)
+# a <name>
+# b <backstory escaped with \\n>
+# w x y z   (waypoint lines follow each n line)
+n 5 -10.962 3.000 -13.756 2.600 0.150 1.40 2.00
+a white_knight_brown_armor

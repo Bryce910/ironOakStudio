@@ -1,0 +1,19 @@
+Valwood — Third-person combat polish — Linux
+
+Use the stable launchers in /home/computer/Desktop/final_engine.
+Launch_Valwood_Arena.sh opens arena setup with third person enabled.
+Launch_Valwood.sh demo starts the apartment-to-Seldonne opening.
+The editor, demo, arena, jousting and world use one executable and shared shaders.
+
+This pass: full-body close-duel framing, correct arena-distance lens response,
+focus-consistent framing distance, restrained sword right/thrust footwork,
+and continuous foot support while attack legs blend into resolved movement.
+Actual blade contacts, grip constraints, collision sweeps and attack clocks remain authoritative.
+
+Review scope: native sword-contact checks with knights and orcs, equipment
+regression, actual weighted-boot CPU traces and camera/collision checks.
+The extended mixed-weapon film remains diagnostic: its Staff-body scenario
+did not reach the required outcome/recovery. It is not claimed as passing.
+The prior surface/terrain/blood/texture work is inherited and its pins remain verified.
+No Windows build was prepared. Saves and authored world documents remain mutable.
+This improves the third-person baseline; it is not an AAA quality certification.

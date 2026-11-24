@@ -1,0 +1,330 @@
+{
+  "schema": "valwood.apartment-continuous-wall-returns",
+  "version": 1,
+  "staged": true,
+  "source_project": "/home/computer/Desktop/final_engine/new_engine/build/journey-opening/candidate-v13/project",
+  "target_project": "/home/computer/Desktop/final_engine/new_engine/build/journey-opening/candidate-v14/project",
+  "model": "/home/computer/Desktop/final_engine/new_engine/docs/apartment-walls/2026-11-05/geometry-v2/home_enclosure.glb",
+  "model_sha256": "86338a45d5ecdc65ca8e1973316481d1a7e9a70a4566a5d12a7803d80d1be0a8",
+  "source_enclosure_sha256": "37348e12de6a4242b16582a432a356cb6f000cea5fd9f42de66093819f219ed8",
+  "physics": "/home/computer/Desktop/final_engine/new_engine/docs/apartment-walls/2026-11-05/geometry-v2/home.physics",
+  "physics_sha256": "9c6feb51fb4eb73229f5bd640ada7711dc8c6b1c630031f6d73464ce034f01d7",
+  "existing_physics_byte_exact_prefix": true,
+  "existing_body_count": 14,
+  "new_body_count": 15,
+  "source_geometry_and_material_payload_preserved": true,
+  "source_binary_exact_prefix": true,
+  "source_primitives_exact": true,
+  "existing_doorways_and_switches_unchanged": true,
+  "added_vertices": 39540,
+  "added_triangles": 13328,
+  "new_structural_boxes": [
+    {
+      "kind": "partition return",
+      "center_x": -6.0,
+      "old_end_z": -9.0,
+      "perimeter_z": -9.25,
+      "minimum": [
+        -6.178,
+        -0.015,
+        -9.25
+      ],
+      "maximum": [
+        -5.822,
+        2.62,
+        -9.0
+      ],
+      "source_profile_triangles": 1236,
+      "source_materials": [
+        "Finward Wall_brown",
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 0.0,
+      "old_end_z": -6.0,
+      "perimeter_z": -6.25,
+      "minimum": [
+        -0.178,
+        -0.015,
+        -6.25
+      ],
+      "maximum": [
+        0.178,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1236,
+      "source_materials": [
+        "Finward Wall_brown"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 4.0,
+      "old_end_z": -6.0,
+      "perimeter_z": -6.25,
+      "minimum": [
+        3.822,
+        -0.015,
+        -6.25
+      ],
+      "maximum": [
+        4.178,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1236,
+      "source_materials": [
+        "Finward Wall_brown"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 8.5,
+      "old_end_z": -6.0,
+      "perimeter_z": -6.25,
+      "minimum": [
+        8.322,
+        -0.015,
+        -6.25
+      ],
+      "maximum": [
+        8.678,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1148,
+      "source_materials": [
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 13.0,
+      "old_end_z": -6.0,
+      "perimeter_z": -6.25,
+      "minimum": [
+        12.822,
+        -0.015,
+        -6.25
+      ],
+      "maximum": [
+        13.178,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1236,
+      "source_materials": [
+        "Finward Wall_brown",
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 18.0,
+      "old_end_z": -6.0,
+      "perimeter_z": -8.25,
+      "minimum": [
+        17.822,
+        -0.015,
+        -8.25
+      ],
+      "maximum": [
+        18.178,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1148,
+      "source_materials": [
+        "Finward Wall_brown",
+        "Finward Wall_green"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 23.0,
+      "old_end_z": -6.0,
+      "perimeter_z": -8.25,
+      "minimum": [
+        22.822,
+        -0.015,
+        -8.25
+      ],
+      "maximum": [
+        23.178,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1056,
+      "source_materials": [
+        "Finward Wall_blue",
+        "Finward Wall_green"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 27.5,
+      "old_end_z": -6.0,
+      "perimeter_z": -8.25,
+      "minimum": [
+        27.322,
+        -0.015,
+        -8.25
+      ],
+      "maximum": [
+        27.678,
+        2.62,
+        -6.0
+      ],
+      "source_profile_triangles": 1056,
+      "source_materials": [
+        "Finward Wall_blue",
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 30.5,
+      "old_end_z": -5.0,
+      "perimeter_z": -5.25,
+      "minimum": [
+        30.322,
+        -0.015,
+        -5.25
+      ],
+      "maximum": [
+        30.678,
+        2.62,
+        -5.0
+      ],
+      "source_profile_triangles": 1148,
+      "source_materials": [
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 33.5,
+      "old_end_z": -5.0,
+      "perimeter_z": -8.25,
+      "minimum": [
+        33.322,
+        -0.015,
+        -8.25
+      ],
+      "maximum": [
+        33.678,
+        2.62,
+        -5.0
+      ],
+      "source_profile_triangles": 1236,
+      "source_materials": [
+        "Finward Wall_concrete",
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "partition return",
+      "center_x": 8.5,
+      "old_end_z": -3.0,
+      "perimeter_z": -2.75,
+      "minimum": [
+        8.322,
+        -0.015,
+        -3.0
+      ],
+      "maximum": [
+        8.678,
+        2.62,
+        -2.75
+      ],
+      "source_profile_triangles": 1148,
+      "source_materials": [
+        "Finward Wall_default"
+      ],
+      "doorways_unchanged": true
+    },
+    {
+      "kind": "stepped perimeter connector",
+      "minimum": [
+        0.178,
+        -0.015,
+        -6.265
+      ],
+      "maximum": [
+        0.265,
+        2.62,
+        -6.0
+      ]
+    },
+    {
+      "kind": "stepped perimeter connector",
+      "minimum": [
+        17.735,
+        -0.015,
+        -8.265
+      ],
+      "maximum": [
+        17.822,
+        2.62,
+        -6.0
+      ]
+    },
+    {
+      "kind": "stepped perimeter connector",
+      "minimum": [
+        27.678,
+        -0.015,
+        -8.265
+      ],
+      "maximum": [
+        27.765,
+        2.62,
+        -6.0
+      ]
+    },
+    {
+      "kind": "stepped perimeter connector",
+      "minimum": [
+        33.235,
+        -0.015,
+        -8.265
+      ],
+      "maximum": [
+        33.322,
+        2.62,
+        -5.0
+      ]
+    }
+  ],
+  "geometry_offset_native": [
+    0,
+    -0.155,
+    0
+  ],
+  "physics_origin": [
+    -3500.0,
+    600.0,
+    -11000.0
+  ],
+  "new_material_names": [
+    "Finward Wall_brown",
+    "Finward Wall_green",
+    "Finward Wall_blue",
+    "Finward Wall_concrete"
+  ],
+  "lighting": "Existing exact baked vertices untouched; new return profiles use interpolated original source SH probes.",
+  "gpu_used": false
+}

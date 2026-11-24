@@ -1,0 +1,24 @@
+variant0 global1 areas0 sounds9 listenerRain0.850000 listenerStorm1.000000
+  id13 condition0 gain1.000000 Campsite fire
+  id14 condition0 gain1.000000 Creek ambience
+  id15 condition0 gain1.000000 creek
+  id16 condition0 gain1.000000 Always near witness
+  id17 condition1 gain0.850000 Rain outside local dry
+  id18 condition2 gain0.150000 Dry inside local dry
+  id19 condition3 gain1.000000 Storm outside local dry
+  id20 condition1 gain0.850000 Rain inside local dry
+  id21 condition2 gain0.150000 Dry outside local dry
+variant1 global1 areas1 sounds9 listenerRain0.000000 listenerStorm0.000000
+  id13 condition0 gain1.000000 Campsite fire
+  id14 condition0 gain1.000000 Creek ambience
+  id15 condition0 gain1.000000 creek
+  id17 condition0 gain1.000000 Always near witness
+  id18 condition1 gain0.850000 Rain outside local dry
+  id19 condition2 gain1.000000 Dry inside local dry
+  id20 condition3 gain1.000000 Storm outside local dry
+  id21 condition1 gain0.000000 Rain inside local dry
+  id22 condition2 gain0.150000 Dry outside local dry
+variant2 global0 areas0 sounds3 listenerRain0.000000 listenerStorm0.000000
+  id13 condition0 gain1.000000 Campsite fire
+  id14 condition0 gain1.000000 Creek ambience
+  id15 condition0 gain1.000000 creek

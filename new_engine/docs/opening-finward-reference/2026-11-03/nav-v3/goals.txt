@@ -1,0 +1,6 @@
+spawn 2 -5
+living 1 -5.8
+bathroom 29.4 -1.6
+bedroom 14 -5.8
+kitchen -7 -6.2
+spawn-return 2 -5

@@ -1,0 +1,86 @@
+{
+  "scope": "Continuous textured terrain border, irregular clearing, layered woodland, repaired camp props, softer wide fire, directional fill and distinct third camper.",
+  "models": [
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_near.glb",
+      "sha256": "7b2edac301641e5b9194e3245c6906a22288737eeef663f1034eafedfcab45c1"
+    },
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_near.glb",
+      "sha256": "7b2edac301641e5b9194e3245c6906a22288737eeef663f1034eafedfcab45c1"
+    },
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_mid.glb",
+      "sha256": "5bbe0ff5f53fbde1b5f0bb107b002719423a8322ec0f8ec1f048cb231bf69660"
+    },
+    {
+      "relative_path": "ground/countryside.height",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/ground/countryside.height",
+      "sha256": "c29c4256c6be1cc775f252d4b911ac95181d972bb9214967958adb43e20a88d9"
+    },
+    {
+      "relative_path": "ground/countryside.coverage",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/ground/countryside.coverage",
+      "sha256": "e6670aab970af71d48124fc0d506b78553c936a1b17fff499796c67ff91cd32b"
+    },
+    {
+      "relative_path": "models/opening/arrival_border_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_near.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    },
+    {
+      "relative_path": "models/opening/arrival_border.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_near.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    },
+    {
+      "relative_path": "models/opening/arrival_border_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_mid.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    },
+    {
+      "relative_path": "models/opening/arrival_camp.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_near.glb",
+      "sha256": "955cf88f0371c2dc7a23e4b1477d33ed866d8996f2e6df921807a49db767e67d"
+    },
+    {
+      "relative_path": "models/opening/arrival_camp_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_near.glb",
+      "sha256": "955cf88f0371c2dc7a23e4b1477d33ed866d8996f2e6df921807a49db767e67d"
+    },
+    {
+      "relative_path": "models/opening/arrival_camp_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_mid.glb",
+      "sha256": "5c72b5043082fba4322dd79437d28bc0e7699ff3529172d86d6bb3d80586052b"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_near.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_near.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_mid.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    }
+  ],
+  "terrain_review": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/TERRAIN_REVIEW.json",
+  "terrain_review_sha256": "9d0479e596152e1d0e91deddd926d5305103cba371dabc9c3881ff90dbab6293",
+  "art_review": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/ART_CANDIDATE.json",
+  "art_review_sha256": "71b547a9efb53e08c027edf368546d15061fc2804d62f01902661568f4354584",
+  "source_project_unchanged": true,
+  "visual_acceptance_pending": false,
+  "midground_review": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/midground-v7/MIDGROUND_REVIEW.json",
+  "shader_recipe": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/ring-grass-shader-patch.json",
+  "shader_sha256": "4e88b4a88b413d5e00792f8237ea1669a6be843f7a01307d624f1144bf46d0d5",
+  "look": "15.2h, restrained hemisphere fill and directional warm sun",
+  "midground_review_sha256": "94ee62c56357f8450c3d8cf23b6a4ea09d7ce9521243e1ebd363de2854d4af06"
+}

@@ -1,0 +1,162 @@
+{
+  "canopy_tree": {
+    "source": "models/shire/trees/nice_tree.glb",
+    "path": "models/canopy_tree.glb",
+    "height": 15.0,
+    "extent": [
+      8.571197537868684,
+      15.0,
+      7.605259346313207
+    ]
+  },
+  "tree_rock": {
+    "source": "models/shire/trees/tree_on_rock.glb",
+    "path": "models/tree_rock.glb",
+    "height": 13.0,
+    "extent": [
+      19.72698865833582,
+      13.0,
+      21.516075315405754
+    ]
+  },
+  "cottage": {
+    "source": "models/shire/house/house_1.glb",
+    "path": "models/cottage.glb",
+    "height": 5.2,
+    "extent": [
+      8.522060256057202,
+      5.2,
+      7.751452613852913
+    ]
+  },
+  "tall_house": {
+    "source": "models/shire/house/tall_house.glb",
+    "path": "models/tall_house.glb",
+    "height": 8.0,
+    "extent": [
+      8.18404509361197,
+      8.0,
+      8.142981294817625
+    ]
+  },
+  "stone_hall": {
+    "source": "models/shire/house/house_stone_exterior.glb",
+    "path": "models/stone_hall.glb",
+    "height": 6.799999999999999,
+    "extent": [
+      12.475849510078351,
+      6.799999999999999,
+      12.557716628446416
+    ]
+  },
+  "portal": {
+    "source": "models/shire/entry_portal.glb",
+    "path": "models/portal.glb",
+    "height": 5.0,
+    "extent": [
+      4.820520877481397,
+      5.0,
+      4.585643639919978
+    ]
+  },
+  "campfire": {
+    "source": "models/bon_fire.glb",
+    "path": "models/campfire.glb",
+    "height": 1.2,
+    "extent": [
+      3.152535729657555,
+      1.2,
+      3.165147619158499
+    ]
+  },
+  "boulders": {
+    "source": "models/boulders.glb",
+    "path": "models/boulders.glb",
+    "height": 3.0,
+    "extent": [
+      6.6509774853535015,
+      3.0,
+      5.44951633702391
+    ]
+  },
+  "bush": {
+    "source": "models/shire/bush.glb",
+    "path": "models/bush.glb",
+    "height": 1.6,
+    "extent": [
+      2.5105555565676827,
+      1.6,
+      2.6687625861414195
+    ]
+  },
+  "fern": {
+    "source": "models/shire/plants/big_plant.glb",
+    "path": "models/fern.glb",
+    "height": 0.9,
+    "extent": [
+      0.960645298000464,
+      0.9,
+      0.8631864152798197
+    ]
+  },
+  "sign": {
+    "source": "models/wooden_sign.glb",
+    "path": "models/sign.glb",
+    "height": 2.3,
+    "extent": [
+      1.192749236881026,
+      2.3,
+      0.37598804360330296
+    ]
+  },
+  "crate": {
+    "source": "models/wooden_crate.glb",
+    "path": "models/crate.glb",
+    "height": 0.85,
+    "extent": [
+      0.8519224495672043,
+      0.85,
+      0.8568921026192007
+    ]
+  },
+  "barrel": {
+    "source": "models/props/single_barrel.glb",
+    "path": "models/barrel.glb",
+    "height": 1.0,
+    "extent": [
+      0.7415028158672679,
+      1.0,
+      0.7420605305747444
+    ]
+  },
+  "fence": {
+    "source": "models/wooden_fence.glb",
+    "path": "models/fence.glb",
+    "height": 1.1,
+    "extent": [
+      1.7767852746198798,
+      1.1,
+      0.3464121378746268
+    ]
+  },
+  "bridge": {
+    "source": "models/bridge.glb",
+    "path": "models/bridge.glb",
+    "height": 6.130128957300591,
+    "extent": [
+      22.0,
+      6.130128957300591,
+      4.762734023979804
+    ]
+  },
+  "lantern_post": {
+    "source": "models/wooden_post.glb",
+    "path": "models/lantern_post.glb",
+    "height": 3.6,
+    "extent": [
+      1.332146433628216,
+      3.6,
+      1.0230241288302804
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+#include "engine/world_demo_audio.h"
+#include "engine/world_atlas.h"
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_mixer.h>
+#include <array>
+#include <atomic>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <filesystem>
+#include <fstream>
+#include <string>
+#include <unistd.h>
+namespace {
+unsigned checks=0;
+#define CHECK(x) do{++checks;if(!(x)){std::fprintf(stderr,"FAIL line%d %s\n",__LINE__,#x);std::abort();}}while(false)
+struct Capture {std::array<float,262144> data{};std::atomic<unsigned> count{0};std::atomic<bool> on{false};bool floating=false;};
+void SDLCALL capture(int,void*p,int len,void*context){auto&c=*static_cast<Capture*>(context);if(!c.on.load())return;unsigned n=c.count.load();const unsigned count=unsigned(len)/(c.floating?4:2);for(unsigned i=0;i<count&&n<c.data.size();++i)c.data[n++]=c.floating?static_cast<float*>(p)[i]:static_cast<Sint16*>(p)[i]/32768.f;c.count=n;}
+struct Measure {double l=0,r=0,high=0,low=0,adjacent=0;double rms()const{return(l+r)*.5;}double ratio()const{return high/std::max(low,1e-12);}};
+Measure record(Capture&c,unsigned ms=120,double low=250,double high=7000,int rate=44100){c.on=false;SDL_Delay(10);c.count=0;c.on=true;SDL_Delay(ms);c.on=false;SDL_Delay(10);const unsigned n=c.count.load()/2;CHECK(n>400);Measure m;double ls=0,lc=0,hs=0,hc=0;for(unsigned i=0;i<n;++i){const double l=c.data[i*2],r=c.data[i*2+1],v=(l+r)*.5;m.l+=l*l;m.r+=r*r;const double phase=6.283185307179586*i/rate;ls+=v*std::sin(phase*low);lc+=v*std::cos(phase*low);hs+=v*std::sin(phase*high);hc+=v*std::cos(phase*high);if(i)m.adjacent=std::max(m.adjacent,std::abs(l-c.data[(i-1)*2]));}m.l=std::sqrt(m.l/n);m.r=std::sqrt(m.r/n);m.low=2*std::hypot(ls,lc)/n;m.high=2*std::hypot(hs,hc)/n;return m;}
+void wav(const std::filesystem::path&p,bool distant=false,bool dc=false){std::ofstream f(p,std::ios::binary);auto u16=[&](unsigned v){char b[]={char(v),char(v>>8)};f.write(b,2);};auto u32=[&](unsigned v){char b[]={char(v),char(v>>8),char(v>>16),char(v>>24)};f.write(b,4);};const unsigned count=44100*5;f.write("RIFF",4);u32(36+count*2);f.write("WAVEfmt ",8);u32(16);u16(1);u16(1);u32(44100);u32(88200);u16(2);u16(16);f.write("data",4);u32(count*2);for(unsigned i=0;i<count;++i){const double t=6.283185307179586*i/44100;const double sample=dc?.2:distant?.06*(std::sin(t*200)+std::sin(t*400)):.12*(std::sin(t*250)+std::sin(t*7000));u16(unsigned(Sint16(std::lround(sample*32767))));}CHECK(bool(f));}
+WorldDemoThunderBank bank(const std::array<std::string,4>&p){WorldDemoThunderBank b;b.near_count=b.distant_count=2;for(unsigned i=0;i<2;++i){b.near_paths[i]=p[i].c_str();b.distant_paths[i]=p[i+2].c_str();}return b;}
+}
+int main(int argc,char**argv){CHECK(argc==3);CHECK(SDL_setenv("SDL_AUDIODRIVER","dummy",1)==0);CHECK(SDL_Init(SDL_INIT_AUDIO|SDL_INIT_TIMER)==0);CHECK(world_atlas_init());CHECK(Mix_OpenAudio(44100,AUDIO_S16SYS,2,256)==0);char err[256]{};auto*a=world_demo_audio_create(argv[1],err,sizeof(err));CHECK(a);CHECK(world_demo_audio_set_ambience_gain(a,0));WorldDemoAudioFrame f;f.dt=.01;CHECK(world_demo_audio_update(a,f));Capture c;CHECK(Mix_RegisterEffect(MIX_CHANNEL_POST,capture,nullptr,&c));
+ const auto assets=std::filesystem::u8path(argv[2]);std::array<std::string,4> paths;const char*names[]={"near-crack-01.wav","near-crack-02.wav","distant-rumble-01.wav","distant-rumble-02.wav"};for(unsigned i=0;i<4;++i)paths[i]=(assets/names[i]).u8string();auto files=bank(paths);CHECK(world_demo_audio_preload_thunder_bank(a,files,err,sizeof(err)));auto real=world_demo_audio_stats(a);CHECK(real.thunder_assets==4&&real.thunder_bytes>8000000&&real.thunder_bytes<9000000&&real.decoded_bytes<64*1024*1024);world_storm::Thunder e{1,100,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));auto near_real=record(c,200);CHECK(near_real.rms()>.0001&&world_demo_audio_stats(a).thunder_near_started==1);e={2,2500,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));CHECK(record(c,200).rms()>.0001&&world_demo_audio_stats(a).thunder_distant_started==1);
+ char temporary[]="/tmp/valwood-thunder-quality-XXXXXX";CHECK(mkdtemp(temporary));auto dir=std::filesystem::u8path(temporary);auto close=dir/"close.wav",far=dir/"far.wav",constant=dir/"constant.wav";wav(close);wav(far,true);wav(constant,false,true);const auto close_s=close.u8string(),far_s=far.u8string();WorldDemoThunderBank test;test.near_count=test.distant_count=1;test.near_paths[0]=close_s.c_str();test.distant_paths[0]=far_s.c_str();CHECK(world_demo_audio_preload_thunder_bank(a,test,err,sizeof(err)));e={3,100,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));SDL_Delay(100);auto outside=record(c);CHECK(outside.r>outside.l*3&&outside.ratio()>.4);
+ // One continuing event changes pan with the listener, rather than selecting a
+ // different pre-panned clip. A 50ms ramp has an intermediate audible stage.
+ f.yaw=3.141592653589793;CHECK(world_demo_audio_update(a,f));auto crossing=record(c,20);SDL_Delay(200);auto turned=record(c);CHECK(crossing.r/crossing.l>turned.r/turned.l*2&&turned.l>turned.r*3);CHECK(world_demo_audio_stats(a).thunder_started==3);
+ // Spectral ratio distinguishes an actual indoor lowpass from gain-only duck.
+ f.interior=true;CHECK(world_demo_audio_update(a,f));SDL_Delay(350);auto inside=record(c);CHECK(inside.ratio()<outside.ratio()*.08&&inside.rms()<turned.rms()*.65);f.interior=false;CHECK(world_demo_audio_update(a,f));SDL_Delay(350);auto restored=record(c);CHECK(restored.ratio()>inside.ratio()*8&&restored.rms()>inside.rms()*1.5);
+ CHECK(world_demo_audio_preload_thunder_bank(a,test,err,sizeof(err)));e={4,2500,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));SDL_Delay(100);auto distant=record(c);CHECK(distant.rms()>0&&distant.rms()<outside.rms()*.4&&world_demo_audio_stats(a).thunder_distant_started==2);
+ // Replacing a voice crossfades the old constant waveform through the new
+ // voice's attack, avoiding a discontinuous positive step or sudden silence.
+ CHECK(world_demo_audio_preload_thunder(a,constant.u8string().c_str(),err,sizeof(err)));e={5,0,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));++e.serial;CHECK(world_demo_audio_thunder(a,&e,1,f));SDL_Delay(100);const auto before=world_demo_audio_stats(a).thunder_crossfades;c.on=false;SDL_Delay(10);c.count=0;c.on=true;++e.serial;CHECK(world_demo_audio_thunder(a,&e,1,f));SDL_Delay(100);c.on=false;SDL_Delay(10);double jump=0;for(unsigned i=2;i<c.count.load();i+=2)jump=std::max(jump,std::abs(double(c.data[i]-c.data[i-2])));CHECK(c.count.load()>4000&&jump<.002&&world_demo_audio_stats(a).thunder_crossfades>before);CHECK(Mix_UnregisterEffect(MIX_CHANNEL_POST,capture));world_demo_audio_free(a);Mix_CloseAudio();
+ // Full actual bank plus legacy demo PCM fits the shared loading/resident cap
+ // at the larger float32/48kHz borrowed mixer too.
+ CHECK(Mix_OpenAudio(48000,AUDIO_F32SYS,2,256)==0);a=world_demo_audio_create(argv[1],err,sizeof(err));CHECK(a);bool loaded=world_demo_audio_preload_thunder_bank(a,files,err,sizeof(err));if(!loaded)std::fprintf(stderr,"bank48: %s\n",err);CHECK(loaded);real=world_demo_audio_stats(a);CHECK(real.thunder_assets==4&&real.decoded_bytes<=64*1024*1024);CHECK(world_demo_audio_set_ambience_gain(a,0));f.yaw=0;CHECK(world_demo_audio_update(a,f));c.floating=true;CHECK(Mix_RegisterEffect(MIX_CHANNEL_POST,capture,nullptr,&c));e={1,100,0,0,.8};CHECK(world_demo_audio_thunder(a,&e,1,f));CHECK(record(c,150,250,7000,48000).rms()>.0001);CHECK(Mix_UnregisterEffect(MIX_CHANNEL_POST,capture));world_demo_audio_free(a);Mix_CloseAudio();world_atlas_shutdown();SDL_Quit();CHECK(std::filesystem::remove_all(dir)==4);
+ std::printf("QUALITY outside_ratio=%.6f indoor_ratio=%.6f restored_ratio=%.6f pan_early_RL=%.4f pan_final_RL=%.4f near_rms=%.6f distant_rms=%.6f replace_max_step=%.8f bank48_bytes=%zu\nPASS %u thunder quality checks: four genuine recordings, near/far roles, continuous pan, actual indoor spectral lowpass,35ms steal crossfade, shared64MiB decode/loading budget at S16/44k and F32/48k\n",outside.ratio(),inside.ratio(),restored.ratio(),crossing.r/crossing.l,turned.r/turned.l,outside.rms(),distant.rms(),jump,real.decoded_bytes,checks);
+}

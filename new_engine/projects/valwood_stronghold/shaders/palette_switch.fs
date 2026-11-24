@@ -1,0 +1,1 @@
+../../valwood_visual/shaders/palette_switch.fs

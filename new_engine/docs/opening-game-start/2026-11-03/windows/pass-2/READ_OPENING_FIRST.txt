@@ -1,0 +1,29 @@
+Valwood Windows Opening Story r2 add-on — 2026-11-03
+
+Required base: a fresh extracted copy of Valwood_Windows_Orientation_2026-11-02.zip.
+Original ZIP SHA256:
+b0c6930073421971f4f8632bf388726a46a8a2afa0feed52558939811c7bb1db
+
+Extract this ENTIRE add-on into the extracted Orientation transport folder beside
+bundle-index.json, its original installer, bin/python and the blobs directory.
+Keep all original transport files. Earlier opening or combat add-ons are not required.
+
+Run Install_Opening.bat to create a NEW independent seed outside the transport.
+Keep earlier playtest/artist folders. An existing destination is rejected.
+Recommended new folder:
+Install_Opening.bat --output "%USERPROFILE%\Desktop\Valwood_Opening_Story_r2_Seed"
+
+Allow about 16 GB free for the installed seed, in addition to the extracted base.
+Inside the installed seed, read OPENING_GUIDE.md and run Launch_Opening.bat.
+Unity and a separate Python installation are not needed.
+
+The story now begins with an exhausted father, overdue bills and another extra
+shift. Read the bills, turn on the console, and choose NEW GAME. The television
+becomes the cause of the cinematic transport into the Meadows of Valois.
+The front door no longer triggers the transport in this story seed.
+Room switches, private checkpoints and graphics settings remain supported.
+
+This is a first-person prototype opening. No new acted voice performance,
+replacement father body, hand interactions or combat encounter is included.
+Native Windows GPU, audio and physical-controller rehearsal remains outstanding.
+Keep logs/opening-latest.log with any report.

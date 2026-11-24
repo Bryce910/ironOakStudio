@@ -1,0 +1,6 @@
+# Starting area engine sample
+q Welcome to Seldonne
+d Explore the village and reach the river crossing.
+g 0
+x 25
+o reach 43 4 -22 8 Discover the crossing

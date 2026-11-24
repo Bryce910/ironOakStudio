@@ -1,0 +1,868 @@
+[Project] Opened Seldonne | First Region at /home/computer/Desktop/final_engine/new_engine/build/seldonne-swim-polish-2026-11-07/editor-workcopy-v1
+[World] Authored source terrain 2049x1537, 2048.0x1536.0m
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] optional SFX not found: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[World] Mouse capture: X11 warp-relative compatibility
+[World] Renderer AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[City] Source visible sky: 512px, 9.000MiB; source brightness/contrast/rotation; material IBL unchanged
+[World] Authored source flames: 1; actor-only practical lights, static baked lighting unchanged
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1816624)
+[WorldModels] models/cinematic_pine_far.glb: 1 meshes, 2 triangles, height 26.50 m
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1436794)
+[WorldModels] models/cinematic_fir_far.glb: 1 meshes, 2 triangles, height 23.32 m
+[GL] Embedded sRGB texture (611x950 ch=4 size=745358)
+[WorldModels] models/cinematic_broadleaf_far.glb: 1 meshes, 2 triangles, height 10.02 m
+[GL] Embedded sRGB texture (482x951 ch=4 size=623067)
+[WorldModels] models/cinematic_pine_young_far.glb: 1 meshes, 2 triangles, height 3.21 m
+[GL] Embedded sRGB texture (450x860 ch=4 size=320547)
+[WorldModels] models/cinematic_pine_near.glb: 4 meshes, 17779 triangles, height 25.00 m
+[WorldModels] models/cinematic_pine_mid.glb: 4 meshes, 3749 triangles, height 25.00 m
+[WorldModels] models/cinematic_pine_mid.glb: 4 meshes, 3749 triangles, height 25.00 m
+[WorldModels] models/cinematic_pine_mid.glb: 4 meshes, 3749 triangles, height 25.00 m
+[WorldModels] models/cinematic_pine_far.glb: 1 meshes, 2 triangles, height 26.50 m
+[GL] Embedded sRGB texture (710x790 ch=4 size=605873)
+[WorldModels] models/cinematic_fir_near.glb: 4 meshes, 17766 triangles, height 22.00 m
+[WorldModels] models/cinematic_fir_mid.glb: 4 meshes, 3879 triangles, height 22.00 m
+[WorldModels] models/cinematic_fir_mid.glb: 4 meshes, 3879 triangles, height 22.00 m
+[WorldModels] models/cinematic_fir_mid.glb: 4 meshes, 3879 triangles, height 22.00 m
+[WorldModels] models/cinematic_fir_far.glb: 1 meshes, 2 triangles, height 23.32 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=2391129)
+[WorldModels] models/cinematic_broadleaf_near.glb: 3 meshes, 18300 triangles, height 10.00 m
+[WorldModels] models/cinematic_broadleaf_mid.glb: 3 meshes, 3249 triangles, height 10.00 m
+[WorldModels] models/cinematic_broadleaf_mid.glb: 3 meshes, 3249 triangles, height 10.00 m
+[WorldModels] models/cinematic_broadleaf_mid.glb: 3 meshes, 3249 triangles, height 10.00 m
+[WorldModels] models/cinematic_broadleaf_far.glb: 1 meshes, 2 triangles, height 10.02 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=3712520)
+[WorldModels] models/cinematic_pine_young_near.glb: 3 meshes, 17667 triangles, height 3.20 m
+[WorldModels] models/cinematic_pine_young_mid.glb: 3 meshes, 3100 triangles, height 3.20 m
+[WorldModels] models/cinematic_pine_young_mid.glb: 3 meshes, 3100 triangles, height 3.20 m
+[WorldModels] models/cinematic_pine_young_mid.glb: 3 meshes, 3100 triangles, height 3.20 m
+[WorldModels] models/cinematic_pine_young_far.glb: 1 meshes, 2 triangles, height 3.21 m
+[WorldModels] models/cinematic_rock_0.glb: 1 meshes, 6000 triangles, height 1.80 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[WorldModels] models/cinematic_rock_1.glb: 1 meshes, 5999 triangles, height 2.50 m
+[WorldModels] models/woodland_fern_1.glb: 1 meshes, 2384 triangles, height 0.77 m
+[WorldModels] models/cinematic_rock_2.glb: 1 meshes, 6000 triangles, height 3.20 m
+[WorldModels] models/woodland_fern_2.glb: 1 meshes, 2248 triangles, height 0.89 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=2527992)
+[WorldModels] models/cinematic_grass_0.glb: 1 meshes, 420 triangles, height 0.26 m
+[WorldModels] models/cinematic_grass_0.glb: 1 meshes, 420 triangles, height 0.26 m
+[WorldModels] models/cinematic_grass_1.glb: 1 meshes, 500 triangles, height 0.27 m
+[WorldModels] models/cinematic_grass_1.glb: 1 meshes, 500 triangles, height 0.27 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=940281)
+[WorldModels] models/cinematic_grass_2.glb: 1 meshes, 450 triangles, height 0.35 m
+[WorldModels] models/cinematic_grass_2.glb: 1 meshes, 450 triangles, height 0.35 m
+[World] Travel to Seldonne at -11692.80 5387.34 height 15.26
+[World] Publisher viewpoint city-woodland -12160.105 16.440 5422.000 FOV 60.00
+[WorldModels] models/cinematic_rock_0.glb: 1 meshes, 6000 triangles, height 1.80 m
+[WorldModels] models/cinematic_rock_1.glb: 1 meshes, 5999 triangles, height 2.50 m
+[WorldModels] models/cinematic_rock_2.glb: 1 meshes, 6000 triangles, height 3.20 m
+[WorldModels] models/starting_crate.glb: 3 meshes, 6576 triangles, height 0.35 m
+[WorldModels] models/starting_barrel_mid.glb: 1 meshes, 2400 triangles, height 0.92 m
+[WorldModels] models/starting_bucket.glb: 2 meshes, 5116 triangles, height 0.55 m
+[WorldModels] models/starting_lantern.glb: 3 meshes, 8273 triangles, height 0.53 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=2508525)
+[WorldModels] models/purchased_village_stall_a_mid.glb: 1 meshes, 1260 triangles, height 2.99 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1263244)
+[WorldModels] models/imports/bep_nature_bush_a/fb8bdf4f5a81dcb0b99487a7/asset_near.glb: 3 meshes, 1551 triangles, height 11.86 m
+[WorldModels] models/imports/bep_nature_bush_a/fb8bdf4f5a81dcb0b99487a7/asset_mid.glb: 3 meshes, 1551 triangles, height 11.86 m
+[WorldModels] models/imports/bep_nature_bush_a/fb8bdf4f5a81dcb0b99487a7/asset_mid.glb: 3 meshes, 1551 triangles, height 11.86 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1415191)
+[WorldModels] models/imports/bep_nature_bush_b/7d9a391d51340bb635aa36bd/asset_near.glb: 3 meshes, 2029 triangles, height 15.57 m
+[WorldModels] models/imports/bep_nature_bush_b/7d9a391d51340bb635aa36bd/asset_mid.glb: 3 meshes, 2029 triangles, height 15.57 m
+[WorldModels] models/imports/bep_nature_bush_b/7d9a391d51340bb635aa36bd/asset_mid.glb: 3 meshes, 2029 triangles, height 15.57 m
+[GL] Embedded sRGB texture (512x512 ch=4 size=212036)
+[WorldModels] models/imports/bep_nature_grass_long/1d0b8738ded932866f3b3a83/asset_near.glb: 2 meshes, 145 triangles, height 0.71 m
+[WorldModels] models/imports/bep_nature_grass_long/1d0b8738ded932866f3b3a83/asset_mid.glb: 2 meshes, 49 triangles, height 0.71 m
+[WorldModels] models/imports/bep_nature_grass_broad/c7a6b2b766e39b3f882e061f/asset_near.glb: 2 meshes, 145 triangles, height 0.71 m
+[WorldModels] models/imports/bep_nature_grass_broad/c7a6b2b766e39b3f882e061f/asset_mid.glb: 2 meshes, 49 triangles, height 0.71 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=849410)
+[WorldModels] models/imports/bep_nature_fern/457ce04786d44351d5ad51c6/asset_near.glb: 2 meshes, 2167 triangles, height 1.70 m
+[WorldModels] models/imports/bep_nature_fern/457ce04786d44351d5ad51c6/asset_mid.glb: 2 meshes, 1081 triangles, height 1.67 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=593978)
+[WorldModels] models/imports/bep_nature_clover/08b44f480b974f7040a9a930/asset_near.glb: 2 meshes, 550 triangles, height 1.05 m
+[WorldModels] models/imports/bep_nature_clover/08b44f480b974f7040a9a930/asset_mid.glb: 2 meshes, 122 triangles, height 1.05 m
+[WorldModels] models/bep_prop_bench_mid.glb: 1 meshes, 442 triangles, height 0.46 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1439125)
+[WorldModels] models/imports/bep_nature_beech/bbc4abea35407b633d26b6b8/asset_near.glb: 3 meshes, 4133 triangles, height 42.99 m
+[WorldModels] models/imports/bep_nature_beech/bbc4abea35407b633d26b6b8/asset_mid.glb: 3 meshes, 4133 triangles, height 42.99 m
+[WorldModels] models/imports/bep_nature_beech/bbc4abea35407b633d26b6b8/asset_mid.glb: 3 meshes, 4133 triangles, height 42.99 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1311666)
+[WorldModels] models/imports/bep_nature_oak/031e070a7b2612525972c671/asset_near.glb: 3 meshes, 5341 triangles, height 21.55 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1308810)
+[WorldModels] models/imports/bep_nature_oak/031e070a7b2612525972c671/asset_mid.glb: 3 meshes, 4057 triangles, height 21.55 m
+[WorldModels] models/imports/bep_nature_oak/031e070a7b2612525972c671/asset_mid.glb: 3 meshes, 4057 triangles, height 21.55 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7214430)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=8199071)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=2084578)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7597648)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1539597)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7728038)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=2538122)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4426848)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4714139)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1723168)
+[GL] Embedded sRGB texture (128x128 ch=4 size=35905)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=8265404)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1924246)
+[WorldModels] models/imports/nm_city_12_sm_house_five/bdcce864c4ff9edabde1d3e8/asset_mid.glb: 10 meshes, 20734 triangles, height 14.13 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=3733287)
+[GL] Embedded sRGB texture (512x512 ch=4 size=197252)
+[WorldModels] models/imports/nm_city_14_sm_house_light__paint_0f357fc32a/d7a877d66c6bac17b79fda4b/asset_mid.glb: 3 meshes, 922 triangles, height 0.70 m
+[WorldModels] models/imports/nm_city_15_sm_house_one/b2c97d9ba9294abe37fe48bb/asset_mid.glb: 10 meshes, 19968 triangles, height 12.13 m
+[WorldModels] models/imports/nm_city_16_sm_house_one__paint_f35e01eef0/359b6c386e28ef1a448e0204/asset_mid.glb: 10 meshes, 19968 triangles, height 12.13 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4874886)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7242262)
+[WorldModels] models/imports/nm_city_18_sm_house_six__paint_6d3eaeff22/27a7fb272593544b4a5a0ab2/asset_mid.glb: 8 meshes, 5127 triangles, height 16.74 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=8818330)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=2461770)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=8818330)
+[WorldModels] models/imports/nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f/3fdd75497268da3bfee58f98/asset_mid.glb: 10 meshes, 28265 triangles, height 17.24 m
+[WorldModels] models/imports/nm_city_22_sm_house_two/dfe5967e84e1e1349469ca91/asset_mid.glb: 10 meshes, 25986 triangles, height 13.24 m
+[WorldModels] models/imports/nm_city_23_sm_house_two__paint_364618db0f/9e5aee0feb9c3cf502f2cee9/asset_mid.glb: 10 meshes, 25986 triangles, height 13.24 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5017166)
+[GL] Embedded sRGB texture (512x512 ch=4 size=158619)
+[WorldModels] models/imports/nm_city_26_sm_shop_01__paint_6453b1b712/8973d64c2bf8b6f9b45b63ed/asset_mid.glb: 4 meshes, 11383 triangles, height 6.42 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7513501)
+[GL] Embedded sRGB texture (512x512 ch=4 size=161903)
+[WorldModels] models/imports/nm_city_27_sm_shop_02/c49cfb57b5544867b7619b1a/asset_mid.glb: 4 meshes, 2325 triangles, height 4.70 m
+[WorldModels] models/imports/nm_city_28_sm_shop_02__paint_17ca9bc22f/61add23e6ede5b5d13b0c4c5/asset_mid.glb: 4 meshes, 2325 triangles, height 4.70 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5845215)
+[GL] Embedded sRGB texture (512x512 ch=4 size=160879)
+[WorldModels] models/imports/nm_city_29_sm_shop_03__paint_65189a6870/3a64c9d7a26a3d7cded73a1c/asset_mid.glb: 4 meshes, 2625 triangles, height 3.95 m
+[WorldModels] models/imports/nm_city_30_sm_shop_03__paint_97777873ab/b90b50ad45fd4c5abb0e6c20/asset_mid.glb: 4 meshes, 2625 triangles, height 3.95 m
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=2525761)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1803694)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=902173)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=20506)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1793264)
+[WorldModels] models/imports/nm_city_31_sm_shop_04__paint_82d7efc2b9/18ba8365f34626f7b75935a1/asset_mid.glb: 6 meshes, 946 triangles, height 3.00 m
+[WorldModels] models/imports/nm_city_32_sm_street_lamp/2f1febb548941f212a0a2592/asset_mid.glb: 4 meshes, 1165 triangles, height 3.06 m
+[WorldModels] models/imports/nm_city_34_sm_wooden_cart/21d86a5642a01aedd96fb7e1/asset_mid.glb: 4 meshes, 2944 triangles, height 3.29 m
+[WorldModels] models/imports/nm_city_37_sm_wooden_stairs_01/cd36bb7d64e6deb27ca9822a/asset_mid.glb: 2 meshes, 678 triangles, height 2.15 m
+[GL] Embedded sRGB texture (512x512 ch=3 size=463424)
+[GL] Embedded sRGB texture (512x512 ch=4 size=350619)
+[GL] Embedded sRGB texture (512x512 ch=4 size=458074)
+[GL] Embedded sRGB texture (512x512 ch=4 size=262031)
+[GL] Embedded sRGB texture (512x512 ch=4 size=387267)
+[GL] Embedded sRGB texture (512x512 ch=3 size=404729)
+[GL] Embedded sRGB texture (512x512 ch=4 size=424349)
+[GL] Embedded sRGB texture (512x512 ch=3 size=445676)
+[GL] Embedded sRGB texture (501x149 ch=3 size=126431)
+[GL] Embedded sRGB texture (512x512 ch=3 size=112872)
+[GL] Embedded sRGB texture (512x512 ch=3 size=653513)
+[WorldModels] models/opening/arrival_camp_mid.glb: 18 meshes, 18742 triangles, height 2.06 m
+[GL] Embedded sRGB texture (512x512 ch=4 size=535031)
+[WorldModels] models/opening/arrival_roast_mid.glb: 1 meshes, 1836 triangles, height 0.20 m
+[WorldModels] models/starting_barrel_mid.glb: 1 meshes, 2400 triangles, height 0.92 m
+[WorldModels] models/starting_crate.glb: 3 meshes, 6576 triangles, height 0.35 m
+[WorldModels] models/bep_prop_bench_near.glb: 1 meshes, 1576 triangles, height 0.46 m
+[WorldModels] models/starting_bucket.glb: 2 meshes, 5116 triangles, height 0.55 m
+[WorldModels] models/cinematic_rock_0.glb: 1 meshes, 6000 triangles, height 1.80 m
+[World] Village sky access: 0 building footprints, 513x513 startup bake
+[World] Village directional sky: 0 roofs/canopies, 257x257x9 height samples, 2.835 MiB
+[World] Forest shelter: 0 authored crowns, min1.000 mean1.000 sky, one shared513x513 layer
+[PoseBasis] 9222 vertices: fixed-UV parity changes281, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_00.glb: 2 meshes, 15953 triangles, height 1.82 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes281, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_01.glb: 2 meshes, 15953 triangles, height 1.87 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_02.glb: 2 meshes, 15953 triangles, height 1.91 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes281, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_03.glb: 2 meshes, 15953 triangles, height 1.89 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes278, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_04.glb: 2 meshes, 15953 triangles, height 1.83 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes280, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_05.glb: 2 meshes, 15953 triangles, height 1.79 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_06.glb: 2 meshes, 15953 triangles, height 1.79 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_walk_07.glb: 2 meshes, 15953 triangles, height 1.80 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_idle_00.glb: 2 meshes, 15953 triangles, height 1.87 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_idle_01.glb: 2 meshes, 15953 triangles, height 1.87 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_idle_02.glb: 2 meshes, 15953 triangles, height 1.87 m
+[PoseBasis] 9222 vertices: fixed-UV parity changes279, mixed-UV316, degenerate-UV44
+[PoseBasis] 395 vertices: fixed-UV parity changes2, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_knight_idle_03.glb: 2 meshes, 15953 triangles, height 1.87 m
+[PoseBasis] 2219 vertices: fixed-UV parity changes4, mixed-UV0, degenerate-UV0
+[PoseBasis] 588 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[GL] Embedded sRGB texture (2048x1024 ch=4 size=1572364)
+[WorldModels] models/village_character_archer_idle_00.glb: 2 meshes, 3940 triangles, height 1.82 m
+[PoseBasis] 2219 vertices: fixed-UV parity changes4, mixed-UV0, degenerate-UV0
+[PoseBasis] 588 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_archer_idle_01.glb: 2 meshes, 3940 triangles, height 1.82 m
+[PoseBasis] 2219 vertices: fixed-UV parity changes4, mixed-UV0, degenerate-UV0
+[PoseBasis] 588 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_archer_idle_02.glb: 2 meshes, 3940 triangles, height 1.81 m
+[PoseBasis] 2219 vertices: fixed-UV parity changes4, mixed-UV0, degenerate-UV0
+[PoseBasis] 588 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_archer_idle_03.glb: 2 meshes, 3940 triangles, height 1.82 m
+[PoseBasis] 4359 vertices: fixed-UV parity changes39, mixed-UV33, degenerate-UV0
+[PoseBasis] 3251 vertices: fixed-UV parity changes11, mixed-UV20, degenerate-UV0
+[PoseBasis] 4312 vertices: fixed-UV parity changes16, mixed-UV10, degenerate-UV29
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1169287)
+[WorldModels] models/purchased_character_trader_idle_00.glb: 3 meshes, 15950 triangles, height 1.82 m
+[PoseBasis] 4359 vertices: fixed-UV parity changes39, mixed-UV33, degenerate-UV0
+[PoseBasis] 3251 vertices: fixed-UV parity changes11, mixed-UV20, degenerate-UV0
+[PoseBasis] 4312 vertices: fixed-UV parity changes16, mixed-UV10, degenerate-UV29
+[WorldModels] models/purchased_character_trader_idle_01.glb: 3 meshes, 15950 triangles, height 1.82 m
+[PoseBasis] 4359 vertices: fixed-UV parity changes39, mixed-UV33, degenerate-UV0
+[PoseBasis] 3251 vertices: fixed-UV parity changes11, mixed-UV20, degenerate-UV0
+[PoseBasis] 4312 vertices: fixed-UV parity changes16, mixed-UV10, degenerate-UV29
+[WorldModels] models/purchased_character_trader_idle_02.glb: 3 meshes, 15950 triangles, height 1.82 m
+[PoseBasis] 4359 vertices: fixed-UV parity changes39, mixed-UV33, degenerate-UV0
+[PoseBasis] 3251 vertices: fixed-UV parity changes11, mixed-UV20, degenerate-UV0
+[PoseBasis] 4312 vertices: fixed-UV parity changes16, mixed-UV10, degenerate-UV29
+[WorldModels] models/purchased_character_trader_idle_03.glb: 3 meshes, 15950 triangles, height 1.82 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes15, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7612655)
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1240564)
+[WorldModels] models/purchased_character_traveler_walk_00.glb: 3 meshes, 16096 triangles, height 1.76 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes14, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_01.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes17, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_02.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes16, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_03.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes15, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_04.glb: 3 meshes, 16096 triangles, height 1.76 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes15, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_05.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes17, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_06.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes16, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_walk_07.glb: 3 meshes, 16096 triangles, height 1.77 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes13, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_idle_00.glb: 3 meshes, 16096 triangles, height 1.82 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes13, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_idle_01.glb: 3 meshes, 16096 triangles, height 1.82 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes13, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_idle_02.glb: 3 meshes, 16096 triangles, height 1.82 m
+[PoseBasis] 4468 vertices: fixed-UV parity changes13, mixed-UV16, degenerate-UV0
+[PoseBasis] 3249 vertices: fixed-UV parity changes15, mixed-UV45, degenerate-UV0
+[PoseBasis] 4253 vertices: fixed-UV parity changes11, mixed-UV10, degenerate-UV12
+[WorldModels] models/purchased_character_traveler_idle_03.glb: 3 meshes, 16096 triangles, height 1.82 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[GL] Embedded sRGB texture (1344x448 ch=4 size=572560)
+[GL] Embedded sRGB texture (128x128 ch=4 size=6549)
+[WorldModels] models/village_character_traderwoman_idle_00.glb: 5 meshes, 5181 triangles, height 1.82 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes19, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_traderwoman_idle_01.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_traderwoman_idle_02.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes19, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_traderwoman_idle_03.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes18, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_00.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes18, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_01.glb: 5 meshes, 5181 triangles, height 1.84 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_02.glb: 5 meshes, 5181 triangles, height 1.79 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_03.glb: 5 meshes, 5181 triangles, height 1.76 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes19, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_04.glb: 5 meshes, 5181 triangles, height 1.82 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes18, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_05.glb: 5 meshes, 5181 triangles, height 1.84 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_06.glb: 5 meshes, 5181 triangles, height 1.79 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes18, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_walk_07.glb: 5 meshes, 5181 triangles, height 1.76 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_idle_00.glb: 5 meshes, 5181 triangles, height 1.82 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes19, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_idle_01.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes17, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_idle_02.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 2592 vertices: fixed-UV parity changes19, mixed-UV9, degenerate-UV0
+[PoseBasis] 336 vertices: fixed-UV parity changes1, mixed-UV0, degenerate-UV0
+[PoseBasis] 198 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 226 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[PoseBasis] 90 vertices: fixed-UV parity changes0, mixed-UV0, degenerate-UV0
+[WorldModels] models/village_character_travelerwoman_idle_03.glb: 5 meshes, 5181 triangles, height 1.81 m
+[PoseBasis] 3711 vertices: fixed-UV parity changes29, mixed-UV12, degenerate-UV0
+[PoseBasis] 3250 vertices: fixed-UV parity changes22, mixed-UV43, degenerate-UV0
+[PoseBasis] 3393 vertices: fixed-UV parity changes4, mixed-UV4, degenerate-UV0
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=2112191)
+[GL] Embedded sRGB texture (512x512 ch=4 size=298546)
+[WorldModels] models/purchased_character_merchant_idle_00.glb: 3 meshes, 15599 triangles, height 1.82 m
+[PoseBasis] 3711 vertices: fixed-UV parity changes31, mixed-UV12, degenerate-UV0
+[PoseBasis] 3250 vertices: fixed-UV parity changes22, mixed-UV43, degenerate-UV0
+[PoseBasis] 3393 vertices: fixed-UV parity changes4, mixed-UV4, degenerate-UV0
+[WorldModels] models/purchased_character_merchant_idle_01.glb: 3 meshes, 15599 triangles, height 1.82 m
+[PoseBasis] 3711 vertices: fixed-UV parity changes29, mixed-UV12, degenerate-UV0
+[PoseBasis] 3250 vertices: fixed-UV parity changes22, mixed-UV43, degenerate-UV0
+[PoseBasis] 3393 vertices: fixed-UV parity changes4, mixed-UV4, degenerate-UV0
+[WorldModels] models/purchased_character_merchant_idle_02.glb: 3 meshes, 15599 triangles, height 1.82 m
+[PoseBasis] 3711 vertices: fixed-UV parity changes29, mixed-UV12, degenerate-UV0
+[PoseBasis] 3250 vertices: fixed-UV parity changes22, mixed-UV43, degenerate-UV0
+[PoseBasis] 3393 vertices: fixed-UV parity changes4, mixed-UV4, degenerate-UV0
+[WorldModels] models/purchased_character_merchant_idle_03.glb: 3 meshes, 15599 triangles, height 1.82 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes70, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_00.glb: 3 meshes, 17099 triangles, height 1.76 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes68, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_01.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes70, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_02.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes72, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_03.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes69, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_04.glb: 3 meshes, 17099 triangles, height 1.76 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes69, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_05.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes70, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_06.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes71, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_walk_07.glb: 3 meshes, 17099 triangles, height 1.77 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes65, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_idle_00.glb: 3 meshes, 17099 triangles, height 1.82 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes64, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_idle_01.glb: 3 meshes, 17099 triangles, height 1.82 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes65, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_idle_02.glb: 3 meshes, 17099 triangles, height 1.82 m
+[PoseBasis] 4679 vertices: fixed-UV parity changes65, mixed-UV34, degenerate-UV0
+[PoseBasis] 3241 vertices: fixed-UV parity changes10, mixed-UV23, degenerate-UV0
+[PoseBasis] 3961 vertices: fixed-UV parity changes136, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_craftsman_idle_03.glb: 3 meshes, 17099 triangles, height 1.82 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes29, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[GL] Embedded sRGB texture (1024x1024 ch=4 size=1612036)
+[WorldModels] models/purchased_character_wayfarer_walk_00.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes26, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_01.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes27, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_02.glb: 2 meshes, 13647 triangles, height 1.77 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes27, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_03.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes27, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_04.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes25, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_05.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes27, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_06.glb: 2 meshes, 13647 triangles, height 1.77 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes26, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_walk_07.glb: 2 meshes, 13647 triangles, height 1.76 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes25, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_idle_00.glb: 2 meshes, 13647 triangles, height 1.82 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes27, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_idle_01.glb: 2 meshes, 13647 triangles, height 1.82 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes25, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_idle_02.glb: 2 meshes, 13647 triangles, height 1.82 m
+[PoseBasis] 4665 vertices: fixed-UV parity changes24, mixed-UV25, degenerate-UV0
+[PoseBasis] 3253 vertices: fixed-UV parity changes7, mixed-UV26, degenerate-UV0
+[WorldModels] models/purchased_character_wayfarer_idle_03.glb: 2 meshes, 13647 triangles, height 1.82 m
+[PoseBasis] 11652 vertices: fixed-UV parity changes52, mixed-UV0, degenerate-UV384
+[WorldModels] models/village_character_seated_idle_00.glb: 1 meshes, 3884 triangles, height 1.59 m
+[PoseBasis] 11652 vertices: fixed-UV parity changes50, mixed-UV0, degenerate-UV384
+[WorldModels] models/village_character_seated_idle_01.glb: 1 meshes, 3884 triangles, height 1.59 m
+[PoseBasis] 11652 vertices: fixed-UV parity changes53, mixed-UV0, degenerate-UV384
+[WorldModels] models/village_character_seated_idle_02.glb: 1 meshes, 3884 triangles, height 1.59 m
+[PoseBasis] 11652 vertices: fixed-UV parity changes51, mixed-UV0, degenerate-UV384
+[WorldModels] models/village_character_seated_idle_03.glb: 1 meshes, 3884 triangles, height 1.59 m
+[Structure Collision] Source scene ready: 252183 triangles, 8 partitions, 1170.9ms
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=1545916)
+[WorldModels] models/longsword_mocap/combat_body_000.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_001.glb: 1 meshes, 22626 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_body_002.glb: 1 meshes, 22626 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_body_003.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_004.glb: 1 meshes, 22626 triangles, height 2.36 m
+[WorldModels] models/longsword_mocap/combat_body_005.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_006.glb: 1 meshes, 22626 triangles, height 2.34 m
+[WorldModels] models/longsword_mocap/combat_body_007.glb: 1 meshes, 22626 triangles, height 2.31 m
+[WorldModels] models/longsword_mocap/combat_body_008.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_009.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_010.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_011.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_012.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_013.glb: 1 meshes, 22626 triangles, height 2.12 m
+[WorldModels] models/longsword_mocap/combat_body_014.glb: 1 meshes, 22626 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_body_015.glb: 1 meshes, 22626 triangles, height 1.80 m
+[WorldModels] models/longsword_mocap/combat_body_016.glb: 1 meshes, 22626 triangles, height 1.73 m
+[WorldModels] models/longsword_mocap/combat_body_017.glb: 1 meshes, 22626 triangles, height 1.65 m
+[WorldModels] models/longsword_mocap/combat_body_018.glb: 1 meshes, 22626 triangles, height 1.58 m
+[WorldModels] models/longsword_mocap/combat_body_019.glb: 1 meshes, 22626 triangles, height 1.61 m
+[WorldModels] models/longsword_mocap/combat_body_020.glb: 1 meshes, 22626 triangles, height 2.05 m
+[WorldModels] models/longsword_mocap/combat_body_021.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_022.glb: 1 meshes, 22626 triangles, height 2.41 m
+[WorldModels] models/longsword_mocap/combat_body_023.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_024.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_025.glb: 1 meshes, 22626 triangles, height 1.61 m
+[WorldModels] models/longsword_mocap/combat_body_026.glb: 1 meshes, 22626 triangles, height 1.79 m
+[WorldModels] models/longsword_mocap/combat_body_027.glb: 1 meshes, 22626 triangles, height 2.01 m
+[WorldModels] models/longsword_mocap/combat_body_028.glb: 1 meshes, 22626 triangles, height 1.80 m
+[WorldModels] models/longsword_mocap/combat_body_029.glb: 1 meshes, 22626 triangles, height 1.69 m
+[WorldModels] models/longsword_mocap/combat_body_030.glb: 1 meshes, 22626 triangles, height 1.61 m
+[WorldModels] models/longsword_mocap/combat_body_031.glb: 1 meshes, 22626 triangles, height 1.74 m
+[WorldModels] models/longsword_mocap/combat_body_032.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_033.glb: 1 meshes, 22626 triangles, height 2.44 m
+[WorldModels] models/longsword_mocap/combat_body_034.glb: 1 meshes, 22626 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_body_035.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_036.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_037.glb: 1 meshes, 22626 triangles, height 1.80 m
+[WorldModels] models/longsword_mocap/combat_body_038.glb: 1 meshes, 22626 triangles, height 2.06 m
+[WorldModels] models/longsword_mocap/combat_body_039.glb: 1 meshes, 22626 triangles, height 2.02 m
+[WorldModels] models/longsword_mocap/combat_body_040.glb: 1 meshes, 22626 triangles, height 1.69 m
+[WorldModels] models/longsword_mocap/combat_body_041.glb: 1 meshes, 22626 triangles, height 1.59 m
+[WorldModels] models/longsword_mocap/combat_body_042.glb: 1 meshes, 22626 triangles, height 1.53 m
+[WorldModels] models/longsword_mocap/combat_body_043.glb: 1 meshes, 22626 triangles, height 1.60 m
+[WorldModels] models/longsword_mocap/combat_body_044.glb: 1 meshes, 22626 triangles, height 1.82 m
+[WorldModels] models/longsword_mocap/combat_body_045.glb: 1 meshes, 22626 triangles, height 2.49 m
+[WorldModels] models/longsword_mocap/combat_body_046.glb: 1 meshes, 22626 triangles, height 2.34 m
+[WorldModels] models/longsword_mocap/combat_body_047.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_048.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_049.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_050.glb: 1 meshes, 22626 triangles, height 1.71 m
+[WorldModels] models/longsword_mocap/combat_body_051.glb: 1 meshes, 22626 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_body_052.glb: 1 meshes, 22626 triangles, height 1.76 m
+[WorldModels] models/longsword_mocap/combat_body_053.glb: 1 meshes, 22626 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_body_054.glb: 1 meshes, 22626 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_body_055.glb: 1 meshes, 22626 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_body_056.glb: 1 meshes, 22626 triangles, height 2.20 m
+[WorldModels] models/longsword_mocap/combat_body_057.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_058.glb: 1 meshes, 22626 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_body_059.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_060.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_061.glb: 1 meshes, 22626 triangles, height 2.01 m
+[WorldModels] models/longsword_mocap/combat_body_062.glb: 1 meshes, 22626 triangles, height 1.66 m
+[WorldModels] models/longsword_mocap/combat_body_063.glb: 1 meshes, 22626 triangles, height 1.62 m
+[WorldModels] models/longsword_mocap/combat_body_064.glb: 1 meshes, 22626 triangles, height 1.62 m
+[WorldModels] models/longsword_mocap/combat_body_065.glb: 1 meshes, 22626 triangles, height 1.64 m
+[WorldModels] models/longsword_mocap/combat_body_066.glb: 1 meshes, 22626 triangles, height 1.76 m
+[WorldModels] models/longsword_mocap/combat_body_067.glb: 1 meshes, 22626 triangles, height 1.78 m
+[WorldModels] models/longsword_mocap/combat_body_068.glb: 1 meshes, 22626 triangles, height 2.23 m
+[WorldModels] models/longsword_mocap/combat_body_069.glb: 1 meshes, 22626 triangles, height 2.41 m
+[WorldModels] models/longsword_mocap/combat_body_070.glb: 1 meshes, 22626 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_body_071.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_072.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_073.glb: 1 meshes, 22626 triangles, height 2.40 m
+[WorldModels] models/longsword_mocap/combat_body_074.glb: 1 meshes, 22626 triangles, height 2.44 m
+[WorldModels] models/longsword_mocap/combat_body_075.glb: 1 meshes, 22626 triangles, height 2.43 m
+[WorldModels] models/longsword_mocap/combat_body_076.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_077.glb: 1 meshes, 22626 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_body_078.glb: 1 meshes, 22626 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_body_079.glb: 1 meshes, 22626 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_body_080.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_081.glb: 1 meshes, 22626 triangles, height 2.42 m
+[WorldModels] models/longsword_mocap/combat_body_082.glb: 1 meshes, 22626 triangles, height 2.14 m
+[WorldModels] models/longsword_mocap/combat_body_083.glb: 1 meshes, 22626 triangles, height 1.85 m
+[WorldModels] models/longsword_mocap/combat_body_084.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_085.glb: 1 meshes, 22626 triangles, height 2.28 m
+[WorldModels] models/longsword_mocap/combat_body_086.glb: 1 meshes, 22626 triangles, height 1.80 m
+[WorldModels] models/longsword_mocap/combat_body_087.glb: 1 meshes, 22626 triangles, height 1.80 m
+[WorldModels] models/longsword_mocap/combat_body_088.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_089.glb: 1 meshes, 22626 triangles, height 2.36 m
+[WorldModels] models/longsword_mocap/combat_body_090.glb: 1 meshes, 22626 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_body_091.glb: 1 meshes, 22626 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_body_092.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_093.glb: 1 meshes, 22626 triangles, height 1.57 m
+[WorldModels] models/longsword_mocap/combat_body_094.glb: 1 meshes, 22626 triangles, height 1.34 m
+[WorldModels] models/longsword_mocap/combat_body_095.glb: 1 meshes, 22626 triangles, height 1.44 m
+[WorldModels] models/longsword_mocap/combat_body_096.glb: 1 meshes, 22626 triangles, height 1.59 m
+[WorldModels] models/longsword_mocap/combat_body_097.glb: 1 meshes, 22626 triangles, height 2.09 m
+[WorldModels] models/longsword_mocap/combat_body_098.glb: 1 meshes, 22626 triangles, height 2.31 m
+[WorldModels] models/longsword_mocap/combat_body_099.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_100.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_body_101.glb: 1 meshes, 22626 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_body_102.glb: 1 meshes, 22626 triangles, height 2.63 m
+[WorldModels] models/longsword_mocap/combat_body_103.glb: 1 meshes, 22626 triangles, height 2.67 m
+[WorldModels] models/longsword_mocap/combat_body_104.glb: 1 meshes, 22626 triangles, height 2.56 m
+[WorldModels] models/longsword_mocap/combat_body_105.glb: 1 meshes, 22626 triangles, height 2.50 m
+[WorldModels] models/longsword_mocap/combat_body_106.glb: 1 meshes, 22626 triangles, height 2.29 m
+[WorldModels] models/longsword_mocap/combat_body_107.glb: 1 meshes, 22626 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_000.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_001.glb: 1 meshes, 5683 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_arms_002.glb: 1 meshes, 5683 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_arms_003.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_004.glb: 1 meshes, 5683 triangles, height 2.36 m
+[WorldModels] models/longsword_mocap/combat_arms_005.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_006.glb: 1 meshes, 5683 triangles, height 2.34 m
+[WorldModels] models/longsword_mocap/combat_arms_007.glb: 1 meshes, 5683 triangles, height 2.31 m
+[WorldModels] models/longsword_mocap/combat_arms_008.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_009.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_010.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_011.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_012.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_013.glb: 1 meshes, 5683 triangles, height 2.12 m
+[WorldModels] models/longsword_mocap/combat_arms_014.glb: 1 meshes, 5683 triangles, height 1.64 m
+[WorldModels] models/longsword_mocap/combat_arms_015.glb: 1 meshes, 5683 triangles, height 1.50 m
+[WorldModels] models/longsword_mocap/combat_arms_016.glb: 1 meshes, 5683 triangles, height 1.47 m
+[WorldModels] models/longsword_mocap/combat_arms_017.glb: 1 meshes, 5683 triangles, height 1.37 m
+[WorldModels] models/longsword_mocap/combat_arms_018.glb: 1 meshes, 5683 triangles, height 1.30 m
+[WorldModels] models/longsword_mocap/combat_arms_019.glb: 1 meshes, 5683 triangles, height 1.35 m
+[WorldModels] models/longsword_mocap/combat_arms_020.glb: 1 meshes, 5683 triangles, height 2.05 m
+[WorldModels] models/longsword_mocap/combat_arms_021.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_022.glb: 1 meshes, 5683 triangles, height 2.41 m
+[WorldModels] models/longsword_mocap/combat_arms_023.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_024.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_025.glb: 1 meshes, 5683 triangles, height 1.39 m
+[WorldModels] models/longsword_mocap/combat_arms_026.glb: 1 meshes, 5683 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_arms_027.glb: 1 meshes, 5683 triangles, height 2.01 m
+[WorldModels] models/longsword_mocap/combat_arms_028.glb: 1 meshes, 5683 triangles, height 1.54 m
+[WorldModels] models/longsword_mocap/combat_arms_029.glb: 1 meshes, 5683 triangles, height 1.52 m
+[WorldModels] models/longsword_mocap/combat_arms_030.glb: 1 meshes, 5683 triangles, height 1.47 m
+[WorldModels] models/longsword_mocap/combat_arms_031.glb: 1 meshes, 5683 triangles, height 1.51 m
+[WorldModels] models/longsword_mocap/combat_arms_032.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_033.glb: 1 meshes, 5683 triangles, height 2.44 m
+[WorldModels] models/longsword_mocap/combat_arms_034.glb: 1 meshes, 5683 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_arms_035.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_036.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_037.glb: 1 meshes, 5683 triangles, height 1.69 m
+[WorldModels] models/longsword_mocap/combat_arms_038.glb: 1 meshes, 5683 triangles, height 2.06 m
+[WorldModels] models/longsword_mocap/combat_arms_039.glb: 1 meshes, 5683 triangles, height 2.02 m
+[WorldModels] models/longsword_mocap/combat_arms_040.glb: 1 meshes, 5683 triangles, height 1.60 m
+[WorldModels] models/longsword_mocap/combat_arms_041.glb: 1 meshes, 5683 triangles, height 1.30 m
+[WorldModels] models/longsword_mocap/combat_arms_042.glb: 1 meshes, 5683 triangles, height 1.25 m
+[WorldModels] models/longsword_mocap/combat_arms_043.glb: 1 meshes, 5683 triangles, height 1.32 m
+[WorldModels] models/longsword_mocap/combat_arms_044.glb: 1 meshes, 5683 triangles, height 1.59 m
+[WorldModels] models/longsword_mocap/combat_arms_045.glb: 1 meshes, 5683 triangles, height 2.49 m
+[WorldModels] models/longsword_mocap/combat_arms_046.glb: 1 meshes, 5683 triangles, height 2.34 m
+[WorldModels] models/longsword_mocap/combat_arms_047.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_048.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_049.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_050.glb: 1 meshes, 5683 triangles, height 1.65 m
+[WorldModels] models/longsword_mocap/combat_arms_051.glb: 1 meshes, 5683 triangles, height 1.43 m
+[WorldModels] models/longsword_mocap/combat_arms_052.glb: 1 meshes, 5683 triangles, height 1.47 m
+[WorldModels] models/longsword_mocap/combat_arms_053.glb: 1 meshes, 5683 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_arms_054.glb: 1 meshes, 5683 triangles, height 1.73 m
+[WorldModels] models/longsword_mocap/combat_arms_055.glb: 1 meshes, 5683 triangles, height 1.59 m
+[WorldModels] models/longsword_mocap/combat_arms_056.glb: 1 meshes, 5683 triangles, height 2.20 m
+[WorldModels] models/longsword_mocap/combat_arms_057.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_058.glb: 1 meshes, 5683 triangles, height 2.33 m
+[WorldModels] models/longsword_mocap/combat_arms_059.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_060.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_061.glb: 1 meshes, 5683 triangles, height 2.01 m
+[WorldModels] models/longsword_mocap/combat_arms_062.glb: 1 meshes, 5683 triangles, height 1.49 m
+[WorldModels] models/longsword_mocap/combat_arms_063.glb: 1 meshes, 5683 triangles, height 1.47 m
+[WorldModels] models/longsword_mocap/combat_arms_064.glb: 1 meshes, 5683 triangles, height 1.61 m
+[WorldModels] models/longsword_mocap/combat_arms_065.glb: 1 meshes, 5683 triangles, height 1.63 m
+[WorldModels] models/longsword_mocap/combat_arms_066.glb: 1 meshes, 5683 triangles, height 1.56 m
+[WorldModels] models/longsword_mocap/combat_arms_067.glb: 1 meshes, 5683 triangles, height 1.54 m
+[WorldModels] models/longsword_mocap/combat_arms_068.glb: 1 meshes, 5683 triangles, height 2.23 m
+[WorldModels] models/longsword_mocap/combat_arms_069.glb: 1 meshes, 5683 triangles, height 2.41 m
+[WorldModels] models/longsword_mocap/combat_arms_070.glb: 1 meshes, 5683 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_arms_071.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_072.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_073.glb: 1 meshes, 5683 triangles, height 2.40 m
+[WorldModels] models/longsword_mocap/combat_arms_074.glb: 1 meshes, 5683 triangles, height 2.44 m
+[WorldModels] models/longsword_mocap/combat_arms_075.glb: 1 meshes, 5683 triangles, height 2.43 m
+[WorldModels] models/longsword_mocap/combat_arms_076.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_077.glb: 1 meshes, 5683 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_arms_078.glb: 1 meshes, 5683 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_arms_079.glb: 1 meshes, 5683 triangles, height 2.39 m
+[WorldModels] models/longsword_mocap/combat_arms_080.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_081.glb: 1 meshes, 5683 triangles, height 2.42 m
+[WorldModels] models/longsword_mocap/combat_arms_082.glb: 1 meshes, 5683 triangles, height 2.14 m
+[WorldModels] models/longsword_mocap/combat_arms_083.glb: 1 meshes, 5683 triangles, height 1.85 m
+[WorldModels] models/longsword_mocap/combat_arms_084.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_085.glb: 1 meshes, 5683 triangles, height 2.28 m
+[WorldModels] models/longsword_mocap/combat_arms_086.glb: 1 meshes, 5683 triangles, height 1.75 m
+[WorldModels] models/longsword_mocap/combat_arms_087.glb: 1 meshes, 5683 triangles, height 1.49 m
+[WorldModels] models/longsword_mocap/combat_arms_088.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_089.glb: 1 meshes, 5683 triangles, height 2.36 m
+[WorldModels] models/longsword_mocap/combat_arms_090.glb: 1 meshes, 5683 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_arms_091.glb: 1 meshes, 5683 triangles, height 2.37 m
+[WorldModels] models/longsword_mocap/combat_arms_092.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_093.glb: 1 meshes, 5683 triangles, height 1.46 m
+[WorldModels] models/longsword_mocap/combat_arms_094.glb: 1 meshes, 5683 triangles, height 1.30 m
+[WorldModels] models/longsword_mocap/combat_arms_095.glb: 1 meshes, 5683 triangles, height 1.44 m
+[WorldModels] models/longsword_mocap/combat_arms_096.glb: 1 meshes, 5683 triangles, height 1.59 m
+[WorldModels] models/longsword_mocap/combat_arms_097.glb: 1 meshes, 5683 triangles, height 2.09 m
+[WorldModels] models/longsword_mocap/combat_arms_098.glb: 1 meshes, 5683 triangles, height 2.31 m
+[WorldModels] models/longsword_mocap/combat_arms_099.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_100.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/longsword_mocap/combat_arms_101.glb: 1 meshes, 5683 triangles, height 2.38 m
+[WorldModels] models/longsword_mocap/combat_arms_102.glb: 1 meshes, 5683 triangles, height 2.63 m
+[WorldModels] models/longsword_mocap/combat_arms_103.glb: 1 meshes, 5683 triangles, height 2.67 m
+[WorldModels] models/longsword_mocap/combat_arms_104.glb: 1 meshes, 5683 triangles, height 2.56 m
+[WorldModels] models/longsword_mocap/combat_arms_105.glb: 1 meshes, 5683 triangles, height 2.50 m
+[WorldModels] models/longsword_mocap/combat_arms_106.glb: 1 meshes, 5683 triangles, height 2.29 m
+[WorldModels] models/longsword_mocap/combat_arms_107.glb: 1 meshes, 5683 triangles, height 2.35 m
+[WorldModels] models/aquatic_hero/aquatic_body_000.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_001.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_002.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_body_003.glb: 1 meshes, 19190 triangles, height 1.77 m
+[WorldModels] models/aquatic_hero/aquatic_body_004.glb: 1 meshes, 19190 triangles, height 1.75 m
+[WorldModels] models/aquatic_hero/aquatic_body_005.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_006.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_007.glb: 1 meshes, 19190 triangles, height 1.71 m
+[WorldModels] models/aquatic_hero/aquatic_body_008.glb: 1 meshes, 19190 triangles, height 1.71 m
+[WorldModels] models/aquatic_hero/aquatic_body_009.glb: 1 meshes, 19190 triangles, height 1.71 m
+[WorldModels] models/aquatic_hero/aquatic_body_010.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_011.glb: 1 meshes, 19190 triangles, height 1.74 m
+[WorldModels] models/aquatic_hero/aquatic_body_012.glb: 1 meshes, 19190 triangles, height 1.75 m
+[WorldModels] models/aquatic_hero/aquatic_body_013.glb: 1 meshes, 19190 triangles, height 1.77 m
+[WorldModels] models/aquatic_hero/aquatic_body_014.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_body_015.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_016.glb: 1 meshes, 19190 triangles, height 1.76 m
+[WorldModels] models/aquatic_hero/aquatic_body_017.glb: 1 meshes, 19190 triangles, height 1.74 m
+[WorldModels] models/aquatic_hero/aquatic_body_018.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_019.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_020.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_021.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_022.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_023.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_024.glb: 1 meshes, 19190 triangles, height 1.75 m
+[WorldModels] models/aquatic_hero/aquatic_body_025.glb: 1 meshes, 19190 triangles, height 1.76 m
+[WorldModels] models/aquatic_hero/aquatic_body_026.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_body_027.glb: 1 meshes, 19190 triangles, height 1.79 m
+[WorldModels] models/aquatic_hero/aquatic_body_028.glb: 1 meshes, 19190 triangles, height 1.79 m
+[WorldModels] models/aquatic_hero/aquatic_body_029.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_030.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_031.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_body_032.glb: 1 meshes, 19190 triangles, height 1.76 m
+[WorldModels] models/aquatic_hero/aquatic_body_033.glb: 1 meshes, 19190 triangles, height 1.74 m
+[WorldModels] models/aquatic_hero/aquatic_body_034.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_035.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_036.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_037.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_038.glb: 1 meshes, 19190 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_body_039.glb: 1 meshes, 19190 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_body_040.glb: 1 meshes, 19190 triangles, height 1.75 m
+[WorldModels] models/aquatic_hero/aquatic_body_041.glb: 1 meshes, 19190 triangles, height 1.76 m
+[WorldModels] models/aquatic_hero/aquatic_body_042.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_body_043.glb: 1 meshes, 19190 triangles, height 1.79 m
+[WorldModels] models/aquatic_hero/aquatic_body_044.glb: 1 meshes, 19190 triangles, height 1.79 m
+[WorldModels] models/aquatic_hero/aquatic_body_045.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_046.glb: 1 meshes, 19190 triangles, height 1.80 m
+[WorldModels] models/aquatic_hero/aquatic_body_047.glb: 1 meshes, 19190 triangles, height 1.78 m
+[WorldModels] models/aquatic_hero/aquatic_arms_000.glb: 1 meshes, 2226 triangles, height 1.60 m
+[WorldModels] models/aquatic_hero/aquatic_arms_001.glb: 1 meshes, 2226 triangles, height 1.58 m
+[WorldModels] models/aquatic_hero/aquatic_arms_002.glb: 1 meshes, 2226 triangles, height 1.54 m
+[WorldModels] models/aquatic_hero/aquatic_arms_003.glb: 1 meshes, 2226 triangles, height 1.49 m
+[WorldModels] models/aquatic_hero/aquatic_arms_004.glb: 1 meshes, 2226 triangles, height 1.46 m
+[WorldModels] models/aquatic_hero/aquatic_arms_005.glb: 1 meshes, 2226 triangles, height 1.44 m
+[WorldModels] models/aquatic_hero/aquatic_arms_006.glb: 1 meshes, 2226 triangles, height 1.42 m
+[WorldModels] models/aquatic_hero/aquatic_arms_007.glb: 1 meshes, 2226 triangles, height 1.42 m
+[WorldModels] models/aquatic_hero/aquatic_arms_008.glb: 1 meshes, 2226 triangles, height 1.42 m
+[WorldModels] models/aquatic_hero/aquatic_arms_009.glb: 1 meshes, 2226 triangles, height 1.43 m
+[WorldModels] models/aquatic_hero/aquatic_arms_010.glb: 1 meshes, 2226 triangles, height 1.44 m
+[WorldModels] models/aquatic_hero/aquatic_arms_011.glb: 1 meshes, 2226 triangles, height 1.47 m
+[WorldModels] models/aquatic_hero/aquatic_arms_012.glb: 1 meshes, 2226 triangles, height 1.49 m
+[WorldModels] models/aquatic_hero/aquatic_arms_013.glb: 1 meshes, 2226 triangles, height 1.53 m
+[WorldModels] models/aquatic_hero/aquatic_arms_014.glb: 1 meshes, 2226 triangles, height 1.58 m
+[WorldModels] models/aquatic_hero/aquatic_arms_015.glb: 1 meshes, 2226 triangles, height 1.60 m
+[WorldModels] models/aquatic_hero/aquatic_arms_016.glb: 1 meshes, 2226 triangles, height 1.34 m
+[WorldModels] models/aquatic_hero/aquatic_arms_017.glb: 1 meshes, 2226 triangles, height 1.45 m
+[WorldModels] models/aquatic_hero/aquatic_arms_018.glb: 1 meshes, 2226 triangles, height 1.60 m
+[WorldModels] models/aquatic_hero/aquatic_arms_019.glb: 1 meshes, 2226 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_arms_020.glb: 1 meshes, 2226 triangles, height 1.81 m
+[WorldModels] models/aquatic_hero/aquatic_arms_021.glb: 1 meshes, 2226 triangles, height 1.83 m
+[WorldModels] models/aquatic_hero/aquatic_arms_022.glb: 1 meshes, 2226 triangles, height 1.88 m
+[WorldModels] models/aquatic_hero/aquatic_arms_023.glb: 1 meshes, 2226 triangles, height 1.86 m
+[WorldModels] models/aquatic_hero/aquatic_arms_024.glb: 1 meshes, 2226 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_arms_025.glb: 1 meshes, 2226 triangles, height 1.55 m
+[WorldModels] models/aquatic_hero/aquatic_arms_026.glb: 1 meshes, 2226 triangles, height 1.42 m
+[WorldModels] models/aquatic_hero/aquatic_arms_027.glb: 1 meshes, 2226 triangles, height 1.27 m
+[WorldModels] models/aquatic_hero/aquatic_arms_028.glb: 1 meshes, 2226 triangles, height 1.23 m
+[WorldModels] models/aquatic_hero/aquatic_arms_029.glb: 1 meshes, 2226 triangles, height 1.22 m
+[WorldModels] models/aquatic_hero/aquatic_arms_030.glb: 1 meshes, 2226 triangles, height 1.22 m
+[WorldModels] models/aquatic_hero/aquatic_arms_031.glb: 1 meshes, 2226 triangles, height 1.24 m
+[WorldModels] models/aquatic_hero/aquatic_arms_032.glb: 1 meshes, 2226 triangles, height 1.34 m
+[WorldModels] models/aquatic_hero/aquatic_arms_033.glb: 1 meshes, 2226 triangles, height 1.45 m
+[WorldModels] models/aquatic_hero/aquatic_arms_034.glb: 1 meshes, 2226 triangles, height 1.60 m
+[WorldModels] models/aquatic_hero/aquatic_arms_035.glb: 1 meshes, 2226 triangles, height 1.73 m
+[WorldModels] models/aquatic_hero/aquatic_arms_036.glb: 1 meshes, 2226 triangles, height 1.81 m
+[WorldModels] models/aquatic_hero/aquatic_arms_037.glb: 1 meshes, 2226 triangles, height 1.83 m
+[WorldModels] models/aquatic_hero/aquatic_arms_038.glb: 1 meshes, 2226 triangles, height 1.88 m
+[WorldModels] models/aquatic_hero/aquatic_arms_039.glb: 1 meshes, 2226 triangles, height 1.86 m
+[WorldModels] models/aquatic_hero/aquatic_arms_040.glb: 1 meshes, 2226 triangles, height 1.72 m
+[WorldModels] models/aquatic_hero/aquatic_arms_041.glb: 1 meshes, 2226 triangles, height 1.55 m
+[WorldModels] models/aquatic_hero/aquatic_arms_042.glb: 1 meshes, 2226 triangles, height 1.42 m
+[WorldModels] models/aquatic_hero/aquatic_arms_043.glb: 1 meshes, 2226 triangles, height 1.27 m
+[WorldModels] models/aquatic_hero/aquatic_arms_044.glb: 1 meshes, 2226 triangles, height 1.23 m
+[WorldModels] models/aquatic_hero/aquatic_arms_045.glb: 1 meshes, 2226 triangles, height 1.22 m
+[WorldModels] models/aquatic_hero/aquatic_arms_046.glb: 1 meshes, 2226 triangles, height 1.22 m
+[WorldModels] models/aquatic_hero/aquatic_arms_047.glb: 1 meshes, 2226 triangles, height 1.24 m
+[World] Shared texture cache: 237 entries, 327.37 MiB encoded source, 0 unmanaged uploads
+[World] Atlas 100.8 x 56.7 km; walk 3.50 m/s; startup 25655.4 ms; warm 664.1 ms
+[Grandstone] Local radiance domains: 5 destination/clear-neighbor probes at -12160.11 16.44 5422.00
+[World] Local radiance region2: ready, 5 probes, 559.1 ms (loading only)
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=4202107)
+[WorldModels] models/purchased_village_crate_near.glb: 1 meshes, 540 triangles, height 0.99 m
+[WorldModels] models/purchased_village_crate_near.glb: 1 meshes, 540 triangles, height 0.99 m
+[World] Main material layouts startup: ready, 4/4 headings, 213.907 ms, GL0x0 (loading only)
+[World] Demo audio: 8 crossfading beds, 12 surface footsteps, 12 voices, 22.15 MiB PCM, driver=pulseaudio
+[Training] Optional combat sounds unavailable
+[Controller] Connected: Logitech F310 Gamepad (XInput)
+[World] Initial camera third person; V switches first/third person.
+[World] Input capture startup preparation 10.085ms
+[Graphics] Scene 1520x855 -> display 1600x900, scale0.95, epoch2
+[Graphics] Scene 1440x810 -> display 1600x900, scale0.90, epoch3
+[Graphics] Scene 1360x765 -> display 1600x900, scale0.85, epoch4
+[Graphics] Scene 1280x720 -> display 1600x900, scale0.80, epoch5
+[Swimming] entered at -12197.147 8.648 5425.568; surface 8.000 support 6.898
+[Graphics] Scene 1360x765 -> display 1600x900, scale0.85, epoch6
+[Graphics] Scene 1440x810 -> display 1600x900, scale0.90, epoch7
+[Graphics] Scene 1520x855 -> display 1600x900, scale0.95, epoch8
+[Swimming] left at -12197.715 8.782 5406.478; surface 8.000 support 7.054
+[Graphics] Scene 1440x810 -> display 1600x900, scale0.90, epoch9
+[Graphics] Scene 1360x765 -> display 1600x900, scale0.85, epoch10
+[Graphics] Scene 1280x720 -> display 1600x900, scale0.80, epoch11
+[Graphics] Scene 800x302 -> display 1600x900, scale0.80, epoch12
+[Graphics] Scene 1280x720 -> display 1600x900, scale0.80, epoch13
+[Swimming] entered at -12198.001 8.620 5406.532; surface 8.000 support 6.870

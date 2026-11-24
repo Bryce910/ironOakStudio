@@ -1,0 +1,4 @@
+world_navigation.o: \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_navigation.cpp \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_navigation.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_runtime_editors.h

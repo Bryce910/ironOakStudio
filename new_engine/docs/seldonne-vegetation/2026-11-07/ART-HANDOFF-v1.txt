@@ -1,0 +1,16 @@
+Seldonne layered vegetation — art data handoff
+
+Frozen candidate: /home/computer/Desktop/final_engine/new_engine/build/seldonne-vegetation-2026-11-07/project-art-v1
+Manifest SHA256: bd1af61a677836a004b669e6ef6d638ac68edbf8ecbe34e30f2922cb458e0564
+
+The pass adds 960 low grass/clover placements and recomposes 260 existing plants into uneven foreground/path/woodland carpets, replacing 80 repetitive outer ferns. Total source records are 6,617. All 36 model files and their textures are retained; no new mesh or texture bank is introduced. Near authored mesh triangles increase 52,365; MID triangles decrease 22,015. This is mesh-budget accounting, not an FPS measurement.
+
+Terrain, every nonplant source pose, actors, static parts/catalog, bridges, roads, global ecology, lighting and shaders are unchanged. Two existing local woodland paint slots use the existing close litter layer; budgets remain 8 layers, 256 strokes, 47 tiles and 16 ribbons.
+
+All 1,220 changed/appended low plants have varied explicit nonzero wind tails; the other 5,397 accepted rows retain production defaults 1/1. The three zeros after scale encode burial, elevation and offset_y. The new actual production CPU source-wind fixture verifies every published response against its source file and line.
+
+Fresh production Jolt/paint and all 1,363 tree target queries passed. The proposed contact test route x=-11991.8, z=5181.9 to5184.7 passed actual walking/running queries. Root reviewed six actual old-runtime views and accepted the planting. The new interactive shader, controller-driven contact, recovery and performance still require root runtime acceptance.
+
+Packaging: model/texture banks are shared asset-bank symlinks. Ordinary authoring files in this candidate are owned copies. These links are not OS-enforced read-only; do not edit shared-bank bytes. The original accepted project and the user's editable workcopy were not changed.
+
+All receipt paths/hashes: /home/computer/Desktop/final_engine/new_engine/docs/seldonne-vegetation/2026-11-07/ART-CLOSURE-v1.json

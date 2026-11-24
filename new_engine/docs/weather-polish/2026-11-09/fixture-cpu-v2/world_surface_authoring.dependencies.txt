@@ -1,0 +1,3 @@
+world_surface_authoring.o: \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_surface_authoring.cpp \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_surface_authoring.h

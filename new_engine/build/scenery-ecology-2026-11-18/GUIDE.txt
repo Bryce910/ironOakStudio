@@ -1,0 +1,45 @@
+Valwood scenery ecology — 18 November2026
+
+Normal desktop launchers use this generation. The binary and shaders are the
+same verified Linux renderer as the preceding arena scenery release.
+
+This pass authors persistent canopy-aware vegetation in the woodland arena
+and the opening campsite/road corridor. Dense crowns have fewer grass clumps,
+shorter surviving grass, ferns and exposed leaf beds; sunny gaps keep fuller
+patches. Trunk clearances and the existing walking routes remain clear.
+This is authored vegetation distribution, not simulated plant growth.
+
+The arena reuses owned whole-clump grass in the previous footprint. The
+opening reuses an existing grass family with identical close geometry and
+textures, retains rooted interactive wind, and removes individual grass
+shadow draws. Its two outdated distant grass meshes are replaced by the
+matching owned49-triangle MID meshes. The existing12tuft sites are retained.
+
+The campsite uses dry Poly Haven Brown Mud color/normal maps, constant matte
+roughness and warmer leaf litter.14 images/8layers remain inside the existing
+16image/8layer budget. The opening keeps256 paint strokes by reshaping8
+existing leaf islands. Fourteen new opening grass masks leave16mask slots for the designer.
+No new lights, shader passes or frame-time canopy sampling were introduced.
+
+The terrain, rivers, collision data, trees/buildings, NPC routes, dialogue,
+quests and progress remain intact. Edited source lists contain no persistent
+source-index bindings. The scene audit verifies protected records unchanged.
+
+Private native reviews include matched views, no-readback static timings,
+and the opening with the full character/presentation systems enabled. These
+camera routes do not replace a complete movement or combat rehearsal.
+The inherited combat, camera and control suites were verified through the
+previous release and are not described as newly rerun.
+
+Material source: https://polyhaven.com/a/brown_mud (CC0); original download
+hashes/licensing remain in the prior arena generation'sdownloads/PROVENANCE.json.
+Owned vegetation sources and prepared mesh hashes are recorded locally.
+No new asset purchase or Windows build was performed.
+
+Measured performance: final arena scenery remains about60FPS in static views.
+The ordinary full-player opening averaged38.49FPS on this RX5300, with
+automatic resolution reaching1120x630 for a1600x900 window. Balanced full-player
+logical GL allocations peaked around3.64GiB. This is not measured VRAM
+residency. Forest/character-bank memory and frame pacing need more work.
+The earlier Custom/Ultra diagnostics are retained separately, superseded by
+the shared Balanced-profile results in review/PERFORMANCE_REVIEW.json.

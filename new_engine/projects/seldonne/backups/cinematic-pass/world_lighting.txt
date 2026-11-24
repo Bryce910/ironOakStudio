@@ -1,0 +1,5 @@
+override=1
+sun_yaw=48
+sun_pitch=28
+sun_color=2.10 1.75 1.28
+ambient=0.10 0.15 0.20

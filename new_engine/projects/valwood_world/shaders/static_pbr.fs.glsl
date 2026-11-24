@@ -1,0 +1,1 @@
+../../../shaders/static_pbr.fs.glsl

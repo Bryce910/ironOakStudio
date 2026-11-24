@@ -1,0 +1,60 @@
+Valwood Windows Opening Cinematic r5 add-on — 2026-11-04
+
+Required base: Valwood_Windows_Orientation_2026-11-02.zip.
+Original ZIP SHA256:
+b0c6930073421971f4f8632bf388726a46a8a2afa0feed52558939811c7bb1db
+
+1. Extract the complete original Orientation ZIP into a fresh transport folder.
+2. Extract this ENTIRE r5 add-on into that SAME transport folder, alongside
+   bundle-index.json, the original installer, bin/python and the blobs folder.
+   The combined folder must also contain opening-index.json and Install_Opening.bat.
+   Keep all original components. Earlier opening/combat add-ons are not required.
+3. Run Install_Opening.bat to create a NEW independent seed outside the transport.
+   Existing destinations are rejected. Keep prior installed seeds and saves.
+   Example new destination:
+   Install_Opening.bat --output "%USERPROFILE%\Desktop\Valwood_Opening_Cinematic_r5_Seed"
+4. Open OPENING_GUIDE.md in the installed seed, then run Launch_Opening.bat.
+   Unity and a separate Python installation are not needed.
+
+This cinematic revision refines the 16-second entrance camera compositions and
+interior light response, and corrects the bill paper orientation. The playable
+bills-to-console-to-Valois journey remains the preview route.
+
+This candidate uses the purchased House Props & Furniture Vol. 2 demo scene's
+full building and furnished-room arrangement, source materials and converted
+lighting. Its 27 source floor tiles and 322.5 square metre floor plan are preserved.
+An added enclosure follows 24 stepped outer boundary segments, 0.25 m beyond
+the source floor edges, with a floor base and ceiling to close display cutaways
+and prevent views into the surrounding void. Added surfaces use converted source
+PBR materials and approximately interpolated source spherical-harmonic lighting;
+an exact pixel match to Unity's presentation is not claimed.
+
+The active scene has 15 near/mid groups: 30 active GLBs. Separately, the private
+editor library contains 15 furniture assemblies in 30 near/mid files.
+Use the delivered runtime, scene meshes, shaders and physics together.
+
+Choose Begin the Journey. Read the bills on the small table, turn on the console
+beneath the television, release the interaction button, then choose NEW GAME.
+The journey transports into the Meadows of Valois; follow the path to the waystone.
+Living, kitchen, bedroom and bathroom have independent wall switch interactions.
+
+WASD/mouse move and look; E interacts; Shift sprints; Space jumps; Escape pauses.
+Controller: sticks move/look; A/Cross interacts; LB/L1 or stick-click sprints;
+X/Square jumps; Start/Options pauses. Enter or A/Cross confirms TV New Game.
+Hold Enter/Space or A/Cross to skip a cinematic, then release before continuing.
+F5 saves, F8 restores, and R retries; pause provides the same supported actions.
+
+This is a separate seed with its own saves and graphics settings. Start with
+Begin the Journey for the new layout. Earlier saves are not migrated by this add-on.
+The source bake combines daylight and fixtures; some indirect light remains
+when a room is switched off. This opening preview is first person.
+
+Final native visual and Wine acceptance for this cinematic revision are PENDING.
+The preceding r4 route passed all 40 functional checks on native Linux and under Wine.
+Physical Windows hardware and a physical controller remain untested. The scene uses source-light-probe lighting.
+No final art-quality or frame-rate claim is made here. Rehearse graphics, audio, the physical controller,
+all room switches, the full story route and checkpoint save/load on the receiving PC.
+OpenGL 3.3 driver support is required. Keep logs/opening-latest.log with reports.
+
+Purchase/conversion records accompany the project. This is a private purchaser
+development handoff, not public stand-alone asset redistribution.

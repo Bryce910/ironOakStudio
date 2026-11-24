@@ -1,0 +1,1 @@
+../../../shaders/world_bloom_blur.fs.glsl

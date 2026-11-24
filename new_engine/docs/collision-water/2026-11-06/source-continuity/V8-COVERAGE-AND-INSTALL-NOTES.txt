@@ -1,0 +1,80 @@
+Clean final v8 source continuity (engineering candidate; not acceptance)
+
+CANDIDATE-v8.json was generated from both actual completed v8 build plans and
+READY receipts. V8-CANDIDATE-CHECK.json verifies both runtimes/validators,
+all 678 frozen source files and the union of 1078 protected reproduction inputs.
+The builder is the plan-pinned build_runtime_v8.py, not the canonical Makefile.
+
+Exact plans:
+native e4aea86990a74e314a9bbd5185275ec082013560ce7f7fd053453c3ddb38fa24
+Windows 86d900682d8f83e3d216081af987ddd99769eab8e32be0edca142077279b7ddf
+
+Relative to frozen v6, four reviewed source files changed:
+  engine/editor_ui_imgui.cpp
+    The existing focused/non-relative X11 global-coordinate normalization also
+    covers the Windows SDL driver, preventing stale local coordinates from
+    replacing the correct desktop pointer during ordinary editor input.
+  engine/world_editor_npc_paths_qa.inc
+    Strict replay refreshes its actual pointer position at press/release;
+    placement, walking, history, Save All and reopen assertions remain real.
+  engine/world_studio_landscape_view.inc
+    Newly chosen Pond uses radius 12m/depth 1m. Existing authored ponds/styles
+    are preserved; Lake and River choices retain their own recipe behavior.
+  engine/world_editor_landscape_qa.inc
+    Actual viewport-created pond dimensions are checked and logged.
+
+Both platforms compile the two affected runtime translation units:
+world_viewer.cpp and editor_ui_imgui.cpp. Every new command puts private v8
+ImGui/backends headers before retained response-file/canonical include roots.
+The source/plan explicitly exclude diagnostic v7 trace implementation.
+
+The canonical engine/shader tree was NOT modified. The current manifest audit
+reports 119 differing canonical files. The earlier broad audit reported 118
+differences and 23 conflicts within the new-feature delta; that historical
+conflict classification is not silently presented as a new merge analysis.
+Canonical integration remains pending. Do not copy source-v8 over that tree.
+
+Build READY/integrity is separate from runtime acceptance. Root is executing
+all six final core workflows on both platforms, both connected full journeys,
+and supplemental actual water-motion capture/inspection. R12/depth1 creation
+and saved-scene/image provenance are mandatory in v8 core. These remain raw
+evidence under their actual executable bindings; this source candidate does
+not claim they have passed. The historical full-nine native v5 Grandstone
+rehearsal remains distinct from each final four-route/eight-direction rerun.
+
+POST-INSTALL ROOT HANDOFF (no command executed by this note)
+
+After root has independently accepted visuals/actual flow, finalized exact
+native/Windows evidence, installed all seven known native targets, and checked
+the installer CURRENT receipt, prepare a merge proposal:
+
+  python3 docs/collision-water/2026-11-06/source-continuity/prepare_installed_record.py \
+    --candidate docs/collision-water/2026-11-06/source-continuity/CANDIDATE-v8.json \
+    --installer-receipt docs/collision-water/2026-11-06/CURRENT.json \
+    --output docs/collision-water/2026-11-06/source-continuity/INSTALLED-MERGE-PROPOSAL-v8.json
+
+This is CPU-only and never writes CURRENT. It requires the actual completed
+seven-project installer receipt, exact unchanged root visual receipt, both
+platform full-journey adapters and native full-source obstacle proof. It then
+checks an accepted nested source_continuity record pinning the active native
+runtime binary and each actual installed launcher. Windows build/validator
+provenance remains pinned, but remote artist workspaces are not falsely listed
+as installed runtime artifacts. Original candidate8 remains a candidate.
+
+Root may merge ONLY the proposal's source_continuity object into the unchanged
+installer CURRENT after checking its recorded CURRENT SHA. Preserve every
+installer project/backup/acceptance field and retain an ordinary prior receipt
+backup. The proposal helper never performs this merge or authorizes it itself.
+Then verify the combined record:
+
+  python3 docs/collision-water/2026-11-06/source-continuity/verify_release.py verify --full-inputs
+
+Future source work should use the separate source-continuity Makefile's
+source-copy target into a NEW build/ directory. It preserves exact frozen
+source bytes/modes and records SOURCE_PARENT.json. Creating the copy does not
+compile, install, approve a runtime, rewrite an artist scene or merge canonical
+source; a successor still needs its own reviewed object graph and actual QA.
+
+The imported base ground remains fixed. Mixed atlas/source-floor NPC patrols
+remain explicitly unsupported. Windows PE tests under hardware Wine do not
+replace graphics/controller smoke testing on the receiving physical Windows PC.

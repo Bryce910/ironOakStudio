@@ -1,0 +1,53 @@
+Thomas third-person character finish — Linux Valwood, 21 November 2026
+
+Launch with the usual Valwood launcher after publication; restart an already
+running game to load this generation. World, Demo and Editor share the same
+third-person protagonist, owned motion bank and saved character/model choice.
+
+In F10 > Quality > Characters / models, choose Character detail: Low, Medium,
+High or Ultra. Apply and restart. This changes the character mesh and texture
+resolution together. Your saved choice is preserved. Global graphics presets
+and automatic scene-resolution adjustment leave this manual choice independent.
+Third person is the default; V retains the camera-view switch.
+
+Tier       Civilian triangles   Armored triangles
+Low                    64,703             60,221
+Medium                 80,640             73,557
+High                  114,168            103,337
+Ultra                 114,168            103,337
+
+Low and Medium retain reduced garment geometry and smaller textures. Every tier
+retains the original animated face, eyelids and hair topology. High retains the
+full original mesh; Ultra adds original color detail up to 4K within the texture
+budget. Thomas keeps the same face when story armor equips.
+
+The face now uses fifteen purchased authored controls, including natural blinks,
+small independent gaze shifts and restrained exertion brow movement. Blinks use
+the authored downward-eye correction for complete lid closure. Camera orbit does
+not make him stare into the camera. Expressions hold during pause and reset with
+the character; defeat closes the eyes. This is ambient facial animation, not a
+recorded dialogue performance or lip sync. There is no unsupported mouth opening.
+
+Grounded, stowed-weapon exploration now uses twenty-two purchased Kubold start,
+stop and turning takes. Direction changes from idle select angled starts; running
+reversals use moving pivots. Small deliberate analog directional input can turn
+in place. Camera orbit remains independent. Captured displacement is requested
+before the normal collision sweeps, and only accepted travel advances the pose.
+Short taps, obstacles, pause and interruptions cancel or blend the motion without
+storing movement to replay later. Armed combat, swimming, jumping, defeat and
+equipment presentation retain their existing motion paths.
+
+Thomas hair now has a dedicated source-based fiber response, authored tangent
+and normal treatment, corrected alpha coverage and backlight response. The
+selected material preserves brunette albedo/detail with the purchased tint and
+uses the HDRP fiber response; it is an intentional hybrid rather than an exact
+Unity HDRP render. Other actor materials retain their existing response. The
+previous bounded temporal coverage smoothing is retained.
+
+Close-up source hair-card clumps, missing skeletal motion reprojection, Unity
+cloth/hair simulation and complete HDRP skin/eye parity remain limitations. This
+pass does not certify the complete game as AAA. Original licensed Unity packages,
+user saves, settings and world authoring data are preserved. Windows is unchanged.
+
+The owned source and shader banks are compiled as a verified 104-unit native
+closure. Evidence and the practical limits of testing are in review/FINAL_REVIEW.json.

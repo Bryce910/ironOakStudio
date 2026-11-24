@@ -1,0 +1,47 @@
+Campsite close-up prop pass — 22 November 2026
+
+This is an asset/data revision on the existing unified Linux runtime.
+No renderer, character motion, quest state or Windows build is changed.
+
+The shelter uses the existing CC0 hessian material with correctly oriented
+surface normals, shaped tension folds, a gathered rear panel, sewn seams,
+rolled hems, pegged guy ropes and tied-back entrance flaps. Purchased sleeping
+rolls, provision props and their existing material maps are retained.
+
+The cooking fire retains the original scanned stone geometry with restored
+original 1K stone colour, heat-darkened inner surfaces, tapered split charcoal,
+ash and coals, forked tied timber posts, iron bearings and a visible crank.
+The existing chicken, fire, smoke, lights and their positions are retained.
+
+The bridge retains its original structure and collision. The old deck overlay
+is replaced by 168 beveled weathered planks, photographed timber, recessed
+fasteners, small cracks/moss, and detailed original posts/rails. Cosmetic
+geometry is within 19 mm of the native structure. The overlay's root moves
+from 10.8 to 10.4 m because it now includes lower beam veneers; its deck stays
+at the same walkable height. Near and cheaper MID assets are included.
+
+A grass-only ecology exclusion clears the tent sleeping area. It includes
+the measured reach of neighbouring grass clumps, without changing tree,
+fern or rock generation. The fire and NPC interaction routes are preserved.
+
+Independent actual-geometry, material, roast intersection, native parser and
+bridge surface reports are in audit-work/. Private native baseline and final
+captures/performance reports are under review/. These are controlled visual
+routes, not a full apartment-to-ending gameplay rehearsal or AAA certification.
+The broad path, far hills and creek-bank landscape work are separate tasks.
+
+The guarded publisher backs up changed live files in review/live-before,
+checks source/model hashes and the launcher lock, and preserves saves,
+graphics choices, collisions, the source chicken and fire/smoke data.
+
+Normal-play follow-up after desktop unlock (22 November):
+The title/help, ordinary camp walking, first/third-person toggle, all three
+camper dialogues, held cinematic skip, checkpoint reload and all four
+environmental-effects settings were checked through the actual desktop UI.
+The outward bridge crossing passed. The return-direction deck test exposed
+a shallow-angle rail snag and did not complete the return crossing. This
+remains a movement/collision follow-up, not a two-way acceptance.
+Optional thunder audio remains unavailable. Full story, physical-controller,
+swimming and sustained-performance rehearsal remain separate.
+The private test exited cleanly. Six protected live files (including saves
+and graphics) were verified unchanged. Details: review/live-controls-v2/REVIEW.json.

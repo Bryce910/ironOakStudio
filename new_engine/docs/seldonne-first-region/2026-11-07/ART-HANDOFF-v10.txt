@@ -1,0 +1,88 @@
+Seldonne | First Region — handoff v10 for final art/data candidate revision 9
+
+Project:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/project-v9
+
+Authoritative manifest:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/ART-MANIFEST-v9.json
+SHA256 92e9c2fd483c371e9ed8b4f44c8fddb18af89630a45c89f45d7a74e1a18b186a
+
+Sky-only parity receipt:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/ART-SKY-REVISION-v9.json
+
+Root selected the exact photo-sky from the completed three-view native test.
+This replaces the unrelated dark photographic mountain horizon. A remaining
+far-terrain fog/LOD transition is still visible and is a documented limitation;
+it is not claimed to be completely removed.
+
+V9 changes exactly five ordinary project files relative to closed V8:
+- city.sky: exact tested manifest, material0.65/1.0/0, cube512.
+- assets/seldonne-first-region/sky/overcast_soil_puresky_4k.hdr: owned unchanged
+  copy of the existing4096x2048 pure-sky file,16,949,123bytes.
+  SHA256 717958e9dfd092fcead82ff4691f3d615088803dd1888bb638ba948669021140
+- city_showcase.json and publisher_showcase.json: descriptive references only.
+- assets/seldonne-first-region/art-manifest-v9.json: final manifest metadata.
+All other386 ordinary controls and all bank links are unchanged. V8 is intact.
+
+Unchanged final content:
+-5,592 source placements using36 original visible model paths.
+-1,363 oak/beech trees using protected local lower-bark collision bindings.
+-Three travelers, fire and roast chicken at the arrival camp.
+-Six town residents including three short patrols, rough-stone town plaza and
+ waterfront props, two authored timber bridges, creeks and enclosing river.
+-Temperate groves, varied grass/ferns/shrubs and grounded rounded rocks.
+-Editable terrain context2049x1537 at1m, playable1280x768m region.
+-All source transforms/wind settings, model/LOD/PBR image bytes, world.studio
+ terrain/material/lighting/weather/NPC/bridge rows, heightfields, coverage,
+ collision catalog/parts and paint inputs are byte identical to V8.
+-The selected visible sky does not alter material IBL or lighting inputs.
+
+Authentic inherited CPU evidence (executed on V8, not repeated on V9):
+- collision-proof-v6/RESULTS.json: production source/collision proof PASS,
+ 290,968checks including all nine NPC routes, ground routes and bridges.
+- tree-trunk-jolt-proof-v2/RESULTS.json: actual production Jolt queries PASS
+ across all1,363 exact body IDs, including bark rays and player/NPC capsules.
+- paint-proof-v2/RESULTS.json: final V8 production paint proof PASS.
+Their original reports/raw hashes are bound in ART-SKY-REVISION-v9.json. V9
+inherits these results only through exact unchanged input parity; no fresh CPU
+physics/paint execution is claimed. History owns independent lineage review.
+
+Graphics review:
+-Root approved the actual six-view V6 visual basis and completed native and
+ Windows V8b eleven-view captures without GL or asset failures.
+-Root selected the actual three-view photo-sky test over the procedural option.
+-Root owns the final actual V9 Windows water/crown delta and native editor UI
+ checks. This art handoff is not a substitute for those runtime receipts.
+-No sustained FPS, memory plateau, physical-controller, AAA or photorealism
+ claim follows from these screenshot tours.
+
+Packaging:
+-Deliver V9, rather than superseded V8 or the temporary sky-test project.
+-models/audio/blood_assets/environments are shared asset-bank symlinks into
+ the accepted designer asset bank. These are normal symlinks, without OS
+ read-only enforcement; importing assets may append content to the shared
+ banks. Region authoring controls and region-specific files are owned ordinary
+ files. The delivery agent owns guarded portable resolution of these shared
+ dependencies.
+-texture_blocks remains an ordinary owned74-file tested BC7 cache copy.
+-Surface images, local collision parts and the new sky panorama are ordinary
+ owned project files. No new external asset purchase or download was needed.
+-City/publisher flags remain enabled for source rendering and ordinary matching
+ collision. Legacy apartment/arena/playtest launch guards remain retired.
+
+Play/layout notes:
+-Spawn [-11988,11.8000001907,5180], camp [-11988,11.8000001907,5172].
+-Town [-11968,11.8000001907,5582], waterfront [-11938,11.2,5635].
+-Play bounds X[-12288,-11008], Z[4992,5760]; wider terrain context starts
+ X-12672,Z4608. Use ground/showcase.height as editable base; do not replace it
+ with the separate baked effective-placement height sampler.
+-This candidate is exploration/editor content. The separate hero replacement
+ and combat presentation are not newly implemented in this regional revision.
+-Normal City movement/NPCs use structural Jolt. Normal third-person camera boom
+ queries Jolt only in guarded playtest mode; general camera clipping is outside
+ this data-only change.
+-Legacy forest shelter/village sky approximation masks retain their old fixed
+ map domains. Ordinary direct lighting and shadows remain active.
+
+No file in the closed V9 project should be changed in place. Future fixes use
+new candidate revisions, retaining these authentic parent/evidence artifacts.

@@ -1,0 +1,217 @@
+#ifndef ENGINE_EDITOR_RUNTIME_STATE_H
+#define ENGINE_EDITOR_RUNTIME_STATE_H
+
+#include <stdbool.h>
+#include <stdint.h>
+#include <string.h>
+
+#include "engine/enemy_types.h"
+#include "engine/render_types.h"
+
+#ifndef GRASS_MASK_RES
+#define GRASS_MASK_RES 512
+#endif
+
+#ifndef WORN_MASK_RES
+#define WORN_MASK_RES 512
+#endif
+
+#ifndef SCULPT_RES
+#define SCULPT_RES 512
+#endif
+
+typedef struct{
+    bool show_debug;
+    bool prop_edit;
+    int prop_sel;
+    bool river_edit;
+    int river_sel_point;
+    bool river_lmb_prev,river_rmb_prev;
+    bool path_edit;
+    bool path_lmb_prev,path_rmb_prev;
+    bool wzone_edit;
+    bool wzone_lmb_prev;
+    int wzone_sel;
+    bool wf_edit_mode;
+    int wf_sel;
+    bool wf_lmb_prev;
+    float wf_place_width,wf_place_height,wf_place_yaw;
+    bool prop_place_mode;
+    bool surface_edit;
+    bool collision_edit;
+    bool surface_lmb_prev;
+    bool collision_lmb_prev;
+    int surface_kind;
+    float surface_width;
+    float surface_height;
+    float surface_thickness;
+    float surface_place_yaw;
+    int surface_coll_type;
+    int surface_material_sel;
+    float collision_width;
+    float collision_height;
+    float collision_depth;
+    int collision_shape;
+    float collision_place_yaw;
+    float collision_place_pitch;
+    bool collision_enabled;
+    bool collision_nav_blocker;
+    bool collision_motion_enabled;
+    float collision_motion_x;
+    float collision_motion_y;
+    float collision_motion_z;
+    float collision_motion_period;
+    float collision_motion_phase;
+    bool particle_fx_edit;
+    bool forest_edit;
+    bool wind_edit;
+    bool wind_lmb_prev;
+    int wind_sel;
+    int forest_brush_kind;
+    bool forest_lmb_prev;
+    bool spawn_edit_mode;
+    EnemyType spawn_sel_type;
+    int spawn_sel_model;
+    bool mount_edit_mode;
+    int mount_sel_idx;
+    int mount_sel_class;
+    bool mount_lmb_prev,mount_rmb_prev;
+    float mount_place_yaw;
+    bool marker_edit;
+    int marker_sel;
+    int marker_sel_type;
+    bool marker_lmb_prev,marker_rmb_prev;
+    bool npc_edit_mode;
+    bool npc_place_mode;
+    int npc_sel_type;
+    int npc_ed_selected_npc;
+    bool npc_ed_lmb_prev,npc_ed_rmb_prev;
+    float npc_ed_yaw;
+    bool sculpt_edit;
+    int sculpt_mode;
+    float sculpt_radius;
+    float sculpt_strength;
+    float sculpt_flatten_h;
+    bool sculpt_lmb_prev;
+    float sculpt_undo[SCULPT_RES*SCULPT_RES];
+    bool sculpt_has_undo;
+    uint8_t grass_mask_undo[GRASS_MASK_RES*GRASS_MASK_RES];
+    uint8_t grass_style_undo[GRASS_MASK_RES*GRASS_MASK_RES];
+    uint8_t grass_tint_undo[GRASS_MASK_RES*GRASS_MASK_RES];
+    bool grass_mask_has_undo;
+    uint8_t flower_mask_undo[GRASS_MASK_RES*GRASS_MASK_RES];
+    uint8_t flower_type_undo[GRASS_MASK_RES*GRASS_MASK_RES];
+    bool flower_mask_has_undo;
+    uint8_t worn_mask_undo[WORN_MASK_RES*WORN_MASK_RES];
+    uint8_t terrain_style_undo[WORN_MASK_RES*WORN_MASK_RES];
+    bool worn_mask_has_undo;
+    uint8_t farm_mask_undo[WORN_MASK_RES*WORN_MASK_RES];
+    bool farm_mask_has_undo;
+    int npc_ed_wp_npc;
+    bool npc_ed_wp_mode;
+    int npc_ed_dlg_npc;
+    bool npc_ed_dlg_mode;
+    char npc_ed_dlg_buf[NPC_LINE_LEN];
+    int npc_ed_dlg_len;
+    int npc_ed_dlg_sel;
+    int npc_ed_tree_npc;
+    bool npc_ed_tree_mode;
+    int npc_ed_tree_sel;
+    int npc_ed_tree_choice;
+    bool npc_ed_tree_editing;
+    int npc_ed_tree_field;
+    char npc_ed_tree_buf[200];
+    int npc_ed_tree_len;
+    int spawn_sel_idx;
+    bool spawn_lmb_prev,spawn_rmb_prev;
+    float forest_brush_radius;
+    int forest_brush_density;
+    float tree_brush_scale;
+    bool wall_brush_has_start;
+    Vec3 wall_brush_start;
+    float wall_brush_spacing;
+    float wall_brush_scale;
+    float terrain_brush_strength;
+    int terrain_brush_style;
+    float grass_brush_radius;
+    int grass_brush_density;
+    float grass_brush_size;
+    float grass_brush_hmin;
+    float grass_brush_hmax;
+    int flower_brush_density;
+    float flower_brush_size;
+    bool grass_brush_s_prev;
+    bool grass_brush_z_prev;
+    bool fishing_space_prev;
+    bool editor_gui_lmb_prev;
+    bool editor_mode;
+    bool shader_edit;
+    bool quest_edit_mode;
+    bool main_character_edit;
+    int quest_ed_sel;
+    int quest_ed_obj_sel;
+    char quest_ed_name_buf[64];
+    char quest_ed_desc_buf[128];
+    int quest_ed_gold;
+    int quest_ed_xp;
+    char quest_ed_obj_desc_buf[64];
+    int quest_ed_obj_required;
+    int quest_ed_obj_etype;
+    int fx_editor_tab;
+    Vec3 editor_cam_target;
+    int prop_mouse_mode;
+    bool prop_mouse_dragging;
+    int prop_mouse_last_x;
+    int prop_mouse_last_y;
+    bool prop_box_sel;
+    int prop_box_x0,prop_box_y0,prop_box_x1,prop_box_y1;
+    int prop_gizmo_hot_axis;
+    int prop_gizmo_active_axis;
+    float prop_gizmo_drag_accum;
+    Vec3 prop_gizmo_start_pos;
+    float prop_gizmo_start_rot_x;
+    float prop_gizmo_start_rot_y;
+    float prop_gizmo_start_rot_z;
+    float prop_gizmo_start_scale;
+    int selection_gizmo_space;
+    bool selection_gizmo_snap;
+    bool prop_custom_box_gizmo_mode;
+    bool plight_edit;
+    int plight_sel;
+    bool plight_lmb_prev,plight_rmb_prev;
+    int plight_place_type;
+    float plight_place_r,plight_place_g,plight_place_b;
+    float plight_place_radius,plight_place_intensity;
+    float plight_place_y_offset;
+    bool plight_place_flicker;
+    float plight_place_flicker_speed;
+    float plight_place_spot_yaw;
+    float plight_place_spot_pitch;
+    float plight_place_spot_inner_deg;
+    float plight_place_spot_outer_deg;
+    bool decal_edit;
+    int decal_sel;
+    bool decal_lmb_prev,decal_rmb_prev;
+    int decal_place_type;
+    float decal_place_size;
+    float decal_place_alpha;
+    float decal_place_yaw;
+    bool szone_edit;
+    int szone_sel;
+    bool szone_lmb_prev,szone_rmb_prev;
+    int szone_type;
+    int szone_sound_idx;
+    int szone_music_idx;
+    float szone_place_radius;
+    float szone_place_vol;
+    float szone_fade_len;
+    bool interior_edit;
+    int interior_material_sel;
+    int interior_surface_target;
+    int interior_selected_idx;
+    bool interior_lmb_prev;
+}EditorRuntimeState;
+
+void editor_runtime_state_init(EditorRuntimeState *state,Vec3 editor_cam_target);
+
+#endif

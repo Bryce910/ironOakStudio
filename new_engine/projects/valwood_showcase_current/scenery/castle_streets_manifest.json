@@ -1,0 +1,1069 @@
+{
+  "schema_version": 1,
+  "layout_source": "castle_streets_layout.json",
+  "instances_source": "castle_streets_instances.txt",
+  "layout_sha256": "28a6a4948aaab26c8411b5334691dc86424c055f73884777387925d4ad6c96c5",
+  "instances_sha256": "f3682959838d5fb708e48aa2d128bce52f99c9f5855573d4c094ec15b50080c9",
+  "record_count": 274,
+  "combined_record_count": 5859,
+  "counts": {
+    "castle_residents_bedroll": 4,
+    "castle_residents_shelter": 1,
+    "castle_yard_bench": 6,
+    "purchased_barrel": 3,
+    "purchased_crate": 13,
+    "purchased_goods_bread": 4,
+    "purchased_goods_tankard": 3,
+    "purchased_house_a": 8,
+    "purchased_house_b": 4,
+    "purchased_house_c": 1,
+    "purchased_house_e": 13,
+    "purchased_prop_barrel_small": 12,
+    "purchased_prop_lamp": 26,
+    "purchased_prop_logs": 9,
+    "purchased_prop_rope": 1,
+    "purchased_prop_sack": 19,
+    "purchased_shop_a": 1,
+    "purchased_shop_b": 1,
+    "purchased_shop_d": 1,
+    "purchased_torch_pole": 2,
+    "starting_axe": 1,
+    "starting_bucket": 27,
+    "starting_celandine": 52,
+    "starting_stump": 1,
+    "starting_table": 3,
+    "starting_wildflower": 52,
+    "village_banner": 3,
+    "village_cart": 1,
+    "village_tavern": 1,
+    "village_well": 1
+  },
+  "largest_combined_alias_batch": 784,
+  "protected_sources": [
+    {
+      "file": "projects/valwood_world/scenery/authored_instances.txt",
+      "records": 283,
+      "sha256": "d2c640ad40e4b2bef5b8ceff6d97f93653bc46426aeb7ade6e8b49d5f8fe709e"
+    },
+    {
+      "file": "projects/valwood_world/scenery/starting_area_instances.txt",
+      "records": 1356,
+      "sha256": "18943b502ae02d5474db2f263db6f888a2ab805d4b34d151d62fa5129db59cf6"
+    },
+    {
+      "file": "projects/valwood_world/scenery/rainforest_instances.txt",
+      "records": 972,
+      "sha256": "6b514812b92c36ec2e1d6b18f1fea32f0e21463f224d0173ab16b7afe23080cc"
+    },
+    {
+      "file": "projects/valwood_world/scenery/castle_village_instances.txt",
+      "records": 2678,
+      "sha256": "d2652c6b8f548662451a08b3d2ea7b0752d94903f2c62490e50892e161f02ec8"
+    },
+    {
+      "file": "projects/valwood_world/scenery/tanthoon_bandit_camp_instances.txt",
+      "records": 296,
+      "sha256": "58052455d7e5a7130eeb6264ad60c482e00376b1e95a0fd06c13f7ebe0dff07b"
+    }
+  ],
+  "origin_world_xz": [
+    -1310.4000000000012,
+    -10207.58474745458
+  ],
+  "models": {
+    "village_tavern": {
+      "file": "projects/valwood_world/models/village_tavern_near.glb",
+      "sha256": "89a8c78c33cd9df8408c69f08c778fb54bf82723abf92739794dd3dd250d76d0",
+      "bounds_min": [
+        -10.550000190734863,
+        0.0,
+        -8.699999809265137
+      ],
+      "bounds_max": [
+        10.550000190734863,
+        9.699999809265137,
+        9.25
+      ],
+      "triangles": 11180,
+      "grounding": "Foundation",
+      "collision": "Village"
+    },
+    "castle_residents_shelter": {
+      "file": "projects/valwood_world/models/castle_residents_shelter_near.glb",
+      "sha256": "6eb51b895d13a2a836dd7abf2e2a0a316d4de9c8bd71d42ff746131c7286f38f",
+      "bounds_min": [
+        -7.25,
+        0.0,
+        -3.25
+      ],
+      "bounds_max": [
+        7.25,
+        3.3499999046325684,
+        3.25
+      ],
+      "triangles": 548,
+      "grounding": "Foundation",
+      "collision": "Village"
+    },
+    "purchased_house_a": {
+      "file": "projects/valwood_world/models/purchased_village_house_a_near.glb",
+      "sha256": "da21312fd76db9d331734a24fac000c9eed2ebab77b35397adfbe830e2815bda",
+      "bounds_min": [
+        -4.85891056060791,
+        0.0,
+        -3.963085651397705
+      ],
+      "bounds_max": [
+        4.85891056060791,
+        12.132996559143066,
+        3.963085651397705
+      ],
+      "triangles": 19899,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_house_b": {
+      "file": "projects/valwood_world/models/purchased_village_house_b_near.glb",
+      "sha256": "2f30f701a00818944c4a3e6fcaa191012e1d0328c3d183aa0e26543ba42add93",
+      "bounds_min": [
+        -4.373019218444824,
+        0.0,
+        -3.566776990890503
+      ],
+      "bounds_max": [
+        4.373019218444824,
+        14.126947402954102,
+        3.566776990890503
+      ],
+      "triangles": 19899,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_house_e": {
+      "file": "projects/valwood_world/models/purchased_village_house_e_near.glb",
+      "sha256": "e7cd53f5c5d7c3764bf6c4dd2a855bdbab3c2adb2d216a56eb6ef20630c82250",
+      "bounds_min": [
+        -5.292573928833008,
+        0.0,
+        -2.8964221477508545
+      ],
+      "bounds_max": [
+        5.292573928833008,
+        9.657044410705566,
+        2.8964221477508545
+      ],
+      "triangles": 8091,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_house_c": {
+      "file": "projects/valwood_world/models/purchased_village_house_c_near.glb",
+      "sha256": "56053ec89e5baf1848625786ae6c483ab898949c9b87a582832a8feceef5d918",
+      "bounds_min": [
+        -6.254072189331055,
+        0.0,
+        -9.244694709777832
+      ],
+      "bounds_max": [
+        6.254072189331055,
+        13.24380874633789,
+        9.244694709777832
+      ],
+      "triangles": 17910,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "starting_bucket": {
+      "file": "projects/valwood_world/models/starting_bucket.glb",
+      "sha256": "f0f5516646fdccfa6c8e9b7d51a7b7c00eab29b56de711bab26d54440e589ded",
+      "bounds_min": [
+        -0.18348541855812073,
+        0.0,
+        -0.171110600233078
+      ],
+      "bounds_max": [
+        0.18348541855812073,
+        0.5498623847961426,
+        0.171110600233078
+      ],
+      "triangles": 5116,
+      "grounding": "Support",
+      "collision": "None"
+    },
+    "purchased_prop_lamp": {
+      "file": "projects/valwood_world/models/purchased_prop_lamp_near.glb",
+      "sha256": "f3e4dd69aa954511dbb13032434d9ff3ef4d8f113cd7ce46c8e860efcd85f135",
+      "bounds_min": [
+        -0.6039562821388245,
+        0.0,
+        -0.15639764070510864
+      ],
+      "bounds_max": [
+        0.6039562225341797,
+        3.0633723735809326,
+        0.15639764070510864
+      ],
+      "triangles": 1552,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "purchased_prop_barrel_small": {
+      "file": "projects/valwood_world/models/purchased_prop_barrel_small_near.glb",
+      "sha256": "0b71eb1cf3b2c669965c259bbfca79903484d7f983040f9d164383a7deb2c79a",
+      "bounds_min": [
+        -0.2397402822971344,
+        0.0,
+        -0.24307432770729065
+      ],
+      "bounds_max": [
+        0.2397402822971344,
+        0.5792214274406433,
+        0.24307432770729065
+      ],
+      "triangles": 1006,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_prop_sack": {
+      "file": "projects/valwood_world/models/purchased_prop_sack_near.glb",
+      "sha256": "d5cdd110ac0401325113949e85e8f4e090313e2eb25cd71d3abb06209aea25f7",
+      "bounds_min": [
+        -0.30658990144729614,
+        0.0,
+        -0.3482201099395752
+      ],
+      "bounds_max": [
+        0.30658990144729614,
+        0.8809826374053955,
+        0.3482201099395752
+      ],
+      "triangles": 2486,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_crate": {
+      "file": "projects/valwood_world/models/purchased_village_crate_near.glb",
+      "sha256": "1e68df9dc231ce0b3aa73c5519e7a6637e6572a9d52d28affe89a48e6f9868a1",
+      "bounds_min": [
+        -0.505768358707428,
+        0.0,
+        -0.5058863759040833
+      ],
+      "bounds_max": [
+        0.505768358707428,
+        0.9930817484855652,
+        0.5058863759040833
+      ],
+      "triangles": 540,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_prop_logs": {
+      "file": "projects/valwood_world/models/purchased_prop_logs_near.glb",
+      "sha256": "bc6581a6345836d7db91d6080ab064a7f5207640b10f918e7aa62e2a351e76bd",
+      "bounds_min": [
+        -0.3048100173473358,
+        0.0,
+        -1.1098568439483643
+      ],
+      "bounds_max": [
+        0.3048100173473358,
+        1.3602889776229858,
+        1.1098568439483643
+      ],
+      "triangles": 3600,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "starting_table": {
+      "file": "projects/valwood_world/models/starting_table.glb",
+      "sha256": "d91f4b00d28bd8ed3f04d375ef88a2d532aae1b20b5aa269698f5db6a149b3b5",
+      "bounds_min": [
+        -1.120487928390503,
+        0.0,
+        -1.5111647844314575
+      ],
+      "bounds_max": [
+        1.120487928390503,
+        0.7459869384765625,
+        1.5111647844314575
+      ],
+      "triangles": 9800,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "castle_yard_bench": {
+      "file": "projects/valwood_world/models/castle_yard_bench.glb",
+      "sha256": "67abb10add65dd5cfd8c7b0e03c2bd91c8322f8f2b77a5a21052963d81e547cd",
+      "bounds_min": [
+        -1.4800000190734863,
+        0.0,
+        -0.39983195066452026
+      ],
+      "bounds_max": [
+        1.4800000190734863,
+        1.125,
+        0.3400000035762787
+      ],
+      "triangles": 440,
+      "grounding": "Foundation",
+      "collision": "Village"
+    },
+    "purchased_goods_tankard": {
+      "file": "projects/valwood_world/models/purchased_goods_tankard_near.glb",
+      "sha256": "d23a8ad9dcabab3aa12d71fe5040f868be65e6c08ce90bfbed94e6bc55261482",
+      "bounds_min": [
+        -0.12901996076107025,
+        0.0,
+        -0.09249262511730194
+      ],
+      "bounds_max": [
+        0.12916839122772217,
+        0.24016062820737716,
+        0.09271596372127533
+      ],
+      "triangles": 3822,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "purchased_goods_bread": {
+      "file": "projects/valwood_world/models/purchased_goods_bread_near.glb",
+      "sha256": "3c72aa01628a43c5b561a44b440a96f22aa6e6732fcbb94379b30ac09daffc52",
+      "bounds_min": [
+        -0.2098698914051056,
+        0.0,
+        -0.21014763414859772
+      ],
+      "bounds_max": [
+        0.21030735969543457,
+        0.16087894824704563,
+        0.21022318303585052
+      ],
+      "triangles": 3822,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "village_well": {
+      "file": "projects/valwood_world/models/village_well.glb",
+      "sha256": "d0b924ba5a4b85a8616ea396988831cb12e4959149bdd2dd654cae12e0f21495",
+      "bounds_min": [
+        -1.42023503780365,
+        0.0,
+        -1.2599999904632568
+      ],
+      "bounds_max": [
+        1.42023503780365,
+        3.819999933242798,
+        1.2599999904632568
+      ],
+      "triangles": 800,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "village_cart": {
+      "file": "projects/valwood_world/models/village_cart.glb",
+      "sha256": "202bf50d17576a9391744f1e38592cf842e434eda09ebbc1e40ae1de42b5c2ac",
+      "bounds_min": [
+        -1.600000023841858,
+        0.0,
+        -0.8700000047683716
+      ],
+      "bounds_max": [
+        1.600000023841858,
+        1.699039340019226,
+        0.8700000047683716
+      ],
+      "triangles": 1320,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_barrel": {
+      "file": "projects/valwood_world/models/purchased_village_barrel_near.glb",
+      "sha256": "0495d8361789c7897c5edea3407f1c90b6fe5f04657ea1b80f41edb344a1da5a",
+      "bounds_min": [
+        -0.3974969983100891,
+        0.0,
+        -0.39821135997772217
+      ],
+      "bounds_max": [
+        0.3974969983100891,
+        1.0223149061203003,
+        0.39821135997772217
+      ],
+      "triangles": 1294,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_shop_a": {
+      "file": "projects/valwood_world/models/purchased_village_stall_a_near.glb",
+      "sha256": "369ac4f3734d1d62967666a444b00e3bc68bfb3a4b1a0dd4a6b9ccb540208af9",
+      "bounds_min": [
+        -1.6909763813018799,
+        0.0,
+        -2.0913124084472656
+      ],
+      "bounds_max": [
+        1.6909763813018799,
+        2.994819164276123,
+        2.0913124084472656
+      ],
+      "triangles": 1260,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_shop_d": {
+      "file": "projects/valwood_world/models/purchased_village_stall_d_near.glb",
+      "sha256": "3d5a9857f8d7e605e92d50bdf8a6f9a75abdd93d06d4fbc5b4d328dfe5c184f1",
+      "bounds_min": [
+        -2.1606128215789795,
+        0.0,
+        -2.569375991821289
+      ],
+      "bounds_max": [
+        2.1606128215789795,
+        3.9530816078186035,
+        2.569375991821289
+      ],
+      "triangles": 3496,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "purchased_shop_b": {
+      "file": "projects/valwood_world/models/purchased_village_stall_b_near.glb",
+      "sha256": "681ef5e5fa630f64b57c904a92241748c3ca94be0833417b5c9be231a66c96e5",
+      "bounds_min": [
+        -1.6263446807861328,
+        0.0,
+        -2.5452089309692383
+      ],
+      "bounds_max": [
+        1.6263446807861328,
+        4.6967010498046875,
+        2.5452089309692383
+      ],
+      "triangles": 3100,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "castle_residents_bedroll": {
+      "file": "projects/valwood_world/models/castle_residents_bedroll_near.glb",
+      "sha256": "09498f681a472d344e115380fdcc73a38bed1921e2803f9c976b268639abdefb",
+      "bounds_min": [
+        -0.36000001430511475,
+        0.0,
+        -0.949999988079071
+      ],
+      "bounds_max": [
+        0.36000001430511475,
+        0.11699999868869781,
+        0.949999988079071
+      ],
+      "triangles": 404,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "purchased_prop_rope": {
+      "file": "projects/valwood_world/models/purchased_prop_rope_near.glb",
+      "sha256": "94cd50c73654c9540839b1b07969580649fda35dcc90950dc84c939abdf98c8b",
+      "bounds_min": [
+        -0.030894000083208084,
+        0.0,
+        -0.3321670591831207
+      ],
+      "bounds_max": [
+        0.030894000083208084,
+        0.05876375362277031,
+        0.3321670591831207
+      ],
+      "triangles": 120,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "starting_stump": {
+      "file": "projects/valwood_world/models/starting_stump.glb",
+      "sha256": "e8ba9a57204fb226a7a52b98179236444b8c02fffbbc2510df0666c319641f0f",
+      "bounds_min": [
+        -0.7124360799789429,
+        0.0,
+        -0.7948361039161682
+      ],
+      "bounds_max": [
+        0.7124360799789429,
+        0.5741674900054932,
+        0.7948361039161682
+      ],
+      "triangles": 9000,
+      "grounding": "Support",
+      "collision": "Circle"
+    },
+    "starting_axe": {
+      "file": "projects/valwood_world/models/starting_axe.glb",
+      "sha256": "a01a02756ddad602be00d4b0927c0caf2727ff02a325cc2c3b7302032aee3aef",
+      "bounds_min": [
+        -0.025451891124248505,
+        0.0,
+        -0.11286835372447968
+      ],
+      "bounds_max": [
+        0.025451891124248505,
+        0.7042046785354614,
+        0.11286834627389908
+      ],
+      "triangles": 2218,
+      "grounding": "Support",
+      "collision": "None"
+    },
+    "purchased_torch_pole": {
+      "file": "projects/valwood_world/models/purchased_torch_pole_near.glb",
+      "sha256": "71a18cfbd0d3a49f88de75a3947e25bce32d56be72d301c0f8db08684664f38b",
+      "bounds_min": [
+        -0.3266109824180603,
+        0.0,
+        -0.3216502070426941
+      ],
+      "bounds_max": [
+        0.3266109824180603,
+        6.134938240127802,
+        0.32165050506591797
+      ],
+      "triangles": 1186,
+      "grounding": "Foundation",
+      "collision": "Box"
+    },
+    "village_banner": {
+      "file": "projects/valwood_world/models/village_banner.glb",
+      "sha256": "75ba8746d875a551848b621cda020a04ee26886734fd53e11e1e104ba5cb7881",
+      "bounds_min": [
+        -0.800000011920929,
+        0.0,
+        -0.12919974327087402
+      ],
+      "bounds_max": [
+        0.800000011920929,
+        4.800000190734863,
+        0.12919974327087402
+      ],
+      "triangles": 48,
+      "grounding": "Foundation",
+      "collision": "None"
+    },
+    "starting_wildflower": {
+      "file": "projects/valwood_world/models/starting_wildflower.glb",
+      "sha256": "163ea7d105596acd9ca7378ddf681b3b508a047208ebace43d8259bbdb950497",
+      "bounds_min": [
+        -0.1714954376220703,
+        0.0,
+        -0.13652420043945312
+      ],
+      "bounds_max": [
+        0.1714954376220703,
+        0.2686702013015747,
+        0.13652420043945312
+      ],
+      "triangles": 6000,
+      "grounding": "Root",
+      "collision": "None"
+    },
+    "starting_celandine": {
+      "file": "projects/valwood_world/models/starting_celandine.glb",
+      "sha256": "d7092f06c5aceda0833cbed0e1f8503a1033013c1990149b0cab8d6f4e57f030",
+      "bounds_min": [
+        -0.1378633975982666,
+        0.0,
+        -0.11411789059638977
+      ],
+      "bounds_max": [
+        0.1378633975982666,
+        0.18585163354873657,
+        0.11411789059638977
+      ],
+      "triangles": 622,
+      "grounding": "Root",
+      "collision": "None"
+    }
+  },
+  "route": {
+    "benchmark_id": "castle-streets",
+    "length_m": 585.0721359549996,
+    "points_local_xz": [
+      [
+        -145,
+        -62
+      ],
+      [
+        -130,
+        -62
+      ],
+      [
+        -130,
+        -35
+      ],
+      [
+        -151,
+        -35
+      ],
+      [
+        -151,
+        23
+      ],
+      [
+        -166,
+        23
+      ],
+      [
+        -166,
+        16.5
+      ],
+      [
+        -166,
+        23
+      ],
+      [
+        -151,
+        23
+      ],
+      [
+        -151,
+        55
+      ],
+      [
+        -130,
+        55
+      ],
+      [
+        -130,
+        125
+      ],
+      [
+        -151,
+        125
+      ],
+      [
+        -151,
+        85
+      ],
+      [
+        -151,
+        -35
+      ],
+      [
+        -130,
+        -35
+      ],
+      [
+        -130,
+        -62
+      ],
+      [
+        -145,
+        -62
+      ],
+      [
+        -145,
+        -73
+      ],
+      [
+        -145,
+        -77
+      ],
+      [
+        -145,
+        -82
+      ],
+      [
+        -144,
+        -84
+      ],
+      [
+        -144,
+        -87.3
+      ],
+      [
+        -145.5,
+        -87.3
+      ],
+      [
+        -144,
+        -87.3
+      ],
+      [
+        -144,
+        -84
+      ],
+      [
+        -145,
+        -82
+      ],
+      [
+        -145,
+        -77
+      ],
+      [
+        -145,
+        -73
+      ],
+      [
+        -145,
+        -62
+      ]
+    ],
+    "points_world_xz": [
+      [
+        -1455.4000000000012,
+        -10269.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10269.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10242.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10242.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10184.58474745458
+      ],
+      [
+        -1476.4000000000012,
+        -10184.58474745458
+      ],
+      [
+        -1476.4000000000012,
+        -10191.08474745458
+      ],
+      [
+        -1476.4000000000012,
+        -10184.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10184.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10152.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10152.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10082.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10082.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10122.58474745458
+      ],
+      [
+        -1461.4000000000012,
+        -10242.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10242.58474745458
+      ],
+      [
+        -1440.4000000000012,
+        -10269.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10269.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10280.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10284.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10289.58474745458
+      ],
+      [
+        -1454.4000000000012,
+        -10291.58474745458
+      ],
+      [
+        -1454.4000000000012,
+        -10294.88474745458
+      ],
+      [
+        -1455.9000000000012,
+        -10294.88474745458
+      ],
+      [
+        -1454.4000000000012,
+        -10294.88474745458
+      ],
+      [
+        -1454.4000000000012,
+        -10291.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10289.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10284.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10280.58474745458
+      ],
+      [
+        -1455.4000000000012,
+        -10269.58474745458
+      ]
+    ],
+    "sampled_step_m": 0.25,
+    "height_min_m": 24.0,
+    "height_max_m": 24.0,
+    "max_absolute_grade": 0,
+    "clear_capsule_radius_m": 0.4,
+    "source_obb_extra_clearance_m": 2.0721579782666453,
+    "street_full_width_extra_clearance_m": 0.1722472592616563,
+    "terrain_probes": 2983,
+    "note": "Actual source OBB guard for all old/new rigid exteriors. Enterable tavern/shelter require the separate production compound-collider CPU fixture."
+  },
+  "structural_separation": {
+    "houses": 26,
+    "pairs_tested": 3939,
+    "minimum_separating_axis_gap_m": 0.1285930514335547,
+    "closest_pair": [
+      "north_tailor",
+      "north_tailor_wood"
+    ],
+    "scope": "Each full source house roof/wall OBB versus all other houses, tavern/shelter and rigid old/new props. Noncolliding facade lamps/flowers are intentional attachments; trees use conservative trunks, preserving canopy framing."
+  },
+  "inspection_cameras": [
+    {
+      "id": "castle-west-street",
+      "name": "Valdoa | West High Street",
+      "local_xz": [
+        -130,
+        116
+      ],
+      "world_xz": [
+        -1440.4000000000012,
+        -10091.58474745458
+      ],
+      "map_uv": [
+        0.48571031746031745,
+        0.32204553775614814
+      ],
+      "yaw_radians": 0.0,
+      "pitch_radians": -0.025,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "castle-tavern",
+      "name": "Valdoa | Copper Lantern tavern",
+      "local_xz": [
+        -141,
+        -54
+      ],
+      "world_xz": [
+        -1451.4000000000012,
+        -10261.58474745458
+      ],
+      "map_uv": [
+        0.48560119047619044,
+        0.31904776690662073
+      ],
+      "yaw_radians": -0.14189705460416394,
+      "pitch_radians": 0.045,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "castle-tavern-interior",
+      "name": "Valdoa | Copper Lantern interior",
+      "local_xz": [
+        -145,
+        -77
+      ],
+      "world_xz": [
+        -1455.4000000000012,
+        -10284.58474745458
+      ],
+      "map_uv": [
+        0.48556150793650793,
+        0.3186421861446258
+      ],
+      "yaw_radians": -0.249678981038309,
+      "pitch_radians": -0.06,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "castle-shelter",
+      "name": "Valdoa | Residents courtyard",
+      "local_xz": [
+        -153,
+        29
+      ],
+      "world_xz": [
+        -1463.4000000000012,
+        -10178.58474745458
+      ],
+      "map_uv": [
+        0.48548214285714286,
+        0.32051138443903704
+      ],
+      "yaw_radians": -0.7483780475235183,
+      "pitch_radians": -0.07,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "castle-alleys",
+      "name": "Valdoa | Residential lanes",
+      "local_xz": [
+        -151,
+        78
+      ],
+      "world_xz": [
+        -1461.4000000000012,
+        -10129.58474745458
+      ],
+      "map_uv": [
+        0.4855019841269841,
+        0.3213754478015479
+      ],
+      "yaw_radians": 0.0,
+      "pitch_radians": -0.025,
+      "eye_height_m": 1.75
+    }
+  ],
+  "lights": [
+    {
+      "id": "tavern_hearth",
+      "local_x": -138.5,
+      "local_z": -88.45,
+      "base_y": 24.35,
+      "height": 0.48,
+      "width": 0.22,
+      "intensity": 28,
+      "seed": 17401,
+      "receiving_bounds_local_xz": [
+        -155,
+        -90,
+        -135,
+        -74
+      ],
+      "receiving_y": [
+        23.8,
+        32.3
+      ],
+      "plane": [
+        0,
+        0,
+        1,
+        90
+      ]
+    },
+    {
+      "id": "tavern_hanging_lamp",
+      "local_x": -149.6,
+      "local_z": -82.7,
+      "base_y": 26.82,
+      "height": 0.22,
+      "width": 0.1,
+      "intensity": 18,
+      "seed": 25320,
+      "receiving_bounds_local_xz": [
+        -155,
+        -90,
+        -135,
+        -74
+      ],
+      "receiving_y": [
+        23.8,
+        32.3
+      ],
+      "plane": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "high_street_light",
+      "local_x": -136,
+      "local_z": 16,
+      "base_y": 26.494800024032592,
+      "height": 0.5,
+      "width": 0.16,
+      "intensity": 30,
+      "seed": 49077,
+      "receiving_bounds_local_xz": [
+        -194,
+        -181,
+        -98,
+        140
+      ],
+      "receiving_y": [
+        0,
+        1000
+      ],
+      "plane": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "id": "residents_courtyard_light",
+      "local_x": -176,
+      "local_z": 22,
+      "base_y": 26.494800024032592,
+      "height": 0.5,
+      "width": 0.16,
+      "intensity": 30,
+      "seed": 56996,
+      "receiving_bounds_local_xz": [
+        -194,
+        -181,
+        -98,
+        140
+      ],
+      "receiving_y": [
+        0,
+        1000
+      ],
+      "plane": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "performance": {
+    "new_asset_families": [
+      "village_tavern",
+      "castle_residents_shelter",
+      "castle_residents_bedroll"
+    ],
+    "near_source_triangles_upper_bound": 1083285,
+    "note": "Existing imported near/mid assets and shared texture images reused. Native integrated FPS remains separately measured."
+  },
+  "ground_note": "Existing village cache only; no height changes, no extra terrain texture.",
+  "validation": {
+    "existing_scenery_sources_preserved": true,
+    "production_compound_collision_fixture_required": true
+  }
+}

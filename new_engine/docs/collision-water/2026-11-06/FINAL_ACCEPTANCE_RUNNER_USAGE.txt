@@ -1,0 +1,70 @@
+Generic final acceptance preparation (root use; no commands executed here)
+
+No v8 binary, plan SHA or package is pinned by these helpers. Supply the exact
+READY runtime/BUILD_PLAN SHA and new package receipts after the clean freeze.
+All earlier v6 helpers and reports remain unchanged.
+
+For EACH native and Windows runtime, first inspect the CPU-only plan:
+
+  python3 docs/collision-water/2026-11-06/run_final_acceptance.py \
+    --revision v8 --platform PLATFORM --runtime ABSOLUTE_RUNTIME \
+    --plan-sha256 EXACT_BUILD_PLAN_SHA256 --phase core
+
+Only root adds --run to execute GPU work. The core phase serially runs:
+structural edit/Apply/Undo/Redo/save/reopen; source-floor NPC placement/path and
+reopen; complete water authoring and reopen; three actual water close-ups;
+Grandstone's fast four-route/eight-direction traversal; Jungle smoke.
+
+For revision v8 and later, actual R12/depth1 Pond creation is mandatory:
+after the complete Water QA and reopen, the CPU-only v8 Pond helper checks the
+real viewport creation log and unchanged saved pond recipe before visual GPU
+capture, then binds all three actual images afterward. The helper SHA and
+both provenance receipts are recorded in the run plan/aggregate. The finalizer
+rechecks the receipts and reruns only this known CPU provenance helper. The
+--pond-preset-v8 flag enables the same requirement for an earlier revision;
+v8+ does not need the flag because the requirement is automatic.
+
+The same command with --phase journey --run runs the full apartment cinematic,
+TV new-game, transport, all three travelers, combat/defeat/retry, once-only
+reward and town checkpoint save/restore. It creates a new platform/revision
+reference project and uses the frozen plan-selected guarded water shader patch.
+
+Each run refuses existing project/evidence paths, verifies actual source,
+binary, READY, all41 Windows closure files where applicable, protected water
+helpers and every collision payload file before children and again afterward.
+Child failures stop the queue and preserve raw evidence. Core reports are
+ACCEPTANCE-PLATFORM-core-v8.json; journey reports use -journey-v8.json.
+
+The CPU-only finalizer takes the actual new candidate paths, not older defaults:
+
+  python3 docs/collision-water/2026-11-06/prepare_finalization_v8.py \
+    --revision v8 \
+    --native-runtime ABSOLUTE_NATIVE_RUNTIME --native-plan-sha256 NATIVE_SHA \
+    --windows-runtime ABSOLUTE_WINDOWS_RUNTIME --windows-plan-sha256 WINDOWS_SHA \
+    --candidate NEW_CANDIDATE_RECEIPT --candidate-sha256 ACTUAL_NEW_ZIP_SHA256 \
+    --protocol NEW_PROTOCOL_RECEIPT --payload-proof NEW_PAYLOAD_PROOF
+
+It requires all six actual final core cases on BOTH platforms, both actual
+full journeys, exact new package protocol and collision receipts, and reopens
+the ZIP to verify every manifested member, every collision file, and all41
+Windows runtime files against the selected plan. Optional --write writes a new
+evidence directory, raw-backed full-journey installer adapters, release-note
+draft and an UNEXECUTED install command. It never writes CURRENT, installs,
+publishes, launches graphics or creates a visual approval.
+
+The complete nine-route/18-direction native v5 traversal remains historical
+evidence and is explicitly labelled as such. Reuse requires unchanged source
+collision manifests and dedicated controller/collision implementation files;
+the full source delta since v5 is disclosed. Final direct traversal is four
+routes per executable, not a claimed new full-nine rerun.
+
+Actual image inspection/approval remains with root. A physical Windows PC
+graphics/controller smoke test remains distinct from the Windows PE tests
+under hardware Wine. Imported base ground is fixed; NPC patrols cannot cross
+between atlas ground and imported source-floor navigation.
+
+CPU guard suite:
+  python3 docs/collision-water/2026-11-06/test_finalization_v8.py
+
+This uses only actual earlier evidence under its ORIGINAL binding and isolated
+temporary negative fixtures. It does not generate or imply v8 acceptance.

@@ -1,0 +1,896 @@
+Valwood frame pacing validation — 23 October 2026
+
+
+Final build
+g++ -O2 -Wall -Wextra -I. -Ithird_party/imgui -Ithird_party/imgui/backends -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c engine/editor_ui_imgui.cpp -o engine/editor_ui_imgui.o
+engine/editor_ui_imgui.cpp: In function ‘void editor_ui_imgui_draw_world_forge_shell(const EditorWorldForgeShellState*, int, int)’:
+engine/editor_ui_imgui.cpp:2848:36: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output may be truncated copying 63 bytes from a string of length 199 [-Wstringop-truncation]
+ 2848 |                             strncpy(state->npc_tree_choice_labels[s_edit_choice],s_edit_buf,63);
+      |                                    ^
+Checking build dependencies...
+OK: sdl2
+OK: SDL2_mixer
+OK: SDL2_ttf
+g++ main.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o rpg -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+
+
+Full final suite
+cc -std=c99 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/project_runtime_test.c engine/project_runtime.c -o /tmp/valwood-project-runtime-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+/tmp/valwood-project-runtime-test
+Invalid value for --frames: -2
+Missing value for --project
+Invalid value for --view: missing
+[Project] Malformed project settings in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-h7DpHq/project.valwood
+[Project] Opened Unit Test at /tmp/valwood-project-test-h7DpHq
+PASS project launch validation, import copies, duplicate protection, malformed assets, project state
+cc -std=c99 -O1 -g -fsanitize=address -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/audio_shutdown_test.c engine/audio.c -o /tmp/valwood-audio-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+ASAN_OPTIONS=detect_leaks=0 /tmp/valwood-audio-test
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+PASS shared audio fallback ownership, shutdown, and reinitialization
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c tests/studio_integration.c -o tests/studio_integration.o
+In file included from tests/../main.c:4310,
+                 from tests/studio_integration.c:3:
+tests/../engine/scene.inc: In function ‘mesh_normal_get’:
+tests/../engine/scene.inc:265:12: warning: missing braces around initializer [-Wmissing-braces]
+  265 |     return (ufbx_vec3){0.0,1.0,0.0};
+      |            ^
+      |                        {{         }}
+tests/../engine/scene.inc: In function ‘scene_load_cooked_fbx’:
+tests/../engine/scene.inc:554:21: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  554 |                     if(y<ymin_local)ymin_local=y;if(y>ymax_local)ymax_local=y;}}}
+      |                     ^~
+tests/../engine/scene.inc:554:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  554 |                     if(y<ymin_local)ymin_local=y;if(y>ymax_local)ymax_local=y;}}}
+      |                                                  ^~
+tests/../engine/scene.inc: In function ‘scene_load_cooked_glb’:
+tests/../engine/scene.inc:847:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  847 |             if(p.x<xmin)xmin=p.x;if(p.x>xmax)xmax=p.x;
+      |             ^~
+tests/../engine/scene.inc:847:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  847 |             if(p.x<xmin)xmin=p.x;if(p.x>xmax)xmax=p.x;
+      |                                  ^~
+tests/../engine/scene.inc:848:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  848 |             if(p.y<ymin)ymin=p.y;if(p.y>ymax)ymax=p.y;
+      |             ^~
+tests/../engine/scene.inc:848:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  848 |             if(p.y<ymin)ymin=p.y;if(p.y>ymax)ymax=p.y;
+      |                                  ^~
+tests/../engine/scene.inc:849:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  849 |             if(p.z<zmin)zmin=p.z;if(p.z>zmax)zmax=p.z;
+      |             ^~
+tests/../engine/scene.inc:849:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  849 |             if(p.z<zmin)zmin=p.z;if(p.z>zmax)zmax=p.z;
+      |                                  ^~
+tests/../engine/scene.inc: In function ‘debug_print_mesh_binding’:
+tests/../engine/scene.inc:1035:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1035 |             if(uv.x<umin)umin=uv.x; if(uv.y<vmin)vmin=uv.y;
+      |             ^~
+tests/../engine/scene.inc:1035:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1035 |             if(uv.x<umin)umin=uv.x; if(uv.y<vmin)vmin=uv.y;
+      |                                     ^~
+tests/../engine/scene.inc:1036:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1036 |             if(uv.x>umax)umax=uv.x; if(uv.y>vmax)vmax=uv.y;
+      |             ^~
+tests/../engine/scene.inc:1036:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1036 |             if(uv.x>umax)umax=uv.x; if(uv.y>vmax)vmax=uv.y;
+      |                                     ^~
+tests/../engine/scene.inc: In function ‘scene_load_gltf’:
+tests/../engine/scene.inc:1718:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1718 |                 if(x<xmin)xmin=x;if(x>xmax)xmax=x;
+      |                 ^~
+tests/../engine/scene.inc:1718:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1718 |                 if(x<xmin)xmin=x;if(x>xmax)xmax=x;
+      |                                  ^~
+tests/../engine/scene.inc:1719:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1719 |                 if(y<ymin)ymin=y;if(y>ymax)ymax=y;
+      |                 ^~
+tests/../engine/scene.inc:1719:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1719 |                 if(y<ymin)ymin=y;if(y>ymax)ymax=y;
+      |                                  ^~
+tests/../engine/scene.inc:1720:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1720 |                 if(z<zmin)zmin=z;if(z>zmax)zmax=z;
+      |                 ^~
+tests/../engine/scene.inc:1720:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1720 |                 if(z<zmin)zmin=z;if(z>zmax)zmax=z;
+      |                                  ^~
+tests/../engine/scene.inc: In function ‘scene_load’:
+tests/../engine/scene.inc:1860:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1860 |                 if(y<ymin_local)ymin_local=y;if(y>ymax_local)ymax_local=y;}}}
+      |                 ^~
+tests/../engine/scene.inc:1860:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1860 |                 if(y<ymin_local)ymin_local=y;if(y>ymax_local)ymax_local=y;}}}
+      |                                              ^~
+tests/../engine/scene.inc: In function ‘compute_bones’:
+tests/../engine/scene.inc:1933:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+ 1933 |     for(int i=0;i<nb;i++)out[i]=mat4_identity();if(!sk||!ev)return;
+      |     ^~~
+tests/../engine/scene.inc:1933:49: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+ 1933 |     for(int i=0;i<nb;i++)out[i]=mat4_identity();if(!sk||!ev)return;
+      |                                                 ^~
+tests/../main.c: In function ‘equip_item_visual_build’:
+tests/../main.c:5297:10: warning: variable ‘tried_model’ set but not used [-Wunused-but-set-variable]
+ 5297 |     bool tried_model=false;
+      |          ^~~~~~~~~~~
+In file included from tests/../main.c:5908:
+tests/../engine/props.inc: In function ‘prop_custom_collision_world_aabb’:
+tests/../engine/props.inc:599:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  599 |         if(wp.x<mnx) mnx=wp.x; if(wp.x>mxx) mxx=wp.x;
+      |         ^~
+tests/../engine/props.inc:599:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  599 |         if(wp.x<mnx) mnx=wp.x; if(wp.x>mxx) mxx=wp.x;
+      |                                ^~
+tests/../engine/props.inc:600:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  600 |         if(wp.y<mny) mny=wp.y; if(wp.y>mxy) mxy=wp.y;
+      |         ^~
+tests/../engine/props.inc:600:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  600 |         if(wp.y<mny) mny=wp.y; if(wp.y>mxy) mxy=wp.y;
+      |                                ^~
+tests/../engine/props.inc:601:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  601 |         if(wp.z<mnz) mnz=wp.z; if(wp.z>mxz) mxz=wp.z;
+      |         ^~
+tests/../engine/props.inc:601:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  601 |         if(wp.z<mnz) mnz=wp.z; if(wp.z>mxz) mxz=wp.z;
+      |                                ^~
+tests/../engine/props.inc: In function ‘prop_compute_world_bounds_box’:
+tests/../engine/props.inc:696:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  696 |         if(tp.x<wxmn)wxmn=tp.x;if(tp.x>wxmx)wxmx=tp.x;
+      |         ^~
+tests/../engine/props.inc:696:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  696 |         if(tp.x<wxmn)wxmn=tp.x;if(tp.x>wxmx)wxmx=tp.x;
+      |                                ^~
+tests/../engine/props.inc:697:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  697 |         if(tp.y<wymn)wymn=tp.y;if(tp.y>wymx)wymx=tp.y;
+      |         ^~
+tests/../engine/props.inc:697:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  697 |         if(tp.y<wymn)wymn=tp.y;if(tp.y>wymx)wymx=tp.y;
+      |                                ^~
+tests/../engine/props.inc:698:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  698 |         if(tp.z<wzmn)wzmn=tp.z;if(tp.z>wzmx)wzmx=tp.z;
+      |         ^~
+tests/../engine/props.inc:698:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  698 |         if(tp.z<wzmn)wzmn=tp.z;if(tp.z>wzmx)wzmx=tp.z;
+      |                                ^~
+tests/../engine/props.inc: In function ‘stream_job_compute_aabb’:
+tests/../engine/props.inc:749:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  749 |                 if(tx<wxmn)wxmn=tx;if(tx>wxmx)wxmx=tx;
+      |                 ^~
+tests/../engine/props.inc:749:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  749 |                 if(tx<wxmn)wxmn=tx;if(tx>wxmx)wxmx=tx;
+      |                                    ^~
+tests/../engine/props.inc:750:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  750 |                 if(ty<wymn)wymn=ty;if(ty>wymx)wymx=ty;
+      |                 ^~
+tests/../engine/props.inc:750:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  750 |                 if(ty<wymn)wymn=ty;if(ty>wymx)wymx=ty;
+      |                                    ^~
+tests/../engine/props.inc:751:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  751 |                 if(tz<wzmn)wzmn=tz;if(tz>wzmx)wzmx=tz;
+      |                 ^~
+tests/../engine/props.inc:751:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  751 |                 if(tz<wzmn)wzmn=tz;if(tz>wzmx)wzmx=tz;
+      |                                    ^~
+tests/../engine/props.inc: In function ‘stream_worker_thread’:
+tests/../engine/props.inc:954:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  954 |                         if(y<ymn)ymn=y;if(y>ymx)ymx=y;
+      |                         ^~
+tests/../engine/props.inc:954:40: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  954 |                         if(y<ymn)ymn=y;if(y>ymx)ymx=y;
+      |                                        ^~
+tests/../engine/props.inc: In function ‘prop_place’:
+tests/../engine/props.inc:1405:29: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1405 |                             if(tx<xmn)xmn=tx;if(tx>xmx)xmx=tx;
+      |                             ^~
+tests/../engine/props.inc:1405:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1405 |                             if(tx<xmn)xmn=tx;if(tx>xmx)xmx=tx;
+      |                                              ^~
+tests/../engine/props.inc:1406:29: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1406 |                             if(ty<ymn)ymn=ty;if(ty>ymx)ymx=ty;
+      |                             ^~
+tests/../engine/props.inc:1406:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1406 |                             if(ty<ymn)ymn=ty;if(ty>ymx)ymx=ty;
+      |                                              ^~
+tests/../engine/props.inc:1407:29: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1407 |                             if(tz<zmn)zmn=tz;if(tz>zmx)zmx=tz;
+      |                             ^~
+tests/../engine/props.inc:1407:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1407 |                             if(tz<zmn)zmn=tz;if(tz>zmx)zmx=tz;
+      |                                              ^~
+tests/../engine/props.inc:1466:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1466 |                 if(x<xmn)xmn=x;if(x>xmx)xmx=x;
+      |                 ^~
+tests/../engine/props.inc:1466:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1466 |                 if(x<xmn)xmn=x;if(x>xmx)xmx=x;
+      |                                ^~
+tests/../engine/props.inc:1467:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1467 |                 if(y<ymn)ymn=y;if(y>ymx)ymx=y;
+      |                 ^~
+tests/../engine/props.inc:1467:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1467 |                 if(y<ymn)ymn=y;if(y>ymx)ymx=y;
+      |                                ^~
+tests/../engine/props.inc:1468:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1468 |                 if(z<zmn)zmn=z;if(z>zmx)zmx=z;
+      |                 ^~
+tests/../engine/props.inc:1468:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1468 |                 if(z<zmn)zmn=z;if(z>zmx)zmx=z;
+      |                                ^~
+tests/../engine/props.inc:1504:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1504 |                         if(tx<wxmn)wxmn=tx;if(tx>wxmx)wxmx=tx;
+      |                         ^~
+tests/../engine/props.inc:1504:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1504 |                         if(tx<wxmn)wxmn=tx;if(tx>wxmx)wxmx=tx;
+      |                                            ^~
+tests/../engine/props.inc:1505:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1505 |                         if(ty<wymn)wymn=ty;if(ty>wymx)wymx=ty;
+      |                         ^~
+tests/../engine/props.inc:1505:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1505 |                         if(ty<wymn)wymn=ty;if(ty>wymx)wymx=ty;
+      |                                            ^~
+tests/../engine/props.inc:1506:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 1506 |                         if(tz<wzmn)wzmn=tz;if(tz>wzmx)wzmx=tz;
+      |                         ^~
+tests/../engine/props.inc:1506:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 1506 |                         if(tz<wzmn)wzmn=tz;if(tz>wzmx)wzmx=tz;
+      |                                            ^~
+In file included from tests/../main.c:29064:
+tests/../engine/menu.inc: In function ‘menu_bind_button’:
+tests/../engine/menu.inc:459:40: warning: comparison of integer expressions of different signedness: ‘int’ and ‘GameBindId’ [-Wsign-compare]
+  459 |     bool active=(g_options_capture_bind==bind);
+      |                                        ^~
+In file included from tests/../main.c:30337:
+tests/../engine/menu_flow.inc: In function ‘valwood_game_main’:
+tests/../engine/menu_flow.inc:61:23: warning: variable ‘prev_my’ set but not used [-Wunused-but-set-variable]
+   61 |         int prev_mx=0,prev_my=0;
+      |                       ^~~~~~~
+tests/../engine/menu.inc: At top level:
+tests/../engine/menu.inc:727:15: warning: ‘charsel_portrait’ defined but not used [-Wunused-function]
+  727 | static GLuint charsel_portrait(int idx){
+      |               ^~~~~~~~~~~~~~~~
+tests/../main.c:28111:13: warning: ‘surface_piece_delete_idx’ defined but not used [-Wunused-function]
+28111 | static bool surface_piece_delete_idx(int idx){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28088:12: warning: ‘surface_piece_duplicate_idx’ defined but not used [-Wunused-function]
+28088 | static int surface_piece_duplicate_idx(int idx,Vec3 offset,bool snap_to_ground,bool snap_to_grid){
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28080:13: warning: ‘surface_piece_snap_grid’ defined but not used [-Wunused-function]
+28080 | static bool surface_piece_snap_grid(int idx,float grid){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28069:13: warning: ‘surface_piece_scale_uniform’ defined but not used [-Wunused-function]
+28069 | static bool surface_piece_scale_uniform(int idx,float mul){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28062:13: warning: ‘surface_piece_adjust_yaw’ defined but not used [-Wunused-function]
+28062 | static bool surface_piece_adjust_yaw(int idx,float delta_deg){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28054:13: warning: ‘surface_piece_move_planar’ defined but not used [-Wunused-function]
+28054 | static bool surface_piece_move_planar(int idx,Vec3 delta){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28040:13: warning: ‘surface_piece_move_y’ defined but not used [-Wunused-function]
+28040 | static bool surface_piece_move_y(int idx,float delta_y,bool snap_to_ground){
+      |             ^~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28010:13: warning: ‘surface_piece_set_collision_type’ defined but not used [-Wunused-function]
+28010 | static bool surface_piece_set_collision_type(int idx,int coll_type){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:28003:13: warning: ‘surface_piece_set_thickness_value’ defined but not used [-Wunused-function]
+28003 | static bool surface_piece_set_thickness_value(int idx,float value){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:27996:13: warning: ‘surface_piece_set_height_value’ defined but not used [-Wunused-function]
+27996 | static bool surface_piece_set_height_value(int idx,float value){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:27989:13: warning: ‘surface_piece_set_width_value’ defined but not used [-Wunused-function]
+27989 | static bool surface_piece_set_width_value(int idx,float value){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:27978:13: warning: ‘surface_piece_set_kind’ defined but not used [-Wunused-function]
+27978 | static bool surface_piece_set_kind(int idx,int kind){
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:27970:13: warning: ‘surface_piece_set_material_id’ defined but not used [-Wunused-function]
+27970 | static bool surface_piece_set_material_id(int idx,int material_id){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:26575:13: warning: ‘static_collision_rotate_x’ defined but not used [-Wunused-function]
+26575 | static Vec3 static_collision_rotate_x(Vec3 v,float pitch_deg){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:26198:20: warning: ‘collision_volume_shape_name’ defined but not used [-Wunused-function]
+26198 | static const char *collision_volume_shape_name(int shape){
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:24063:14: warning: ‘inv_visual_editor_field_value’ defined but not used [-Wunused-function]
+24063 | static float inv_visual_editor_field_value(const EquipAttachInst *inst,int field){
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:22761:13: warning: ‘npc_attach_quest’ defined but not used [-Wunused-function]
+22761 | static void npc_attach_quest(NpcSystem *ns,int npc_idx,int quest_id){
+      |             ^~~~~~~~~~~~~~~~
+tests/../main.c:22732:12: warning: ‘dlg_line’ defined but not used [-Wunused-function]
+22732 | static int dlg_line(const char *text, const char *speaker, int next_node){
+      |            ^~~~~~~~
+tests/../main.c:22367:13: warning: ‘forest_hud’ defined but not used [-Wunused-function]
+22367 | static void forest_hud(HUD *h, ForestSystem *fs, float brush_radius, int brush_density,
+      |             ^~~~~~~~~~
+tests/../main.c:22202:13: warning: ‘apply_debug_shire_biome’ defined but not used [-Wunused-function]
+22202 | static void apply_debug_shire_biome(Terrain *terrain,ForestSystem *fs,PropList *props,GrassSystem *grass,float cx,float cz){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:21994:13: warning: ‘forest_fill_rect’ defined but not used [-Wunused-function]
+21994 | static void forest_fill_rect(ForestSystem *fs,
+      |             ^~~~~~~~~~~~~~~~
+tests/../main.c:21977:13: warning: ‘forest_ring’ defined but not used [-Wunused-function]
+21977 | static void forest_ring(ForestSystem *fs, Vec3 center, float radius,
+      |             ^~~~~~~~~~~
+tests/../main.c:21627:13: warning: ‘mount_system_seed_defaults’ defined but not used [-Wunused-function]
+21627 | static void mount_system_seed_defaults(MountSystem *ms,float cf_wx,float cf_wz){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:21603:13: warning: ‘mount_system_load’ defined but not used [-Wunused-function]
+21603 | static bool mount_system_load(MountSystem *ms){
+      |             ^~~~~~~~~~~~~~~~~
+tests/../main.c:21086:13: warning: ‘animal_set_hostile’ defined but not used [-Wunused-function]
+21086 | static void animal_set_hostile(AnimalHerd *h,
+      |             ^~~~~~~~~~~~~~~~~~
+tests/../main.c:21070:20: warning: ‘animal_add_herd’ defined but not used [-Wunused-function]
+21070 | static AnimalHerd* animal_add_herd(AnimalSystem *as,
+      |                    ^~~~~~~~~~~~~~~
+In file included from tests/../main.c:20751:
+tests/../engine/editor_shell_actions.inc:551:13: warning: ‘editor_shell_szone_sync_defaults’ defined but not used [-Wunused-function]
+  551 | static void editor_shell_szone_sync_defaults(EditorRuntimeState *editor,const SoundZone *zone){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:19582:13: warning: ‘quest_load_file’ defined but not used [-Wunused-function]
+19582 | static void quest_load_file(QuestSystem *qs){
+      |             ^~~~~~~~~~~~~~~
+In file included from tests/../main.c:19085:
+tests/../engine/prop_multiselect.inc:46:13: warning: ‘prop_multi_any’ defined but not used [-Wunused-function]
+   46 | static bool prop_multi_any(void) { return g_prop_sel_count > 0; }
+      |             ^~~~~~~~~~~~~~
+In file included from tests/../main.c:18941:
+tests/../engine/editor_commands.inc:32:13: warning: ‘editor_commands_runtime_reset’ defined but not used [-Wunused-function]
+   32 | static void editor_commands_runtime_reset(EditorCommandRuntime *rt){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:18384:20: warning: ‘sound_zone_type_name’ defined but not used [-Wunused-function]
+18384 | static const char *sound_zone_type_name(int type){
+      |                    ^~~~~~~~~~~~~~~~~~~~
+tests/../main.c:16807:12: warning: ‘prefab_place’ defined but not used [-Wunused-function]
+16807 | static int prefab_place(PrefabLibrary *lib,int prefab_idx,PropList *pl,WorldFxSystem *sys,LightingSystem *ls,
+      |            ^~~~~~~~~~~~
+tests/../main.c:15841:13: warning: ‘place_debug_shire_start_area’ defined but not used [-Wunused-function]
+15841 | static void place_debug_shire_start_area(PropList *pl,float cx,float cz){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:15224:12: warning: ‘props_pick_nearest’ defined but not used [-Wunused-function]
+15224 | static int props_pick_nearest(PropList *pl,Vec3 hit,float max_dist){
+      |            ^~~~~~~~~~~~~~~~~~
+In file included from tests/../main.c:12949:
+tests/../engine/editor_shell_context.inc:275:19: warning: ‘g_shell_tree_brush_scale_ptr’ defined but not used [-Wunused-variable]
+  275 | static float     *g_shell_tree_brush_scale_ptr=NULL;
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:10381:26: warning: ‘terrain_style_mask_decode_u8’ defined but not used [-Wunused-function]
+10381 | static TerrainPaintStyle terrain_style_mask_decode_u8(uint8_t v){
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:9946:14: warning: ‘river_carve_target’ defined but not used [-Wunused-function]
+ 9946 | static float river_carve_target(float water_level,float dist,float surface_half_width,float center_depth,float bank_softness){
+      |              ^~~~~~~~~~~~~~~~~~
+tests/../main.c:9931:14: warning: ‘water_zone_bed_target’ defined but not used [-Wunused-function]
+ 9931 | static float water_zone_bed_target(const WaterZone *z,float wx,float wz){
+      |              ^~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:8711:13: warning: ‘player_spell_spawn’ defined but not used [-Wunused-function]
+ 8711 | static Vec3 player_spell_spawn(Player *pl,Camera3P *cam,float forward,float height){
+      |             ^~~~~~~~~~~~~~~~~~
+tests/../engine/props.inc:503:20: warning: ‘prop_custom_collision_shape_name’ defined but not used [-Wunused-function]
+  503 | static const char *prop_custom_collision_shape_name(int shape){
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:4320:20: warning: ‘player_character_slot_label’ defined but not used [-Wunused-function]
+ 4320 | static const char *player_character_slot_label(int slot){
+      |                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../engine/scene.inc:1281:13: warning: ‘mat4_has_rotation’ defined but not used [-Wunused-function]
+ 1281 | static bool mat4_has_rotation(Mat4 m){
+      |             ^~~~~~~~~~~~~~~~~
+tests/../engine/scene.inc:928:15: warning: ‘get_running_paladin_spec_override’ defined but not used [-Wunused-function]
+  928 | static GLuint get_running_paladin_spec_override(void){
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../engine/scene.inc:920:15: warning: ‘get_running_paladin_normal_override’ defined but not used [-Wunused-function]
+  920 | static GLuint get_running_paladin_normal_override(void){
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../engine/scene.inc:872:15: warning: ‘get_knight_override_tex’ defined but not used [-Wunused-function]
+  872 | static GLuint get_knight_override_tex(ufbx_node *node){
+      |               ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from tests/../engine/scene.inc:861:
+./engine/charmodel.inc:112:13: warning: ‘charmodel_share_base’ defined but not used [-Wunused-function]
+  112 | static void charmodel_share_base(CharModel *dst, CharModel *src){
+      |             ^~~~~~~~~~~~~~~~~~~~
+tests/../main.c:1348:14: warning: ‘cpath_dist’ defined but not used [-Wunused-function]
+ 1348 | static float cpath_dist(float wx,float wz){
+      |              ^~~~~~~~~~
+tests/../main.c:1335:13: warning: ‘pathmesh_dispose’ defined but not used [-Wunused-function]
+ 1335 | static void pathmesh_dispose(PathMesh *m){
+      |             ^~~~~~~~~~~~~~~~
+tests/../main.c:1021:18: warning: ‘g_scene_depth_copy_h’ defined but not used [-Wunused-variable]
+ 1021 | static int       g_scene_depth_copy_h=0;
+      |                  ^~~~~~~~~~~~~~~~~~~~
+tests/../main.c:1020:18: warning: ‘g_scene_depth_copy_w’ defined but not used [-Wunused-variable]
+ 1020 | static int       g_scene_depth_copy_w=0;
+      |                  ^~~~~~~~~~~~~~~~~~~~
+tests/../main.c:1019:18: warning: ‘g_scene_depth_copy_tex’ defined but not used [-Wunused-variable]
+ 1019 | static GLuint    g_scene_depth_copy_tex=0;
+      |                  ^~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:880:14: warning: ‘rw2’ defined but not used [-Wunused-function]
+  880 | static float rw2(float px,float pz,float cx,float cz,float r){/* squared falloff, smoother */
+      |              ^~~
+In file included from tests/../main.c:363:
+tests/../engine/options.inc:181:13: warning: ‘options_pad_bind_matches_button’ defined but not used [-Wunused-function]
+  181 | static bool options_pad_bind_matches_button(SDL_GameControllerButton button,PadBindId id){
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+tests/../main.c:301:15: warning: ‘GLH_texture_rgba_srgb’ defined but not used [-Wunused-function]
+  301 | static GLuint GLH_texture_rgba_srgb(void *px,int w,int h){
+      |               ^~~~~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘npc_spawns_load’:
+tests/../main.c:19495:13: warning: ‘__builtin_strncpy’ output may be truncated copying 199 bytes from a string of length 1021 [-Wstringop-truncation]
+19495 |             strncpy(tn->text,txt,199); tn->text[199]=0;
+      |             ^
+tests/../main.c:19470:17: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 79 bytes from a string of length 1021 [-Wstringop-truncation]
+19470 |                 strncpy(cur->dialogue[cur->dialogue_count],txt,NPC_LINE_LEN-1);
+      |                 ^
+tests/../main.c:19502:13: warning: ‘__builtin_strncpy’ output may be truncated copying 31 bytes from a string of length 1021 [-Wstringop-truncation]
+19502 |             strncpy(tn->speaker,txt,31); tn->speaker[31]=0;
+      |             ^
+tests/../main.c:19536:17: warning: ‘__builtin_strncpy’ output may be truncated copying 31 bytes from a string of length 31 [-Wstringop-truncation]
+19536 |                 strncpy(cur->name,name,31); cur->name[31]=0;
+      |                 ^
+tests/../main.c:19433:17: warning: ‘__builtin_strncpy’ output may be truncated copying 31 bytes from a string of length 31 [-Wstringop-truncation]
+19433 |                 strncpy(cur->name,name,31); cur->name[31]=0;
+      |                 ^
+tests/../main.c: In function ‘sound_zone_music_registry_build’:
+tests/../main.c:4443:36: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 239 [-Wformat-truncation=]
+ 4443 |                  "background_music/%s",ent->d_name);
+      |                                    ^~
+In file included from /usr/include/stdio.h:980,
+                 from tests/../main.c:8:
+In function ‘snprintf’,
+    inlined from ‘sound_zone_music_registry_build’ at tests/../main.c:4441:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 18 and 273 bytes into a destination of size 256
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘player_character_sound_registry_build’:
+tests/../main.c:4410:33: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 242 [-Wformat-truncation=]
+ 4410 |                  "sound_effects/%s",ent->d_name);
+      |                                 ^~
+In function ‘snprintf’,
+    inlined from ‘player_character_sound_registry_build’ at tests/../main.c:4408:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 15 and 270 bytes into a destination of size 256
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘player_character_model_registry_build’:
+tests/../main.c:4376:46: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 233 [-Wformat-truncation=]
+ 4376 |                      "models/main_characters/%s",ent->d_name);
+      |                                              ^~
+In function ‘snprintf’,
+    inlined from ‘player_character_model_registry_build’ at tests/../main.c:4374:13:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 24 and 279 bytes into a destination of size 256
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘npc_model_registry_build’:
+tests/../main.c:20809:34: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 245 [-Wformat-truncation=]
+20809 |                      "models/npc/%s",ent->d_name);
+      |                                  ^~
+In function ‘snprintf’,
+    inlined from ‘npc_model_registry_build’ at tests/../main.c:20808:13:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 12 and 267 bytes into a destination of size 256
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In file included from tests/../main.c:18940:
+tests/../engine/undo.inc: In function ‘undo_end_transaction.isra’:
+tests/../engine/undo.inc:282:5: warning: ‘__builtin_strncpy’ output may be truncated copying 63 bytes from a string of length 63 [-Wstringop-truncation]
+  282 |     strncpy(e.label,g_undo_transaction_label,sizeof(e.label)-1);
+      |     ^
+tests/../main.c: In function ‘enemy_model_registry_build’:
+tests/../main.c:20893:36: warning: ‘%s’ directive output may be truncated writing up to 255 bytes into a region of size 243 [-Wformat-truncation=]
+20893 |                      "models/enemy/%s",ent->d_name);
+      |                                    ^~
+In function ‘snprintf’,
+    inlined from ‘enemy_model_registry_build’ at tests/../main.c:20892:13:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 14 and 269 bytes into a destination of size 256
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘npc_spawns_hud_tree_editor.constprop’:
+tests/../main.c:19965:30: warning: ‘__builtin_strncpy’ output may be truncated copying 153 bytes from a string of length 153 [-Wstringop-truncation]
+19965 |         strncpy(l1,disp,56); strncpy(l2,disp+56,153);
+      |                              ^
+tests/../main.c:19965:30: warning: ‘__builtin_strncpy’ output may be truncated copying 153 bytes from a string of length 153 [-Wstringop-truncation]
+tests/../main.c:19976:50: warning: ‘%s’ directive output may be truncated writing up to 199 bytes into a region of size 67 [-Wformat-truncation=]
+19976 |     if(es)snprintf(spk,sizeof(spk),"[Q]=Speaker: %s_",edit_buf);
+      |                                                  ^~
+In function ‘snprintf’,
+    inlined from ‘npc_spawns_hud_tree_editor.constprop’ at tests/../main.c:19976:11:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 15 and 214 bytes into a destination of size 80
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘npc_spawns_hud_tree_editor.constprop’:
+tests/../main.c:20001:63: warning: ‘%s’ directive output may be truncated writing up to 199 bytes into a region of size between 111 and 124 [-Wformat-truncation=]
+20001 |         if(ech)snprintf(ch_disp,sizeof(ch_disp),"%d. %-10s  \"%s_\"",ci,nxt,edit_buf);
+      |                                                               ^~
+In function ‘snprintf’,
+    inlined from ‘npc_spawns_hud_tree_editor.constprop’ at tests/../main.c:20001:16:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 19 and 231 bytes into a destination of size 140
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘npc_spawns_hud_tree_editor.constprop’:
+tests/../main.c:20010:104: warning: ‘%s’ directive output may be truncated writing up to 199 bytes into a region of size between 66 and 76 [-Wformat-truncation=]
+20010 |         snprintf(dest_prompt,sizeof(dest_prompt),"Enter dest node (0-%d, -1=close, -2=quest, -3=shop): %s_",
+      |                                                                                                        ^~
+In function ‘snprintf’,
+    inlined from ‘npc_spawns_hud_tree_editor.constprop’ at tests/../main.c:20010:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 54 and 263 bytes into a destination of size 128
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../engine/editor_commands.inc: In function ‘editor_command_npc_set_backstory.constprop.isra’:
+tests/../engine/editor_commands.inc:1728:9: warning: ‘__builtin_strncpy’ output may be truncated copying 255 bytes from a string of length 255 [-Wstringop-truncation]
+ 1728 |         strncpy(npcs_runtime->npcs[runtime_idx].backstory,normalized,sizeof(npcs_runtime->npcs[runtime_idx].backstory)-1);
+      |         ^
+tests/../engine/editor_commands.inc: In function ‘editor_command_npc_set_name.constprop.isra’:
+tests/../engine/editor_commands.inc:1705:9: warning: ‘__builtin_strncpy’ output may be truncated copying 31 bytes from a string of length 31 [-Wstringop-truncation]
+ 1705 |         strncpy(npcs_runtime->npcs[runtime_idx].name,normalized,sizeof(npcs_runtime->npcs[runtime_idx].name)-1);
+      |         ^
+In file included from tests/../main.c:13103:
+tests/../engine/editor_shell_ui.inc: In function ‘draw_world_forge_editor_shell.constprop’:
+tests/../engine/editor_shell_ui.inc:280:69: warning: ‘%s’ directive output may be truncated writing up to 6 bytes into a region of size between 2 and 96 [-Wformat-truncation=]
+  280 |     snprintf(mode_buf,sizeof(mode_buf),"%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s%s",
+      |                                                                     ^~
+In function ‘snprintf’,
+    inlined from ‘draw_world_forge_editor_shell.constprop’ at tests/../engine/editor_shell_ui.inc:280:5:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 1 and 138 bytes into a destination of size 96
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../engine/editor_shell_ui.inc: In function ‘draw_world_forge_editor_shell.constprop’:
+tests/../engine/editor_shell_ui.inc:525:41: warning: ‘%s’ directive output may be truncated writing up to 191 bytes into a region of size 160 [-Wformat-truncation=]
+  525 |         snprintf(tool_c,sizeof(tool_c),"%s",g_shader_lab.status);
+      |                                         ^~  ~~~~~~~~~~~~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘draw_world_forge_editor_shell.constprop’ at tests/../engine/editor_shell_ui.inc:525:9:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin_snprintf’ output between 1 and 192 bytes into a destination of size 160
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../engine/props.inc: In function ‘stream_worker_thread’:
+tests/../engine/props.inc:143:53: warning: ‘%s’ directive output may be truncated writing up to 1023 bytes into a region of size 512 [-Wformat-truncation=]
+  143 |         snprintf(cm->tex_path,sizeof(cm->tex_path),"%s",full);
+      |                                                     ^~  ~~~~
+In function ‘snprintf’,
+    inlined from ‘gltf_texture_to_cpu’ at tests/../engine/props.inc:143:9,
+    inlined from ‘cpu_mesh_build_gltf’ at tests/../engine/props.inc:175:9,
+    inlined from ‘stream_worker_thread’ at tests/../engine/props.inc:900:54:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin_snprintf’ output between 1 and 1024 bytes into a destination of size 512
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘inv_draw’:
+tests/../main.c:24671:55: warning: ‘%d’ directive output may be truncated writing between 1 and 10 bytes into a region of size 4 [-Wformat-truncation=]
+24671 |                 char cnt[4];snprintf(cnt,sizeof(cnt),"%d",s->count);
+      |                                                       ^~
+tests/../main.c:24671:54: note: directive argument in the range [2, 2147483647]
+24671 |                 char cnt[4];snprintf(cnt,sizeof(cnt),"%d",s->count);
+      |                                                      ^~~~
+In function ‘snprintf’,
+    inlined from ‘inv_draw’ at tests/../main.c:24671:29:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 2 and 11 bytes into a destination of size 4
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../main.c: In function ‘inv_draw’:
+tests/../main.c:24745:56: warning: ‘__builtin___snprintf_chk’ output may be truncated before the last format character [-Wformat-truncation=]
+24745 |                         snprintf(vbuf,sizeof(vbuf),"%s_",g_inv_visual_numeric_buf);
+      |                                                        ^
+In function ‘snprintf’,
+    inlined from ‘inv_draw’ at tests/../main.c:24745:25:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 2 and 33 bytes into a destination of size 32
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+In file included from tests/../main.c:29793:
+tests/../engine/input_keydown.inc: In function ‘main_input_on_keydown’:
+tests/../engine/input_keydown.inc:21:41: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 63 bytes from a string of length 199 [-Wstringop-truncation]
+   21 |                                         strncpy(tn->choice_label[npc_ed_tree_choice],npc_ed_tree_buf,63);
+      |                                         ^
+tests/../engine/input_keydown.inc:16:37: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 31 bytes from a string of length 199 [-Wstringop-truncation]
+   16 |                                     strncpy(tn->speaker,npc_ed_tree_buf,31);tn->speaker[31]=0;
+      |                                     ^
+tests/../engine/input_keydown.inc:12:37: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 199 bytes from a string of length 199 [-Wstringop-truncation]
+   12 |                                     strncpy(tn->text,npc_ed_tree_buf,199);tn->text[199]=0;
+      |                                     ^
+tests/../engine/input_keydown.inc:143:33: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 79 bytes from a string of length 79 [-Wstringop-truncation]
+  143 |                                 strncpy(dsp->dialogue[npc_ed_dlg_sel],npc_ed_dlg_buf,NPC_LINE_LEN-1);
+      |                                 ^
+tests/../engine/input_keydown.inc:145:33: warning: ‘__builtin___strncpy_chk’ output may be truncated copying 79 bytes from a string of length 79 [-Wstringop-truncation]
+  145 |                                 strncpy(dsp->dialogue[dsp->dialogue_count++],npc_ed_dlg_buf,NPC_LINE_LEN-1);
+      |                                 ^
+tests/../main.c: In function ‘valwood_game_main’:
+tests/../main.c:30295:13: warning: ‘__builtin_strncpy’ output may be truncated copying 255 bytes from a string of length 255 [-Wstringop-truncation]
+30295 |             strncpy(active_player_char->model_path,char_path_buf,sizeof(active_player_char->model_path)-1);
+      |             ^
+In file included from tests/../main.c:31769:
+tests/../engine/editors_runtime.inc:825:47: warning: ‘%s’ directive output may be truncated writing up to 191 bytes into a region of size 160 [-Wformat-truncation=]
+  825 |                 snprintf(ibuf3,sizeof(ibuf3),"%s",g_shader_lab.status);
+      |                                               ^~  ~~~~~~~~~~~~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘valwood_game_main’ at tests/../engine/editors_runtime.inc:825:17:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin_snprintf’ output between 1 and 192 bytes into a destination of size 160
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+tests/../engine/editors_runtime.inc: In function ‘valwood_game_main’:
+tests/../engine/editors_runtime.inc:2192:68: warning: ‘ props selected  Ctrl+D dup ...’ directive output may be truncated writing 39 bytes into a region of size between 38 and 47 [-Wformat-truncation=]
+ 2192 |                 char _msbuf[48]; snprintf(_msbuf,sizeof(_msbuf),"%d props selected  Ctrl+D dup  Del delete",g_prop_sel_count);
+      |                                                                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘snprintf’,
+    inlined from ‘valwood_game_main’ at tests/../engine/editors_runtime.inc:2192:34:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:54:10: note: ‘__builtin___snprintf_chk’ output between 41 and 50 bytes into a destination of size 48
+   54 |   return __builtin___snprintf_chk (__s, __n, __USE_FORTIFY_LEVEL - 1,
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   55 |                                    __glibc_objsize (__s), __fmt,
+      |                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   56 |                                    __va_arg_pack ());
+      |                                    ~~~~~~~~~~~~~~~~~
+g++ tests/studio_integration.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o /tmp/valwood-studio-integration -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+/tmp/valwood-studio-integration
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+[PropPlacer] Found 8 models in palette
+[PropPlacer] Found 1 models in palette
+[Assets] No cooked manifest at cooked/asset_manifest.csv, using raw assets
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4540174)
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[Prop] 'imports/models/sign.glb' at (5.0,3.0,7.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[Scene] imports/models/sign_2.glb: 1 glTF meshes
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[SculptEd] Saved to terrain_sculpt.bin
+[PathEd] Saved 0 paths to paths_custom.txt
+[WZone] Saved 0 zones to water_zones.txt
+[Terrain] 'ground/cobblestone_path.png' not found — using sRGB fallback
+[Terrain] 'ground/cobblestone_path_nor.png' not found — using flat fallback
+[Terrain] 'ground/cobblestone_path_rgh.png' not found — using flat fallback
+[PathMat] albedo:fallback normal:fallback rough:fallback
+[WFalls] Saved 0 waterfalls to waterfalls.txt
+[RiverEd] C array:
+static const float river_custom[]={
+    };
+[RiverEd] Saved 0 points to river_custom.txt
+[PropPlacer] Saved 1 props to props_custom.txt
+[PropPlacer] C array:
+    prop_register(&g_props,"imports/models/sign.glb", 9.00f,4.00f,11.00f, 0,0.0f,0, 1.000f, PROP_COLL_AABB,0,0,0,0); /* pickable=0 item=0 count=1 */
+[ForestEd] Saved 0 trees to forest_custom.txt
+[GrassPaint] Saved to grass_mask.bin
+[WornPath] Saved to worn_path_mask.bin
+[TerrainBrush] Saved styles to terrain_style_mask.bin
+[FarmField] Saved to farm_field_mask.bin
+[WindEd] Saved 0 zones to wind_zones.txt
+[PlightEd] Saved 1 lights to placed_lights.txt
+[DecalEd] Saved 0 decals to decals_custom.txt
+[SzoneEd] Saved 0 sound zones to sound_zones.txt
+[VisualProfile] Saved visual_profile.txt
+[MarkerEd] Saved world_markers.txt
+[WorldFX] Saved world_fx_custom.txt
+[SpawnEd] Saved 0 spawn points to spawns_custom.txt
+[SpawnEd] C array:
+[NpcEd] Saved 0 NPC spawns to npcs_custom.txt
+[Terrain] Heightmap rebaked
+[Prop] 'imports/models/sign.glb' at (9.0,4.0,11.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[PropPlacer] Loaded 1 props from props_custom.txt
+[SculptEd] Loaded from terrain_sculpt.bin
+[PlightEd] Loaded 1 lights from placed_lights.txt
+PASS studio integration: validated import, search, model placement, transform/collision, Save World, landscape/light/readable round trip, shader compilation, shared-resource lifetime, terrain buffer cleanup, grass paint texture invalidation and async thumbnail cancellation
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/grass_scatter_test.c engine/grass_scatter.c -lm -o /tmp/valwood-grass-test
+/tmp/valwood-grass-test
+Grass scatter: deterministic roots, deferred emission, LOD retention, masks, bounds, negative coordinates, full field budget passed.
+Full field 157207 blades; quadrants 38297 40429 41892 36589
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/performance_test.c engine/performance.c -lm -o /tmp/valwood-performance-test
+/tmp/valwood-performance-test
+[Profile] /tmp/valwood-performance-test-80.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-80.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-80.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+cc -std=c99 -O2 -Wall -Wextra -Werror -DTEXTURE_CACHE_TESTING -I. tests/texture_cache_test.c engine/texture_cache.c -o /tmp/valwood-texture-cache-test
+/tmp/valwood-texture-cache-test
+Texture cache: exact content, forced collisions, color space, sampler policy, mesh-field references, failed uploads, capacity fallback and teardown passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DTEXTURE_CACHE_GL_OTHER_TU -c tests/texture_cache_gl_test.c -o /tmp/valwood-texture-cache-gl-other.o
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/texture_cache_gl_test.c /tmp/valwood-texture-cache-gl-other.o engine/texture_cache.c -o /tmp/valwood-texture-cache-gl-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+/tmp/valwood-texture-cache-gl-test
+Texture cache renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+Texture cache GL: exact pixels, full dimensions, color spaces, sampler state, cross-TU ownership and deletion passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/shader_equivalence.c -o /tmp/valwood-shader-equivalence -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++
+/tmp/valwood-shader-equivalence
+PASS: 72 terrain/static PBR image cases, maximum linear RGBA difference 5.81145287e-06
+PASS: 168 SSAO blur image cases, max difference float source 6.13927841e-06 / R8 source 0.00313746929; R8 output max 1 code value(s)
+Shader equivalence renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+
+
+Texture cache ASan/UBSan/LSan
+Texture cache: exact content, forced collisions, color space, sampler policy, mesh-field references, failed uploads, capacity fallback and teardown passed.
+
+
+Grass ASan/UBSan/LSan
+Grass scatter: deterministic roots, deferred emission, LOD retention, masks, bounds, negative coordinates, full field budget passed.
+Full field 157207 blades; quadrants 38297 40429 41892 36589
+
+
+Profiler ASan/UBSan/LSan
+[Profile] /tmp/valwood-performance-test-902734.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-902734.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-902734.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+
+
+Native Radeon shader comparisons
+PASS: 72 terrain/static PBR image cases, maximum linear RGBA difference 0
+PASS: 168 SSAO blur image cases, max difference float source 2.38418579e-07 / R8 source 2.38418579e-07; R8 output max 1 code value(s)
+Shader equivalence renderer: AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+
+
+Native Radeon texture lifecycle
+Texture cache renderer: AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+Texture cache GL: exact pixels, full dimensions, color spaces, sampler state, cross-TU ownership and deletion passed.
+

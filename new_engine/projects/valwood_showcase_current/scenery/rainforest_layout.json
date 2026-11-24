@@ -1,0 +1,1790 @@
+{
+  "schema_version": 1,
+  "title": "Old Tanthoon | Rainforest canopy walk",
+  "description": "A shaded temperate fantasy rainforest with broadleaf/fir ceiling, grouped fern and sorrel carpets, photographed shrub variants, exposed roots/dead stumps, fallen timber and a shallow forest pool. All new Poly Haven families are source-authentic CC0 assets.",
+  "seed": "valwood-old-tanthoon-rainforest-v1",
+  "origin": {
+    "map_uv": [
+      0.235,
+      0.67
+    ],
+    "world_xz": [
+      -26712.0,
+      9640.496705929329
+    ],
+    "camera_yaw_radians": 0.2,
+    "right_xz": [
+      1.0,
+      0.0
+    ],
+    "forward_xz": [
+      0.0,
+      -1.0
+    ],
+    "model_yaw_for_right_degrees": 0.0
+  },
+  "bounds": {
+    "min_rf": [
+      -105,
+      -120
+    ],
+    "max_rf": [
+      105,
+      115
+    ]
+  },
+  "spawn": {
+    "position_rf": [
+      -15,
+      -95
+    ],
+    "position_xz": [
+      -26727.0,
+      9735.496705929329
+    ],
+    "clear_radius_m": 5.0,
+    "yaw_radians": 0.2,
+    "pitch_radians": -0.04,
+    "eye_height_m": 1.75
+  },
+  "preserve": {
+    "existing_sources": [
+      {
+        "file": "authored_instances.txt",
+        "records": 283,
+        "sha256": "d2c640ad40e4b2bef5b8ceff6d97f93653bc46426aeb7ade6e8b49d5f8fe709e"
+      },
+      {
+        "file": "starting_area_instances.txt",
+        "records": 1356,
+        "sha256": "18943b502ae02d5474db2f263db6f888a2ab805d4b34d151d62fa5129db59cf6"
+      }
+    ],
+    "reference_map": true,
+    "settlement_foundations": true,
+    "source_model_images": true
+  },
+  "minimum_tree_separation_m": 3.05,
+  "pads": [],
+  "paths": [
+    {
+      "id": "tanthoon_canopy_walk",
+      "closed": false,
+      "half_width_m": 1.6,
+      "points_rf": [
+        [
+          -15,
+          -95
+        ],
+        [
+          2,
+          -60
+        ],
+        [
+          -8,
+          -20
+        ],
+        [
+          5,
+          25
+        ],
+        [
+          -5,
+          65
+        ],
+        [
+          12,
+          110
+        ]
+      ],
+      "points_xz": [
+        [
+          -26727.0,
+          9735.496705929329
+        ],
+        [
+          -26710.0,
+          9700.496705929329
+        ],
+        [
+          -26720.0,
+          9660.496705929329
+        ],
+        [
+          -26707.0,
+          9615.496705929329
+        ],
+        [
+          -26717.0,
+          9575.496705929329
+        ],
+        [
+          -26700.0,
+          9530.496705929329
+        ]
+      ]
+    }
+  ],
+  "groves": [
+    {
+      "id": "arrival",
+      "center_f": -92,
+      "spread_rf": [
+        1.0,
+        0.85
+      ],
+      "mirror": 1,
+      "purpose": "Close broad crowns over the north-facing arrival; taller fir shoulders behind."
+    },
+    {
+      "id": "root_hollow",
+      "center_f": -47,
+      "spread_rf": [
+        0.94,
+        1.05
+      ],
+      "mirror": -1,
+      "purpose": "Layered cross-path branches and dense fern roots around the first bend."
+    },
+    {
+      "id": "fern_cathedral",
+      "center_f": -4,
+      "spread_rf": [
+        1.1,
+        0.9
+      ],
+      "mirror": 1,
+      "purpose": "Tall fir backdrop, broadleaf ceiling, alternating pockets of dappled floor."
+    },
+    {
+      "id": "fallen_grove",
+      "center_f": 42,
+      "spread_rf": [
+        0.96,
+        1.04
+      ],
+      "mirror": -1,
+      "purpose": "Interlocking crowns around fallen timber and mossy rock margins."
+    },
+    {
+      "id": "north_canopy",
+      "center_f": 88,
+      "spread_rf": [
+        1.08,
+        0.87
+      ],
+      "mirror": 1,
+      "purpose": "Dense northern destination; long overlapping canopy silhouettes."
+    }
+  ],
+  "mature_offsets_rf": [
+    [
+      -9,
+      -12
+    ],
+    [
+      9,
+      -8
+    ],
+    [
+      -15,
+      2
+    ],
+    [
+      14,
+      8
+    ],
+    [
+      -7,
+      14
+    ],
+    [
+      7,
+      17
+    ],
+    [
+      -23,
+      -5
+    ],
+    [
+      23,
+      -17
+    ],
+    [
+      -28,
+      15
+    ],
+    [
+      28,
+      2
+    ],
+    [
+      -31,
+      -16
+    ],
+    [
+      32,
+      13
+    ],
+    [
+      -38,
+      5
+    ],
+    [
+      39,
+      -8
+    ],
+    [
+      18,
+      25
+    ]
+  ],
+  "regrowth_offsets_rf": [
+    [
+      -6,
+      -110
+    ],
+    [
+      9,
+      -82
+    ],
+    [
+      -12,
+      -74
+    ],
+    [
+      7,
+      -52
+    ],
+    [
+      -7,
+      -30
+    ],
+    [
+      11,
+      -11
+    ],
+    [
+      -8,
+      12
+    ],
+    [
+      9,
+      32
+    ],
+    [
+      -12,
+      55
+    ],
+    [
+      8,
+      75
+    ],
+    [
+      -8,
+      94
+    ],
+    [
+      12,
+      104
+    ]
+  ],
+  "fern_beds": [
+    {
+      "id": "arrival_west",
+      "center_f": -88,
+      "offset_r": -9,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "arrival_east",
+      "center_f": -88,
+      "offset_r": 11,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "hollow_west",
+      "center_f": -46,
+      "offset_r": -9,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "hollow_east",
+      "center_f": -46,
+      "offset_r": 11,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "cathedral_west",
+      "center_f": -4,
+      "offset_r": -9,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "cathedral_east",
+      "center_f": -4,
+      "offset_r": 11,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "fallen_west",
+      "center_f": 38,
+      "offset_r": -46,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "fallen_east",
+      "center_f": 38,
+      "offset_r": 11,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "north_west",
+      "center_f": 87,
+      "offset_r": -9,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    },
+    {
+      "id": "north_east",
+      "center_f": 87,
+      "offset_r": 11,
+      "radii_rf": [
+        5.5,
+        10.5
+      ],
+      "count": 17
+    }
+  ],
+  "rock_beds": [
+    {
+      "id": "bank_00",
+      "center_f": -91,
+      "offset_r": 13,
+      "count": 5
+    },
+    {
+      "id": "bank_01",
+      "center_f": -64,
+      "offset_r": -15,
+      "count": 5
+    },
+    {
+      "id": "bank_02",
+      "center_f": -37,
+      "offset_r": 17,
+      "count": 5
+    },
+    {
+      "id": "bank_03",
+      "center_f": -12,
+      "offset_r": -13,
+      "count": 5
+    },
+    {
+      "id": "bank_04",
+      "center_f": 15,
+      "offset_r": 15,
+      "count": 5
+    },
+    {
+      "id": "bank_05",
+      "center_f": 43,
+      "offset_r": -17,
+      "count": 5
+    },
+    {
+      "id": "bank_06",
+      "center_f": 65,
+      "offset_r": 13,
+      "count": 5
+    },
+    {
+      "id": "bank_07",
+      "center_f": 91,
+      "offset_r": -15,
+      "count": 5
+    },
+    {
+      "id": "bank_08",
+      "center_f": 105,
+      "offset_r": 17,
+      "count": 5
+    }
+  ],
+  "fallen_log_offsets_rf": [
+    [
+      -18,
+      -107
+    ],
+    [
+      16,
+      -78
+    ],
+    [
+      -20,
+      -59
+    ],
+    [
+      18,
+      -35
+    ],
+    [
+      -16,
+      -16
+    ],
+    [
+      21,
+      6
+    ],
+    [
+      -20,
+      29
+    ],
+    [
+      17,
+      49
+    ],
+    [
+      -18,
+      69
+    ],
+    [
+      21,
+      89
+    ],
+    [
+      -23,
+      105
+    ],
+    [
+      24,
+      112
+    ]
+  ],
+  "flower_beds": [
+    {
+      "id": "herb_edge_0",
+      "center_f": -96,
+      "offset_r": 14,
+      "count": 9
+    },
+    {
+      "id": "herb_edge_1",
+      "center_f": -42,
+      "offset_r": -15,
+      "count": 9
+    },
+    {
+      "id": "herb_edge_2",
+      "center_f": 20,
+      "offset_r": 14,
+      "count": 9
+    },
+    {
+      "id": "herb_edge_3",
+      "center_f": 78,
+      "offset_r": -16,
+      "count": 9
+    }
+  ],
+  "native_views": [
+    {
+      "id": "rainforest",
+      "position_rf": [
+        -15,
+        -95
+      ],
+      "target_rf": [
+        -7,
+        -60
+      ],
+      "position_xz": [
+        -26727.0,
+        9735.496705929329
+      ],
+      "yaw_radians": 0.2,
+      "pitch_radians": -0.04,
+      "eye_height_m": 1.75
+    }
+  ],
+  "budgets": {
+    "new_records_max": 1100,
+    "combined_records_max": 4096,
+    "new_records_target": 750,
+    "mature_broadleaf": 50,
+    "mature_fir": 25,
+    "regrowth": 12,
+    "fern_records": 170,
+    "rock_records": 45,
+    "fallen_logs": 12,
+    "flower_records": 36,
+    "largest_alias_batch_max": 768,
+    "new_showcase_records": 622,
+    "showcase_roots": 28,
+    "showcase_stumps": 20,
+    "showcase_shrubs": 200,
+    "showcase_sorrel": 152,
+    "target_records": 972
+  },
+  "authoring": {
+    "instance_file": "rainforest_instances.txt",
+    "manifest_file": "rainforest_manifest.json",
+    "generator": "tools/build_rainforest_area.py",
+    "protect_existing_outputs": true
+  },
+  "route_metrics": {
+    "path_length_m": 216.3164730267849,
+    "full_walk_return_m": 432.6329460535698,
+    "authoring_footprint_m": [
+      210,
+      235
+    ],
+    "validation": "Generator checks actual GLB low-body/full-prop footprints and real atlas grade; native collider/render proof is independent."
+  },
+  "pond": {
+    "center_rf": [
+      -22,
+      25
+    ],
+    "center_xz": [
+      -26734.0,
+      9615.496705929329
+    ],
+    "radii_rf": [
+      10,
+      16
+    ],
+    "surface_y": 134.0,
+    "bank_feather_m": 6.0,
+    "reserve_min_rf": [
+      -38,
+      3
+    ],
+    "reserve_max_rf": [
+      -6,
+      47
+    ],
+    "policy": "Terrestrial low bodies and complete plant/prop footprints reserve the whole bank rectangle. Existing bank rocks may frame the water only beyond a conservative full-footprint ellipse and actual dry-water checks. Tree crowns may overhang.",
+    "placement_contract": "Tree bodies retain full bank reserve; dry-bank props use conservative full-footprint ellipse clearance plus 5x5 actual local-water checks."
+  },
+  "showcase_beds": [
+    {
+      "id": "entry_exposedroots",
+      "alias": "showcase_roots",
+      "center_f": -88,
+      "offset_r": -18,
+      "radii_rf": [
+        7,
+        10
+      ],
+      "count": 4,
+      "scale_range": [
+        0.7,
+        1.25
+      ],
+      "burial": 0.12
+    },
+    {
+      "id": "entry_deadstumps",
+      "alias": "showcase_stump",
+      "center_f": -80,
+      "offset_r": 18,
+      "radii_rf": [
+        7,
+        9
+      ],
+      "count": 3,
+      "scale_range": [
+        0.9,
+        1.8
+      ],
+      "burial": 0.06
+    },
+    {
+      "id": "hollow_exposedroots",
+      "alias": "showcase_roots",
+      "center_f": -48,
+      "offset_r": 18,
+      "radii_rf": [
+        7,
+        10
+      ],
+      "count": 4,
+      "scale_range": [
+        0.7,
+        1.25
+      ],
+      "burial": 0.12
+    },
+    {
+      "id": "hollow_deadstumps",
+      "alias": "showcase_stump",
+      "center_f": -40,
+      "offset_r": -18,
+      "radii_rf": [
+        7,
+        9
+      ],
+      "count": 2,
+      "scale_range": [
+        0.9,
+        1.8
+      ],
+      "burial": 0.06
+    },
+    {
+      "id": "cathedral_exposedroots",
+      "alias": "showcase_roots",
+      "center_f": -4,
+      "offset_r": -45,
+      "radii_rf": [
+        7,
+        10
+      ],
+      "count": 2,
+      "scale_range": [
+        0.7,
+        1.25
+      ],
+      "burial": 0.12
+    },
+    {
+      "id": "cathedral_deadstumps",
+      "alias": "showcase_stump",
+      "center_f": 4,
+      "offset_r": 45,
+      "radii_rf": [
+        7,
+        9
+      ],
+      "count": 2,
+      "scale_range": [
+        0.9,
+        1.8
+      ],
+      "burial": 0.06
+    },
+    {
+      "id": "fallen_exposedroots",
+      "alias": "showcase_roots",
+      "center_f": 51,
+      "offset_r": 18,
+      "radii_rf": [
+        7,
+        10
+      ],
+      "count": 2,
+      "scale_range": [
+        0.7,
+        1.25
+      ],
+      "burial": 0.12
+    },
+    {
+      "id": "fallen_deadstumps",
+      "alias": "showcase_stump",
+      "center_f": 59,
+      "offset_r": 26,
+      "radii_rf": [
+        7,
+        9
+      ],
+      "count": 1,
+      "scale_range": [
+        0.9,
+        1.8
+      ],
+      "burial": 0.06
+    },
+    {
+      "id": "entrywest_leafbed",
+      "alias": "showcase_shrub",
+      "center_f": -89,
+      "offset_r": -15,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 22,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "entryeast_leafbed",
+      "alias": "showcase_shrub_b",
+      "center_f": -81,
+      "offset_r": 17,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 18,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "hollowwest_leafbed",
+      "alias": "showcase_shrub",
+      "center_f": -49,
+      "offset_r": -18,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 18,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "holloweast_leafbed",
+      "alias": "showcase_shrub_b",
+      "center_f": -40,
+      "offset_r": 16,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 14,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "pondwest_leafbed",
+      "alias": "showcase_shrub",
+      "center_f": 23,
+      "offset_r": -48,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 0,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "pondpath_leafbed",
+      "alias": "showcase_shrub_b",
+      "center_f": 18,
+      "offset_r": 14,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 0,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "fallenwest_leafbed",
+      "alias": "showcase_shrub",
+      "center_f": 61,
+      "offset_r": -19,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 12,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "falleneast_leafbed",
+      "alias": "showcase_shrub_b",
+      "center_f": 51,
+      "offset_r": 19,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 10,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "northwest_leafbed",
+      "alias": "showcase_shrub",
+      "center_f": 91,
+      "offset_r": -18,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 10,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "northeast_leafbed",
+      "alias": "showcase_shrub_b",
+      "center_f": 100,
+      "offset_r": 18,
+      "radii_rf": [
+        6,
+        10
+      ],
+      "count": 8,
+      "scale_range": [
+        0.65,
+        1.15
+      ],
+      "burial": 0.012
+    },
+    {
+      "id": "arrival_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": -100,
+      "offset_r": 11,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 16,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "root_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": -73,
+      "offset_r": -13,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 16,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "hollow_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": -43,
+      "offset_r": 12,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 12,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "southpond_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": -3,
+      "offset_r": 12,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 8,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "pondoutside_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": 35,
+      "offset_r": 15,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 0,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "fallen_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": 60,
+      "offset_r": -13,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 12,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "north_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": 93,
+      "offset_r": 14,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 12,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "northwest_sorrelcarpet",
+      "alias": "showcase_sorrel",
+      "center_f": 103,
+      "offset_r": -14,
+      "radii_rf": [
+        4,
+        7
+      ],
+      "count": 12,
+      "scale_range": [
+        2.1,
+        3.8
+      ],
+      "burial": 0.003
+    },
+    {
+      "id": "pool_showcase_roots_0",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -8,
+        14
+      ],
+      "center_f": 14,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        2.5
+      ],
+      "count": 4,
+      "scale_range": [
+        1.0,
+        1.4
+      ],
+      "burial": 0.1,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_roots_1",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -8,
+        36
+      ],
+      "center_f": 36,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        2.5
+      ],
+      "count": 4,
+      "scale_range": [
+        1.0,
+        1.4
+      ],
+      "burial": 0.1,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_roots_2",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -36,
+        16
+      ],
+      "center_f": 16,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        2.5
+      ],
+      "count": 4,
+      "scale_range": [
+        1.0,
+        1.4
+      ],
+      "burial": 0.1,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_roots_3",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -36,
+        35
+      ],
+      "center_f": 35,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        2.5
+      ],
+      "count": 4,
+      "scale_range": [
+        1.0,
+        1.4
+      ],
+      "burial": 0.1,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_stump_0",
+      "alias": "showcase_stump",
+      "center_rf": [
+        -7.5,
+        10
+      ],
+      "center_f": 10,
+      "offset_r": 0,
+      "radii_rf": [
+        1.6,
+        2.3
+      ],
+      "count": 4,
+      "scale_range": [
+        1.2,
+        1.9
+      ],
+      "burial": 0.045,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_stump_1",
+      "alias": "showcase_stump",
+      "center_rf": [
+        -7.5,
+        40
+      ],
+      "center_f": 40,
+      "offset_r": 0,
+      "radii_rf": [
+        1.6,
+        2.3
+      ],
+      "count": 4,
+      "scale_range": [
+        1.2,
+        1.9
+      ],
+      "burial": 0.045,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_stump_2",
+      "alias": "showcase_stump",
+      "center_rf": [
+        -40,
+        28
+      ],
+      "center_f": 28,
+      "offset_r": 0,
+      "radii_rf": [
+        1.6,
+        2.3
+      ],
+      "count": 4,
+      "scale_range": [
+        1.2,
+        1.9
+      ],
+      "burial": 0.045,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_0",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -10,
+        14
+      ],
+      "center_f": 14,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 12,
+      "scale_range": [
+        0.8,
+        1.25
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_1",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -10,
+        36
+      ],
+      "center_f": 36,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 12,
+      "scale_range": [
+        0.8,
+        1.25
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_2",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -35,
+        13
+      ],
+      "center_f": 13,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 12,
+      "scale_range": [
+        0.8,
+        1.25
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_3",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -35,
+        37
+      ],
+      "center_f": 37,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 12,
+      "scale_range": [
+        0.8,
+        1.25
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_b_0",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        -9,
+        13
+      ],
+      "center_f": 13,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 10,
+      "scale_range": [
+        0.75,
+        1.2
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_b_1",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        -9,
+        37
+      ],
+      "center_f": 37,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 10,
+      "scale_range": [
+        0.75,
+        1.2
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_b_2",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        -36,
+        20
+      ],
+      "center_f": 20,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 10,
+      "scale_range": [
+        0.75,
+        1.2
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_shrub_b_3",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        -36,
+        32
+      ],
+      "center_f": 32,
+      "offset_r": 0,
+      "radii_rf": [
+        2.1,
+        3.0
+      ],
+      "count": 10,
+      "scale_range": [
+        0.75,
+        1.2
+      ],
+      "burial": 0.012,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_sorrel_0",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -10.4,
+        18
+      ],
+      "center_f": 18,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        2.8
+      ],
+      "count": 16,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_sorrel_1",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -10.4,
+        32
+      ],
+      "center_f": 32,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        2.8
+      ],
+      "count": 16,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_sorrel_2",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -24,
+        6
+      ],
+      "center_f": 6,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        2.8
+      ],
+      "count": 16,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "pool_showcase_sorrel_3",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -24,
+        44
+      ],
+      "center_f": 44,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        2.8
+      ],
+      "count": 16,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.3,
+        0.4
+      ]
+    },
+    {
+      "id": "arrival_close_showcase_roots_0",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -25,
+        -81
+      ],
+      "center_f": -81,
+      "offset_r": 0,
+      "radii_rf": [
+        1,
+        1
+      ],
+      "count": 4,
+      "scale_range": [
+        0.9,
+        1.3
+      ],
+      "burial": 0.08,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": true
+    },
+    {
+      "id": "arrival_close_showcase_roots_1",
+      "alias": "showcase_roots",
+      "center_rf": [
+        -1,
+        -72
+      ],
+      "center_f": -72,
+      "offset_r": 0,
+      "radii_rf": [
+        1,
+        1
+      ],
+      "count": 4,
+      "scale_range": [
+        0.9,
+        1.3
+      ],
+      "burial": 0.08,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": true
+    },
+    {
+      "id": "arrival_close_showcase_stump_0",
+      "alias": "showcase_stump",
+      "center_rf": [
+        0,
+        -65
+      ],
+      "center_f": -65,
+      "offset_r": 0,
+      "radii_rf": [
+        2.5,
+        3
+      ],
+      "count": 4,
+      "scale_range": [
+        1.1,
+        1.7
+      ],
+      "burial": 0.05,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_shrub_0",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -21,
+        -84
+      ],
+      "center_f": -84,
+      "offset_r": 0,
+      "radii_rf": [
+        3,
+        4
+      ],
+      "count": 17,
+      "scale_range": [
+        0.85,
+        1.25
+      ],
+      "burial": 0.01,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_shrub_1",
+      "alias": "showcase_shrub",
+      "center_rf": [
+        -13,
+        -70
+      ],
+      "center_f": -70,
+      "offset_r": 0,
+      "radii_rf": [
+        3,
+        4
+      ],
+      "count": 17,
+      "scale_range": [
+        0.85,
+        1.25
+      ],
+      "burial": 0.01,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_shrub_b_0",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        -3,
+        -81
+      ],
+      "center_f": -81,
+      "offset_r": 0,
+      "radii_rf": [
+        3,
+        4
+      ],
+      "count": 13,
+      "scale_range": [
+        0.8,
+        1.2
+      ],
+      "burial": 0.01,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_shrub_b_1",
+      "alias": "showcase_shrub_b",
+      "center_rf": [
+        0,
+        -65
+      ],
+      "center_f": -65,
+      "offset_r": 0,
+      "radii_rf": [
+        3,
+        4
+      ],
+      "count": 13,
+      "scale_range": [
+        0.8,
+        1.2
+      ],
+      "burial": 0.01,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_sorrel_0",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -20,
+        -86
+      ],
+      "center_f": -86,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        3.0
+      ],
+      "count": 30,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_sorrel_1",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -2,
+        -83
+      ],
+      "center_f": -83,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        3.0
+      ],
+      "count": 30,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_sorrel_2",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -12,
+        -71
+      ],
+      "center_f": -71,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        3.0
+      ],
+      "count": 30,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_sorrel_3",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        0,
+        -64
+      ],
+      "center_f": -64,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        3.0
+      ],
+      "count": 30,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    },
+    {
+      "id": "arrival_close_showcase_sorrel_4",
+      "alias": "showcase_sorrel",
+      "center_rf": [
+        -23,
+        -76
+      ],
+      "center_f": -76,
+      "offset_r": 0,
+      "radii_rf": [
+        2.0,
+        3.0
+      ],
+      "count": 30,
+      "scale_range": [
+        2.8,
+        4.0
+      ],
+      "burial": 0.002,
+      "jitter_spread_rf": [
+        0.4,
+        0.5
+      ],
+      "at_tree_base": false
+    }
+  ],
+  "extra_clear_views": [
+    {
+      "id": "pool_camera",
+      "position_rf": [
+        -3,
+        25
+      ],
+      "clear_radius_m": 1.5
+    }
+  ]
+}

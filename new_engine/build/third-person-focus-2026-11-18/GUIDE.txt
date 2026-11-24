@@ -1,0 +1,29 @@
+Valwood — Third-person focus and desktop review — Linux
+
+Use the stable launchers in /home/computer/Desktop/final_engine.
+Demo, editor, arena, jousting and world share one executable and shader bank.
+
+This generation retains the prior movement blend, landed blunt-hit interruption,
+owned reactions, crowd camera room, and selected rig/outfit through quick steps.
+It adds player head/boot framing constraints to render-only focus transitions.
+The settled goal, swept camera position, logical aim, movement, collision and
+combat clocks remain unchanged. A private observation trace adds no QA driver
+or inputs and is disabled unless explicitly requested in a private project.
+
+The final binary passed six SDL-controller/live-AI knight/orc combat scenes,
+all four melee rigs and quick steps, and 1,524 equipment checks. All sampled
+locked-frame player head/feet and focused target centers stayed in the frustum.
+The new bounds pass 288 regression cases at 30/60/144 Hz across screen shapes;
+the prior focus controller regression also passes. Source/body contact and gait
+results from the parent generation are inherited, not claimed rerun here.
+
+Normal desktop validation used a real, focused X11 window, native keyboard/mouse
+events and the ordinary unbounded real-time loop. It checked walk/run/stop,
+strafing, side guards, focus, dodge, attacks and stow/draw. The physical F310 was
+excluded from that keyboard/mouse check to isolate concurrent inputs. Separate
+virtual-controller combat tests cover its action routes. This does not certify
+physical-controller feel, sustained hardware FPS, all appearances, every mesh
+overlap or AAA perfection. Actual silent recordings and scope are in review/.
+
+Live saves, authored worlds, shared shaders and texture banks are retained.
+No Windows build was made.

@@ -1,0 +1,24 @@
+Native buildout v2 diagnostic performance
+RX5300 |1600x900 Balanced |autoquality off |render-scale1
+Motion-only,3900samples; no timing-process readbacks; loading/cuts/holds excluded.
+All13zones: 43.89meanFPS / 22.78meanms / 36.75p99ms.
+
+Zone                         MeanFPS Meanms P99ms
+arrival-camp                    28.78  34.75  37.76
+woodland-creek-bridge           33.06  30.24  33.04
+west-river-bank                 54.48  18.36  21.06
+town-approach                   67.07  14.91  17.75
+town-market                     77.68  12.87  15.05
+waterfront-bridge               91.53  10.93  12.74
+great-south-river               47.24  21.17  23.37
+rolling-meadow                  41.73  23.97  30.11
+central-creek                   35.79  27.94  31.33
+eastern-woodland                32.92  30.38  34.45
+north-rocky-crown               39.02  25.63  30.61
+central-footbridge              39.82  25.11  28.28
+timber-quay                     50.16  19.94  24.47
+
+First11 matched-label cohort: new 43.80FPS /22.83ms /p9936.85ms; historical vegetation 43.75FPS /22.86ms /p9936.35ms.
+Mean frame-time change -0.11%; p99 change +1.38%.
+All recorded camera poses matched: False.
+Motion frame wall times only; loading/cuts/holds excluded. Full13 cannot be compared to historical11 mean. Same camera labels and recorded poses are checked; scene and runtime revisions differ, so this is a descriptive route-cohort comparison, not an isolated optimization A/B. Visual acceptance failed for floating houses/market gaps and requires new town refinement; passed runtime guards do not mean visual approval. No sustained gameplay/targetFPS guarantee.

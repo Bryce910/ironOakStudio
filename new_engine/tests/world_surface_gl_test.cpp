@@ -1,0 +1,48 @@
+#define GL_GLEXT_PROTOTYPES
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_opengl.h>
+#include "stb_image.h"
+#include "gl_helpers.h"
+#include "engine/world_surface_images.h"
+#include "engine/world_shader_graph.h"
+#include <cassert>
+#include <cmath>
+#include <cstdio>
+#include <cstdlib>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <cstring>
+static GLuint shader(GLenum kind,const std::string &source){GLuint s=glCreateShader(kind);const char *p=source.c_str();glShaderSource(s,1,&p,nullptr);glCompileShader(s);GLint ok=0;glGetShaderiv(s,GL_COMPILE_STATUS,&ok);if(!ok){char log[8192];glGetShaderInfoLog(s,sizeof log,nullptr,log);std::fprintf(stderr,"%s\n",log);}assert(ok);return s;}
+static GLuint link(const std::string &vs,const std::string &fs){GLuint a=shader(GL_VERTEX_SHADER,vs),b=shader(GL_FRAGMENT_SHADER,fs),p=glCreateProgram();glAttachShader(p,a);glAttachShader(p,b);glLinkProgram(p);GLint ok=0;glGetProgramiv(p,GL_LINK_STATUS,&ok);if(!ok){char log[8192];glGetProgramInfoLog(p,sizeof log,nullptr,log);std::fprintf(stderr,"%s\n",log);}assert(ok);glDeleteShader(a);glDeleteShader(b);return p;}
+static std::string read(const std::string &file){char *source=glsl_load(file.c_str());assert(source);std::string out=source;std::free(source);return out;}
+static void close(float a,float b){assert(std::abs(a-b)<.001f);}
+int main(int argc,char **argv){
+ assert(argc==2);assert(SDL_Init(SDL_INIT_VIDEO)==0);SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION,3);SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION,3);SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK,SDL_GL_CONTEXT_PROFILE_CORE);
+ auto *window=SDL_CreateWindow("Surface contracts",0,0,16,16,SDL_WINDOW_OPENGL|SDL_WINDOW_HIDDEN);assert(window);auto context=SDL_GL_CreateContext(window);assert(context);std::printf("Surface renderer: %s\n",glGetString(GL_RENDERER));
+ std::string root=argv[1],error;world_graph::Graph graph;graph.alias="texture_target";world_graph::Node uv;uv.op=world_graph::Op::UV;graph.nodes.push_back(uv);world_graph::Node image;image.id=1;image.op=world_graph::Op::TextureRGB;image.value[3]=0;image.inputs[0]=0;graph.nodes.push_back(image);graph.outputs[0]=1;world_graph::Code code;assert(world_graph::compile({graph},code,error));
+ auto production=[&](const char *name){auto s=read(root+"/shaders/"+name);s.insert(s.find('\n')+1,"#define VALWOOD_STUDIO_GRAPH 1\n#define VALWOOD_STUDIO_SURFACES 1\n#define VALWOOD_HDR_ENVIRONMENT 1\n#define VALWOOD_IMPORTED_SURFACES 1\n#define VALWOOD_LOCAL_WIND 1\n#define VALWOOD_STUDIO_WATER 1\n");for(auto replacement:{std::make_pair("// VALWOOD_GRAPH_SURFACE",code.surface),std::make_pair("// VALWOOD_GRAPH_VERTEX",code.vertex)}){auto at=s.find(replacement.first);if(at!=std::string::npos)s.replace(at,std::strlen(replacement.first),replacement.second);}return s;};
+ GLuint models=link(production("world_foliage.vs.glsl"),production("world_foliage.fs.glsl")),terrain=link(production("world_terrain.vs.glsl"),production("world_terrain.fs.glsl")),water=link(production("world_water.vs.glsl"),production("world_water.fs.glsl")),shadow=link(production("world_foliage.vs.glsl"),production("world_foliage_shadow.fs.glsl"));
+ auto dynamic=link(production("world_dynamic.vs.glsl"),production("world_foliage.fs.glsl"));auto skeletal=link(production("world_skeletal.vs.glsl"),production("world_foliage.fs.glsl"));
+ GLint active=0,components=0;glGetProgramiv(models,GL_ACTIVE_UNIFORMS,&active);glGetIntegerv(GL_MAX_FRAGMENT_UNIFORM_COMPONENTS,&components);unsigned samplers=0;
+ for(int i=0;i<active;i++){char name[256];GLsizei length=0;GLint count=0;GLenum type=0;glGetActiveUniform(models,unsigned(i),sizeof name,&length,&count,&type,name);if(type==GL_SAMPLER_2D||type==GL_SAMPLER_3D||type==GL_SAMPLER_CUBE||type==GL_SAMPLER_2D_ARRAY)samplers+=count;}
+ assert(samplers<=16);std::printf("Full model variant: %u active samplers; fragment uniform component budget %d\n",samplers,components);
+ auto library=read(root+"/shaders/world_surface_library.fs.glsl");
+ const std::string vs="#version 330 core\nvoid main(){vec2 p=vec2((gl_VertexID<<1)&2,gl_VertexID&2);gl_Position=vec4(p*2.-1.,0,1);}";
+ const std::string prefix="#version 330 core\n#define VALWOOD_IMPORTED_SURFACES 1\n#define STUDIO_SURFACE_SAMPLER atlas\nuniform sampler2DArray atlas;uniform vec2 sampleUV;uniform float sampleLOD;uniform vec3 sampleWorld,sampleNormal;uniform bool projection,terrainPaint;out vec4 result;\n";
+ auto test=link(vs,prefix+library+"\nvoid main(){if(!projection){float dx=exp2(sampleLOD)/1020.;result=studioImage(0,sampleUV,vec2(dx,0),vec2(0,dx));}else{vec3 c=vec3(.25),n=sampleNormal;float r=.8,m=0.,a=1.;studioSurface(sampleWorld,sampleUV,mat3(vec3(1,0,0),vec3(0,0,1),sampleNormal),terrainPaint,c,r,m,n,a);result=vec4(c,r);}}\n");
+ world_surface::PackedImage packed;std::array<std::uint8_t,8*8*4> pixels={};for(unsigned y=0;y<8;y++)for(unsigned x=0;x<8;x++){pixels[(y*8+x)*4]=std::uint8_t(x*31);pixels[(y*8+x)*4+1]=std::uint8_t(y*31);pixels[(y*8+x)*4+2]=100;pixels[(y*8+x)*4+3]=200;}
+ assert(world_surface::pack_image(pixels.data(),8,8,world_surface::ImageRole::Color,packed,error));GLuint array=0,output=0,fbo=0,vao=0;
+ glGenTextures(1,&array);glBindTexture(GL_TEXTURE_2D_ARRAY,array);glTexImage3D(GL_TEXTURE_2D_ARRAY,0,GL_RGBA8,513,513,16,0,GL_RGBA,GL_UNSIGNED_BYTE,nullptr);glTexSubImage3D(GL_TEXTURE_2D_ARRAY,0,0,0,6,513,513,6,GL_RGBA,GL_UNSIGNED_BYTE,packed.rgba.data());glTexParameteri(GL_TEXTURE_2D_ARRAY,GL_TEXTURE_MIN_FILTER,GL_LINEAR);glTexParameteri(GL_TEXTURE_2D_ARRAY,GL_TEXTURE_MAG_FILTER,GL_LINEAR);glTexParameteri(GL_TEXTURE_2D_ARRAY,GL_TEXTURE_WRAP_S,GL_CLAMP_TO_EDGE);glTexParameteri(GL_TEXTURE_2D_ARRAY,GL_TEXTURE_WRAP_T,GL_CLAMP_TO_EDGE);
+ glGenTextures(1,&output);glBindTexture(GL_TEXTURE_2D,output);glTexImage2D(GL_TEXTURE_2D,0,GL_RGBA32F,16,16,0,GL_RGBA,GL_FLOAT,nullptr);glGenFramebuffers(1,&fbo);glBindFramebuffer(GL_FRAMEBUFFER,fbo);glFramebufferTexture2D(GL_FRAMEBUFFER,GL_COLOR_ATTACHMENT0,GL_TEXTURE_2D,output,0);assert(glCheckFramebufferStatus(GL_FRAMEBUFFER)==GL_FRAMEBUFFER_COMPLETE);glGenVertexArrays(1,&vao);glBindVertexArray(vao);glViewport(0,0,16,16);glUseProgram(test);
+ auto at=[&](const char *name){return glGetUniformLocation(test,name);};glUniform1i(at("uSurfaceImageCount"),1);glUniform1i(at("uSurfaceBinding"),-1);glUniform1i(at("uSurfaceImageRole[0]"),0);std::array<GLint,40> rects={};auto layout=world_surface::image_rects();for(unsigned i=0;i<10;i++){rects[i*4]=layout[i].x;rects[i*4+1]=layout[i].y;rects[i*4+2]=layout[i].side;rects[i*4+3]=layout[i].layer;}glUniform4iv(at("uSurfaceMipRect[0]"),10,rects.data());
+ auto pixel=[&](){glDrawArrays(GL_TRIANGLES,0,3);std::array<float,4> result;glReadPixels(8,8,1,1,GL_RGBA,GL_FLOAT,result.data());for(float v:result)assert(std::isfinite(v));return result;};
+ for(float lod:{0.f,.5f,1.f,2.4f,8.5f,9.f})for(auto uv:{std::array<float,2>{.49999f,.5f},std::array<float,2>{.50001f,.2f},std::array<float,2>{-.01f,1.99f}}){glUniform2fv(at("sampleUV"),1,uv.data());glUniform1f(at("sampleLOD"),lod);auto actual=pixel(),expected=world_surface::sample_image(packed,uv[0],uv[1],lod);for(unsigned k=0;k<4;k++)close(actual[k],expected[k]);}
+ glUniform1i(at("projection"),1);glUniform1i(at("uSurfaceLayerCount"),1);glUniform4i(at("uSurfaceLayerMaps[0]"),0,-1,-1,0);glUniform4f(at("uSurfaceLayerTint[0]"),1,1,1,1);glUniform4f(at("uSurfaceLayerParams[0]"),.8f,0,1,0);glUniform1i(at("uSurfaceProjectionCount"),1);glUniform3f(at("uSurfaceProjectionMinimum"),-1,-1,-1);glUniform3f(at("uSurfaceProjectionMaximum"),1,1,1);glUniform4f(at("uSurfaceProjectionPosition[0]"),0,0,0,1);glUniform4f(at("uSurfaceProjectionSize[0]"),1,1,1,.1f);glUniform4f(at("uSurfaceProjectionParams[0]"),0,.1f,0,0);const float identity[]={1,0,0,0,1,0,0,0,1};glUniformMatrix3fv(at("uSurfaceProjectionBasis[0]"),1,GL_FALSE,identity);glUniform3f(at("sampleWorld"),0,0,0);glUniform3f(at("sampleNormal"),0,1,0);
+ auto projected=pixel(),sample=world_surface::sample_image(packed,.5,.5,0);for(unsigned k=0;k<3;k++)close(projected[k],.25f*(1-sample[3])+sample[k]*sample[3]);
+ glUniform3f(at("sampleNormal"),0,-1,0);auto back=pixel();for(unsigned k=0;k<3;k++)close(back[k],.25f);glUniform3f(at("sampleNormal"),0,1,0);glUniform3f(at("sampleWorld"),2,0,0);back=pixel();for(unsigned k=0;k<3;k++)close(back[k],.25f);
+
+ world_surface::Data paint_data;paint_data.layers.push_back({});paint_data.paint.push_back({128,0,12,.75f,0,false});world_surface::PaintField field;assert(world_surface::bake_paint(paint_data,field,error));std::vector<std::uint8_t> paint_pixels;assert(world_surface::pack_paint(field,paint_pixels,error));glBindTexture(GL_TEXTURE_2D_ARRAY,array);glTexSubImage3D(GL_TEXTURE_2D_ARRAY,0,0,0,12,513,513,4,GL_RGBA,GL_UNSIGNED_BYTE,paint_pixels.data());glUniform1i(at("uSurfaceProjectionCount"),0);glUniform1i(at("uSurfacePaintCount"),int(field.tiles.size()));glUniform1i(at("uSurfacePaintBase"),12);glUniform4f(at("uSurfacePaintBounds"),0,-128,256,128);glUniform1i(at("terrainPaint"),1);glUniform3f(at("sampleWorld"),128,0,0);
+ auto painted=pixel(),paint_color=world_surface::sample_image(packed,128,0,0);float weight=191.f/255;for(unsigned k=0;k<3;k++)close(painted[k],.25f*(1-weight)+paint_color[k]*weight);
+ glUseProgram(0);glBindFramebuffer(GL_FRAMEBUFFER,0);glDeleteTextures(1,&array);glDeleteTextures(1,&output);glDeleteFramebuffers(1,&fbo);glDeleteVertexArrays(1,&vao);for(GLuint p:{models,terrain,water,shadow,dynamic,skeletal,test})glDeleteProgram(p);assert(glGetError()==GL_NO_ERROR);SDL_GL_DeleteContext(context);SDL_DestroyWindow(window);SDL_Quit();std::puts("PASS native surfaces: all production feature variants, sampler budget, actual wrapped/mip/color/terrain-hash pixels and alpha/normal-facing projection rejection");
+}

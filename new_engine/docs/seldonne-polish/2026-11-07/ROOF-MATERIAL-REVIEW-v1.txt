@@ -1,0 +1,12 @@
+Roof material review — completed, read-only; no roof alteration
+
+Both foreground buildings in capture-view-7-town-approach-end.png use the painted HouseOne alias nm_city_16_sm_house_one__paint_f35e01eef0. Near/MID MI_Roof2 materials and embedded roof image bytes match.
+
+No confirmed runtime/import/mip defect was found. Roof metalness is0; roughness is121/255. The authored AO is exceptionally dark (mean.12381, median.07059), which the source-AO shader applies to ambient. Black gaps and weathered shingles also exist in the purchased base image. Base/normal/ARM color roles are correct; none of these roof textures uses the owned BC7 cache.
+
+Original caveat from PUBLISHER_SOURCE.md: The ALL-format FBX merges the distinct UE `Roof2`/`Roof2_2` face assignments on House One and House Five; canonical source Roof2 is retained rather than guessing missing face identities. Source POM is also not executed.
+
+No channel/gamma/UV change is justified. A future change should be an explicit artist AO/material review against reference lighting or recovery of original UE face assignments. This audit did not isolate AO with a GPU A/B test.
+
+Bound model, image, source-material, shader and screenshot hashes: /home/computer/Desktop/final_engine/new_engine/docs/seldonne-polish/2026-11-07/ROOF-MATERIAL-REVIEW-v1.json
+SHA256: fe3242758c757f512ae52ad52c9630e4a1a6a8a0f8b1b9813c5320124f26a556

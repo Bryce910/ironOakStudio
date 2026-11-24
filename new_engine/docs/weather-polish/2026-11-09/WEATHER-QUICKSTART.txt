@@ -1,0 +1,24 @@
+Open Edit Seldonne Region, then choose Weather in the editor.
+
+Global baseline: enable Override existing world weather, then choose Clear,
+Overcast, Rain or Storm. Rain, Thunder and Lightning can be switched separately.
+Clouds, mist and variation contains the minimum/maximum ranges and timing.
+
+Local weather: choose Place weather area on map, then click the ground.
+The inner ring has full effect. The outer ring blends into the surroundings.
+Higher priority areas override lower priority areas; a clear area can shelter
+a region from a global storm. Move, duplicate, Undo/Redo and Save All use the
+ordinary editor workflow. Weather edits do not rebuild terrain.
+
+Rain now has separate water, mud and stone contact responses, with drips from
+nearby roof edges and leaves. Wet ground
+builds surface film gradually and stays damp after rain stops. It dries over
+minutes of active play. Wetness history is a bounded visual effect for the
+current session; it is not saved as a fluid simulation.
+
+Storm clouds, cloud shadows and lighting use the authored weather areas.
+Lightning illuminates nearby exposed surfaces and clouds. Thunder is delayed
+by distance, changes recording with distance and is muffled indoors.
+
+Save All saves weather settings and areas. A paused, unfocused or loading game
+does not advance weather time or catch up missed thunder when resumed.

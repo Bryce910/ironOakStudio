@@ -1,0 +1,69 @@
+{
+  "prepared": true,
+  "compiled": false,
+  "GPU_used": false,
+  "frozen": false,
+  "plan_sha256": "621793cdcd3296210e9f03e24458bb7db8838ec09e0dac92ff6fcea2a8b8d2d7",
+  "compiled_units": [
+    "engine/world_studio_tools.cpp",
+    "engine/world_assets.cpp",
+    "engine/world_studio.cpp",
+    "engine/world_demo_audio.cpp",
+    "engine/world_viewer.cpp",
+    "engine/world_weather.cpp",
+    "engine/world_scenery.cpp",
+    "engine/world_editor_picking.cpp",
+    "engine/world_designer_scene_index.cpp",
+    "engine/world_designer.cpp",
+    "engine/world_designer_workspace.cpp",
+    "engine/world_runtime_components.cpp",
+    "engine/world_runtime_demo.cpp",
+    "engine/world_entity_graph.cpp",
+    "engine/world_prefab.cpp",
+    "engine/world_authoring_identity.cpp",
+    "engine/world_editor_session.cpp",
+    "engine/world_terrain_authoring.cpp",
+    "engine/world_cinematics_audio.cpp",
+    "engine/world_pond_field.cpp",
+    "tools/validate_world_authoring.cpp"
+  ],
+  "total_objects": 103,
+  "retained_objects": 83,
+  "compiler_support_files": 527,
+  "new_header_consumers": {
+    "engine/world_lightning_visual.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_storm_controller.h": [
+      "engine/world_demo_audio.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_weather_view.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather_authoring.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "engine/world_weather.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_weather_runtime.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather_transition.h": [
+      "engine/world_viewer.cpp"
+    ]
+  },
+  "parent_replay": "All bytes exact except explicit comparison-only COFF timestamp and PE checksum fields"
+}

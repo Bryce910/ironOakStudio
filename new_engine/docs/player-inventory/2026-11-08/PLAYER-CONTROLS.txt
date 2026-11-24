@@ -1,0 +1,27 @@
+VALWOOD PLAYER INVENTORY
+
+Open / close: I (keyboard), Back / View / Share (controller).
+Select a tile: mouse click, or navigate with D-pad / left stick and A / Enter.
+Equip a weapon / armor, or use food: button in item details, X (keyboard / controller).
+Unequip selected armor: U (keyboard), Y / Triangle (controller).
+Categories: click All / Gear / Food / Quest, or LB / RB.
+Close: Escape or B / Circle; return all sticks, triggers and movement keys to neutral.
+
+Story: Bram's loan grants the four existing melee loadouts and basic armor.
+After defeating the road raider, approach and press E / A to search the body.
+Loot contains roadwarden mail, an iron helmet, a healing draught and two apples.
+Rowan's recovered supplies occupy a protected quest slot until the hand-in.
+Rowan's reward adds bread and a letter; the quest still owns its original copper reward.
+Bread restores 30 health; apples restore 35 stamina; draughts restore 60 health.
+Items are kept when the relevant resource is full. Dead characters cannot consume food.
+At the town greeters, open inventory to buy provisions with earned copper.
+One hundred copper = one silver. One hundred silver = one gold.
+
+Weapon choices change the visible weapon in first and third person.
+Armor slots change protection stats. The current knight's armor mesh remains fixed;
+separate compatible armor meshes are needed for different visible armor outfits.
+The bow and its supplied arrows are loaned for arena practice only.
+Arena equipment and currency are saved separately from the story.
+
+Gear changes, consumed items, loot receipts and purchases save automatically.
+Old story/arena saves are migrated on their next save, with no coin reset.

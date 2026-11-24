@@ -1,0 +1,267 @@
+{
+  "version": 3,
+  "name": "Grandstone | Mountain Citadel",
+  "origin": [
+    -43344.0,
+    -23987.82415651827
+  ],
+  "floor": 1130.8125,
+  "production_document": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_stronghold/world.studio",
+  "baseline_sha256": "6fdacc1121bc24c85db52dfe9701a6fe00f328570fc9a6769f019fa516b8b6d5",
+  "placements": 982,
+  "new_placements": 701,
+  "purchased_placements": 495,
+  "asset_definitions": 86,
+  "lights": 24,
+  "emitters": 16,
+  "zones": {
+    "Mountain gate": 29,
+    "Citadel skyline": 54,
+    "Great hall": 309,
+    "Forge wings": 78,
+    "Royal sanctuary": 11,
+    "Mountain interior": 26,
+    "Lower town": 63,
+    "Market hall": 19,
+    "Barracks court": 10,
+    "Winter woodland": 102
+  },
+  "mountain": {
+    "removed_old_low_ceiling_and_back_triangles": 4,
+    "upper_aisle_boundaries_and_high_ceiling": true,
+    "file": "projects/valwood_stronghold/models/stronghold/nature_mountain_shell.glb"
+  },
+  "retextured_boulder": "projects/valwood_stronghold/models/stronghold/nature_snow_boulder.glb",
+  "residents": {
+    "actors": 30,
+    "patrols": 6,
+    "route_local_xz": [
+      [
+        0,
+        265
+      ],
+      [
+        0,
+        225
+      ],
+      [
+        0,
+        194
+      ],
+      [
+        -17,
+        194
+      ],
+      [
+        -17,
+        125
+      ],
+      [
+        -17,
+        83
+      ],
+      [
+        -82,
+        83
+      ],
+      [
+        -17,
+        83
+      ],
+      [
+        0,
+        105
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        -0.15,
+        -55.3
+      ],
+      [
+        -46.35,
+        -56.7
+      ],
+      [
+        -46.7,
+        -84.0
+      ],
+      [
+        -48.8,
+        -84.0
+      ],
+      [
+        -52.3,
+        -93.8
+      ],
+      [
+        -53.0,
+        -101.15
+      ],
+      [
+        -52.3,
+        -93.8
+      ],
+      [
+        -48.8,
+        -84.0
+      ],
+      [
+        -46.7,
+        -84.0
+      ],
+      [
+        -46.35,
+        -56.7
+      ],
+      [
+        -0.15,
+        -55.3
+      ],
+      [
+        -0.15,
+        -55.3
+      ],
+      [
+        46.4,
+        -56.7
+      ],
+      [
+        48.15,
+        -64.05
+      ],
+      [
+        49.9,
+        -64.05
+      ],
+      [
+        53.05,
+        -101.15
+      ],
+      [
+        49.9,
+        -64.05
+      ],
+      [
+        48.15,
+        -64.05
+      ],
+      [
+        46.4,
+        -56.7
+      ],
+      [
+        -0.15,
+        -55.3
+      ],
+      [
+        5,
+        -75
+      ],
+      [
+        5,
+        -130
+      ],
+      [
+        5,
+        -175
+      ],
+      [
+        0,
+        -190
+      ],
+      [
+        0,
+        -197
+      ],
+      [
+        10,
+        -202
+      ],
+      [
+        10,
+        -210
+      ],
+      [
+        10,
+        -202
+      ],
+      [
+        0,
+        -197
+      ],
+      [
+        0,
+        -190
+      ],
+      [
+        -5,
+        -175
+      ],
+      [
+        -5,
+        -130
+      ],
+      [
+        -5,
+        -75
+      ],
+      [
+        0,
+        -40
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        45
+      ],
+      [
+        17,
+        84
+      ],
+      [
+        44,
+        100
+      ],
+      [
+        17,
+        100
+      ],
+      [
+        17,
+        125
+      ],
+      [
+        17,
+        194
+      ],
+      [
+        0,
+        194
+      ],
+      [
+        0,
+        225
+      ],
+      [
+        0,
+        265
+      ]
+    ],
+    "route_length_m": 1597.7791538578908
+  },
+  "source": "Purchased NatureManufacture Modular Castle & Dungeon with retained snow/forest/ice sources"
+}

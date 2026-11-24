@@ -1,0 +1,62 @@
+Seldonne first-region art draft, version1
+
+The ordinary private project is:
+  build/seldonne-first-region-2026-11-07/project-v1
+Art controls are closed for the root agent's renderer/movement review and the
+QA agent's independent clone. This is a CPU-authored draft; no rendered image,
+physical input, movement, sustained FPS or final visual acceptance is claimed.
+
+Reused purchased art: 1,959 explicit source placements, 33 asset aliases.
+  71 source town modules (houses, shops, lamps, carts and stairs)
+  150 oak/beech hero canopy trees
+  184 shrubs, 590 ferns, 639 groundcover pieces
+  206 rocks and bank accents, 105 roadside ferns
+  1 camp assembly, 1 separate roast, 4 camp props and8 market props
+Three travelers form the arrival conversation group; six more actors populate
+the town. Each actor has an explicit source floor. The sixteenth terrain ribbon
+is the camp-to-town Road, which also excludes generated vegetation.
+
+Production input and collision contract:
+  ART-MANIFEST-v1.json contains closed:true, the absolute project path, all
+  placements and source rows. source_row is a1-based line number;
+  source_row_text is the exact encoded line. All14-field placement rows carry
+  explicit final pivotY. Manifest coordinates bind the encoded UV round-trip;
+  the QA consumer still applies the engine's float/radian conversion.
+  Original local publisher UCX catalog/model bindings remain unchanged for
+  used town aliases. Camp aliases use the nm_city_ protected family and cook
+  unchanged visual triangles. No independent collision boxes were invented.
+  Houses preserve their old source floor-to-root relationship. Foundations,
+  lamps and carts therefore have differing rootY; actual visual/Jolt review
+  must identify and correct any inherited placement defect.
+
+The source scene's unrelated opening.scene/opening.config, city/countryside
+ground overlays and old roofs were retired from this private project. Every
+replaced or removed ordinary control has an exact byte backup under:
+  assets/seldonne-first-region/pre-art-controls-v1/
+Exclude those backups from a distributable region add-on. The active terrain
+remains the editable uncarved ground/showcase.height. Never replace that base
+with effective-placement-v1.height; the latter is only an external art sampler.
+
+Models, audio, blood_assets and environments remain read-only links to the
+accepted source bank. No linked asset data or engine source was modified.
+city_showcase.json and publisher_showcase.json remain enabled for the genuine
+source collision/render path; their metadata now describes this new region.
+
+Walking arrival view (city-meadow):
+  X -11988, eyeY13.63000019, Z5180, yaw0, pitch-.08
+  Facing the camp centered at [-11988,11.80000019,5172].
+Additional showcase.views: region-arrival, region-town, region-meadow,
+region-waterfront. These are inspection cameras, not authored cinematics.
+
+CPU evidence:
+  ART-CPU-CHECKS-v1.json:14 checks pass, including1,959 exact source rows,
+  model availability, alias/instance/record limits,16 active ribbons, actor
+  floor records, immutable bank links and16 control-file hashes.
+  Actual valwood_project_validate: ok=true,5 checked documents and1 shipped
+  skeletal asset validated. That validator does not replace the independent
+  production source-mesh/Jolt movement test or root's real renderer review.
+
+Authoring script:
+  docs/seldonne-first-region/2026-11-07/populate_region_v1.py
+Default computes a plan; --build is a guarded one-shot apply to a fresh marked
+private draft and refuses to overwrite the closed art manifest.

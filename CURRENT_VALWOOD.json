@@ -1,0 +1,46 @@
+{
+  "schema": "valwood.current-runtime.v1",
+  "platform": "Linux",
+  "runtime_generation": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22",
+  "binary": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/runtime/rpg",
+  "source": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/source-v1",
+  "working_world": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_current",
+  "shared_shaders": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/shared/shaders",
+  "character_textures": "/home/computer/Desktop/final_engine/new_engine/build/thomas-character-finish-2026-11-21/shared/character-textures",
+  "guide": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/GUIDE.txt",
+  "area_projects": {
+    "city": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_city_current",
+    "grandstone": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_grandstone_current",
+    "showcase": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_showcase_current",
+    "atlas": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_atlas_current"
+  },
+  "binary_sha256": "b8be0d835e52ffc47d78dc9186b612a7144c893890cfd5d9e92017dc4e999e20",
+  "scenery_revision": {
+    "id": "camp-props-2026-11-22",
+    "review": "/home/computer/Desktop/final_engine/new_engine/build/camp-props-2026-11-22/review/NATIVE_ACCEPTANCE.json",
+    "guide": "/home/computer/Desktop/final_engine/new_engine/build/camp-props-2026-11-22/GUIDE.txt"
+  },
+  "renderer_revision": {
+    "id": "water-stability-2026-11-22",
+    "review": "/home/computer/Desktop/final_engine/new_engine/build/water-stability-2026-11-22/review/NATIVE_ACCEPTANCE.json",
+    "fix": "Pair cached water reflection images with their captured mirrored projection; refresh on motion."
+  },
+  "apartment_revision": {
+    "id": "apartment-night-2026-11-22",
+    "guide": "/home/computer/Desktop/final_engine/new_engine/build/apartment-night-2026-11-22/GUIDE.txt",
+    "clip": "/home/computer/Desktop/final_engine/new_engine/build/apartment-night-2026-11-22/review/apartment_night_footsteps.mp4",
+    "fix": "Night apartment, sealed indoor ambience, contact-driven single-owner footsteps, walk-only indoors, civilian scalp tint."
+  },
+  "character_quality_root": "/home/computer/Desktop/final_engine/new_engine/build/character-response-2026-11-22/character-quality",
+  "animation_revision": {
+    "id": "character-response-2026-11-22",
+    "guide": "/home/computer/Desktop/final_engine/new_engine/build/character-response-2026-11-22/GUIDE.txt",
+    "review": "/home/computer/Desktop/final_engine/new_engine/build/character-response-2026-11-22/review/NATIVE_ACCEPTANCE.json",
+    "fix": "Responsive civilian turns and interrupted starts; camp social cadence; corrected hair-edge lighting and coverage."
+  },
+  "battlefield_revision": {
+    "id": "battlefield-opening-2026-11-22",
+    "guide": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/GUIDE.txt",
+    "review": "/home/computer/Desktop/final_engine/new_engine/build/battlefield-opening-2026-11-22/review/NATIVE_ACCEPTANCE.json"
+  }
+}

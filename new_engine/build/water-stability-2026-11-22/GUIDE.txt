@@ -1,0 +1,14 @@
+VALWOOD — WATER STABILITY (Linux, 22 November 2026)
+
+Fixes alternate-frame reflection flashing by retaining the captured mirrored
+projection together with the matching reflection image. A genuinely stationary
+camera can reuse the previous image for one frame. Real movement, camera turns,
+FOV/aspect/target/plane changes, temporal cuts, disabled demand and failed draws
+refresh or invalidate the image. The tiny floating-origin correction uses the
+mirrored vertical direction. Reflection quality remains selectable Low–Ultra.
+
+This is a focused native renderer fix. Existing camp props, character motion,
+quest state, water geometry and shaders are preserved. No Windows work.
+Native consecutive-frame and motion review reports are under review/.
+Baseline remaining scenery, performance, optional thunder audio and bridge-post
+movement limitations are not claimed fixed by this change.

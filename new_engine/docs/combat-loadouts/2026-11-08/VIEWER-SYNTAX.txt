@@ -1,0 +1,988 @@
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:70:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_neck_blood.h: In member function ‘bool world_neck_blood::System::update(const std::array<world_neck_blood::Pose, 8>&, double, double, bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_neck_blood.h:24:3: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   24 |   if(have_clock_&&clock+1e-6<clock_)reset();clock_=clock;have_clock_=true;dt=std::min(dt,.1);stats_.active=0;
+      |   ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_neck_blood.h:24:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   24 |   if(have_clock_&&clock+1e-6<clock_)reset();clock_=clock;have_clock_=true;dt=std::min(dt,.1);stats_.active=0;
+      |                                             ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_neck_blood.h:34:4: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   34 |    if(e.next==pulse_count)e.active=false;stats_.active+=e.active;
+      |    ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_neck_blood.h:34:42: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   34 |    if(e.next==pulse_count)e.active=false;stats_.active+=e.active;
+      |                                          ^~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_view.inc:40,
+                 from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:1360:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc: In member function ‘void {anonymous}::Studio::designer_asset_filters(bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:212:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  212 |         if(!popup)designer_asset_inline(180);ImGui::SetNextItemWidth(popup?190.f:180.f);
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:212:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  212 |         if(!popup)designer_asset_inline(180);ImGui::SetNextItemWidth(popup?190.f:180.f);
+      |                                              ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:218:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  218 |         if(!popup)designer_asset_inline(130);ImGui::SetNextItemWidth(popup?190.f:130.f);
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:218:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  218 |         if(!popup)designer_asset_inline(130);ImGui::SetNextItemWidth(popup?190.f:130.f);
+      |                                              ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:220:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  220 |         if(!popup)designer_asset_inline(80);if(ImGui::Button(designer_asset_grid?"List view":"Grid view")){designer_asset_grid=!designer_asset_grid;designer_preferences_changed();}
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:220:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  220 |         if(!popup)designer_asset_inline(80);if(ImGui::Button(designer_asset_grid?"List view":"Grid view")){designer_asset_grid=!designer_asset_grid;designer_preferences_changed();}
+      |                                             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:221:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  221 |         if(!popup)designer_asset_inline(90);if(ImGui::Checkbox("Favorites",&designer_asset_favorites_only)){designer_asset_refilter=true;designer_preferences_changed();}
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:221:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  221 |         if(!popup)designer_asset_inline(90);if(ImGui::Checkbox("Favorites",&designer_asset_favorites_only)){designer_asset_refilter=true;designer_preferences_changed();}
+      |                                             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:222:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  222 |         if(!popup)designer_asset_inline(80);if(ImGui::Checkbox("Recent",&designer_asset_recent_only))designer_asset_refilter=true;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:222:45: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  222 |         if(!popup)designer_asset_inline(80);if(ImGui::Checkbox("Recent",&designer_asset_recent_only))designer_asset_refilter=true;
+      |                                             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:223:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  223 |         if(!popup)designer_asset_inline(110);if(ImGui::SmallButton("Refresh previews"))designer_asset_thumbnails.invalidate_all();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_designer_assets.inc:223:46: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  223 |         if(!popup)designer_asset_inline(110);if(ImGui::SmallButton("Refresh previews"))designer_asset_thumbnails.invalidate_all();
+      |                                              ^~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_view.inc:43:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc: In member function ‘void {anonymous}::Studio::landscape_panel(const {anonymous}::Camera&)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:341:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  341 |         if(ImGui::Button("Find open ground",{-1,30}))landscape_find_open(cam);landscape_button_record(0);
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:341:79: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  341 |         if(ImGui::Button("Find open ground",{-1,30}))landscape_find_open(cam);landscape_button_record(0);
+      |                                                                               ^~~~~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:373:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  373 |             if(ImGui::Button("Smaller",{half,0}))landscape_radius=std::max(8.f,landscape_radius*.5f);ImGui::SameLine();if(ImGui::Button("Larger",{half,0}))landscape_radius=std::min(256.f,landscape_radius*2);
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:373:102: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  373 |             if(ImGui::Button("Smaller",{half,0}))landscape_radius=std::max(8.f,landscape_radius*.5f);ImGui::SameLine();if(ImGui::Button("Larger",{half,0}))landscape_radius=std::min(256.f,landscape_radius*2);
+      |                                                                                                      ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc: In member function ‘void {anonymous}::Studio::landscape_overlay(const {anonymous}::Camera&)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:469:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  469 |         if(!open||tab!=15||landscape_advanced)return;auto *draw=ImGui::GetBackgroundDrawList();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_landscape_view.inc:469:54: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  469 |         if(!open||tab!=15||landscape_advanced)return;auto *draw=ImGui::GetBackgroundDrawList();
+      |                                                      ^~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_view.inc: In member function ‘void {anonymous}::Studio::restore_history(bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_view.inc:76:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   76 |         for(auto &ref:preserved.items)ref=source_reference(ref);preserved.active=source_reference(preserved.active);
+      |         ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_studio_view.inc:76:65: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   76 |         for(auto &ref:preserved.items)ref=source_reference(ref);preserved.active=source_reference(preserved.active);
+      |                                                                 ^~~~~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:1361:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc: In member function ‘bool {anonymous}::AssetBrowserQA::capture_tile(unsigned int, const char*)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:91:9: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+   91 |         for(unsigned i=0;i<8;++i)glPixelStorei(names[i],pack[i]);glBindBuffer(GL_PIXEL_PACK_BUFFER,GLuint(pack_buffer));glBindTexture(GL_TEXTURE_2D,GLuint(binding));glActiveTexture(GLenum(active));
+      |         ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:91:66: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+   91 |         for(unsigned i=0;i<8;++i)glPixelStorei(names[i],pack[i]);glBindBuffer(GL_PIXEL_PACK_BUFFER,GLuint(pack_buffer));glBindTexture(GL_TEXTURE_2D,GLuint(binding));glActiveTexture(GLenum(active));
+      |                                                                  ^~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:99:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   99 |         if(check(saved,"capture actual source-model GPU tile"))preview_captures.push_back(path.string());return saved;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:99:106: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   99 |         if(check(saved,"capture actual source-model GPU tile"))preview_captures.push_back(path.string());return saved;
+      |                                                                                                          ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc: In member function ‘{anonymous}::AssetBrowserQA::Result {anonymous}::AssetBrowserQA::tick({anonymous}::Studio&, const {anonymous}::Camera&, uint64_t, bool, bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:103:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  103 |         if(passed)return Result::Passed;if(failed)return Result::Failed;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:103:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  103 |         if(passed)return Result::Passed;if(failed)return Result::Failed;
+      |                                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:135:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  135 |             if(!capture_tile(image.texture,name))break;preview_aliases.emplace_back(name);preview_stems.push_back(asset.preview_stem);
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:135:56: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  135 |             if(!capture_tile(image.texture,name))break;preview_aliases.emplace_back(name);preview_stems.push_back(asset.preview_stem);
+      |                                                        ^~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:156:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  156 |             if(!choose_resident_ghost(s))break;show(s,ghost_alias.c_str());phase=70;since=frame;break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:156:48: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  156 |             if(!choose_resident_ghost(s))break;show(s,ghost_alias.c_str());phase=70;since=frame;break;
+      |                                                ^~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:192:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  192 |             if(!check(bool(expected),"record fresh-process reopen expectation"))break;phase=14;since=frame;break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_asset_browser_qa.inc:192:87: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  192 |             if(!check(bool(expected),"record fresh-process reopen expectation"))break;phase=14;since=frame;break;
+      |                                                                                       ^~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:1362:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc: In member function ‘bool {anonymous}::EditorLongSessionQA::guard({anonymous}::Studio&)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:61:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   61 |             if(!check(end!=text&&!*end&&std::isfinite(seconds)&&seconds>=30&&seconds<=7200,"duration is 30..7200 seconds"))return false;requested_seconds=seconds;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:61:137: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   61 |             if(!check(end!=text&&!*end&&std::isfinite(seconds)&&seconds>=30&&seconds<=7200,"duration is 30..7200 seconds"))return false;requested_seconds=seconds;
+      |                                                                                                                                         ^~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc: In member function ‘bool {anonymous}::EditorLongSessionQA::gesture({anonymous}::Studio&, Operation&)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:134:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  134 |         if(!check(s.landscape_stroke_changed,"production gesture changes real draft"))return false;s.landscape_finish();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:134:100: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  134 |         if(!check(s.landscape_stroke_changed,"production gesture changes real draft"))return false;s.landscape_finish();
+      |                                                                                                    ^
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc: In member function ‘void {anonymous}::EditorLongSessionQA::progress({anonymous}::Studio&, uint64_t, bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:146:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  146 |         if(directory.empty())return;const auto now=SDL_GetTicks64();if(last_progress&&now-last_progress<1000)return;last_progress=now;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:146:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  146 |         if(directory.empty())return;const auto now=SDL_GetTicks64();if(last_progress&&now-last_progress<1000)return;last_progress=now;
+      |                                     ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc: In member function ‘void {anonymous}::EditorLongSessionQA::report()’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:151:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  151 |         if(directory.empty())return;const auto now=SDL_GetTicks64();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:151:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  151 |         if(directory.empty())return;const auto now=SDL_GetTicks64();
+      |                                     ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc: In member function ‘{anonymous}::EditorLongSessionQA::Result {anonymous}::EditorLongSessionQA::tick({anonymous}::Studio&, {anonymous}::Camera&, const {anonymous}::Camera&, DressingType&, TerrainType&, WorldScenery*, SDL_Window*, uint64_t, bool, bool)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:174:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  174 |         if(passed)return Result::Passed;if(failed)return Result::Failed;const auto now=SDL_GetTicks64();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:174:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  174 |         if(passed)return Result::Passed;if(failed)return Result::Failed;const auto now=SDL_GetTicks64();
+      |                                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:208:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  208 |             if(!validate(s,dressing))break;warm_states.push_back(snapshot(s));warm_edits=0;advance(10,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:208:44: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  208 |             if(!validate(s,dressing))break;warm_states.push_back(snapshot(s));warm_edits=0;advance(10,frame);break;
+      |                                            ^~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:210:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  210 |             if(!settled)break;Operation op;op.radius=32;op.strength=.2f;op.stamps=1;op.tool=warm_edits%2;before=snapshot(s);
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:210:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  210 |             if(!settled)break;Operation op;op.radius=32;op.strength=.2f;op.stamps=1;op.tool=warm_edits%2;before=snapshot(s);
+      |                               ^~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:211:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  211 |             if(!gesture(s,op))break;advance(11,frame);break;}
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:211:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  211 |             if(!gesture(s,op))break;advance(11,frame);break;}
+      |                                     ^~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:213:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  213 |             if(!settled)break;if(!validate(s,dressing))break;check(s.applied==applies+1,"warm gesture publishes once");++edits;++warm_edits;warm_states.push_back(snapshot(s));
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:213:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  213 |             if(!settled)break;if(!validate(s,dressing))break;check(s.applied==applies+1,"warm gesture publishes once");++edits;++warm_edits;warm_states.push_back(snapshot(s));
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:216:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  216 |             if(!settled)break;if(!check(warm_cursor>8,"history rollover cursor stays inside retained entries"))break;--warm_cursor;if(!exact(s,warm_states[warm_cursor])||!validate(s,dressing))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:216:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  216 |             if(!settled)break;if(!check(warm_cursor>8,"history rollover cursor stays inside retained entries"))break;--warm_cursor;if(!exact(s,warm_states[warm_cursor])||!validate(s,dressing))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:219:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  219 |             if(!settled)break;++warm_cursor;if(!exact(s,warm_states[warm_cursor])||!validate(s,dressing))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:219:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  219 |             if(!settled)break;++warm_cursor;if(!exact(s,warm_states[warm_cursor])||!validate(s,dressing))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:224:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  224 |             if(!settled)break;Operation op;op.radius=128;op.strength=1.2f;op.stamps=3;op.tool=4;if(!gesture(s,op))break;advance(19,frame);break;}
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:224:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  224 |             if(!settled)break;Operation op;op.radius=128;op.strength=1.2f;op.stamps=3;op.tool=4;if(!gesture(s,op))break;advance(19,frame);break;}
+      |                               ^~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:226:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  226 |             if(!settled)break;if(!validate(s,dressing))break;++edits;advance(20,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:226:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  226 |             if(!settled)break;if(!validate(s,dressing))break;++edits;advance(20,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:228:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  228 |             if(!settled)break;Operation op;op.page=1;op.tool=0;op.radius=128;op.stamps=1;op.density=.65f;if(!gesture(s,op))break;advance(21,frame);break;}
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:228:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  228 |             if(!settled)break;Operation op;op.page=1;op.tool=0;op.radius=128;op.stamps=1;op.density=.65f;if(!gesture(s,op))break;advance(21,frame);break;}
+      |                               ^~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:230:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  230 |             if(!settled)break;if(!validate(s,dressing))break;++edits;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:230:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  230 |             if(!settled)break;if(!validate(s,dressing))break;++edits;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:239:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  239 |             if(!exact(s,before))break;cap_states.push_back(snapshot(s));cap_added=cap_undos=0;advance(40,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:239:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  239 |             if(!exact(s,before))break;cap_states.push_back(snapshot(s));cap_added=cap_undos=0;advance(40,frame);break;
+      |                                       ^~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:243:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  243 |                 if(!check(s.landscape_begin(),"begin brush at documented ecology cap"))break;const bool accepted=s.landscape_stamp();
+      |                 ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:243:94: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  243 |                 if(!check(s.landscape_begin(),"begin brush at documented ecology cap"))break;const bool accepted=s.landscape_stamp();
+      |                                                                                              ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:249:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  249 |             if(!settled)break;if(!validate(s,dressing))break;++cap_added;++edits;cap_states.push_back(snapshot(s));advance(40,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:249:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  249 |             if(!settled)break;if(!validate(s,dressing))break;++cap_added;++edits;cap_states.push_back(snapshot(s));advance(40,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:251:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  251 |             if(!settled)break;++cap_undos;if(!check(cap_undos<=cap_added,"cap cleanup stays in retained real gestures"))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:251:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  251 |             if(!settled)break;++cap_undos;if(!check(cap_undos<=cap_added,"cap cleanup stays in retained real gestures"))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:255:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  255 |             if(!settled)break;if(!exact(s,baseline))break;cap_states.clear();cap_states.shrink_to_fit();measured_started=now;operation=0;advance(50,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:255:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  255 |             if(!settled)break;if(!exact(s,baseline))break;cap_states.clear();cap_states.shrink_to_fit();measured_started=now;operation=0;advance(50,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:257:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  257 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;before=snapshot(s);current=recipe(operation);
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:257:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  257 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;before=snapshot(s);current=recipe(operation);
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:259:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  259 |             if(!gesture(s,current))break;advance(51,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:259:42: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  259 |             if(!gesture(s,current))break;advance(51,frame);break;
+      |                                          ^~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:261:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  261 |             if(!settled)break;if(!validate(s,dressing)||!check(s.applied==applies+1,"measured gesture publishes exactly once"))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:261:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  261 |             if(!settled)break;if(!validate(s,dressing)||!check(s.applied==applies+1,"measured gesture publishes exactly once"))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:265:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  265 |             if(!settled)break;if(!exact(s,before)||!validate(s,dressing))break;current.undo_commit=s.applied;current.undo_visible_ms=double(now-since);key(s,window,SDLK_y,true);++redos;++measured_actions;advance(53,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:265:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  265 |             if(!settled)break;if(!exact(s,before)||!validate(s,dressing))break;current.undo_commit=s.applied;current.undo_visible_ms=double(now-since);key(s,window,SDLK_y,true);++redos;++measured_actions;advance(53,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:267:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  267 |             if(!settled)break;if(!exact(s,after)||!validate(s,dressing))break;current.redo_commit=s.applied;current.redo_visible_ms=double(now-since);key(s,window,SDLK_z,true);++undos;++measured_actions;advance(54,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:267:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  267 |             if(!settled)break;if(!exact(s,after)||!validate(s,dressing))break;current.redo_commit=s.applied;current.redo_visible_ms=double(now-since);key(s,window,SDLK_z,true);++undos;++measured_actions;advance(54,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:269:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  269 |             if(!settled)break;if(!exact(s,before)||!validate(s,dressing))break;current.restore_commit=s.applied;current.restore_visible_ms=double(now-since);current.end_frame=frame;current.end_seconds=(now-started)*.001;samples.push_back(current);advance(55,frame);break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:269:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  269 |             if(!settled)break;if(!exact(s,before)||!validate(s,dressing))break;current.restore_commit=s.applied;current.restore_visible_ms=double(now-since);current.end_frame=frame;current.end_seconds=(now-started)*.001;samples.push_back(current);advance(55,frame);break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:283:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  283 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:283:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  283 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:287:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  287 |             if(!write_expected(s))break;passed=true;phase=100;report();std::fprintf(stderr,"[Editor long session QA] PASS %u checks, %u measured edits, %u measured Undo/Redo, %u blocks, %.1fs measured; full_duration=%d\n",checks,measured_edits,measured_actions,blocks,(now-measured_started)*.001,int(acceptance));std::fflush(stderr);return Result::Passed;}
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:287:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  287 |             if(!write_expected(s))break;passed=true;phase=100;report();std::fprintf(stderr,"[Editor long session QA] PASS %u checks, %u measured edits, %u measured Undo/Redo, %u blocks, %.1fs measured; full_duration=%d\n",checks,measured_edits,measured_actions,blocks,(now-measured_started)*.001,int(acceptance));std::fflush(stderr);return Result::Passed;}
+      |                                         ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:289:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  289 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_long_session_qa.inc:289:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  289 |             if(!settled)break;if(!exact(s,baseline)||!validate(s,dressing))break;
+      |                               ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp: In function ‘int world_viewer_run(EngineLaunch*, EngineProject*)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:3941:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 3941 |         if(!ok)std::fprintf(stderr,"[Arena] Load failed: %s\n",error);valid=ok&&valid;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:3941:71: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 3941 |         if(!ok)std::fprintf(stderr,"[Arena] Load failed: %s\n",error);valid=ok&&valid;
+      |                                                                       ^~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4293:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc:121:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  121 |         if(arena_shot_sound)arena_shot_sound();preview_pad.rumble(.12f,.22f,55,preview_settings.vibration);
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc:121:48: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  121 |         if(arena_shot_sound)arena_shot_sound();preview_pad.rumble(.12f,.22f,55,preview_settings.vibration);
+      |                                                ^~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc:192:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  192 |     if(moving)++arena_enemy_steps;arena_last_enemy=enemy;
+      |     ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_combat_arena_runtime.inc:192:35: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  192 |     if(moving)++arena_enemy_steps;arena_last_enemy=enemy;
+      |                                   ^~~~~~~~~~~~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4294:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:127:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  127 |         if(age<6)return;if(key(SDLK_RETURN))next(201);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:127:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  127 |         if(age<6)return;if(key(SDLK_RETURN))next(201);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:139:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  139 |         if(age<4)return;if(key(SDLK_3))next(601);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:139:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  139 |         if(age<4)return;if(key(SDLK_3))next(601);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:141:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  141 |         if(age<6)return;lt(true);guard_stick(TrainingDirection::Left);
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:141:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  141 |         if(age<6)return;lt(true);guard_stick(TrainingDirection::Left);
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:168:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  168 |         if(age<6)return;if(!check(weapon_sheathed,"keyboard sheath works in arena"))return;camera();next(501);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:168:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  168 |         if(age<6)return;if(!check(weapon_sheathed,"keyboard sheath works in arena"))return;camera();next(501);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:170:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  170 |         if(age<6)return;if(!check(weapon_sheathed&&!third_person,"arena sheath supports first person"))return;capture("arena-sheathed-fp");next(502);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:170:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  170 |         if(age<6)return;if(!check(weapon_sheathed&&!third_person,"arena sheath supports first person"))return;capture("arena-sheathed-fp");next(502);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:172:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  172 |         if(age<6)return;if(key(SDLK_z))next(503);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:172:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  172 |         if(age<6)return;if(key(SDLK_z))next(503);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:174:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  174 |         if(age<6)return;if(!check(!weapon_sheathed,"keyboard draw works in arena"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(504);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:174:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  174 |         if(age<6)return;if(!check(!weapon_sheathed,"keyboard draw works in arena"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(504);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:176:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  176 |         if(age<6)return;if(!check(weapon_sheathed,"controller sheath works in arena"))return;camera();next(505);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:176:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  176 |         if(age<6)return;if(!check(weapon_sheathed,"controller sheath works in arena"))return;camera();next(505);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:178:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  178 |         if(age<6)return;if(!check(weapon_sheathed&&third_person,"arena sheath supports third person"))return;capture("arena-sheathed");next(506);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:178:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  178 |         if(age<6)return;if(!check(weapon_sheathed&&third_person,"arena sheath supports third person"))return;capture("arena-sheathed");next(506);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:180:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  180 |         if(age<6)return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(507);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:180:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  180 |         if(age<6)return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(507);return;
+      |                         ^~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:182:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  182 |         if(age<6)return;if(!check(!weapon_sheathed,"controller draw works in arena"))return;if(key(SDLK_2))next(1);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:182:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  182 |         if(age<6)return;if(!check(!weapon_sheathed,"controller draw works in arena"))return;if(key(SDLK_2))next(1);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:184:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  184 |         if(age<4)return;if(!check(arena_game.weapon()==W::Bow,"keyboard 2 equips bow"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:184:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  184 |         if(age<4)return;if(!check(arena_game.weapon()==W::Bow,"keyboard 2 equips bow"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:185:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  185 |         if(key(SDLK_z))next(510);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:185:34: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  185 |         if(key(SDLK_z))next(510);return;
+      |                                  ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:187:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  187 |         if(age<6)return;if(!check(weapon_sheathed&&arena_bow(),"bow sheath works in third person"))return;capture("arena-bow-sheathed");next(511);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:187:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  187 |         if(age<6)return;if(!check(weapon_sheathed&&arena_bow(),"bow sheath works in third person"))return;capture("arena-bow-sheathed");next(511);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:189:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  189 |         if(age<6)return;camera();next(512);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:189:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  189 |         if(age<6)return;camera();next(512);return;
+      |                         ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:191:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  191 |         if(age<6)return;if(!check(weapon_sheathed&&!third_person,"bow sheath works in first person"))return;capture("arena-bow-sheathed-fp");next(513);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:191:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  191 |         if(age<6)return;if(!check(weapon_sheathed&&!third_person,"bow sheath works in first person"))return;capture("arena-bow-sheathed-fp");next(513);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:193:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  193 |         if(age<6)return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(514);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:193:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  193 |         if(age<6)return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(514);return;
+      |                         ^~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:195:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  195 |         if(age<6)return;if(!check(!weapon_sheathed,"controller draws stowed bow"))return;if(key(SDLK_z))next(515);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:195:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  195 |         if(age<6)return;if(!check(!weapon_sheathed,"controller draws stowed bow"))return;if(key(SDLK_z))next(515);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:197:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  197 |         if(age<6)return;if(!check(weapon_sheathed,"keyboard puts bow away again"))return;rt(true);next(516);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:197:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  197 |         if(age<6)return;if(!check(weapon_sheathed,"keyboard puts bow away again"))return;rt(true);next(516);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:199:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  199 |         if(age<6)return;if(!check(!weapon_sheathed,"fresh attack redraws stowed bow"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(517);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:199:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  199 |         if(age<6)return;if(!check(!weapon_sheathed,"fresh attack redraws stowed bow"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(517);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:201:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  201 |         if(age<6)return;if(!check(weapon_sheathed&&!arena_game.drawing(),"holding attack through stow cannot redraw or fire"))return;rt(false);camera();if(key(SDLK_1))next(2);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:201:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  201 |         if(age<6)return;if(!check(weapon_sheathed&&!arena_game.drawing(),"holding attack through stow cannot redraw or fire"))return;rt(false);camera();if(key(SDLK_1))next(2);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:203:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  203 |         if(age<4)return;if(!check(arena_game.weapon()==W::Sword,"keyboard 1 equips sword"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:203:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  203 |         if(age<4)return;if(!check(arena_game.weapon()==W::Sword,"keyboard 1 equips sword"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:206:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  206 |         if(age<5)return;if(!check(arena_game.weapon()==W::Bow,"controller D-pad right equips bow"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:206:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  206 |         if(age<5)return;if(!check(arena_game.weapon()==W::Bow,"controller D-pad right equips bow"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:209:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  209 |         if(age<5)return;if(!check(arena_game.weapon()==W::Sword,"controller D-pad left equips sword"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:209:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  209 |         if(age<5)return;if(!check(arena_game.weapon()==W::Sword,"controller D-pad left equips sword"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:212:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  212 |         if(age<20)return;if(!check(preview_screen==2&&std::abs(fight.clock-arena_qa_pause_clock)<.02,"pause freezes real arena combat"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:212:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  212 |         if(age<20)return;if(!check(preview_screen==2&&std::abs(fight.clock-arena_qa_pause_clock)<.02,"pause freezes real arena combat"))return;
+      |                          ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:213:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  213 |         if(key(SDLK_ESCAPE))next(6);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:213:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  213 |         if(key(SDLK_ESCAPE))next(6);return;
+      |                                     ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:215:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  215 |         if(age<8)return;if(!check(preview_screen==1,"ordinary Escape resumes arena"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:215:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  215 |         if(age<8)return;if(!check(preview_screen==1,"ordinary Escape resumes arena"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:224:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  224 |         if(key(SDLK_RETURN))next(8);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:224:37: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  224 |         if(key(SDLK_RETURN))next(8);return;
+      |                                     ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:226:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  226 |         if(age<5||!arena_controls_ready())return;if(!check(arena_game.state()==S::Entering&&queued()==8&&arena_game.defeated()==0&&fight.health==100&&fight.enemy_hits==0&&arena_run_id>arena_qa_first_run,"focused result button retries all eight with a new run receipt"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:226:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  226 |         if(age<5||!arena_controls_ready())return;if(!check(arena_game.state()==S::Entering&&queued()==8&&arena_game.defeated()==0&&fight.health==100&&fight.enemy_hits==0&&arena_run_id>arena_qa_first_run,"focused result button retries all eight with a new run receipt"))return;
+      |                                                  ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:230:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  230 |         if(!aim())return;camera();next(10);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:230:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  230 |         if(!aim())return;camera();next(10);return;
+      |                          ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:232:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  232 |         if(age<6)return;if(!check(!third_person&&arena_game.weapon()==W::Bow,"controller camera enters first-person bow"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:232:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  232 |         if(age<6)return;if(!check(!third_person&&arena_game.weapon()==W::Bow,"controller camera enters first-person bow"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:244:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  244 |         if(age<3)return;arena_qa_pause_clock=fight.clock;if(key(SDLK_ESCAPE))next(111);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:244:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  244 |         if(age<3)return;arena_qa_pause_clock=fight.clock;if(key(SDLK_ESCAPE))next(111);return;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:246:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  246 |         if(age<20)return;if(!check(preview_screen==2&&!arena_game.drawing()&&arena_game.shots()==0&&std::abs(fight.clock-arena_qa_pause_clock)<.02,"bow pause cancels draw and freezes fight"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:246:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  246 |         if(age<20)return;if(!check(preview_screen==2&&!arena_game.drawing()&&arena_game.shots()==0&&std::abs(fight.clock-arena_qa_pause_clock)<.02,"bow pause cancels draw and freezes fight"))return;
+      |                          ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:247:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  247 |         if(key(SDLK_ESCAPE))next(112);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:247:39: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  247 |         if(key(SDLK_ESCAPE))next(112);return;
+      |                                       ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:249:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  249 |         if(age<15)return;if(!check(preview_screen==1&&!arena_game.drawing()&&arena_game.shots()==0,"held bow trigger cannot fire or redraw after resume"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:249:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  249 |         if(age<15)return;if(!check(preview_screen==1&&!arena_game.drawing()&&arena_game.shots()==0,"held bow trigger cannot fire or redraw after resume"))return;
+      |                          ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:252:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  252 |         if(age<6)return;rt(true);next(114);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:252:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  252 |         if(age<6)return;rt(true);next(114);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:257:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  257 |         if(age<6||!aim())return;if(!check(third_person&&arena_game.drawing(),"controller camera preserves third-person drawn bow"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:257:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  257 |         if(age<6||!aim())return;if(!check(third_person&&arena_game.drawing(),"controller camera preserves third-person drawn bow"))return;
+      |                                 ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:260:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  260 |         if(age<3)return;stick(0,0);rt(false);++arena_qa_shot_attempts;next(14);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:260:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  260 |         if(age<3)return;stick(0,0);rt(false);++arena_qa_shot_attempts;next(14);return;
+      |                         ^~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:286:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  286 |         if(age<3)return;if(key(SDLK_ESCAPE))next(144);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:286:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  286 |         if(age<3)return;if(key(SDLK_ESCAPE))next(144);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:298:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  298 |         if(age<3)return;if(key(SDLK_ESCAPE))next(146);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:298:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  298 |         if(age<3)return;if(key(SDLK_ESCAPE))next(146);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:300:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  300 |         if(age<6)return;if(preview_screen!=1){fail("blood playback did not resume");return;}
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:300:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  300 |         if(age<6)return;if(preview_screen!=1){fail("blood playback did not resume");return;}
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:447:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  447 |         if(age<5)return;if(key(SDLK_RETURN))next(17);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:447:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  447 |         if(age<5)return;if(key(SDLK_RETURN))next(17);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:449:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  449 |         if(age<5||!arena_controls_ready())return;if(!check(arena_game.state()==S::Entering&&queued()==8&&arena_game.defeated()==0&&fight.health==100&&arena_game.shots()==0,"focused repeat starts a fresh eight-knight arena"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:449:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  449 |         if(age<5||!arena_controls_ready())return;if(!check(arena_game.state()==S::Entering&&queued()==8&&arena_game.defeated()==0&&fight.health==100&&arena_game.shots()==0,"focused repeat starts a fresh eight-knight arena"))return;
+      |                                                  ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:453:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  453 |         if(age<4)return;if(!check(arena_qa_captures==35,"all original combat checkpoints and setup captured"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:453:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  453 |         if(age<4)return;if(!check(arena_qa_captures==35,"all original combat checkpoints and setup captured"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:454:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  454 |         if(key(SDLK_r))next(20);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:454:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  454 |         if(key(SDLK_r))next(20);return;
+      |                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:458:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  458 |         if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(21);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:458:66: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  458 |         if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(21);return;
+      |                                                                  ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:460:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  460 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(22);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:460:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  460 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(22);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:464:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  464 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(23);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:464:58: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  464 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(23);return;
+      |                                                          ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:466:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  466 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(24);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:466:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  466 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(24);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:515:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  515 |         if(key(SDLK_r))next(33);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:515:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  515 |         if(key(SDLK_r))next(33);return;
+      |                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:517:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  517 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(34);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:517:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  517 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(34);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:519:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  519 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(35);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:519:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  519 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(35);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:523:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  523 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(36);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:523:58: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  523 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(36);return;
+      |                                                          ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:525:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  525 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(37);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:525:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  525 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_DOWN))next(37);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:527:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  527 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(38);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:527:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  527 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_A))next(38);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:531:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  531 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(39);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:531:58: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  531 |         if(menu_button(SDL_CONTROLLER_BUTTON_A))next(39);return;
+      |                                                          ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:533:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  533 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(40);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:533:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  533 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(40);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:535:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  535 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(41);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:535:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  535 |         if(age<7)return;if(menu_button(SDL_CONTROLLER_BUTTON_DPAD_UP))next(41);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:550:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  550 |         if(menu_button(SDL_CONTROLLER_BUTTON_RIGHTSHOULDER))next(45);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:550:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  550 |         if(menu_button(SDL_CONTROLLER_BUTTON_RIGHTSHOULDER))next(45);return;
+      |                                                                      ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:558:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  558 |         if(menu_button(SDL_CONTROLLER_BUTTON_RIGHTSHOULDER))next(47);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:558:70: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  558 |         if(menu_button(SDL_CONTROLLER_BUTTON_RIGHTSHOULDER))next(47);return;
+      |                                                                      ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:571:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  571 |         if(age<5)return;if(!check(arena_qa_captures==45,"all configured combat combo and purse checkpoints captured"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:571:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  571 |         if(age<5)return;if(!check(arena_qa_captures==45,"all configured combat combo and purse checkpoints captured"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:637:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  637 |     if(surface)SDL_FreeSurface(surface);if(!ok){std::fprintf(stderr,"[Arena QA] capture failed: %s\n",name.c_str());launch->exit_code=1;running=false;return;}
+      |     ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:637:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  637 |     if(surface)SDL_FreeSurface(surface);if(!ok){std::fprintf(stderr,"[Arena QA] capture failed: %s\n",name.c_str());launch->exit_code=1;running=false;return;}
+      |                                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:643:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  643 |     for(size_t i=0;i<arena_qa_labels.size();++i)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(arena_qa_labels[i]).c_str());std::fprintf(file,"], \"capture_names\": [");
+      |     ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_arena_qa.inc:643:131: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  643 |     for(size_t i=0;i<arena_qa_labels.size();++i)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(arena_qa_labels[i]).c_str());std::fprintf(file,"], \"capture_names\": [");
+      |                                                                                                                                   ^~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4295:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:90:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   90 |         if(key(SDLK_e))next(2);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:90:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   90 |         if(key(SDLK_e))next(2);return;
+      |                                ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:134:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  134 |         if(key(SDLK_e))next(9);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:134:32: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  134 |         if(key(SDLK_e))next(9);return;
+      |                                ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:143:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  143 |         if(key(SDLK_e))next(21);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:143:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  143 |         if(key(SDLK_e))next(21);return;
+      |                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:212:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  212 |         if(key(SDLK_e))next(31);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:212:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  212 |         if(key(SDLK_e))next(31);return;
+      |                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:246:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  246 |         if(key(SDLK_e))next(41);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:246:33: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  246 |         if(key(SDLK_e))next(41);return;
+      |                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:259:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  259 |         if(key(SDLK_ESCAPE))next(44);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_sword_stick_qa.inc:259:38: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  259 |         if(key(SDLK_ESCAPE))next(44);return;
+      |                                      ^~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4297:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_runtime.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_runtime.inc:227:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  227 |         if(ImGui::Button("RETRY ENCOUNTER",{-1,42*u}))first_journey_retry_click=true;ImGui::SetItemDefaultFocus();
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_runtime.inc:227:86: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  227 |         if(ImGui::Button("RETRY ENCOUNTER",{-1,42*u}))first_journey_retry_click=true;ImGui::SetItemDefaultFocus();
+      |                                                                                      ^~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4308:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:89:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   89 |             if(key(SDLK_F5))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:89:36: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   89 |             if(key(SDLK_F5))next();return;
+      |                                    ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:159:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  159 |             if(key_event(SDLK_DOWN,true))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:159:49: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  159 |             if(key_event(SDLK_DOWN,true))next();return;
+      |                                                 ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:163:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  163 |             if(key_event(SDLK_DOWN,false))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:163:50: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  163 |             if(key_event(SDLK_DOWN,false))next();return;
+      |                                                  ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:166:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  166 |             if(key_event(SDLK_RETURN,true))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:166:51: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  166 |             if(key_event(SDLK_RETURN,true))next();return;
+      |                                                   ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:169:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  169 |             if(key_event(SDLK_RETURN,false))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:169:52: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  169 |             if(key_event(SDLK_RETURN,false))next();return;
+      |                                                    ^~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:184:13: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  184 |             if(key(SDLK_e))next();return;
+      |             ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_playtest_combat_qa.inc:184:35: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  184 |             if(key(SDLK_e))next();return;
+      |                                   ^~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:4715:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:124:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  124 |         if(age<5)return;if(!require(state.dialogue()==Dialogue::Offer&&state.beat()==0&&!state.weapon_unlocked(),"Fresh A did not open the loan conversation"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:124:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  124 |         if(age<5)return;if(!require(state.dialogue()==Dialogue::Offer&&state.beat()==0&&!state.weapon_unlocked(),"Fresh A did not open the loan conversation"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:127:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  127 |         if(age<24)return;if(!require(state.dialogue()==Dialogue::Offer&&state.beat()==0&&!state.weapon_unlocked()&&first_journey_qa_stationary(),"Held loan confirm skipped dialogue or moved the player"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:127:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  127 |         if(age<24)return;if(!require(state.dialogue()==Dialogue::Offer&&state.beat()==0&&!state.weapon_unlocked()&&first_journey_qa_stationary(),"Held loan confirm skipped dialogue or moved the player"))return;
+      |                          ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:134:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  134 |         if(age<6)return;if(!require(third_person&&cam.grounded&&!cam.fly,"Loaned sword did not support grounded third-person play"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:134:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  134 |         if(age<6)return;if(!require(third_person&&cam.grounded&&!cam.fly,"Loaned sword did not support grounded third-person play"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:137:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  137 |         if(age<8)return;if(!require(weapon_sheathed&&world_combat_motion_unarmed_ready(combat_motion),"Keyboard did not sheathe sword"))return;first_journey_qa_capture_request("journey-sheathed");controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(51);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:137:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  137 |         if(age<8)return;if(!require(weapon_sheathed&&world_combat_motion_unarmed_ready(combat_motion),"Keyboard did not sheathe sword"))return;first_journey_qa_capture_request("journey-sheathed");controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);next(51);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:139:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  139 |         if(age<8)return;if(!require(!weapon_sheathed,"Controller did not draw sword"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);camera();next(52);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:139:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  139 |         if(age<8)return;if(!require(!weapon_sheathed,"Controller did not draw sword"))return;controller_test_pad.press(SDL_CONTROLLER_BUTTON_DPAD_DOWN);camera();next(52);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:141:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  141 |         if(age<8)return;if(!require(weapon_sheathed&&!third_person,"Controller did not sheathe in first person"))return;first_journey_qa_capture_request("journey-sheathed-fp");next(54);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:141:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  141 |         if(age<8)return;if(!require(weapon_sheathed&&!third_person,"Controller did not sheathe in first person"))return;first_journey_qa_capture_request("journey-sheathed-fp");next(54);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:143:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  143 |         if(age<8)return;first_journey_qa_tap(SDLK_z);camera();next(53);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:143:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  143 |         if(age<8)return;first_journey_qa_tap(SDLK_z);camera();next(53);return;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:145:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  145 |         if(age<8)return;if(!require(!weapon_sheathed&&third_person&&weapon_stows>=2&&weapon_draws>=2&&npc_nameplate_frames>0,"Weapon toggles or live overhead names missing"))return;first_journey_qa_pass("weapon_sheathe_both_views_keyboard_controller");first_journey_qa_pass("nearby_live_npc_names_rendered");first_journey_qa_position();first_journey_qa_pause_combat=fight.clock;first_journey_qa_pause_story=state.stats().active_seconds;first_journey_qa_tap(SDLK_ESCAPE);next(6);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:145:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  145 |         if(age<8)return;if(!require(!weapon_sheathed&&third_person&&weapon_stows>=2&&weapon_draws>=2&&npc_nameplate_frames>0,"Weapon toggles or live overhead names missing"))return;first_journey_qa_pass("weapon_sheathe_both_views_keyboard_controller");first_journey_qa_pass("nearby_live_npc_names_rendered");first_journey_qa_position();first_journey_qa_pause_combat=fight.clock;first_journey_qa_pause_story=state.stats().active_seconds;first_journey_qa_tap(SDLK_ESCAPE);next(6);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:147:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  147 |         if(age<18)return;if(!require(preview_screen==2&&first_journey_qa_stationary()&&fight.clock==first_journey_qa_pause_combat&&state.stats().active_seconds<=first_journey_qa_pause_story+.02,"Pause advanced player or quest/combat clocks"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:147:26: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  147 |         if(age<18)return;if(!require(preview_screen==2&&first_journey_qa_stationary()&&fight.clock==first_journey_qa_pause_combat&&state.stats().active_seconds<=first_journey_qa_pause_story+.02,"Pause advanced player or quest/combat clocks"))return;
+      |                          ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:150:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  150 |         if(age<8)return;if(!require(preview_screen==1&&first_journey_qa_stationary(),"Held pause input leaked into resumed movement"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:150:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  150 |         if(age<8)return;if(!require(preview_screen==1&&first_journey_qa_stationary(),"Held pause input leaked into resumed movement"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:157:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  157 |         if(age<5)return;if(!require(stage==Stage::Encounter&&fight.engaged()&&state.encounter_token()!=0,"Fresh confrontation did not start authentic combat"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:157:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  157 |         if(age<5)return;if(!require(stage==Stage::Encounter&&fight.engaged()&&state.encounter_token()!=0,"Fresh confrontation did not start authentic combat"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:158:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  158 |         if(!approach())return;first_journey_qa_neutral();first_journey_qa_capture_request("journey-coach");camera();next(10);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:158:31: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  158 |         if(!approach())return;first_journey_qa_neutral();first_journey_qa_capture_request("journey-coach");camera();next(10);return;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:160:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  160 |         if(age<6)return;if(!require(!third_person&&fight.engaged(),"Live fight did not enter first-person controls"))return;camera();next(11);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:160:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  160 |         if(age<6)return;if(!require(!third_person&&fight.engaged(),"Live fight did not enter first-person controls"))return;camera();next(11);return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:162:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  162 |         if(age<6)return;if(!require(third_person&&fight.engaged(),"Live fight did not return to third-person controls"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:162:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  162 |         if(age<6)return;if(!require(third_person&&fight.engaged(),"Live fight did not return to third-person controls"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:169:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  169 |         if(age<5)return;first_journey_qa_tap(SDLK_r);next(14);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:169:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  169 |         if(age<5)return;first_journey_qa_tap(SDLK_r);next(14);return;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:171:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  171 |         if(age<8)return;if(!require(stage==Stage::Road&&!fight.engaged()&&fight.health==100&&state.weapon_unlocked()&&opening_state.camp().spoken()==7&&state.stats().retries>=1,"Ordinary retry did not preserve camp/loan and reset the fight"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:171:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  171 |         if(age<8)return;if(!require(stage==Stage::Road&&!fight.engaged()&&fight.health==100&&state.weapon_unlocked()&&opening_state.camp().spoken()==7&&state.stats().retries>=1,"Ordinary retry did not preserve camp/loan and reset the fight"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:175:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  175 |         if(age<5||!first_journey_qa_aim(config.encounter))return;first_journey_qa_tap(SDLK_e);next(16);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:175:66: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  175 |         if(age<5||!first_journey_qa_aim(config.encounter))return;first_journey_qa_tap(SDLK_e);next(16);return;
+      |                                                                  ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:196:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  196 |         if(age<5)return;if(!require(stage==Stage::ReturnCamp&&state.supplies_recovered()&&state.stats().supplies_pickups==1,"Fresh satchel E did not record one pickup"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:196:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  196 |         if(age<5)return;if(!require(stage==Stage::ReturnCamp&&state.supplies_recovered()&&state.stats().supplies_pickups==1,"Fresh satchel E did not record one pickup"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:199:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  199 |         if(!first_journey_qa_walk(3)||!first_journey_qa_aim(config.rowan))return;first_journey_qa_tap(SDLK_e);next(21);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:199:82: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  199 |         if(!first_journey_qa_walk(3)||!first_journey_qa_aim(config.rowan))return;first_journey_qa_tap(SDLK_e);next(21);return;
+      |                                                                                  ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:201:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  201 |         if(age<5)return;if(state.dialogue()==Dialogue::Return){advance_dialogue(Dialogue::Return);return;}
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:201:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  201 |         if(age<5)return;if(state.dialogue()==Dialogue::Return){advance_dialogue(Dialogue::Return);return;}
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:205:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  205 |         if(age<5)return;first_journey_qa_tap(SDLK_e);next(23);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:205:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  205 |         if(age<5)return;first_journey_qa_tap(SDLK_e);next(23);return;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:207:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  207 |         if(age<8)return;if(!require(state.stats().rewards==1&&state.stable_save().coins==12,"Repeated Rowan interaction duplicated the reward"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:207:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  207 |         if(age<8)return;if(!require(state.stats().rewards==1&&state.stable_save().coins==12,"Repeated Rowan interaction duplicated the reward"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:211:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  211 |         if(!require(stage==Stage::Town&&!state.town_reached(),"Town checkpoint completed without the entry interaction"))return;first_journey_qa_tap(SDLK_e);next(25);return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:211:129: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  211 |         if(!require(stage==Stage::Town&&!state.town_reached(),"Town checkpoint completed without the entry interaction"))return;first_journey_qa_tap(SDLK_e);next(25);return;
+      |                                                                                                                                 ^~~~~~~~~~~~~~~~~~~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:213:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  213 |         if(age<5)return;if(state.dialogue()==Dialogue::Town){advance_dialogue(Dialogue::Town);return;}
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:213:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  213 |         if(age<5)return;if(state.dialogue()==Dialogue::Town){advance_dialogue(Dialogue::Town);return;}
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:217:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  217 |         if(age<6)return;std::ifstream file("saves/opening.progress");world_opening_prologue::Save saved;std::string error;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:217:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  217 |         if(age<6)return;std::ifstream file("saves/opening.progress");world_opening_prologue::Save saved;std::string error;
+      |                         ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:226:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  226 |         if(age<8)return;if(!require(first_journey_restores==first_journey_qa_restored_before+1&&stage==Stage::Complete&&state.weapon_unlocked()&&state.supplies_recovered()&&state.reward_granted()&&state.town_reached()&&std::hypot(cam.x-config.town.x,cam.z-config.town.z)<=config.town_radius&&cam.grounded&&!cam.fly,"F8 did not restore a supported town position and completed quest without duplicate reward"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:226:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  226 |         if(age<8)return;if(!require(first_journey_restores==first_journey_qa_restored_before+1&&stage==Stage::Complete&&state.weapon_unlocked()&&state.supplies_recovered()&&state.reward_granted()&&state.town_reached()&&std::hypot(cam.x-config.town.x,cam.z-config.town.z)<=config.town_radius&&cam.grounded&&!cam.fly,"F8 did not restore a supported town position and completed quest without duplicate reward"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:230:9: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  230 |         if(age<4)return;if(!require(first_journey_qa_captures==14,"Not all14 real journey checkpoints were captured"))return;
+      |         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:230:25: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  230 |         if(age<4)return;if(!require(first_journey_qa_captures==14,"Not all14 real journey checkpoints were captured"))return;
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:246:5: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+  246 |     if(surface)SDL_FreeSurface(surface);if(!okay){first_journey_qa_fail("Actual journey capture or metadata failed");return;}
+      |     ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:246:41: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+  246 |     if(surface)SDL_FreeSurface(surface);if(!okay){first_journey_qa_fail("Actual journey capture or metadata failed");return;}
+      |                                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc: In lambda function:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:251:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  251 |     for(size_t i=0;i<first_journey_qa_checks.size();i++)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(first_journey_qa_checks[i]).c_str());std::fprintf(file,"], \"capture_names\": [");
+      |     ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:251:147: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  251 |     for(size_t i=0;i<first_journey_qa_checks.size();i++)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(first_journey_qa_checks[i]).c_str());std::fprintf(file,"], \"capture_names\": [");
+      |                                                                                                                                                   ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:252:5: warning: this ‘for’ clause does not guard... [-Wmisleading-indentation]
+  252 |     for(size_t i=0;i<first_journey_qa_capture_names.size();i++)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(first_journey_qa_capture_names[i]).c_str());std::fprintf(file,"]},\n");
+      |     ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_first_journey_qa.inc:252:161: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘for’
+  252 |     for(size_t i=0;i<first_journey_qa_capture_names.size();i++)std::fprintf(file,"%s%s",i?", ":"",world_json::quote(first_journey_qa_capture_names[i]).c_str());std::fprintf(file,"]},\n");
+      |                                                                                                                                                                 ^~~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp: In function ‘int world_viewer_run(EngineLaunch*, EngineProject*)’:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:5786:17: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+ 5786 |                 if(!pose.severed)continue;double point[3],axis[3];
+      |                 ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:5786:43: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+ 5786 |                 if(!pose.severed)continue;double point[3],axis[3];
+      |                                           ^~~~~~
+In file included from /home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_viewer.cpp:6454:
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_structure_qa.inc:74:25: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+   74 |                         if(!check(world_structure_collision::capture(studio.project_directory,scenery,studio.live,studio.structure_mode(),q.original_source,error)&&q.original_source.fingerprint==q.original_fp,"retain exact original source capture for Undo"))break;check(world_structure_collision::load_catalog(studio.project_directory,catalog,error),"load checksummed source collision metadata");const auto binding=catalog.find(studio.source_poses[q.source].alias);check(binding!=catalog.end()&&!binding->second.parts.empty(),"selected source has exact UCX/triangle geometry");
+      |                         ^~
+/home/computer/Desktop/final_engine/new_engine/build/combat-loadouts-2026-11-08/source-v1/engine/world_editor_structure_qa.inc:74:265: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+   74 |                         if(!check(world_structure_collision::capture(studio.project_directory,scenery,studio.live,studio.structure_mode(),q.original_source,error)&&q.original_source.fingerprint==q.original_fp,"retain exact original source capture for Undo"))break;check(world_structure_collision::load_catalog(studio.project_directory,catalog,error),"load checksummed source collision metadata");const auto binding=catalog.find(studio.source_poses[q.source].alias);check(binding!=catalog.end()&&!binding->second.parts.empty(),"selected source has exact UCX/triangle geometry");
+      |                                                                                                                                                                                                                                                                         ^~~~~
+
+exit 0

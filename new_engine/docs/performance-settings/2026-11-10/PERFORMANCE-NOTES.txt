@@ -1,0 +1,54 @@
+Valwood demo — graphics and performance update, 10 November 2026
+
+Press F10 in the updated opening demo to open Graphics and display.
+
+Quality
+- Grass and undergrowth amount: Low, Medium, High, Ultra. Amount and distance
+  are independent. Small decorative plants are thinned by a stable seed;
+  trees, rocks, buildings and movement collision stay in place.
+- Foliage detail distance: Low, Medium, High, Ultra.
+- Performance reduces grass, shadow resolution, reflections and volumetric
+  effects. Balanced retains richer scenery. Cinematic extends detail farther
+  and uses higher-resolution shadows and reflections for faster GPUs.
+- Automatic image quality adjusts image resolution within the selected range.
+  It respects the frame limit and a known VSync refresh rate. CPU-bound misses
+  do not trigger an ineffective resolution reduction.
+- Apply and save commits the selected settings. Undo edits restores the active
+  settings. Recommended selects Balanced while retaining display, frame-limit,
+  automatic-quality and adaptive-target preferences.
+
+Display and frame rate
+- Windowed or borderless fullscreen, supported window sizes, VSync.
+- Frame-rate limit: Off, 30, 45, 60, 90, 120, 144 FPS.
+- Use a cap that matches or evenly divides the display refresh with VSync.
+  A cap is a ceiling, not a guarantee that a scene reaches that frame rate.
+- The software cap yields the CPU rather than busy-spinning. It does not add
+  another delay when active VSync already provides the same or a lower limit.
+
+Existing version 1–3 graphics files keep their prior settings, full vegetation
+amount and no cap. Apply a preset explicitly to choose the new quality/cost
+tradeoff. Opening art, story routes and the shared player progress are kept.
+
+The grass optimization uses full detail close to the player and lighter meshes
+farther away for the two upgraded grass variants. Materials and rooted wind
+remain matched. Both representations overlap with a complementary fade.
+
+See the adjacent RESULT reports for actual measurements and their resolution,
+camera, sample count and limitations. Short fixed-view samples do not establish
+sustained whole-demo performance or native Windows/controller certification.
+
+Measured Linux fixed-view comparison (RX5300):
+1600x900 window,1280x720 scene,80% fixed image scale, automatic quality/VSync
+off,179 settled samples per view; loading/cuts/readbacks excluded.
+
+View                   Previous full   Balanced   Performance
+camp-front                37.6 FPS    39.5 FPS    47.3 FPS
+road-fight                37.5 FPS    40.1 FPS    60.4 FPS
+town-approach             59.9 FPS    59.9 FPS    59.7 FPS
+town-overview             50.7 FPS    50.9 FPS    59.2 FPS
+woodland-canopy           41.4 FPS    44.2 FPS    60.1 FPS
+
+Grass LOD alone measured only about1-2% faster in dense720p-window views.
+The larger Performance preset gains include visible quality reductions.
+The30FPS cap measured29.69FPS with automatic quality enabled,389accepted
+GPU samples and no image-scale changes from80%.

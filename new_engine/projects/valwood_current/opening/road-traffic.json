@@ -1,0 +1,297 @@
+{
+  "schema": "valwood.road-traffic.authoring.v1",
+  "config": "opening/road-traffic.settings",
+  "source": "Seldonne arrival road ribbon; final 60m follows the existing first-journey town route",
+  "coordinates": "world metres, Y up; anchors are references, runtime floor samples are authoritative",
+  "centerline": [
+    [
+      -11988,
+      11.8000001907,
+      5172
+    ],
+    [
+      -11943,
+      12.2602548599,
+      5252
+    ],
+    [
+      -11928,
+      12.5714025497,
+      5342
+    ],
+    [
+      -11948,
+      12.530002594,
+      5432
+    ],
+    [
+      -11968,
+      11.8000001907,
+      5522
+    ],
+    [
+      -11968,
+      11.8000001907,
+      5582
+    ]
+  ],
+  "centerline_stations_m": [
+    0.0,
+    91.7877987534291,
+    183.02923670790238,
+    275.22468128083125,
+    367.4201258537601,
+    427.4201258537601
+  ],
+  "width_m": 5.5,
+  "shoulder_blend_m": 2.0,
+  "lane_offset_m": 1.3,
+  "trim_start_m": 23,
+  "trim_end_m": 12,
+  "permanent_protection": [
+    {
+      "name": "camp dialogue / five intro shots",
+      "center": [
+        -11988,
+        11.8000001907,
+        5172
+      ],
+      "radius_m": 12
+    },
+    {
+      "name": "Hugh and town greeters",
+      "center": [
+        -11968,
+        11.8000001907,
+        5582
+      ],
+      "radius_m": 6
+    }
+  ],
+  "quest_protection_until_encounter_cleared": [
+    {
+      "name": "raider; actual combat movement radius6m",
+      "center": [
+        -11933,
+        12.502809524536133,
+        5312
+      ],
+      "radius_m": 10
+    },
+    {
+      "name": "satchel; interaction radius2.1m",
+      "center": [
+        -11930.5,
+        12.52490234375,
+        5320
+      ],
+      "radius_m": 5
+    }
+  ],
+  "stopline_suggestions": [
+    [
+      -11936.6666667,
+      12.3916,
+      5290
+    ],
+    [
+      -11928,
+      12.5714025497,
+      5342
+    ]
+  ],
+  "static_source_conflicts": [
+    {
+      "alias": "nm_journey_cart",
+      "source": "scenery/authored_instances.txt",
+      "line": 639,
+      "old_xz": [
+        -11926.5,
+        5333
+      ],
+      "new_xz": [
+        -11925.5,
+        5333
+      ],
+      "policy": "Parked cart moves1m east; yaw/scale/pivot/every other serialized field stays byte-identical."
+    },
+    {
+      "alias": "nm_journey_crate + nm_journey_stock_sack",
+      "source": "scenery/authored_instances.txt",
+      "lines": [
+        640,
+        641
+      ],
+      "old_xz": [
+        -11927.2,
+        5331
+      ],
+      "new_xz": [
+        -11926.2,
+        5331
+      ],
+      "policy": "Move the crate and its stacked stock sack together1m east; the actual quest satchel remains unchanged."
+    }
+  ],
+  "turn_clearings": [
+    {
+      "center": [
+        -11976.7239915,
+        11.9153299332,
+        5192.04623735
+      ],
+      "diameter_m": 6
+    },
+    {
+      "center": [
+        -11968,
+        11.8000001907,
+        5570
+      ],
+      "diameter_m": 6
+    }
+  ],
+  "traffic_design": {
+    "fixed_actor_budget": 31,
+    "walkers": 24,
+    "riders": 4,
+    "hand_pulled_carts": 3,
+    "different_lanes_and_phases": true,
+    "road_is_a_closed_rounded_two_lane_circuit": true,
+    "no_unvalidated_offroad_quest_bypass": true,
+    "composition_targets": "2-3 walkers and one rider or hauler visible on first road-facing approach, denser village approach; validate rendered views, do not infer visibility from counts.",
+    "start_camera_policy": "Preserve camp-facing start and first three dialogue NPCs. Road traffic is revealed in intro background and when the player turns/walks toward town.",
+    "cart_headway_target_m": 8,
+    "avoid": "No teleporting visible endpoints, random orbit crowds, carts through camp dialogue, or geometry through quest props."
+  },
+  "validation_views": {
+    "file": "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/review/routes/road-traffic.views",
+    "views": [
+      {
+        "name": "roadlife-camp-control",
+        "eye": [
+          -11988,
+          13.6300001907,
+          5180
+        ],
+        "target": [
+          -11988,
+          13.0,
+          5172
+        ]
+      },
+      {
+        "name": "roadlife-arrival",
+        "eye": [
+          -11976.724,
+          13.66533,
+          5192.046
+        ],
+        "target": [
+          -11958,
+          13.2,
+          5225
+        ]
+      },
+      {
+        "name": "roadlife-lower-road",
+        "eye": [
+          -11940,
+          14.0725,
+          5270
+        ],
+        "target": [
+          -11930,
+          13.9,
+          5330
+        ]
+      },
+      {
+        "name": "roadlife-quest-side",
+        "eye": [
+          -11947,
+          17.8,
+          5312
+        ],
+        "target": [
+          -11930.5,
+          13.5,
+          5321
+        ]
+      },
+      {
+        "name": "roadlife-middle-road",
+        "eye": [
+          -11938.6667,
+          14.2993,
+          5390
+        ],
+        "target": [
+          -11955,
+          13.5,
+          5465
+        ]
+      },
+      {
+        "name": "roadlife-town-approach",
+        "eye": [
+          -11958.6667,
+          13.8907,
+          5480
+        ],
+        "target": [
+          -11968,
+          13.25,
+          5535
+        ]
+      },
+      {
+        "name": "roadlife-village",
+        "eye": [
+          -11968,
+          13.5500001907,
+          5530
+        ],
+        "target": [
+          -11968,
+          13.0,
+          5578
+        ]
+      },
+      {
+        "name": "roadlife-town-wide",
+        "eye": [
+          -11943,
+          27.8000001907,
+          5614
+        ],
+        "target": [
+          -11968,
+          13.0,
+          5550
+        ]
+      }
+    ]
+  },
+  "existing_authored_people": {
+    "camp": 3,
+    "sidewalk": 6,
+    "town_greeters": 3,
+    "policy": "Keep existing roots/paths/quest IDs intact."
+  },
+  "limitations": [
+    "CPU lane/proxy clearance is not a rendered composition or animation acceptance.",
+    "No claim of real horse-drawn wagons: current carts are source-backed hand-pulled carts.",
+    "Actual moving asset envelopes, rounded turns, player yielding and quest stop/resume require their production runtime tests."
+  ],
+  "inputs": {
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/world.studio": "a7baab05837d629ca0d713ad12f93d815712fee97c05d14db1a6996e41dab007",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/first-journey.settings": "5fc8235791e4054f48f4d67029bebe370b4a0184c82cae829a82a76a0f74c745",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/arrival-camp.settings": "0cb0a3fff83c72e46bc3a469dddef29d24d0d7e18d8829fde0178d119464b4f4",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/first-journey.town-people.settings": "e436a49461d01eaa8c5b6015c377117c966eba97307469bcc813f3deded8e45d",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/first-journey.routes.json": "6847e2658f9eb0af9c9ca12735229ad39316ae72ba4e311a5745ae4430c5f8f7",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/showcase.views": "db925d63d79e932a2f894c6657e96cb91cc1a84a336f50a2a346ed1fdf73a841",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/npc-intro.settings": "30bbf515c8878644484b46ca3997296d9cd92f2ec88ec956fa09c4c8d2fae1c8",
+    "/home/computer/Desktop/final_engine/new_engine/build/road-life-2026-11-15/demo-project/opening/road-traffic.settings": "ee9c35a59d615dcf99ffb4af61f8226602de6bcf20f057b26f26b5e2df9a2f96"
+  }
+}

@@ -1,0 +1,54 @@
+Quality-scaled vegetation — Linux Valwood, 21 November 2026
+
+F10 > Quality > Vegetation > Grass and undergrowth detail: Low, Medium, High,
+Ultra. Apply updates actual grass/fern generation and drawing without restart.
+Foliage detail distance remains an independent setting. Character detail retains
+its existing Low/Medium/High/Ultra control and restart behavior.
+
+Low: up to 23,000 grass roots / 360 ferns, 35% short-blade retention.
+Medium: 46,000 / 900, 50% retention.
+High: 69,000 / 1,800, 75% retention.
+Ultra: 92,000 / 3,600, 95% retention.
+These are budgets, not guaranteed plant counts: ecology, dry-ground/path rules,
+view culling, species and distance still determine visible plants.
+Trees and solid procedural rocks retain the same roots at every quality level.
+All rock variants can represent the full shared root pool; no quality setting
+changes physical obstacles. Grass transitions support 184,000 overlapping roots
+through bounded 4,096-instance draw batches, with matched fern generation/draw
+budgets. Lower tiers reduce active detail, not every preloaded scratch allocation.
+
+The authored scenery ceiling expands from 16,384 to 65,536 records. Per-alias
+4,096-instance guards remain. Source files expand from ten to sixteen. Legacy
+editor IDs migrate without changing the existing canonical save representation;
+expanded source references use version 15. Duplicate validation uses a spatial
+index instead of scanning every preceding placement.
+
+An immutable optional creek-bank/camp vegetation overlay joins the normal main
+world source transaction. It is inherited from the separate lighting candidate
+and scales through existing authored vegetation density selection. Generated
+bank records that cannot satisfy dry-ground/trail/burial rules are skipped;
+other authored files remain strict. The user's saved world is not replaced.
+Other area projects, arena and joust do not receive the main-world overlay.
+
+This generation retains the accepted Thomas animation, facial work, corrected
+hair and complete material/shader bank. The separate candidate's exposure,
+bloom, far-shadow, fog-shaft and caustic changes are not part of this update.
+
+CPU and native evidence, actual review scope and measured limitations are in
+review/. Higher vegetation settings can be expensive. This update does not
+certify AAA quality or sustained performance across all scenes and machines.
+
+VERIFIED NATIVE SCOPE
+Four matched quality tiers and a complete Low -> Medium -> High -> Ultra -> Low
+Apply cycle, including finished regeneration/fades. Low returns to 23,000 grass
+roots and 360 ferns. The sampled camp has 55,856 eligible grass roots at High
+and Ultra, showing that capacity does not force plants onto unsuitable terrain.
+Actual high-detail main-world third-person and Ultra creek frames render on the
+AMD RX 5300 with GL error 0 and no failed/pending critical streamed assets.
+The main world loads 16,023 effective authored instances including the overlay
+and two existing editor props. Static capture timings remain bounded measurements.
+The existing two shore texture symlinks were replaced with byte-identical local
+copies so they satisfy surface-library validation and stop forcing recovery UI.
+Saved world documents, profiles and settings were not replaced by private QA.
+Close creek foliage can obscure the fixed inspection camera; no camera-fade
+feature is added. The darker, denser canopy still needs lighting/art refinement.

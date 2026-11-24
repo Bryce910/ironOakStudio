@@ -1,0 +1,17 @@
+version=3
+preset=Custom
+auto_quality=1
+target_fps=60
+render_scale=1
+min_render_scale=0.8
+shadow_side=2048
+reflections=1
+contact_shadows=1
+volumetric_fog=1
+clouds=1
+reflection_scale=0.5
+display_mode=Windowed
+window_width=0
+window_height=0
+vsync=1
+foliage_distance=Medium

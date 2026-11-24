@@ -1,0 +1,4 @@
+# interior_name|wall_material_id|floor_material_id|ceiling_material_id
+The Rusty Flagon — Tavern|dark_stone|dark_stone|painted_ceiling
+Dungeon of Mashito|dark_stone|dark_stone|painted_ceiling
+The Apartment|castle_brick|wood_cabinet_worn|painted_ceiling

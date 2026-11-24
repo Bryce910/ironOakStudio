@@ -1,0 +1,938 @@
+Exhaustive far LOD borders
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_atlas_lod_test.c engine/world_atlas.c engine/world_tiles.c -lm -pthread -o /tmp/valwood-world-atlas-lod-test
+/tmp/valwood-world-atlas-lod-test
+Atlas LOD4/5: 26364 possible border vertices; maximum gap 10.430115 m at -47552.0 -24576.0; actual covering skirt 24.0 m
+Atlas LOD5/6: 8164 possible border vertices; maximum gap 39.401367 m at -32768.0 -23936.0; actual covering skirt 96.0 m
+World atlas LOD skirts cover every possible far-ring border, including negative coordinates and the outer ocean.
+
+
+Final build
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c engine/world_atlas.c -o engine/world_atlas.o
+g++ -std=c++17 -O2 -Wall -Wextra -I. -Ithird_party/imgui -Ithird_party/imgui/backends -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c engine/world_viewer.cpp -o engine/world_viewer.o
+Checking build dependencies...
+OK: sdl2
+OK: SDL2_mixer
+OK: SDL2_ttf
+g++ main.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/world_atlas.o engine/world_tiles.o engine/world_walk.o engine/world_viewer.o engine/world_models.o engine/world_cover.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o rpg -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+
+
+Full final suite
+cc -std=c99 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/project_runtime_test.c engine/project_runtime.c -o /tmp/valwood-project-runtime-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-project-runtime-test
+Invalid value for --frames: -2
+Missing value for --project
+Invalid value for --view: missing
+Invalid value for --landmark: 
+Invalid value for --landmark: ../seldonne
+Invalid value for --landmark: name/child
+Invalid value for --landmark: white knight
+Invalid value for --landmark: north.east
+Invalid value for --landmark: name;echo
+Invalid value for --landmark: 
+
+Invalid value for --landmark: é
+Invalid value for --landmark: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Missing value for --landmark
+[Project] Malformed project settings in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-eu66sm/project.valwood
+[Project] Opened Unit Test at /tmp/valwood-project-test-eu66sm
+[Project] Opened Valwood Atlas at /tmp/valwood-project-test-eu66sm
+[Project] Opened Valwood Engine at /tmp/valwood-project-test-eu66sm
+PASS project launch/landmark validation, isolated atlas bounds, import copies, duplicate protection, malformed assets, project state
+cc -std=c99 -O1 -g -fsanitize=address -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/audio_shutdown_test.c engine/audio.c -o /tmp/valwood-audio-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+ASAN_OPTIONS=detect_leaks=0 /tmp/valwood-audio-test
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+PASS shared audio fallback ownership, shutdown, and reinitialization
+g++ tests/studio_integration.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/world_atlas.o engine/world_tiles.o engine/world_walk.o engine/world_viewer.o engine/world_models.o engine/world_cover.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o /tmp/valwood-studio-integration -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-studio-integration
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+[PropPlacer] Found 8 models in palette
+[PropPlacer] Found 1 models in palette
+[Assets] No cooked manifest at cooked/asset_manifest.csv, using raw assets
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4540174)
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[Prop] 'imports/models/sign.glb' at (5.0,3.0,7.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[Scene] imports/models/sign_2.glb: 1 glTF meshes
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[SculptEd] Saved to terrain_sculpt.bin
+[PathEd] Saved 0 paths to paths_custom.txt
+[WZone] Saved 0 zones to water_zones.txt
+[Terrain] 'ground/cobblestone_path.png' not found — using sRGB fallback
+[Terrain] 'ground/cobblestone_path_nor.png' not found — using flat fallback
+[Terrain] 'ground/cobblestone_path_rgh.png' not found — using flat fallback
+[PathMat] albedo:fallback normal:fallback rough:fallback
+[WFalls] Saved 0 waterfalls to waterfalls.txt
+[RiverEd] C array:
+static const float river_custom[]={
+    };
+[RiverEd] Saved 0 points to river_custom.txt
+[PropPlacer] Saved 1 props to props_custom.txt
+[PropPlacer] C array:
+    prop_register(&g_props,"imports/models/sign.glb", 9.00f,4.00f,11.00f, 0,0.0f,0, 1.000f, PROP_COLL_AABB,0,0,0,0); /* pickable=0 item=0 count=1 */
+[ForestEd] Saved 0 trees to forest_custom.txt
+[GrassPaint] Saved to grass_mask.bin
+[WornPath] Saved to worn_path_mask.bin
+[TerrainBrush] Saved styles to terrain_style_mask.bin
+[FarmField] Saved to farm_field_mask.bin
+[WindEd] Saved 0 zones to wind_zones.txt
+[PlightEd] Saved 1 lights to placed_lights.txt
+[DecalEd] Saved 0 decals to decals_custom.txt
+[SzoneEd] Saved 0 sound zones to sound_zones.txt
+[VisualProfile] Saved visual_profile.txt
+[MarkerEd] Saved world_markers.txt
+[WorldFX] Saved world_fx_custom.txt
+[SpawnEd] Saved 0 spawn points to spawns_custom.txt
+[SpawnEd] C array:
+[NpcEd] Saved 0 NPC spawns to npcs_custom.txt
+[Terrain] Heightmap rebaked
+[Prop] 'imports/models/sign.glb' at (9.0,4.0,11.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[PropPlacer] Loaded 1 props from props_custom.txt
+[SculptEd] Loaded from terrain_sculpt.bin
+[PlightEd] Loaded 1 lights from placed_lights.txt
+PASS studio integration: validated import, search, model placement, transform/collision, Save World, landscape/light/readable round trip, shader compilation, shared-resource lifetime, terrain buffer cleanup, grass paint texture invalidation and async thumbnail cancellation
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/grass_scatter_test.c engine/grass_scatter.c -lm -o /tmp/valwood-grass-test
+/tmp/valwood-grass-test
+Grass scatter: deterministic roots, deferred emission, LOD retention, masks, bounds, negative coordinates, full field budget passed.
+Full field 157207 blades; quadrants 38297 40429 41892 36589
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/performance_test.c engine/performance.c -lm -o /tmp/valwood-performance-test
+/tmp/valwood-performance-test
+[Profile] /tmp/valwood-performance-test-106.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-106.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-106.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+cc -std=c99 -O2 -Wall -Wextra -Werror -DTEXTURE_CACHE_TESTING -I. tests/texture_cache_test.c engine/texture_cache.c -o /tmp/valwood-texture-cache-test
+/tmp/valwood-texture-cache-test
+Texture cache: exact content, forced collisions, color space, sampler policy, mesh-field references, failed uploads, capacity fallback and teardown passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DTEXTURE_CACHE_GL_OTHER_TU -c tests/texture_cache_gl_test.c -o /tmp/valwood-texture-cache-gl-other.o
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/texture_cache_gl_test.c /tmp/valwood-texture-cache-gl-other.o engine/texture_cache.c -o /tmp/valwood-texture-cache-gl-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-texture-cache-gl-test
+Texture cache renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+Texture cache GL: exact pixels, full dimensions, color spaces, sampler state, cross-TU ownership and deletion passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/shader_equivalence.c -o /tmp/valwood-shader-equivalence -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-shader-equivalence
+PASS: 72 terrain/static PBR image cases, maximum linear RGBA difference 5.81145287e-06
+PASS: 168 SSAO blur image cases, max difference float source 6.13927841e-06 / R8 source 0.00313746929; R8 output max 1 code value(s)
+Shader equivalence renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_atlas_test.c engine/world_atlas.c -lm -o /tmp/valwood-world-atlas-test
+/tmp/valwood-world-atlas-test
+Brandalhall: natural baseline 1426.3m, foundation 1434.5m, max pad slope 0.105
+Callieut: natural baseline 1202.3m, foundation 1205.0m, max pad slope 0.615
+Rustpatch: natural baseline 321.3m, foundation 320.0m, max pad slope 0.223
+World atlas: geography, 15 dry landmarks, finite bounds, coordinate round trips, continuous seams and exact 8-hour 100.8 km width passed.
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_tiles_test.c engine/world_tiles.c -lm -pthread -o /tmp/valwood-world-tiles-test
+/tmp/valwood-world-tiles-test
+World tiles: bounded coverage, negative coordinates, coarse-first queues, seam normals, skirts, cancellation, reset and shutdown passed.
+cc -std=c99 -O2 -I. -c engine/world_atlas.c -o /tmp/valwood-cover-atlas.o
+g++ -std=c++17 -O2 -Wall -Wextra -Werror -I. tests/world_cover_test.cpp engine/world_cover.cpp /tmp/valwood-cover-atlas.o -lm -o /tmp/valwood-world-cover-test
+/tmp/valwood-world-cover-test
+World cover: deterministic roots, independent anchors, bounded staging, cancellation, water exclusion and caps passed (10 initial pumps; grass 22000, trees 352; grass <25m 13792, >60m 1554).
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_walk_test.c engine/world_walk.c -lm -o /tmp/valwood-world-walk-test
+/tmp/valwood-world-walk-test
+World walking: actual helper at45/60/mixed FPS, threshold slopes, diagonal speed, downhill, short rises and finite inputs passed.
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. -c engine/texture_cache.c -o /tmp/valwood-world-models-cache.o
+g++ -std=c++17 -O2 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DWORLD_MODELS_TEST_WRAP_UNIFORM_LOCATION tests/world_models_gl_test.cpp engine/world_models.cpp /tmp/valwood-world-models-cache.o -Wl,--wrap=glGetUniformLocation -o /tmp/valwood-world-models-gl-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-world-models-gl-test
+World models renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_1.glb: 1 meshes, 2384 triangles, height 0.77 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_2.glb: 1 meshes, 2248 triangles, height 0.89 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_1.glb: 1 meshes, 7499 triangles, height 1.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_2.glb: 1 meshes, 7500 triangles, height 1.90 m
+World models GL: seven real assets, color/shadow pixels, bounds, invalid instances, alternating programs and shared texture cleanup passed.
+
+
+Atlas ASan/UBSan/LSan
+Brandalhall: natural baseline 1426.3m, foundation 1434.5m, max pad slope 0.105
+Callieut: natural baseline 1202.3m, foundation 1205.0m, max pad slope 0.615
+Rustpatch: natural baseline 321.3m, foundation 320.0m, max pad slope 0.223
+World atlas: geography, 15 dry landmarks, finite bounds, coordinate round trips, continuous seams and exact 8-hour 100.8 km width passed.
+
+
+Tiles ASan/UBSan/LSan
+World tiles: bounded coverage, negative coordinates, coarse-first queues, seam normals, skirts, cancellation, reset and shutdown passed.
+
+
+Walk ASan/UBSan/LSan
+World walking: actual helper at45/60/mixed FPS, threshold slopes, diagonal speed, downhill, short rises and finite inputs passed.
+
+
+Cover ASan/UBSan (LSan disabled)
+World cover: deterministic roots, independent anchors, bounded staging, cancellation, water exclusion and caps passed (10 initial pumps; grass 22000, trees 352; grass <25m 13792, >60m 1554).
+
+
+Native model/shadow tests
+World models renderer: AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_1.glb: 1 meshes, 2384 triangles, height 0.77 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_2.glb: 1 meshes, 2248 triangles, height 0.89 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_1.glb: 1 meshes, 7499 triangles, height 1.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_2.glb: 1 meshes, 7500 triangles, height 1.90 m
+World models GL: seven real assets, color/shadow pixels, bounds, invalid instances, alternating programs and shared texture cleanup passed.
+
+
+Native input distance
+{"held_seconds": 1.200242054008413, "distance_m": 4.203762151053459, "expected_m": 4.200847189029446, "end": [-11689.665, 9.812, 5390.137]}
+
+
+Native final 15-landmark tour
+[Project] Opened Valwood World | Map Terrain at /home/computer/Desktop/final_engine/new_engine/projects/valwood_world
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] optional SFX not found: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[World] Renderer AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[World] Travel to Seldonne at -11692.80 5387.34 height 8.04
+[World] Atlas 100.8 x 56.7 km; walk 3.50 m/s; startup 2117.6 ms; warm 65.7 ms
+[World] Travel to Sclay at -25603.20 17523.02 height 11.94
+[World] Travel to Estuay at 12499.20 2268.35 height 5.57
+[World] Travel to Kerone City at 33163.20 170.13 height 71.81
+[World] Travel to Etarma at 23184.00 11568.60 height 88.16
+[World] Travel to Fallaway at 7358.40 18146.82 height 44.28
+[World] Travel to Bellweather at 45158.40 18827.32 height 15.53
+[World] Travel to Gorshett Keep at 42134.40 -21832.89 height 651.22
+[World] Travel to Brandalhall at -43344.00 -23987.82 height 1434.50
+[World] Travel to Callieut at -40118.40 -21322.51 height 1204.96
+[World] Travel to Rustpatch at -42840.00 -12759.48 height 319.95
+[World] Travel to Ulasse at -2620.80 -21832.89 height 16.50
+[World] Travel to Valdoa at -1310.40 -10207.58 height 24.32
+[World] Travel to Baldurne at 16027.20 -19110.87 height 229.43
+[World] Travel to Ishome at -21369.60 -5784.30 height 12.24
+[World] Travel to Seldonne at -11692.80 5387.34 height 8.04
+[Capture] Saved /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/tour.bmp (1600x900)
+[Profile] /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/tour.json: 59.95 FPS, p95 16.70 ms, 100.00% within 45 FPS budget (5280 samples)
+[World] End position -11547.800 16.532 5297.336 yaw 3.142 fly 0
+[World] Stream peakCPU 13.23 MiB GPU 13.66 MiB desired 252 generated 3869 cancelled 99 failed 0
+
+
+Native final forest route
+[Project] Opened Valwood World | Map Terrain at /home/computer/Desktop/final_engine/new_engine/projects/valwood_world
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] optional SFX not found: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[World] Renderer AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[World] Travel to Valdoa at -1310.40 -10207.58 height 24.32
+[World] Atlas 100.8 x 56.7 km; walk 3.50 m/s; startup 2166.2 ms; warm 66.3 ms
+[Capture] Saved /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/forest-walk.bmp (1600x900)
+[Profile] /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/forest-walk.json: 59.95 FPS, p95 16.70 ms, 100.00% within 45 FPS budget (3480 samples)
+[World] End position -1310.400 26.071 -10207.585 yaw 0.000 fly 0
+[World] Stream peakCPU 2.60 MiB GPU 13.66 MiB desired 252 generated 852 cancelled 0 failed 0
+
+
+Native final mountains
+[Project] Opened Valwood World | Map Terrain at /home/computer/Desktop/final_engine/new_engine/projects/valwood_world
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] optional SFX not found: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[World] Renderer AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[World] Travel to Brandalhall at -43344.00 -23987.82 height 1434.50
+[World] Atlas 100.8 x 56.7 km; walk 3.50 m/s; startup 2116.6 ms; warm 9.2 ms
+[Capture] Saved /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/mountains-flight.bmp (1600x900)
+[Profile] /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/mountains-flight.json: 59.95 FPS, p95 16.70 ms, 100.00% within 45 FPS budget (1680 samples)
+[World] End position -43199.000 1733.652 -24077.824 yaw 3.142 fly 1
+[World] Stream peakCPU 10.68 MiB GPU 13.66 MiB desired 252 generated 432 cancelled 0 failed 0
+
+
+Original Seldonne regression
+[Project] Opened Valwood Studio | Seldonne at /home/computer/Desktop/final_engine/new_engine/projects/seldonne
+[Audio] SFX: sound_effects/snd_step.wav
+[Audio] SFX: sound_effects/snd_run.wav
+[Audio] SFX: sound_effects/snd_attack.wav
+[Audio] SFX: sound_effects/snd_hit.wav
+[Audio] SFX: sound_effects/snd_death.wav
+[Audio] SFX: sound_effects/snd_enemy_die.wav
+[Audio] SFX: sound_effects/snd_jump.wav
+[Audio] SFX: sound_effects/snd_fireball.wav
+[Audio] SFX: sound_effects/snd_fireball_hit.wav
+[Audio] SFX: sound_effects/snd_heal.wav
+[Audio] SFX: sound_effects/snd_menu_click.wav
+[Audio] SFX: sound_effects/snd_level_up.wav
+[Audio] SFX: sound_effects/snd_growl.wav
+[Audio] SFX: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] SFX: sound_effects/amb_bird.wav
+[Audio] SFX: sound_effects/amb_cricket.wav
+[Audio] SFX: sound_effects/amb_lava.wav
+[Audio] SFX: sound_effects/amb_crow.wav
+[Audio] SFX: sound_effects/amb_river.wav
+[Audio] SFX: sound_effects/amb_thunder.wav
+[Audio] SFX: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] SFX: sound_effects/snd_dash.wav
+[Audio] SFX: sound_effects/snd_shield.wav
+[Audio] SFX: sound_effects/snd_meteor.wav
+[Audio] SFX: sound_effects/snd_animal_0.wav
+[Audio] SFX: sound_effects/snd_animal_1.wav
+[Audio] SFX: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] Music: background_music/mus_explore.ogg
+[Audio] Music: background_music/mus_combat.ogg
+[Audio] Music: background_music/mus_menu.ogg
+[Audio] Music: background_music/mus_biome_mountain.ogg
+[Audio] Music: background_music/mus_biome_forest.ogg
+[Audio] Music: background_music/mus_biome_lava.ogg
+[Audio] Music: background_music/mus_biome_plains.ogg
+[Audio] Custom music: background_music/Morning_at_Blackwater_Bridge.mp3
+[Audio] Custom music: background_music/gloomy.mp3
+[Audio] Custom music: background_music/intro.mp3
+[Audio] Custom music: background_music/mus_biome_forest.ogg
+[Audio] Custom music: background_music/mus_biome_lava.ogg
+[Audio] Custom music: background_music/mus_biome_mountain.ogg
+[Audio] Custom music: background_music/mus_biome_plains.ogg
+[Audio] Custom music: background_music/mus_combat.ogg
+[Audio] Custom music: background_music/mus_explore.ogg
+[Audio] Custom music: background_music/mus_menu.ogg
+[Audio] Custom music: background_music/welcome_to_valworld.mp3
+[Renderer] AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic) | 4.6 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.4
+[Assets] No cooked manifest at cooked/asset_manifest.csv, using raw assets
+[PostFX] Init 1600x900, bloom 400x225, SSAO 800x450
+[VisualProfile] Loaded visual_profile.txt
+[Reflect] 400x225 reflection FBO created
+[Config] Loaded config.ini
+[Audio] Music -> track 2
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5337213)
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5337147)
+[Scene] models/traveler.glb: 1 glTF meshes
+Load 'models/traveler_idle.fbx': File not found
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=3888581)
+[Scene] models/traveler_idle.glb: 1 glTF meshes
+[CharModel] Loaded separate anim: models/traveler_idle.glb -> slot 0
+Load 'models/traveler_attack.fbx': File not found
+[Scene] models/traveler_attack.glb: 1 glTF meshes
+[CharModel] Loaded separate anim: models/traveler_attack.glb -> slot 3
+Load 'models/traveler_attack2.fbx': File not found
+[Scene] models/traveler_attack2.glb: 1 glTF meshes
+[CharModel] Loaded separate anim: models/traveler_attack2.glb -> slot 4
+Load 'models/traveler_jump.fbx': File not found
+[Scene] models/traveler_jump.glb: 1 glTF meshes
+[CharModel] Loaded separate anim: models/traveler_jump.glb -> slot 5
+Load 'models/traveler_death.fbx': File not found
+Load 'models/traveler_death.glb': cgltf parse failed (6)
+Load 'models/traveler_roll.fbx': File not found
+Load 'models/traveler_roll.glb': cgltf parse failed (6)
+Load 'models/traveler_block.fbx': File not found
+Load 'models/traveler_block.glb': cgltf parse failed (6)
+Load 'models/traveler_hit.fbx': File not found
+Load 'models/traveler_hit.glb': cgltf parse failed (6)
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=1300122)
+[Scene] models/npc/female_staff.glb: 1 glTF meshes
+Load 'models/npc/female_staff_idle.fbx': File not found
+Load 'models/npc/female_staff_idle.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_walk.fbx': File not found
+Load 'models/npc/female_staff_walk.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_run.fbx': File not found
+Load 'models/npc/female_staff_run.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_attack.fbx': File not found
+Load 'models/npc/female_staff_attack.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_attack2.fbx': File not found
+Load 'models/npc/female_staff_attack2.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_jump.fbx': File not found
+Load 'models/npc/female_staff_jump.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_death.fbx': File not found
+Load 'models/npc/female_staff_death.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_roll.fbx': File not found
+Load 'models/npc/female_staff_roll.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_block.fbx': File not found
+Load 'models/npc/female_staff_block.glb': cgltf parse failed (6)
+Load 'models/npc/female_staff_hit.fbx': File not found
+Load 'models/npc/female_staff_hit.glb': cgltf parse failed (6)
+[NPC] model[0] loaded: models/npc/female_staff.glb
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2314577)
+[Scene] models/npc/hobb_drinking.glb: 1 glTF meshes
+Load 'models/npc/hobb_drinking_idle.fbx': File not found
+Load 'models/npc/hobb_drinking_idle.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_walk.fbx': File not found
+Load 'models/npc/hobb_drinking_walk.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_run.fbx': File not found
+Load 'models/npc/hobb_drinking_run.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_attack.fbx': File not found
+Load 'models/npc/hobb_drinking_attack.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_attack2.fbx': File not found
+Load 'models/npc/hobb_drinking_attack2.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_jump.fbx': File not found
+Load 'models/npc/hobb_drinking_jump.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_death.fbx': File not found
+Load 'models/npc/hobb_drinking_death.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_roll.fbx': File not found
+Load 'models/npc/hobb_drinking_roll.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_block.fbx': File not found
+Load 'models/npc/hobb_drinking_block.glb': cgltf parse failed (6)
+Load 'models/npc/hobb_drinking_hit.fbx': File not found
+Load 'models/npc/hobb_drinking_hit.glb': cgltf parse failed (6)
+[NPC] model[1] loaded: models/npc/hobb_drinking.glb
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=4202107)
+[Scene] models/npc/white_knight_brown_armor.glb: 1 glTF meshes
+Load 'models/npc/white_knight_brown_armor_idle.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_idle.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_attack.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_attack.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_attack2.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_attack2.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_jump.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_jump.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_death.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_death.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_roll.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_roll.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_block.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_block.glb': cgltf parse failed (6)
+Load 'models/npc/white_knight_brown_armor_hit.fbx': File not found
+Load 'models/npc/white_knight_brown_armor_hit.glb': cgltf parse failed (6)
+[NPC] model[2] loaded: models/npc/white_knight_brown_armor.glb
+[EnemyEd] Registry: 0 custom model(s) in models/enemy/
+[Terrain] Building 8x8 chunks × 3 LODs…
+[Terrain] Using editable landscape shaders
+[Terrain] Loaded sRGB ground/terrain_sand.png (2048x2048)
+[Terrain] Loaded sRGB ground/terrain_grass.png (2048x2048)
+[Terrain] Loaded sRGB ground/terrain_dirt.png (2048x2048)
+[Terrain] Loaded sRGB ground/terrain_rock.png (2048x2048)
+[Terrain] 'ground/terrain_snow.png' not found — using sRGB fallback
+[Terrain] 'ground/terrain_lava.png' not found — using sRGB fallback
+[Terrain] Loaded ground/terrain_sand_nor.png (2048x2048)
+[Terrain] Loaded ground/terrain_grass_nor.png (2048x2048)
+[Terrain] Loaded ground/terrain_dirt_nor.png (2048x2048)
+[Terrain] Loaded ground/terrain_rock_nor.png (2048x2048)
+[Terrain] 'ground/terrain_snow_nor.png' not found — using flat fallback
+[Terrain] Loaded ground/terrain_sand_rgh.png (2048x2048)
+[Terrain] Loaded ground/terrain_grass_rgh.png (2048x2048)
+[Terrain] Loaded ground/terrain_dirt_rgh.png (2048x2048)
+[Terrain] Loaded ground/terrain_rock_rgh.png (2048x2048)
+[Terrain] 'ground/terrain_snow_rgh.png' not found — using flat fallback
+[Terrain] 'terrain_water.png' not found — using flat fallback
+[Terrain] PBR normal maps: ALL LOADED
+[Terrain] PBR roughness maps: ALL LOADED
+[Water] detail texture: fallback
+[Terrain] Heightmap rebaked
+[Terrain] 8x8 chunks built
+[WaterStyle] -> Clear Shallow
+[RiverEd] Loaded 7 points from river_custom.txt
+[SculptEd] Loaded from terrain_sculpt.bin
+[GrassPaint] Loaded from grass_mask.bin
+[WaterStyle] -> Deep Ocean
+[WZone] Loaded 0 zones from water_zones.txt
+[Terrain] Loaded sRGB ground/cobblestone_path.png (2048x2048)
+[Terrain] Loaded ground/cobblestone_path_nor.png (2048x2048)
+[Terrain] Loaded ground/cobblestone_path_rgh.png (2048x2048)
+[PathMat] albedo:loaded normal:loaded rough:loaded
+[PathEd] Loaded 1 paths from paths_custom.txt
+[Terrain] Heightmap rebaked
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=1169900)
+[Scene] models/cottage.glb: 1 glTF meshes
+[Prop] 'models/cottage.glb' at (-17.0,4.9,-8.0) rot=(0.0,25.0,0.0) scale=1.00 coll=1
+[Prop] 'models/cottage.glb' at (-20.0,4.4,-31.0) rot=(0.0,15.0,0.0) scale=1.15 coll=1
+[Prop] 'models/cottage.glb' at (12.0,4.6,-42.0) rot=(0.0,-20.0,0.0) scale=0.95 coll=1
+[Prop] 'models/cottage.glb' at (-6.0,4.4,-53.0) rot=(0.0,150.0,0.0) scale=1.10 coll=1
+[Prop] 'models/cottage.glb' at (23.0,5.7,4.0) rot=(0.0,-90.0,0.0) scale=0.95 coll=1
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=6311148)
+[Scene] models/tall_house.glb: 1 glTF meshes
+[Prop] 'models/tall_house.glb' at (-31.0,4.1,-19.0) rot=(0.0,70.0,0.0) scale=1.00 coll=1
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=1815757)
+[Scene] models/stone_hall.glb: 1 glTF meshes
+[Prop] 'models/stone_hall.glb' at (2.0,4.8,-34.0) rot=(0.0,180.0,0.0) scale=1.00 coll=1
+[Scene] models/bridge.glb: 4 glTF meshes
+[TriMesh] 3238 triangles
+[Prop] 'models/bridge.glb' at (40.6,3.5,-22.0) rot=(0.0,0.0,0.0) scale=1.00 coll=2
+[GL] Embedded sRGB texture (4096x4096 ch=4 size=30190972)
+[GL] Embedded sRGB texture (4096x4096 ch=3 size=695052)
+[Scene] models/campfire.glb: 1 glTF meshes
+[Prop] 'models/campfire.glb' at (-21.0,4.2,37.0) rot=(0.0,0.0,0.0) scale=1.00 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5695126)
+[Scene] models/portal.glb: 1 glTF meshes
+[Prop] 'models/portal.glb' at (-15.0,5.1,64.0) rot=(0.0,180.0,0.0) scale=1.00 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4540174)
+[Scene] models/sign.glb: 1 glTF meshes
+[Prop] 'models/sign.glb' at (-7.0,4.7,17.0) rot=(0.0,15.0,0.0) scale=0.90 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4567848)
+[Scene] models/barrel.glb: 1 glTF meshes
+[Prop] 'models/barrel.glb' at (-18.0,4.8,-4.0) rot=(0.0,-126.0,0.0) scale=1.00 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=6336483)
+[Scene] models/crate.glb: 1 glTF meshes
+[Prop] 'models/crate.glb' at (-15.0,4.9,-1.0) rot=(0.0,-105.0,0.0) scale=1.00 coll=0
+[Prop] 'models/barrel.glb' at (12.0,4.7,-38.0) rot=(0.0,84.0,0.0) scale=1.00 coll=0
+[Prop] 'models/barrel.glb' at (14.0,4.8,-38.0) rot=(0.0,98.0,0.0) scale=1.00 coll=0
+[Prop] 'models/barrel.glb' at (20.0,5.5,1.0) rot=(0.0,140.0,0.0) scale=1.00 coll=0
+[Prop] 'models/barrel.glb' at (-32.0,3.9,-14.0) rot=(0.0,-224.0,0.0) scale=1.00 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=5959871)
+[Scene] models/lantern_post.glb: 1 glTF meshes
+[Prop] 'models/lantern_post.glb' at (-14.0,4.3,29.0) rot=(0.0,0.0,0.0) scale=0.90 coll=0
+[Prop] 'models/lantern_post.glb' at (5.0,5.2,3.0) rot=(0.0,0.0,0.0) scale=0.90 coll=0
+[Prop] 'models/lantern_post.glb' at (26.0,4.8,-19.0) rot=(0.0,0.0,0.0) scale=0.90 coll=0
+[Prop] 'models/lantern_post.glb' at (59.0,6.0,-19.0) rot=(0.0,0.0,0.0) scale=0.90 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=3679298)
+[Scene] models/fence.glb: 1 glTF meshes
+[Prop] 'models/fence.glb' at (-13.0,5.0,-1.0) rot=(0.0,0.0,0.0) scale=1.00 coll=0
+[Prop] 'models/fence.glb' at (-13.0,5.1,-6.0) rot=(0.0,0.0,0.0) scale=1.00 coll=0
+[Prop] 'models/fence.glb' at (-13.0,5.2,-11.0) rot=(0.0,0.0,0.0) scale=1.00 coll=0
+[Prop] 'models/fence.glb' at (-23.0,4.4,-25.0) rot=(0.0,90.0,0.0) scale=1.00 coll=0
+[Prop] 'models/fence.glb' at (-18.0,4.6,-25.0) rot=(0.0,90.0,0.0) scale=1.00 coll=0
+[Prop] 'models/fence.glb' at (18.0,5.5,-2.0) rot=(0.0,0.0,0.0) scale=1.00 coll=0
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=7509125)
+[Scene] models/bush.glb: 1 glTF meshes
+[Prop] 'models/bush.glb' at (-41.9,3.5,-7.2) rot=(0.0,292.2,0.0) scale=0.76 coll=0
+[Prop] 'models/bush.glb' at (36.9,3.2,61.9) rot=(0.0,42.4,0.0) scale=0.87 coll=0
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[Scene] models/mossy_boulder_0.glb: 1 glTF meshes
+[Prop] 'models/mossy_boulder_0.glb' at (84.6,7.7,64.2) rot=(0.0,186.2,0.0) scale=0.90 coll=0
+[Prop] 'models/bush.glb' at (78.6,6.4,28.0) rot=(0.0,207.1,0.0) scale=0.86 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (21.7,4.6,-57.1) rot=(0.0,20.4,0.0) scale=1.13 coll=0
+[Prop] 'models/bush.glb' at (81.9,6.4,13.8) rot=(0.0,213.9,0.0) scale=0.70 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (-33.2,3.9,-16.0) rot=(0.0,95.7,0.0) scale=0.93 coll=0
+[Prop] 'models/bush.glb' at (-42.6,3.4,29.2) rot=(0.0,91.8,0.0) scale=0.98 coll=0
+[Prop] 'models/bush.glb' at (78.3,6.5,30.7) rot=(0.0,178.8,0.0) scale=1.05 coll=0
+[Prop] 'models/bush.glb' at (76.5,6.2,15.2) rot=(0.0,35.3,0.0) scale=0.68 coll=0
+[Prop] 'models/bush.glb' at (70.1,5.9,-33.4) rot=(0.0,217.3,0.0) scale=0.76 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (28.7,5.4,27.3) rot=(0.0,70.9,0.0) scale=1.07 coll=0
+[Prop] 'models/bush.glb' at (-48.8,3.4,28.3) rot=(0.0,108.6,0.0) scale=1.27 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (63.3,4.5,64.9) rot=(0.0,349.6,0.0) scale=0.92 coll=0
+[Prop] 'models/bush.glb' at (-26.6,4.3,-25.2) rot=(0.0,176.9,0.0) scale=1.08 coll=0
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[Scene] models/silver_fir.glb: 3 glTF meshes
+[Prop] 'models/silver_fir.glb' at (-25.0,3.9,34.0) rot=(0.0,26.9,0.0) scale=0.95 coll=0
+[Prop] 'models/silver_fir.glb' at (-29.0,3.4,20.0) rot=(0.0,276.0,0.0) scale=1.02 coll=0
+[Prop] 'models/silver_fir.glb' at (10.0,5.3,28.0) rot=(0.0,158.5,0.0) scale=0.87 coll=0
+[Prop] 'models/silver_fir.glb' at (20.0,5.1,42.0) rot=(0.0,315.8,0.0) scale=1.07 coll=0
+[Prop] 'models/silver_fir.glb' at (-37.0,3.4,-1.0) rot=(0.0,222.1,0.0) scale=0.91 coll=0
+[Prop] 'models/silver_fir.glb' at (64.0,6.0,-40.0) rot=(0.0,302.4,0.0) scale=0.90 coll=0
+[Prop] 'models/silver_fir.glb' at (-40.0,5.0,-50.0) rot=(0.0,112.9,0.0) scale=1.16 coll=0
+[Prop] 'models/silver_fir.glb' at (25.0,3.3,-62.0) rot=(0.0,302.2,0.0) scale=0.94 coll=0
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[Scene] models/woodland_fern_1.glb: 1 glTF meshes
+[Prop] 'models/woodland_fern_1.glb' at (25.1,5.7,13.4) rot=(0.0,334.6,0.0) scale=1.48 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-28.1,5.1,-57.2) rot=(0.0,213.2,0.0) scale=0.84 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-35.0,4.6,58.9) rot=(0.0,317.8,0.0) scale=1.12 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-41.7,3.4,27.9) rot=(0.0,219.2,0.0) scale=0.81 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (73.6,6.0,6.8) rot=(0.0,15.3,0.0) scale=1.60 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-34.0,3.8,-9.8) rot=(0.0,316.8,0.0) scale=0.79 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-34.8,3.5,30.2) rot=(0.0,142.1,0.0) scale=0.92 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (71.2,6.5,61.7) rot=(0.0,129.7,0.0) scale=0.91 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-19.6,4.5,-30.0) rot=(0.0,203.5,0.0) scale=1.06 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (27.1,5.2,34.0) rot=(0.0,93.9,0.0) scale=1.05 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-10.4,5.1,-4.0) rot=(0.0,82.0,0.0) scale=1.52 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (11.3,5.3,25.6) rot=(0.0,317.7,0.0) scale=1.42 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (7.0,4.4,-56.6) rot=(0.0,105.5,0.0) scale=1.03 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (12.5,5.3,-6.8) rot=(0.0,202.7,0.0) scale=0.81 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (30.2,4.6,56.7) rot=(0.0,143.9,0.0) scale=1.58 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (71.5,6.4,54.4) rot=(0.0,306.0,0.0) scale=1.17 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-13.2,4.6,-54.5) rot=(0.0,337.4,0.0) scale=1.25 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-18.5,4.9,-57.7) rot=(0.0,323.8,0.0) scale=0.98 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (8.3,4.7,-38.4) rot=(0.0,85.8,0.0) scale=1.57 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (13.7,5.4,8.1) rot=(0.0,25.6,0.0) scale=1.24 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-11.1,4.7,-30.3) rot=(0.0,289.8,0.0) scale=0.87 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (9.0,5.1,46.9) rot=(0.0,281.9,0.0) scale=0.70 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-6.1,4.8,14.9) rot=(0.0,90.3,0.0) scale=1.49 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-19.7,4.7,-54.2) rot=(0.0,82.7,0.0) scale=1.48 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-26.2,4.3,47.1) rot=(0.0,341.0,0.0) scale=0.73 coll=0
+[Prop] 'models/silver_fir.glb' at (-32.0,4.0,43.0) rot=(0.0,32.4,0.0) scale=1.25 coll=0
+[Prop] 'models/silver_fir.glb' at (-30.0,3.5,9.0) rot=(0.0,224.4,0.0) scale=1.10 coll=0
+[Prop] 'models/silver_fir.glb' at (5.0,5.1,38.0) rot=(0.0,5.8,0.0) scale=1.18 coll=0
+[Prop] 'models/silver_fir.glb' at (14.0,5.4,23.0) rot=(0.0,191.8,0.0) scale=1.08 coll=0
+[Prop] 'models/silver_fir.glb' at (-46.0,4.1,-26.0) rot=(0.0,334.8,0.0) scale=1.27 coll=0
+[Prop] 'models/silver_fir.glb' at (30.0,-0.5,-53.0) rot=(0.0,74.3,0.0) scale=1.30 coll=0
+[Prop] 'models/silver_fir.glb' at (-47.0,3.6,37.0) rot=(0.0,347.4,0.0) scale=1.15 coll=0
+[Prop] 'models/silver_fir.glb' at (20.0,4.9,50.0) rot=(0.0,286.6,0.0) scale=0.95 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (-22.0,4.0,31.0) rot=(0.0,329.5,0.0) scale=1.00 coll=0
+[Scene] models/mossy_boulder_1.glb: 1 glTF meshes
+[Prop] 'models/mossy_boulder_1.glb' at (-31.0,3.7,33.0) rot=(0.0,46.8,0.0) scale=0.90 coll=0
+[Scene] models/mossy_boulder_2.glb: 1 glTF meshes
+[Prop] 'models/mossy_boulder_2.glb' at (2.0,5.1,34.0) rot=(0.0,119.6,0.0) scale=1.20 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (7.0,5.2,22.0) rot=(0.0,304.1,0.0) scale=0.80 coll=0
+[Prop] 'models/mossy_boulder_1.glb' at (-26.0,3.7,12.0) rot=(0.0,296.8,0.0) scale=0.90 coll=0
+[Prop] 'models/mossy_boulder_2.glb' at (-39.0,3.6,-8.0) rot=(0.0,267.9,0.0) scale=1.00 coll=0
+[Prop] 'models/mossy_boulder_0.glb' at (31.0,2.1,-11.0) rot=(0.0,113.1,0.0) scale=0.90 coll=0
+[Prop] 'models/mossy_boulder_1.glb' at (31.0,-0.2,-36.0) rot=(0.0,132.8,0.0) scale=1.10 coll=0
+[Prop] 'models/mossy_boulder_2.glb' at (-37.0,4.1,48.0) rot=(0.0,324.5,0.0) scale=0.80 coll=0
+[Scene] models/woodland_fern_0.glb: 1 glTF meshes
+[Prop] 'models/woodland_fern_0.glb' at (-21.8,4.0,31.3) rot=(0.0,163.2,0.0) scale=1.08 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-22.5,4.1,35.5) rot=(0.0,320.0,0.0) scale=0.83 coll=0
+[Scene] models/woodland_fern_2.glb: 1 glTF meshes
+[Prop] 'models/woodland_fern_2.glb' at (-21.9,4.0,31.9) rot=(0.0,357.2,0.0) scale=0.88 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-23.5,4.0,32.6) rot=(0.0,217.3,0.0) scale=1.24 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-25.8,4.0,35.5) rot=(0.0,340.6,0.0) scale=1.07 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-25.1,3.9,30.0) rot=(0.0,266.0,0.0) scale=0.72 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-29.4,3.5,22.5) rot=(0.0,139.3,0.0) scale=0.78 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-27.7,3.5,21.0) rot=(0.0,275.2,0.0) scale=0.73 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-30.9,3.4,16.6) rot=(0.0,54.5,0.0) scale=0.74 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-25.0,3.6,18.8) rot=(0.0,18.5,0.0) scale=1.13 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-32.5,3.3,18.0) rot=(0.0,180.9,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-28.3,3.5,18.6) rot=(0.0,302.8,0.0) scale=1.20 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (12.0,5.3,28.9) rot=(0.0,355.4,0.0) scale=0.85 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (10.3,5.3,25.8) rot=(0.0,348.3,0.0) scale=1.00 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (9.3,5.3,25.9) rot=(0.0,283.6,0.0) scale=1.00 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (8.7,5.2,29.8) rot=(0.0,159.8,0.0) scale=0.98 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (10.9,5.3,24.5) rot=(0.0,103.2,0.0) scale=0.75 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (13.3,5.3,27.6) rot=(0.0,327.9,0.0) scale=1.11 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (18.6,5.1,40.4) rot=(0.0,16.0,0.0) scale=1.11 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (16.8,5.1,41.7) rot=(0.0,223.7,0.0) scale=1.02 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (18.1,5.0,44.1) rot=(0.0,57.6,0.0) scale=1.01 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (15.7,5.1,42.6) rot=(0.0,34.4,0.0) scale=1.04 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (24.0,5.1,40.2) rot=(0.0,115.9,0.0) scale=0.78 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (20.1,5.0,43.8) rot=(0.0,106.0,0.0) scale=1.14 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-37.8,3.5,-2.1) rot=(0.0,38.9,0.0) scale=0.78 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-38.7,3.4,-1.7) rot=(0.0,215.1,0.0) scale=0.72 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-38.0,3.4,1.8) rot=(0.0,135.2,0.0) scale=0.90 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-39.9,3.3,0.2) rot=(0.0,130.1,0.0) scale=0.76 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-37.0,3.4,1.9) rot=(0.0,301.4,0.0) scale=1.04 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-36.5,3.4,3.1) rot=(0.0,42.2,0.0) scale=1.21 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-21.7,3.9,26.6) rot=(0.0,166.2,0.0) scale=0.98 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-19.0,4.1,28.7) rot=(0.0,35.0,0.0) scale=0.93 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-24.4,3.9,31.3) rot=(0.0,330.5,0.0) scale=1.01 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-21.0,4.1,32.8) rot=(0.0,85.0,0.0) scale=0.87 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-22.8,3.9,29.3) rot=(0.0,49.6,0.0) scale=0.72 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-21.7,4.0,28.7) rot=(0.0,274.2,0.0) scale=0.77 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (5.4,5.2,24.4) rot=(0.0,260.4,0.0) scale=0.94 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (6.3,5.2,20.2) rot=(0.0,195.3,0.0) scale=1.03 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (4.2,5.1,19.4) rot=(0.0,263.3,0.0) scale=1.04 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (2.7,5.1,21.3) rot=(0.0,52.6,0.0) scale=1.15 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (5.9,5.2,22.9) rot=(0.0,129.3,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (10.3,5.3,19.4) rot=(0.0,154.8,0.0) scale=0.79 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-27.6,3.6,10.6) rot=(0.0,21.7,0.0) scale=0.91 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-25.3,3.8,10.5) rot=(0.0,308.5,0.0) scale=1.01 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-23.2,3.9,10.7) rot=(0.0,329.4,0.0) scale=0.73 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-28.0,3.6,11.0) rot=(0.0,264.0,0.0) scale=0.82 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-25.6,3.8,9.3) rot=(0.0,45.3,0.0) scale=1.14 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-26.1,3.6,14.4) rot=(0.0,331.2,0.0) scale=1.21 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-31.5,4.1,44.5) rot=(0.0,26.3,0.0) scale=0.85 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-34.1,4.0,42.9) rot=(0.0,127.7,0.0) scale=0.82 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-33.1,4.1,44.8) rot=(0.0,125.7,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-32.8,3.9,41.0) rot=(0.0,286.5,0.0) scale=1.03 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-33.8,3.9,41.2) rot=(0.0,323.2,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-33.0,3.9,40.5) rot=(0.0,73.5,0.0) scale=1.12 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (7.3,5.2,37.8) rot=(0.0,156.6,0.0) scale=1.14 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (4.6,5.1,35.6) rot=(0.0,215.4,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (4.8,5.1,36.2) rot=(0.0,85.0,0.0) scale=0.72 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (1.8,5.1,39.6) rot=(0.0,3.4,0.0) scale=1.00 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (3.7,5.1,40.8) rot=(0.0,110.8,0.0) scale=0.91 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (1.4,5.1,35.5) rot=(0.0,177.2,0.0) scale=0.74 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-35.6,4.0,44.5) rot=(0.0,141.5,0.0) scale=1.04 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-38.6,4.1,48.6) rot=(0.0,305.0,0.0) scale=1.12 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-36.6,4.0,45.5) rot=(0.0,131.5,0.0) scale=0.88 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-39.2,4.0,47.5) rot=(0.0,322.7,0.0) scale=0.80 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-38.6,4.2,52.0) rot=(0.0,115.7,0.0) scale=0.89 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-34.9,4.1,46.7) rot=(0.0,127.6,0.0) scale=1.06 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-39.6,3.6,-9.1) rot=(0.0,154.9,0.0) scale=0.95 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-43.0,3.5,-7.6) rot=(0.0,319.4,0.0) scale=0.88 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-40.6,3.5,-8.5) rot=(0.0,247.8,0.0) scale=0.85 coll=0
+[Prop] 'models/woodland_fern_0.glb' at (-38.4,3.6,-10.4) rot=(0.0,109.0,0.0) scale=1.22 coll=0
+[Prop] 'models/woodland_fern_1.glb' at (-40.5,3.5,-7.3) rot=(0.0,117.5,0.0) scale=1.04 coll=0
+[Prop] 'models/woodland_fern_2.glb' at (-38.6,3.5,-6.8) rot=(0.0,233.8,0.0) scale=0.92 coll=0
+[PropPlacer] Loaded 164 props from props_custom.txt
+[Skybox] Day sky texture missing, using procedural sky
+[Skybox] Loaded nighttime_skybox.png
+[MarkerEd] Loaded 0 markers from world_markers.txt
+[PlightEd] Loaded 4 lights from placed_lights.txt
+[DecalEd] GPU resources initialised
+[Shadow] 2048x2048 shadow map created
+[Shadow] Wide cascade 1024x1024 created
+[WorldFX] Loaded world_fx_custom.txt
+[NpcEd] Loaded 3 NPC spawns from npcs_custom.txt
+[Terrain] Loaded bird_sprite.png (685x401)
+Load 'models/bird.fbx': File not found
+[CharModel] Failed to load base: models/bird.fbx
+[Birds] FBX not found (models/bird.fbx) — billboard-only mode
+Load 'models/horse.glb': cgltf parse failed (6)
+[CharModel] Failed to load base: models/horse.glb
+Load 'models/horse.fbx': File not found
+[CharModel] Failed to load base: models/horse.fbx
+[Mount] Horse model missing (billboard fallback)
+Load 'models/stag.glb': cgltf parse failed (6)
+[CharModel] Failed to load base: models/stag.glb
+Load 'models/deer.fbx': File not found
+[CharModel] Failed to load base: models/deer.fbx
+[Mount] Stag model missing (billboard fallback)
+[Terrain] Loaded fir_billboard.png (1024x1024)
+[Terrain] Loaded tree_billboard_snow.png (4096x4096)
+[Forest] Loaded tree_billboard_snow.png
+[ForestEd] Loaded 402 trees from forest_custom.txt
+[Anim] attack=2.867s  attack2=4.367s  hit=1.933s  death=1.933s
+[PropPlacer] Found 33 models in palette
+[SpawnEd] Loaded 0 spawn points from spawns_custom.txt
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=1120129)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=1124558)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=863717)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=860710)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=1002566)
+[Scene] models/boulders.glb: 8 glTF meshes
+[Prop] 'models/boulders.glb' at (-185.0,0.0,-185.0) rot=(0.0,0.0,0.0) scale=1.80 coll=0
+[Prop] 'models/boulders.glb' at (185.0,0.0,-185.0) rot=(0.0,60.0,0.0) scale=1.80 coll=0
+[Prop] 'models/boulders.glb' at (0.0,0.0,185.0) rot=(0.0,120.0,0.0) scale=1.80 coll=0
+[SceneSystem] Apartment interior + monitor NPC registered.
+[Audio] Music -> track 0
+[Campfire] Anchor from prop 8: models/campfire.glb @ -21.0 37.0
+[Campfire] (-21.0,4.5,37.0)
+[NpcEd] Applied 3 NPC spawns
+[SpawnEd] Applied 0 custom enemy spawns (total: 0)
+[Boot] Scene init current=Shire active_props=Shire props=167
+[Stream] Init -> Shire props=167
+[TextureCache] 56 unique images, 15 shared lookups, 88 live field refs, 195.16 MiB encoded cache
+[Terrain] Heightmap rebaked
+[Capture] Saved /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/seldonne-regression.bmp (1600x900)
+[Profile] /home/computer/Desktop/final_engine/new_engine/docs/performance/world-terrain/seldonne-regression.json: 59.95 FPS, p95 16.71 ms, 100.00% within 45 FPS budget (120 samples)

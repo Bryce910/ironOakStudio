@@ -1,0 +1,20 @@
+Valwood World Designer — collision, source-floor NPCs and water update
+Release notes draft. Exact final GPU acceptance and root visual review are recorded separately.
+
+This update adds collision rebuilding for supported architecture edits, source-floor NPC placement and walking paths on imported floors and stairs, and refined pond/river editing and water appearance. Grandstone traversal now uses the full source collision service, with doorway, stair, closed-gate and headroom checks. Existing scene and asset work remains in the same workcopy.
+
+Windows installation
+1. Save your work, then close the editor and Designer launcher.
+2. Keep the existing full four-area World Designer delivery. Extract the ENTIRE cumulative update ZIP into that delivery folder, beside Valwood World Designer.exe, allowing the update's launcher/index files to replace their older versions. The smaller update ZIP does not replace the full asset bundle.
+3. Open Valwood World Designer.exe and select the usual working copy. The updater checks that copy's original seed identity, backs up derived changes in a recoverable transaction, and retains your scene, models, original executable, seed manifest and artist baseline.
+4. Use Return Saved Changes as before. Source-floor NPC routes use conditional Studio11 records and require this updated editor.
+
+Compatible custom shader additions are retained. Conflicting custom water or structural collision files stop the upgrade before live changes; keep those files and send the error for review. Do not reset or recreate your workcopy to bypass a conflict. The included COLLISION_WATER_UPDATE_README.txt explains recovery and rollback.
+
+Known limits
+- Imported base ground remains fixed. Use editable terrain layers and the supported architecture transform tools for authoring.
+- An NPC patrol can follow imported source floors or atlas terrain. A single patrol crossing between those systems remains unsupported and is rejected explicitly.
+- Linux and the actual Windows executable are checked on the current Linux computer; Windows checks use hardware Wine. A receiving physical Windows PC still needs its own graphics/controller smoke test.
+- Grandstone may retain lower texture detail when the streaming budget fills on a 3 GB graphics card. The acceptance evidence does not guarantee a sustained frame rate or certify overall AAA art quality.
+
+Coverage is reported by exact runtime version. The full nine-route Grandstone rehearsal and structural/NPC workflow/reopen evidence were recorded on v5. Final v6 acceptance requires representative four-route traversal, the final water checks and the connected apartment-to-town journey on both executables. The final evidence receipt distinguishes inherited checks from direct reruns; this draft does not mark pending tests as complete.

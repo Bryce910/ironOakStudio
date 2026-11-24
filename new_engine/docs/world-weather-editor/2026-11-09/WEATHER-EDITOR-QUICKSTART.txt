@@ -1,0 +1,34 @@
+Valwood — Weather authoring
+
+Use Edit_Seldonne_Region.sh (the Seldonne region editor shortcut), then choose
+Weather from the tool palette. Other area shortcuts retain their prior editor
+version for now.
+
+Global baseline
+Enable “Override existing world weather”, then choose Clear, Overcast, Rain,
+or Storm. Rain, Thunder, and Lightning can each be enabled independently.
+Use the minimum/maximum fields for rain intensity, storm interval in seconds,
+lightning strength, and thunder volume. Expand “Clouds, mist and variation”
+for cloud coverage, ground mist, variation speed, and a repeatable seed.
+Transition controls how quickly applied weather changes blend.
+
+Local weather
+Choose “Place weather area on map…” and click terrain. The inner radius is
+full effect; the outer radius blends to the surrounding weather. Higher
+priority overrides lower priority. Move/frame/copy/duplicate/delete areas
+with ordinary selection tools; Undo/Redo uses the shared editor history.
+The map supports one global baseline and up to sixteen local weather areas.
+
+Audio
+Placed sounds can play Always, during Rain, when Dry, or during a Storm.
+Their rain minimum/maximum values limit activation. Conditions are evaluated
+at the sound source, so a distant storm does not silence a dry campsite.
+Existing sound fades control the audible transition. Audition previews the
+chosen clip independently of its weather condition.
+
+Save All stores weather and audio with this map. Reopen the same project to
+continue editing. Weather-only Apply does not rebuild terrain or collision.
+Fog still follows the player's volumetric-fog graphics setting. Roof cover
+suppresses rain particles and attenuates outdoor audio. Thunder is delayed by
+distance from the visible strike; pause, focus loss and loading do not queue
+missed strikes for playback on return.

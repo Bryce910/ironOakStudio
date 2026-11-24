@@ -1,0 +1,7 @@
+Valwood battlefield finishing candidate (Linux)
+
+UNBUILT isolated continuation of published battlefield-opening b8be0d835e52.
+The published generation and live state remain unchanged.
+No N2 native acceptance exists; build, input binding, private review and guarded publication are separate steps.
+Preserve all cinematic, weather and High/Ultra options. Performance targets remain unmet in the published baseline.
+Heavy asset root links are immutable dependencies; edit only independent source/world/shader/vegetation copies.

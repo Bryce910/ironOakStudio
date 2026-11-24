@@ -1,0 +1,296 @@
+VALWOOD LIGHTING / SHORELINE VALIDATION
+Assembled UTC: 2026-10-24T14:39:24.866161+00:00
+
+STATUS AND SCOPE
+Final paired-shoreline atlas, actual 32/64-cell mesh LOD and ecology CPU tests:
+PASS, including Address/Undefined Behavior Sanitizers. The original comparison
+lake entrance is unchanged. Local shoreline offsets are now explicitly allowed
+inside the approved band; the limits and independent controls are recorded below.
+
+Release build, strict viewer/water/scenery compilation, complete make test and
+all six native GL fixtures PASS after the final bounded shoreline-edge change
+and viewer close-shore preset. A later launcher-only whitelist/help fix passed
+a release rebuild and targeted project/CLI tests. The parent confirmed exit0;
+completed result logs were also inspected. All five final native captures PASS.
+The controlled six-route native performance run PASS exited0. Native timing
+is reported separately below; unit-test, fixture and short capture durations
+are not used as FPS evidence.
+
+BUILD AND WHOLE SUITE
+Final integration PASS, confirmed exit 0 by the parent:
+  /tmp/valwood-lighting-build.log
+  /tmp/valwood-lighting-strict-root.log
+  /tmp/valwood-lighting-full-tests.log
+Final launcher correction PASS:
+  /tmp/valwood-lighting-final-launcher-build.log
+The first close-shore capture was rejected by the CLI whitelist before rendering;
+it did not pass. The whitelist/help now include shore, and the real launch parser
+regression accepts --scenic shore. make -j4 all test-project exited0. The complete
+suite/native fixtures above preceded only this isolated launcher correction;
+the repeated close-shore native capture passed on the rebuilt executable.
+The strict compile covers world_viewer.cpp, world_water_scene.cpp and
+world_scenery.cpp with warnings treated as errors. Empty diagnostics are valid.
+The complete suite exercises project/import/CLI and audio lifecycle, studio
+and real shaders, grass scatter, raw profiler statistics, temporal math/GL,
+scenery grounding/ownership, shared texture pixels/ownership, PBR and SSAO image
+cases, atlas/tiles/ecology/walking, real models, water and lighting/foliage GL.
+Expected rejection diagnostics and isolated optional fallbacks are test cases.
+
+TERRAIN AND SHORE CONTRACT
+PASS: 100.8 km width, source-image aspect, coordinate round trips, fifteen dry
+landmarks, twelve fixed town heights, natural northwest foundations, finite
+bounds, crag/gully relief, exact analytic trail width and continuous restart.
+The width / 3.5 m/s speed calibration is exactly 8 h; this is not a continuous
+navigable land route or an eight-hour performance soak.
+
+Two bounded 513 x 513 paired shore caches use UV rectangles:
+  Ulasse:    (0.4485,0.168) to (0.4635,0.192), about 3.0 x 2.7 m cells.
+  Crosswind: (0.510,0.914) to (0.540,0.938), about 5.9 x 2.7 m cells.
+The cached height residual shapes unequal gravel shelves, runnels and banks.
+The second channel adds nonperiodic roughly 30-100 m coves/spits. Its signed-shore
+offset is bounded by 8 m and fades to zero at patch edges, settlement foundations
+and 48 m from the reference line. Runtime sampling adds no feature scans or noise
+calls; paired cache storage is 4.016 MiB, total atlas approximately 18.50 MiB.
+No terrain vertices, draw calls or runtime model budgets are added.
+
+The complete offset is baked first. Material masks and bank heights then use
+that same effective shore. Actual terrain height, region, forest density,
+land weight, collider queries and water-bed queries share the effective signed
+distance. Wet height is -min(85,-shore_distance*.07); both wet/dry branches
+meet continuously at Y=0. world_atlas_reference_shore_distance() is diagnostic
+only and preserves the original macro line. Local classification may change
+only within the original +/-8 m band inside those two patches.
+
+PASS original 0x08b1e07e55b80fe2 classification golden across 33,153 coarse
+reference-map points, for both effective and reference fields. It was not
+regenerated. A diagnostic exact-zero world/UV round-trip ambiguity (~1e-12 m)
+is canonicalized only in the reference checksum. All 33,089 coarse core points
+outside the original +/-8 m band retain their signs.
+PASS additional 33,282 local samples: offset range -7.815 to +7.611 m; 89 real
+classification changes, all within 8 m; dry/wet height agreement, exact bed
+formula, ocean ecology, field seams and one-ULP rectangle corners.
+PASS preserved lake UV(.454,.180): height 4.054718 m, shore 72.878387 m. Equal-distance
+bank relief at 30 m from the effective line is 0.423-2.607 m. First 80 m approaching
+water retain maximum one-meter grade 0.104. New close-shore camera UV
+(.4534948785,.1792875066) has height 0.042207 m, actual shore 23.035275 m,
+reference shore 16.817286 m and local grade 0.002982; yaw-.9, pitch-.13, eye+1.75 m.
+
+Actual generated meshes, not copied grid formulas, verify every near-interface
+vertex through the authored districts and every far-interface vertex across
+the atlas plus ocean guard. Current final-source LOD maxima:
+  LOD pair          cells 32 max gap   cells 64 max gap   actual covering skirt
+  0/1 authored          1.699 m             0.717 m                 24 m
+  1/2 authored          3.312 m             1.511 m                 24 m
+  2/3 authored          5.124 m             3.312 m                 24 m
+  3/4 authored         13.413 m             5.124 m                 24 m
+  4/5 full atlas       22.489 m            17.897 m                 24 m
+  5/6 full atlas       56.681 m            22.489 m                 96 m
+Evidence: /tmp/valwood-shore-edge-atlas.log and /tmp/valwood-shore-edge-lod.log.
+The atlas trail remains 2282.2 m long, actual maximum 1 m grade 0.152. Ecology still
+excludes all four cover fields from the exact trail;13,052 shoulder grass roots,
+45,989 meadow roots and 4,835 protected roots after an anchor shift remain.
+The rocky buttress receives zero grass. Overlapping capped fields retain 4,101
+protected grass roots and 314 trees; staging remains bounded to 4096 candidates.
+
+TARGETED SANITIZERS
+PASS current atlas, real 32/64 mesh LOD and ecology tests:
+  /tmp/valwood-shore-edge-sanitizers.log
+  /tmp/run-valwood-shore-sanitizers.sh
+Final extra atlas assertions (both exact goldens and close-shore camera):
+  /tmp/valwood-shore-edge-atlas-final-asan.log
+Flags: C11 atlas/tiles and C++17 ecology/test, -O1 -g -Wall -Wextra -Werror
+  -fsanitize=address,undefined -fno-omit-frame-pointer -I.
+  ASAN_OPTIONS=detect_leaks=0:halt_on_error=1
+  UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1
+LeakSanitizer is disabled because tool execution uses ptrace; no leak-sanitizer
+claim is made. These are targeted module tests, not an interactive whole-engine
+sanitizer run. Prior authored scenery support/ownership CPU sanitizers passed:
+  /tmp/valwood-world-scenery-grounding-asan-test.log
+That prior run instruments the real atlas C object plus scenery/test C++17 with
+Address/Undefined Behavior flags and detect_leaks=0; no other suppression.
+
+NATIVE OPENGL CORRECTNESS FIXTURES
+All six fixtures reran after the final source, passed and exited0, confirmed by
+the parent and inspected in
+this directory. Renderer reported by each: AMD Radeon RX 5300 (radeonsi,navi14,
+LLVM20.1.2, DRM 3.64, 7.0.0-38-generic). They are image/ownership checks, not FPS.
+  temporal-native.log: real history/reactive/disocclusion/cut/bounds/clamp,
+    jitter, resize, held output and teardown; variance 9.4375 raw/.041562 resolved.
+  scenery-native.log: real bounds,89 dense grounded props, color/shadow draws,
+    partial loads, stable uploads and zero remaining GL/texture owners.
+  models-native.log:28 real assets, geometry/embedded-image goldens,3.2 m/10 m
+    fade, color/shadow pixels, program caching and shared texture teardown.
+  water-native.log: distinct HDR/depth capture, stable reuse/resize/bindings,
+    real depth transmission, foreground rejection, finite fallback/cloud/night
+    and teardown. Red shallow/deep/fallback=.92969/.13000/.02864;
+    lit/shadowed glint=.28223/.02991.
+  foliage-native.log: rooted LOD partition, product coverage inside intervals,
+    leaf/wood hemisphere, legacy fallback, common haze, temporal alpha edges,
+    continuous detail fade, finite overhead billboard and anchor invariance.
+    Mesh/card direct cloud transmittance.660-.987; sky fill unchanged.
+  lighting-native.log: coarse-horizon ratio.3914, direct cloud factor.660-1,
+    inland dry/gravel exclusion, max 25 mm shore-color step.9772%, cloud world
+    anchor/zero, above-layer bypass and sky-horizon cloud fade.
+Software GL repetitions in foliage-software.log, foliage-models-software.log,
+/tmp/valwood-water-software.log and the complete suite also pass on llvmpipe.
+See FOLIAGE.md for the exact shader contract and limitations: far cards remain
+prelit single-view photographs, and local/horizon field crossfade blends density.
+The final software and Radeon lighting logs both pass the newest sky-horizon
+cloud-fade output assertion.
+
+NEGATIVE CONTROLS: EXPECTED FAILURES, PRODUCTION SOURCE NOT REVERTED
+PASS /tmp/valwood-shore-edge-negative-control.log:
+  A temporary atlas copy forces only cached shore offset to zero. Current real
+  atlas tests reject it at offset_min<-2 && offset_max>2 && changed_edge>0.
+PASS /tmp/valwood-uniform-shore-negative-control.log:
+  Prior uniform-bank source fails the independent equal-distance bank relief
+  assertion. This control predates the additive edge displacement API.
+PASS /tmp/valwood-scenery-grounding-negative-control.log:
+  Temporary center-only placement fails independent max_support_gap<=.015 f.
+  Dense CPU support is-.170 m; actual-model GL support-.168 m versus old cliff
+  center-only gap 3.768 m. Negative means embedded support, not floating.
+PASS water-refraction-negative-control.log and water-shadow-negative-control.log:
+  Removing the submerged four-texel refraction footprint guard leaks the real
+  bright foreground stripe; removing glint shadow visibility breaks actual
+  lit-vs-shadowed output. Both fail their image assertions, exit-6.
+PASS six /tmp/valwood-world-lighting-negative-*.log controls:
+  inland-gravel: low inland terrain incorrectly receives gravel tint.
+  inland-wet: low inland terrain incorrectly receives shore wet color.
+  horizon: disabling horizon visibility breaks expected occlusion ratio.
+  tangent: uncorrected tangent lighting incorrectly darkens the macro slope.
+  cloud-anchor: removing world anchoring breaks moved-anchor output invariance.
+  sky-horizon-fade: unfaded clouds change the clear horizon output.
+Each temporary shader mutation exits-6 at the corresponding actual-output
+assertion. These controls verify the tests detect the intended regressions;
+they are not successful production runs.
+
+ASSETS AND PRESERVATION
+The lighting/shore pass changes no runtime model geometry, licenses, asset
+limits or instance caps. Prior 21-asset validation remains available in
+/tmp/valwood-authored-asset-validation.log; native 28-real-asset checks above
+include the seven legacy assets. Source/adaptations: CINEMATIC_ASSET_SOURCES.md.
+
+PASS 35/35 authored Seldonne root files/assets byte-identical to the supplied
+/tmp/valwood-seldonne-preservation.json baseline. Overall 37/38 root files match;
+the sole difference is runtime equip_debug.log. UI layouts are unchanged.
+The additional .valwood-instance.lock is a runtime lock. No runtime log/layout
+or source asset was restored or removed by this audit.
+PASS original Desktop/Valwood-Map.jpg equals retained projects/valwood_world/assets/map.jpg:
+  SHA256: 1323e072540d785833b3af792bf782d46f43a15350c0711f50308dad53704086
+PASS 16 archived small source files match before-manifest.json. The large
+archived executable was deliberately not rehashed during native work. Seven
+historical conifer backups were verified in the prior authored-landscape
+preservation report, referenced rather than rehashed this pass.
+Machine-readable per-file details and those scope limits are in preservation.json.
+
+FINAL NATIVE CAPTURES AND VISUAL LIMITS
+PASS forest/lake/ridge/coast/shore captures, each300 frames at1600x900, native
+Radeon driver, offscreen=false and capture_ok=true in each *-view.bmp.json.
+All capture processes exited0, confirmed by the parent; PNGs and metadata are
+present. These are short visual checks, not the controlled performance sample.
+The close-shore first CLI rejection above was repaired before its successful
+repeat. The local shoreline displacement is proven geometrically but remains
+subtle in the native images; the visible water boundary still reads flat/sharp.
+No dramatic coastline transformation or finished AAA visual quality is claimed.
+
+Lighting is hemisphere irradiance with bounded macro horizon/directional probes,
+not traced global illumination. Clouds occupy a single world plane with horizon
+fade, not volumetrics. Foliage and terrain share bounded coarse moving cloud
+attenuation on direct sunlight while preserving sky fill. Far tree cards remain
+prelit photographs. The material shoreline gate remains coarse; geometric depth
+controls actual water contact. See WORLD_LIGHTING.md and FOLIAGE.md for limits.
+This audit started no builds, tests, cooks or additional native rendering
+workloads during the final controlled benchmark.
+
+NATIVE PERFORMANCE: FINAL SIX-ROUTE RUN COMPLETE
+PASS final sequential benchmark driver, exit0 confirmed by the parent:
+  /tmp/valwood-lighting-final-benchmarks.log
+Visible 1600x900, 60Hz VSync, Radeon RX5300, one engine process, tools shown,
+animated foliage/water/clouds. Each route excludes 120 warm-up intervals.
+Forest/lake 3600 frames each; ridge/coast/shore 1800 each; fifteen-landmark tour 5400.
+Final per-route JSON/CSV and RESULTS.md are retained beside this audit.
+
+All six routes report 59.95 mean FPS. Across 17,280 measured intervals, 2 exceeded
+the 22.222ms 45FPS budget: 99.98842593% within budget. Both misses are in the lake
+route (CSV frame indices 279 and 500); worst 25.32569ms. The five common routes
+exclude the added close-shore case: 15,600 measured intervals, 2 misses,
+99.98717949% within budget. No profiler samples were dropped.
+
+The tour includes 1911 held-view frames, longest 265 (~4.42s at 60Hz), while a
+landmark destination streams. Its frame statistics and GPU averages INCLUDE
+held views. The other five local routes have zero held views. Startup preparation
+is outside the measured frame-interval window. GPU timestamps are delayed,
+smoothed estimates; total render includes reflection and must not add it again.
+CPU submission/UI sections may include driver waits; these values do not prove
+the cause of either slow frame. This short VSync-limited sweep is not a guarantee
+of 45FPS minimum everywhere, ordinary walking, or a sustained eight-hour soak.
+
+All six profiles report zero failed terrain tiles, GL errors and remaining
+shared-texture entries/references. See RESULTS.md for component memory estimates,
+route-specific counters, prior data and visual limitations. The old 79-83ns
+CPU query timing belongs to the preceding height-only shore cache; the final
+paired height/offset field microbenchmark was deliberately not rerun during
+native profiling. Only its bounded memory/lookup contract is claimed here.
+
+Completed native driver transcript:
+Native scenery check: forest 3600 frames
+{"scene": "forest", "mean_fps": 59.95, "one_percent_low_fps": 59.39, "p99_ms": 16.74, "max_ms": 17.43, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.413, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: lake 3600 frames
+{"scene": "lake", "mean_fps": 59.95, "one_percent_low_fps": 58.09, "p99_ms": 16.738, "max_ms": 25.326, "within_45fps_budget_percent": 99.943, "mean_render_total_gpu_ms": 12.996, "mean_reflection_gpu_ms": 1.098, "loading_frames": 0}
+Native scenery check: ridge 1800 frames
+{"scene": "ridge", "mean_fps": 59.95, "one_percent_low_fps": 59.55, "p99_ms": 16.723, "max_ms": 17.558, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.615, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: coast 1800 frames
+{"scene": "coast", "mean_fps": 59.95, "one_percent_low_fps": 59.59, "p99_ms": 16.721, "max_ms": 16.966, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.402, "mean_reflection_gpu_ms": 1.253, "loading_frames": 0}
+Native scenery check: shore 1800 frames
+{"scene": "shore", "mean_fps": 59.95, "one_percent_low_fps": 59.77, "p99_ms": 16.719, "max_ms": 16.809, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.82, "mean_reflection_gpu_ms": 1.192, "loading_frames": 0}
+Native scenery check: tour 5400 frames
+{"scene": "tour", "mean_fps": 59.95, "one_percent_low_fps": 59.35, "p99_ms": 16.737, "max_ms": 17.866, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 8.563, "mean_reflection_gpu_ms": 0.207, "loading_frames": 1911}
+
+EVIDENCE FINGERPRINTS AFTER FINAL CORRECTNESS CHECKS
+/tmp/valwood-lighting-build.log
+  bytes=108640 sha256=0126e3b491f4f9635d57de4fbd858ee33f7c1f4b84d93bf5d48cab42ce61a261
+/tmp/valwood-lighting-strict-root.log
+  bytes=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/tmp/valwood-lighting-full-tests.log
+  bytes=94903 sha256=9933c94ad58504c576c8a25c9f3c5894219a4e3655fe0f63d9b4f2d8dce24b9f
+docs/performance/lighting-shorelines/foliage-native.log
+  bytes=814 sha256=be32da81c67a012aadc2ea2fb97ef8b491f542301ec2556d27bd074e3018867c
+docs/performance/lighting-shorelines/lighting-native.log
+  bytes=365 sha256=34431f9fc8b867f3ca1facdc38d1ef4dce7485526e2b5ebe8f755196329ec5d3
+docs/performance/lighting-shorelines/models-native.log
+  bytes=7844 sha256=715ee33e6b42a29778d1bd37a72660ee4ad693949223979a66e7996f48415e65
+docs/performance/lighting-shorelines/scenery-native.log
+  bytes=5383 sha256=a7bde12158ec9233abe19f02d16cda80d4138cbabd150b2d3605f6886d8e1418
+docs/performance/lighting-shorelines/temporal-native.log
+  bytes=334 sha256=ec0364f3d85e974589a4e5cd45905efe4fd54e4d5f7415e2cf35c5abc7d4d199
+docs/performance/lighting-shorelines/water-native.log
+  bytes=395 sha256=e126ec3819c00ce81315ec61430183831c288d63f2d508d122b98152e702206b
+/tmp/valwood-shore-edge-atlas.log
+  bytes=856 sha256=5cf7ca1e5126782ce5cda2429e33a9346b9003e870b124630cac7550b6fed2ff
+/tmp/valwood-shore-edge-lod.log
+  bytes=1598 sha256=1be66b56c8389f85613fac6f47ea8604f5931e99ecbeeeb7dbb1f6d23e6d7a70
+/tmp/valwood-shore-edge-sanitizers.log
+  bytes=4147 sha256=8d68334b2c270dd81e9f336784d73c083b9ed83de6f0ed48dd4e35960a644d88
+/tmp/valwood-shore-edge-atlas-final-asan.log
+  bytes=856 sha256=5cf7ca1e5126782ce5cda2429e33a9346b9003e870b124630cac7550b6fed2ff
+/tmp/valwood-shore-edge-negative-control.log
+  bytes=349 sha256=ecb4df567441603655bb199e3746b9ede159d91f27276b2caab68646c198bbb2
+
+/tmp/valwood-lighting-final-launcher-build.log
+  bytes=4425 sha256=939c784def8f547b2aa5b580e8f3bc4234044eb21184ba822edf7a46001daa19
+
+FINAL CAPTURE METADATA FINGERPRINTS
+docs/performance/lighting-shorelines/forest-view.bmp.json
+  bytes=347 sha256=7cca0d1a1c5c43041e6106bea628e05c76574bd6918605d84afa36da77d9f1b3
+docs/performance/lighting-shorelines/lake-view.bmp.json
+  bytes=347 sha256=2965902990aa33d97862d736a4a9a02e85c39bbda1c5b1c86edf2add903a91e4
+docs/performance/lighting-shorelines/ridge-view.bmp.json
+  bytes=347 sha256=17485eaae026eaada207ff4a07e3b394d06f1e9ff2ad5b2af48669e484cf0921
+docs/performance/lighting-shorelines/coast-view.bmp.json
+  bytes=347 sha256=4ad89616633cb49ed86253740cd83cfaa34646ad9d7dfa6a28815647b66205bb
+docs/performance/lighting-shorelines/shore-view.bmp.json
+  bytes=347 sha256=3168b91cced83abc1724c1c67bd6b8af5645fff723c880208f47b3f849595592
+
+FINAL BENCHMARK DRIVER FINGERPRINT
+/tmp/valwood-lighting-final-benchmarks.log
+  bytes=1626 sha256=27cb3fbd499fe86a9125298bed3d7ac5e3d3c2c457160202e2356072dac06bc1

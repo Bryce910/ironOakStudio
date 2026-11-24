@@ -1,0 +1,22 @@
+{
+  "source": "/home/computer/Desktop/final_engine/new_engine/docs/stronghold/2026-11-01/visual-finish/flame-candidate/flames.json",
+  "source_sha256": "6b44b2495c3b51eb48bf5c6d418c3cd11f49f96792435c21108d7ee2c4ff7ece",
+  "output": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_showcase/showcase.flames",
+  "output_sha256": "25fe50f15f64bcfafbf63d08263724498be0c1509df5988f93ccf2f9016a7a5d",
+  "emitters": 165,
+  "maximum": 240,
+  "renderer_capacity": 256,
+  "studio_overlay_slots_reserved": 16,
+  "architecture_dynamic_lights": 0,
+  "actor_practical_limit": 8,
+  "actor_practical_radius_m": 12,
+  "actor_practical_power_per_visual_intensity": 4,
+  "actor_practical_gate": "explicit uActorLighting hero/resident draws; restore ordinary/editor light set after actors",
+  "by_family": {
+    "Prefab_Brazier_01_on": 31,
+    "Prefab_Forged_torch_complete_02_on": 68,
+    "Prefab_Brazier_02_on": 12,
+    "Prefab_Forged_torch_complete_01_on": 54
+  },
+  "maximum_light_validation_error_m": 0.0009921099964390345
+}

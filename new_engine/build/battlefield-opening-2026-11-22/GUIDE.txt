@@ -1,0 +1,96 @@
+BATTLEFIELD OPENING — IMPLEMENTATION AND PLAYTEST GUIDE
+
+Status: playable opening; the full normal-input native route is verified.
+Functional verification is not an AAA art, animation or performance certification.
+No Windows build is part of this change.
+
+THE OPENING
+1. Apartment at night: read the bills, turn on the television, select New Game.
+2. Transport into The Broken Field. The hero arrives disoriented while archers,
+   dueling soldiers, falling fighters, smoke and nearby fires establish the battle.
+3. Recover control and run through the wreckage. A soldier blocks the escape.
+4. Press X (controller) or Q (keyboard) during the incoming sword's duck prompt.
+   Missing the prompt is lethal. Retry begins just before the ambush.
+5. Duck into a tackle, then tap A / F to wrestle the sword free. A hold-button
+   alternative is available from Pause. Difficulty adjusts the timing/struggle.
+6. The hero gains the stolen sword at the stabbing contact. The ownership receipt
+   saves once; retry/load cannot duplicate the sword or grant a suit of armor.
+7. Clear three live sword encounters while escaping toward the tree line.
+8. Cross the creek bridge into the forest and follow the smoke to the travelers.
+9. Continue the established camp → stolen provisions → reward → village chapter.
+   Camp dialogue recognizes the battlefield escape and the already-owned sword.
+
+CONTROLS
+Movement/camera: LS / RS, or WASD / mouse. Shift runs outdoors.
+Ambush: X / Q. Struggle: repeated A / F, or enabled hold alternative.
+Defeat retry: A / Enter or R. Pause: Start / Esc.
+Combat: right-stick direction cuts; LT + direction guards.
+Keyboard combat: LMB cuts, RMB guards, mouse/arrows select attack direction.
+Z / D-pad down draws or stows; I / View opens inventory; V / RS click changes view.
+The interactive battlefield sequence is not a skippable movie.
+
+IMPLEMENTATION BOUNDARIES
+The battle's background duelists and archers are staged cinematic actors.
+The three escape soldiers use the same physical contact/combat simulation as
+live gameplay. This is a directed opening, not a simulated open battlefield.
+Paired tackle/disarm/stab choreography uses the owned character rigs and capture
+clips. It remains an animation/art polish target, not a claim of AAA completion.
+Existing apartment audio, walk-only controls, hair-edge, turn-response, and
+water-cache fixes are retained. Low/Medium/High/Ultra effects remain supported.
+
+GRAPHICS AND CINEMATICS
+The complete authored opening, paired ambush, NPC introduction and camera shots
+play at every graphics level. No cinematic is removed for the RX 5300.
+Graphics and Display retains the Cinematic preset, High/Ultra foliage distance,
+High/Ultra environment effects, Ultra water, full reflection updates, cloud/fog
+and shadow controls, and the independent 2K/4K character texture options.
+These options remain available for more powerful computers. Lower levels reduce
+rendering cost; they do not skip the story. Distant fallen soldiers now use
+lighter meshes, with full-detail geometry kept farther away on High and Ultra.
+The original nearby geometry and PBR maps remain intact.
+Cinematic preserves your independently selected texture tier and automatic
+resolution setting. For maximum output on capable hardware, choose Ultra
+textures, Apply and restart; disable automatic image quality and select 100%
+render scale if you want fixed native-resolution rendering. Ultra uses the
+available source detail; it does not invent 4K detail for smaller source maps.
+Compact character imports retain High surface maps while Ultra raises source
+color detail. Auto can expand the shared texture pool on supported drivers
+with ample startup headroom. Unknown or low-memory hardware keeps the existing
+conservative budget. The graphics panel reports the resolved active pool.
+
+KNOWN PLAYTEST LIMITATIONS
+This is an early playable opening, not a claim of finished AAA art or animation.
+Background battle actors are directed; nearby enemies use real combat. Tree
+silhouettes, knight appearances and fallen-body poses still repeat. Terrain
+composition, facial acting and paired choreography need more art refinement.
+Long sessions can congest the road's crowd turnaround near the campsite.
+Safe outward movement was corrected and the complete route passed natively;
+travelers can still queue when the player occupies a tight turnaround.
+The battlefield ground remains sparse and flat. Some banners and scenery can
+remain absent when the shared texture pool fills on the 3 GB graphics card.
+The tackle and recovery step are improved, but stiff arms, coarse hip movement
+and occasional accessory overlap remain visible.
+The RX 5300 (3 GB) remains below the desired frame-rate target: the tested
+stationary battlefield view averaged about 20 FPS on the final detailed setup
+and 28 FPS on the Medium environment/Balanced setup. Those are different
+quality configurations, not a promise of smooth High/Ultra on this computer.
+High/Ultra options remain available for faster machines. Normal keyboard/mouse
+play is rehearsed natively; the controller mappings share the tested input
+logic, but final controller feel still benefits from the player's own test.
+
+REVIEW
+Private tests live under review/ and own their project, settings and saves.
+The final rehearsal covers the full apartment cinematic, a missed duck and
+local retry, the sword struggle, three actual escape victories, the creek
+bridge, all three travelers and their unskipped introduction, the real raider,
+provisions, the twelve-copper reward, village and Thanks for Playing screen.
+It closed normally and preserved the live world, graphics settings and saves.
+The production source and linked object inputs are recorded in
+runtime-native-v1/BUILD_RECEIPT.json. The scene publication allowlist and live
+preimage hashes are in review/PUBLISH_PLAN.json.
+
+Publish only after normal-input native review, full route rehearsal and
+performance review are recorded in review/NATIVE_ACCEPTANCE.json. The publisher
+checks that receipt, the exact binary, every scene file and current live
+preimages before replacing the scene, and switches CURRENT_VALWOOD.json last.
+The published saves, coins, settings and unrelated world edits are preserved.

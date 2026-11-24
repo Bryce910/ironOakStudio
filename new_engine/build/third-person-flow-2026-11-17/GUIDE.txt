@@ -1,0 +1,23 @@
+Valwood — Third-person combat flow — Linux
+
+Use the stable launchers in /home/computer/Desktop/final_engine.
+Launch_Valwood_Arena.sh opens arena setup in third person.
+Demo, editor, arena, jousting and world share one executable and shader bank.
+
+This pass improves the run-to-walk pose blend while preserving player movement
+speed and collision. Landed nonfatal blunt hits now physically interrupt the old
+attack before the NPC can enter its owned full-body reaction. Reaction entry is
+shorter; a block still resolves as steel and existing staggers are not restarted.
+Two or three nearby live opponents ease the camera farther back, within the
+original 4.2 metre swept boom. Focus and logical aim retain their normal owners.
+
+Verification: six ordinary-input/live-AI arena scenes with knights and orcs,
+all four supported melee rigs, 30 anatomical contact scenarios, 26 follow-up
+attacks, 1,524 equipment checks, foot traces at 30/60/120 Hz, and actual Jolt
+camera collision checks. Review footage and exact scope are in review/.
+The ordinary rehearsal uses a real SDL virtual controller and private progress;
+its marked offscreen focus accommodation does not certify natural controller
+feel or hardware FPS. It does not certify every appearance or AAA perfection.
+
+Prior rendering, grounded feet, rebound, editor and world work are inherited.
+Live progress and authored worlds are preserved. No Windows package was built.

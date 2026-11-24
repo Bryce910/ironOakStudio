@@ -1,0 +1,21 @@
+Environment material finish — 2026-10-30 — asset spend $0
+
+Brown Planks 08, Poly Haven, CC0
+https://polyhaven.com/a/brown_planks_08
+Cobblestone Floor 08, Poly Haven, CC0
+https://polyhaven.com/a/cobblestone_floor_08
+Forest Leaves 03, Poly Haven, CC0
+https://polyhaven.com/a/forest_leaves_03
+License: https://polyhaven.com/license
+
+Existing downloaded source maps were reused; no new purchase was made.
+Window frames, sills, planting-bed edges and banner poles use complete PBR
+derivatives with OpenGL normals. New color pages are limited to 1K, linear
+normal/ARM pages to 512px. Original material source archives remain unchanged.
+Drainage rills and ground debris geometry were authored for Valwood.
+The selected project's shaders add paving variation, foundation weathering,
+and more visible photographed litter. Terrain geometry and walking corridors
+are retained. provenance.json records derivative hashes and placements.
+
+Rebuild: python3 tools/finish_environment_materials.py from the engine root.
+Hero replacement is deferred at the user's request.

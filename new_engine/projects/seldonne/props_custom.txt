@@ -1,0 +1,334 @@
+# Seldonne hand authored starting area
+PROP models/cottage.glb -17.000 4.920 -8.000 0 25.00 0 1.000 1 0 0 1 0 0 2.5 90 1000
+END
+PROP models/cottage.glb -20.000 4.436 -31.000 0 15.00 0 1.150 1 0 0 1 0 0 2.5 90 1001
+END
+PROP models/cottage.glb 12.000 4.618 -42.000 0 -20.00 0 0.950 1 0 0 1 0 0 2.5 90 1002
+END
+PROP models/cottage.glb -6.000 4.401 -53.000 0 150.00 0 1.100 1 0 0 1 0 0 2.5 90 1003
+END
+PROP models/cottage.glb 23.000 5.680 4.000 0 -90.00 0 0.950 1 0 0 1 0 0 2.5 90 1004
+END
+PROP models/tall_house.glb -31.000 4.052 -19.000 0 70.00 0 1.000 1 0 0 1 0 0 2.5 90 1005
+END
+PROP models/stone_hall.glb 2.000 4.750 -34.000 0 180.00 0 1.000 1 0 0 1 0 0 2.5 90 1006
+END
+PROP models/bridge.glb 40.587 3.500 -22.000 0 0.00 0 1.000 2 0 0 1 0 0 2.5 90 1007
+END
+PROP models/campfire.glb -21.000 4.226 37.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1008
+END
+PROP models/portal.glb -15.000 5.069 64.000 0 180.00 0 1.000 0 0 0 1 0 0 2.5 90 1009
+ACT 8 4 -1 0 0 0 80
+READ An ancient waystone hums beneath the moss. Beyond the trees lies Seldonne and the river crossing.
+END
+PROP models/sign.glb -7.000 4.679 17.000 0 15.00 0 0.900 0 0 0 1 0 0 2.5 90 1010
+ACT 8 4 -1 0 0 0 80
+READ Seldonne Crossing. North to the village. East across the bridge toward Kerone.
+END
+PROP models/barrel.glb -18.000 4.775 -4.000 0 -126.00 0 1.000 0 0 0 1 0 0 2.5 90 1011
+END
+PROP models/crate.glb -15.000 4.865 -1.000 0 -105.00 0 1.000 0 0 0 1 0 0 2.5 90 1012
+END
+PROP models/barrel.glb 12.000 4.744 -38.000 0 84.00 0 1.000 0 0 0 1 0 0 2.5 90 1013
+END
+PROP models/barrel.glb 14.000 4.791 -38.000 0 98.00 0 1.000 0 0 0 1 0 0 2.5 90 1014
+END
+PROP models/barrel.glb 20.000 5.542 1.000 0 140.00 0 1.000 0 0 0 1 0 0 2.5 90 1015
+END
+PROP models/barrel.glb -32.000 3.942 -14.000 0 -224.00 0 1.000 0 0 0 1 0 0 2.5 90 1016
+END
+PROP models/lantern_post.glb -14.000 4.342 29.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1017
+END
+PROP models/lantern_post.glb 5.000 5.236 3.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1018
+END
+PROP models/lantern_post.glb 26.000 4.849 -19.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1019
+END
+PROP models/lantern_post.glb 59.000 6.039 -19.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1020
+END
+PROP models/fence.glb -13.000 4.967 -1.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1021
+END
+PROP models/fence.glb -13.000 5.103 -6.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1022
+END
+PROP models/fence.glb -13.000 5.162 -11.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1023
+END
+PROP models/fence.glb -23.000 4.392 -25.000 0 90.00 0 1.000 0 0 0 1 0 0 2.5 90 1024
+END
+PROP models/fence.glb -18.000 4.648 -25.000 0 90.00 0 1.000 0 0 0 1 0 0 2.5 90 1025
+END
+PROP models/fence.glb 18.000 5.464 -2.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1026
+END
+PROP models/bush.glb -41.905 3.501 -7.150 0 292.23 0 0.765 0 0 0 1 0 0 2.5 90 1027
+END
+PROP models/bush.glb 36.876 3.224 61.871 0 42.43 0 0.870 0 0 0 1 0 0 2.5 90 1028
+END
+PROP models/mossy_boulder_0.glb 84.585 7.679 64.216 0 186.18 0 0.901 0 0 0 1 0 0 2.5 90 1029
+END
+PROP models/bush.glb 78.552 6.424 27.983 0 207.13 0 0.864 0 0 0 1 0 0 2.5 90 1030
+END
+PROP models/mossy_boulder_0.glb 21.651 4.627 -57.134 0 20.41 0 1.134 0 0 0 1 0 0 2.5 90 1031
+END
+PROP models/bush.glb 81.854 6.375 13.756 0 213.92 0 0.696 0 0 0 1 0 0 2.5 90 1032
+END
+PROP models/mossy_boulder_0.glb -33.215 3.929 -16.006 0 95.72 0 0.934 0 0 0 1 0 0 2.5 90 1033
+END
+PROP models/bush.glb -42.572 3.379 29.169 0 91.82 0 0.981 0 0 0 1 0 0 2.5 90 1034
+END
+PROP models/bush.glb 78.324 6.452 30.721 0 178.76 0 1.053 0 0 0 1 0 0 2.5 90 1035
+END
+PROP models/bush.glb 76.539 6.181 15.195 0 35.26 0 0.675 0 0 0 1 0 0 2.5 90 1036
+END
+PROP models/bush.glb 70.113 5.940 -33.403 0 217.33 0 0.765 0 0 0 1 0 0 2.5 90 1037
+END
+PROP models/mossy_boulder_0.glb 28.703 5.430 27.325 0 70.88 0 1.066 0 0 0 1 0 0 2.5 90 1038
+END
+PROP models/bush.glb -48.797 3.393 28.314 0 108.57 0 1.272 0 0 0 1 0 0 2.5 90 1039
+END
+PROP models/mossy_boulder_0.glb 63.300 4.529 64.879 0 349.59 0 0.916 0 0 0 1 0 0 2.5 90 1040
+END
+PROP models/bush.glb -26.607 4.276 -25.223 0 176.89 0 1.080 0 0 0 1 0 0 2.5 90 1041
+END
+PROP models/silver_fir.glb -25.000 3.927 34.000 0 26.94 0 0.951 0 0 0 1 0 0 2.5 90 1042
+END
+PROP models/silver_fir.glb -29.000 3.435 20.000 0 276.01 0 1.024 0 0 0 1 0 0 2.5 90 1043
+END
+PROP models/silver_fir.glb 10.000 5.268 28.000 0 158.48 0 0.865 0 0 0 1 0 0 2.5 90 1044
+END
+PROP models/silver_fir.glb 20.000 5.089 42.000 0 315.83 0 1.065 0 0 0 1 0 0 2.5 90 1045
+END
+PROP models/silver_fir.glb -37.000 3.438 -1.000 0 222.06 0 0.910 0 0 0 1 0 0 2.5 90 1046
+END
+PROP models/silver_fir.glb 64.000 6.023 -40.000 0 302.35 0 0.902 0 0 0 1 0 0 2.5 90 1047
+END
+PROP models/silver_fir.glb -40.000 5.027 -50.000 0 112.93 0 1.162 0 0 0 1 0 0 2.5 90 1048
+END
+PROP models/silver_fir.glb 25.000 3.276 -62.000 0 302.21 0 0.944 0 0 0 1 0 0 2.5 90 1049
+END
+PROP models/woodland_fern_1.glb 25.069 5.692 13.374 0 334.65 0 1.480 0 0 0 1 0 0 2.5 90 1050
+END
+PROP models/woodland_fern_1.glb -28.090 5.087 -57.201 0 213.24 0 0.839 0 0 0 1 0 0 2.5 90 1051
+END
+PROP models/woodland_fern_1.glb -34.998 4.571 58.911 0 317.76 0 1.122 0 0 0 1 0 0 2.5 90 1052
+END
+PROP models/woodland_fern_1.glb -41.656 3.363 27.946 0 219.22 0 0.813 0 0 0 1 0 0 2.5 90 1053
+END
+PROP models/woodland_fern_1.glb 73.563 6.019 6.818 0 15.32 0 1.596 0 0 0 1 0 0 2.5 90 1054
+END
+PROP models/woodland_fern_1.glb -34.045 3.773 -9.849 0 316.84 0 0.785 0 0 0 1 0 0 2.5 90 1055
+END
+PROP models/woodland_fern_1.glb -34.818 3.496 30.204 0 142.13 0 0.915 0 0 0 1 0 0 2.5 90 1056
+END
+PROP models/woodland_fern_1.glb 71.197 6.515 61.702 0 129.67 0 0.912 0 0 0 1 0 0 2.5 90 1057
+END
+PROP models/woodland_fern_1.glb -19.619 4.454 -30.005 0 203.49 0 1.061 0 0 0 1 0 0 2.5 90 1058
+END
+PROP models/woodland_fern_1.glb 27.104 5.248 34.013 0 93.91 0 1.046 0 0 0 1 0 0 2.5 90 1059
+END
+PROP models/woodland_fern_1.glb -10.390 5.140 -4.005 0 82.02 0 1.516 0 0 0 1 0 0 2.5 90 1060
+END
+PROP models/woodland_fern_1.glb 11.280 5.331 25.568 0 317.67 0 1.425 0 0 0 1 0 0 2.5 90 1061
+END
+PROP models/woodland_fern_1.glb 6.964 4.377 -56.640 0 105.52 0 1.033 0 0 0 1 0 0 2.5 90 1062
+END
+PROP models/woodland_fern_1.glb 12.545 5.339 -6.850 0 202.73 0 0.805 0 0 0 1 0 0 2.5 90 1063
+END
+PROP models/woodland_fern_1.glb 30.203 4.595 56.730 0 143.92 0 1.584 0 0 0 1 0 0 2.5 90 1064
+END
+PROP models/woodland_fern_1.glb 71.494 6.395 54.397 0 305.99 0 1.166 0 0 0 1 0 0 2.5 90 1065
+END
+PROP models/woodland_fern_1.glb -13.194 4.596 -54.509 0 337.35 0 1.250 0 0 0 1 0 0 2.5 90 1066
+END
+PROP models/woodland_fern_1.glb -18.459 4.864 -57.659 0 323.82 0 0.978 0 0 0 1 0 0 2.5 90 1067
+END
+PROP models/woodland_fern_1.glb 8.264 4.671 -38.437 0 85.78 0 1.566 0 0 0 1 0 0 2.5 90 1068
+END
+PROP models/woodland_fern_1.glb 13.658 5.407 8.110 0 25.62 0 1.236 0 0 0 1 0 0 2.5 90 1069
+END
+PROP models/woodland_fern_1.glb -11.110 4.715 -30.317 0 289.84 0 0.868 0 0 0 1 0 0 2.5 90 1070
+END
+PROP models/woodland_fern_1.glb 8.997 5.058 46.948 0 281.88 0 0.703 0 0 0 1 0 0 2.5 90 1071
+END
+PROP models/woodland_fern_1.glb -6.119 4.757 14.906 0 90.31 0 1.491 0 0 0 1 0 0 2.5 90 1072
+END
+PROP models/woodland_fern_1.glb -19.701 4.738 -54.240 0 82.72 0 1.482 0 0 0 1 0 0 2.5 90 1073
+END
+PROP models/woodland_fern_1.glb -26.224 4.321 47.113 0 340.99 0 0.733 0 0 0 1 0 0 2.5 90 1074
+END
+# Cinematic woodland dressing v1
+PROP models/silver_fir.glb -32.000 4.019 43.000 0 32.38 0 1.250 0 0 0 1 0 0 2.5 90 70001
+END
+PROP models/silver_fir.glb -30.000 3.518 9.000 0 224.44 0 1.100 0 0 0 1 0 0 2.5 90 70002
+END
+PROP models/silver_fir.glb 5.000 5.132 38.000 0 5.77 0 1.180 0 0 0 1 0 0 2.5 90 70003
+END
+PROP models/silver_fir.glb 14.000 5.404 23.000 0 191.77 0 1.080 0 0 0 1 0 0 2.5 90 70004
+END
+PROP models/silver_fir.glb -46.000 4.106 -26.000 0 334.79 0 1.270 0 0 0 1 0 0 2.5 90 70005
+END
+PROP models/silver_fir.glb 30.000 -0.522 -53.000 0 74.30 0 1.300 0 0 0 1 0 0 2.5 90 70006
+END
+PROP models/silver_fir.glb -47.000 3.580 37.000 0 347.37 0 1.150 0 0 0 1 0 0 2.5 90 70007
+END
+PROP models/silver_fir.glb 20.000 4.853 50.000 0 286.58 0 0.950 0 0 0 1 0 0 2.5 90 70008
+END
+PROP models/mossy_boulder_0.glb -22.000 4.018 31.000 0 329.54 0 1.000 0 0 0 1 0 0 2.5 90 70009
+END
+PROP models/mossy_boulder_1.glb -31.000 3.714 33.000 0 46.85 0 0.900 0 0 0 1 0 0 2.5 90 70010
+END
+PROP models/mossy_boulder_2.glb 2.000 5.079 34.000 0 119.62 0 1.200 0 0 0 1 0 0 2.5 90 70011
+END
+PROP models/mossy_boulder_0.glb 7.000 5.225 22.000 0 304.06 0 0.800 0 0 0 1 0 0 2.5 90 70012
+END
+PROP models/mossy_boulder_1.glb -26.000 3.679 12.000 0 296.79 0 0.900 0 0 0 1 0 0 2.5 90 70013
+END
+PROP models/mossy_boulder_2.glb -39.000 3.566 -8.000 0 267.85 0 1.000 0 0 0 1 0 0 2.5 90 70014
+END
+PROP models/mossy_boulder_0.glb 31.000 2.091 -11.000 0 113.08 0 0.900 0 0 0 1 0 0 2.5 90 70015
+END
+PROP models/mossy_boulder_1.glb 31.000 -0.174 -36.000 0 132.75 0 1.100 0 0 0 1 0 0 2.5 90 70016
+END
+PROP models/mossy_boulder_2.glb -37.000 4.085 48.000 0 324.55 0 0.800 0 0 0 1 0 0 2.5 90 70017
+END
+PROP models/woodland_fern_0.glb -21.785 4.037 31.341 0 163.22 0 1.083 0 0 0 1 0 0 2.5 90 70018
+END
+PROP models/woodland_fern_1.glb -22.456 4.128 35.485 0 319.99 0 0.830 0 0 0 1 0 0 2.5 90 70019
+END
+PROP models/woodland_fern_2.glb -21.934 4.045 31.881 0 357.21 0 0.879 0 0 0 1 0 0 2.5 90 70020
+END
+PROP models/woodland_fern_0.glb -23.490 3.996 32.575 0 217.30 0 1.239 0 0 0 1 0 0 2.5 90 70021
+END
+PROP models/woodland_fern_1.glb -25.804 3.984 35.454 0 340.63 0 1.072 0 0 0 1 0 0 2.5 90 70022
+END
+PROP models/woodland_fern_2.glb -25.096 3.854 30.045 0 265.97 0 0.722 0 0 0 1 0 0 2.5 90 70023
+END
+PROP models/woodland_fern_0.glb -29.372 3.509 22.538 0 139.32 0 0.784 0 0 0 1 0 0 2.5 90 70024
+END
+PROP models/woodland_fern_1.glb -27.731 3.536 20.989 0 275.18 0 0.726 0 0 0 1 0 0 2.5 90 70025
+END
+PROP models/woodland_fern_2.glb -30.916 3.383 16.560 0 54.50 0 0.741 0 0 0 1 0 0 2.5 90 70026
+END
+PROP models/woodland_fern_0.glb -25.026 3.644 18.810 0 18.50 0 1.132 0 0 0 1 0 0 2.5 90 70027
+END
+PROP models/woodland_fern_1.glb -32.530 3.347 17.971 0 180.92 0 0.895 0 0 0 1 0 0 2.5 90 70028
+END
+PROP models/woodland_fern_2.glb -28.293 3.491 18.586 0 302.76 0 1.197 0 0 0 1 0 0 2.5 90 70029
+END
+PROP models/woodland_fern_0.glb 11.965 5.311 28.933 0 355.40 0 0.846 0 0 0 1 0 0 2.5 90 70030
+END
+PROP models/woodland_fern_1.glb 10.285 5.303 25.848 0 348.30 0 1.001 0 0 0 1 0 0 2.5 90 70031
+END
+PROP models/woodland_fern_2.glb 9.329 5.280 25.895 0 283.56 0 0.998 0 0 0 1 0 0 2.5 90 70032
+END
+PROP models/woodland_fern_0.glb 8.715 5.245 29.838 0 159.77 0 0.976 0 0 0 1 0 0 2.5 90 70033
+END
+PROP models/woodland_fern_1.glb 10.868 5.324 24.484 0 103.22 0 0.748 0 0 0 1 0 0 2.5 90 70034
+END
+PROP models/woodland_fern_2.glb 13.329 5.346 27.631 0 327.91 0 1.113 0 0 0 1 0 0 2.5 90 70035
+END
+PROP models/woodland_fern_0.glb 18.561 5.123 40.424 0 16.05 0 1.113 0 0 0 1 0 0 2.5 90 70036
+END
+PROP models/woodland_fern_1.glb 16.751 5.104 41.722 0 223.66 0 1.023 0 0 0 1 0 0 2.5 90 70037
+END
+PROP models/woodland_fern_2.glb 18.122 5.033 44.102 0 57.60 0 1.011 0 0 0 1 0 0 2.5 90 70038
+END
+PROP models/woodland_fern_0.glb 15.708 5.091 42.568 0 34.39 0 1.045 0 0 0 1 0 0 2.5 90 70039
+END
+PROP models/woodland_fern_1.glb 24.020 5.086 40.186 0 115.91 0 0.780 0 0 0 1 0 0 2.5 90 70040
+END
+PROP models/woodland_fern_2.glb 20.147 5.022 43.769 0 105.97 0 1.137 0 0 0 1 0 0 2.5 90 70041
+END
+PROP models/woodland_fern_0.glb -37.790 3.450 -2.087 0 38.91 0 0.781 0 0 0 1 0 0 2.5 90 70042
+END
+PROP models/woodland_fern_1.glb -38.734 3.415 -1.729 0 215.14 0 0.722 0 0 0 1 0 0 2.5 90 70043
+END
+PROP models/woodland_fern_2.glb -38.030 3.352 1.785 0 135.16 0 0.905 0 0 0 1 0 0 2.5 90 70044
+END
+PROP models/woodland_fern_0.glb -39.891 3.350 0.224 0 130.15 0 0.758 0 0 0 1 0 0 2.5 90 70045
+END
+PROP models/woodland_fern_1.glb -37.025 3.378 1.863 0 301.39 0 1.045 0 0 0 1 0 0 2.5 90 70046
+END
+PROP models/woodland_fern_2.glb -36.475 3.367 3.085 0 42.23 0 1.214 0 0 0 1 0 0 2.5 90 70047
+END
+PROP models/woodland_fern_0.glb -21.747 3.913 26.636 0 166.16 0 0.975 0 0 0 1 0 0 2.5 90 70048
+END
+PROP models/woodland_fern_1.glb -18.988 4.097 28.657 0 34.95 0 0.928 0 0 0 1 0 0 2.5 90 70049
+END
+PROP models/woodland_fern_2.glb -24.398 3.918 31.264 0 330.47 0 1.006 0 0 0 1 0 0 2.5 90 70050
+END
+PROP models/woodland_fern_0.glb -20.981 4.114 32.766 0 85.04 0 0.873 0 0 0 1 0 0 2.5 90 70051
+END
+PROP models/woodland_fern_1.glb -22.760 3.935 29.278 0 49.57 0 0.720 0 0 0 1 0 0 2.5 90 70052
+END
+PROP models/woodland_fern_2.glb -21.730 3.966 28.651 0 274.18 0 0.770 0 0 0 1 0 0 2.5 90 70053
+END
+PROP models/woodland_fern_0.glb 5.394 5.170 24.447 0 260.38 0 0.936 0 0 0 1 0 0 2.5 90 70054
+END
+PROP models/woodland_fern_1.glb 6.321 5.205 20.229 0 195.33 0 1.027 0 0 0 1 0 0 2.5 90 70055
+END
+PROP models/woodland_fern_2.glb 4.218 5.133 19.367 0 263.32 0 1.042 0 0 0 1 0 0 2.5 90 70056
+END
+PROP models/woodland_fern_0.glb 2.740 5.077 21.317 0 52.58 0 1.152 0 0 0 1 0 0 2.5 90 70057
+END
+PROP models/woodland_fern_1.glb 5.883 5.187 22.887 0 129.32 0 0.887 0 0 0 1 0 0 2.5 90 70058
+END
+PROP models/woodland_fern_2.glb 10.306 5.330 19.384 0 154.75 0 0.788 0 0 0 1 0 0 2.5 90 70059
+END
+PROP models/woodland_fern_0.glb -27.604 3.618 10.552 0 21.68 0 0.912 0 0 0 1 0 0 2.5 90 70060
+END
+PROP models/woodland_fern_1.glb -25.275 3.764 10.480 0 308.45 0 1.015 0 0 0 1 0 0 2.5 90 70061
+END
+PROP models/woodland_fern_2.glb -23.247 3.890 10.700 0 329.40 0 0.729 0 0 0 1 0 0 2.5 90 70062
+END
+PROP models/woodland_fern_0.glb -28.017 3.583 10.970 0 263.99 0 0.825 0 0 0 1 0 0 2.5 90 70063
+END
+PROP models/woodland_fern_1.glb -25.580 3.778 9.337 0 45.34 0 1.136 0 0 0 1 0 0 2.5 90 70064
+END
+PROP models/woodland_fern_2.glb -26.100 3.625 14.372 0 331.22 0 1.205 0 0 0 1 0 0 2.5 90 70065
+END
+PROP models/woodland_fern_0.glb -31.538 4.090 44.467 0 26.27 0 0.847 0 0 0 1 0 0 2.5 90 70066
+END
+PROP models/woodland_fern_1.glb -34.068 3.955 42.931 0 127.71 0 0.825 0 0 0 1 0 0 2.5 90 70067
+END
+PROP models/woodland_fern_2.glb -33.082 4.054 44.755 0 125.66 0 0.890 0 0 0 1 0 0 2.5 90 70068
+END
+PROP models/woodland_fern_0.glb -32.850 3.918 40.965 0 286.46 0 1.027 0 0 0 1 0 0 2.5 90 70069
+END
+PROP models/woodland_fern_1.glb -33.767 3.900 41.210 0 323.21 0 0.888 0 0 0 1 0 0 2.5 90 70070
+END
+PROP models/woodland_fern_2.glb -32.985 3.897 40.507 0 73.48 0 1.120 0 0 0 1 0 0 2.5 90 70071
+END
+PROP models/woodland_fern_0.glb 7.304 5.162 37.790 0 156.59 0 1.145 0 0 0 1 0 0 2.5 90 70072
+END
+PROP models/woodland_fern_1.glb 4.550 5.135 35.636 0 215.43 0 0.886 0 0 0 1 0 0 2.5 90 70073
+END
+PROP models/woodland_fern_2.glb 4.759 5.137 36.228 0 85.01 0 0.724 0 0 0 1 0 0 2.5 90 70074
+END
+PROP models/woodland_fern_0.glb 1.774 5.077 39.578 0 3.39 0 1.000 0 0 0 1 0 0 2.5 90 70075
+END
+PROP models/woodland_fern_1.glb 3.683 5.101 40.791 0 110.80 0 0.914 0 0 0 1 0 0 2.5 90 70076
+END
+PROP models/woodland_fern_2.glb 1.420 5.067 35.517 0 177.23 0 0.740 0 0 0 1 0 0 2.5 90 70077
+END
+PROP models/woodland_fern_0.glb -35.580 3.976 44.508 0 141.49 0 1.040 0 0 0 1 0 0 2.5 90 70078
+END
+PROP models/woodland_fern_1.glb -38.611 4.078 48.631 0 304.98 0 1.117 0 0 0 1 0 0 2.5 90 70079
+END
+PROP models/woodland_fern_2.glb -36.582 3.992 45.515 0 131.54 0 0.880 0 0 0 1 0 0 2.5 90 70080
+END
+PROP models/woodland_fern_0.glb -39.216 4.021 47.527 0 322.69 0 0.799 0 0 0 1 0 0 2.5 90 70081
+END
+PROP models/woodland_fern_1.glb -38.602 4.227 52.001 0 115.72 0 0.886 0 0 0 1 0 0 2.5 90 70082
+END
+PROP models/woodland_fern_2.glb -34.925 4.081 46.706 0 127.59 0 1.062 0 0 0 1 0 0 2.5 90 70083
+END
+PROP models/woodland_fern_0.glb -39.646 3.579 -9.087 0 154.87 0 0.949 0 0 0 1 0 0 2.5 90 70084
+END
+PROP models/woodland_fern_1.glb -42.997 3.508 -7.576 0 319.42 0 0.885 0 0 0 1 0 0 2.5 90 70085
+END
+PROP models/woodland_fern_2.glb -40.644 3.545 -8.463 0 247.81 0 0.853 0 0 0 1 0 0 2.5 90 70086
+END
+PROP models/woodland_fern_0.glb -38.430 3.641 -10.391 0 109.02 0 1.224 0 0 0 1 0 0 2.5 90 70087
+END
+PROP models/woodland_fern_1.glb -40.503 3.517 -7.255 0 117.48 0 1.042 0 0 0 1 0 0 2.5 90 70088
+END
+PROP models/woodland_fern_2.glb -38.560 3.547 -6.824 0 233.78 0 0.923 0 0 0 1 0 0 2.5 90 70089
+END

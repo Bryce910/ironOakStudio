@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "name": "Grandstone | Publisher-authored castle scene",
+  "source": "Purchased NatureManufacture Demo Castle.unity",
+  "origin": [
+    -43344.0,
+    -23987.82415651827
+  ],
+  "floor": 1130.8125,
+  "chunks": 121,
+  "catalog_sha256": "c01f8102fab2e40ab0db9a5aa09f5503a4b7c676008a5a1d9a40248353dda847",
+  "source_triangles": [
+    23405172,
+    5433119
+  ],
+  "source_terrain_layers": 8,
+  "absolute_source_elevations": true,
+  "collision_status": "Source chunks retain open visualization bounds; triangle navigation pending",
+  "lava_catalog": "assets/purchased/nature_castle/showcase_lava_smooth/catalog.json",
+  "lava_catalog_sha256": "ae24b3c497224a2543e9fde46bde0b6244ddc2f6ccb63b173d2ee4b9ddb93ce5",
+  "continuous_lava_heat": true,
+  "visual_finish": {
+    "catalog": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/nature_castle/showcase-panels-quality/catalog.json",
+    "catalog_sha256": "ace0d8412032e0138700c153141d724ba387a90e282753884cc53bd8b57e7434",
+    "integration_plan": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/nature_castle/showcase-final-panels-integration/plan.json",
+    "pillar_base_and_normal_size": 2048,
+    "pillar_arm_size": 512,
+    "texture_delta_bytes": 41943040,
+    "source_flames": 165,
+    "source_flames_sha256": "25fe50f15f64bcfafbf63d08263724498be0c1509df5988f93ccf2f9016a7a5d",
+    "baked_buttress_lighting_repaired": true,
+    "restored_bridge_mid_components": 20,
+    "repacked_near_components": 42,
+    "source_panel_texels_per_meter": 116,
+    "panel_texture_delta_bytes": 37748736
+  },
+  "active_geometry_catalog": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/nature_castle/showcase-panels-quality/catalog.json"
+}

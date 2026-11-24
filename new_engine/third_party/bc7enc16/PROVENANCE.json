@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/richgel999/bc7enc16",
+  "revision": "b37c4bb65af406ab2a1071f2a312bdbe112e4f53",
+  "purpose": "Offline high-quality opaque BC7 texture-block encoding only; no game engine dependency or source-image replacement.",
+  "modified": false,
+  "files": [
+    {
+      "file": "bc7enc16.c",
+      "url": "https://raw.githubusercontent.com/richgel999/bc7enc16/b37c4bb65af406ab2a1071f2a312bdbe112e4f53/bc7enc16.c",
+      "bytes": 58072,
+      "sha256": "2103cf1a67f5fed24f4aea95e9e220e6792f88231caa214faa235cf2c6e15b10"
+    },
+    {
+      "file": "bc7enc16.h",
+      "url": "https://raw.githubusercontent.com/richgel999/bc7enc16/b37c4bb65af406ab2a1071f2a312bdbe112e4f53/bc7enc16.h",
+      "bytes": 2984,
+      "sha256": "d71955c059667f9828c89609cc0293f8183bc28985c60a1719c0faf623ece4a0"
+    },
+    {
+      "file": "LICENSE",
+      "url": "https://raw.githubusercontent.com/richgel999/bc7enc16/b37c4bb65af406ab2a1071f2a312bdbe112e4f53/LICENSE",
+      "bytes": 4293,
+      "sha256": "0156f294f430ec7bb63726f70f84da24fe3288e060decb04b6370fb9e1699a98"
+    }
+  ],
+  "selected_license": "MIT (Alternative A); copyright and full upstream LICENSE retained"
+}

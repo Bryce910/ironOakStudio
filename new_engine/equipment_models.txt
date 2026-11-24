@@ -1,0 +1,14 @@
+# item_id|label|model_path
+# Leave model_path empty to use procedural fallback visuals.
+8|Leather Helm|
+9|Iron Helm|
+10|Leather Chest|
+11|Iron Chest|
+12|Leather Boots|
+32|Leather Gloves|
+33|Iron Greaves|
+34|Iron Shoulders|
+35|Ranger Cloak|
+36|Knight Helm|models/armor/knight/helmet.glb
+37|Knight Cuirass|
+38|Knight Sabatons|

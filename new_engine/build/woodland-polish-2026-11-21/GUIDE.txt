@@ -1,0 +1,26 @@
+Woodland lighting and camera clearance — Linux Valwood, 21 November 2026
+
+Arrival woodland admits slightly more diffuse sky fill beneath overlapping
+crowns. Legacy rainforest output remains byte-identical. Authored sunlight,
+exposure, direct shadows, height data and scene geometry are retained.
+
+Third-person gameplay fades eligible foliage within 0.35–0.95 metres of the
+render camera using the existing cutout coverage and temporal resolve. Hair,
+skin, actors, opaque props and bark are excluded. First-person, editor,
+reflections and shadow coverage retain their existing paths.
+
+F10 > Quality > Vegetation > Grass and undergrowth detail > Apply
+Low / Medium / High / Ultra remain independently selectable from character
+quality. Grass budgets: 23,000 / 46,000 / 69,000 / 92,000 roots.
+Fern budgets: 360 / 900 / 1,800 / 3,600. Ecology and culling still apply.
+Authored scenery capacity remains 65,536; colliding roots stay consistent.
+
+The accepted Thomas model, animations, facial work and hair fixes are retained.
+Saved world documents and character/display settings are preserved.
+
+Actual normal-game default front and back buffers confirm third-person gameplay.
+The prior desktop-capture logo did not establish a game startup hang. A temporary
+presentation diagnostic was used for that finding and is not shipped.
+
+Review evidence and material limits are retained under review/. These changes
+are targeted rendering improvements, not AAA or sustained-performance certification.

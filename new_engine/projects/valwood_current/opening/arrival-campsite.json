@@ -1,0 +1,361 @@
+{
+  "passed": true,
+  "models": [
+    {
+      "relative_path": "models/opening/arrival_camp.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_near.glb",
+      "sha256": "955cf88f0371c2dc7a23e4b1477d33ed866d8996f2e6df921807a49db767e67d"
+    },
+    {
+      "relative_path": "models/opening/arrival_camp_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_near.glb",
+      "sha256": "955cf88f0371c2dc7a23e4b1477d33ed866d8996f2e6df921807a49db767e67d"
+    },
+    {
+      "relative_path": "models/opening/arrival_camp_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v2/models/arrival_camp_mid.glb",
+      "sha256": "5c72b5043082fba4322dd79437d28bc0e7699ff3529172d86d6bb3d80586052b"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_near.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_near.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    },
+    {
+      "relative_path": "models/opening/arrival_roast_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/models/arrival_roast_mid.glb",
+      "sha256": "758d5c7d9c762418e5e182128f049f56730bcf057bececc4b50f78bd39b6a0ff"
+    },
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_near.glb",
+      "sha256": "7b2edac301641e5b9194e3245c6906a22288737eeef663f1034eafedfcab45c1"
+    },
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_near.glb",
+      "sha256": "7b2edac301641e5b9194e3245c6906a22288737eeef663f1034eafedfcab45c1"
+    },
+    {
+      "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/bep_country_terrain_0_1/asset_mid.glb",
+      "sha256": "5bbe0ff5f53fbde1b5f0bb107b002719423a8322ec0f8ec1f048cb231bf69660"
+    },
+    {
+      "relative_path": "models/opening/arrival_border_near.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_near.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    },
+    {
+      "relative_path": "models/opening/arrival_border.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_near.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    },
+    {
+      "relative_path": "models/opening/arrival_border_mid.glb",
+      "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/models/arrival_border_mid.glb",
+      "sha256": "95f3bb9d680f9b37e7cc98ed8488582fc1591299340df93668548b3ca8dcc765"
+    }
+  ],
+  "center": [
+    -1486.37664868499,
+    18.933204601097398,
+    -10224.9106110642
+  ],
+  "meadow_spawn": [
+    -1486.37664868499,
+    18.940629959106445,
+    -10219.7106110642,
+    0.0,
+    -0.04
+  ],
+  "actors": [
+    {
+      "id": "arrival_guide",
+      "local_xz": [
+        -2.15,
+        -0.65
+      ],
+      "world_feet": [
+        -1488.52664868499,
+        18.93575044238202,
+        -10225.5606110642
+      ],
+      "yaw_radians": 1.2772073393863137,
+      "suggested_existing_family": "traveler",
+      "source_yaw_radians": 1.8643853142036464
+    },
+    {
+      "id": "arrival_provisioner",
+      "local_xz": [
+        2.2,
+        -0.65
+      ],
+      "world_feet": [
+        -1484.17664868499,
+        18.945669940985017,
+        -10225.5606110642
+      ],
+      "yaw_radians": -1.2835148733979203,
+      "suggested_existing_family": "traderwoman",
+      "source_yaw_radians": -1.8580777801920307
+    },
+    {
+      "id": "arrival_cook",
+      "local_xz": [
+        0.1,
+        -3.2
+      ],
+      "world_feet": [
+        -1486.27664868499,
+        18.95618789402401,
+        -10228.110611064201
+      ],
+      "yaw_radians": -0.031239833430232785,
+      "suggested_existing_family": "trader",
+      "source_yaw_radians": -3.110352820159525
+    }
+  ],
+  "physics_bodies": [
+    {
+      "id": 200,
+      "name": "firepit",
+      "center": [
+        -1486.37664868499,
+        19.113204601097397,
+        -10224.9106110642
+      ],
+      "half_extents": [
+        0.72,
+        0.215,
+        0.72
+      ]
+    },
+    {
+      "id": 201,
+      "name": "spit_post_-1",
+      "center": [
+        -1487.31664868499,
+        19.423926093933808,
+        -10224.9106110642
+      ],
+      "half_extents": [
+        0.075,
+        0.6092785071635897,
+        0.075
+      ]
+    },
+    {
+      "id": 202,
+      "name": "spit_post_1",
+      "center": [
+        -1485.43664868499,
+        19.423847431800567,
+        -10224.9106110642
+      ],
+      "half_extents": [
+        0.075,
+        0.6093571692968288,
+        0.075
+      ]
+    },
+    {
+      "id": 203,
+      "name": "west_seat",
+      "center": [
+        -1488.4766486849899,
+        19.159216310217687,
+        -10224.7106110642
+      ],
+      "half_extents": [
+        0.25,
+        0.23,
+        0.25
+      ]
+    },
+    {
+      "id": 204,
+      "name": "east_seat",
+      "center": [
+        -1484.2266486849899,
+        19.158894870123493,
+        -10224.6606110642
+      ],
+      "half_extents": [
+        0.25,
+        0.23,
+        0.25
+      ]
+    },
+    {
+      "id": 205,
+      "name": "north_seat",
+      "center": [
+        -1487.37664868499,
+        19.177702258446782,
+        -10229.260611064201
+      ],
+      "half_extents": [
+        0.25,
+        0.23,
+        0.25
+      ]
+    },
+    {
+      "id": 206,
+      "name": "provision_crate",
+      "center": [
+        -1483.4766486849899,
+        19.380520773424696,
+        -10228.4106110642
+      ],
+      "half_extents": [
+        0.4677557078006789,
+        0.3828846499009768,
+        0.467823907577102
+      ]
+    },
+    {
+      "id": 210,
+      "name": "Rowan",
+      "center": [
+        -1488.52664868499,
+        19.78575044238202,
+        -10225.5606110642
+      ],
+      "half_extents": [
+        0.32,
+        0.85,
+        0.32
+      ]
+    },
+    {
+      "id": 211,
+      "name": "Bram",
+      "center": [
+        -1484.17664868499,
+        19.795669940985018,
+        -10225.5606110642
+      ],
+      "half_extents": [
+        0.32,
+        0.85,
+        0.32
+      ]
+    },
+    {
+      "id": 212,
+      "name": "Ellis",
+      "center": [
+        -1486.27664868499,
+        19.80618789402401,
+        -10228.110611064201
+      ],
+      "half_extents": [
+        0.32,
+        0.85,
+        0.32
+      ]
+    }
+  ],
+  "groundcover_clearing": [
+    {
+      "path": "scenery/authored_instances.txt",
+      "removed": 3,
+      "removed_rows": [
+        "bep_nature_grass_broad 0.48530316949747776 0.31976473947130502 33.2567753267 1.09897104863 0 0 0 0.530004622649 -0.30494547302 1 1 1 18.9074939941",
+        "bep_nature_grass_long 0.48523606081763299 0.31960671470715729 -163.619192226 1.18280593966 0 0 0 -0.535285296738 -0.730796068527 1 1 1 18.9444525987",
+        "bep_nature_grass_long 0.4853477561310906 0.31960583755162664 122.938400555 0.865772781281 0 0 0 -11.8055105251 1.44891238522 1 1 1 19.5313598927"
+      ]
+    },
+    {
+      "path": "scenery/bep_environment_instances.txt",
+      "removed": 2,
+      "removed_rows": [
+        "bep_nature_clover 0.48537005899103536 0.31961294833877629 125.064450195 1.3998073486 0 0 0 -11.1183300891 2.44885286928 0.999999999998 0.999999999998 0.999999999998 18.6076282074",
+        "bep_nature_clover 0.48524333800663072 0.31956420208454883 -91.9588579825 0.867015043151 0 0 0 0.772584628727 -0.901157811158 1 1 1 18.2585504872"
+      ]
+    },
+    {
+      "path": "scenery/castle_streets_instances.txt",
+      "removed": 1,
+      "removed_rows": [
+        "bep_nature_grass_long 0.48535369161744751 0.31964637830935833 56.6332093118 0.936250904494 0 0 0 -2.07173497787 10.905804376 0.887904001743 1.2684342882 0.887904001743 19.2940387202"
+      ]
+    },
+    {
+      "path": "scenery/demo_finish_instances.txt",
+      "removed": 5,
+      "removed_rows": [
+        "bep_nature_grass_long 0.48523286774187774 0.31963482460798265 -128.687066383 1.03488544354 0 0 0 -0.0347096638187 -0.447959252413 1 1 1 18.9271094358",
+        "bep_nature_grass_broad 0.48527426524339717 0.31975298639843308 134.469127743 1.32078283961 0 0 0 0.663466938698 -0.0912657354357 1 1 1 18.9295859374",
+        "bep_nature_grass_broad 0.48527685516296726 0.31979729840978161 -24.7005100042 0.811757255862 0 0 0 -1.13456361371 -0.446650067644 1 1 1 18.9577818952",
+        "bep_nature_grass_long 0.48519478796987869 0.31974349189496742 34.5215772389 1.18519526526 0 0 0 -0.438811421214 -0.953118221579 0.999999999997 0.999999999997 0.999999999997 18.9888357603",
+        "bep_nature_clover 0.4852738516184914 0.31981345310862519 -36.9366711548 1.27353472973 0 0 0 -1.35805920397 -0.295914916985 1 1 1 17.9034235359"
+      ]
+    },
+    {
+      "path": "scenery/demo_polish_instances.txt",
+      "removed": 4,
+      "removed_rows": [
+        "bep_nature_grass_broad 0.48518863265290141 0.31965744985474742 133.572471822 0.734450623558 0 0 0 0.846994985862 0.527770407195 1 1 1 18.9455422013",
+        "bep_nature_grass_broad 0.48522610362189361 0.31961849386655072 -42.4561485293 0.86775138637 0 0 0 0.588531480802 -0.073633533897 1 1 1 18.9296453549",
+        "bep_nature_grass_long 0.48524088196852888 0.3198397494796496 113.450008547 1.01794768025 0 0 0 1.00096446238 -0.893440577867 1 1 1 19.0501615338",
+        "bep_nature_grass_broad 0.4852171600101739 0.3196386812623524 6.04574143512 1.11868459669 0 0 0 0.172542724928 -0.000663896282582 0.999999999997 0.999999999997 0.999999999997 18.9224455856"
+      ]
+    },
+    {
+      "path": "scenery/rainforest_instances.txt",
+      "removed": 3,
+      "removed_rows": [
+        "bep_nature_grass_long 0.48532333167813646 0.31973514710011686 -65.1103085013 1.30312587743 0 0 0 0.820787361619 -1.20514039443 0.999999999999 0.999999999999 0.999999999999 18.9293814115",
+        "bep_nature_grass_broad 0.48533733338181728 0.31968981492341497 98.5833810823 1.23676937904 0 0 0 -1.19834941094 1.3419290595 1 1 1 19.0185783148",
+        "bep_nature_grass_broad 0.48527758855808723 0.31975030223889744 138.047717482 1.26428084103 0 0 0 0.572913930333 -0.0245634632642 1 1 1 18.9263756415"
+      ]
+    },
+    {
+      "path": "scenery/starting_area_instances.txt",
+      "removed": 3,
+      "removed_rows": [
+        "bep_nature_grass_long 0.48529013074869476 0.31975424324573504 -79.3056612903 0.916823271892 0 0 0 -0.448992175657 0.135105198563 1 1 1 18.9188782716",
+        "bep_nature_grass_broad 0.48527881679864016 0.31982475800126686 124.796440502 1.30028197351 0 0 0 1.49500230106 0.0133309327479 0.999999999997 0.999999999997 0.999999999997 18.9767746536",
+        "bep_nature_clover 0.4852222029463813 0.31960859088297933 144.89070797 0.876546458061 0 0 0 -0.618664581498 -0.0368320794328 1 1 1 18.19162827"
+      ]
+    },
+    {
+      "path": "scenery/tanthoon_bandit_camp_instances.txt",
+      "removed": 4,
+      "removed_rows": [
+        "bep_nature_grass_long 0.48536962957563506 0.31958761143504777 -55.8615671202 1.23475352071 0 0 0 11.5325206249 -2.19944573903 0.999999999999 0.999999999999 0.999999999999 20.0185689133",
+        "bep_nature_grass_long 0.48538537043108643 0.31955013446138769 -65.5665212501 1.22654396883 0 0 0 11.7873998004 -3.20848254577 1 1 1 20.5757977537",
+        "bep_nature_grass_long 0.48529823182750614 0.31971047671109742 139.56643143 0.903926339393 0 0 0 -0.966974896272 0.102975268319 1 1 1 18.934394642",
+        "bep_nature_clover 0.48527929769296568 0.31974974559601532 -72.9352452122 1.4318189421 0 0 0 -0.299839822133 0.177809264249 0.999999999997 0.999999999997 0.999999999997 17.7157350143"
+      ]
+    }
+  ],
+  "source_art": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/art-v3/ART_CANDIDATE.json",
+  "source_art_sha256": "71b547a9efb53e08c027edf368546d15061fc2804d62f01902661568f4354584",
+  "soil_review": "/home/computer/Desktop/final_engine/new_engine/docs/arrival-redesign/2026-11-04/terrain/candidate-v7/TERRAIN_REVIEW.json",
+  "source_project_unchanged": true,
+  "surroundings": {
+    "passed": true,
+    "source_project": "/home/computer/Desktop/final_engine/new_engine/build/opening-finward-reference/v15/project",
+    "new_instances": 90,
+    "new_triangles_high": 136258,
+    "new_vegetation_texture_bytes": 0,
+    "cleared_qa_and_connection_lanes": true,
+    "minimum_lane_root_clearance_m": 2.0007220747675794,
+    "unchanged_terrain_geometry": true,
+    "fallback_queries": [
+      0,
+      0
+    ],
+    "rejected_for_clearance": []
+  },
+  "terrain_redesign_sha256": "9d0479e596152e1d0e91deddd926d5305103cba371dabc9c3881ff90dbab6293"
+}

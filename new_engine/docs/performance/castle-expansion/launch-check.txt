@@ -1,0 +1,2 @@
+/home/computer/Desktop/final_engine/Launch_Valwood_World.sh --scenic castle-drawbridge --width 1600 --height 900 --no-hud --benchmark --view river --warmup 120 --frames 6111 --profile /home/computer/Desktop/final_engine/new_engine/docs/performance/castle-demo/20261026-163419/profile.json --capture /home/computer/Desktop/final_engine/new_engine/docs/performance/castle-demo/20261026-163419/final.bmp
+Route: 338.9m, 1.6 simulated walking minutes

@@ -1,0 +1,3 @@
+Reviewed Linux creek/road generation. Publication status is recorded by PUBLICATION.json and CURRENT_VALWOOD.json.
+The baseline is camp-atmosphere-2026-11-20. Actual source, rebuilt native runtime and shader delivery are recorded in runtime/BUILD_REVIEW.json and review/CHANGESET.json; initial staging is not final acceptance. Historical C native images remain unchanged and are explicitly mapped to baseline evidence.
+No Windows work. No AAA quality, reference parity or full-demo certification.

@@ -1,0 +1,18 @@
+usage: import_world_asset.py [-h] --project PROJECT --alias ALIAS --near NEAR
+                             [--mid MID] [--far FAR] [--units UNITS] --result
+                             RESULT
+
+Copy bounded embedded static GLBs into immutable project revisions. Never
+changes purchased sources. The engine validates materials/geometry before
+calling this cooker and validates actual GPU loads before committing the
+scene.
+
+options:
+  -h, --help         show this help message and exit
+  --project PROJECT
+  --alias ALIAS
+  --near NEAR
+  --mid MID
+  --far FAR
+  --units UNITS
+  --result RESULT

@@ -1,0 +1,27 @@
+Apartment collision alignment — 18 November 2026
+
+The editable apartment is restored to its original source-world coordinates.
+The 593 walls/furniture placements now agree with the existing 15-body
+walking collision. The TV, bills, related shots and window lights follow
+their corrected supporting objects. The player capsule and physics are unchanged.
+
+This generation reuses the exact reviewed opening-stance Linux executable
+and character animations. No Windows build is included.
+
+Use the normal desktop launchers. In Demo, Continue Checkpoint preserves your
+story progress; Begin Journey starts the apartment opening. Editor fly-camera
+intentionally passes through walls; playable walking uses collision.
+
+Valwood — natural unarmed stance pass (Linux)
+
+Run /home/computer/Desktop/final_engine/Launch_Valwood_Demo.sh
+Choose BEGIN THE JOURNEY for the apartment and plain modern father.
+The opening defaults to a close third-person shoulder camera.
+V or right-stick click switches first/third person.
+Z or D-pad Down draws/stows your weapon; combat uses its weapon stance.
+Unarmed standing and movement use captured human full-body motion.
+Follow the bills/TV/camp/supplies/return/town prompts for the demo route.
+I or View opens inventory. Esc or Menu pauses.
+
+See review/FINAL_REVIEW.json for verified scope and remaining limits.
+Linux only; no Windows build was prepared.

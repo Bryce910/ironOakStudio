@@ -1,0 +1,29 @@
+Valwood — woodland tournament arena scenery pass, 18 November 2026
+
+Use the normal desktop Launch_Valwood_Arena.sh to play.
+The arena has packed PBR earth, a roofed timber spectator stand, a framed
+entrance, timber boundary cladding, layered planting and leaf-litter ground.
+The 24 x 24 m flat fighting floor and all existing barriers are retained.
+The stand and gate are decorative, outside the playable ring.
+
+One Linux executable and one shared shader/character texture bank serve
+Demo, Editor, Arena, Joust and World. The environment dressing in this
+pass applies to the combat arena; other areas keep their existing art.
+No Windows build was produced.
+
+Graphics settings and progress are retained. Existing 4K character quality
+remains optional; the measured scenery comparison uses Balanced, 1600x900,
+Medium foliage distance, High density and Medium character textures.
+
+New free materials: Brown Mud and Wood Planks from Poly Haven (CC0).
+https://polyhaven.com/a/brown_mud
+https://polyhaven.com/a/wood_planks
+Existing licensed vegetation and props are reused. The custom stand,
+entrance and boundary are authored for Valwood. Provenance and hashes
+are in downloads/PROVENANCE.json. No purchase is needed for this pass.
+
+Review files include matched native screenshots, six no-readback camera
+benchmarks, combat/equipment checks, scope and scene audits. Inherited
+animation and control checks are verified through the previous generation;
+they are not described as newly rerun. Camera benchmarks do not establish
+a sustained frame-rate guarantee for 24-opponent battles.

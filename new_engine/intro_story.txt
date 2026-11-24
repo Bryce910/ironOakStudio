@@ -1,0 +1,13 @@
+# Intro story sections.
+# Write one section per block. Separate sections with a line that only contains ---
+# Blank lines inside a section are kept as paragraph breaks.
+
+The city is asleep when you wake, but the room is not.
+Small lights drift through the dark like thoughts refusing to die.
+---
+You have been carried here by a long stretch of silence,
+to a place that feels borrowed, waiting for your first real choice.
+---
+Stay with the glow a little longer.
+When the last line fades, the apartment will be there,
+and your story can finally start.

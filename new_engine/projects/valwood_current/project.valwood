@@ -1,0 +1,5 @@
+name=Valwood Design | Complete Demo World
+terrain=valwood_atlas
+spawn=-3498 -11005 3.141592653589793
+camera=0 0 7
+day_fraction=.66

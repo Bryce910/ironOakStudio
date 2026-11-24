@@ -1,0 +1,8 @@
+Valwood N6 diagnostic candidate
+
+BUILT, NOT NATIVE ACCEPTED. Do not publish.
+Only opt-in private input diagnostics differ from failed-reviewed N5. Gameplay controls and scenery admission are unchanged.
+Compile baseline: verified N5 91220;109 unique objects, one rebuilt viewer. PublishedN1scene CAS stays unchanged.
+Heavy assets are read-only links;23 editable scene paths are regular independent copies.
+Read N5_NATIVE_REVIEW_FAILURE.json and input-observer review receipts.
+No Windows build. No published game, saves or settings changed.

@@ -1,0 +1,1 @@
+Rejected intermediate A* shortcut. It passed source-city Jolt but crossed the new town lamp scenery collider. It was never accepted or built. The sealed C7 route and result.json use the outer square and measured scenery/NPC clearance.

@@ -1,0 +1,29 @@
+VALWOOD — PLAYABLE OPENING / LINUX
+
+Use the root Launch_Valwood_Demo.sh for the apartment-to-Seldonne demo.
+Launch_Valwood_Editor.sh, Launch_Valwood_Arena.sh, Launch_Valwood_Joust.sh and
+Launch_Valwood_World.sh use this same Linux binary and shared shader bank.
+One native game/editor session at a time. Existing progress and drafts remain
+in their original locations. Demo, World and Editor share valwood_current.
+
+This generation adds lossless pose GPU paging (96 MiB target working set),
+with exact A/B endpoints prepared before drawing. Large active draws may
+exceed that budget to retain all their endpoints. Unused vertex storage is
+reclaimed while buffer names, UVs, indices, materials and animation timing
+stay unchanged. A private temporary backing file closes at the last owner.
+Disk failure falls back to ordinary eager loading at the loading boundary.
+
+Synchronous animation-bank loads reuse material resolutions only after an
+exact source-byte and request match. Every hit retains its ordinary image
+reference; model frees and the end of the loading scope clear the borrowed
+lookup. No material data or quality tier is changed.
+
+The matched opening benchmark retains all combat and swim banks. Tracked
+allocation totals are logical GL storage, not measured driver VRAM residency.
+Normal saved Balanced settings keep the prior adaptive resolution behavior.
+This is not a locked 60 FPS claim or an AAA completion claim. Scenery,
+pale terrain slopes, faces and close-up presentation still need art work.
+
+Review reports and actual game captures are under review/. The intermediate
+pager-only-prototype is archived evidence and is not the published result.
+No Windows build was prepared in this generation.

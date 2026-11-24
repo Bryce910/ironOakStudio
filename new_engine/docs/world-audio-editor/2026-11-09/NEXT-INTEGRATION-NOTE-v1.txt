@@ -1,0 +1,11 @@
+Audio delivery is complete and active for native environment editor shortcuts.
+
+Active source: build/world-audio-editor-2026-11-09/source-v1
+Active native runtime: runtime-native-v1/native-bin/rpg (bf7cf9c5c15c79a097f6beb2aac9f1879e239cdf86d4c4c872709f4238167d1b)
+CURRENT.json and ACTIVATION-v1.json bind exact editor launchers. Native manual placement/fade Undo/Redo/Save, bounded editor reopen and third-person gameplay autoload passed. Windows runtime compiled only; no current standalone ZIP changed.
+
+Combat-severing source-v4/runtime-native-v4 is a SEPARATE candidate based on accepted opening source6, not on the new audio source. Its core codec still lacks Sound/Studio13. Do not replace the accepted audio editor with that runtime. Its gameplay wrappers are still unchanged old opening6; private combat fixture4 awaits final GPU review and another desktop unlock.
+
+When combat passes: combine the closed audio implementation with the combat candidate in a fresh source, resolve world_viewer.cpp against their common source6 baseline, rebuild full actual dependency closure and run focused audio + combat checks before a shared runtime/package release. Do not lose audio while activating combat, or silently claim the Windows demo/designer archives include either new candidate.
+
+Original region workcopy world.studio and real player.profile remain unchanged as of audio activation. Keep the new import folder sounds/imported project-local and preserve portable WAV dependencies in future designer packages.

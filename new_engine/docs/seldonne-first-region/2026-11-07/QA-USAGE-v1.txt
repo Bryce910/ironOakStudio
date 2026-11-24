@@ -1,0 +1,55 @@
+Final Seldonne QA tooling
+
+Use ART project-v3. The earlier collision-proof-v3 folder tested ART project-v2
+and correctly found the Innkeeper obstruction; those revision numbers refer
+to different things. The final accepted CPU proof for ART project-v3 is:
+  build/seldonne-first-region-2026-11-07/collision-proof-v4/RESULTS.json
+
+The exact production structural cook and Jolt tests pass on all 1,959 bound
+source rows, including 71 structural instances, three physical partitions,
+40,483 total triangles and two bridge meshes with 4,500 triangles. The test
+passes the actual spawn-to-market road, the art-directed outside-east loop
+to the waterfront, both bridge decks at walking/running speeds, four rails,
+wet beds, all nine terrain NPC endpoints and their authored sidewalk patrols.
+Production world_npc_authoring/world_navigation and Jolt terrain-floor/clear
+callbacks are used. Static source-proxy/foliage and live character integration
+still require the renderer's actual nine-actor successful commit; the formal
+runtime checker requires that count and a ready live runtime.
+
+The closed visual runner is check_region_runtime_v1.py. It passed 36 CPU
+guard regressions and independent read-only review. It was not run on a GPU
+by its author. Without --prepare or --run it authenticates inputs and prints
+the plan. --prepare copies all mutable controls to a fresh private project;
+the large art banks remain read-only links. It removes apartment, arena and
+legacy playtest guard controls only in that private visual copy, and retains
+the publisher/City metadata needed to activate the real source renderer.
+
+QA-LAUNCH-COMMANDS-v2.json contains complete, plan-validated CLI arrays and
+shell forms for exact accepted native-v2 and Windows-v2 runtimes. Run each
+prepare command first. Only root, owning the shared GPU lock, runs the run
+commands. Choose a new --revision if an earlier prepare or partial run exists.
+Evidence is never overwritten. Original source controls and linked model
+bytes must continue to match the bound CPU proof.
+
+The full run launches two separate processes: an eleven-view source-review
+flight for timing, and another flight for eleven BMP captures. There are
+3,300 deterministic local-dolly steps and approximately 72 seconds of 60 Hz
+route ticks, plus startup/loading and explicit district cuts. Actual wall time
+depends on hardware. Timing excludes explicitly recorded loading/cut/hold
+frames while preserving their raw CSV evidence. Every authored camera step
+is independently reconstructed from that CSV, including steps whose probe
+transition was classified as loading. Capture-process FPS is never reported
+as performance evidence because synchronous readbacks contaminate it.
+
+Runtime gates require the actual hardware renderer, 1600x900 at full fixed
+scale, GL error zero, released texture references zero, no shader/asset/tile
+failures, visible authored river/material/bridge geometry, all nine committed
+actors, ready live runtime, and matching CPU/source cook counts. The static
+startup cook legitimately has zero asynchronous edit commits; its exact
+startup log must instead confirm 40,483 triangles and three partitions.
+Source controls, helper pins and exact runtime binaries are rechecked at exit.
+
+This is visual-flight/static-collision acceptance. It does not certify
+controller input, the complete story/combat flow, sustained target FPS,
+physical Windows hardware or AAA art quality. Root must inspect the actual
+captures and walk the final scene before presenting it as finished.

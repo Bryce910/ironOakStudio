@@ -1,0 +1,56 @@
+Lighting assessment — 10 November 2026
+
+Assessment: a useful custom raster lighting foundation; the current finished
+visual result should not yet be described as AAA quality. AAA is an artistic
+and production standard, not a single rendering feature or certification.
+
+Present in the accepted runtime
+- GGX/PBR material response, normal and ARM maps, thin-leaf wrap/transmission.
+- SH9 diffuse and GGX-filtered, box-projected local reflection probes. The
+  measured opening has five ready 128-pixel local probes.
+- Filtered directional sunlight shadowing; current default is a 2048 map,
+  nine scalar filter samples, and a 125–160 metre fade.
+- Local torch/practical lights with enclosure and clipping approximations.
+- Screen-space ambient/contact occlusion, volumetric fog and clouds, temporal
+  anti-aliasing, HDR bloom, filmic mapping, sRGB output and a color LUT.
+
+Material limits
+- Local indirect probes update around loading/destination transitions, rather
+  than providing general real-time light bounce around moving objects.
+- One sun shadow map must cover the nearby scene; it lacks a set of cascades
+  dedicated to preserving fine contact detail across a larger distance.
+- The actual local-light telemetry explicitly reports no point-light shadow
+  maps. Enclosure approximations cannot reproduce arbitrary moving occluders.
+- Actors share the opaque material lighting path. A dedicated skin-scattering
+  model and stronger eye/hair presentation are still missing.
+- Exposure is authored. There is no general automatic exposure metering.
+
+Observed presentation gaps
+The existing fixed captures show dark canopies against a pale sky and fairly
+flat town facades/plaza. Repeated ground/grass patterns are also conspicuous;
+that is partly a material and scene-dressing problem. The older images render
+internally at1024x576, so their softness must not all be blamed on lighting.
+The current shader comparison uses1600x900 windows/1280x720 scene rendering.
+
+Recommended visual priorities
+1. Calibrate sky fill, sun, exposure and material values in one campsite view
+   and one interior; verify both in daylight and at dusk.
+2. Improve local indirect light placement/occlusion and believable contact at
+   feet, walls, building foundations and foliage roots.
+3. Add scalable sun-shadow coverage/detail and a small budget of genuinely
+   shadowed nearby practical lights, measuring RX5300 cost as each is enabled.
+4. Treat skin, eyes and hair as a separate character lighting/material pass.
+
+Source references (accepted performance source-v1)
+engine/world_demo_probe_capture.inc — loading/probe lifecycle
+shaders/world_foliage.fs.glsl:430 — sunlight shadows
+shaders/world_foliage.fs.glsl:530 — local probe sampling
+shaders/world_foliage.fs.glsl:1374 — thin-leaf response
+shaders/world_material_response.glsl:9 — shared material response
+engine/world_viewer.cpp:7486 — local-light telemetry, no point shadow maps
+shaders/world_occlusion.fs.glsl:13 — screen-space AO/contact
+shaders/world_weather_fog.fs.glsl:45 — volumetric fog
+shaders/world_post.fs.glsl:19 — HDR/post and authored exposure
+
+The foliage optimization retains the existing shared lighting equations. It
+is a performance change, not evidence that these lighting gaps are finished.

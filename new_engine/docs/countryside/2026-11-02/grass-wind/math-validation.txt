@@ -1,0 +1,1 @@
+PASS production grass GLSL CPU math: 583200 fixed root samples, 1166400 bounded poses, 405 finite-difference TRS bases; peak 0.180000m, clear-weather tip Xspan 0.055539m, max normal error 0.00001599; neutral wind0 and128m rebase exact

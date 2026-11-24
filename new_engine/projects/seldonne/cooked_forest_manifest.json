@@ -1,0 +1,58 @@
+[
+  {
+    "asset": "silver_fir",
+    "source": "fir_sapling_medium",
+    "source_triangles": 685046,
+    "runtime_triangles": 65000,
+    "height_m": 15,
+    "license": "CC0"
+  },
+  {
+    "asset": "woodland_fern_0",
+    "source": "fern_02",
+    "source_triangles": 784,
+    "runtime_triangles": 784,
+    "height_m": 0.65,
+    "license": "CC0"
+  },
+  {
+    "asset": "woodland_fern_1",
+    "source": "fern_02",
+    "source_triangles": 2384,
+    "runtime_triangles": 2384,
+    "height_m": 0.77,
+    "license": "CC0"
+  },
+  {
+    "asset": "woodland_fern_2",
+    "source": "fern_02",
+    "source_triangles": 2248,
+    "runtime_triangles": 2248,
+    "height_m": 0.89,
+    "license": "CC0"
+  },
+  {
+    "asset": "mossy_boulder_0",
+    "source": "rock_moss_set_02",
+    "source_triangles": 9826,
+    "runtime_triangles": 7500,
+    "height_m": 1.1,
+    "license": "CC0"
+  },
+  {
+    "asset": "mossy_boulder_1",
+    "source": "rock_moss_set_02",
+    "source_triangles": 8000,
+    "runtime_triangles": 7499,
+    "height_m": 1.5,
+    "license": "CC0"
+  },
+  {
+    "asset": "mossy_boulder_2",
+    "source": "rock_moss_set_02",
+    "source_triangles": 7894,
+    "runtime_triangles": 7500,
+    "height_m": 1.9000000000000001,
+    "license": "CC0"
+  }
+]

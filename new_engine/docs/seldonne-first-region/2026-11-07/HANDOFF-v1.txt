@@ -1,0 +1,81 @@
+Seldonne first-region terrain/data handoff
+
+The new private project is build/seldonne-first-region-2026-11-07/project-v1.
+It is ready for the root agent's asset layout and rendered/playable review.
+It has not been shown in the game or accepted as finished visual art.
+
+The editable playable footprint is 1280 x 768 metres at world X -12288..-11008,
+Z 4992..5760. At the engine's actual 3.5 m/s walk speed, the long axis takes
+6.10 minutes and the diagonal 7.11 minutes before winding paths and stops.
+The 1536 x 1024 metre height context uses one-metre samples and exactly meets
+the original native atlas along its outermost boundary. Playable base terrain
+ranges from 10.34 to 40.24 metres; the outer context blends back to the atlas
+and includes higher distant ground.
+
+layout-v1.json is the art/layout contract. Local coordinates add X -12288 and
+Z 4992 to become world coordinates. The NW arrival camp is local 300,180 and
+the spawn 300,188. The SW town is 320,590. Both terraces are 11.8 m high.
+Their complete absolute anchors are also included in anchors_world.
+
+Six paired perimeter arcs give a broad river around the region. The twelve
+32 m full-width ribbons overlap into one union surface, approximately 52 m
+across, without coplanar duplicate water triangles. Three editable tributaries
+follow the west, center and eastern forest valleys. All connected reaches use
+one lowland water datum at Y 8 m; this is authored slow water, not fluid
+simulation. Representative main-channel widths away from tributary mouths
+measure 48..53.5 m. Mouths deliberately widen into the receiving channel.
+
+The two owned timber bridges have stable IDs 1 and 2. The southern waterfront
+crossing is six metres wide; the woodland creek bridge is 3.6 metres wide.
+Their generated render and collision triangles are the same geometry. Their
+dry endpoints exactly meet terrain. No GPU or actual Jolt movement test has
+been performed on this new region yet.
+
+The actual production river and terrain pipeline passes the CPU audit:
+58 cached terrain tiles, 56 material paint tiles, 99,294 water triangles,
+3,990 wet centerline/junction probes, 109 broad cross sections, minimum tested
+center water depth 1.785 m, maximum camp-to-town route grade 3.65%, and exact
+Studio Save/reopen. Negative controls reject a river too narrow for the
+terrain grid, a mismatched connected water datum, and a floating bridge end.
+
+Nineteen editable ecology regions provide continuous regional groundcover,
+eight denser woodland groups, open meadow, camp and town clearing. Density
+estimates approximately 3,518 tree lattice candidates before actual runtime
+water/slope/collision exclusions against the 7,000 tree cap. This leaves 13
+ecology slots for the designer. These are candidate estimates, not measured
+visible counts or a performance benchmark. Grass, ferns and near rocks use
+the engine's existing distance limits and shared assets.
+
+The remaining 16th ribbon slot is reserved for the final camp-to-town road.
+The main_route controls are already graded into the base terrain and painted.
+Convert that final art-directed route into a Road ribbon to clear generated
+grass and trees automatically: paint alone does not suppress vegetation.
+
+Root integration work remains: remove/replace the copied old source instance
+lists and source collision, build the SW town and arrival-camp art, author
+hero vegetation/rocks along the route and creek banks, relocate story actors,
+and run actual renderer, movement/collision and hardware/performance checks.
+The copied publisher/city metadata still describes the prior source scene;
+replace that metadata during source-art integration before claiming a new
+standalone experience. No engine changes are required for the data draft.
+
+Use effective-placement-v1.height only to sample final ground for art
+placement. It includes the actual production river terrain offsets and is
+stored outside the project. Keep project ground/showcase.height as the
+un-carved editable base so moving/removing a river restores its prior ground.
+
+Models, textures, texture_blocks, audio, blood_assets and environments are
+read-only workflow links to the accepted baseline. Never export or edit
+through these links. Use a new ordinary art directory or private bank copy
+for new assets. All other mutable project controls are ordinary independent
+copies. The original project controls were verified byte unchanged.
+
+Evidence and hashes:
+  build/seldonne-first-region-2026-11-07/MANIFEST-v1.json
+  build/seldonne-first-region-2026-11-07/CPU-AUDIT-v1.json
+  build/seldonne-first-region-2026-11-07/NEGATIVE-CONTROLS-v1.json
+  docs/seldonne-first-region/2026-11-07/CPU-HANDOFF-v1.json
+
+Reproduction: run build_region_v1.py --build in a fresh revision/output path.
+It refuses to overwrite an existing private project. Without --build it
+prints a plan and launches no application. Everything in this pass is CPU-only.

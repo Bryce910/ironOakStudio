@@ -1,0 +1,2 @@
+PASS five tracked neck pulses each at30/60/144Hz;8-emitter bounds;pause/clock reset/hidden-wound cancellation;short fluid clips;lasting stains;no fake body hits or serial theft;192-droplet pool saturation
+PASS 34646 blood lifecycle checks: real body events, simultaneous defenders, deduplication, wave rebasing, retry, pause, duration expiry, world anchoring, finite inputs and fixed saturation budgets

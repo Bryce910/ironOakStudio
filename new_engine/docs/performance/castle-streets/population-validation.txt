@@ -1,0 +1,88 @@
+VILLAGE LIFE CPU / SOURCE-ASSET VALIDATION
+
+Production sources: engine/world_village_population.cpp/.h and generated
+engine/world_village_life_data.inc. Original128 preserved;12 appended=140.
+Source-pose owners80; blend batches95. Source0..75/blend0..90 preserved.
+
+PASS strict syntax:
+c++ -std=c++17 -O2 -Wall -Wextra -Werror -I. $(pkg-config --cflags sdl2) -fsyntax-only engine/world_village_population.cpp tests/world_village_population_test.cpp tests/world_village_population_gl_test.cpp
+PASS generator consistency:
+python3 tools/build_village_life.py --check
+
+PASS release CPU fixture before the final .20m seated furniture-fit offset;
+final current-offset full CPU fixture also passed under ASan/UBSan below.
+Durable release log: population-cpu.log.
+
+PASS current-offset ASan+UBSan, exit0:
+cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. -c engine/world_atlas.c -o /tmp/valwood-village-life-atlas-asan.o
+c++ -std=c++17 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. $(pkg-config --cflags sdl2) tests/world_village_population_test.cpp engine/world_village_population.cpp /tmp/valwood-village-life-atlas-asan.o -o /tmp/valwood-village-life-asan $(pkg-config --libs sdl2) -lGL -lm
+ASAN_OPTIONS=detect_leaks=0 /tmp/valwood-village-life-asan
+Durable log: population-asan.log.
+An earlier detect_leaks=1 run passed all assertions but LeakSanitizer failed
+at process shutdown because this container uses ptrace. The successful run
+explicitly disables only leak scanning. Source/batch ownership counters are
+independently required to return exactly zero.
+
+Final current-offset600s/60Hz proves350,280,000 human-pair separations and
+5,040,000 ground/collision probes; minimum1.400001m overall/1.600000m district;
+original128 positions, headings and source-pose blends unchanged at15 timestamps;
+zero hot allocations/extra uniform queries; atomic source/target/batch failure
+cleanup; repeated absolute-time uploads stable. Capsule-style furniture
+checks exempt the four seated source bodies' intentional support contact;
+actual triangle support/table clearance is tested separately.
+
+Source-seat offline cook uses two CPU threads, no GPU:
+OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=1 blender -b -t 2 --factory-startup --python-exit-code 1 --python tools/build_village_seated_characters.py
+Four genuine CC0 Sitting1 keys,3884triangles/1PBRprimitive each, three shared
+1024x1024 atlases=16MiB RGBA8+all mip levels. Original76assets unchanged.
+Durable cook log: seated-cook.log.
+
+Final actual furniture-fit test command:
+python3 tests/village_seated_asset_test.py
+PASS exit0 after the two occupied dining tables and empty rear benches
+moved+.40m; durable log seated-asset-fit.log. Exact clipped support gap
+-0.516..+0.419mm across16 cyclic key/blend poses; full sourcebody before
+both actual tabletops. Runtime seated roots move+.20m forward;
+posterior support nominal.480m+.015m floor=.495m actual seat. The test clips
+actual source triangles rather than accepting vertex-only seat checks.
+
+No native graphics, engine launch or native FPS claim is made by this CPU audit.
+The actual OpenGL fixture is tests/world_village_population_gl_test.cpp;
+parent owns integration/native validation and timing evidence.
+
+FINAL OFFLINE UV / ACTUAL SOFTWARE GL REVISION
+PASS CPU registry audit: all80 actual GLB JSON material texture infos use
+TEXCOORD_0 and no texture transforms. Seated UV0 contains the2D atlas;
+UV1 contains unique offline source-corner identifiers and is never sampled.
+The original implicit Blender render-active UV chose UV1 in keys00/03;
+explicit named UVMap links now bind base/normal/AO/MR and normal tangent space
+to UV0, after which all80 strict contracts pass. No renderer assertion or
+sourceUV mapping was weakened, and old76 assets remain untouched.
+
+The first corrected-UV GL run exposed a separate test-view assumption:
+main derivative-AA alpha vs intentional hard sun-shadow alpha selects a
+hair/underlying-head depth at old merchant Tomas in the new front view.
+First pixel(190,95), frame3, shadow.938358247/color.938326538, delta.000031710.
+A temporary fixture-only main-fragment binary-alpha control passed all six
+frames at the same original camera, with the same2e-6 depth tolerance;
+production shaders were not modified. Durable control log:
+population-depth-alpha-control.log. Diagnostic actor/camera data:
+population-depth-diagnostic.log. Failed evidence is preserved in
+population-gl-before-fix.log and population-gl-before-depth-fixture-fix.log.
+
+The production-shader final fixture keeps the original three guard views,
+then isolates the new opaque seated source in profile for exact geometry
+comparison. Same2e-6 tolerance, no skipped pixels and no shader edits.
+It loads all six actual scene files before all80 poses (same order as viewer),
+checks shared source images/materials and all source/blend cleanup, draws
+color/shadow plus mirrored reuse, verifies stable repeated-time uploads.
+
+PASS final actual software OpenGL fixture, exit0:
+c++ -std=c++17 -O2 -Wall -Wextra -Werror -I. $(pkg-config --cflags sdl2) -c tests/world_village_population_gl_test.cpp -o /tmp/valwood-population-final-fixture.o
+c++ /tmp/valwood-population-final-fixture.o engine/world_village_population.o engine/world_scenery.o engine/world_models.o engine/world_atlas.o engine/texture_cache.o -o /tmp/valwood-streets-population-gl-test $(pkg-config --libs sdl2) -lGL -lm
+env -u VALWOOD_TEST_NATIVE_GL /tmp/valwood-streets-population-gl-test /home/computer/Desktop/final_engine/new_engine
+Durable log: population-gl.log (llvmpipe/software, not native FPS evidence).
+80poses/48shared image keys,229.31MiB conservative image+mips;840fractional
+pose samples;4239color/4239shadow pixels, exact depth checks; all owners0,
+zero unmanaged cache uploads. Geometry/cache count checks include all6files.
+All jobs are complete; root owns subsequent native validation/profiling.

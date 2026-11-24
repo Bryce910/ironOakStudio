@@ -1,0 +1,16 @@
+Weapon choices
+1: Two-handed sword — balanced directional cuts and thrusts.
+2: Bow — hold/release RT or left mouse; LT steadies aim (arena).
+3: Sword and shield — one-handed cuts; lower shield block stamina cost.
+4: Two-handed axe — heavy edged strikes; slower recovery and higher stamina cost.
+5: Quarterstaff — longer reach; faster blunt attacks; no decapitation.
+
+Arena: choose a Starting weapon before Start fight, switch with 1–5 or controller D-pad left/right, or equip from Pause. Selecting equipment costs no coins.
+Story: after Bram unlocks weapons, choose 1/3/4/5 or cycle with D-pad left/right. Bow practice remains in the arena.
+
+All melee choices: right-stick flicks select directional strikes; LT + right stick selects guard. Center then flick again for up to three strikes. Release guard to recover stamina. Finish a committed attack before switching equipment.
+Z / D-pad Down: put weapon away or draw. V / right-stick click: first/third person. B / Space: dodge. RB / middle mouse: arena target lock. LB / Q: arena camera look.
+
+Equipment and animations
+The owned knight's original one-handed sword/shield rig is used for the shield loadout. The axe uses the existing CC0 Poly Haven wooden_axe_02 with its original PBR maps and UVs, fitted to a1.48m two-handed haft. The quarterstaff is authored and fitted to the existing two-handed captures and posed grip. PBR images are shared by the renderer. New banks are prepared at startup, with no asset allocation or target relinking when switching weapons.
+The quarterstaff is a melee weapon; spellcasting is not implemented.

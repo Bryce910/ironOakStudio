@@ -1,0 +1,1 @@
+../../../shaders/palette_switch.fs

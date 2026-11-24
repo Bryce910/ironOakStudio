@@ -1,0 +1,5 @@
+/home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/test-storm-day-v1/models/imports/nm_city_12_sm_house_five/bdcce864c4ff9edabde1d3e8/asset.glb
+/home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/test-storm-day-v1/models/imports/nm_city_15_sm_house_one/b2c97d9ba9294abe37fe48bb/asset.glb
+/home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/test-storm-day-v1/models/imports/nm_city_18_sm_house_six__paint_6d3eaeff22/27a7fb272593544b4a5a0ab2/asset.glb
+/home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/test-storm-day-v1/models/imports/nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f/3fdd75497268da3bfee58f98/asset.glb
+/home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/test-storm-day-v1/models/imports/nm_city_22_sm_house_two/dfe5967e84e1e1349469ca91/asset.glb

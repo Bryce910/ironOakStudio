@@ -1,0 +1,726 @@
+{
+  "schema_version": 1,
+  "description": "A connected, deliberately composed demo quarter: Market Row joins the established Merchants Lane, Southgate Lane passes a retained working smithy, and Coopers Return leads back to Crown Avenue. Paired source facades enclose six-metre pedestrian streets, with open junctions and reserved service pockets. Existing NPC paths and the original 806m benchmark remain unchanged.",
+  "native_front_x_sign": {
+    "a": -1,
+    "b": 1,
+    "c": 1,
+    "d": 1,
+    "e": -1,
+    "f": -1
+  },
+  "protected_frontage_labels": [
+    "home_2_0",
+    "home_2_1",
+    "lane_west_brewers",
+    "lane_west_merchant",
+    "lane_west_coopers",
+    "lane_east_bakers",
+    "lane_east_stores",
+    "lane_east_factors",
+    "lane_east_inn",
+    "lane_east_clothiers",
+    "lane_east_spire"
+  ],
+  "removed_home_labels": [
+    "home_0_0",
+    "home_0_1",
+    "home_0_2",
+    "home_0_3",
+    "home_0_4",
+    "home_1_0",
+    "home_1_1",
+    "home_1_2",
+    "home_2_2",
+    "home_3_0",
+    "home_3_1",
+    "home_3_2",
+    "home_3_3",
+    "home_3_4",
+    "outer_home_0_0",
+    "outer_home_0_1",
+    "outer_home_0_2",
+    "outer_home_0_3",
+    "outer_home_0_4",
+    "outer_home_0_5",
+    "outer_home_1_0",
+    "outer_home_1_1",
+    "outer_home_1_2",
+    "outer_home_1_3",
+    "outer_home_1_4",
+    "outer_home_1_5",
+    "outer_home_2_0",
+    "outer_home_2_1",
+    "outer_home_2_2",
+    "outer_home_2_3",
+    "outer_home_2_4",
+    "outer_home_2_5",
+    "outer_home_3_0",
+    "outer_home_3_1",
+    "outer_home_3_2",
+    "outer_home_3_3",
+    "outer_home_3_4",
+    "outer_home_3_5"
+  ],
+  "removed_legacy_prop_labels": [
+    "bench_0",
+    "lantern_0"
+  ],
+  "streets": [
+    {
+      "id": "market_row",
+      "title": "Market Row",
+      "axis": "x",
+      "centre": 55,
+      "a": [
+        -83,
+        55
+      ],
+      "b": [
+        88,
+        55
+      ],
+      "road_id": "cross_55",
+      "half_width": 3,
+      "frontage_offset": 3.5,
+      "paving": 0.95
+    },
+    {
+      "id": "southgate_lane",
+      "title": "Southgate Lane",
+      "axis": "z",
+      "centre": -36,
+      "a": [
+        -36,
+        55
+      ],
+      "b": [
+        -36,
+        174
+      ],
+      "road_id": "demo_southgate_lane",
+      "half_width": 3,
+      "frontage_offset": 3.5,
+      "paving": 0.95
+    },
+    {
+      "id": "coopers_return",
+      "title": "Coopers Return",
+      "axis": "x",
+      "centre": 151,
+      "a": [
+        -81,
+        151
+      ],
+      "b": [
+        81,
+        151
+      ],
+      "road_id": "demo_coopers_return",
+      "half_width": 3,
+      "frontage_offset": 3.5,
+      "paving": 0.95
+    }
+  ],
+  "connectors": [
+    {
+      "id": "demo_lane_market_link",
+      "a": [
+        61.75,
+        49
+      ],
+      "b": [
+        61.75,
+        55
+      ],
+      "half_width": 2.9,
+      "paving": 0.95
+    },
+    {
+      "id": "demo_lane_north_link",
+      "a": [
+        61.75,
+        -27
+      ],
+      "b": [
+        61.75,
+        -35
+      ],
+      "half_width": 2.9,
+      "paving": 0.95
+    },
+    {
+      "id": "keep_receiving_walkway",
+      "a": [
+        0,
+        -132
+      ],
+      "b": [
+        0,
+        -151
+      ],
+      "half_width": 2.1,
+      "paving": 0.9
+    }
+  ],
+  "frontages": [
+    {
+      "label": "demo_home_market_row_north_0",
+      "street": "market_row",
+      "bank": "north",
+      "station": -77,
+      "family": "c",
+      "scale": 0.9
+    },
+    {
+      "label": "demo_home_market_row_north_1",
+      "street": "market_row",
+      "bank": "north",
+      "station": -60,
+      "family": "e",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_market_row_north_2",
+      "street": "market_row",
+      "bank": "north",
+      "station": -48,
+      "family": "a",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_market_row_north_3",
+      "street": "market_row",
+      "bank": "north",
+      "station": 81,
+      "family": "b",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_market_row_south_0",
+      "street": "market_row",
+      "bank": "south",
+      "station": -80,
+      "family": "a",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_market_row_south_1",
+      "street": "market_row",
+      "bank": "south",
+      "station": -68,
+      "family": "b",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_market_row_south_2",
+      "street": "market_row",
+      "bank": "south",
+      "station": -55,
+      "family": "d",
+      "scale": 0.9
+    },
+    {
+      "label": "demo_home_market_row_south_3",
+      "street": "market_row",
+      "bank": "south",
+      "station": -14,
+      "family": "a",
+      "scale": 0.96
+    },
+    {
+      "label": "demo_home_market_row_south_4",
+      "street": "market_row",
+      "bank": "south",
+      "station": 13,
+      "family": "f",
+      "scale": 0.95
+    },
+    {
+      "label": "demo_home_market_row_south_5",
+      "street": "market_row",
+      "bank": "south",
+      "station": 25,
+      "family": "c",
+      "scale": 0.88
+    },
+    {
+      "label": "demo_home_market_row_south_6",
+      "street": "market_row",
+      "bank": "south",
+      "station": 44,
+      "family": "a",
+      "scale": 0.99
+    },
+    {
+      "label": "demo_home_market_row_south_7",
+      "street": "market_row",
+      "bank": "south",
+      "station": 58,
+      "family": "e",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_market_row_south_8",
+      "street": "market_row",
+      "bank": "south",
+      "station": 71,
+      "family": "b",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_market_row_south_9",
+      "street": "market_row",
+      "bank": "south",
+      "station": 84,
+      "family": "f",
+      "scale": 0.94
+    },
+    {
+      "label": "demo_home_southgate_lane_west_0",
+      "street": "southgate_lane",
+      "bank": "west",
+      "station": 98,
+      "family": "a",
+      "scale": 0.94
+    },
+    {
+      "label": "demo_home_southgate_lane_west_1",
+      "street": "southgate_lane",
+      "bank": "west",
+      "station": 111,
+      "family": "e",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_southgate_lane_west_2",
+      "street": "southgate_lane",
+      "bank": "west",
+      "station": 139,
+      "family": "c",
+      "scale": 0.82
+    },
+    {
+      "label": "demo_home_southgate_lane_west_3",
+      "street": "southgate_lane",
+      "bank": "west",
+      "station": 171,
+      "family": "f",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_southgate_lane_east_0",
+      "street": "southgate_lane",
+      "bank": "east",
+      "station": 75,
+      "family": "b",
+      "scale": 0.92
+    },
+    {
+      "label": "demo_home_southgate_lane_east_1",
+      "street": "southgate_lane",
+      "bank": "east",
+      "station": 99,
+      "family": "d",
+      "scale": 0.86
+    },
+    {
+      "label": "demo_home_southgate_lane_east_2",
+      "street": "southgate_lane",
+      "bank": "east",
+      "station": 114,
+      "family": "e",
+      "scale": 0.95
+    },
+    {
+      "label": "demo_home_southgate_lane_east_3",
+      "street": "southgate_lane",
+      "bank": "east",
+      "station": 139,
+      "family": "a",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_southgate_lane_east_4",
+      "street": "southgate_lane",
+      "bank": "east",
+      "station": 171,
+      "family": "b",
+      "scale": 0.95
+    },
+    {
+      "label": "demo_home_coopers_return_north_0",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": -80,
+      "family": "a",
+      "scale": 0.99
+    },
+    {
+      "label": "demo_home_coopers_return_north_1",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": -68,
+      "family": "b",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_coopers_return_north_2",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": -55,
+      "family": "a",
+      "scale": 1.01
+    },
+    {
+      "label": "demo_home_coopers_return_north_3",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": -19,
+      "family": "e",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_coopers_return_north_4",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": -13,
+      "family": "f",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_coopers_return_north_5",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": 14,
+      "family": "a",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_coopers_return_north_6",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": 43,
+      "family": "d",
+      "scale": 0.9
+    },
+    {
+      "label": "demo_home_coopers_return_north_7",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": 61,
+      "family": "a",
+      "scale": 1.0
+    },
+    {
+      "label": "demo_home_coopers_return_north_8",
+      "street": "coopers_return",
+      "bank": "north",
+      "station": 76,
+      "family": "b",
+      "scale": 1.0
+    },
+    {
+      "label": "demo_home_coopers_return_south_0",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": -80,
+      "family": "b",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_coopers_return_south_1",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": -66,
+      "family": "e",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_coopers_return_south_2",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": -53,
+      "family": "c",
+      "scale": 0.9
+    },
+    {
+      "label": "demo_home_coopers_return_south_3",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": -22,
+      "family": "a",
+      "scale": 0.99
+    },
+    {
+      "label": "demo_home_coopers_return_south_4",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": -12,
+      "family": "f",
+      "scale": 0.98
+    },
+    {
+      "label": "demo_home_coopers_return_south_5",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": 14,
+      "family": "e",
+      "scale": 1.0
+    },
+    {
+      "label": "demo_home_coopers_return_south_6",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": 29,
+      "family": "a",
+      "scale": 0.97
+    },
+    {
+      "label": "demo_home_coopers_return_south_7",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": 45,
+      "family": "b",
+      "scale": 1.02
+    },
+    {
+      "label": "demo_home_coopers_return_south_8",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": 62,
+      "family": "d",
+      "scale": 0.9
+    },
+    {
+      "label": "demo_home_coopers_return_south_9",
+      "street": "coopers_return",
+      "bank": "south",
+      "station": 78,
+      "family": "f",
+      "scale": 1.03
+    }
+  ],
+  "reserved_pockets": [
+    {
+      "id": "demo_smithy_apron",
+      "bounds_xz": [
+        [
+          -46,
+          78
+        ],
+        [
+          -40.2,
+          91
+        ]
+      ],
+      "purpose": "Smithy work and coal/metal delivery"
+    },
+    {
+      "id": "demo_workshop_delivery",
+      "bounds_xz": [
+        [
+          -29,
+          80
+        ],
+        [
+          -22,
+          88
+        ]
+      ],
+      "purpose": "Opposite workshop delivery and repairs"
+    },
+    {
+      "id": "demo_inn_apron",
+      "bounds_xz": [
+        [
+          40,
+          79
+        ],
+        [
+          44,
+          94
+        ]
+      ],
+      "purpose": "Retained inn serving apron"
+    },
+    {
+      "id": "demo_market_junction",
+      "bounds_xz": [
+        [
+          77,
+          64
+        ],
+        [
+          85,
+          71
+        ]
+      ],
+      "purpose": "East market junction deliveries"
+    },
+    {
+      "id": "demo_return_north",
+      "bounds_xz": [
+        [
+          19,
+          139
+        ],
+        [
+          29,
+          146
+        ]
+      ],
+      "purpose": "Coopers service bay and planted recess"
+    },
+    {
+      "id": "demo_south_entry",
+      "bounds_xz": [
+        [
+          -23,
+          165.5
+        ],
+        [
+          -15,
+          174.5
+        ]
+      ],
+      "purpose": "Southgate arrival supplies"
+    }
+  ],
+  "demo_route_xz": [
+    [
+      0,
+      220
+    ],
+    [
+      0,
+      151
+    ],
+    [
+      -36,
+      151
+    ],
+    [
+      -36,
+      55
+    ],
+    [
+      61.75,
+      55
+    ],
+    [
+      61.75,
+      49
+    ],
+    [
+      61.75,
+      -27
+    ],
+    [
+      61.75,
+      -35
+    ],
+    [
+      0,
+      -35
+    ],
+    [
+      0,
+      8
+    ],
+    [
+      0,
+      -55
+    ],
+    [
+      0,
+      -88
+    ],
+    [
+      0,
+      -145
+    ],
+    [
+      0,
+      -88
+    ],
+    [
+      0,
+      -55
+    ],
+    [
+      0,
+      55
+    ],
+    [
+      0,
+      125
+    ],
+    [
+      0,
+      220
+    ]
+  ],
+  "demo_views": [
+    {
+      "id": "castle-demo",
+      "position_xz": [
+        0,
+        220
+      ],
+      "target_xz": [
+        0,
+        145
+      ],
+      "pitch": 0.03
+    },
+    {
+      "id": "castle-housing",
+      "position_xz": [
+        -36,
+        112
+      ],
+      "target_xz": [
+        -36,
+        75
+      ],
+      "pitch": 0.025
+    },
+    {
+      "id": "castle-marketrow",
+      "position_xz": [
+        -78,
+        55
+      ],
+      "target_xz": [
+        55,
+        55
+      ],
+      "pitch": 0.04
+    },
+    {
+      "id": "castle-forecourt",
+      "position_xz": [
+        0,
+        -88
+      ],
+      "target_xz": [
+        0,
+        -145
+      ],
+      "pitch": 0.1
+    },
+    {
+      "id": "castle-hall",
+      "position_xz": [
+        0,
+        -138.5
+      ],
+      "target_xz": [
+        0,
+        -145
+      ],
+      "pitch": -0.02
+    }
+  ]
+}

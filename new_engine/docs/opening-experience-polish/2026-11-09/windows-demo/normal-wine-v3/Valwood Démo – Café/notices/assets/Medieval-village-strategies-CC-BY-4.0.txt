@@ -1,0 +1,11 @@
+Model Information:
+* title:	medieval village strategies pack
+* source:	https://sketchfab.com/3d-models/medieval-village-strategies-pack-57d560f061b04331b181df23a6eb32cf
+* author:	Gnossiennes (https://sketchfab.com/Gnossiennes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "medieval village strategies pack" (https://sketchfab.com/3d-models/medieval-village-strategies-pack-57d560f061b04331b181df23a6eb32cf) by Gnossiennes (https://sketchfab.com/Gnossiennes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

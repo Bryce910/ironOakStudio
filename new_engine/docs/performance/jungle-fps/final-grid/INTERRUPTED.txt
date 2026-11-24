@@ -1,0 +1,1 @@
+Native execution session terminated with143 before first walk completed (partial CSV through frame5001). No complete results or acceptance claim. Retained unchanged; fresh complete suite in final-grid-retry.

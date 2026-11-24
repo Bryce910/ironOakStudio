@@ -1,0 +1,4 @@
+# Custom river — 0 points
+# width 24.0
+# bank_softness 1.00
+# water_preset 0

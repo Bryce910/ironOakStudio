@@ -1,0 +1,143 @@
+{
+  "house_origin": [
+    -3500.0,
+    600.0,
+    -11000.0
+  ],
+  "floor_world_y": 600.0,
+  "collision_boxes": [],
+  "collision_bodies": 15,
+  "render_meshes": [
+    {
+      "path": "models/opening/home.glb",
+      "offset": [
+        -3.0,
+        2.59999942779541,
+        1.5
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_a.glb",
+      "offset": [
+        -8.5,
+        -0.0003991280391346663,
+        -6.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_b_a.glb",
+      "offset": [
+        -3.5000009536743164,
+        -0.006568135693669319,
+        -2.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_b_b.glb",
+      "offset": [
+        -3.37957501411438,
+        -0.0009448414202779531,
+        -6.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_0_0_a.glb",
+      "offset": [
+        3.499999523162842,
+        -0.0009700012160465121,
+        -3.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_0_0_b.glb",
+      "offset": [
+        10.991250038146973,
+        -0.003977321553975344,
+        -3.000000238418579
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_m1.glb",
+      "offset": [
+        24.25,
+        -4.812730658443343e-09,
+        0.26361533999443054
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_a_a.glb",
+      "offset": [
+        19.671260833740234,
+        -0.0005223083426244557,
+        -1.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_a_b.glb",
+      "offset": [
+        19.905471801757812,
+        -0.00014717801241204143,
+        -4.338292121887207
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_b_a.glb",
+      "offset": [
+        25.25,
+        -0.001897552516311407,
+        -3.499999523162842
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_b_b.glb",
+      "offset": [
+        29.70677947998047,
+        -0.006882728077471256,
+        -2.5
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_2_m1.glb",
+      "offset": [
+        36.0,
+        -0.010312898084521294,
+        0.5539494752883911
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_2_0.glb",
+      "offset": [
+        34.5,
+        -0.007089496124535799,
+        -3.499999761581421
+      ]
+    },
+    {
+      "path": "models/opening/home_story.glb",
+      "offset": [
+        0.0,
+        0.5099999705289094,
+        0.0
+      ]
+    },
+    {
+      "path": "models/opening/home_enclosure.glb",
+      "offset": [
+        0.0,
+        -0.15500000000000003,
+        0.0
+      ]
+    }
+  ],
+  "source_scene": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/finward_house_props/scene_export/scene.json",
+  "source_scene_sha256": "146b57b559f68c3abc0652c61207e15343c4561e1c1d71b0623675abb0c7a4aa",
+  "copied_demo_layout": true,
+  "source_assemblies": 701,
+  "story_additions": [
+    "household bills",
+    "existing console and animated screen",
+    "four working room switches",
+    "closed perimeter around the supplied display rooms"
+  ],
+  "continuous_partition_returns": "opening/partition-returns.json"
+}

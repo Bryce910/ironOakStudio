@@ -1,0 +1,23 @@
+Valwood Windows Opening add-on — 2026-11-02
+
+Required base: a fresh extracted copy of Valwood_Windows_Orientation_2026-11-02.zip.
+Original ZIP SHA256:
+b0c6930073421971f4f8632bf388726a46a8a2afa0feed52558939811c7bb1db
+
+Extract this ENTIRE opening add-on into that extracted transport folder, beside
+bundle-index.json, its original installer, bin/python and the blobs directory.
+Keep all original transport files. No combat or Grandstone add-on is required.
+
+Run Install_Opening.bat. It creates a NEW independent opening seed outside the
+transport folder. An existing destination is rejected; artist work is preserved.
+The default new folder is Valwood_opening_Opening_Seed beside the transport.
+Allow about16GB free for that installed seed, in addition to the extracted base.
+To choose a different new folder:
+Install_Opening.bat --output "%USERPROFILE%\Desktop\Valwood_Opening_Seed"
+
+Inside the installed seed, read OPENING_GUIDE.md and run Launch_Opening.bat.
+The seed begins without saved progress and keeps its own settings/checkpoints.
+Unity and a separate Python installation are not needed.
+
+The Windows runtime is cross-compiled. Native Windows GPU/controller/audio and
+full-playthrough acceptance remain pending; retain logs/opening-latest.log.

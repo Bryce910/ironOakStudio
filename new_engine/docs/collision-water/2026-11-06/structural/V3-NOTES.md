@@ -1,0 +1,11 @@
+# Source-v3 structural integration
+
+The source triangle cooker and payloads remain unchanged from source-v2 (world_structure_collision.h SHA256 `73395d6170c5735f0276a0146410b2fedf72f677372d7c53a1d174045933f4dd`).
+
+- Camera wheel hit testing now uses the UI backend's X11 global-to-window coordinate correction after relative-mode grabs. All existing focus, text-entry, active-widget and modal gates remain. Structural actual-input QA keeps its wheel-event and measured camera-movement assertion; failure logs now include raw/normalized pointer and every relevant input gate. This change still needs the root's actual UI replay.
+- Support prepares per-body world-space bounds beside each detached Jolt partition. The optional collision wireframe culls distant bodies before scanning their faces. Geometry documents and physics signatures are unchanged. [Focused CPU evidence](v3-preview/CPU-RESULTS.json) contains 14 passing checks, including rotated geometry, unchanged document bytes and failed-candidate cache preservation.
+- When a source collision catalog exists, early startup skips obsolete legacy approach settings and City physics; the authoritative source loader later validates the catalog and all geometry.
+- Section travel, saved-session load and combat-lane placement now retain the published source Support. A shared source-floor policy falls back to dry atlas terrain outside imported floors in broad scenes, while legacy bounded sectors remain strict. Legacy sectors are loaded only when no source Support exists at those runtime boundaries. The arena retains its separate floor. [Actual production-policy CPU evidence](v3-playtest-policy/CPU-RESULTS.json) contains 27 passing checks of ownership, source revision replacement, upper storeys, terrain/water and legacy failures.
+- [Fresh comprehensive Grandstone CPU evidence](../grandstone/v3-final/CPU-RESULTS.json) passes all 11,542 dense moves, 1,559 probes covering all 375 stair meshes and 25 solid door/gate leaves, eight source-floor NPC routes, and the Support unit tests. The scene contains 6,646,687 physical source triangles in 24 partitions. No query heap fallback occurred.
+
+The root owns native/Windows build acceptance and actual-input/GPU replays. These CPU results do not substitute for those checks.

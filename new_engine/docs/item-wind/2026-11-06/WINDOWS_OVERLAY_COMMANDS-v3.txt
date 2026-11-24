@@ -1,0 +1,9 @@
+After root accepts the exact v3 Windows runtime:
+python3 -B docs/item-wind/2026-11-06/build_windows_overlay_v2.py --runtime-root /home/computer/Desktop/final_engine/new_engine/build/item-wind-2026-11-06/runtime-windows-v3 --runtime-plan-sha256 a0b56cccf0512f274d30922646cf28acd20265e487f6730ed76e1511c6aa9242 --revision 2
+
+CPU-only independent merged-bootstrap, archive, custom-shader, baseline and return checks:
+python3 -B docs/item-wind/2026-11-06/test_windows_overlay.py --candidate-receipt docs/item-wind/2026-11-06/WINDOWS_OVERLAY_CANDIDATE-v2.json --revision 4
+
+The new ZIP remains a private candidate under build/item-wind-2026-11-06.
+Publication needs root acceptance of GPU workflow and the exact final candidate SHA.
+Do not modify accepted v4 ZIP or old workcopies. Unzip the small update over an existing extracted v4 delivery only after closing the editor.

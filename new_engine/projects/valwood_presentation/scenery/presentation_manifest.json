@@ -1,0 +1,5929 @@
+{
+  "placements": [
+    {
+      "id": "preview_tavern_lamp_0",
+      "alias": "purchased_prop_lamp",
+      "local_xz": [
+        -150.59999999979354,
+        -78.59999999984902
+      ],
+      "world_xz": [
+        -1460.9999999997935,
+        -10286.18474745443
+      ],
+      "yaw_degrees": 0.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.1704966352305513,
+      "minimum_actor_route_obb_gap_m": 0.39923524164274027,
+      "minimum_other_source_obb_gap_m": 7.482086479554056
+    },
+    {
+      "id": "preview_tavern_meal_0",
+      "alias": "purchased_goods_chicken",
+      "local_xz": [
+        -150.44999999979353,
+        -78.83999999984903
+      ],
+      "world_xz": [
+        -1460.8499999997937,
+        -10286.42474745443
+      ],
+      "yaw_degrees": 0.0,
+      "scale": 0.36,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.177759967835907,
+      "minimum_actor_route_obb_gap_m": 0.16498499034343816,
+      "minimum_other_source_obb_gap_m": 7.789224125037094
+    },
+    {
+      "id": "preview_tavern_lamp_1",
+      "alias": "purchased_prop_lamp",
+      "local_xz": [
+        -149.39999999979355,
+        -78.59999999984902
+      ],
+      "world_xz": [
+        -1459.7999999997937,
+        -10286.18474745443
+      ],
+      "yaw_degrees": 27.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.9685298482812637,
+      "minimum_actor_route_obb_gap_m": 0.4821710256300775,
+      "minimum_other_source_obb_gap_m": 8.350872275257501
+    },
+    {
+      "id": "preview_tavern_meal_1",
+      "alias": "purchased_goods_chicken",
+      "local_xz": [
+        -149.24999999979354,
+        -78.83999999984903
+      ],
+      "world_xz": [
+        -1459.6499999997936,
+        -10286.42474745443
+      ],
+      "yaw_degrees": 37.0,
+      "scale": 0.36,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.9489573737381938,
+      "minimum_actor_route_obb_gap_m": 0.3460228872148874,
+      "minimum_other_source_obb_gap_m": 8.688532189494225
+    },
+    {
+      "id": "preview_tavern_lamp_2",
+      "alias": "purchased_prop_lamp",
+      "local_xz": [
+        -140.59999999979354,
+        -78.59999999984902
+      ],
+      "world_xz": [
+        -1450.9999999997935,
+        -10286.18474745443
+      ],
+      "yaw_degrees": 54.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 2.017020521151617,
+      "minimum_actor_route_obb_gap_m": 0.3056991951043406,
+      "minimum_other_source_obb_gap_m": 8.055102568593341
+    },
+    {
+      "id": "preview_tavern_meal_2",
+      "alias": "purchased_goods_chicken",
+      "local_xz": [
+        -140.44999999979353,
+        -78.83999999984903
+      ],
+      "world_xz": [
+        -1450.8499999997937,
+        -10286.42474745443
+      ],
+      "yaw_degrees": 74.0,
+      "scale": 0.36,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 2.2608150892384606,
+      "minimum_actor_route_obb_gap_m": 0.1793173162272097,
+      "minimum_other_source_obb_gap_m": 7.981823570773919
+    },
+    {
+      "id": "preview_tavern_lamp_3",
+      "alias": "purchased_prop_lamp",
+      "local_xz": [
+        -139.39999999979355,
+        -78.59999999984902
+      ],
+      "world_xz": [
+        -1449.7999999997937,
+        -10286.18474745443
+      ],
+      "yaw_degrees": 81.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.3053983526389135,
+      "minimum_actor_route_obb_gap_m": 0.3236136151758986,
+      "minimum_other_source_obb_gap_m": 7.682696648528498
+    },
+    {
+      "id": "preview_tavern_meal_3",
+      "alias": "purchased_goods_chicken",
+      "local_xz": [
+        -139.24999999979354,
+        -78.83999999984903
+      ],
+      "world_xz": [
+        -1449.6499999997936,
+        -10286.42474745443
+      ],
+      "yaw_degrees": 111.0,
+      "scale": 0.36,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.4568671182994204,
+      "minimum_actor_route_obb_gap_m": 0.3291055600443751,
+      "minimum_other_source_obb_gap_m": 7.2990991084028565
+    },
+    {
+      "id": "preview_tavern_lamp_4",
+      "alias": "purchased_prop_lamp",
+      "local_xz": [
+        -138.29999999979356,
+        -82.99999999984902
+      ],
+      "world_xz": [
+        -1448.6999999997936,
+        -10290.58474745443
+      ],
+      "yaw_degrees": 108.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.48118863111252,
+      "minimum_actor_route_obb_gap_m": 1.7378758710662596,
+      "minimum_other_source_obb_gap_m": 2.9957185994424975
+    },
+    {
+      "id": "preview_tavern_meal_4",
+      "alias": "purchased_goods_chicken",
+      "local_xz": [
+        -138.14999999979355,
+        -83.23999999984902
+      ],
+      "world_xz": [
+        -1448.5499999997937,
+        -10290.82474745443
+      ],
+      "yaw_degrees": 148.0,
+      "scale": 0.36,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "copper_lantern",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.450459902508041,
+      "minimum_actor_route_obb_gap_m": 1.7355509767050956,
+      "minimum_other_source_obb_gap_m": 3.069514531206238
+    },
+    {
+      "id": "preview_trade_0_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -69.14999999994326,
+        25.602649569488026
+      ],
+      "world_xz": [
+        -1379.5499999999433,
+        -10181.982097885093
+      ],
+      "yaw_degrees": 90.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.5276277756123623,
+      "minimum_actor_route_obb_gap_m": 21.044884900377745,
+      "minimum_other_source_obb_gap_m": 0.5776277756691002
+    },
+    {
+      "id": "preview_trade_2_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -70.4500000001849,
+        7.9911453085818795
+      ],
+      "world_xz": [
+        -1380.850000000185,
+        -10199.593602145998
+      ],
+      "yaw_degrees": 128.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.7780347436928828,
+      "minimum_actor_route_obb_gap_m": 29.540737833698756,
+      "minimum_other_source_obb_gap_m": 0.11159682379686942
+    },
+    {
+      "id": "preview_trade_2_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -70.5500000001849,
+        2.008854691592744
+      ],
+      "world_xz": [
+        -1380.950000000185,
+        -10205.575892762989
+      ],
+      "yaw_degrees": 128.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.4623634649014102,
+      "minimum_actor_route_obb_gap_m": 33.505977281868155,
+      "minimum_other_source_obb_gap_m": 0.5123634647165289
+    },
+    {
+      "id": "preview_trade_3_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -70.54999999986985,
+        -10.323494986768768
+      ],
+      "world_xz": [
+        -1380.94999999987,
+        -10217.90824244135
+      ],
+      "yaw_degrees": 147.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.4591081784851939,
+      "minimum_actor_route_obb_gap_m": 37.42975010224303,
+      "minimum_other_source_obb_gap_m": 0.5091081786153353
+    },
+    {
+      "id": "preview_trade_4_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -64.18000000010434,
+        33.991145308245365
+      ],
+      "world_xz": [
+        -1374.5800000001045,
+        -10173.593602146335
+      ],
+      "yaw_degrees": -14.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.8976924452793541,
+      "minimum_actor_route_obb_gap_m": 15.60665300928946,
+      "minimum_other_source_obb_gap_m": 0.5266530091851251
+    },
+    {
+      "id": "preview_trade_4_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -64.63000000010433,
+        28.20885469125623
+      ],
+      "world_xz": [
+        -1375.0300000001043,
+        -10179.375892763324
+      ],
+      "yaw_degrees": -14.0,
+      "scale": 0.5,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.42332586034642283,
+      "minimum_actor_route_obb_gap_m": 16.286305099044068,
+      "minimum_other_source_obb_gap_m": 0.18240263247108146
+    },
+    {
+      "id": "preview_trade_5_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -64.44999999955535,
+        22.323494986525024
+      ],
+      "world_xz": [
+        -1374.8499999995554,
+        -10185.261252468055
+      ],
+      "yaw_degrees": 5.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.49175533794339865,
+      "minimum_actor_route_obb_gap_m": 17.527081143606157,
+      "minimum_other_source_obb_gap_m": 0.541755337498735
+    },
+    {
+      "id": "preview_trade_6_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -65.60000000015798,
+        3.1787616236172176
+      ],
+      "world_xz": [
+        -1376.000000000158,
+        -10204.405985830963
+      ],
+      "yaw_degrees": 24.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.6975755084526282,
+      "minimum_actor_route_obb_gap_m": 29.21075018270781,
+      "minimum_other_source_obb_gap_m": 0.1898465792148869
+    },
+    {
+      "id": "preview_trade_6_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -65.95000000015798,
+        3.378761623617218
+      ],
+      "world_xz": [
+        -1376.3500000001582,
+        -10204.205985830964
+      ],
+      "yaw_degrees": 24.0,
+      "scale": 0.5,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.46833620582355373,
+      "minimum_actor_route_obb_gap_m": 29.331371378435605,
+      "minimum_other_source_obb_gap_m": 0.17405759338019777
+    },
+    {
+      "id": "preview_trade_7_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.85000000036317,
+        -2.008854691592743
+      ],
+      "world_xz": [
+        -1376.2500000003633,
+        -10209.593602146173
+      ],
+      "yaw_degrees": 43.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.4581974491733357,
+      "minimum_actor_route_obb_gap_m": 31.257428980269435,
+      "minimum_other_source_obb_gap_m": 0.5081974495365102
+    },
+    {
+      "id": "preview_trade_8_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.85000000019018,
+        -13.421220803946877
+      ],
+      "world_xz": [
+        -1376.2500000001903,
+        -10221.005968258527
+      ],
+      "yaw_degrees": 62.0,
+      "scale": 0.53,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.4724028371003338,
+      "minimum_actor_route_obb_gap_m": 34.10104033161798,
+      "minimum_other_source_obb_gap_m": 0.5224028372905138
+    },
+    {
+      "id": "preview_trade_8_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -66.30000000019018,
+        -19.97877919628086
+      ],
+      "world_xz": [
+        -1376.7000000001904,
+        -10227.563526650862
+      ],
+      "yaw_degrees": 62.0,
+      "scale": 0.5,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "working_frontages",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.808477185548337,
+      "minimum_actor_route_obb_gap_m": 37.53181160123277,
+      "minimum_other_source_obb_gap_m": 0.1068289296248146
+    },
+    {
+      "id": "preview_understory_0_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26739.105107082756,
+        9685.0
+      ],
+      "local_xz": [
+        -25428.705107082755,
+        19892.58474745458
+      ],
+      "yaw_degrees": -180,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_0_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26741.14292152049,
+        9686.047010218666
+      ],
+      "local_xz": [
+        -25430.74292152049,
+        19893.631757673247
+      ],
+      "yaw_degrees": -109,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_0_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26739.82505842168,
+        9683.006620429813
+      ],
+      "local_xz": [
+        -25429.42505842168,
+        19890.591367884394
+      ],
+      "yaw_degrees": -38,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_0_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26738.559419851335,
+        9686.87897902293
+      ],
+      "local_xz": [
+        -25428.159419851334,
+        19894.46372647751
+      ],
+      "yaw_degrees": 33,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_0_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26742.643639800273,
+        9684.53237984816
+      ],
+      "local_xz": [
+        -25432.243639800272,
+        19892.117127302743
+      ],
+      "yaw_degrees": 104,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_0_5",
+      "alias": "fern2",
+      "world_xz": [
+        -26737.49571583596,
+        9683.406975363529
+      ],
+      "local_xz": [
+        -25427.09571583596,
+        19890.991722818108
+      ],
+      "yaw_degrees": 175,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26738.35754682655,
+        9670.622966494491
+      ],
+      "local_xz": [
+        -25427.95754682655,
+        19878.207713949072
+      ],
+      "yaw_degrees": -127,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26740.54937626251,
+        9669.956031861771
+      ],
+      "local_xz": [
+        -25430.149376262507,
+        19877.540779316354
+      ],
+      "yaw_degrees": -56,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26737.4867458116,
+        9668.690714535349
+      ],
+      "local_xz": [
+        -25427.086745811597,
+        19876.275461989928
+      ],
+      "yaw_degrees": 15,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26739.273815651348,
+        9672.351777694088
+      ],
+      "local_xz": [
+        -25428.873815651346,
+        19879.936525148667
+      ],
+      "yaw_degrees": 86,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26740.57237035324,
+        9667.823959680461
+      ],
+      "local_xz": [
+        -25430.172370353237,
+        19875.408707135044
+      ],
+      "yaw_degrees": 157,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_1_5",
+      "alias": "fern2",
+      "world_xz": [
+        -26736.093187093447,
+        9670.59967107065
+      ],
+      "local_xz": [
+        -25425.693187093446,
+        19878.18441852523
+      ],
+      "yaw_degrees": -132,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26735.972444941355,
+        9644.894468586412
+      ],
+      "local_xz": [
+        -25425.572444941354,
+        19852.479216040992
+      ],
+      "yaw_degrees": -74,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26737.081705979697,
+        9642.88985939022
+      ],
+      "local_xz": [
+        -25426.681705979696,
+        19850.4746068448
+      ],
+      "yaw_degrees": -3,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26734.002178922947,
+        9644.113479560907
+      ],
+      "local_xz": [
+        -25423.602178922945,
+        19851.698227015488
+      ],
+      "yaw_degrees": 68,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26737.83373050388,
+        9645.497753575348
+      ],
+      "local_xz": [
+        -25427.43373050388,
+        19853.08250102993
+      ],
+      "yaw_degrees": 139,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26735.614003106064,
+        9641.343215026038
+      ],
+      "local_xz": [
+        -25425.214003106063,
+        19848.92796248062
+      ],
+      "yaw_degrees": -150,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_2_5",
+      "alias": "fern2",
+      "world_xz": [
+        -26734.330620163688,
+        9646.454045156222
+      ],
+      "local_xz": [
+        -25423.930620163686,
+        19854.0387926108
+      ],
+      "yaw_degrees": -79,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_3_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26716.359093736508,
+        9636.798728850292
+      ],
+      "local_xz": [
+        -25405.959093736506,
+        19844.383476304873
+      ],
+      "yaw_degrees": -168,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_4_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26666.893195996323,
+        9680.055083985759
+      ],
+      "local_xz": [
+        -25356.49319599632,
+        19887.63983144034
+      ],
+      "yaw_degrees": 32,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_4_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26664.92369309033,
+        9678.88462408301
+      ],
+      "local_xz": [
+        -25354.52369309033,
+        19886.46937153759
+      ],
+      "yaw_degrees": 103,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_4_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26666.051909926424,
+        9682.0003679727
+      ],
+      "local_xz": [
+        -25355.651909926422,
+        19889.585115427282
+      ],
+      "yaw_degrees": 174,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_4_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26667.55350662422,
+        9678.213257012932
+      ],
+      "local_xz": [
+        -25357.153506624218,
+        19885.798004467513
+      ],
+      "yaw_degrees": -115,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_4_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26663.332589384594,
+        9680.304007580206
+      ],
+      "local_xz": [
+        -25352.932589384593,
+        19887.888755034786
+      ],
+      "yaw_degrees": -44,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_5_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26662.679580839384,
+        9695.417760173059
+      ],
+      "local_xz": [
+        -25352.279580839382,
+        19903.00250762764
+      ],
+      "yaw_degrees": 85,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_5_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26660.45085530564,
+        9695.948514895963
+      ],
+      "local_xz": [
+        -25350.05085530564,
+        19903.533262350546
+      ],
+      "yaw_degrees": 156,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_5_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26663.429793326057,
+        9697.39994918173
+      ],
+      "local_xz": [
+        -25353.029793326055,
+        19904.98469663631
+      ],
+      "yaw_degrees": -133,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_5_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26661.871464225173,
+        9693.63582744117
+      ],
+      "local_xz": [
+        -25351.47146422517,
+        19901.22057489575
+      ],
+      "yaw_degrees": -62,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_5_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26660.296667848357,
+        9698.075128810746
+      ],
+      "local_xz": [
+        -25349.896667848356,
+        19905.659876265327
+      ],
+      "yaw_degrees": 9,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26744.082560674593,
+        9601.108923646176
+      ],
+      "local_xz": [
+        -25433.68256067459,
+        19808.69367110076
+      ],
+      "yaw_degrees": 138,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26742.852011899962,
+        9603.041452505962
+      ],
+      "local_xz": [
+        -25432.45201189996,
+        19810.62619996054
+      ],
+      "yaw_degrees": -151,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26746.001017841805,
+        9602.009708936255
+      ],
+      "local_xz": [
+        -25435.601017841804,
+        19809.594456390834
+      ],
+      "yaw_degrees": -80,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26742.261938967426,
+        9600.392213577497
+      ],
+      "local_xz": [
+        -25431.861938967424,
+        19807.97696103208
+      ],
+      "yaw_degrees": -9,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26744.221729964294,
+        9604.675506647896
+      ],
+      "local_xz": [
+        -25433.821729964293,
+        19812.260254102475
+      ],
+      "yaw_degrees": 62,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_6_5",
+      "alias": "fern2",
+      "world_xz": [
+        -26745.81726991379,
+        9599.65336480741
+      ],
+      "local_xz": [
+        -25435.41726991379,
+        19807.23811226199
+      ],
+      "yaw_degrees": 133,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26701.438961538974,
+        9618.302813383243
+      ],
+      "local_xz": [
+        -25391.038961538972,
+        19825.887560837822
+      ],
+      "yaw_degrees": -169,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26701.900838883153,
+        9620.546824835883
+      ],
+      "local_xz": [
+        -25391.500838883152,
+        19828.131572290462
+      ],
+      "yaw_degrees": -98,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26703.443310791372,
+        9617.613991116124
+      ],
+      "local_xz": [
+        -25393.04331079137,
+        19825.198738570703
+      ],
+      "yaw_degrees": -27,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26699.63299065539,
+        9619.05567850449
+      ],
+      "local_xz": [
+        -25389.23299065539,
+        19826.64042595907
+      ],
+      "yaw_degrees": 44,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_4",
+      "alias": "fern1",
+      "world_xz": [
+        -26704.02169676592,
+        9620.766420727534
+      ],
+      "local_xz": [
+        -25393.62169676592,
+        19828.351168182115
+      ],
+      "yaw_degrees": 115,
+      "scale": 0.63,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    },
+    {
+      "id": "preview_understory_7_5",
+      "alias": "fern2",
+      "world_xz": [
+        -26701.671062010908,
+        9616.050259932468
+      ],
+      "local_xz": [
+        -25391.271062010906,
+        19823.63500738705
+      ],
+      "yaw_degrees": -174,
+      "scale": 0.74,
+      "burial_m": 0.01,
+      "elevation_m": 0,
+      "zone": "composed_understory",
+      "parent": null
+    }
+  ],
+  "accepted": 63,
+  "supported": [
+    {
+      "id": "preview_tavern_lamp_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.6,
+        3.4
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_meal_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.449999999999999,
+        3.16
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_lamp_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.4,
+        3.4
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_meal_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.25,
+        3.16
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_lamp_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        4.4,
+        3.4
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_meal_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        4.550000000000001,
+        3.16
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_lamp_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.6,
+        3.4
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_meal_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.75,
+        3.16
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_lamp_4",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        6.7,
+        -1
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "preview_tavern_meal_4",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        6.8500000000000005,
+        -1.24
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    }
+  ],
+  "rejected": [
+    {
+      "id": "preview_trade_0_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -69.04999999994327,
+        32.39735043084667
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.2686264079255706
+      ]
+    },
+    {
+      "id": "preview_trade_0_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -68.69999999994326,
+        32.19735043084667
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        -0.07191216339780182
+      ]
+    },
+    {
+      "id": "preview_trade_1_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -69.05000000050173,
+        20.821238376461
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.34404904494916766
+      ]
+    },
+    {
+      "id": "preview_trade_1_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -69.15000000050172,
+        13.178761623226135
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.15602476182267055
+      ]
+    },
+    {
+      "id": "preview_trade_1_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -68.70000000050172,
+        20.621238376460997
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.037935886876356295
+      ]
+    },
+    {
+      "id": "preview_trade_2_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -70.1000000001849,
+        7.791145308581879
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "preview_trade_2_0",
+        0.06570687646492956
+      ]
+    },
+    {
+      "id": "preview_trade_3_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -70.44999999986985,
+        -3.67650501370053
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_4",
+        0.3355445479865852
+      ]
+    },
+    {
+      "id": "preview_trade_3_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -70.09999999986985,
+        -3.8765050137005304
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_4",
+        0.09658948228326636
+      ]
+    },
+    {
+      "id": "preview_trade_4_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -64.28000000010434,
+        28.008854691256232
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:51",
+        0.013548409075454515
+      ]
+    },
+    {
+      "id": "preview_trade_5_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -64.54999999955535,
+        15.676505013456786
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:244",
+        -0.17878485007183542
+      ]
+    },
+    {
+      "id": "preview_trade_5_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -64.89999999955535,
+        15.876505013456786
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.18808622405345543
+      ]
+    },
+    {
+      "id": "preview_trade_6_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.50000000015798,
+        10.821238376852081
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.013471258021512056
+      ]
+    },
+    {
+      "id": "preview_trade_7_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -65.95000000036316,
+        -7.9911453085818795
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_4",
+        0.32842042726318577
+      ]
+    },
+    {
+      "id": "preview_trade_7_2",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -66.30000000036316,
+        -7.791145308581879
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_4",
+        0.07543408416267339
+      ]
+    },
+    {
+      "id": "preview_trade_8_0",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -65.95000000019017,
+        -20.17877919628086
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_polish_instances.txt:550",
+        -0.09863089465087782
+      ]
+    },
+    [
+      3,
+      0,
+      "walking_or_camp_reserve"
+    ],
+    [
+      3,
+      1,
+      "walking_or_camp_reserve"
+    ],
+    [
+      3,
+      2,
+      "walking_or_camp_reserve"
+    ],
+    [
+      3,
+      4,
+      "walking_or_camp_reserve"
+    ],
+    [
+      3,
+      5,
+      "walking_or_camp_reserve"
+    ],
+    [
+      4,
+      5,
+      "wet_or_steep"
+    ],
+    [
+      5,
+      5,
+      "wet_or_steep"
+    ]
+  ],
+  "models": {
+    "starting_gate": {
+      "file": "projects/valwood_world/models/starting_gate.glb",
+      "grounding": "Foundation",
+      "collision": "Gate",
+      "bounds_min": [
+        -3.7051191329956055,
+        0.0,
+        -1.3359851837158203
+      ],
+      "bounds_max": [
+        3.705118179321289,
+        8.616226196289062,
+        1.3359851837158203
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_gate.glb",
+          "sha256": "1db12c0a6ccd96873fb8f881a414868c53fb83745d4fcf7dc82fc4501f5707fd",
+          "bounds_min": [
+            -3.7051191329956055,
+            0.0,
+            -1.3359851837158203
+          ],
+          "bounds_max": [
+            3.705118179321289,
+            8.616226196289062,
+            1.3359851837158203
+          ],
+          "triangles": 1368
+        }
+      ]
+    },
+    "purchased_wall": {
+      "file": "projects/valwood_world/models/purchased_village_wall_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.8730564117431641,
+        0.0,
+        -9.99472713470459
+      ],
+      "bounds_max": [
+        0.8730564117431641,
+        17.957059860229492,
+        9.994728088378906
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_wall_near.glb",
+          "sha256": "d2188ad4bb5c972aae8fba15671bc6510134d5de13169b4c3453d513f2274d68",
+          "bounds_min": [
+            -0.8730564117431641,
+            0.0,
+            -9.99472713470459
+          ],
+          "bounds_max": [
+            0.8730564117431641,
+            17.957059860229492,
+            9.994728088378906
+          ],
+          "triangles": 106
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_wall_mid.glb",
+          "sha256": "027a5efdeb0f82e24308c0935a7907f2dbdeaf5c282fd62ea0ae0fecbd8c2db2",
+          "bounds_min": [
+            -0.8730564117431641,
+            0.0,
+            -9.99472713470459
+          ],
+          "bounds_max": [
+            0.8730564117431641,
+            17.957059860229492,
+            9.994728088378906
+          ],
+          "triangles": 106
+        }
+      ]
+    },
+    "purchased_gate": {
+      "file": "projects/valwood_world/models/purchased_village_gate_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -3.0145020484924316,
+        0.0,
+        -5.243911266326904
+      ],
+      "bounds_max": [
+        3.0145020484924316,
+        24.98003387451178,
+        5.243910789489746
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_gate_near.glb",
+          "sha256": "35fde259eb71ab21f73804260975af84e82a15b71531fd61f2fa24b4b7621e2c",
+          "bounds_min": [
+            -3.0145020484924316,
+            0.0,
+            -5.243911266326904
+          ],
+          "bounds_max": [
+            3.0145020484924316,
+            24.98003387451172,
+            5.243910789489746
+          ],
+          "triangles": 2016
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_gate_mid.glb",
+          "sha256": "a75359183650b29e8c4bbdee7bd137b0308ac5d9898fecfe0158027da7e55219",
+          "bounds_min": [
+            -3.0145018100738525,
+            0.0,
+            -5.243911266326904
+          ],
+          "bounds_max": [
+            3.0145020484924316,
+            24.98003387451178,
+            5.243910789489746
+          ],
+          "triangles": 1790
+        }
+      ]
+    },
+    "starting_tower": {
+      "file": "projects/valwood_world/models/starting_tower.glb",
+      "grounding": "Foundation",
+      "collision": "Circle",
+      "bounds_min": [
+        -7.919219970703125,
+        0.0,
+        -7.919223785400391
+      ],
+      "bounds_max": [
+        7.919223785400391,
+        13.498151779174805,
+        7.919221878051758
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_tower.glb",
+          "sha256": "53de7c154d9af52c1f00610863f8cf3e8577beefc29de6ef0e2d43f043f44e53",
+          "bounds_min": [
+            -7.919219970703125,
+            0.0,
+            -7.919223785400391
+          ],
+          "bounds_max": [
+            7.919223785400391,
+            13.498151779174805,
+            7.919221878051758
+          ],
+          "triangles": 4772
+        }
+      ]
+    },
+    "village_keep": {
+      "file": "projects/valwood_world/models/village_keep.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -18.0,
+        0.0,
+        -14.0
+      ],
+      "bounds_max": [
+        18.0,
+        35.0,
+        14.0
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_keep.glb",
+          "sha256": "a3663dd92c6ab4cf3e9913ce62b16a72a1d772e7f705e6c38edccb9274bad30b",
+          "bounds_min": [
+            -18.0,
+            0.0,
+            -14.0
+          ],
+          "bounds_max": [
+            18.0,
+            35.0,
+            14.0
+          ],
+          "triangles": 30431
+        }
+      ]
+    },
+    "purchased_house_b": {
+      "file": "projects/valwood_world/models/purchased_village_house_b_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -4.373019695281982,
+        0.0,
+        -3.566776990890503
+      ],
+      "bounds_max": [
+        4.373019218444824,
+        14.126947402954102,
+        3.566776990890503
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_b_near.glb",
+          "sha256": "2f30f701a00818944c4a3e6fcaa191012e1d0328c3d183aa0e26543ba42add93",
+          "bounds_min": [
+            -4.373019218444824,
+            0.0,
+            -3.566776990890503
+          ],
+          "bounds_max": [
+            4.373019218444824,
+            14.126947402954102,
+            3.566776990890503
+          ],
+          "triangles": 19899
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_b_mid.glb",
+          "sha256": "146ad21a1d4c9670906c4a31f3ea46b8be01261d347ee632111afa5bea578077",
+          "bounds_min": [
+            -4.373019695281982,
+            0.0,
+            -3.5624969005584717
+          ],
+          "bounds_max": [
+            4.365665912628174,
+            14.112474441940426,
+            3.5624990463256836
+          ],
+          "triangles": 4948
+        }
+      ]
+    },
+    "purchased_house_a": {
+      "file": "projects/valwood_world/models/purchased_village_house_a_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -4.85891056060791,
+        0.0,
+        -3.963085651397705
+      ],
+      "bounds_max": [
+        4.858911037445068,
+        12.132996559143066,
+        3.963085651397705
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_a_near.glb",
+          "sha256": "da21312fd76db9d331734a24fac000c9eed2ebab77b35397adfbe830e2815bda",
+          "bounds_min": [
+            -4.85891056060791,
+            0.0,
+            -3.963085651397705
+          ],
+          "bounds_max": [
+            4.85891056060791,
+            12.132996559143066,
+            3.963085651397705
+          ],
+          "triangles": 19899
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_a_mid.glb",
+          "sha256": "475663ced6149148b0542c76010cbb900f627114606e780a27daa004b01f4530",
+          "bounds_min": [
+            -4.850738525390625,
+            0.0,
+            -3.9583301544189453
+          ],
+          "bounds_max": [
+            4.858911037445068,
+            12.116915702819824,
+            3.958329677581787
+          ],
+          "triangles": 4952
+        }
+      ]
+    },
+    "village_inn": {
+      "file": "projects/valwood_world/models/village_inn.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -8.934370040893555,
+        0.0,
+        -6.985000133514404
+      ],
+      "bounds_max": [
+        8.934370040893555,
+        16.0,
+        6.985000133514404
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_inn.glb",
+          "sha256": "6f918c8303c5a792cf342d70ca370ddc44eaeab79984572b25b4e7da2053f939",
+          "bounds_min": [
+            -8.934370040893555,
+            0.0,
+            -6.985000133514404
+          ],
+          "bounds_max": [
+            8.934370040893555,
+            16.0,
+            6.985000133514404
+          ],
+          "triangles": 3474
+        }
+      ]
+    },
+    "village_smithy": {
+      "file": "projects/valwood_world/models/village_smithy.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -5.930941104888916,
+        0.0,
+        -4.985000133514404
+      ],
+      "bounds_max": [
+        5.930941104888916,
+        10.0,
+        4.985000133514404
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_smithy.glb",
+          "sha256": "a96b9fe16c20c95cc4f8e6948c71d2cc775314e808c4a0012c1d4fd0657c71a3",
+          "bounds_min": [
+            -5.930941104888916,
+            0.0,
+            -4.985000133514404
+          ],
+          "bounds_max": [
+            5.930941104888916,
+            10.0,
+            4.985000133514404
+          ],
+          "triangles": 2290
+        }
+      ]
+    },
+    "village_stall_red": {
+      "file": "projects/valwood_world/models/village_stall_red.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -1.5
+      ],
+      "bounds_max": [
+        2.0,
+        3.299999952316284,
+        1.5
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_stall_red.glb",
+          "sha256": "f8d62c0a5c7452800ee4dfa6d174c7634b3ba743323d02e7898910165a98fa73",
+          "bounds_min": [
+            -2.0,
+            0.0,
+            -1.5
+          ],
+          "bounds_max": [
+            2.0,
+            3.299999952316284,
+            1.5
+          ],
+          "triangles": 864
+        }
+      ]
+    },
+    "village_stall_blue": {
+      "file": "projects/valwood_world/models/village_stall_blue.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -1.5
+      ],
+      "bounds_max": [
+        2.0,
+        3.299999952316284,
+        1.5
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_stall_blue.glb",
+          "sha256": "b416ee317d6ea657feefc7ae4480165c425e00a0daf892f52ba2157f7578bcbe",
+          "bounds_min": [
+            -2.0,
+            0.0,
+            -1.5
+          ],
+          "bounds_max": [
+            2.0,
+            3.299999952316284,
+            1.5
+          ],
+          "triangles": 864
+        }
+      ]
+    },
+    "village_stall_gold": {
+      "file": "projects/valwood_world/models/village_stall_gold.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -2.0,
+        0.0,
+        -1.5
+      ],
+      "bounds_max": [
+        2.0,
+        3.299999952316284,
+        1.5
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_stall_gold.glb",
+          "sha256": "e7a7e24d862f7b9171966e8e33347e5e7536f0ff7a44c266fb81f67eccafe0cc",
+          "bounds_min": [
+            -2.0,
+            0.0,
+            -1.5
+          ],
+          "bounds_max": [
+            2.0,
+            3.299999952316284,
+            1.5
+          ],
+          "triangles": 864
+        }
+      ]
+    },
+    "broadleaf": {
+      "file": "projects/valwood_world/models/cinematic_broadleaf_near.glb",
+      "grounding": "Root",
+      "collision": "Trunk",
+      "bounds_min": [
+        -2.887940641140915,
+        0.0,
+        -2.9984453200987105
+      ],
+      "bounds_max": [
+        3.5381873715422785,
+        9.999999774011943,
+        6.369317352989469
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/cinematic_broadleaf_near.glb",
+          "sha256": "a22066327908bdb78eff8f075984a0de2659f980a57bd89163f04de215061473",
+          "bounds_min": [
+            -2.887940641140915,
+            0.0,
+            -2.9867392685991945
+          ],
+          "bounds_max": [
+            3.5381873715422785,
+            9.999999774011943,
+            6.369317352989469
+          ],
+          "triangles": 18300
+        },
+        {
+          "file": "projects/valwood_world/models/cinematic_broadleaf_mid.glb",
+          "sha256": "fc5fa37b2db32cb3de8cf26f37ccc28436e032d8b384bf3daf7fa367465fa8e9",
+          "bounds_min": [
+            -2.7708078558217153,
+            0.0,
+            -2.9984453200987105
+          ],
+          "bounds_max": [
+            3.517655205008907,
+            9.999999614112664,
+            6.314709477838107
+          ],
+          "triangles": 3249
+        }
+      ]
+    },
+    "village_well": {
+      "file": "projects/valwood_world/models/village_well.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.42023503780365,
+        0.0,
+        -1.2599999904632568
+      ],
+      "bounds_max": [
+        1.42023503780365,
+        3.819999933242798,
+        1.2599999904632568
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_well.glb",
+          "sha256": "d0b924ba5a4b85a8616ea396988831cb12e4959149bdd2dd654cae12e0f21495",
+          "bounds_min": [
+            -1.42023503780365,
+            0.0,
+            -1.2599999904632568
+          ],
+          "bounds_max": [
+            1.42023503780365,
+            3.819999933242798,
+            1.2599999904632568
+          ],
+          "triangles": 800
+        }
+      ]
+    },
+    "starting_table": {
+      "file": "projects/valwood_world/models/starting_table.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.120487928390503,
+        0.0,
+        -1.5111647844314575
+      ],
+      "bounds_max": [
+        1.120487928390503,
+        0.7459869384765625,
+        1.5111647844314575
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_table.glb",
+          "sha256": "d91f4b00d28bd8ed3f04d375ef88a2d532aae1b20b5aa269698f5db6a149b3b5",
+          "bounds_min": [
+            -1.120487928390503,
+            0.0,
+            -1.5111647844314575
+          ],
+          "bounds_max": [
+            1.120487928390503,
+            0.7459869384765625,
+            1.5111647844314575
+          ],
+          "triangles": 9800
+        }
+      ]
+    },
+    "starting_lantern": {
+      "file": "projects/valwood_world/models/starting_lantern.glb",
+      "grounding": "Support",
+      "collision": "None",
+      "bounds_min": [
+        -0.11052404344081879,
+        0.0,
+        -0.11736220866441727
+      ],
+      "bounds_max": [
+        0.11052404344081879,
+        0.5301365852355957,
+        0.11736220866441727
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_lantern.glb",
+          "sha256": "3d206e939b3fb36a188b99407a8f3ce3fa7c794146673f93f787c9d223e9be4e",
+          "bounds_min": [
+            -0.11052404344081879,
+            0.0,
+            -0.11736220866441727
+          ],
+          "bounds_max": [
+            0.11052404344081879,
+            0.5301365852355957,
+            0.11736220866441727
+          ],
+          "triangles": 8273
+        }
+      ]
+    },
+    "purchased_barrel": {
+      "file": "projects/valwood_world/models/purchased_village_barrel_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.3974969983100891,
+        0.0,
+        -0.39821135997772217
+      ],
+      "bounds_max": [
+        0.3974969983100891,
+        1.0223149061203003,
+        0.39821135997772217
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_barrel_near.glb",
+          "sha256": "0495d8361789c7897c5edea3407f1c90b6fe5f04657ea1b80f41edb344a1da5a",
+          "bounds_min": [
+            -0.3974969983100891,
+            0.0,
+            -0.39821135997772217
+          ],
+          "bounds_max": [
+            0.3974969983100891,
+            1.0223149061203003,
+            0.39821135997772217
+          ],
+          "triangles": 1294
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_barrel_mid.glb",
+          "sha256": "b123316bd6eb540bdd76f461d6b873853365ab9ed4be376ad2f9cfa7866a1b8a",
+          "bounds_min": [
+            -0.39650166034698486,
+            0.0,
+            -0.3961869776248932
+          ],
+          "bounds_max": [
+            0.3962004780769348,
+            1.0216965199215338,
+            0.39720502495765686
+          ],
+          "triangles": 746
+        }
+      ]
+    },
+    "starting_crate": {
+      "file": "projects/valwood_world/models/starting_crate.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -0.4126364588737488,
+        0.0,
+        -0.20447686314582825
+      ],
+      "bounds_max": [
+        0.4126364588737488,
+        0.3496182858943939,
+        0.20447686314582825
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_crate.glb",
+          "sha256": "618ae8ecec22b6b63d73d78a16bf10e9f30a9aa2ec59b1b40240d01f1062b165",
+          "bounds_min": [
+            -0.4126364588737488,
+            0.0,
+            -0.20447686314582825
+          ],
+          "bounds_max": [
+            0.4126364588737488,
+            0.3496182858943939,
+            0.20447686314582825
+          ],
+          "triangles": 6576
+        }
+      ]
+    },
+    "village_banner": {
+      "file": "projects/valwood_world/models/village_banner.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.800000011920929,
+        0.0,
+        -0.12919974327087402
+      ],
+      "bounds_max": [
+        0.800000011920929,
+        4.800000190734863,
+        0.12919974327087402
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_banner.glb",
+          "sha256": "75ba8746d875a551848b621cda020a04ee26886734fd53e11e1e104ba5cb7881",
+          "bounds_min": [
+            -0.800000011920929,
+            0.0,
+            -0.12919974327087402
+          ],
+          "bounds_max": [
+            0.800000011920929,
+            4.800000190734863,
+            0.12919974327087402
+          ],
+          "triangles": 48
+        }
+      ]
+    },
+    "village_cart": {
+      "file": "projects/valwood_world/models/village_cart.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.600000023841858,
+        0.0,
+        -0.8700000047683716
+      ],
+      "bounds_max": [
+        1.600000023841858,
+        1.699039340019226,
+        0.8700000047683716
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_cart.glb",
+          "sha256": "202bf50d17576a9391744f1e38592cf842e434eda09ebbc1e40ae1de42b5c2ac",
+          "bounds_min": [
+            -1.600000023841858,
+            0.0,
+            -0.8700000047683716
+          ],
+          "bounds_max": [
+            1.600000023841858,
+            1.699039340019226,
+            0.8700000047683716
+          ],
+          "triangles": 1320
+        }
+      ]
+    },
+    "purchased_crate": {
+      "file": "projects/valwood_world/models/purchased_village_crate_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.505768358707428,
+        0.0,
+        -0.5058863759040833
+      ],
+      "bounds_max": [
+        0.505768358707428,
+        0.9930817484855652,
+        0.5058863759040833
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_crate_near.glb",
+          "sha256": "1e68df9dc231ce0b3aa73c5519e7a6637e6572a9d52d28affe89a48e6f9868a1",
+          "bounds_min": [
+            -0.505768358707428,
+            0.0,
+            -0.5058863759040833
+          ],
+          "bounds_max": [
+            0.505768358707428,
+            0.9930817484855652,
+            0.5058863759040833
+          ],
+          "triangles": 540
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_crate_mid.glb",
+          "sha256": "577ffae34b011c227d65da53b4a6e669dd25bd18c7a562cf49efb33f07d1d742",
+          "bounds_min": [
+            -0.505768358707428,
+            0.0,
+            -0.5058863759040833
+          ],
+          "bounds_max": [
+            0.505768358707428,
+            0.9930817484855652,
+            0.5058863759040833
+          ],
+          "triangles": 540
+        }
+      ]
+    },
+    "starting_celandine": {
+      "file": "projects/valwood_world/models/starting_celandine.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.1378633975982666,
+        0.0,
+        -0.11411789059638977
+      ],
+      "bounds_max": [
+        0.1378633975982666,
+        0.18585163354873657,
+        0.11411789059638977
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_celandine.glb",
+          "sha256": "d7092f06c5aceda0833cbed0e1f8503a1033013c1990149b0cab8d6f4e57f030",
+          "bounds_min": [
+            -0.1378633975982666,
+            0.0,
+            -0.11411789059638977
+          ],
+          "bounds_max": [
+            0.1378633975982666,
+            0.18585163354873657,
+            0.11411789059638977
+          ],
+          "triangles": 622
+        }
+      ]
+    },
+    "starting_wildflower": {
+      "file": "projects/valwood_world/models/starting_wildflower.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.1714954376220703,
+        0.0,
+        -0.13652420043945312
+      ],
+      "bounds_max": [
+        0.1714954376220703,
+        0.2686702013015747,
+        0.13652420043945312
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_wildflower.glb",
+          "sha256": "163ea7d105596acd9ca7378ddf681b3b508a047208ebace43d8259bbdb950497",
+          "bounds_min": [
+            -0.1714954376220703,
+            0.0,
+            -0.13652420043945312
+          ],
+          "bounds_max": [
+            0.1714954376220703,
+            0.2686702013015747,
+            0.13652420043945312
+          ],
+          "triangles": 6000
+        }
+      ]
+    },
+    "fern0": {
+      "file": "projects/valwood_world/models/woodland_fern_0.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.6254480211958366,
+        0.0,
+        -0.695116383411218
+      ],
+      "bounds_max": [
+        0.6254480151809787,
+        0.6500000275989679,
+        0.6951165021494745
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/woodland_fern_0.glb",
+          "sha256": "db463b770b432c30f4263c5cd81e903a6653a828b8d04cfd5e9d9656988c07b7",
+          "bounds_min": [
+            -0.6254480211958366,
+            0.0,
+            -0.695116383411218
+          ],
+          "bounds_max": [
+            0.6254480151809787,
+            0.6500000275989679,
+            0.6951165021494745
+          ],
+          "triangles": 784
+        }
+      ]
+    },
+    "fern1": {
+      "file": "projects/valwood_world/models/woodland_fern_1.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.890945669967536,
+        0.0,
+        -0.8044769624235428
+      ],
+      "bounds_max": [
+        0.8909456680518417,
+        0.7700000004484564,
+        0.8044769646735652
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/woodland_fern_1.glb",
+          "sha256": "61ad52e79b20cee6496305defa5abac8f0dc92375106e33bd983b06ec905b375",
+          "bounds_min": [
+            -0.890945669967536,
+            0.0,
+            -0.8044769624235428
+          ],
+          "bounds_max": [
+            0.8909456680518417,
+            0.7700000004484564,
+            0.8044769646735652
+          ],
+          "triangles": 2384
+        }
+      ]
+    },
+    "fern2": {
+      "file": "projects/valwood_world/models/woodland_fern_2.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -1.114763280849786,
+        0.0,
+        -0.9756606221943116
+      ],
+      "bounds_max": [
+        1.1147627032327136,
+        0.8900000113046005,
+        0.9756606257443821
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/woodland_fern_2.glb",
+          "sha256": "acc98d3af7938d3582108e087cf10b4990a79c9e435673f205feee1e4a2b4611",
+          "bounds_min": [
+            -1.114763280849786,
+            0.0,
+            -0.9756606221943116
+          ],
+          "bounds_max": [
+            1.1147627032327136,
+            0.8900000113046005,
+            0.9756606257443821
+          ],
+          "triangles": 2248
+        }
+      ]
+    },
+    "purchased_shop_a": {
+      "file": "projects/valwood_world/models/purchased_village_stall_a_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.6909763813018799,
+        0.0,
+        -2.0913124084472656
+      ],
+      "bounds_max": [
+        1.6909763813018799,
+        2.994819164276123,
+        2.0913124084472656
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_a_near.glb",
+          "sha256": "369ac4f3734d1d62967666a444b00e3bc68bfb3a4b1a0dd4a6b9ccb540208af9",
+          "bounds_min": [
+            -1.6909763813018799,
+            0.0,
+            -2.0913124084472656
+          ],
+          "bounds_max": [
+            1.6909763813018799,
+            2.994819164276123,
+            2.0913124084472656
+          ],
+          "triangles": 1260
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_a_mid.glb",
+          "sha256": "4326d2d14ddb8423ca5716649f3224e7021e9befaf47d5377eb0150f5a77f178",
+          "bounds_min": [
+            -1.6909763813018799,
+            0.0,
+            -2.0913124084472656
+          ],
+          "bounds_max": [
+            1.6909763813018799,
+            2.994819164276123,
+            2.0913124084472656
+          ],
+          "triangles": 1260
+        }
+      ]
+    },
+    "purchased_shop_b": {
+      "file": "projects/valwood_world/models/purchased_village_stall_b_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.6263446807861328,
+        0.0,
+        -2.5452089309692383
+      ],
+      "bounds_max": [
+        1.6263446807861328,
+        4.6967010498046875,
+        2.5452089309692383
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_b_near.glb",
+          "sha256": "681ef5e5fa630f64b57c904a92241748c3ca94be0833417b5c9be231a66c96e5",
+          "bounds_min": [
+            -1.6263446807861328,
+            0.0,
+            -2.5452089309692383
+          ],
+          "bounds_max": [
+            1.6263446807861328,
+            4.6967010498046875,
+            2.5452089309692383
+          ],
+          "triangles": 3100
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_b_mid.glb",
+          "sha256": "33ffc007f428d6a7039afc28d5f8e54f468ccd0d4de914a4ccef17a3b8edc0d0",
+          "bounds_min": [
+            -1.6263446807861328,
+            0.0,
+            -2.5452089309692383
+          ],
+          "bounds_max": [
+            1.6263446807861328,
+            4.6967010498046875,
+            2.5452089309692383
+          ],
+          "triangles": 2486
+        }
+      ]
+    },
+    "purchased_shop_c": {
+      "file": "projects/valwood_world/models/purchased_village_stall_c_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -2.842787265777588,
+        0.0,
+        -3.5250911712646484
+      ],
+      "bounds_max": [
+        2.842787265777588,
+        6.414612770080566,
+        3.5156068801879883
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_c_near.glb",
+          "sha256": "117128cd57b9dabb7c81df49fb3cda89ea827051823a321aa57002e1430efe57",
+          "bounds_min": [
+            -2.842787265777588,
+            0.0,
+            -3.5156068801879883
+          ],
+          "bounds_max": [
+            2.842787265777588,
+            6.414612770080566,
+            3.5156068801879883
+          ],
+          "triangles": 6464
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_c_mid.glb",
+          "sha256": "71d0c620770bca7add68469388d9e0a526df807fda89d7d813d71d18271f4462",
+          "bounds_min": [
+            -2.8092103004455566,
+            0.0,
+            -3.5250911712646484
+          ],
+          "bounds_max": [
+            2.809004545211792,
+            6.382536876946688,
+            3.484734058380127
+          ],
+          "triangles": 1705
+        }
+      ]
+    },
+    "purchased_shop_d": {
+      "file": "projects/valwood_world/models/purchased_village_stall_d_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -2.1606128215789795,
+        0.0,
+        -2.569375991821289
+      ],
+      "bounds_max": [
+        2.1606128215789795,
+        3.953606121125631,
+        2.5713348388671875
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_d_near.glb",
+          "sha256": "3d5a9857f8d7e605e92d50bdf8a6f9a75abdd93d06d4fbc5b4d328dfe5c184f1",
+          "bounds_min": [
+            -2.1606128215789795,
+            0.0,
+            -2.569375991821289
+          ],
+          "bounds_max": [
+            2.1606128215789795,
+            3.9530816078186035,
+            2.569375991821289
+          ],
+          "triangles": 3496
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_stall_d_mid.glb",
+          "sha256": "795ffddefe679fe5914f328a516e3859cc88b0030d4731e771707f785f076d45",
+          "bounds_min": [
+            -2.1606128215789795,
+            0.0,
+            -2.569375991821289
+          ],
+          "bounds_max": [
+            2.1595020294189453,
+            3.953606121125631,
+            2.5713348388671875
+          ],
+          "triangles": 1393
+        }
+      ]
+    },
+    "purchased_house_c": {
+      "file": "projects/valwood_world/models/purchased_village_house_c_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -6.254072189331055,
+        0.0,
+        -9.244694709777832
+      ],
+      "bounds_max": [
+        6.254072189331055,
+        13.281503219157457,
+        9.244694709777832
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_c_near.glb",
+          "sha256": "56053ec89e5baf1848625786ae6c483ab898949c9b87a582832a8feceef5d918",
+          "bounds_min": [
+            -6.254072189331055,
+            0.0,
+            -9.244694709777832
+          ],
+          "bounds_max": [
+            6.254072189331055,
+            13.24380874633789,
+            9.244694709777832
+          ],
+          "triangles": 17910
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_c_mid.glb",
+          "sha256": "51a4e7a586be09b05219c75efa7958234bb9662294a3f9ea5e9cfbb534d24e2a",
+          "bounds_min": [
+            -6.253336429595947,
+            0.0,
+            -9.244694709777832
+          ],
+          "bounds_max": [
+            6.247015953063965,
+            13.281503219157457,
+            9.218430519104004
+          ],
+          "triangles": 4108
+        }
+      ]
+    },
+    "purchased_house_d": {
+      "file": "projects/valwood_world/models/purchased_village_house_d_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -5.121739387512207,
+        0.0,
+        -9.308854103088379
+      ],
+      "bounds_max": [
+        5.1179351806640625,
+        17.23758316040039,
+        9.314489364624023
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_d_near.glb",
+          "sha256": "7ac93bd3d0e6f2cf83efe2e4c6a6386b4506c008c3d3c268a7b43adb7a6da487",
+          "bounds_min": [
+            -5.1179351806640625,
+            0.0,
+            -9.308854103088379
+          ],
+          "bounds_max": [
+            5.1179351806640625,
+            17.23758316040039,
+            9.308854103088379
+          ],
+          "triangles": 17903
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_d_mid.glb",
+          "sha256": "76d5edc765f279c2c3458d4293f8c351ca6f854d042d7fbfe85b3881f749f6d5",
+          "bounds_min": [
+            -5.121739387512207,
+            0.0,
+            -9.308854103088379
+          ],
+          "bounds_max": [
+            5.1179351806640625,
+            17.17576408582319,
+            9.314489364624023
+          ],
+          "triangles": 4020
+        }
+      ]
+    },
+    "purchased_house_e": {
+      "file": "projects/valwood_world/models/purchased_village_house_e_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -5.292573928833008,
+        0.0,
+        -2.8964221477508545
+      ],
+      "bounds_max": [
+        5.292573928833008,
+        9.657044410705566,
+        2.8964221477508545
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_e_near.glb",
+          "sha256": "e7cd53f5c5d7c3764bf6c4dd2a855bdbab3c2adb2d216a56eb6ef20630c82250",
+          "bounds_min": [
+            -5.292573928833008,
+            0.0,
+            -2.8964221477508545
+          ],
+          "bounds_max": [
+            5.292573928833008,
+            9.657044410705566,
+            2.8964221477508545
+          ],
+          "triangles": 8091
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_e_mid.glb",
+          "sha256": "86bc9ede3efd2e3e4944f4c2fe687e5521adb98a424a095ff4d827367b097b41",
+          "bounds_min": [
+            -5.292573928833008,
+            0.0,
+            -2.8964221477508545
+          ],
+          "bounds_max": [
+            5.292573928833008,
+            9.656752435141243,
+            2.8964221477508545
+          ],
+          "triangles": 3482
+        }
+      ]
+    },
+    "purchased_house_f": {
+      "file": "projects/valwood_world/models/purchased_village_house_f_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -2.0525989532470703,
+        0.0,
+        -2.0751500129699707
+      ],
+      "bounds_max": [
+        2.0525989532470703,
+        16.73525619601182,
+        2.0751500129699707
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_f_near.glb",
+          "sha256": "8ceb5c02e52a4572403a9676bc0250d6e8590298a6405b5fd0d11b98edf14043",
+          "bounds_min": [
+            -2.0525989532470703,
+            0.0,
+            -2.0751500129699707
+          ],
+          "bounds_max": [
+            2.0525989532470703,
+            16.734516143798828,
+            2.0751500129699707
+          ],
+          "triangles": 6834
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_f_mid.glb",
+          "sha256": "9795a4a2cc499ec8c8f11b3a512c6d55c4f9ba2276f8a95a7693efcb4626b838",
+          "bounds_min": [
+            -2.0525989532470703,
+            0.0,
+            -2.0751500129699707
+          ],
+          "bounds_max": [
+            2.0525989532470703,
+            16.73525619601182,
+            2.0751500129699707
+          ],
+          "triangles": 2985
+        }
+      ]
+    },
+    "purchased_prop_barrel_small": {
+      "file": "projects/valwood_world/models/purchased_prop_barrel_small_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.2397402822971344,
+        0.0,
+        -0.24307432770729065
+      ],
+      "bounds_max": [
+        0.2397402822971344,
+        0.5795306080690352,
+        0.24307432770729065
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_barrel_small_near.glb",
+          "sha256": "0b71eb1cf3b2c669965c259bbfca79903484d7f983040f9d164383a7deb2c79a",
+          "bounds_min": [
+            -0.2397402822971344,
+            0.0,
+            -0.24307432770729065
+          ],
+          "bounds_max": [
+            0.2397402822971344,
+            0.5792214274406433,
+            0.24307432770729065
+          ],
+          "triangles": 1006
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_barrel_small_mid.glb",
+          "sha256": "fcadd26aa27f4d04bac4373ec1b9e32441872afda521bcb857615f842f6f3ea5",
+          "bounds_min": [
+            -0.2397402822971344,
+            0.0,
+            -0.23940178751945496
+          ],
+          "bounds_max": [
+            0.2397402822971344,
+            0.5795306080690352,
+            0.2394292801618576
+          ],
+          "triangles": 497
+        }
+      ]
+    },
+    "purchased_prop_sack": {
+      "file": "projects/valwood_world/models/purchased_prop_sack_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.30658990144729614,
+        0.0,
+        -0.3482201099395752
+      ],
+      "bounds_max": [
+        0.30658990144729614,
+        0.8809826374053955,
+        0.3482201099395752
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_sack_near.glb",
+          "sha256": "d5cdd110ac0401325113949e85e8f4e090313e2eb25cd71d3abb06209aea25f7",
+          "bounds_min": [
+            -0.30658990144729614,
+            0.0,
+            -0.3482201099395752
+          ],
+          "bounds_max": [
+            0.30658990144729614,
+            0.8809826374053955,
+            0.3482201099395752
+          ],
+          "triangles": 2486
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_sack_mid.glb",
+          "sha256": "35e30d10b90804a98e4b776c9269382b05080b34292050a9de2d67d4a729ef52",
+          "bounds_min": [
+            -0.3058040142059326,
+            0.0,
+            -0.3445851802825928
+          ],
+          "bounds_max": [
+            0.3037116527557373,
+            0.87966448510997,
+            0.347368448972702
+          ],
+          "triangles": 894
+        }
+      ]
+    },
+    "purchased_prop_lamp": {
+      "file": "projects/valwood_world/models/purchased_prop_lamp_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.6039562821388245,
+        0.0,
+        -0.15639764070510864
+      ],
+      "bounds_max": [
+        0.6039562225341797,
+        3.0633723735809326,
+        0.15639764070510864
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_lamp_near.glb",
+          "sha256": "f3e4dd69aa954511dbb13032434d9ff3ef4d8f113cd7ce46c8e860efcd85f135",
+          "bounds_min": [
+            -0.6039562821388245,
+            0.0,
+            -0.15639764070510864
+          ],
+          "bounds_max": [
+            0.6039562225341797,
+            3.0633723735809326,
+            0.15639764070510864
+          ],
+          "triangles": 1552
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_lamp_mid.glb",
+          "sha256": "e77337846442fd3151e7bfaa510ef591777eca1fbcf5e4f0b0bb81e5a0486d71",
+          "bounds_min": [
+            -0.6027213931083679,
+            0.0,
+            -0.15639764070510864
+          ],
+          "bounds_max": [
+            0.6039562225341797,
+            3.0615570545196533,
+            0.15639764070510864
+          ],
+          "triangles": 645
+        }
+      ]
+    },
+    "purchased_prop_logs": {
+      "file": "projects/valwood_world/models/purchased_prop_logs_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.3048100173473358,
+        0.0,
+        -1.1098568439483643
+      ],
+      "bounds_max": [
+        0.3048100173473358,
+        1.3602889776229858,
+        1.1098568439483643
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_logs_near.glb",
+          "sha256": "bc6581a6345836d7db91d6080ab064a7f5207640b10f918e7aa62e2a351e76bd",
+          "bounds_min": [
+            -0.3048100173473358,
+            0.0,
+            -1.1098568439483643
+          ],
+          "bounds_max": [
+            0.3048100173473358,
+            1.3602889776229858,
+            1.1098568439483643
+          ],
+          "triangles": 3600
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_logs_mid.glb",
+          "sha256": "9b4ce8438f06b2aafe9d14e14eb20071a12e0a2e976aeb7ec964a4ecfd49d1b5",
+          "bounds_min": [
+            -0.303588330745697,
+            0.0,
+            -1.1041487455368042
+          ],
+          "bounds_max": [
+            0.3033455014228821,
+            1.3522916194051504,
+            1.1072969436645508
+          ],
+          "triangles": 894
+        }
+      ]
+    },
+    "starting_stump": {
+      "file": "projects/valwood_world/models/starting_stump.glb",
+      "grounding": "Support",
+      "collision": "Circle",
+      "bounds_min": [
+        -0.7124360799789429,
+        0.0,
+        -0.7948361039161682
+      ],
+      "bounds_max": [
+        0.7124360799789429,
+        0.5741674900054932,
+        0.7948361039161682
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_stump.glb",
+          "sha256": "e8ba9a57204fb226a7a52b98179236444b8c02fffbbc2510df0666c319641f0f",
+          "bounds_min": [
+            -0.7124360799789429,
+            0.0,
+            -0.7948361039161682
+          ],
+          "bounds_max": [
+            0.7124360799789429,
+            0.5741674900054932,
+            0.7948361039161682
+          ],
+          "triangles": 9000
+        }
+      ]
+    },
+    "purchased_goods_bread": {
+      "file": "projects/valwood_world/models/purchased_goods_bread_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.21288233995437622,
+        0.0,
+        -0.21014763414859772
+      ],
+      "bounds_max": [
+        0.21030735969543457,
+        0.16270148823969066,
+        0.21022318303585052
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_bread_near.glb",
+          "sha256": "3c72aa01628a43c5b561a44b440a96f22aa6e6732fcbb94379b30ac09daffc52",
+          "bounds_min": [
+            -0.2098698914051056,
+            0.0,
+            -0.21014763414859772
+          ],
+          "bounds_max": [
+            0.21030735969543457,
+            0.16087894824704563,
+            0.21022318303585052
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_bread_mid.glb",
+          "sha256": "5a09c4a69ea79dad2c6fdc20bc66434ebecf14a8e297cbd3f3e042fdf24861be",
+          "bounds_min": [
+            -0.21288233995437622,
+            0.0,
+            -0.2096966952085495
+          ],
+          "bounds_max": [
+            0.21019238233566284,
+            0.16270148823969066,
+            0.20938512682914734
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_goods_cheese": {
+      "file": "projects/valwood_world/models/purchased_goods_cheese_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.15035223960876465,
+        0.0,
+        -0.15039728581905365
+      ],
+      "bounds_max": [
+        0.15062734484672546,
+        0.15387093157914933,
+        0.14988680183887482
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_cheese_near.glb",
+          "sha256": "14a2799b1b854b427908d6e1b93e52970b9674158ba27d769be9545d904f6a58",
+          "bounds_min": [
+            -0.15035223960876465,
+            0.0,
+            -0.150181844830513
+          ],
+          "bounds_max": [
+            0.15062734484672546,
+            0.15387093157914933,
+            0.14988680183887482
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_cheese_mid.glb",
+          "sha256": "e63876abf1b191f0b59a72967bd78dfda8f103a989593081aa28a9642b876fcb",
+          "bounds_min": [
+            -0.15035223960876465,
+            0.0,
+            -0.15039728581905365
+          ],
+          "bounds_max": [
+            0.14931343495845795,
+            0.15365296919480897,
+            0.1494344025850296
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_goods_tankard": {
+      "file": "projects/valwood_world/models/purchased_goods_tankard_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.12901996076107025,
+        0.0,
+        -0.09509652853012085
+      ],
+      "bounds_max": [
+        0.12940433621406555,
+        0.24026211936143227,
+        0.09271596372127533
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_tankard_near.glb",
+          "sha256": "d23a8ad9dcabab3aa12d71fe5040f868be65e6c08ce90bfbed94e6bc55261482",
+          "bounds_min": [
+            -0.12901996076107025,
+            0.0,
+            -0.09249262511730194
+          ],
+          "bounds_max": [
+            0.12916839122772217,
+            0.24016062820737716,
+            0.09271596372127533
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_tankard_mid.glb",
+          "sha256": "1e71a58da422f0653a8713bb135b2fb0180d400707f0301f876410b906375676",
+          "bounds_min": [
+            -0.12886810302734375,
+            0.0,
+            -0.09509652853012085
+          ],
+          "bounds_max": [
+            0.12940433621406555,
+            0.24026211936143227,
+            0.0920296460390091
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_goods_chicken": {
+      "file": "projects/valwood_world/models/purchased_goods_chicken_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.20101594924926758,
+        0.0,
+        -0.200079083442688
+      ],
+      "bounds_max": [
+        0.20066675543785095,
+        0.20513118524104357,
+        0.2000853419303894
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_chicken_near.glb",
+          "sha256": "81e7ef35340d7cf945806c720fbb70aca7ae88bf4161664876c41883cc17e2ef",
+          "bounds_min": [
+            -0.20101594924926758,
+            0.0,
+            -0.200079083442688
+          ],
+          "bounds_max": [
+            0.20066675543785095,
+            0.20513118524104357,
+            0.2000853419303894
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_chicken_mid.glb",
+          "sha256": "5fe20ebd571f690c1f7ef48ec517927a412dbc2cf4a2e17e68ff1a27051e0155",
+          "bounds_min": [
+            -0.19984915852546692,
+            0.0,
+            -0.19672180712223053
+          ],
+          "bounds_max": [
+            0.1997225135564804,
+            0.20005240669706836,
+            0.20007048547267914
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_prop_rope": {
+      "file": "projects/valwood_world/models/purchased_prop_rope_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.030894000083208084,
+        0.0,
+        -0.3321670591831207
+      ],
+      "bounds_max": [
+        0.030894000083208084,
+        0.05876375362277031,
+        0.3321670591831207
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_rope_near.glb",
+          "sha256": "94cd50c73654c9540839b1b07969580649fda35dcc90950dc84c939abdf98c8b",
+          "bounds_min": [
+            -0.030894000083208084,
+            0.0,
+            -0.3321670591831207
+          ],
+          "bounds_max": [
+            0.030894000083208084,
+            0.05876375362277031,
+            0.3321670591831207
+          ],
+          "triangles": 120
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_rope_mid.glb",
+          "sha256": "50301af7f9f8bb6f4b483bf789054b43be35771b3d3298683a1df8fe2a3fa996",
+          "bounds_min": [
+            -0.030894000083208084,
+            0.0,
+            -0.3321670591831207
+          ],
+          "bounds_max": [
+            0.030894000083208084,
+            0.05876375362277031,
+            0.3321670591831207
+          ],
+          "triangles": 120
+        }
+      ]
+    },
+    "purchased_prop_flag_a": {
+      "file": "projects/valwood_world/models/purchased_prop_flag_a_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.19917960464954376,
+        0.0,
+        -0.4820050001144409
+      ],
+      "bounds_max": [
+        0.19917960464954376,
+        1.3505687713623047,
+        0.4820050001144409
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_flag_a_near.glb",
+          "sha256": "2710ef59437d75485564259f36ee4025c084e8c8df3c5cd541e556c462af1eed",
+          "bounds_min": [
+            -0.19917960464954376,
+            0.0,
+            -0.4820050001144409
+          ],
+          "bounds_max": [
+            0.19917960464954376,
+            1.3505687713623047,
+            0.4820050001144409
+          ],
+          "triangles": 128
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_flag_a_mid.glb",
+          "sha256": "0d6f7e482ae17a40676ba45c2a640ebe2778984042278adfe84ae751c81f60aa",
+          "bounds_min": [
+            -0.19917960464954376,
+            0.0,
+            -0.4820050001144409
+          ],
+          "bounds_max": [
+            0.19917960464954376,
+            1.3505687713623047,
+            0.4820050001144409
+          ],
+          "triangles": 128
+        }
+      ]
+    },
+    "purchased_prop_flag_b": {
+      "file": "projects/valwood_world/models/purchased_prop_flag_b_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.22503593564033508,
+        0.0,
+        -0.5353200435638428
+      ],
+      "bounds_max": [
+        0.22503593564033508,
+        1.5894103050231934,
+        0.5353200435638428
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_flag_b_near.glb",
+          "sha256": "6ad05a29120861c2fcf90eae1a9001cf19ef2924abc71bbf388c423f3f653d9f",
+          "bounds_min": [
+            -0.22503593564033508,
+            0.0,
+            -0.5353200435638428
+          ],
+          "bounds_max": [
+            0.22503593564033508,
+            1.5894103050231934,
+            0.5353200435638428
+          ],
+          "triangles": 120
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_flag_b_mid.glb",
+          "sha256": "233ebdc4400d254d7d0b203d38b580fdad3ba0c8d23ba26fc6ce92b44833464d",
+          "bounds_min": [
+            -0.22503593564033508,
+            0.0,
+            -0.5353200435638428
+          ],
+          "bounds_max": [
+            0.22503593564033508,
+            1.5894103050231934,
+            0.5353200435638428
+          ],
+          "triangles": 120
+        }
+      ]
+    },
+    "starting_bucket": {
+      "file": "projects/valwood_world/models/starting_bucket.glb",
+      "grounding": "Support",
+      "collision": "None",
+      "bounds_min": [
+        -0.18348541855812073,
+        0.0,
+        -0.171110600233078
+      ],
+      "bounds_max": [
+        0.18348541855812073,
+        0.5498623847961426,
+        0.171110600233078
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_bucket.glb",
+          "sha256": "f0f5516646fdccfa6c8e9b7d51a7b7c00eab29b56de711bab26d54440e589ded",
+          "bounds_min": [
+            -0.18348541855812073,
+            0.0,
+            -0.171110600233078
+          ],
+          "bounds_max": [
+            0.18348541855812073,
+            0.5498623847961426,
+            0.171110600233078
+          ],
+          "triangles": 5116
+        }
+      ]
+    },
+    "castle_monument": {
+      "file": "projects/valwood_world/models/castle_monument.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -2.75,
+        0.0,
+        -2.75
+      ],
+      "bounds_max": [
+        2.75,
+        6.9784770011901855,
+        4.771862030029297
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_monument.glb",
+          "sha256": "8f5afba982fa91dcb68d6fae0ace83dc47bd15e7d2ec9ca12516f52fd10db5fa",
+          "bounds_min": [
+            -2.75,
+            0.0,
+            -2.75
+          ],
+          "bounds_max": [
+            2.75,
+            6.9784770011901855,
+            4.771862030029297
+          ],
+          "triangles": 16437
+        }
+      ]
+    },
+    "castle_training_dummy": {
+      "file": "projects/valwood_world/models/castle_training_dummy.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -0.8600000143051147,
+        0.0,
+        -0.699999988079071
+      ],
+      "bounds_max": [
+        0.8600000143051147,
+        2.0299999713897705,
+        0.699999988079071
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_training_dummy.glb",
+          "sha256": "ce3ae75f374c8f639f1b5ccada59deb5b2fc1bac3c41e4b1192c548491ac7186",
+          "bounds_min": [
+            -0.8600000143051147,
+            0.0,
+            -0.699999988079071
+          ],
+          "bounds_max": [
+            0.8600000143051147,
+            2.0299999713897705,
+            0.699999988079071
+          ],
+          "triangles": 1820
+        }
+      ]
+    },
+    "castle_archery_target": {
+      "file": "projects/valwood_world/models/castle_archery_target.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -0.6899999976158142,
+        0.0,
+        -0.5059122443199158
+      ],
+      "bounds_max": [
+        0.6899999976158142,
+        2.1834189891815186,
+        0.6710501909255981
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_archery_target.glb",
+          "sha256": "5c9d2f5db018e66aa9a349cd84446e28f041122b5a45d71677c6a5db8391e4a8",
+          "bounds_min": [
+            -0.6899999976158142,
+            0.0,
+            -0.5059122443199158
+          ],
+          "bounds_max": [
+            0.6899999976158142,
+            2.1834189891815186,
+            0.6710501909255981
+          ],
+          "triangles": 934
+        }
+      ]
+    },
+    "castle_weapon_rack": {
+      "file": "projects/valwood_world/models/castle_weapon_rack.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -1.3600000143051147,
+        0.0,
+        -0.44999998807907104
+      ],
+      "bounds_max": [
+        1.3600000143051147,
+        1.9450000524520874,
+        0.44999998807907104
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_weapon_rack.glb",
+          "sha256": "4b1e7153f1044ac0350c84724f2c905bf096bc65dc7f6422645158a1eb160dd1",
+          "bounds_min": [
+            -1.3600000143051147,
+            0.0,
+            -0.44999998807907104
+          ],
+          "bounds_max": [
+            1.3600000143051147,
+            1.9450000524520874,
+            0.44999998807907104
+          ],
+          "triangles": 1128
+        }
+      ]
+    },
+    "castle_yard_bench": {
+      "file": "projects/valwood_world/models/castle_yard_bench.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -1.4800000190734863,
+        0.0,
+        -0.39983195066452026
+      ],
+      "bounds_max": [
+        1.4800000190734863,
+        1.125,
+        0.3400000035762787
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_yard_bench.glb",
+          "sha256": "67abb10add65dd5cfd8c7b0e03c2bd91c8322f8f2b77a5a21052963d81e547cd",
+          "bounds_min": [
+            -1.4800000190734863,
+            0.0,
+            -0.39983195066452026
+          ],
+          "bounds_max": [
+            1.4800000190734863,
+            1.125,
+            0.3400000035762787
+          ],
+          "triangles": 440
+        }
+      ]
+    },
+    "castle_training_fence": {
+      "file": "projects/valwood_world/models/castle_training_fence.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -0.8939999938011169,
+        0.0,
+        -0.09399999678134918
+      ],
+      "bounds_max": [
+        0.8939999938011169,
+        1.159999966621399,
+        0.09399999678134918
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_training_fence.glb",
+          "sha256": "70ccad4dfab8d28305d8e69e958baea1aae4d730b601bc0fe3ce5ff52bfd93dd",
+          "bounds_min": [
+            -0.8939999938011169,
+            0.0,
+            -0.09399999678134918
+          ],
+          "bounds_max": [
+            0.8939999938011169,
+            1.159999966621399,
+            0.09399999678134918
+          ],
+          "triangles": 92
+        }
+      ]
+    },
+    "castle_drawbridge": {
+      "file": "projects/valwood_world/models/castle_drawbridge.glb",
+      "grounding": "Foundation",
+      "collision": "Drawbridge",
+      "bounds_min": [
+        -7.400000095367432,
+        0.0,
+        -12.5
+      ],
+      "bounds_max": [
+        7.400000095367432,
+        5.149999797344208,
+        -0.00800000037997961
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_drawbridge.glb",
+          "sha256": "92c5c1d9a471d0557aff6df0af513947d4ecca2ea2a6066369b827056ef31221",
+          "bounds_min": [
+            -7.400000095367432,
+            0.0,
+            -12.5
+          ],
+          "bounds_max": [
+            7.400000095367432,
+            5.149999797344208,
+            -0.00800000037997961
+          ],
+          "triangles": 11196
+        }
+      ]
+    },
+    "castle_barracks": {
+      "file": "projects/valwood_world/models/purchased_village_house_a_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -4.85891056060791,
+        0.0,
+        -3.963085651397705
+      ],
+      "bounds_max": [
+        4.858911037445068,
+        12.132996559143066,
+        3.963085651397705
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_a_near.glb",
+          "sha256": "da21312fd76db9d331734a24fac000c9eed2ebab77b35397adfbe830e2815bda",
+          "bounds_min": [
+            -4.85891056060791,
+            0.0,
+            -3.963085651397705
+          ],
+          "bounds_max": [
+            4.85891056060791,
+            12.132996559143066,
+            3.963085651397705
+          ],
+          "triangles": 19899
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_a_mid.glb",
+          "sha256": "475663ced6149148b0542c76010cbb900f627114606e780a27daa004b01f4530",
+          "bounds_min": [
+            -4.850738525390625,
+            0.0,
+            -3.9583301544189453
+          ],
+          "bounds_max": [
+            4.858911037445068,
+            12.116915702819824,
+            3.958329677581787
+          ],
+          "triangles": 4952
+        }
+      ]
+    },
+    "castle_quartermaster": {
+      "file": "projects/valwood_world/models/purchased_village_house_b_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -4.373019695281982,
+        0.0,
+        -3.566776990890503
+      ],
+      "bounds_max": [
+        4.373019218444824,
+        14.126947402954102,
+        3.566776990890503
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_b_near.glb",
+          "sha256": "2f30f701a00818944c4a3e6fcaa191012e1d0328c3d183aa0e26543ba42add93",
+          "bounds_min": [
+            -4.373019218444824,
+            0.0,
+            -3.566776990890503
+          ],
+          "bounds_max": [
+            4.373019218444824,
+            14.126947402954102,
+            3.566776990890503
+          ],
+          "triangles": 19899
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_village_house_b_mid.glb",
+          "sha256": "146ad21a1d4c9670906c4a31f3ea46b8be01261d347ee632111afa5bea578077",
+          "bounds_min": [
+            -4.373019695281982,
+            0.0,
+            -3.5624969005584717
+          ],
+          "bounds_max": [
+            4.365665912628174,
+            14.112474441940426,
+            3.5624990463256836
+          ],
+          "triangles": 4948
+        }
+      ]
+    },
+    "rock0": {
+      "file": "projects/valwood_world/models/cinematic_rock_0.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -2.0465441801410407,
+        0.0,
+        -1.4684535377502925
+      ],
+      "bounds_max": [
+        2.046544286436074,
+        1.8000000723182268,
+        1.4684535441705293
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/cinematic_rock_0.glb",
+          "sha256": "c9d51152b22862b88fb47a3f443bd26049afa99b59a0db7ee3d1132c8585bd93",
+          "bounds_min": [
+            -2.0465441801410407,
+            0.0,
+            -1.4684535377502925
+          ],
+          "bounds_max": [
+            2.046544286436074,
+            1.8000000723182268,
+            1.4684535441705293
+          ],
+          "triangles": 6000
+        }
+      ]
+    },
+    "rock1": {
+      "file": "projects/valwood_world/models/cinematic_rock_1.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -2.847194996029657,
+        0.0,
+        -2.320442715541816
+      ],
+      "bounds_max": [
+        2.8471950247326845,
+        2.4999999691080412,
+        2.3204424326543744
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/cinematic_rock_1.glb",
+          "sha256": "25f8936370b32f0daa81ea56ca17cae8be0cf7a667cb6ca3111a1f024530e27f",
+          "bounds_min": [
+            -2.847194996029657,
+            0.0,
+            -2.320442715541816
+          ],
+          "bounds_max": [
+            2.8471950247326845,
+            2.4999999691080412,
+            2.3204424326543744
+          ],
+          "triangles": 5999
+        }
+      ]
+    },
+    "rock2": {
+      "file": "projects/valwood_world/models/cinematic_rock_2.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -4.278517099682176,
+        0.0,
+        -2.656709925062728
+      ],
+      "bounds_max": [
+        4.278517112501731,
+        3.1999999151544927,
+        2.656710088061061
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/cinematic_rock_2.glb",
+          "sha256": "9ced67b6ce6c67cbe989bad94ecbf845d64e2599417af8da476eac91e1a0b127",
+          "bounds_min": [
+            -4.278517099682176,
+            0.0,
+            -2.656709925062728
+          ],
+          "bounds_max": [
+            4.278517112501731,
+            3.1999999151544927,
+            2.656710088061061
+          ],
+          "triangles": 6000
+        }
+      ]
+    },
+    "deadwood": {
+      "file": "projects/valwood_world/models/cinematic_deadwood.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -2.028658449649811,
+        0.0,
+        -0.5275424867868423
+      ],
+      "bounds_max": [
+        2.028658449649811,
+        1.0543241202831268,
+        0.5275424867868423
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/cinematic_deadwood.glb",
+          "sha256": "43449b1a9579f783de07407894cced8c8cecc5542e613326c6322b775fc393c9",
+          "bounds_min": [
+            -2.028658449649811,
+            0.0,
+            -0.5275424867868423
+          ],
+          "bounds_max": [
+            2.028658449649811,
+            1.0543241202831268,
+            0.5275424867868423
+          ],
+          "triangles": 6500
+        }
+      ]
+    },
+    "purchased_torch_pole": {
+      "file": "projects/valwood_world/models/purchased_torch_pole_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.3266109824180603,
+        0.0,
+        -0.3216502070426941
+      ],
+      "bounds_max": [
+        0.3266109824180603,
+        6.134981632309199,
+        0.32165050506591797
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_torch_pole_near.glb",
+          "sha256": "71a18cfbd0d3a49f88de75a3947e25bce32d56be72d301c0f8db08684664f38b",
+          "bounds_min": [
+            -0.3266109824180603,
+            0.0,
+            -0.3216502070426941
+          ],
+          "bounds_max": [
+            0.3266109824180603,
+            6.134938240127802,
+            0.32165050506591797
+          ],
+          "triangles": 1186
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_torch_pole_mid.glb",
+          "sha256": "b834284a063da08d7380f7761ae1dce9f28e5eedcaee45551c2884b3a307008c",
+          "bounds_min": [
+            -0.3266109824180603,
+            0.0,
+            -0.3216502070426941
+          ],
+          "bounds_max": [
+            0.3266109824180603,
+            6.134981632309199,
+            0.32165050506591797
+          ],
+          "triangles": 640
+        }
+      ]
+    },
+    "purchased_torch_brazier": {
+      "file": "projects/valwood_world/models/purchased_torch_brazier_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.7334524989128113,
+        0.0,
+        -0.7341933846473694
+      ],
+      "bounds_max": [
+        0.7334524393081665,
+        1.4372894658788216,
+        0.7341932058334351
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_torch_brazier_near.glb",
+          "sha256": "c270fcb1467868af7e56f247327c69e8baf76ac9572120e92b0968c7b77a0bca",
+          "bounds_min": [
+            -0.7334524989128113,
+            0.0,
+            -0.7341933846473694
+          ],
+          "bounds_max": [
+            0.7334524393081665,
+            1.4372894658788216,
+            0.7341932058334351
+          ],
+          "triangles": 4342
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_torch_brazier_mid.glb",
+          "sha256": "7651489c5832a00d229cc388c621cf57776cf8fe207cbf36550f363555b086b1",
+          "bounds_min": [
+            -0.73194420337677,
+            0.0,
+            -0.7323812246322632
+          ],
+          "bounds_max": [
+            0.7318022847175598,
+            1.4325152327073738,
+            0.7327231764793396
+          ],
+          "triangles": 1576
+        }
+      ]
+    },
+    "purchased_torch_wall": {
+      "file": "projects/valwood_world/models/purchased_torch_wall_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.49833810329437256,
+        0.0,
+        -0.000510979094542563
+      ],
+      "bounds_max": [
+        0.489518940448761,
+        2.5556159019470215,
+        1.2454538345336914
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_torch_wall_near.glb",
+          "sha256": "9fdbdc992275c3559563396e03e4fa8dd12011deeecaa3a8bfbf578b311efd5d",
+          "bounds_min": [
+            -0.4959886968135834,
+            0.0,
+            -1.8292142911491283e-08
+          ],
+          "bounds_max": [
+            0.489518940448761,
+            2.5556159019470215,
+            1.2454538345336914
+          ],
+          "triangles": 6012
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_torch_wall_mid.glb",
+          "sha256": "3bdfa678467e3666c4036bd92cea31fd2b1f48fa9c919b88d1652e209971d50a",
+          "bounds_min": [
+            -0.49833810329437256,
+            0.0,
+            -0.000510979094542563
+          ],
+          "bounds_max": [
+            0.4889661371707916,
+            2.555586611502804,
+            1.241939902305603
+          ],
+          "triangles": 1821
+        }
+      ]
+    },
+    "village_crop_corn": {
+      "file": "projects/valwood_world/models/village_crop_corn_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -1.7287744283676147,
+        0.0,
+        -1.7964882850646973
+      ],
+      "bounds_max": [
+        1.7956243753433228,
+        2.234724760055542,
+        1.794098138809204
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_crop_corn_near.glb",
+          "sha256": "5ebf78f20c470f836a00be1384e085154231039be9aeb1c93f14415d98c8fa92",
+          "bounds_min": [
+            -1.7287744283676147,
+            0.0,
+            -1.7964882850646973
+          ],
+          "bounds_max": [
+            1.7956243753433228,
+            2.234724760055542,
+            1.794098138809204
+          ],
+          "triangles": 5080
+        },
+        {
+          "file": "projects/valwood_world/models/village_crop_corn_mid.glb",
+          "sha256": "bd4b7d5aa55bf9e99794e256df4ab7033241d80d38f9d30c171d73e892628dfb",
+          "bounds_min": [
+            -1.717246174812317,
+            0.0,
+            -1.7964882850646973
+          ],
+          "bounds_max": [
+            1.7675914764404297,
+            2.234724760055542,
+            1.794098138809204
+          ],
+          "triangles": 1480
+        }
+      ]
+    },
+    "village_crop_wheat": {
+      "file": "projects/valwood_world/models/village_crop_wheat_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -1.9422242641448975,
+        0.0,
+        -1.9476631879806519
+      ],
+      "bounds_max": [
+        1.9364275932312012,
+        1.134264349937439,
+        1.9478487968444824
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_crop_wheat_near.glb",
+          "sha256": "b0cd1f0032b9b215027361ae63e90046d265f87b342d6d6ffc275d9b0b384db4",
+          "bounds_min": [
+            -1.9422242641448975,
+            0.0,
+            -1.9476631879806519
+          ],
+          "bounds_max": [
+            1.9364275932312012,
+            1.134264349937439,
+            1.9478487968444824
+          ],
+          "triangles": 7744
+        },
+        {
+          "file": "projects/valwood_world/models/village_crop_wheat_mid.glb",
+          "sha256": "eb496a636dfa8aa6d97632c2012c2f91a6494d750777891e96a451afda8b919c",
+          "bounds_min": [
+            -1.9187074899673462,
+            0.0,
+            -1.938930630683899
+          ],
+          "bounds_max": [
+            1.9078893661499023,
+            1.134264349937439,
+            1.924774408340454
+          ],
+          "triangles": 2816
+        }
+      ]
+    },
+    "starting_axe": {
+      "file": "projects/valwood_world/models/starting_axe.glb",
+      "grounding": "Support",
+      "collision": "None",
+      "bounds_min": [
+        -0.025451891124248505,
+        0.0,
+        -0.11286835372447968
+      ],
+      "bounds_max": [
+        0.025451891124248505,
+        0.7042046785354614,
+        0.11286834627389908
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/starting_axe.glb",
+          "sha256": "a01a02756ddad602be00d4b0927c0caf2727ff02a325cc2c3b7302032aee3aef",
+          "bounds_min": [
+            -0.025451891124248505,
+            0.0,
+            -0.11286835372447968
+          ],
+          "bounds_max": [
+            0.025451891124248505,
+            0.7042046785354614,
+            0.11286834627389908
+          ],
+          "triangles": 2218
+        }
+      ]
+    },
+    "village_toolkit_axe": {
+      "file": "projects/valwood_world/models/village_toolkit_axe_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.1625259518623352,
+        0.0,
+        -0.6119543313980103
+      ],
+      "bounds_max": [
+        0.1625259518623352,
+        0.0750800222158432,
+        0.6119543313980103
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_axe_near.glb",
+          "sha256": "17755c4971d8646d6bff8f43a4654b4ae506c9cb1dc98c2a5145e495eb656133",
+          "bounds_min": [
+            -0.16248735785484314,
+            0.0,
+            -0.6119543313980103
+          ],
+          "bounds_max": [
+            0.16248735785484314,
+            0.0750800222158432,
+            0.6119543313980103
+          ],
+          "triangles": 580
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_axe_mid.glb",
+          "sha256": "203df689923a8cb9043dc728ae7a3edda73c4acff281bc22c9e891a5366c78a8",
+          "bounds_min": [
+            -0.1625259518623352,
+            0.0,
+            -0.6117783784866333
+          ],
+          "bounds_max": [
+            0.1625259518623352,
+            0.07494090497493744,
+            0.6117783784866333
+          ],
+          "triangles": 274
+        }
+      ]
+    },
+    "village_toolkit_machete": {
+      "file": "projects/valwood_world/models/village_toolkit_machete_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.06603000313043594,
+        0.0,
+        -0.4858558177947998
+      ],
+      "bounds_max": [
+        0.06603000313043594,
+        0.04327505826950073,
+        0.4858558177947998
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_machete_near.glb",
+          "sha256": "35f3794c21ac09e920e558ba7ac3a166a8b3f6746cf8719c23aadf8c8fbb0cac",
+          "bounds_min": [
+            -0.06598177552223206,
+            0.0,
+            -0.4858558177947998
+          ],
+          "bounds_max": [
+            0.06598177552223206,
+            0.04327505826950073,
+            0.4858558177947998
+          ],
+          "triangles": 719
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_machete_mid.glb",
+          "sha256": "b131c16fc64c0a9f4ecaca0acb069acd720531d2793f7f7ec5663810ba2e71e5",
+          "bounds_min": [
+            -0.06603000313043594,
+            0.0,
+            -0.4858332872390747
+          ],
+          "bounds_max": [
+            0.06603000313043594,
+            0.04318606108427048,
+            0.4858332872390747
+          ],
+          "triangles": 344
+        }
+      ]
+    },
+    "village_toolkit_claw_hammer": {
+      "file": "projects/valwood_world/models/village_toolkit_claw_hammer_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.14894071221351624,
+        0.0,
+        -0.2977660298347473
+      ],
+      "bounds_max": [
+        0.14894071221351624,
+        0.06395164132118225,
+        0.2977660298347473
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_claw_hammer_near.glb",
+          "sha256": "631df5705ffb533bd4f89c357d989072871c4a1d6686d3d497771e06d937d2b1",
+          "bounds_min": [
+            -0.14892131090164185,
+            0.0,
+            -0.2977660298347473
+          ],
+          "bounds_max": [
+            0.14892131090164185,
+            0.06395164132118225,
+            0.2977660298347473
+          ],
+          "triangles": 840
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_claw_hammer_mid.glb",
+          "sha256": "f547549782fe1a2007f3a8a342127ab0c67b5aeaff108db945b2cec668e2e4e6",
+          "bounds_min": [
+            -0.14894071221351624,
+            0.0,
+            -0.29776376485824585
+          ],
+          "bounds_max": [
+            0.14894071221351624,
+            0.06395164132118225,
+            0.29776376485824585
+          ],
+          "triangles": 394
+        }
+      ]
+    },
+    "village_toolkit_hatchet": {
+      "file": "projects/valwood_world/models/village_toolkit_hatchet_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.13146257400512695,
+        0.0,
+        -0.23009243607521057
+      ],
+      "bounds_max": [
+        0.13146257400512695,
+        0.07203777879476547,
+        0.23009243607521057
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_hatchet_near.glb",
+          "sha256": "e536f82a700889c78a36b071c849aeb3c9bd36bf157b5b862f76259d05ab2202",
+          "bounds_min": [
+            -0.1314537674188614,
+            0.0,
+            -0.2297942191362381
+          ],
+          "bounds_max": [
+            0.1314537674188614,
+            0.07203777879476547,
+            0.2297942191362381
+          ],
+          "triangles": 870
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_hatchet_mid.glb",
+          "sha256": "760e300b936f83bcd0bea32395057901054047d2946c9a5a14c7cf5e25fe02cb",
+          "bounds_min": [
+            -0.13146257400512695,
+            0.0,
+            -0.23009243607521057
+          ],
+          "bounds_max": [
+            0.13146257400512695,
+            0.07147429138422012,
+            0.23009243607521057
+          ],
+          "triangles": 402
+        }
+      ]
+    },
+    "village_toolkit_chisel": {
+      "file": "projects/valwood_world/models/village_toolkit_chisel_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.03702814504504204,
+        0.0,
+        -0.20734426379203796
+      ],
+      "bounds_max": [
+        0.03702814504504204,
+        0.053238753229379654,
+        0.20734426379203796
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_chisel_near.glb",
+          "sha256": "0b92a670612cc527401a8ed923049f886b45a87a4f7a2d772568a5f7c3ae75c8",
+          "bounds_min": [
+            -0.03695438429713249,
+            0.0,
+            -0.2073177695274353
+          ],
+          "bounds_max": [
+            0.03695438429713249,
+            0.053238753229379654,
+            0.2073177695274353
+          ],
+          "triangles": 313
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_chisel_mid.glb",
+          "sha256": "cde1aef04bd131f2001bba13a56a647c7cae6a0d432c47275f21b9c9b364b541",
+          "bounds_min": [
+            -0.03702814504504204,
+            0.0,
+            -0.20734426379203796
+          ],
+          "bounds_max": [
+            0.03702814504504204,
+            0.053238753229379654,
+            0.20734426379203796
+          ],
+          "triangles": 147
+        }
+      ]
+    },
+    "village_toolkit_hoe": {
+      "file": "projects/valwood_world/models/village_toolkit_hoe_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.1365322470664978,
+        0.0,
+        -0.30643510818481445
+      ],
+      "bounds_max": [
+        0.1365322470664978,
+        1.652683973312378,
+        0.30643510818481445
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_hoe_near.glb",
+          "sha256": "7e174e88d12219080cc346e8aa84d018cc8b31718830061d9963e2f220ad71a9",
+          "bounds_min": [
+            -0.13629522919654846,
+            0.0,
+            -0.3063357472419739
+          ],
+          "bounds_max": [
+            0.13629522919654846,
+            1.6526837348937988,
+            0.3063357472419739
+          ],
+          "triangles": 640
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_hoe_mid.glb",
+          "sha256": "7fd2cd598c6814843393cbdad3e489174b9eb26b7e8df28b9d2e90f09a75f4a8",
+          "bounds_min": [
+            -0.1365322470664978,
+            0.0,
+            -0.30643510818481445
+          ],
+          "bounds_max": [
+            0.1365322470664978,
+            1.652683973312378,
+            0.30643510818481445
+          ],
+          "triangles": 304
+        }
+      ]
+    },
+    "village_toolkit_pitchfork": {
+      "file": "projects/valwood_world/models/village_toolkit_pitchfork_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.11503084748983383,
+        0.0,
+        -0.1561078131198883
+      ],
+      "bounds_max": [
+        0.11503084748983383,
+        1.7516132593154907,
+        0.1561078131198883
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_pitchfork_near.glb",
+          "sha256": "ee6409fc33b0f594eec67dbe3c08c0d3df4c821ce7cf6884cc70efcbd13c33c1",
+          "bounds_min": [
+            -0.11503084748983383,
+            0.0,
+            -0.1561078131198883
+          ],
+          "bounds_max": [
+            0.11503084748983383,
+            1.7514781951904297,
+            0.1561078131198883
+          ],
+          "triangles": 846
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_pitchfork_mid.glb",
+          "sha256": "3f82d8f46dd3bca93eb495116bebccd14a30e1578f8bf2ab182897bc757805cb",
+          "bounds_min": [
+            -0.11476290225982666,
+            0.0,
+            -0.15557646751403809
+          ],
+          "bounds_max": [
+            0.11476290225982666,
+            1.7516132593154907,
+            0.15557646751403809
+          ],
+          "triangles": 402
+        }
+      ]
+    },
+    "village_toolkit_shovel": {
+      "file": "projects/valwood_world/models/village_toolkit_shovel_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.16003981232643127,
+        0.0,
+        -0.15934103727340698
+      ],
+      "bounds_max": [
+        0.16003981232643127,
+        1.7656400203704834,
+        0.15934103727340698
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_shovel_near.glb",
+          "sha256": "40b904873e055ab906af21deaf4703aaed956cdd29fa63ddab571e3452be3410",
+          "bounds_min": [
+            -0.16003981232643127,
+            0.0,
+            -0.1589282900094986
+          ],
+          "bounds_max": [
+            0.16003981232643127,
+            1.7656400203704834,
+            0.1589282900094986
+          ],
+          "triangles": 1166
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_shovel_mid.glb",
+          "sha256": "a8229dc36cf9c6eab2e8246fc3ee47c949efb73088e9bff257f4158332c9551b",
+          "bounds_min": [
+            -0.15938937664031982,
+            0.0,
+            -0.15934103727340698
+          ],
+          "bounds_max": [
+            0.15938937664031982,
+            1.7646677494049072,
+            0.15934103727340698
+          ],
+          "triangles": 550
+        }
+      ]
+    },
+    "village_toolkit_scythe": {
+      "file": "projects/valwood_world/models/village_toolkit_scythe_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.212375670671463,
+        0.0,
+        -0.1253003031015396
+      ],
+      "bounds_max": [
+        0.212375670671463,
+        1.2509974241256714,
+        0.1253003031015396
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_scythe_near.glb",
+          "sha256": "bf864b5b090cc718220c400914bdec21e07d488fc7bfcfdfefda196c4598274c",
+          "bounds_min": [
+            -0.212375670671463,
+            0.0,
+            -0.1253003031015396
+          ],
+          "bounds_max": [
+            0.212375670671463,
+            1.2508702278137207,
+            0.1253003031015396
+          ],
+          "triangles": 492
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_scythe_mid.glb",
+          "sha256": "7c66e70a450f4b66f42b928be211d30339e775d4e95bf3eb51aafe486ba7d701",
+          "bounds_min": [
+            -0.21234922111034393,
+            0.0,
+            -0.1253003031015396
+          ],
+          "bounds_max": [
+            0.21234922111034393,
+            1.2509974241256714,
+            0.1253003031015396
+          ],
+          "triangles": 236
+        }
+      ]
+    },
+    "village_toolkit_pickaxe": {
+      "file": "projects/valwood_world/models/village_toolkit_pickaxe_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.3872508108615875,
+        0.0,
+        -0.16478246450424194
+      ],
+      "bounds_max": [
+        0.3872508108615875,
+        1.4449771642684937,
+        0.16478246450424194
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_pickaxe_near.glb",
+          "sha256": "fc438b8188beb549da7862e7150cd748bb05acd1ab7eec8c8e229a4b16ec91f7",
+          "bounds_min": [
+            -0.3872508108615875,
+            0.0,
+            -0.16324010491371155
+          ],
+          "bounds_max": [
+            0.3872508108615875,
+            1.444968819618225,
+            0.16324010491371155
+          ],
+          "triangles": 442
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_pickaxe_mid.glb",
+          "sha256": "bdc9ebf6720e6479b0e83b0c49654c1350511755f2e3a5a6e3d5499f577f6a43",
+          "bounds_min": [
+            -0.3866385519504547,
+            0.0,
+            -0.16478246450424194
+          ],
+          "bounds_max": [
+            0.3866385519504547,
+            1.4449771642684937,
+            0.16478246450424194
+          ],
+          "triangles": 205
+        }
+      ]
+    },
+    "village_toolkit_crowbar": {
+      "file": "projects/valwood_world/models/village_toolkit_crowbar_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.12156473845243454,
+        0.0,
+        -0.14195653796195984
+      ],
+      "bounds_max": [
+        0.12156473845243454,
+        1.0960819721221924,
+        0.14195653796195984
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_crowbar_near.glb",
+          "sha256": "9c0832c9b1896198aa7b572acc1cc238471dff6a883c3aeade6e33fa0851d035",
+          "bounds_min": [
+            -0.12153329700231552,
+            0.0,
+            -0.14192184805870056
+          ],
+          "bounds_max": [
+            0.12153329700231552,
+            1.0959603786468506,
+            0.14192184805870056
+          ],
+          "triangles": 788
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_crowbar_mid.glb",
+          "sha256": "8934cb401c086afbef1a2e9e3afd394244a190dff3b442299bc7eca4ec7cdce6",
+          "bounds_min": [
+            -0.12156473845243454,
+            0.0,
+            -0.14195653796195984
+          ],
+          "bounds_max": [
+            0.12156473845243454,
+            1.0960819721221924,
+            0.14195653796195984
+          ],
+          "triangles": 374
+        }
+      ]
+    },
+    "village_toolkit_firepoker": {
+      "file": "projects/valwood_world/models/village_toolkit_firepoker_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.057259880006313324,
+        0.0,
+        -0.13491390645503998
+      ],
+      "bounds_max": [
+        0.057259880006313324,
+        1.2912883758544922,
+        0.13491390645503998
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_toolkit_firepoker_near.glb",
+          "sha256": "0f7bf3373fc6ee9e66bdfcee2322655193a8d519748febaa12524e8fa3ff7fb6",
+          "bounds_min": [
+            -0.05691574141383171,
+            0.0,
+            -0.1345282793045044
+          ],
+          "bounds_max": [
+            0.05691574141383171,
+            1.2912883758544922,
+            0.1345282793045044
+          ],
+          "triangles": 392
+        },
+        {
+          "file": "projects/valwood_world/models/village_toolkit_firepoker_mid.glb",
+          "sha256": "36d9cd9eb2bd96e93b45eb7ed680976bef8c54ffbcb713ddf62da2f1aeea742b",
+          "bounds_min": [
+            -0.057259880006313324,
+            0.0,
+            -0.13491390645503998
+          ],
+          "bounds_max": [
+            0.057259880006313324,
+            1.2910300493240356,
+            0.13491390645503998
+          ],
+          "triangles": 186
+        }
+      ]
+    },
+    "village_horseman": {
+      "file": "projects/valwood_world/models/village_horseman_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.6741458177566528,
+        0.0,
+        -1.0879656076431274
+      ],
+      "bounds_max": [
+        0.5405275821685791,
+        3.120629340352025,
+        1.7746368646621704
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_horseman_near.glb",
+          "sha256": "c1d5156696c1150f7be9f92c5129bca2e2c7167dd07a5cb3414247203742cd71",
+          "bounds_min": [
+            -0.6741458177566528,
+            0.0,
+            -1.0879656076431274
+          ],
+          "bounds_max": [
+            0.5403257608413696,
+            3.1199828251792496,
+            1.7736833095550537
+          ],
+          "triangles": 55000
+        },
+        {
+          "file": "projects/valwood_world/models/village_horseman_mid.glb",
+          "sha256": "6b85cc1a98dfb2b0d763cbcf88d71afc78597e362797c708426b44bf0550a59a",
+          "bounds_min": [
+            -0.6739745736122131,
+            0.0,
+            -1.0870354175567627
+          ],
+          "bounds_max": [
+            0.5405275821685791,
+            3.120629340352025,
+            1.7746368646621704
+          ],
+          "triangles": 15999
+        }
+      ]
+    },
+    "village_tavern": {
+      "file": "projects/valwood_world/models/village_tavern_near.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -10.550000190734863,
+        0.0,
+        -8.699999809265137
+      ],
+      "bounds_max": [
+        10.550000190734863,
+        9.699999809265137,
+        9.25
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/village_tavern_near.glb",
+          "sha256": "89a8c78c33cd9df8408c69f08c778fb54bf82723abf92739794dd3dd250d76d0",
+          "bounds_min": [
+            -10.550000190734863,
+            0.0,
+            -8.699999809265137
+          ],
+          "bounds_max": [
+            10.550000190734863,
+            9.699999809265137,
+            9.25
+          ],
+          "triangles": 11180
+        },
+        {
+          "file": "projects/valwood_world/models/village_tavern_mid.glb",
+          "sha256": "769af0673ca39dd6d8770385a6d69bd89198346849244eb2d2180e5506d95b60",
+          "bounds_min": [
+            -10.550000190734863,
+            0.0,
+            -8.699999809265137
+          ],
+          "bounds_max": [
+            10.550000190734863,
+            9.699999809265137,
+            9.25
+          ],
+          "triangles": 4792
+        }
+      ]
+    },
+    "castle_residents_shelter": {
+      "file": "projects/valwood_world/models/castle_residents_shelter_near.glb",
+      "grounding": "Foundation",
+      "collision": "Village",
+      "bounds_min": [
+        -7.25,
+        0.0,
+        -3.25
+      ],
+      "bounds_max": [
+        7.25,
+        3.3499999046325684,
+        3.25
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_residents_shelter_near.glb",
+          "sha256": "6eb51b895d13a2a836dd7abf2e2a0a316d4de9c8bd71d42ff746131c7286f38f",
+          "bounds_min": [
+            -7.25,
+            0.0,
+            -3.25
+          ],
+          "bounds_max": [
+            7.25,
+            3.3499999046325684,
+            3.25
+          ],
+          "triangles": 548
+        },
+        {
+          "file": "projects/valwood_world/models/castle_residents_shelter_mid.glb",
+          "sha256": "6eb51b895d13a2a836dd7abf2e2a0a316d4de9c8bd71d42ff746131c7286f38f",
+          "bounds_min": [
+            -7.25,
+            0.0,
+            -3.25
+          ],
+          "bounds_max": [
+            7.25,
+            3.3499999046325684,
+            3.25
+          ],
+          "triangles": 548
+        }
+      ]
+    },
+    "castle_residents_bedroll": {
+      "file": "projects/valwood_world/models/castle_residents_bedroll_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.36000001430511475,
+        0.0,
+        -0.949999988079071
+      ],
+      "bounds_max": [
+        0.36000001430511475,
+        0.11699999868869781,
+        0.949999988079071
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/castle_residents_bedroll_near.glb",
+          "sha256": "09498f681a472d344e115380fdcc73a38bed1921e2803f9c976b268639abdefb",
+          "bounds_min": [
+            -0.36000001430511475,
+            0.0,
+            -0.949999988079071
+          ],
+          "bounds_max": [
+            0.36000001430511475,
+            0.11699999868869781,
+            0.949999988079071
+          ],
+          "triangles": 404
+        },
+        {
+          "file": "projects/valwood_world/models/castle_residents_bedroll_mid.glb",
+          "sha256": "c0e8da1836c83b840a8cfc51ca4558c0ef7ba571c0f2c4478b701babab0eb28b",
+          "bounds_min": [
+            -0.36000001430511475,
+            0.0,
+            -0.949999988079071
+          ],
+          "bounds_max": [
+            0.36000001430511475,
+            0.11699999868869781,
+            0.949999988079071
+          ],
+          "triangles": 156
+        }
+      ]
+    },
+    "bep_structure_storehouse": {
+      "file": "projects/valwood_world/models/bep_structure_storehouse_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -3.554126262664795,
+        0.0,
+        -2.3647189140319824
+      ],
+      "bounds_max": [
+        3.554126262664795,
+        5.686323165893555,
+        2.3647189140319824
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_structure_storehouse_near.glb",
+          "sha256": "818c3b6bbf362a5bc902ac72441bf2e5e33e4989ebe40c08c7b241cf69acfcd7",
+          "bounds_min": [
+            -3.554126262664795,
+            0.0,
+            -2.3640222549438477
+          ],
+          "bounds_max": [
+            3.554126262664795,
+            5.686323165893555,
+            2.3640222549438477
+          ],
+          "triangles": 11714
+        },
+        {
+          "file": "projects/valwood_world/models/bep_structure_storehouse_mid.glb",
+          "sha256": "9a81a099e8b0f0a72a45fd738b3fea7f55e98e3ce567973f2a4e427c198d1ffa",
+          "bounds_min": [
+            -3.55023193359375,
+            0.0,
+            -2.3647189140319824
+          ],
+          "bounds_max": [
+            3.55023193359375,
+            5.677669048309326,
+            2.3647189140319824
+          ],
+          "triangles": 3827
+        }
+      ]
+    },
+    "bep_structure_well": {
+      "file": "projects/valwood_world/models/bep_structure_well_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -1.6290123462677002,
+        0.0,
+        -1.5948634147644043
+      ],
+      "bounds_max": [
+        1.6290123462677002,
+        3.3603622913360596,
+        1.5948634147644043
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_structure_well_near.glb",
+          "sha256": "e781c4126eeef853bdda7b5c9a223cc2113df5ec4f21c94960f47277822aef91",
+          "bounds_min": [
+            -1.6290123462677002,
+            0.0,
+            -1.5897634029388428
+          ],
+          "bounds_max": [
+            1.6290123462677002,
+            3.3603622913360596,
+            1.5897634029388428
+          ],
+          "triangles": 11691
+        },
+        {
+          "file": "projects/valwood_world/models/bep_structure_well_mid.glb",
+          "sha256": "bc60b146ad1a91b9202de8f09cc9cff5f1a220c5919c7b53231557ab7662f9b6",
+          "bounds_min": [
+            -1.625954270362854,
+            0.0,
+            -1.5948634147644043
+          ],
+          "bounds_max": [
+            1.625954270362854,
+            3.3591198921203613,
+            1.5948634147644043
+          ],
+          "triangles": 3811
+        }
+      ]
+    },
+    "bep_prop_bucket": {
+      "file": "projects/valwood_world/models/bep_prop_bucket_near.glb",
+      "grounding": "Support",
+      "collision": "None",
+      "bounds_min": [
+        -0.27951499819755554,
+        0.0,
+        -0.23089098930358887
+      ],
+      "bounds_max": [
+        0.27951499819755554,
+        0.8710379004478455,
+        0.23089098930358887
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_bucket_near.glb",
+          "sha256": "892fb343abb3017e1e76bcf6367a180fbc52f852488a7c61b6f3e448458c1483",
+          "bounds_min": [
+            -0.27951499819755554,
+            0.0,
+            -0.23089098930358887
+          ],
+          "bounds_max": [
+            0.27951499819755554,
+            0.8710379004478455,
+            0.23089098930358887
+          ],
+          "triangles": 1672
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_bucket_mid.glb",
+          "sha256": "751cd565d8a0d8fbe628e0d88c8bdc2b13cd32689750f9eb1ad9fc81f5770000",
+          "bounds_min": [
+            -0.2669612765312195,
+            0.0,
+            -0.23060688376426697
+          ],
+          "bounds_max": [
+            0.2669612765312195,
+            0.8683013916015625,
+            0.23060688376426697
+          ],
+          "triangles": 479
+        }
+      ]
+    },
+    "bep_prop_bench": {
+      "file": "projects/valwood_world/models/bep_prop_bench_near.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -1.1476030349731445,
+        0.0,
+        -0.216444730758667
+      ],
+      "bounds_max": [
+        1.1476030349731445,
+        0.46038833260536194,
+        0.216444730758667
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_bench_near.glb",
+          "sha256": "b5b6b78616e5886dc685f9c0f4d190a3284951bc39d16e8c898494fe6eaad0d1",
+          "bounds_min": [
+            -1.1476030349731445,
+            0.0,
+            -0.216444730758667
+          ],
+          "bounds_max": [
+            1.1476030349731445,
+            0.46038833260536194,
+            0.216444730758667
+          ],
+          "triangles": 1576
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_bench_mid.glb",
+          "sha256": "3fcb3861011711e4389a5a0743629a152988ac5ee5eb52c4f883ce5166279db2",
+          "bounds_min": [
+            -1.1459966897964478,
+            0.0,
+            -0.21579527854919434
+          ],
+          "bounds_max": [
+            1.1459966897964478,
+            0.45840588212013245,
+            0.21579527854919434
+          ],
+          "triangles": 442
+        }
+      ]
+    },
+    "bep_prop_chest": {
+      "file": "projects/valwood_world/models/bep_prop_chest_near.glb",
+      "grounding": "Support",
+      "collision": "Box",
+      "bounds_min": [
+        -0.7506442666053772,
+        0.0,
+        -0.4682806432247162
+      ],
+      "bounds_max": [
+        0.7506442666053772,
+        1.0557702779769897,
+        0.4682806432247162
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_chest_near.glb",
+          "sha256": "817493ac1f915a99d5a378cdfd2eca1c5afa3f6bb5dc4251a7ca544dd35bcbbf",
+          "bounds_min": [
+            -0.7506442666053772,
+            0.0,
+            -0.4682806432247162
+          ],
+          "bounds_max": [
+            0.7506442666053772,
+            1.0511767864227295,
+            0.4682806432247162
+          ],
+          "triangles": 2359
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_chest_mid.glb",
+          "sha256": "c8f7e05cb8ce8272f7bfb934633061fd253f92efc5a4dbc13fd71746e550ae1d",
+          "bounds_min": [
+            -0.7464075088500977,
+            0.0,
+            -0.4632909893989563
+          ],
+          "bounds_max": [
+            0.7464075088500977,
+            1.0557702779769897,
+            0.4632909893989563
+          ],
+          "triangles": 678
+        }
+      ]
+    },
+    "bep_prop_barrel": {
+      "file": "projects/valwood_world/models/bep_prop_barrel_near.glb",
+      "grounding": "Support",
+      "collision": "Circle",
+      "bounds_min": [
+        -0.492695152759552,
+        0.0,
+        -0.48230570554733276
+      ],
+      "bounds_max": [
+        0.492695152759552,
+        1.162190318107605,
+        0.48230570554733276
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_barrel_near.glb",
+          "sha256": "ad823284909edebe4b0a38555030f905affb5cd4a3e7f3417a0f7fb87f024d03",
+          "bounds_min": [
+            -0.492695152759552,
+            0.0,
+            -0.48230570554733276
+          ],
+          "bounds_max": [
+            0.492695152759552,
+            1.162190318107605,
+            0.48230570554733276
+          ],
+          "triangles": 1870
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_barrel_mid.glb",
+          "sha256": "e5dc00082892eacc3b0a0b27076fef2e90a7c3aeeb020faaba49519644590a08",
+          "bounds_min": [
+            -0.48995551466941833,
+            0.0,
+            -0.481417179107666
+          ],
+          "bounds_max": [
+            0.48995551466941833,
+            1.1553760766983032,
+            0.481417179107666
+          ],
+          "triangles": 482
+        }
+      ]
+    },
+    "bep_prop_fence": {
+      "file": "projects/valwood_world/models/bep_prop_fence_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -2.3502960205078125,
+        0.0,
+        -0.17337121069431305
+      ],
+      "bounds_max": [
+        2.3502960205078125,
+        2.157463788986206,
+        0.17337121069431305
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_fence_near.glb",
+          "sha256": "0ef17a5f0d4c608c7aaa9014dd12e65399f6ac1d8ca536c59c0b5ce97041a0b5",
+          "bounds_min": [
+            -2.3482799530029297,
+            0.0,
+            -0.17337121069431305
+          ],
+          "bounds_max": [
+            2.3482799530029297,
+            2.157463788986206,
+            0.17337121069431305
+          ],
+          "triangles": 1772
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_fence_mid.glb",
+          "sha256": "0f16df57975d4167a7c58c72a0f9cf69f55fe43ca8eab67aa43b2c08c85f5128",
+          "bounds_min": [
+            -2.3502960205078125,
+            0.0,
+            -0.16914649307727814
+          ],
+          "bounds_max": [
+            2.3502960205078125,
+            2.1517183780670166,
+            0.16914649307727814
+          ],
+          "triangles": 640
+        }
+      ]
+    },
+    "bep_prop_fence_broken": {
+      "file": "projects/valwood_world/models/bep_prop_fence_broken_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -2.3067421913146973,
+        0.0,
+        -0.5698422193527222
+      ],
+      "bounds_max": [
+        2.3067421913146973,
+        2.070451021194458,
+        0.5698422193527222
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_fence_broken_near.glb",
+          "sha256": "5abb532cbe71c298512f4c7d1d17148e55b97ff015d67c9aea893db14d25a541",
+          "bounds_min": [
+            -2.3063230514526367,
+            0.0,
+            -0.5698422193527222
+          ],
+          "bounds_max": [
+            2.3063230514526367,
+            2.070451021194458,
+            0.5698422193527222
+          ],
+          "triangles": 1772
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_fence_broken_mid.glb",
+          "sha256": "7ccc02f4f2947e78b57939ef6d849b36ba289a995d9332b0089feeb397693696",
+          "bounds_min": [
+            -2.3067421913146973,
+            0.0,
+            -0.5678600072860718
+          ],
+          "bounds_max": [
+            2.3067421913146973,
+            2.068358898162842,
+            0.5678600072860718
+          ],
+          "triangles": 639
+        }
+      ]
+    },
+    "bep_nature_clover": {
+      "file": "projects/valwood_world/models/bep_nature_clover_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.5431368947029114,
+        0.0,
+        -0.5513845086097717
+      ],
+      "bounds_max": [
+        0.5431368947029114,
+        0.2200000286102295,
+        0.5513845086097717
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_clover_near.glb",
+          "sha256": "a6b8e4fe0406f6cdcb983820811a6d962312890fc9fa8f4c4be0ba867abf23e0",
+          "bounds_min": [
+            -0.5431368947029114,
+            0.0,
+            -0.5513845086097717
+          ],
+          "bounds_max": [
+            0.5431368947029114,
+            0.2200000286102295,
+            0.5513845086097717
+          ],
+          "triangles": 121
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_clover_mid.glb",
+          "sha256": "509442f0b4474229a901e691ac08865f8e35156f7711ae0f7b679e97189ab5d5",
+          "bounds_min": [
+            -0.5431368947029114,
+            0.0,
+            -0.5513845086097717
+          ],
+          "bounds_max": [
+            0.5431368947029114,
+            0.2200000286102295,
+            0.5513845086097717
+          ],
+          "triangles": 59
+        }
+      ]
+    },
+    "bep_nature_grass_broad": {
+      "file": "projects/valwood_world/models/bep_nature_grass_broad_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.5223962068557739,
+        0.0,
+        -0.343375563621521
+      ],
+      "bounds_max": [
+        0.5223963260650635,
+        0.800000011920929,
+        0.34337568283081055
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_grass_broad_near.glb",
+          "sha256": "55efde0028cf7aea837c10a381d09928e6d0f8d86538d893a73968db9cb40d93",
+          "bounds_min": [
+            -0.5223962068557739,
+            0.0,
+            -0.343375563621521
+          ],
+          "bounds_max": [
+            0.5223963260650635,
+            0.800000011920929,
+            0.34337568283081055
+          ],
+          "triangles": 570
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_grass_broad_mid.glb",
+          "sha256": "864cc4bd2711c6e55ac68b53fc88fd55ab5074b209e5fb9e0820baff27af4dbb",
+          "bounds_min": [
+            -0.5148837566375732,
+            0.0,
+            -0.3415353000164032
+          ],
+          "bounds_max": [
+            0.5223963260650635,
+            0.800000011920929,
+            0.34337568283081055
+          ],
+          "triangles": 279
+        }
+      ]
+    },
+    "bep_nature_fern": {
+      "file": "projects/valwood_world/models/bep_nature_fern_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.7451407313346863,
+        0.0,
+        -0.8749336004257202
+      ],
+      "bounds_max": [
+        0.749424934387207,
+        0.9499999284744263,
+        0.8749334812164307
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_fern_near.glb",
+          "sha256": "f8336254c37d366e249b0c9c52d9dbdd141c735ec243e609cd9dc76c6967f691",
+          "bounds_min": [
+            -0.7451407313346863,
+            0.0,
+            -0.8749336004257202
+          ],
+          "bounds_max": [
+            0.7451407313346863,
+            0.9499999284744263,
+            0.8749334812164307
+          ],
+          "triangles": 1083
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_fern_mid.glb",
+          "sha256": "63086b748f9c0ded5ad909803093bb85632309d0fb6b6b115adcb03b0906ec4b",
+          "bounds_min": [
+            -0.736036479473114,
+            0.0,
+            -0.8627454042434692
+          ],
+          "bounds_max": [
+            0.749424934387207,
+            0.9284546375274658,
+            0.8660228252410889
+          ],
+          "triangles": 540
+        }
+      ]
+    },
+    "bep_nature_grass_long": {
+      "file": "projects/valwood_world/models/bep_nature_grass_long_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.5338324904441833,
+        0.0,
+        -0.35621878504753113
+      ],
+      "bounds_max": [
+        0.5320978164672852,
+        0.9012196063995361,
+        0.3525737226009369
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_grass_long_near.glb",
+          "sha256": "4300ff75022abc3d1b23159a13cfc81c0424d2660be368018b148f085d5d0080",
+          "bounds_min": [
+            -0.5320977568626404,
+            0.0,
+            -0.34535422921180725
+          ],
+          "bounds_max": [
+            0.5320978164672852,
+            0.8999999761581421,
+            0.34535422921180725
+          ],
+          "triangles": 570
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_grass_long_mid.glb",
+          "sha256": "3e53f145db54377a3de1b7cb771e229e7ae4926a38d6e03ffcb3e12a247deadc",
+          "bounds_min": [
+            -0.5338324904441833,
+            0.0,
+            -0.35621878504753113
+          ],
+          "bounds_max": [
+            0.5320978164672852,
+            0.9012196063995361,
+            0.3525737226009369
+          ],
+          "triangles": 284
+        }
+      ]
+    },
+    "bep_nature_reed": {
+      "file": "projects/valwood_world/models/bep_nature_reed_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -1.0102099180221558,
+        0.0,
+        -1.004063606262207
+      ],
+      "bounds_max": [
+        1.0099549293518066,
+        1.2512447834014893,
+        1.0040634870529175
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_reed_near.glb",
+          "sha256": "a151221f642a46b11fce7b4a83fdc73180801415b21ac03317ab3d75a9e1c9fa",
+          "bounds_min": [
+            -1.0099550485610962,
+            0.0,
+            -1.004063606262207
+          ],
+          "bounds_max": [
+            1.0099549293518066,
+            1.2500001192092896,
+            1.0040634870529175
+          ],
+          "triangles": 824
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_reed_mid.glb",
+          "sha256": "2c3a1c7197ee768d2c0885f7a1f0ebb8a863295e63017884aab1c4cbb06eb81b",
+          "bounds_min": [
+            -1.0102099180221558,
+            0.0,
+            -1.004063606262207
+          ],
+          "bounds_max": [
+            1.0099549293518066,
+            1.2512447834014893,
+            1.0040634870529175
+          ],
+          "triangles": 453
+        }
+      ]
+    },
+    "bep_nature_bush_a": {
+      "file": "projects/valwood_world/models/bep_nature_bush_a_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.9770560264587402,
+        0.0,
+        -0.8854179978370667
+      ],
+      "bounds_max": [
+        0.9770560264587402,
+        2.2217681407928467,
+        0.8689921498298645
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_a_near.glb",
+          "sha256": "fbf3a6cb81eac3e21853d4b3fbdca0c64474714b98738de4cec4c0e2197f57de",
+          "bounds_min": [
+            -0.9770560264587402,
+            0.0,
+            -0.8689920902252197
+          ],
+          "bounds_max": [
+            0.9770560264587402,
+            2.200000047683716,
+            0.8689921498298645
+          ],
+          "triangles": 897
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_a_mid.glb",
+          "sha256": "382ddc7660b04ee91c759d648ab6a962f460d7211bdf9fc235e15ec78233b2a5",
+          "bounds_min": [
+            -0.9770560264587402,
+            0.0,
+            -0.8854179978370667
+          ],
+          "bounds_max": [
+            0.9770560264587402,
+            2.2217681407928467,
+            0.8525662422180176
+          ],
+          "triangles": 351
+        }
+      ]
+    },
+    "bep_nature_bush_b": {
+      "file": "projects/valwood_world/models/bep_nature_bush_b_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.568376898765564,
+        0.0,
+        -0.6002836227416992
+      ],
+      "bounds_max": [
+        0.568376898765564,
+        2.601080894470215,
+        0.6002832651138306
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_b_near.glb",
+          "sha256": "e87b0cd181e538032fe4467030ae0bc66cba406323287c14ab4fcb4639b78921",
+          "bounds_min": [
+            -0.568376898765564,
+            0.0,
+            -0.6002836227416992
+          ],
+          "bounds_max": [
+            0.568376898765564,
+            2.6000001430511475,
+            0.6002832651138306
+          ],
+          "triangles": 1378
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_b_mid.glb",
+          "sha256": "5b9e61b16b83dbaeb85041f766731b4f7bf78cb4d485fd9b735a7a2f05d7247b",
+          "bounds_min": [
+            -0.568376898765564,
+            0.0,
+            -0.6002836227416992
+          ],
+          "bounds_max": [
+            0.568376898765564,
+            2.601080894470215,
+            0.6002832651138306
+          ],
+          "triangles": 689
+        }
+      ]
+    },
+    "bep_nature_beech": {
+      "file": "projects/valwood_world/models/bep_nature_beech_near.glb",
+      "grounding": "Root",
+      "collision": "Trunk",
+      "bounds_min": [
+        -8.499588012695312,
+        0.0,
+        -6.901731014251709
+      ],
+      "bounds_max": [
+        7.427899360656738,
+        26.024887084960938,
+        9.170038223266602
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_beech_near.glb",
+          "sha256": "01a9fab8a0c3f41ddb1980165c3eb483fdf7e0aa6406b28e168405f58a765fc7",
+          "bounds_min": [
+            -8.499588012695312,
+            0.0,
+            -6.901731014251709
+          ],
+          "bounds_max": [
+            7.427899360656738,
+            26.0,
+            9.170038223266602
+          ],
+          "triangles": 2928
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_beech_mid.glb",
+          "sha256": "8b42a574330c4a0bb649e555e41bba9012b0b5272105e89fb7ad0bd8fc3728f2",
+          "bounds_min": [
+            -8.499588012695312,
+            0.0,
+            -6.901731014251709
+          ],
+          "bounds_max": [
+            7.427899360656738,
+            26.024887084960938,
+            9.170038223266602
+          ],
+          "triangles": 1464
+        }
+      ]
+    },
+    "bep_nature_oak": {
+      "file": "projects/valwood_world/models/bep_nature_oak_near.glb",
+      "grounding": "Root",
+      "collision": "Trunk",
+      "bounds_min": [
+        -7.958400249481201,
+        0.0,
+        -10.618611335754395
+      ],
+      "bounds_max": [
+        7.742401123046875,
+        22.005756378173828,
+        9.946481704711914
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_oak_near.glb",
+          "sha256": "111106b0d6012e1aa3343eddfcfa76b2a9afa61dcdd801f8edaf89a775dcf5f9",
+          "bounds_min": [
+            -7.958400249481201,
+            0.0,
+            -10.618611335754395
+          ],
+          "bounds_max": [
+            7.742401123046875,
+            22.0,
+            9.946481704711914
+          ],
+          "triangles": 3532
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_oak_mid.glb",
+          "sha256": "a845489857a05de022f6c30915556bb3a295dc04b8a987f675cdb6104727e6b1",
+          "bounds_min": [
+            -7.958400249481201,
+            0.0,
+            -10.618611335754395
+          ],
+          "bounds_max": [
+            7.742401123046875,
+            22.005756378173828,
+            9.946481704711914
+          ],
+          "triangles": 1766
+        }
+      ]
+    },
+    "demo_sign_baker": {
+      "file": "projects/valwood_world/models/demo_sign_baker_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.08799999952316284,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.08799999952316284,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_baker_near.glb",
+          "sha256": "e98f946a92325419326d0ad845cb4355a3385e08487f96c50975cda6b084fdd9",
+          "bounds_min": [
+            -0.08799999952316284,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.08799999952316284,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 464
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_baker_mid.glb",
+          "sha256": "6ade3934ddd402b50cfc930395f126565fc3cd1dd0fb9a47d14c9a8df8167b8a",
+          "bounds_min": [
+            -0.08799999952316284,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.08799999952316284,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 336
+        }
+      ]
+    },
+    "demo_sign_herbalist": {
+      "file": "projects/valwood_world/models/demo_sign_herbalist_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.07000000029802322,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.07000000029802322,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_herbalist_near.glb",
+          "sha256": "5ae2e8f20412dbf1129aca0c4e10f61d5acb11aafac9a1db81fee6668f6fbed3",
+          "bounds_min": [
+            -0.07000000029802322,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07000000029802322,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 182
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_herbalist_mid.glb",
+          "sha256": "eae4ec8118ee34875c11f94a2f34a7c50f8a9965794218d18380a9675bce957d",
+          "bounds_min": [
+            -0.07000000029802322,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07000000029802322,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 134
+        }
+      ]
+    },
+    "demo_sign_tavern": {
+      "file": "projects/valwood_world/models/demo_sign_tavern_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.07400000095367432,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.07400000095367432,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_tavern_near.glb",
+          "sha256": "08d28842ea2ab34b52a764a363b6bd680f60eb60c58229b9ee21007576b78387",
+          "bounds_min": [
+            -0.07400000095367432,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07400000095367432,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 492
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_tavern_mid.glb",
+          "sha256": "c875f9d16b4f508ac98a10f9840f9d34c7fb4d2c3788293ef7c320045f96b9f3",
+          "bounds_min": [
+            -0.07400000095367432,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07400000095367432,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 444
+        }
+      ]
+    },
+    "showcase_sorrel": {
+      "file": "projects/valwood_world/models/showcase_sorrel.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.1155829131603241,
+        0.0,
+        -0.12292821705341339
+      ],
+      "bounds_max": [
+        0.1155829131603241,
+        0.0563465915620327,
+        0.12292821705341339
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/showcase_sorrel.glb",
+          "sha256": "aff049702b0468101afd8ab0f9fd9c762cc00968de0f9e4b6b1c163b551827d3",
+          "bounds_min": [
+            -0.1155829131603241,
+            0.0,
+            -0.12292821705341339
+          ],
+          "bounds_max": [
+            0.1155829131603241,
+            0.0563465915620327,
+            0.12292821705341339
+          ],
+          "triangles": 2260
+        }
+      ]
+    }
+  },
+  "terrain_height_modified": false,
+  "new_images": 0,
+  "new_models": 0
+}

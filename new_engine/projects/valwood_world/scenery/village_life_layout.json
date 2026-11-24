@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "coordinates": "village-local east/south metres, world_atlas_village_origin",
+  "original_residents": 128,
+  "added_residents": 12,
+  "original128_motion_hash": "10346289246193520808",
+  "tavern_center": [
+    -145,
+    -82
+  ],
+  "shelter_center": [
+    -166,
+    15
+  ],
+  "street_route": [
+    [
+      -130,
+      -28
+    ],
+    [
+      -130,
+      46
+    ],
+    [
+      -132,
+      46
+    ],
+    [
+      -132,
+      -28
+    ]
+  ],
+  "seat_height_m": 0.495,
+  "method": "Four seated people use genuine retained CDmir/TinyWorlds CC0 Sitting1 source animation; no sleeping clip claimed. Other eight reuse the existing nine appearance families. Original128 definitions, poses and absolute phases preserved.",
+  "residents": [
+    {
+      "name": "Bram",
+      "role": "Resting neighbor",
+      "district": "Sheltered nook",
+      "archetype": 9,
+      "x": -169.5,
+      "z": 13.7,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 0,
+      "walker": false,
+      "seated": true
+    },
+    {
+      "name": "Oren",
+      "role": "Resting neighbor",
+      "district": "Sheltered nook",
+      "archetype": 9,
+      "x": -162.5,
+      "z": 13.7,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 1.7,
+      "walker": false,
+      "seated": true
+    },
+    {
+      "name": "Mara",
+      "role": "Town neighbor",
+      "district": "Sheltered nook",
+      "archetype": 4,
+      "x": -171.5,
+      "z": 16.5,
+      "yaw": 0.35,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 2.9,
+      "walker": false,
+      "seated": false
+    },
+    {
+      "name": "Ivo",
+      "role": "Town neighbor",
+      "district": "Sheltered nook",
+      "archetype": 7,
+      "x": -160.5,
+      "z": 16.5,
+      "yaw": -0.35,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 4.1,
+      "walker": false,
+      "seated": false
+    },
+    {
+      "name": "Alden",
+      "role": "Seated patron",
+      "district": "Tavern",
+      "archetype": 9,
+      "x": -150,
+      "z": -79.8,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 0.8,
+      "walker": false,
+      "seated": true
+    },
+    {
+      "name": "Corin",
+      "role": "Seated patron",
+      "district": "Tavern",
+      "archetype": 9,
+      "x": -140,
+      "z": -79.8,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 3.2,
+      "walker": false,
+      "seated": true
+    },
+    {
+      "name": "Elin",
+      "role": "Tavern patron",
+      "district": "Tavern",
+      "archetype": 4,
+      "x": -139.5,
+      "z": -85.5,
+      "yaw": 2.45,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 1.3,
+      "walker": false,
+      "seated": false
+    },
+    {
+      "name": "Tomas",
+      "role": "Tavern patron",
+      "district": "Tavern",
+      "archetype": 6,
+      "x": -147,
+      "z": -83,
+      "yaw": -1.4,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 3.8,
+      "walker": false,
+      "seated": false
+    },
+    {
+      "name": "Nell",
+      "role": "Bar staff",
+      "district": "Tavern",
+      "archetype": 4,
+      "x": -150,
+      "z": -87.3,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 0,
+      "phase": 2.1,
+      "walker": false,
+      "seated": false
+    },
+    {
+      "name": "Rowan",
+      "role": "Bar staff",
+      "district": "Tavern",
+      "archetype": 7,
+      "x": -147.5,
+      "z": -87.5,
+      "yaw": 0,
+      "floor_offset": 0.015,
+      "route": 10,
+      "phase": 4.7,
+      "walker": true,
+      "seated": false
+    },
+    {
+      "name": "Tessa",
+      "role": "Street neighbor",
+      "district": "Western streets",
+      "archetype": 5,
+      "x": 0,
+      "z": 0,
+      "yaw": 0,
+      "floor_offset": 0,
+      "route": 9,
+      "phase": 0,
+      "walker": true,
+      "seated": false
+    },
+    {
+      "name": "Davin",
+      "role": "Street neighbor",
+      "district": "Western streets",
+      "archetype": 8,
+      "x": 0,
+      "z": 0,
+      "yaw": 0,
+      "floor_offset": 0,
+      "route": 9,
+      "phase": 0.5,
+      "walker": true,
+      "seated": false
+    }
+  ],
+  "seated_root_forward_offset_m": 0.2,
+  "tavern_work_route": [
+    [
+      -147.5,
+      -87.5
+    ],
+    [
+      -144.2,
+      -87.5
+    ],
+    [
+      -147.5,
+      -87.5
+    ],
+    [
+      -144.2,
+      -87.5
+    ]
+  ]
+}

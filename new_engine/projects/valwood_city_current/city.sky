@@ -1,0 +1,4 @@
+VALWOOD_CITY_SKY 1
+panorama "environments/publisher-visible-sky.hdr"
+material 1.0 1.05 -0.1687459945678711
+cube 512

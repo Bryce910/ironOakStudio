@@ -1,0 +1,20 @@
+Valwood river swimming repair — Linux candidate
+
+This candidate preserves the accepted forest, campsite, weather, village,
+character assets and authored terrain. It changes only the reviewed production
+source listed in review/SOURCE_CHANGE_SCOPE.json, with one shared native game
+and editor executable. The shared shader bank has exactly one reviewed source
+derivative: world_water.fs.glsl. Every other shader retains its accepted bytes.
+The final shader scope and native runs pin the complete bank explicitly.
+
+The candidate remains unpublished until its own 104-unit dependency-checked
+build, CPU water regression, actual native controls and final visual review pass.
+No Windows build is prepared. Native test fixtures use isolated project copies.
+Saved gameplay, mode choices and graphics settings remain mutable and are
+carried from the current session under the instance lock during publication.
+
+The normal five entry modes continue through Launch_Valwood.sh. Promotion must
+preserve all live authored files and all eleven accepted forest scene documents.
+No scenery files are copied into LIVE by this source-only publication.
+
+This is scoped functional and visual regression work, not AAA certification.

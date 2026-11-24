@@ -1,0 +1,9 @@
+Father idle polish — private preparation
+
+Baseline: camp-road-polish-2026-11-19.
+This generation is unpublished. The character posture diagnosis is pending.
+No source directory or candidate executable has been staged or built.
+Projects, scene text, settings and saves are private copies; heavy assets and motion are read-only aliases.
+Shaders are an owned byte-identical copy.
+The open public game, CURRENT pointer, authoring, saves and settings were not changed.
+GPU tests require root coordination; Windows work is not requested.

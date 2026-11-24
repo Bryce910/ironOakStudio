@@ -1,0 +1,7 @@
+Valwood: Seldonne woodland and campsite scenery update (Linux).
+
+Use the normal Launch_Valwood.sh launcher for Demo, Editor, Arena, Joust or World. The demo and editor share the working world.
+
+The starting region has local rain, overcast clouds, feathered fog, a fuller canopy, layered undergrowth and an upstream creek bend west of the campsite. The camp, travelers, arrival point, road and existing bridge remain accessible. This is a scenery update using the previously reviewed runtime, source, shaders and owned assets.
+
+Your existing progress and graphics preferences are retained. Ultra quality remains demanding on the current 3 GB GPU. This update is not an AAA visual or sustained-performance certification; creek-bank shapes and ground materials still need further art refinement. No Windows build was prepared.

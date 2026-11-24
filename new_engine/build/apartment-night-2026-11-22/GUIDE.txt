@@ -1,0 +1,37 @@
+APARTMENT NIGHT (2026-11-22) - built on water-stability-2026-11-22
+Launch: /home/computer/Desktop/final_engine/Launch_Valwood.sh demo   (check: ... demo --check-only)
+
+What changed (apartment only; outdoor world, arena, joust unchanged):
+1 Indoor audio: outdoor ambience (wind, creek, fire, birds/crows/crickets/owl)
+  is silent in the apartment, paused, unfocused or loading; one-shots already
+  playing are stopped. Demo-audio forest/night/creek/rain beds are sealed out
+  of the quiet home. Outdoor ambience returns after the TV transport.
+2 Footsteps: one owner (demo audio). One soft wood step per visible planted
+  foot during real locomotion (idle/turn replants and blocked pushes filtered).
+  The old foot-plant producer in world_ambience no longer doubles it.
+3 Hair: civilian hero scalp under the hair graded to hair-root brown (all four
+  quality tiers) so gaps at the crown no longer show pale skin. Face, hairline,
+  sideburns, ears and neck unchanged. Tool: tools/build_scalp_fix.py
+4 Walk only indoors: 1.25 m/s in the apartment for keyboard, full stick, Shift
+  and controller sprint; help text no longer offers sprint indoors.
+5 Night: apartment plays at 21:45 - night window glass, cool faint window
+  spill, warm practicals, TV; outdoor hour restored on transport/load/retry.
+
+Follow-up fixes:
+- Night window keys: the seven keys saved in world.studio (cone 110 at socket
+  height but at the pane depth) were never recognised, so they kept daylight
+  power 12 at night. window_key() now matches them; night = 7% power, cool tint.
+  Daytime values are byte-identical.
+- Demo-audio beds and footsteps now follow the user's master x SFX volume
+  (SFX 0: step transients 87 -> 2 in an A/B recording of the same walk).
+- Hair root cause: with cards forced opaque the crown gap vanishes, so the
+  cards cover the scalp; the pale patches are bare scalp seen through
+  transparent strand texels, lit with no hair occlusion. The cutoff does not
+  thin hair with distance (coverage rises 12.9% -> 23% across mips). The
+  scalp grade is the hair-occlusion/root colour real-time hair relies on.
+
+Switches (env): VALWOOD_APARTMENT_NIGHT=0, VALWOOD_APARTMENT_WALK_SPEED=<m/s|0>,
+VALWOOD_AMBIENCE=0. Rebuild: python3 tools/build_candidate.py
+Review clip: review/apartment_night_footsteps.mp4
+Rollback: copy final_engine/CURRENT_VALWOOD.before-apartment-night.json over
+final_engine/CURRENT_VALWOOD.json

@@ -1,0 +1,39 @@
+Thomas and Kubold integration — Linux Valwood, 20 November 2026
+
+Launch normally with Launch_Valwood.sh or Launch_Valwood_Demo.sh.
+The stable CURRENT_VALWOOD.json selects this generation after publication.
+Restart any already-running game to load the new character assets.
+
+Demo, World and Editor use the purchased Thomas civilian character, including
+his original jacket, shirt, pants, boots, skin, eyes and alpha-cutout hair.
+The same Thomas head and hair remain when the existing knight armor equips.
+First-person hands and jacket sleeves use the new purchased geometry.
+Independent arena/joust character rosters are retained.
+
+Movement Animset Pro supplies the active full-body unarmed idle, walk and run.
+The clips are retargeted onto the existing 95-joint runtime bind. Horizontal
+capture travel is removed; the existing movement controller and sole contact
+solver own world movement. Other purchased clips are retained as source data;
+this pass does not add new gameplay mechanics for all 180+ source motions.
+Existing weapon combat, swimming, defeat, equipment and saves are retained.
+
+The face is neutral: the current renderer has no runtime facial morph support.
+Original facial morphs remain in the licensed FBX. Unity cloth/hair physics are
+not ported; clothing helpers follow the existing skeletal joints.
+
+The original packages and extracted licensed sources remain unchanged under
+new_engine/assets/characters/incoming/thomas_kubold. Derivatives fit Thomas to
+the accepted skeletal bind and preserve actual source textures. Small imported
+normal/position roundoff duplicates are welded, and mapped weights are reduced
+to the native four-influence limit. Two transparent eye overlay shells are
+omitted; eyeballs, lashes, mouth and facial surface remain.
+
+Validation evidence is in review/FINAL_REVIEW.json. It separates controller
+checks, actual native draws and isolated motion previews from the interrupted
+full-world input rehearsal. The render environment uses llvmpipe; hardware FPS
+and full-world traversal are not certified by these captures.
+
+The accepted camp-atmosphere executable, source, shaders and world art are
+reused. This is a character/animation asset integration with an atomic launcher
+switch and rollback manifest, not a renderer or scene rebuild. No Windows
+executable is produced.

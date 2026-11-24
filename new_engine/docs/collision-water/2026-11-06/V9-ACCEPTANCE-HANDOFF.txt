@@ -1,0 +1,42 @@
+Clean v9 acceptance queue (prepared only; no GPU executed here)
+
+v8 is NOT accepted for installation/publication: its Windows water workflow
+exposed a held-capture mouse-coordinate regression. Prior v8 reports, candidate5
+archive, engineering source candidate and CPU integrity receipts remain intact
+under their actual bindings; none proves v9 or authorizes v8 release.
+
+After both clean source-v9 runtimes have their actual frozen BUILD_PLAN SHAs
+and completed READY receipts, root inspects the new read-only command plan:
+
+  python3 docs/collision-water/2026-11-06/run_release_acceptance_v9.py \
+    --native-plan-sha256 ACTUAL_NATIVE_V9_PLAN_SHA \
+    --windows-plan-sha256 ACTUAL_WINDOWS_V9_PLAN_SHA
+
+Add --run only for root's serial hardware queue. Runtime paths default to the
+new runtime-native-v9/runtime-windows-v9 directories; explicit --native-runtime
+and --windows-runtime paths are available. No earlier runtime plan SHA is
+embedded in this new queue. Existing helper code hashes remain pinned.
+
+Order: Windows six-case core; native six-case core; Windows actual water
+motion; native actual water motion; native full journey; Windows full journey.
+Every failure stops the queue. Every core uses actual new Pond creation,
+saved R12/depth1 recipe provenance and image binding. All evidence/project/log
+paths use v9, preserving earlier files. Full-nine native v5 traversal remains
+historical coverage, while final direct traversal is four routes per platform.
+
+The CPU-only test suite passed 22 queue guards, including real helper hashes,
+all stage ordering/parameters, fresh output labels, missing/failed report
+rejection, stop-on-first-failure, strict Pond, and no default subprocess launch.
+RELEASE-QUEUE-v9-CPU.json does not claim actual v9 runtime acceptance.
+
+The existing prepare_finalization_v8.py is generic and can be reused with
+--revision v9, explicit actual v9 runtimes/plans, and the NEW actual candidate,
+archive SHA, protocol and collision-payload proof. It derives v9 core/journey
+report names, raw-backed journey adapter names and finalization-v9 output.
+Its filename is historical; it does not pin or reuse any v8 runtime/report.
+
+After actual v9 READYs, prepare a NEW source-continuity CANDIDATE-v9 from both
+plans and the reviewed builder. Do not relabel CANDIDATE-v8, candidate5 ZIP,
+failed v8 Water QA or other earlier receipts. Root installation/publication
+still requires all actual core/journey/motion evidence, independent root
+image/animation approval, and fresh seven-target preflight.

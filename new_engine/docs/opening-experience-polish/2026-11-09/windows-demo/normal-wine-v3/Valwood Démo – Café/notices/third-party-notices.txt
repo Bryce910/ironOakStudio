@@ -1,0 +1,36 @@
+Legends of Valwood — Windows demo third-party notices
+
+Runtime libraries
+SDL2, SDL2_mixer and SDL2_ttf notices are reproduced in runtime/SDL2*.txt.
+MinGW-w64/winpthreads copyright records and GCC runtime exception text are
+reproduced in runtime/mingw-w64-x86-64-dev.txt and runtime/gcc-mingw-w64-base.txt;
+their referenced license texts are retained beside them.
+
+Engine components
+Jolt Physics (Jorrit Rouwe), Dear ImGui (Omar Cornut), cgltf (Johannes Kuhlmann),
+jsmn (Serge A. Zaitsev), stb_image (Sean Barrett), and bc7enc16 (Richard
+Geldreich, Jr.) license notices are retained in engine/.
+
+Fonts
+Cinzel Decorative by Natanael Gama: SIL Open Font License1.1, fonts/Cinzel-OFL.txt.
+DejaVu Sans: Bitstream Vera/DejaVu copyright notice, fonts/DejaVu-font.txt.
+
+Environment materials and legacy models
+Poly Haven CC0 asset credits and recorded source links: assets/Poly-Haven-CC0.md
+and assets/Overcast-Soil-CC0.txt. https://polyhaven.com/license
+The legacy medieval village strategies pack by Gnossiennes uses CC-BY-4.0;
+its source credit and link are retained in assets/Medieval-village-strategies-CC-BY-4.0.txt.
+
+Purchased content
+House Props Furniture Vol.2 (Finward Studios), the purchased medieval village,
+NPCs/knight, vegetation/props, and converted blood/character animation banks
+retain their owners' applicable purchase terms. Selected existing provenance
+records are retained in assets/purchased-provenance.json; the shipped bank
+manifests also retain conversion provenance. These notices do not grant rights
+to reuse purchased assets separately from this game.
+House Props recorded product and terms:
+https://assetstore.unity.com/packages/3d/props/interior/house-props-furniture-vol-2-265523
+https://unity.com/legal/as-terms
+
+Only license/attribution text and provenance summaries are in this folder.
+No purchased source archives, source art, Unity project or tool code is included.

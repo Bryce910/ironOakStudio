@@ -1,0 +1,81 @@
+Seldonne | First Region — frozen art/data handoff, revision 8
+
+Candidate project:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/project-v8
+
+Authoritative manifest:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/ART-MANIFEST-v8.json
+SHA256 67471dae7349d36eaadf538ce5df8f7b1fec6be286f2466d96e1d0d543ff85b3
+
+Revision receipt:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/ART-COLLISION-REVISION-v8.json
+
+This is a closed art/data candidate, not a runtime acceptance certificate.
+Root approved six actual native v6 views as a coherent visual basis for the
+first exploration build. No AAA or photorealism claim is made. Final production
+Jolt, route, paint and native/Windows runtime acceptance are separate evidence.
+
+Visual basis:
+- Purchased temperate oak/beech groves with varied scale, undergrowth and rocks.
+- Three travelers around the arrival camp, fire and roast chicken.
+- A compact waterfront town with six residents, rough-stone paving and props.
+- Two authored timber bridges, creeks and the enclosing river.
+- Expanded irregular terrain context, softer dry banks, meadow/litter/mud/rock
+  material layers and owned source PBR images.
+- Five thousand five hundred ninety-two source placements across nine source
+  instance files; thirty-six distinct visible model paths; nine NPCs.
+
+Collision-only final change:
+- 958 oak and 405 beech instances retain exact model paths and all fourteen
+  serialized source transform fields except their alias token.
+- Protected aliases nm_city_region_oak and nm_city_region_beech retain the
+  existing tree vegetation2, LOD2, distance450, split55 and wind1 asset settings.
+- Local lower-bark collision parts exclude leaves, canopy and synthetic datum.
+  Each part has 74 vertices / 144 triangles, extending from local Y-.15 to8m.
+  The 1,363 instances expand to100,862 vertices /196,272 triangles, about77%
+  fewer triangles than the preserved superseded v1 trunk candidate.
+- Model SHA256 and immutable model-byte/FNV revisions are bound in the trunk
+  data receipt and production catalog. No model or texture bank was edited.
+- All Studio terrain/material/lighting/NPC/bridge rows remain byte identical to
+  the approved visual candidate. V6 and superseded closed V7 are preserved.
+
+Important scope limits:
+- This region is currently an exploration/editor build; it does not newly
+  implement the separate combat presentation or hero asset replacement.
+- Normal City movement and NPCs use the structural Jolt collision world.
+  Normal third-person follow-camera boom queries Jolt only in guarded playtest
+  mode; this data-only revision does not resolve general camera clipping.
+- Legacy forest-shelter and village-sky approximation masks have fixed original
+  map domains; they are not generalized by this region. Ordinary direct
+  lighting and shadow rendering remain active.
+- No sustained FPS, long-session memory plateau, or physical-controller claim
+  follows from the six-view visual review.
+
+Dependencies and ownership:
+- models, audio, blood_assets and environments are unchanged read-only bank
+  links. Portable delivery must resolve these from the accepted original
+  designer asset bank, using the delivery agent's guarded project mechanism.
+- texture_blocks is an ordinary owned copy, not a symlink:74 BC7 cache files
+  copied unchanged from root's tested cache. Surface images and local collision
+  parts are ordinary owned project files.
+- Legacy opening/home.settings and opening/interior.settings guards are absent,
+  alongside the earlier retired opening scene/config and arena/playtest guards.
+- City/publisher showcase controls stay enabled for ordinary source rendering
+  and matching structural collision. Do not strip these flags to launch this
+  bank as an unrelated ModeNone atlas project.
+
+Layout:
+- Playable world bounds X[-12288,-11008], Z[4992,5760].
+- Spawn [-11988,11.8000001907,5180], arrival camp [-11988,11.8000001907,5172].
+- Town [-11968,11.8000001907,5582], waterfront [-11938,11.2,5635].
+- Context heightfield2049x1537,1m spacing, Xmin-12672,Zmin4608.
+- Base terrain is ground/showcase.height; placement proof samples the separately
+  closed terrain-context-v2/effective-placement.height. Do not substitute the
+  baked effective placement sampler for the editable base terrain.
+
+Next owner:
+History agent is validating the actual production source parser, structural
+Jolt cook, all nine NPC routes and protected walking/bridge/trunk probes, then
+paint bindings and seams. Root owns all native/Windows graphics and actual
+runtime acceptance. Delivery agent owns portable add-on packaging after those
+checks pass. No files in this closed project should be changed in place.

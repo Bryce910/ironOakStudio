@@ -1,0 +1,9 @@
+Valwood — Linux opening and scenery polish
+
+Use the normal Launch_Valwood_Demo.sh / Arena / Editor launchers. All modes retain one runtime, shared shaders and character settings.
+
+The apartment game display now fits the real TV screen. The original bills now rest on the coffee table, with their interaction and close-up aligned to the paper. The console is seated on the TV stand and the opening shot and interaction point follow it. Original models remain intact; two added model stems opt this scene into the corrected geometry.
+
+The campsite reuses its existing vegetation with more deliberate edge clusters, lower ground cover and tighter camp-earth texture detail. Terrain geometry, collision and the NPC/fire/road clearances are preserved. Imported terrain layers now use slope-aware three-plane color/normal/ARM projection on steep ground, while flat terrain and mesh UVs retain their original path.
+
+Validation includes native GPU visual comparisons, the natural opening and a complete private journey; see review/FINAL_REVIEW.json for acceptance and scope. Scenery frame timings use matched no-readback static views, not a sustained60FPS claim. No Windows build prepared.

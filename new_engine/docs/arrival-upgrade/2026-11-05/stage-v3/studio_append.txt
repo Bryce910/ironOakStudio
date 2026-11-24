@@ -1,0 +1,7 @@
+asset nm_arrival_oak04 arrival-upgrade/nm_arrival_oak04 2 3 2 850 70 1
+asset nm_arrival_beech01 arrival-upgrade/nm_arrival_beech01 2 3 2 850 70 1
+asset nm_arrival_beech02 arrival-upgrade/nm_arrival_beech02 2 3 2 850 70 1
+material bep_nature_grass_long .86 .80 .81 1.10 .82 1
+material bep_nature_grass_broad .86 .80 .81 1.10 .82 1
+material bep_nature_clover .86 .85 .80 1.10 .82 1
+material bep_nature_fern .83 .84 .80 1.08 .85 1

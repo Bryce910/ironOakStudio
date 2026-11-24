@@ -1,0 +1,11 @@
+Valwood — Linux window-light and third-person camera update
+
+Use the normal Launch_Valwood_Demo.sh / Arena / Editor launchers. All modes share one runtime, materials and character textures.
+
+Apartment: seven original window keys now provide incident light with room bounds and nearest-window furniture/curtain shadows. Their calibrated source values are editable in world.studio. Four electrical room circuits stay independent.
+
+Third person: exploration boom3.35m, close combat3.85m, up to4.2m for multiple nearby opponents. Framing eases between modes and retains swept collision retraction, unchanged logical aiming and original first-person/bow/swim/cinematic contexts.
+
+Validation: camera/math and collision regressions plus isolated software-rendered lighting and combat checks. Hardware frame-rate and full journey results are inherited from the prior generation and are not fresh performance certification. No Windows build prepared.
+
+An already-running older process keeps its previous renderer until closed and restarted.

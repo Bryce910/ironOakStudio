@@ -1,0 +1,1 @@
+../../valwood_visual/shaders/world_bloom_extract.fs.glsl

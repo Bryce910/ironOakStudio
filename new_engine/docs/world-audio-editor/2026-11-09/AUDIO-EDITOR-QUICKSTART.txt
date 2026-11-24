@@ -1,0 +1,16 @@
+World audio placement
+
+Open the environment editor. Choose Audio on the toolbar, Create > Audio, or search Audio in the command palette.
+
+1. Choose a WAV in the Audio browser, then choose Place selected clip and click the landscape. You can also drag a clip onto the landscape or place an unassigned speaker first.
+2. Select its speaker or its entry in Placed sounds. Choose the clip and set Volume, Full volume radius and Silent beyond. Full volume is maintained inside the inner radius, then falls smoothly to silence at the outer radius.
+3. Set Fade in and Fade out in seconds. Enable Loop for ambience; a nonlooping source plays once when the listener enters its range, and may play again after leaving and returning.
+4. Audition clip listens at full local gain irrespective of distance. Solo selected keeps its real distance and direction. Stop or Mute placed sounds silences these sources; Preview all resumes them.
+5. Move a speaker using its XYZ gizmo, coordinate controls, or Move to map spot. Frame brings it into view. Copy/paste, duplicate, Delete and Undo/Redo use the same editor history as other objects.
+6. Save All keeps the placements in this world. They load with the map during ordinary gameplay. Sound edits preview on release without rebuilding terrain.
+
+To add your own audio, expand Import a WAV, paste the source file path and choose Copy WAV into this project. The original stays intact; a portable copy is stored under sounds/imported.
+
+Supported audio: PCM16 or float32 RIFF WAV, mono/stereo, 8-96 kHz. Convert MP3/OGG in your audio program before import. Each imported file may be at most 32 MiB. The decoded scene bank is capped at 64 MiB, with 64 sound placements, 32 unique clips and 16 audible voices. Lower-priority sources are virtualized at larger overlaps.
+
+The editor listens from its camera. Gameplay listens from the character head with camera orientation, including third person. Markers and rings are editor guides. Saving a world with audio requires this updated editor; older editors do not read Studio13 documents.

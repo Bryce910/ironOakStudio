@@ -1,0 +1,452 @@
+{
+  "bank_sha256": "390ba5278f18942c194f7da61bad5ee20d9c2a28654b6ec924c8f37c13b8d3f4",
+  "decoding": {
+    "adaptation": "Runtime ground-only planar stains replace Unity screen-depth/bone decals and height scripts. Extra 0.48 presentation scale is separate from unchanged authored prefab-meter frames.",
+    "color": "Serialized _Color RGB multiplied .65 per original BFX linear-render branch; normals decoded and normalized.",
+    "decal": "Original mask RGB and normal-map alpha; alpha=clamp(normalA*2)*clamp(maskR*20) at source cutout0. RGB retains maskB darkening. Original rectangle dimensions rotated to canonical axes.",
+    "geometry": "Original ASCII FBX polygon corners/UVs; fixed triangle topology.",
+    "timing": "N=FramesCount+1, original linear AnimationSpeed curve, duration=TimeLimit. Stored frames indexed age/duration*(N-1).",
+    "vat": "Point sample repeat UV (u,v+ceil(-(frame+1.1))/N+1/N); EXR top-down to Unity bottom-up; exact BFX linear-to-gamma; scalar bounds; X sign and XZY swizzle; HeightOffset; full prefab hierarchy; Unity Z reflection; yaw only to +Z emission."
+  },
+  "effects": [
+    {
+      "canonical_yaw_radians": -1.5616507099117463,
+      "color_linear": [
+        0.435377345,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "decal_alpha_nonzero_fraction": 0.054294586181640625,
+      "decal_size_xz": [
+        3.8669055,
+        7.561573
+      ],
+      "duration": 2.0,
+      "frame_count": 79,
+      "name": "Blood2_Right",
+      "reversed_winding_to_match_decoded_normals": false,
+      "sample_bounds": {
+        "0.1": [
+          [
+            -0.7297890782356262,
+            -0.8580981492996216,
+            -0.08999637514352798
+          ],
+          [
+            0.43203866481781006,
+            0.4279464781284332,
+            1.075608730316162
+          ]
+        ],
+        "0.3": [
+          [
+            -0.9934314489364624,
+            -1.2887802124023438,
+            -0.043473981320858
+          ],
+          [
+            0.9330355525016785,
+            0.6455066204071045,
+            2.527752637863159
+          ]
+        ],
+        "0.7": [
+          [
+            -1.1334469318389893,
+            -1.9741359949111938,
+            -0.030265508219599724
+          ],
+          [
+            0.9739512801170349,
+            0.1746426373720169,
+            5.184545040130615
+          ]
+        ]
+      },
+      "source_bounds": [
+        [
+          -1.153851866722107,
+          -4.638000011444092,
+          -0.18918319046497345
+        ],
+        [
+          1.0016132593154907,
+          0.6981359720230103,
+          6.168902397155762
+        ]
+      ],
+      "source_prefab_transform": [
+        [
+          -0.02,
+          0.0,
+          0.0,
+          -0.131
+        ],
+        [
+          0.0,
+          0.02,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.02,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "triangle_count": 4000,
+      "vat_dimensions": [
+        1024,
+        948
+      ],
+      "vertex_count": 12000
+    },
+    {
+      "canonical_yaw_radians": -1.5408804713117326,
+      "color_linear": [
+        0.39245284,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "decal_alpha_nonzero_fraction": 0.050342559814453125,
+      "decal_size_xz": [
+        2.3172183,
+        9.716193
+      ],
+      "duration": 2.5,
+      "frame_count": 99,
+      "name": "Blood2",
+      "reversed_winding_to_match_decoded_normals": false,
+      "sample_bounds": {
+        "0.1": [
+          [
+            -0.4504150450229645,
+            -0.583447277545929,
+            -0.19116641581058502
+          ],
+          [
+            0.4068922698497772,
+            0.3209454417228699,
+            1.2204105854034424
+          ]
+        ],
+        "0.3": [
+          [
+            -0.5867353677749634,
+            -1.23211669921875,
+            -0.18688195943832397
+          ],
+          [
+            0.6967265605926514,
+            0.43208372592926025,
+            3.218315601348877
+          ]
+        ],
+        "0.7": [
+          [
+            -0.5405555963516235,
+            -1.8026089668273926,
+            -0.1827540546655655
+          ],
+          [
+            0.26092004776000977,
+            0.33792418241500854,
+            5.037349700927734
+          ]
+        ]
+      },
+      "source_bounds": [
+        [
+          -0.6579024195671082,
+          -4.638000011444092,
+          -0.19242240488529205
+        ],
+        [
+          0.7918578386306763,
+          0.6884405612945557,
+          6.176052093505859
+        ]
+      ],
+      "source_prefab_transform": [
+        [
+          -0.02,
+          0.0,
+          0.0,
+          -0.131
+        ],
+        [
+          0.0,
+          0.02,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          -0.02,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "triangle_count": 3200,
+      "vat_dimensions": [
+        1024,
+        990
+      ],
+      "vertex_count": 9600
+    },
+    {
+      "canonical_yaw_radians": 1.1848980335167831,
+      "color_linear": [
+        0.38632074,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "decal_alpha_nonzero_fraction": 0.02869129180908203,
+      "decal_size_xz": [
+        4.291670299999998,
+        6.088497999999999
+      ],
+      "duration": 2.8,
+      "frame_count": 129,
+      "name": "Blood8",
+      "reversed_winding_to_match_decoded_normals": false,
+      "sample_bounds": {
+        "0.1": [
+          [
+            -1.7483820915222168,
+            -0.9044726490974426,
+            -0.6378648281097412
+          ],
+          [
+            1.186318278312683,
+            1.3942861557006836,
+            1.326460361480713
+          ]
+        ],
+        "0.3": [
+          [
+            -0.9518883228302002,
+            -1.5780962705612183,
+            -0.6375179886817932
+          ],
+          [
+            1.3679275512695312,
+            1.752432942390442,
+            1.364326000213623
+          ]
+        ],
+        "0.7": [
+          [
+            -1.5398517847061157,
+            -3.280521869659424,
+            -1.1496442556381226
+          ],
+          [
+            2.0755882263183594,
+            1.5176002979278564,
+            2.1267929077148438
+          ]
+        ]
+      },
+      "source_bounds": [
+        [
+          -2.576420307159424,
+          -6.257627487182617,
+          -2.300398588180542
+        ],
+        [
+          4.641537189483643,
+          1.7907135486602783,
+          5.98594331741333
+        ]
+      ],
+      "source_prefab_transform": [
+        [
+          0.035099998,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.046799995,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.035099998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "triangle_count": 5000,
+      "vat_dimensions": [
+        1024,
+        1935
+      ],
+      "vertex_count": 15000
+    }
+  ],
+  "format": "VWBLOOD1 LE u32 version,variants; each u32 vertex,index,frame,maskW,maskH; f32 duration,colorRGBA[4],decalSizeXZ[2]; u32 indices[]; f32 frames[][vertex][xyz,nxyz]; u8 decalRGBA[]",
+  "package_code_executed": false,
+  "presentation_scale": 0.48,
+  "schema": "valwood.volumetric-blood-provenance",
+  "source_archive_sha256": "78a37065dcaf5ef2e103beb05ad85708680a4b35ff777ab9f907a470fdbe7bdf",
+  "source_files": {
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/Decal.mat": {
+      "bytes": 3417,
+      "guid": "70a9f72627e48624e93aeaa03dec2d3c",
+      "sha256": "1693c80c0701e603d8c76b93e97ae35ee3817b5589432a61aad02ea22a5fae8e"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/blood.exr": {
+      "bytes": 5335706,
+      "guid": "b09397abb6863db44bbcf0c15116a8f6",
+      "sha256": "d6745059d443b04bcea7b4e6e0a6c7850337887d5a6ecbac03085bbbef35289a"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/blood.fbx": {
+      "bytes": 1243599,
+      "guid": "34f8cb6c545b5fb458b6e8a406e773f6",
+      "sha256": "e5a82a16b707e8f5138b3e251031fb2aec7435ff043db0e366bf1779199007eb"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/blood.mat": {
+      "bytes": 3133,
+      "guid": "ad02d209989cecb448b4ab106503ec44",
+      "sha256": "d41b6b68c488b0700ba02858b74242a0e3ac838aae14dd251ee4b15363b16f28"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/blood5_pos.exr": {
+      "bytes": 2566682,
+      "guid": "b2e0786c278ec964db31bb0784371c90",
+      "sha256": "2157a2bd6e8f916cb86203df4f578b3ce7e0a7326d643f5f28cf25579a6d7074"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/decal.png": {
+      "bytes": 63964,
+      "guid": "1f13aed27617ebe409ba3d2be7aff190",
+      "sha256": "76af107b01a75091da160929835d0548e6352fa30782a66216517fdd0b433e70"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Right/decal_mask.png": {
+      "bytes": 40887,
+      "guid": "25d9090d9f240ca46bff37d902fa1d86",
+      "sha256": "f9628b5e96e9e1bab39fa5a39774b57bb1d7b09a01142557833bf261f7897335"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/Blood.mat": {
+      "bytes": 3087,
+      "guid": "1282ac541ef554b4cb9a7bdaafb1a6ba",
+      "sha256": "a1cabb4cde8d4c3cbe6f4caa2b521097e6050f938eaec831f4e0b9b6406099dc"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/Decal.mat": {
+      "bytes": 3417,
+      "guid": "777eef0490cc5964db0209eb6fa89777",
+      "sha256": "eb662dd0c19c7f427a64969cba15f38276e3ac4fb0ee037196d4adabaa3d6802"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/Decal_mask.png": {
+      "bytes": 50957,
+      "guid": "c80c6ba4565c34548a34d1b3e49b29d2",
+      "sha256": "82dc404b27759fbb22129b8b56b74016065b432c09496d5628de13cf6d30e47f"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/Decal_norm.png": {
+      "bytes": 57210,
+      "guid": "6d0e0bab50c3910419f8db90365c761c",
+      "sha256": "300a002e658495f5e49ead73dc342a554b050cb0c59b1755e27b9744a6c79b38"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/blood_mesh.fbx": {
+      "bytes": 994467,
+      "guid": "60cf8df5f8af5e94f8b9775b947355ad",
+      "sha256": "af42d07612b47d185b92a39578c539159cc566689891aa6293034d7b9b9c4cb0"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/blood_norm.exr": {
+      "bytes": 5232163,
+      "guid": "9eb872a943106464eafddcce75b780f3",
+      "sha256": "2cc3537b5bd93f940ca92253f237795048a91c37eecc671fe6fe162dc9f3536b"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/Blood2/Vertical/blood_pos.exr": {
+      "bytes": 2485322,
+      "guid": "e4d59696e3d4c4147a63364f4c87684f",
+      "sha256": "a23923a7ba7c987677b632c5b71e91fc420bd5f56946437b74cabe6e77943c75"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/Decal.mat": {
+      "bytes": 3420,
+      "guid": "2460abb2f2e34c349887fe934fc9e81a",
+      "sha256": "e44eda80571afacbc3bb9f9ee8194d31d157795ba0afcc3393ae340f12ba550b"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/blood.mat": {
+      "bytes": 3194,
+      "guid": "e92bc4b9701d14c4dae5a923dd9fd3d8",
+      "sha256": "a1f8021de57c159981989533073007aaa4f2d94699b4e9b25a5d0b49dd5b65d6"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/blood_mesh.fbx": {
+      "bytes": 1538362,
+      "guid": "774af61a910eb0445b2948bb0b4cd9c8",
+      "sha256": "96474cd1b0cc19c9d409ea98abb79c4cad0d5ba5d904ba39359341054cb8d24f"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/blood_norm.exr": {
+      "bytes": 10770337,
+      "guid": "cbc3a232e83ff934292cec135604e2b1",
+      "sha256": "6308021d1ea4bd5e685db1a3e4ea3b823b83d5f00089f4ec37f96e83e4cd59bf"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/blood_pos.exr": {
+      "bytes": 4963996,
+      "guid": "89460b14339300e4d918022280df53d6",
+      "sha256": "2bac11d72e060bdd86695749b8f6d164705133a13e652ffecb0454ff679bc197"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/decal_mask.png": {
+      "bytes": 144646,
+      "guid": "c374253f8c8dfa446b1ef4f42783b5c6",
+      "sha256": "3271de80aa79dd263014b37baa0f3535a8bea3c8623520d6f1f53ed480e73e11"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/BloodResources/blood8/decal_normal.png": {
+      "bytes": 153769,
+      "guid": "1114d73595614ef499a9c88220e15c75",
+      "sha256": "04df12a2cd43b0c3eff7d7f84bcfdcb21cb4f1b4dc3097723543b666dc769b78"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/Prefabs/Blood2.prefab": {
+      "bytes": 10618,
+      "guid": "42a28376f729c864a81abf66add7a418",
+      "sha256": "848637e2df1be1551628cac80dbcab17e6e4c4f71823c3b2c2c37fd3b066d5ef"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/Prefabs/Blood2_Right.prefab": {
+      "bytes": 10384,
+      "guid": "e822d59151d3597428b0b63bf25355e7",
+      "sha256": "27a0c5fbe9f0a0e0e41acb1fa95aac874314bb16dfb8944eacf93449e501f1dd"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/Prefabs/Blood8.prefab": {
+      "bytes": 10221,
+      "guid": "5776aed3bb070e54cb09a11c8a6a5831",
+      "sha256": "df0115447dd5e60390f7c0d1ef741de045f64d4cbfaefa9d56ebc1698ac73741"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/Shaders/BFX_Blood.shader": {
+      "bytes": 7853,
+      "guid": "178af239732bb6042a96790731226ce2",
+      "sha256": "f1a9611239c16795272217d0c8c4db1ad09ae7e974c4a9692f33cd99c38d0e32"
+    },
+    "Assets/KriptoFX/VolumetricBloodFX/Shaders/BFX_Decal_Plane.shader": {
+      "bytes": 4614,
+      "guid": "37bcd545946b5fd4faf84df118754e93",
+      "sha256": "1b084433b7453c42c5f3a59d822cd5336a5975536a65a330afa6953b08c97a1d"
+    }
+  },
+  "unity_imported": false,
+  "version": 1
+}

@@ -1,0 +1,155 @@
+# Seldonne hand authored starting area
+PROP models/cottage.glb -17.000 4.920 -8.000 0 25.00 0 1.000 1 0 0 1 0 0 2.5 90 1000
+END
+PROP models/cottage.glb -20.000 4.436 -31.000 0 15.00 0 1.150 1 0 0 1 0 0 2.5 90 1001
+END
+PROP models/cottage.glb 12.000 4.618 -42.000 0 -20.00 0 0.950 1 0 0 1 0 0 2.5 90 1002
+END
+PROP models/cottage.glb -6.000 4.401 -53.000 0 150.00 0 1.100 1 0 0 1 0 0 2.5 90 1003
+END
+PROP models/cottage.glb 23.000 5.680 4.000 0 -90.00 0 0.950 1 0 0 1 0 0 2.5 90 1004
+END
+PROP models/tall_house.glb -31.000 4.052 -19.000 0 70.00 0 1.000 1 0 0 1 0 0 2.5 90 1005
+END
+PROP models/stone_hall.glb 2.000 4.750 -34.000 0 180.00 0 1.000 1 0 0 1 0 0 2.5 90 1006
+END
+PROP models/bridge.glb 40.587 3.500 -22.000 0 0.00 0 1.000 2 0 0 1 0 0 2.5 90 1007
+END
+PROP models/campfire.glb -21.000 4.226 37.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1008
+END
+PROP models/portal.glb -15.000 5.069 64.000 0 180.00 0 1.000 0 0 0 1 0 0 2.5 90 1009
+ACT 8 4 -1 0 0 0 80
+READ An ancient waystone hums beneath the moss. Beyond the trees lies Seldonne and the river crossing.
+END
+PROP models/sign.glb -7.000 4.679 17.000 0 15.00 0 0.900 0 0 0 1 0 0 2.5 90 1010
+ACT 8 4 -1 0 0 0 80
+READ Seldonne Crossing. North to the village. East across the bridge toward Kerone.
+END
+PROP models/barrel.glb -18.000 4.775 -4.000 0 -126.00 0 1.000 0 0 0 1 0 0 2.5 90 1011
+END
+PROP models/crate.glb -15.000 4.865 -1.000 0 -105.00 0 1.000 0 0 0 1 0 0 2.5 90 1012
+END
+PROP models/barrel.glb 12.000 4.744 -38.000 0 84.00 0 1.000 0 0 0 1 0 0 2.5 90 1013
+END
+PROP models/barrel.glb 14.000 4.791 -38.000 0 98.00 0 1.000 0 0 0 1 0 0 2.5 90 1014
+END
+PROP models/barrel.glb 20.000 5.542 1.000 0 140.00 0 1.000 0 0 0 1 0 0 2.5 90 1015
+END
+PROP models/barrel.glb -32.000 3.942 -14.000 0 -224.00 0 1.000 0 0 0 1 0 0 2.5 90 1016
+END
+PROP models/lantern_post.glb -14.000 4.342 29.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1017
+END
+PROP models/lantern_post.glb 5.000 5.236 3.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1018
+END
+PROP models/lantern_post.glb 26.000 4.849 -19.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1019
+END
+PROP models/lantern_post.glb 59.000 6.039 -19.000 0 0.00 0 0.900 0 0 0 1 0 0 2.5 90 1020
+END
+PROP models/fence.glb -13.000 4.967 -1.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1021
+END
+PROP models/fence.glb -13.000 5.103 -6.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1022
+END
+PROP models/fence.glb -13.000 5.162 -11.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1023
+END
+PROP models/fence.glb -23.000 4.392 -25.000 0 90.00 0 1.000 0 0 0 1 0 0 2.5 90 1024
+END
+PROP models/fence.glb -18.000 4.648 -25.000 0 90.00 0 1.000 0 0 0 1 0 0 2.5 90 1025
+END
+PROP models/fence.glb 18.000 5.464 -2.000 0 0.00 0 1.000 0 0 0 1 0 0 2.5 90 1026
+END
+PROP models/bush.glb -41.905 3.501 -7.150 0 292.23 0 0.765 0 0 0 1 0 0 2.5 90 1027
+END
+PROP models/bush.glb 36.876 3.224 61.871 0 42.43 0 0.870 0 0 0 1 0 0 2.5 90 1028
+END
+PROP models/boulders.glb 84.585 7.679 64.216 0 186.18 0 0.901 0 0 0 1 0 0 2.5 90 1029
+END
+PROP models/bush.glb 78.552 6.424 27.983 0 207.13 0 0.864 0 0 0 1 0 0 2.5 90 1030
+END
+PROP models/boulders.glb 21.651 4.627 -57.134 0 20.41 0 1.134 0 0 0 1 0 0 2.5 90 1031
+END
+PROP models/bush.glb 81.854 6.375 13.756 0 213.92 0 0.696 0 0 0 1 0 0 2.5 90 1032
+END
+PROP models/boulders.glb -33.215 3.929 -16.006 0 95.72 0 0.934 0 0 0 1 0 0 2.5 90 1033
+END
+PROP models/bush.glb -42.572 3.379 29.169 0 91.82 0 0.981 0 0 0 1 0 0 2.5 90 1034
+END
+PROP models/bush.glb 78.324 6.452 30.721 0 178.76 0 1.053 0 0 0 1 0 0 2.5 90 1035
+END
+PROP models/bush.glb 76.539 6.181 15.195 0 35.26 0 0.675 0 0 0 1 0 0 2.5 90 1036
+END
+PROP models/bush.glb 70.113 5.940 -33.403 0 217.33 0 0.765 0 0 0 1 0 0 2.5 90 1037
+END
+PROP models/boulders.glb 28.703 5.430 27.325 0 70.88 0 1.066 0 0 0 1 0 0 2.5 90 1038
+END
+PROP models/bush.glb -48.797 3.393 28.314 0 108.57 0 1.272 0 0 0 1 0 0 2.5 90 1039
+END
+PROP models/boulders.glb 63.300 4.529 64.879 0 349.59 0 0.916 0 0 0 1 0 0 2.5 90 1040
+END
+PROP models/bush.glb -26.607 4.276 -25.223 0 176.89 0 1.080 0 0 0 1 0 0 2.5 90 1041
+END
+PROP models/chestnut.glb -25.000 3.927 34.000 0 26.94 0 0.951 0 0 0 1 0 0 2.5 90 1042
+END
+PROP models/chestnut.glb -29.000 3.435 20.000 0 276.01 0 1.024 0 0 0 1 0 0 2.5 90 1043
+END
+PROP models/chestnut.glb 10.000 5.268 28.000 0 158.48 0 0.865 0 0 0 1 0 0 2.5 90 1044
+END
+PROP models/chestnut.glb 20.000 5.089 42.000 0 315.83 0 1.065 0 0 0 1 0 0 2.5 90 1045
+END
+PROP models/chestnut.glb -37.000 3.438 -1.000 0 222.06 0 0.910 0 0 0 1 0 0 2.5 90 1046
+END
+PROP models/chestnut.glb 64.000 6.023 -40.000 0 302.35 0 0.902 0 0 0 1 0 0 2.5 90 1047
+END
+PROP models/chestnut.glb -40.000 5.027 -50.000 0 112.93 0 1.162 0 0 0 1 0 0 2.5 90 1048
+END
+PROP models/chestnut.glb 25.000 3.276 -62.000 0 302.21 0 0.944 0 0 0 1 0 0 2.5 90 1049
+END
+PROP models/fern.glb 25.069 5.692 13.374 0 334.65 0 1.480 0 0 0 1 0 0 2.5 90 1050
+END
+PROP models/fern.glb -28.090 5.087 -57.201 0 213.24 0 0.839 0 0 0 1 0 0 2.5 90 1051
+END
+PROP models/fern.glb -34.998 4.571 58.911 0 317.76 0 1.122 0 0 0 1 0 0 2.5 90 1052
+END
+PROP models/fern.glb -41.656 3.363 27.946 0 219.22 0 0.813 0 0 0 1 0 0 2.5 90 1053
+END
+PROP models/fern.glb 73.563 6.019 6.818 0 15.32 0 1.596 0 0 0 1 0 0 2.5 90 1054
+END
+PROP models/fern.glb -34.045 3.773 -9.849 0 316.84 0 0.785 0 0 0 1 0 0 2.5 90 1055
+END
+PROP models/fern.glb -34.818 3.496 30.204 0 142.13 0 0.915 0 0 0 1 0 0 2.5 90 1056
+END
+PROP models/fern.glb 71.197 6.515 61.702 0 129.67 0 0.912 0 0 0 1 0 0 2.5 90 1057
+END
+PROP models/fern.glb -19.619 4.454 -30.005 0 203.49 0 1.061 0 0 0 1 0 0 2.5 90 1058
+END
+PROP models/fern.glb 27.104 5.248 34.013 0 93.91 0 1.046 0 0 0 1 0 0 2.5 90 1059
+END
+PROP models/fern.glb -10.390 5.140 -4.005 0 82.02 0 1.516 0 0 0 1 0 0 2.5 90 1060
+END
+PROP models/fern.glb 11.280 5.331 25.568 0 317.67 0 1.425 0 0 0 1 0 0 2.5 90 1061
+END
+PROP models/fern.glb 6.964 4.377 -56.640 0 105.52 0 1.033 0 0 0 1 0 0 2.5 90 1062
+END
+PROP models/fern.glb 12.545 5.339 -6.850 0 202.73 0 0.805 0 0 0 1 0 0 2.5 90 1063
+END
+PROP models/fern.glb 30.203 4.595 56.730 0 143.92 0 1.584 0 0 0 1 0 0 2.5 90 1064
+END
+PROP models/fern.glb 71.494 6.395 54.397 0 305.99 0 1.166 0 0 0 1 0 0 2.5 90 1065
+END
+PROP models/fern.glb -13.194 4.596 -54.509 0 337.35 0 1.250 0 0 0 1 0 0 2.5 90 1066
+END
+PROP models/fern.glb -18.459 4.864 -57.659 0 323.82 0 0.978 0 0 0 1 0 0 2.5 90 1067
+END
+PROP models/fern.glb 8.264 4.671 -38.437 0 85.78 0 1.566 0 0 0 1 0 0 2.5 90 1068
+END
+PROP models/fern.glb 13.658 5.407 8.110 0 25.62 0 1.236 0 0 0 1 0 0 2.5 90 1069
+END
+PROP models/fern.glb -11.110 4.715 -30.317 0 289.84 0 0.868 0 0 0 1 0 0 2.5 90 1070
+END
+PROP models/fern.glb 8.997 5.058 46.948 0 281.88 0 0.703 0 0 0 1 0 0 2.5 90 1071
+END
+PROP models/fern.glb -6.119 4.757 14.906 0 90.31 0 1.491 0 0 0 1 0 0 2.5 90 1072
+END
+PROP models/fern.glb -19.701 4.738 -54.240 0 82.72 0 1.482 0 0 0 1 0 0 2.5 90 1073
+END
+PROP models/fern.glb -26.224 4.321 47.113 0 340.99 0 0.733 0 0 0 1 0 0 2.5 90 1074
+END

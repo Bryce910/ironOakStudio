@@ -1,0 +1,245 @@
+{
+  "compile_started": false,
+  "gpu_used": false,
+  "frozen": false,
+  "plan_sha256": "016c84fb50047e0fbc22194e5018a28c46cedf7d8192401f06c0f1743c04aec0",
+  "source": "/home/computer/Desktop/final_engine/new_engine/build/world-weather-editor-2026-11-09/source-v1",
+  "output": "/home/computer/Desktop/final_engine/new_engine/build/world-weather-editor-2026-11-09/runtime-native-v1",
+  "changed_inputs": [
+    "engine/world_authoring_identity.cpp",
+    "engine/world_authoring_identity.h",
+    "engine/world_cinematics_audio.cpp",
+    "engine/world_cinematics_audio.h",
+    "engine/world_demo_audio.cpp",
+    "engine/world_demo_audio.h",
+    "engine/world_designer.cpp",
+    "engine/world_designer.h",
+    "engine/world_designer_workspace.cpp",
+    "engine/world_entity_graph.cpp",
+    "engine/world_entity_graph.h",
+    "engine/world_lightning_visual.inc",
+    "engine/world_prefab.cpp",
+    "engine/world_soundscape.h",
+    "engine/world_soundscape_runtime.inc",
+    "engine/world_storm_controller.h",
+    "engine/world_studio.cpp",
+    "engine/world_studio.h",
+    "engine/world_studio_audio_view.inc",
+    "engine/world_studio_designer_selection.inc",
+    "engine/world_studio_designer_workspace.inc",
+    "engine/world_studio_history_rebuild.h",
+    "engine/world_studio_view.inc",
+    "engine/world_studio_weather_view.inc",
+    "engine/world_viewer.cpp",
+    "engine/world_weather.cpp",
+    "engine/world_weather.h",
+    "engine/world_weather_authoring.h",
+    "engine/world_weather_runtime.inc",
+    "engine/world_weather_transition.h",
+    "shaders/world_authored_weather.glsl",
+    "shaders/world_foliage.fs.glsl",
+    "shaders/world_terrain.fs.glsl",
+    "shaders/world_water.fs.glsl",
+    "shaders/world_weather_compose.fs.glsl",
+    "shaders/world_weather_fog.fs.glsl",
+    "shaders/world_weather_particles.vs.glsl",
+    "tests/world_demo_audio_test.cpp",
+    "tests/world_soundscape_audio_test.cpp",
+    "tests/world_storm_audio_test.cpp",
+    "tests/world_storm_controller_test.cpp",
+    "tests/world_studio_audio_ui_test.py",
+    "tests/world_studio_weather_ui_test.py",
+    "tests/world_weather_authoring_test.cpp",
+    "tests/world_weather_spatial_test.cpp",
+    "tools/validate_world_authoring.cpp",
+    "tools/world_asset_database.py"
+  ],
+  "compiled_units": [
+    "engine/world_studio_tools.cpp",
+    "engine/world_assets.cpp",
+    "engine/world_studio.cpp",
+    "engine/world_demo_audio.cpp",
+    "engine/world_viewer.cpp",
+    "engine/world_weather.cpp",
+    "engine/world_scenery.cpp",
+    "engine/world_editor_picking.cpp",
+    "engine/world_designer_scene_index.cpp",
+    "engine/world_designer.cpp",
+    "engine/world_designer_workspace.cpp",
+    "engine/world_runtime_components.cpp",
+    "engine/world_runtime_demo.cpp",
+    "engine/world_entity_graph.cpp",
+    "engine/world_prefab.cpp",
+    "engine/world_authoring_identity.cpp",
+    "engine/world_editor_session.cpp",
+    "engine/world_terrain_authoring.cpp",
+    "engine/world_cinematics_audio.cpp",
+    "engine/world_pond_field.cpp",
+    "tools/validate_world_authoring.cpp"
+  ],
+  "total_objects": 101,
+  "retained_objects": 81,
+  "new_header_consumers": {
+    "engine/world_lightning_visual.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_storm_controller.h": [
+      "engine/world_demo_audio.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_weather_view.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather_authoring.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "engine/world_weather.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_weather_runtime.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather_transition.h": [
+      "engine/world_viewer.cpp"
+    ]
+  },
+  "changed_header_consumers": {
+    "engine/world_authoring_identity.h": [
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_cinematics_audio.h": [
+      "engine/world_cinematics_audio.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_demo_audio.h": [
+      "engine/world_demo_audio.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_designer.h": [
+      "engine/world_designer.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_entity_graph.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_designer_scene_index.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_runtime_components.cpp",
+      "engine/world_runtime_demo.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_lightning_visual.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_soundscape.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_cinematics_audio.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "engine/world_weather.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_soundscape_runtime.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_storm_controller.h": [
+      "engine/world_demo_audio.cpp",
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_studio_audio_view.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_designer_selection.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_designer_workspace.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_history_rebuild.h": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_view.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_studio_weather_view.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather.h": [
+      "engine/world_viewer.cpp",
+      "engine/world_weather.cpp"
+    ],
+    "engine/world_weather_authoring.h": [
+      "engine/world_assets.cpp",
+      "engine/world_authoring_identity.cpp",
+      "engine/world_designer.cpp",
+      "engine/world_editor_picking.cpp",
+      "engine/world_editor_session.cpp",
+      "engine/world_entity_graph.cpp",
+      "engine/world_pond_field.cpp",
+      "engine/world_prefab.cpp",
+      "engine/world_scenery.cpp",
+      "engine/world_studio.cpp",
+      "engine/world_studio_tools.cpp",
+      "engine/world_terrain_authoring.cpp",
+      "engine/world_viewer.cpp",
+      "engine/world_weather.cpp",
+      "tools/validate_world_authoring.cpp"
+    ],
+    "engine/world_weather_runtime.inc": [
+      "engine/world_viewer.cpp"
+    ],
+    "engine/world_weather_transition.h": [
+      "engine/world_viewer.cpp"
+    ]
+  },
+  "parent_reproduction_required_before_compile": true
+}

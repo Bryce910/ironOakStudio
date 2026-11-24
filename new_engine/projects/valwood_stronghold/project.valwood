@@ -1,0 +1,5 @@
+name=Legends of Valwood | Grandstone Stronghold
+terrain=valwood_atlas
+spawn=-43344.0 -23882.82415651827 0
+camera=0 0.10 7
+day_fraction=0.60

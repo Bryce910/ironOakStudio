@@ -1,0 +1,354 @@
+{
+  "actor_layout": "Three camp travelers, six sidewalk residents; three short patrols",
+  "actors": 9,
+  "art_direction": {
+    "generated_other_layers": "unchanged",
+    "generated_tree_density": 0,
+    "images": 12,
+    "layers": 8,
+    "lod_ranges": {
+      "bep_nature_bush_a": {
+        "distance": 120,
+        "split": 30
+      },
+      "bep_nature_bush_b": {
+        "distance": 120,
+        "split": 30
+      },
+      "bep_nature_clover": {
+        "distance": 75,
+        "split": 22
+      },
+      "bep_nature_fern": {
+        "distance": 120,
+        "split": 30
+      },
+      "bep_nature_grass_broad": {
+        "distance": 75,
+        "split": 22
+      },
+      "bep_nature_grass_long": {
+        "distance": 75,
+        "split": 22
+      },
+      "bep_nature_rock": {
+        "distance": 220,
+        "split": 45
+      },
+      "nm_city_12_sm_house_five": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_14_sm_house_light__paint_0f357fc32a": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_15_sm_house_one": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_16_sm_house_one__paint_f35e01eef0": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_18_sm_house_six__paint_6d3eaeff22": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_22_sm_house_two": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_23_sm_house_two__paint_364618db0f": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_26_sm_shop_01__paint_6453b1b712": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_27_sm_shop_02": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_28_sm_shop_02__paint_17ca9bc22f": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_29_sm_shop_03__paint_65189a6870": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_30_sm_shop_03__paint_97777873ab": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_31_sm_shop_04__paint_82d7efc2b9": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_32_sm_street_lamp": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_34_sm_wooden_cart": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_35_sm_wooden_cart_wheel": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_37_sm_wooden_stairs_01": {
+        "distance": 500,
+        "split": 50
+      },
+      "nm_city_region_beech": {
+        "distance": 450,
+        "split": 55
+      },
+      "nm_city_region_camp": {
+        "distance": 180,
+        "split": 45
+      },
+      "nm_city_region_oak": {
+        "distance": 450,
+        "split": 55
+      },
+      "nm_city_region_roast": {
+        "distance": 180,
+        "split": 45
+      }
+    },
+    "material_policy": "Unchanged source PBR bytes; neutral green meadow, litter/mud/gray rock contrast and rough-stone town plaza",
+    "new_understory": "Regional redistribution and bounded source clumps; exact totals in final art manifest",
+    "paint_strokes": 256,
+    "protected_route_margin_m": 3,
+    "purchased_canopy": 1363,
+    "source_understory": 6184
+  },
+  "art_manifest": "assets/seldonne-detail/art-manifest-final.json",
+  "art_polish": {
+    "actor_anchors_unchanged": true,
+    "added_low_plants": 960,
+    "camp_low_plants_by_radius": {
+      "100": {
+        "after": 2395,
+        "before": 1435
+      },
+      "15": {
+        "after": 679,
+        "before": 370
+      },
+      "150": {
+        "after": 2681,
+        "before": 1703
+      },
+      "25": {
+        "after": 1158,
+        "before": 642
+      },
+      "50": {
+        "after": 1936,
+        "before": 1226
+      }
+    },
+    "counts_after": {
+      "bep_nature_bush_a": 161,
+      "bep_nature_bush_b": 134,
+      "bep_nature_clover": 842,
+      "bep_nature_fern": 336,
+      "bep_nature_grass_broad": 1511,
+      "bep_nature_grass_long": 1800,
+      "bep_prop_bench": 2,
+      "nm_city_12_sm_house_five": 1,
+      "nm_city_14_sm_house_light__paint_0f357fc32a": 8,
+      "nm_city_15_sm_house_one": 1,
+      "nm_city_16_sm_house_one__paint_f35e01eef0": 22,
+      "nm_city_18_sm_house_six__paint_6d3eaeff22": 1,
+      "nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f": 1,
+      "nm_city_22_sm_house_two": 1,
+      "nm_city_23_sm_house_two__paint_364618db0f": 16,
+      "nm_city_26_sm_shop_01__paint_6453b1b712": 1,
+      "nm_city_27_sm_shop_02": 3,
+      "nm_city_28_sm_shop_02__paint_17ca9bc22f": 1,
+      "nm_city_29_sm_shop_03__paint_65189a6870": 2,
+      "nm_city_30_sm_shop_03__paint_97777873ab": 1,
+      "nm_city_31_sm_shop_04__paint_82d7efc2b9": 1,
+      "nm_city_32_sm_street_lamp": 7,
+      "nm_city_34_sm_wooden_cart": 6,
+      "nm_city_37_sm_wooden_stairs_01": 2,
+      "nm_city_region_arrival_rock": 12,
+      "nm_city_region_barrel": 20,
+      "nm_city_region_beech": 405,
+      "nm_city_region_bench": 6,
+      "nm_city_region_camp": 1,
+      "nm_city_region_crate": 18,
+      "nm_city_region_oak": 958,
+      "nm_city_region_planter": 17,
+      "nm_city_region_roast": 1,
+      "purchased_shop_a": 1,
+      "rock0": 102,
+      "rock1": 99,
+      "rock2": 104,
+      "starting_barrel": 5,
+      "starting_bucket": 1,
+      "starting_crate": 5,
+      "starting_lantern": 1
+    },
+    "counts_before": {
+      "bep_nature_bush_a": 161,
+      "bep_nature_bush_b": 134,
+      "bep_nature_clover": 657,
+      "bep_nature_fern": 416,
+      "bep_nature_grass_broad": 1131,
+      "bep_nature_grass_long": 1325,
+      "bep_prop_bench": 2,
+      "nm_city_12_sm_house_five": 1,
+      "nm_city_14_sm_house_light__paint_0f357fc32a": 8,
+      "nm_city_15_sm_house_one": 1,
+      "nm_city_16_sm_house_one__paint_f35e01eef0": 22,
+      "nm_city_18_sm_house_six__paint_6d3eaeff22": 1,
+      "nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f": 1,
+      "nm_city_22_sm_house_two": 1,
+      "nm_city_23_sm_house_two__paint_364618db0f": 16,
+      "nm_city_26_sm_shop_01__paint_6453b1b712": 1,
+      "nm_city_27_sm_shop_02": 3,
+      "nm_city_28_sm_shop_02__paint_17ca9bc22f": 1,
+      "nm_city_29_sm_shop_03__paint_65189a6870": 2,
+      "nm_city_30_sm_shop_03__paint_97777873ab": 1,
+      "nm_city_31_sm_shop_04__paint_82d7efc2b9": 1,
+      "nm_city_32_sm_street_lamp": 7,
+      "nm_city_34_sm_wooden_cart": 6,
+      "nm_city_37_sm_wooden_stairs_01": 2,
+      "nm_city_region_arrival_rock": 12,
+      "nm_city_region_barrel": 20,
+      "nm_city_region_beech": 405,
+      "nm_city_region_bench": 6,
+      "nm_city_region_camp": 1,
+      "nm_city_region_crate": 18,
+      "nm_city_region_oak": 958,
+      "nm_city_region_planter": 17,
+      "nm_city_region_roast": 1,
+      "purchased_shop_a": 1,
+      "rock0": 102,
+      "rock1": 99,
+      "rock2": 104,
+      "starting_barrel": 5,
+      "starting_bucket": 1,
+      "starting_crate": 5,
+      "starting_lantern": 1
+    },
+    "global_ecology_unchanged": true,
+    "images": 12,
+    "layers": 8,
+    "near_mesh_triangle_delta": 52365,
+    "near_mesh_triangles_after": 12792069,
+    "near_mesh_triangles_before": 12739704,
+    "new_texture_images": 0,
+    "new_unique_models": 0,
+    "paint_strokes": 256,
+    "paint_tiles": 47,
+    "parent_project": "/home/computer/Desktop/final_engine/new_engine/build/seldonne-arrival-2026-11-07/project-final-v1",
+    "patches": 22,
+    "project": "/home/computer/Desktop/final_engine/new_engine/build/seldonne-vegetation-2026-11-07/project-art-v1",
+    "project_shaders_unchanged": true,
+    "redistributed_low_plants": 180,
+    "replaced_outer_ferns": 80,
+    "ribbons": 16,
+    "schema": "valwood.seldonne-vegetation.art.v1",
+    "scope": "One frozen vegetation-data candidate; fresh production source/paint/route proof and root actual visual/performance acceptance pending. No AAA or FPS claim.",
+    "source_instances": 6617,
+    "source_instances_before": 5657,
+    "static_collision_poses_unchanged": true,
+    "terrain_heights_unchanged": true,
+    "triangle_scope": "Sum of all authored source near-mesh triangles before culling/LOD; no GPU timing claim",
+    "wind": {
+      "explicit_changed_rows": 1220,
+      "fields_after_scale": "burial elevation offset_y; not motion flags",
+      "flutter_max": 1.05984754192,
+      "flutter_min": 0.680263608553,
+      "parent_default_flutter": 1,
+      "parent_default_sway": 1,
+      "parent_rows_14_fields": 5657,
+      "static_rows_preserved": true,
+      "sway_max": 1.15987766445,
+      "sway_min": 0.780212139747
+    }
+  },
+  "assets": 41,
+  "collision_catalog": "collision/structures/catalog",
+  "geometry_policy": "Relocated purchased modular source meshes and original local collision parts; editable Studio terrain, materials, rivers and owned bridges",
+  "instances": 8076,
+  "name": "Seldonne | First Region",
+  "origin": [
+    -11968.0,
+    11.800000190734863,
+    5582.0
+  ],
+  "region_bounds": [
+    -12288,
+    4992,
+    -11008,
+    5760
+  ],
+  "region_buildout": {
+    "bridges": 4,
+    "districts": {
+      "central market square": 4,
+      "east inn and smith workyards": 8,
+      "north arrival/trade": 9,
+      "south waterfront loading and quay": 8,
+      "west residential lanes and gardens": 14
+    },
+    "houses": 43,
+    "new_textures": 0,
+    "new_unique_models": 0
+  },
+  "regional_detail": {
+    "canopy_framing_corrections": 4,
+    "new_textures": 0,
+    "new_unique_models": 0,
+    "recomposed_source_rows": 1176,
+    "source_count_unchanged": true
+  },
+  "source_geometry_and_paint": false,
+  "source_ground_coverage": {
+    "columns": 2049,
+    "nonzero_samples": 0,
+    "path": "ground/city.coverage",
+    "policy": "No imported source floor geometry; zero mask preserves editable terrain at every sample",
+    "rows": 1537,
+    "sha256": "b0c9ba9f0eeb47baf1c63432983fa1885520839cd500bbee5cbcbee0a0b28932",
+    "stepx": 1.0,
+    "stepz": 1.0,
+    "xmin": -12672.0,
+    "zmin": 4608.0
+  },
+  "terrain_base": "ground/showcase.height",
+  "tree_collision": "Protected oak/beech aliases; reduced lower-bark meshes, at most192 triangles per local model; production physics QA recorded separately",
+  "unique_model_files": 36,
+  "version": 1,
+  "visible_sky": {
+    "manifest": "city.sky",
+    "material": [
+      0.65,
+      1.0,
+      0.0
+    ],
+    "material_ibl_unchanged": true,
+    "panorama": "assets/seldonne-first-region/sky/overcast_soil_puresky_4k.hdr",
+    "sha256": "717958e9dfd092fcead82ff4691f3d615088803dd1888bb638ba948669021140"
+  },
+  "visual_acceptance": "Riparian detail candidate; root exact-scene acceptance recorded externally",
+  "world_surfaces": {
+    "images": 12,
+    "layers": 8,
+    "paint_strokes": 256,
+    "ribbons": 16
+  }
+}

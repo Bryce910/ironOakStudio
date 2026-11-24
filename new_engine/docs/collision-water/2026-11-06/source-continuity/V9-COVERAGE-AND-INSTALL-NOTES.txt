@@ -1,0 +1,64 @@
+Clean final v9 source continuity (engineering candidate; not runtime acceptance)
+
+CANDIDATE-v9.json and V9-CANDIDATE-CHECK.json bind both actual completed v9
+builds, their runtime/validator binaries and READY receipts, all 678 exact
+source files and 1,074 protected reproduction inputs. Both plans pin the
+reviewed builder_runtime_v9.py. No canonical source or CURRENT was changed.
+
+Native plan:
+d13f01ad1c2d43552e30a716830bb059556b6329a48e058c7950a660858dba38
+Windows plan:
+b85ad075c1ddc25d43665c4112e9ca6153166c17cbedae02105c80ceaedbb0d2
+
+Native executable:
+a3535c8136b77d25bf66f97234cf4146e874f0b570d3d16acdb5c9c3e1801e9e
+Windows executable:
+d5a43e52f63d7d6ee71a4cc5cefbb6cd36dadb5fe623dfc31f76614451a6a81f
+
+The only source change from frozen v8 is editor_ui_imgui.cpp. Windows uses
+global pointer fallback only when SDL has no mouse-focused window; valid
+captured/hovered Windows local coordinates remain authoritative. The X11
+behavior is unchanged. Only that translation unit is newly compiled on each
+platform, with the private ImGui and backend include roots first. Actual Pond
+R12/depth1 defaults and strict viewport/save/reopen QA remain byte-identical
+to v8, as does the source-floor/collision implementation.
+
+v8 is NOT an accepted release: actual Windows Water QA found the held-capture
+regression. Its frozen source/object graph remains an exact, protected build
+input for v9; successful compilation is separate from runtime acceptance. No
+v8 runtime test is rebound or inherited as a passed v9 workflow. CANDIDATE-v8
+remains an engineering candidate with no registered installed files.
+
+Root is running all six actual core cases on both final v9 executables, both
+water-motion capture pairs and both complete connected journeys. These tests
+and independent visual/animation inspection are required before installation.
+This source record does not claim their completion. Historical full-nine
+native v5 Grandstone traversal remains separate from each final four-route
+rerun. The exact package CPU review is FINAL_V9_PACKAGE_INDEPENDENT_REVIEW.json;
+candidate6 ZIP integrity is also separate from runtime/visual acceptance.
+
+Canonical source currently has 119 differences from the final manifest and
+remains untouched. Continue source work from a NEW source-copy of the accepted
+private snapshot after acceptance; do not overwrite concurrent canonical work.
+The explicit continuity Makefile/verifier explains the successor build graph
+and preserves SOURCE_PARENT.json rather than certifying a canonical merge.
+
+After root's complete seven-target installation, use the candidate9 command
+in ../FINALIZATION-COMMAND-v9.txt to prepare a NEW continuity merge proposal.
+The helper never writes CURRENT. It verifies the actual completed install,
+exact accepted report/visual references, both full-journey adapters, native
+full-source obstacle proof, active native runtime and the four known launchers
+in THAT transaction preview. In particular, the Opening launcher must be
+prepared by --opening-journey using the actual completed journey adapter; the
+earlier read-only preflight intentionally lists only three changed launchers.
+
+Root may merge only the verified nested source_continuity object into the
+unchanged installer CURRENT after checking the proposal's recorded receipt
+SHA and keeping a prior receipt backup. Preserve project/backup/QA fields.
+Then run verify_release.py verify --full-inputs. Remote Windows artist worlds
+are not falsely registered as locally installed runtime files.
+
+Imported base ground remains fixed. Atlas/source-floor NPC patrols cannot
+mix. Hardware Wine testing of the Windows PE remains separate from receiving
+physical Windows graphics/controller acceptance. No sustained FPS or universal
+AAA-quality certification is made by these engineering records.

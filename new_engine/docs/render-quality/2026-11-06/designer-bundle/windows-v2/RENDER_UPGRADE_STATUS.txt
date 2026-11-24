@@ -1,0 +1,141 @@
+{
+  "current_render_test_scope": [
+    "Actual RX5300 hardware rendered matching native before/after campsite, purchased town street and authored apartment views, plus the exact updated Windows executable under Wine at1600x900, scale1, automaticqualityoff. Root inspected captures; still-image improvements are subtle, with no AAA quality certification.",
+    "Exact final native and Windows/Wine C21 first journeys passed using ordinary SDL input: apartment cinematic, bills/TV NewGame, all three safe travelers, weapon loan, actual defeat/retry/block/victory, supplies, one-time reward, approximately490m walking and atomic town save/restore. No test pose/story/health writes.",
+    "Actual Windows/Wine selected opening, city, jungle and Grandstone seed loads passed at1600x900, scale1, automaticqualityoff with0GLerrors,0failedassets and0unresolvedtextures. These untimed scene-load checks do not claim fresh editor mouse-workflow coverage; jungle includes presentation menu over rendered scenery.",
+    "Production shader hardware fixtures passed30full compile/link cases,2796GLSL material cases and1800animated rooted-grass TRS cases across all shader variants. Local GGX probes passed HDR/mip/lobe/SH/state-restoration and200steadybind allocation checks after the portable Windows link repair.",
+    "Six separate1800frame native timing runs retained/recomputed all1680post120warmup intervals, with no capture readbacks: campsite39.80to39.61FPS,street38.55to38.46FPS,apartment59.952to59.950FPS. No material mean-frame-rate regression; apartment1percentlow40.22to38.96FPS. Outdoors remain below45FPS at these full1600x900 settings; sustained performance is not certified.",
+    "Paired baseline/candidate motion runs captured32consecutive full production display frames with profiling disabled. Root reviewed first/middle/last frames; motion readbacks make no FPS claim. Earlier rejected profiling/capture harness evidence is preserved.",
+    "Native and Windows authoring validators and saved Studio8 authoring documents remain byte-identical to accepted Landscape baseline. Prior v7 editing/save/reopen/clipboard/snap/VFX/dispatcher evidence remains identified as prior evidence; physical Windows receiving-PC GPU/input acceptance remains pending."
+  ],
+  "edition": "Valwood World Designer: Landscape and rendering, 2026-11-06",
+  "editor_executable_sha256": "a1afbc97af0a189932956ecab5c1e60fc14a95f606f98359c05141ac31cb836c",
+  "evidence": [
+    {
+      "sha256": "35b8c66da02b5d879fb946be143ae5a92ba560a6542b912a34f9459dc73d9b67",
+      "source": "docs/render-quality/2026-11-06/FINAL_GPU_ACCEPTANCE.json"
+    },
+    {
+      "sha256": "ffce3bbd9c7f811f39934cee7b801a9703b98744c5eafbe2086940866a71cb4e",
+      "source": "docs/render-quality/2026-11-06/MOTION_BATCH-v3.json"
+    },
+    {
+      "sha256": "2a235609ed66786d367b25de42f797fd9b031e1cd92972d01279c1a1ba45568c",
+      "source": "docs/render-quality/2026-11-06/TIMING_BATCH-v2.json"
+    },
+    {
+      "sha256": "ad6b195699f74ed8af2e8f7798d8d66d7557dbbd7631ba57e822e3a1789bf9f8",
+      "source": "docs/render-quality/2026-11-06/WINDOWS_FOUR_AREA_SMOKE-v2.json"
+    },
+    {
+      "sha256": "5ca81c4691098accd77a7af0060ea09bd3426e66678eda03a1ef527606423e92",
+      "source": "docs/render-quality/2026-11-06/after-native-apartment-v2/RESULTS.json"
+    },
+    {
+      "sha256": "4049c0b16d68e15879709f9a2f01139e1e514ae01d9ac5d0a699bfbd3d5f6227",
+      "source": "docs/render-quality/2026-11-06/after-native-campsite-v2/RESULTS.json"
+    },
+    {
+      "sha256": "e1c2229f29441a0060782b20727c758a6e3c66b8f332fb7207319b9872dafebb",
+      "source": "docs/render-quality/2026-11-06/after-native-street-v2/RESULTS.json"
+    },
+    {
+      "sha256": "886b5f526bbe9ceee1f28e4722cea09eeb36e104be11f8e358e2b511949c2af0",
+      "source": "docs/render-quality/2026-11-06/after-windows-apartment-v2/RESULTS.json"
+    },
+    {
+      "sha256": "9905c2b0e46270531590b1df169cfe3502d360d9e15e10302d7f5639e065121a",
+      "source": "docs/render-quality/2026-11-06/after-windows-campsite-v2/RESULTS.json"
+    },
+    {
+      "sha256": "4049776d7e47b3c3f97a14cfeb90570bf7e236dfeb816c6f08ac995d67d05d8e",
+      "source": "docs/render-quality/2026-11-06/after-windows-street-v2/RESULTS.json"
+    },
+    {
+      "sha256": "7bd7b54e942e414dd23170616644ebb4c693f14ac975bc28d5fe04f705a188c0",
+      "source": "docs/render-quality/2026-11-06/baseline-native-apartment-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "69ad54811ee9f1ac18bbe28ed9cd3e31bb3623b38dfa194b06a40e5acb588355",
+      "source": "docs/render-quality/2026-11-06/baseline-native-campsite-sequence-v3/RESULTS.json"
+    },
+    {
+      "sha256": "852e6f525f375f72d970cb898964224ec5e2a25811663b49a10cc1e9e4fdd93e",
+      "source": "docs/render-quality/2026-11-06/baseline-native-campsite-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "a258399921dd9f65d2a4c1af7b0b23b0620c95e69d4dd39d9ad1df1e2404d9ce",
+      "source": "docs/render-quality/2026-11-06/baseline-native-street-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "521b243b58bbe79770b8aadc9ed2f17269f919656d3f50f60e4f517c47f49a19",
+      "source": "docs/render-quality/2026-11-06/before-native-apartment-v1/RESULTS.json"
+    },
+    {
+      "sha256": "ca36391a13228a1b0bed0764e0e9c21ecc1874a4068f5d27ff393fcc0b5950c7",
+      "source": "docs/render-quality/2026-11-06/before-native-campsite-v1/RESULTS.json"
+    },
+    {
+      "sha256": "a9c856c5094534b47abebac31340469b85edb3ffc44c137c1a245dd67fa16f67",
+      "source": "docs/render-quality/2026-11-06/before-native-street-v1/RESULTS.json"
+    },
+    {
+      "sha256": "35fd1f62407dc44176d51138d922f2945b6753234a65a58d7b254c79da07bd99",
+      "source": "docs/render-quality/2026-11-06/candidate-native-apartment-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "ba76a11d5c36d421e469bf81b8152b48b99d66cbb72681ba008973569fd091f2",
+      "source": "docs/render-quality/2026-11-06/candidate-native-campsite-sequence-v3/RESULTS.json"
+    },
+    {
+      "sha256": "347f5f11b66f28ab97e36e9d683cc3ec776c73e6ec4c51682dae5198f19a976a",
+      "source": "docs/render-quality/2026-11-06/candidate-native-campsite-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "527da53f1f09ddd810bf7c8abb9708a6cff61e5ff9ea4a319ae2a35a33a43c16",
+      "source": "docs/render-quality/2026-11-06/candidate-native-first-journey-v2/RESULTS.json"
+    },
+    {
+      "sha256": "58bea1ff696c541f75dc4c1ae0fcf4a1eab0625d5ca1d6d41cd69e47a00670df",
+      "source": "docs/render-quality/2026-11-06/candidate-native-street-timing-v2/RESULTS.json"
+    },
+    {
+      "sha256": "687678988bd55a7a06373444740848b798cd324bb4baf89f2d1e7a526a9813b6",
+      "source": "docs/render-quality/2026-11-06/candidate-windows-city-seed-v2/RESULTS.json"
+    },
+    {
+      "sha256": "d5ec014b553fd3d01cde64953e87fac6068a435c6f030a17c77858db9fa9bc53",
+      "source": "docs/render-quality/2026-11-06/candidate-windows-first-journey-v2/RESULTS.json"
+    },
+    {
+      "sha256": "5d5144b30360fd38ad3899012c0dbe31bf7c2713d8f40706007440c2df84e57f",
+      "source": "docs/render-quality/2026-11-06/candidate-windows-grandstone-seed-v2/RESULTS.json"
+    },
+    {
+      "sha256": "b998acac4f82c4e7026b060392b26d235dfc4c52994fdb912d4d9a9e954dad8e",
+      "source": "docs/render-quality/2026-11-06/candidate-windows-jungle-seed-v2/RESULTS.json"
+    },
+    {
+      "sha256": "963b470b4280d81ac243da59d5eef579690712896cfe31625d368157c12f4b62",
+      "source": "docs/render-quality/2026-11-06/candidate-windows-opening-seed-v2/RESULTS.json"
+    },
+    {
+      "sha256": "91f54fe1d85c2649bd38e63ed202a2250d3acf76d07f20291217d359a5a7f599",
+      "source": "docs/render-quality/2026-11-06/foliage-hardware-gl.log"
+    },
+    {
+      "sha256": "0f905e14f3eaf8271334b153fdb9724dbd2fc99d6441056668a4f3666efcbaa1",
+      "source": "docs/render-quality/2026-11-06/local-probes-hardware-gl-v2.log"
+    },
+    {
+      "sha256": "069582cfdc91d3e273f8de183e81554e206300c1c8f2e670338a7762414e4af3",
+      "source": "docs/render-quality/2026-11-06/material-hardware-gl.log"
+    }
+  ],
+  "generated_growth": "Visual scenery; terrain/river collision is separate and generated trees/rocks do not add solid collision.",
+  "physical_windows_acceptance": "pending",
+  "runtime_build_plan_sha256": "91a45d524c2ef84b980b56b3688fed38435bc8ecebeb7c10e053fa2119c8611a",
+  "shader_override_receipt_sha256": "008df2ebe0ea0b92c2595ac84dcf21839d82b544eef5f90b302f0a94fa05c74b",
+  "studio_version": 8,
+  "sustained_performance_certified": false
+}

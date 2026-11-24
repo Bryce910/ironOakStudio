@@ -1,0 +1,2485 @@
+{
+  "origin_world_xz": [
+    -20600.0,
+    8946.320622878819
+  ],
+  "bounds_local_xz": [
+    -68,
+    -70,
+    68,
+    95
+  ],
+  "bounds_world": [
+    -20668.0,
+    8876.320622878819,
+    136,
+    165
+  ],
+  "height_edits": false,
+  "clearing_ellipse": {
+    "center_local_xz": [
+      0,
+      0
+    ],
+    "radii_xz": [
+      37,
+      35
+    ],
+    "feather_m": 10
+  },
+  "paths": [
+    {
+      "id": "patrol_loop",
+      "points_local_xz": [
+        [
+          0,
+          30
+        ],
+        [
+          -10,
+          18
+        ],
+        [
+          -12,
+          0
+        ],
+        [
+          -10,
+          -18
+        ],
+        [
+          0,
+          -24
+        ],
+        [
+          12,
+          -18
+        ],
+        [
+          14,
+          0
+        ],
+        [
+          12,
+          18
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "half_width_m": 2.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "south_approach",
+      "points_local_xz": [
+        [
+          0,
+          88
+        ],
+        [
+          0,
+          52
+        ],
+        [
+          0,
+          30
+        ]
+      ],
+      "half_width_m": 2.4,
+      "feather_m": 1.2
+    },
+    {
+      "id": "escape_path",
+      "points_local_xz": [
+        [
+          -10,
+          -18
+        ],
+        [
+          -25,
+          -30
+        ],
+        [
+          -42,
+          -48
+        ],
+        [
+          -53,
+          -58
+        ]
+      ],
+      "half_width_m": 1.8,
+      "feather_m": 1.2
+    }
+  ],
+  "pads": [
+    {
+      "id": "leader_hideout",
+      "center_local_xz": [
+        0,
+        -33
+      ],
+      "half_extents_xz": [
+        3.134704744815826,
+        3.6047823905944822
+      ],
+      "yaw_radians": 3.141592653589793,
+      "feather_m": 1.2
+    },
+    {
+      "id": "west_bunk_shelter",
+      "center_local_xz": [
+        -23,
+        -14
+      ],
+      "half_extents_xz": [
+        2.848269295692444,
+        3.3687061309814452
+      ],
+      "yaw_radians": 1.6580627893946132,
+      "feather_m": 1.2
+    },
+    {
+      "id": "southwest_shelter",
+      "center_local_xz": [
+        -23,
+        18
+      ],
+      "half_extents_xz": [
+        2.032392978668213,
+        2.8134275913238525
+      ],
+      "yaw_radians": 1.1344640137963142,
+      "feather_m": 1.2
+    },
+    {
+      "id": "east_bunk_shelter",
+      "center_local_xz": [
+        23,
+        15
+      ],
+      "half_extents_xz": [
+        2.932818114757538,
+        3.4732717514038085
+      ],
+      "yaw_radians": -1.6580627893946132,
+      "feather_m": 1.2
+    },
+    {
+      "id": "north_lookout",
+      "center_local_xz": [
+        26,
+        -18
+      ],
+      "half_extents_xz": [
+        3.265364284515381,
+        3.884358329772949
+      ],
+      "yaw_radians": -1.8325957145940461,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cooking_awning",
+      "center_local_xz": [
+        -26,
+        5
+      ],
+      "half_extents_xz": [
+        2.4865208983421327,
+        2.8339695930480957
+      ],
+      "yaw_radians": 1.5707963267948966,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_0",
+      "center_local_xz": [
+        -33.0,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.05905892147241715,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_1",
+      "center_local_xz": [
+        -30.9,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.04398993919365806,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_2",
+      "center_local_xz": [
+        -28.8,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.041282234794991664,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_3",
+      "center_local_xz": [
+        -26.7,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.04524126951323551,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_4",
+      "center_local_xz": [
+        -24.6,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.02045312161292427,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_5",
+      "center_local_xz": [
+        -22.5,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.024133120402896033,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_6",
+      "center_local_xz": [
+        -20.4,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.029693307736009537,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_7",
+      "center_local_xz": [
+        -18.299999999999997,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.06814094063892602,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_8",
+      "center_local_xz": [
+        -16.2,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.06742500240293661,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_9",
+      "center_local_xz": [
+        -14.099999999999998,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.05697927564749056,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_10",
+      "center_local_xz": [
+        -12.0,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.06237154364522164,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_11",
+      "center_local_xz": [
+        -9.899999999999999,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.06501994809321138,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_12",
+      "center_local_xz": [
+        -7.799999999999997,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.03972100576195012,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_20",
+      "center_local_xz": [
+        9.0,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.06099115803228495,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_21",
+      "center_local_xz": [
+        11.100000000000001,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.03798256028462788,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_22",
+      "center_local_xz": [
+        13.200000000000003,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.04421763896823201,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_23",
+      "center_local_xz": [
+        15.300000000000004,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.041055579359655515,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_24",
+      "center_local_xz": [
+        17.400000000000006,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.05398506507416713,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_25",
+      "center_local_xz": [
+        19.5,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.06270091651871204,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_26",
+      "center_local_xz": [
+        21.6,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.005330323898807849,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_27",
+      "center_local_xz": [
+        23.700000000000003,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.009591859633454058,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_28",
+      "center_local_xz": [
+        25.800000000000004,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.029400667835782414,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_29",
+      "center_local_xz": [
+        27.900000000000006,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.0648495248336886,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_30",
+      "center_local_xz": [
+        30.0,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.03987722876207432,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_34_31",
+      "center_local_xz": [
+        32.10000000000001,
+        34
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.014734534493775563,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_6",
+      "center_local_xz": [
+        -20.4,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.004145820748291107,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_7",
+      "center_local_xz": [
+        -18.299999999999997,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.03976471961376676,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_8",
+      "center_local_xz": [
+        -16.2,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.02339976394969724,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_9",
+      "center_local_xz": [
+        -14.099999999999998,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.05593272352962578,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_10",
+      "center_local_xz": [
+        -12.0,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.040926848528740116,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_11",
+      "center_local_xz": [
+        -9.899999999999999,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.0363617870596885,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_12",
+      "center_local_xz": [
+        -7.799999999999997,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.06925655029285878,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_13",
+      "center_local_xz": [
+        -5.699999999999999,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.03101160252340918,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_14",
+      "center_local_xz": [
+        -3.599999999999998,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.030403321447193633,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_15",
+      "center_local_xz": [
+        -1.5,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.03706432098176378,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_16",
+      "center_local_xz": [
+        0.6000000000000014,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.050810757277746005,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_17",
+      "center_local_xz": [
+        2.700000000000003,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.05684246106183596,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_18",
+      "center_local_xz": [
+        4.800000000000004,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.052937024751134695,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_19",
+      "center_local_xz": [
+        6.899999999999999,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.011123113282950408,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_20",
+      "center_local_xz": [
+        9.0,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.05503463165807713,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_21",
+      "center_local_xz": [
+        11.100000000000001,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.008409348320253937,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_22",
+      "center_local_xz": [
+        13.200000000000003,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.03531092425067951,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_23",
+      "center_local_xz": [
+        15.300000000000004,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.033656130040005935,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_24",
+      "center_local_xz": [
+        17.400000000000006,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.02528380201743634,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_25",
+      "center_local_xz": [
+        19.5,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.01160163328761666,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_26",
+      "center_local_xz": [
+        21.6,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.04277234244426251,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_27",
+      "center_local_xz": [
+        23.700000000000003,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.018724716651950187,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_28",
+      "center_local_xz": [
+        25.800000000000004,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.007930096597445384,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_29",
+      "center_local_xz": [
+        27.900000000000006,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": -0.0278329244093797,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_30",
+      "center_local_xz": [
+        30.0,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.029995288976978163,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_x_-35_31",
+      "center_local_xz": [
+        32.10000000000001,
+        -35
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 0.006179717300097828,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_0",
+      "center_local_xz": [
+        -35,
+        -32.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6075705929068915,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_1",
+      "center_local_xz": [
+        -35,
+        -29.9
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5186547360360665,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_2",
+      "center_local_xz": [
+        -35,
+        -27.8
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6039125843575428,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_3",
+      "center_local_xz": [
+        -35,
+        -25.7
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.564283028767789,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_4",
+      "center_local_xz": [
+        -35,
+        -23.6
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6062411151267657,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_5",
+      "center_local_xz": [
+        -35,
+        -21.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5280933906800376,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_6",
+      "center_local_xz": [
+        -35,
+        -19.4
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5207265019383875,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_7",
+      "center_local_xz": [
+        -35,
+        -17.299999999999997
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5473182297930517,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_8",
+      "center_local_xz": [
+        -35,
+        -15.2
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.602255432513993,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_9",
+      "center_local_xz": [
+        -35,
+        -13.099999999999998
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5849480454540101,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_10",
+      "center_local_xz": [
+        -35,
+        -11.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5105635465282161,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_11",
+      "center_local_xz": [
+        -35,
+        -8.899999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6211030778040008,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_12",
+      "center_local_xz": [
+        -35,
+        -6.799999999999997
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5327062487758458,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_13",
+      "center_local_xz": [
+        -35,
+        -4.699999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6337705510620162,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_14",
+      "center_local_xz": [
+        -35,
+        -2.599999999999998
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6184317449803811,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_15",
+      "center_local_xz": [
+        -35,
+        -0.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5061386928792018,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_16",
+      "center_local_xz": [
+        -35,
+        1.6000000000000014
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5570719965831084,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_17",
+      "center_local_xz": [
+        -35,
+        3.700000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5063015373258921,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_18",
+      "center_local_xz": [
+        -35,
+        5.800000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5305623574533862,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_19",
+      "center_local_xz": [
+        -35,
+        7.899999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5171275671205278,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_20",
+      "center_local_xz": [
+        -35,
+        10.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6223523454668076,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_21",
+      "center_local_xz": [
+        -35,
+        12.100000000000001
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5949218962078493,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_22",
+      "center_local_xz": [
+        -35,
+        14.200000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6099822048445174,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_23",
+      "center_local_xz": [
+        -35,
+        16.300000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6276546843900117,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_24",
+      "center_local_xz": [
+        -35,
+        18.400000000000006
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5548959524767574,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_25",
+      "center_local_xz": [
+        -35,
+        20.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5408085456246727,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_26",
+      "center_local_xz": [
+        -35,
+        22.6
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6358248981947103,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_27",
+      "center_local_xz": [
+        -35,
+        24.700000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5243477788280337,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_28",
+      "center_local_xz": [
+        -35,
+        26.800000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6218260402671483,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_29",
+      "center_local_xz": [
+        -35,
+        28.900000000000006
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5202652971777237,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_-35_30",
+      "center_local_xz": [
+        -35,
+        31.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6092553409932087,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_0",
+      "center_local_xz": [
+        35,
+        -32.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6293958921621747,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_1",
+      "center_local_xz": [
+        35,
+        -29.9
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6243389729449038,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_2",
+      "center_local_xz": [
+        35,
+        -27.8
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.609150918372348,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_3",
+      "center_local_xz": [
+        35,
+        -25.7
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5997514306041964,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_4",
+      "center_local_xz": [
+        35,
+        -23.6
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6147887453204388,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_5",
+      "center_local_xz": [
+        35,
+        -21.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5850531799204666,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_6",
+      "center_local_xz": [
+        35,
+        -19.4
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5115693206907301,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_7",
+      "center_local_xz": [
+        35,
+        -17.299999999999997
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.501982228800522,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_8",
+      "center_local_xz": [
+        35,
+        -15.2
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5325095345433013,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_9",
+      "center_local_xz": [
+        35,
+        -13.099999999999998
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5117889176039558,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_10",
+      "center_local_xz": [
+        35,
+        -11.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6150233123932876,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_11",
+      "center_local_xz": [
+        35,
+        -8.899999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.524776831112984,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_12",
+      "center_local_xz": [
+        35,
+        -6.799999999999997
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6228421362918293,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_13",
+      "center_local_xz": [
+        35,
+        -4.699999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5062925814916763,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_14",
+      "center_local_xz": [
+        35,
+        -2.599999999999998
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5116950622778114,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_15",
+      "center_local_xz": [
+        35,
+        -0.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.620050072994875,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_16",
+      "center_local_xz": [
+        35,
+        1.6000000000000014
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5983428545458713,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_17",
+      "center_local_xz": [
+        35,
+        3.700000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5721286779667298,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_18",
+      "center_local_xz": [
+        35,
+        5.800000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6040247865912596,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_19",
+      "center_local_xz": [
+        35,
+        7.899999999999999
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.54379235489662,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_20",
+      "center_local_xz": [
+        35,
+        10.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5884106489435579,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_21",
+      "center_local_xz": [
+        35,
+        12.100000000000001
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6136636373200355,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_22",
+      "center_local_xz": [
+        35,
+        14.200000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5445479901769372,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_23",
+      "center_local_xz": [
+        35,
+        16.300000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5756895925494978,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_24",
+      "center_local_xz": [
+        35,
+        18.400000000000006
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5598556332232658,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_25",
+      "center_local_xz": [
+        35,
+        20.5
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.6030000012161791,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_26",
+      "center_local_xz": [
+        35,
+        22.6
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.505526012257864,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_27",
+      "center_local_xz": [
+        35,
+        24.700000000000003
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5192655763758645,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_28",
+      "center_local_xz": [
+        35,
+        26.800000000000004
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5943016791197455,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_29",
+      "center_local_xz": [
+        35,
+        28.900000000000006
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5979555196742552,
+      "feather_m": 1.2
+    },
+    {
+      "id": "perimeter_z_35_30",
+      "center_local_xz": [
+        35,
+        31.0
+      ],
+      "half_extents_xz": [
+        1.6780999928712843,
+        0.7580999962985515
+      ],
+      "yaw_radians": 1.5285335175625632,
+      "feather_m": 1.2
+    },
+    {
+      "id": "log_barricade_0",
+      "center_local_xz": [
+        -8,
+        34
+      ],
+      "half_extents_xz": [
+        0.9852910190820694,
+        1.8708425283432009
+      ],
+      "yaw_radians": 0.2617993877991494,
+      "feather_m": 1.2
+    },
+    {
+      "id": "log_barricade_1",
+      "center_local_xz": [
+        8,
+        34
+      ],
+      "half_extents_xz": [
+        0.9852910190820694,
+        1.8708425283432009
+      ],
+      "yaw_radians": -0.2617993877991494,
+      "feather_m": 1.2
+    },
+    {
+      "id": "log_barricade_2",
+      "center_local_xz": [
+        -33,
+        -21
+      ],
+      "half_extents_xz": [
+        0.9852910190820694,
+        1.8708425283432009
+      ],
+      "yaw_radians": 1.6580627893946132,
+      "feather_m": 1.2
+    },
+    {
+      "id": "log_barricade_3",
+      "center_local_xz": [
+        33,
+        25
+      ],
+      "half_extents_xz": [
+        0.9852910190820694,
+        1.8708425283432009
+      ],
+      "yaw_radians": 1.3962634015954636,
+      "feather_m": 1.2
+    },
+    {
+      "id": "main_hearth",
+      "center_local_xz": [
+        0,
+        0
+      ],
+      "half_extents_xz": [
+        1.5553101390600204,
+        1.5457715332508086
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "hearth_fuel",
+      "center_local_xz": [
+        0,
+        0
+      ],
+      "half_extents_xz": [
+        0.7475392055511475,
+        1.0051541900634766
+      ],
+      "yaw_radians": 1.1868238913561442,
+      "feather_m": 1.2
+    },
+    {
+      "id": "hearth_seat_0",
+      "center_local_xz": [
+        -3,
+        0
+      ],
+      "half_extents_xz": [
+        1.7600000143051147,
+        0.9498739629983902
+      ],
+      "yaw_radians": 1.5707963267948966,
+      "feather_m": 1.2
+    },
+    {
+      "id": "hearth_seat_1",
+      "center_local_xz": [
+        3,
+        0
+      ],
+      "half_extents_xz": [
+        1.7600000143051147,
+        0.9498739629983902
+      ],
+      "yaw_radians": -1.5707963267948966,
+      "feather_m": 1.2
+    },
+    {
+      "id": "hearth_seat_2",
+      "center_local_xz": [
+        0,
+        -3
+      ],
+      "half_extents_xz": [
+        1.7600000143051147,
+        0.9498739629983902
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cooking_hearth",
+      "center_local_xz": [
+        -20,
+        5
+      ],
+      "half_extents_xz": [
+        1.229398488998413,
+        1.2232937812805176
+      ],
+      "yaw_radians": 0.2617993877991494,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cooking_fuel",
+      "center_local_xz": [
+        -20,
+        5
+      ],
+      "half_extents_xz": [
+        0.7170582038164139,
+        0.8941685056686401
+      ],
+      "yaw_radians": 0.3490658503988659,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_table",
+      "center_local_xz": [
+        -24,
+        8
+      ],
+      "half_extents_xz": [
+        1.6024147391319274,
+        1.934490066766739
+      ],
+      "yaw_radians": 1.5707963267948966,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_table_food_0",
+      "center_local_xz": [
+        -24.4,
+        8
+      ],
+      "half_extents_xz": [
+        0.8392766237258912,
+        0.8392008647322655
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_table_food_1",
+      "center_local_xz": [
+        -24,
+        8.4
+      ],
+      "half_extents_xz": [
+        0.7855646103620529,
+        0.7851636603474618
+      ],
+      "yaw_radians": 1.3439035240356338,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_table_food_2",
+      "center_local_xz": [
+        -23.7,
+        7.7
+      ],
+      "half_extents_xz": [
+        0.8309143543243409,
+        0.8300768077373505
+      ],
+      "yaw_radians": 2.6878070480712677,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_table_food_3",
+      "center_local_xz": [
+        -24.5,
+        8.5
+      ],
+      "half_extents_xz": [
+        0.76625155210495,
+        0.7334443673491479
+      ],
+      "yaw_radians": 4.031710572106901,
+      "feather_m": 1.2
+    },
+    {
+      "id": "kitchen_cask_0",
+      "center_local_xz": [
+        -22,
+        10
+      ],
+      "half_extents_xz": [
+        0.865766254067421,
+        0.8687668949365617
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "kitchen_cask_1",
+      "center_local_xz": [
+        -24,
+        11
+      ],
+      "half_extents_xz": [
+        0.865766254067421,
+        0.8687668949365617
+      ],
+      "yaw_radians": 0.5410520681182421,
+      "feather_m": 1.2
+    },
+    {
+      "id": "kitchen_cask_2",
+      "center_local_xz": [
+        -27,
+        9
+      ],
+      "half_extents_xz": [
+        0.865766254067421,
+        0.8687668949365617
+      ],
+      "yaw_radians": 1.0821041362364843,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_water_bucket",
+      "center_local_xz": [
+        -18.5,
+        7
+      ],
+      "half_extents_xz": [
+        0.8334854185581207,
+        0.821110600233078
+      ],
+      "yaw_radians": 0.20943951023931956,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cook_firepoker",
+      "center_local_xz": [
+        -21.6,
+        6.3
+      ],
+      "half_extents_xz": [
+        0.6955325931310654,
+        0.7576226234436035
+      ],
+      "yaw_radians": 0.8377580409572782,
+      "feather_m": 1.2
+    },
+    {
+      "id": "stolen_wagon",
+      "center_local_xz": [
+        27,
+        5
+      ],
+      "half_extents_xz": [
+        2.4900000274181364,
+        1.6505000054836274
+      ],
+      "yaw_radians": 0.20943951023931956,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_0",
+      "center_local_xz": [
+        25,
+        0
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_1",
+      "center_local_xz": [
+        26.2,
+        -0.2
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.19198621771937624,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_2",
+      "center_local_xz": [
+        27.3,
+        -0.1
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.3839724354387525,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_3",
+      "center_local_xz": [
+        25.2,
+        -1.5
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.5759586531581288,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_4",
+      "center_local_xz": [
+        26.4,
+        -1.5
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.767944870877505,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_5",
+      "center_local_xz": [
+        24,
+        -1.3
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.9599310885968813,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_crate_stack",
+      "center_local_xz": [
+        25,
+        0
+      ],
+      "half_extents_xz": [
+        1.0799031049013137,
+        1.0800034195184707
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_sack_0",
+      "center_local_xz": [
+        23,
+        -3
+      ],
+      "half_extents_xz": [
+        0.9565899014472962,
+        0.9982201099395752
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_sack_1",
+      "center_local_xz": [
+        24.2,
+        -3.3
+      ],
+      "half_extents_xz": [
+        0.9565899014472962,
+        0.9982201099395752
+      ],
+      "yaw_radians": 0.7155849933176751,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_sack_2",
+      "center_local_xz": [
+        25.6,
+        -3.6
+      ],
+      "half_extents_xz": [
+        0.9565899014472962,
+        0.9982201099395752
+      ],
+      "yaw_radians": 1.4311699866353502,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_sack_3",
+      "center_local_xz": [
+        27,
+        -3.7
+      ],
+      "half_extents_xz": [
+        0.9565899014472962,
+        0.9982201099395752
+      ],
+      "yaw_radians": 2.1467549799530254,
+      "feather_m": 1.2
+    },
+    {
+      "id": "loot_sack_4",
+      "center_local_xz": [
+        28,
+        -2.6
+      ],
+      "half_extents_xz": [
+        0.9565899014472962,
+        0.9982201099395752
+      ],
+      "yaw_radians": 2.8623399732707004,
+      "feather_m": 1.2
+    },
+    {
+      "id": "stolen_ale_0",
+      "center_local_xz": [
+        29,
+        0
+      ],
+      "half_extents_xz": [
+        1.047496998310089,
+        1.048211359977722
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "stolen_ale_1",
+      "center_local_xz": [
+        30.1,
+        0.4
+      ],
+      "half_extents_xz": [
+        1.047496998310089,
+        1.048211359977722
+      ],
+      "yaw_radians": 0.5759586531581288,
+      "feather_m": 1.2
+    },
+    {
+      "id": "stolen_ale_2",
+      "center_local_xz": [
+        30.4,
+        1.7
+      ],
+      "half_extents_xz": [
+        1.047496998310089,
+        1.048211359977722
+      ],
+      "yaw_radians": 1.1519173063162575,
+      "feather_m": 1.2
+    },
+    {
+      "id": "cargo_rope",
+      "center_local_xz": [
+        27,
+        2
+      ],
+      "half_extents_xz": [
+        0.6762599000707269,
+        0.9323420003056526
+      ],
+      "yaw_radians": 0.4886921905584123,
+      "feather_m": 1.2
+    },
+    {
+      "id": "raided_weapon_rack",
+      "center_local_xz": [
+        29,
+        -10
+      ],
+      "half_extents_xz": [
+        1.8740000128746033,
+        1.054999989271164
+      ],
+      "yaw_radians": 3.141592653589793,
+      "feather_m": 1.2
+    },
+    {
+      "id": "leader_plunder_chest",
+      "center_local_xz": [
+        3,
+        -31
+      ],
+      "half_extents_xz": [
+        1.155768358707428,
+        1.1558863759040832
+      ],
+      "yaw_radians": 0.20943951023931956,
+      "feather_m": 1.2
+    },
+    {
+      "id": "leader_ale",
+      "center_local_xz": [
+        -4,
+        -32
+      ],
+      "half_extents_xz": [
+        1.0077472984790803,
+        1.00839022397995
+      ],
+      "yaw_radians": -0.20943951023931956,
+      "feather_m": 1.2
+    },
+    {
+      "id": "leader_table",
+      "center_local_xz": [
+        0,
+        -28
+      ],
+      "half_extents_xz": [
+        1.434341549873352,
+        1.7078153491020203
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "leader_cup",
+      "center_local_xz": [
+        0.3,
+        -28
+      ],
+      "half_extents_xz": [
+        0.7791683912277222,
+        0.7427159637212754
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_sack_0",
+      "center_local_xz": [
+        -25,
+        -17
+      ],
+      "half_extents_xz": [
+        0.9106014162302017,
+        0.945987093448639
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_sack_1",
+      "center_local_xz": [
+        -26,
+        -14
+      ],
+      "half_extents_xz": [
+        0.9106014162302017,
+        0.945987093448639
+      ],
+      "yaw_radians": 1.1519173063162575,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_sack_2",
+      "center_local_xz": [
+        25,
+        19
+      ],
+      "half_extents_xz": [
+        0.9106014162302017,
+        0.945987093448639
+      ],
+      "yaw_radians": 2.303834612632515,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_sack_3",
+      "center_local_xz": [
+        25,
+        17
+      ],
+      "half_extents_xz": [
+        0.9106014162302017,
+        0.945987093448639
+      ],
+      "yaw_radians": 3.4557519189487724,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_sack_4",
+      "center_local_xz": [
+        -23,
+        21
+      ],
+      "half_extents_xz": [
+        0.9106014162302017,
+        0.945987093448639
+      ],
+      "yaw_radians": 4.60766922526503,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_barrel_0",
+      "center_local_xz": [
+        -26,
+        -11
+      ],
+      "half_extents_xz": [
+        0.8417922258377075,
+        0.8444594621658326
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_barrel_1",
+      "center_local_xz": [
+        26,
+        14
+      ],
+      "half_extents_xz": [
+        0.8417922258377075,
+        0.8444594621658326
+      ],
+      "yaw_radians": 0.5410520681182421,
+      "feather_m": 1.2
+    },
+    {
+      "id": "bunk_barrel_2",
+      "center_local_xz": [
+        -24,
+        17
+      ],
+      "half_extents_xz": [
+        0.8417922258377075,
+        0.8444594621658326
+      ],
+      "yaw_radians": 1.0821041362364843,
+      "feather_m": 1.2
+    },
+    {
+      "id": "wood_store_0",
+      "center_local_xz": [
+        -30,
+        -3
+      ],
+      "half_extents_xz": [
+        0.9548100173473358,
+        1.7598568439483642
+      ],
+      "yaw_radians": 0.13962634015954636,
+      "feather_m": 1.2
+    },
+    {
+      "id": "wood_store_1",
+      "center_local_xz": [
+        -30,
+        -0.8
+      ],
+      "half_extents_xz": [
+        0.9548100173473358,
+        1.7598568439483642
+      ],
+      "yaw_radians": 0.19198621771937624,
+      "feather_m": 1.2
+    },
+    {
+      "id": "wood_store_2",
+      "center_local_xz": [
+        -30,
+        1.4
+      ],
+      "half_extents_xz": [
+        0.9548100173473358,
+        1.7598568439483642
+      ],
+      "yaw_radians": 0.24434609527920614,
+      "feather_m": 1.2
+    },
+    {
+      "id": "wood_chopping_block",
+      "center_local_xz": [
+        -27,
+        -4
+      ],
+      "half_extents_xz": [
+        1.4336796879768372,
+        1.5243197143077851
+      ],
+      "yaw_radians": 0.12217304763960307,
+      "feather_m": 1.2
+    },
+    {
+      "id": "wood_axe",
+      "center_local_xz": [
+        -27,
+        -4
+      ],
+      "half_extents_xz": [
+        0.6703615128993988,
+        0.7402946829795838
+      ],
+      "yaw_radians": 0.4363323129985824,
+      "feather_m": 1.2
+    },
+    {
+      "id": "working_tool_0",
+      "center_local_xz": [
+        -29,
+        -5
+      ],
+      "half_extents_xz": [
+        0.7551630139350891,
+        0.8338353753089905
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "working_tool_1",
+      "center_local_xz": [
+        -29.6,
+        -4
+      ],
+      "half_extents_xz": [
+        0.778031849861145,
+        0.7771426320075989
+      ],
+      "yaw_radians": 0.9948376736367679,
+      "feather_m": 1.2
+    },
+    {
+      "id": "working_tool_2",
+      "center_local_xz": [
+        26,
+        3
+      ],
+      "half_extents_xz": [
+        0.7472266376018525,
+        0.7635374784469605
+      ],
+      "yaw_radians": 1.9896753472735358,
+      "feather_m": 1.2
+    },
+    {
+      "id": "gate_west_fire",
+      "center_local_xz": [
+        -6,
+        30
+      ],
+      "half_extents_xz": [
+        0.7871766126155854,
+        0.7850932121276856
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "gate_east_fire",
+      "center_local_xz": [
+        6,
+        30
+      ],
+      "half_extents_xz": [
+        0.7871766126155854,
+        0.7850932121276856
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "leader_brazier",
+      "center_local_xz": [
+        5,
+        -31
+      ],
+      "half_extents_xz": [
+        1.3834524989128112,
+        1.3841933846473693
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    },
+    {
+      "id": "lookout_fire",
+      "center_local_xz": [
+        29,
+        -23
+      ],
+      "half_extents_xz": [
+        0.7871766126155854,
+        0.7850932121276856
+      ],
+      "yaw_radians": 0.0,
+      "feather_m": 1.2
+    }
+  ]
+}

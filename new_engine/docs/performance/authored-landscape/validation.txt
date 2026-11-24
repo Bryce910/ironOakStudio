@@ -1,0 +1,189 @@
+VALWOOD AUTHORED-LANDSCAPE VALIDATION
+Assembled UTC: 2026-10-24T05:29:44.861578+00:00
+
+STATUS AND SCOPE
+Functional validation: PASS. Release build, strict viewer compilation and the
+complete make test suite passed after the visibility-selection caches were
+added. These build/test exit statuses were confirmed by the root agent; the
+reports below were also inspected for their completed assertions/results.
+This document records correctness, asset and preservation checks. It does not
+convert test runtimes or fixture frame counts into a game FPS claim.
+Final controlled native performance measurements are collected separately for
+forest, lake, ridge, coast and the fifteen-landmark tour. The first five-view
+run is archived in before-selection-cache/; it predates the selection caches.
+Refer to the final per-view JSON/CSV and RESULTS.md for measured performance.
+This audit started no builds, tests, cooks or additional native rendering
+workloads during the final controlled benchmark.
+
+BUILD AND COMPLETE SUITE
+PASS: release build and link, engine/world_viewer.cpp included.
+  Evidence: /tmp/valwood-authored-final-build.log
+PASS: strict viewer compilation with warnings treated as errors.
+  Evidence: /tmp/valwood-authored-strict-viewer.log (empty diagnostics, exit 0).
+PASS: complete make test suite after final selection-cache changes.
+  Evidence: /tmp/valwood-authored-final-tests.log
+The full suite includes project/CLI validation and import ownership; audio
+shutdown/reinitialization; studio integration and shader compilation; grass
+scatter; profiler/tail statistics; temporal math and GL; authored scenery CPU
+and GL; exact shared-texture ownership/pixels; terrain/static PBR image cases;
+SSAO image equivalence; atlas, tile streaming, ecology, walking; real model GL
+fixtures; and the actual atlas/mesh LOD interfaces.
+Expected invalid-input diagnostics in these logs are exercised rejection cases.
+Optional audio/terrain fallbacks in isolated fixtures are not suite failures.
+
+ATLAS, STREAMING, WALKING AND ECOLOGY
+PASS: unchanged map-water samples, fifteen dry landmarks, twelve fixed town
+foundations, natural northwest settlement grades, coordinate round trips,
+finite bounds, continuous district edges and one-ULP corners, deterministic
+shutdown/reinitialization, and the eight-hour width/speed calibration
+(100.8 km at 3.5 m/s). This is not a validated continuous land route or an
+eight-hour performance soak.
+PASS: three bounded authored districts with a 2,282.2 m analytic trail; actual
+one-meter trail grade at most 0.152, clear entrance and projecting crag/gully
+relief. These tests inspect the real continuous atlas, not a copied heightfield.
+PASS: bounded streaming pool/queues, negative tile coordinates, coarse-first
+coverage, shared seam normals, actual generated bounds/indices, cancellation,
+reset and shutdown.
+PASS: 32-cell and 64-cell actual meshes. Every possible near-interface vertex
+through the authored districts and every far-interface vertex across the
+atlas plus ocean guard are covered by their actual generated skirts:
+  LOD pair          cells32 max gap   cells64 max gap   covering skirt
+  0/1 authored          1.699 m             0.717 m             24 m
+  1/2 authored          3.312 m             1.511 m             24 m
+  2/3 authored          5.124 m             3.312 m             24 m
+  3/4 authored         13.413 m             5.124 m             24 m
+  4/5 full atlas       22.489 m            17.897 m             24 m
+  5/6 full atlas       56.681 m            22.489 m             96 m
+PASS: actual walking helper at 45/60/mixed update rates, threshold slopes,
+diagonal speed, downhill movement, short rises and invalid inputs.
+PASS: deterministic cover roots, independent anchors, cancellation, water
+exclusion, capacity limits and 4096-candidate pump bound. Exact trail weight
+excludes grass/trees/rocks/ferns. The glade retains 13,052 grass roots within
+3–8 m of the path shoulders and 45,989 meadow roots; 4,835 protected grass roots
+survive its anchor shift. The exposed Ulasse buttress receives zero grass.
+The original overlapping-field check retains 4,101 protected grass roots and
+314 trees. Selection caches retain per-frame streaming/polling, current camera
+transforms, wind, jitter and rendering; final source was reviewed separately.
+
+TARGETED ADDRESS/UNDEFINED BEHAVIOR SANITIZERS
+PASS atlas and real 32/64-cell LOD tests:
+  /tmp/valwood-authored-atlas-sanitizers.log
+  /tmp/run-valwood-authored-atlas-sanitizers.sh
+  C11, -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined
+  -fno-omit-frame-pointer -I.; atlas/tiles and their real tests instrumented.
+  ASAN_OPTIONS=detect_leaks=0:halt_on_error=1
+  UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1
+PASS ecology and protected-root/trail tests:
+  /tmp/valwood-ecology-sanitizers.log
+  /tmp/run-valwood-ecology-sanitizers.sh
+  Atlas C11 object and C++17 cover/test instrumented with the same flags and
+  ASAN/UBSAN environment above. This includes the weights-only mask API.
+PASS authored scenery CPU grounding/ownership/transaction tests:
+  /tmp/valwood-world-scenery-grounding-asan-test.log
+  Atlas: cc -std=c99 -O1 -g -Wall -Wextra -Werror
+    -fsanitize=address,undefined -fno-omit-frame-pointer -I.
+    -c engine/world_atlas.c -o /tmp/valwood-scenery-atlas-asan.o
+  Test/module: c++ -std=c++17 with the same instrumentation flags,
+    tests/world_scenery_test.cpp engine/world_scenery.cpp
+    /tmp/valwood-scenery-atlas-asan.o -lm
+  ASAN_OPTIONS=detect_leaks=0; no additional suppression.
+LeakSanitizer is disabled because the tool execution environment uses ptrace.
+The sanitizer runs target the named modules; this is not a claim that the
+entire interactive engine was run under all sanitizers. Final full-suite and
+native checks are separate evidence, including changes after targeted runs.
+
+NATIVE OPENGL FIXTURES
+Renderer: AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64,
+7.0.0-38-generic), as reported in the native fixture logs.
+PASS temporal fixture:
+  /tmp/valwood-authored-final-temporal-native.log
+  Actual shaders, history accumulation/reactive pixels, geometry/sky depth
+  disocclusion, cuts, half-texel bounds, neighborhood clamp, jitter convergence,
+  resize, held output and teardown. Diagonal variance 9.437500 raw versus
+  0.041562 resolved is an image-stability check, not an FPS measurement.
+PASS authored scenery fixture:
+  /tmp/valwood-authored-final-scenery-native.log
+  Actual model bounds/trail clearance, partial-load cleanup, four destinations,
+  real color/shadow shaders, stable uploads, zero GL errors and texture owners.
+PASS real-model fixture:
+  /tmp/valwood-authored-final-models-native.log
+  28 real assets: 21 cinematic plus seven legacy. Source bounds, triangle/image
+  constraints, 3.2 m/10 m card fade, color/shadow pixels, invalid instances,
+  alternating programs and shared-texture teardown all pass.
+The final make test log repeats the native fixture checks after cache changes.
+
+ASSET AND GROUNDING VALIDATION
+PASS: all 21 cinematic GLBs satisfy runtime geometry/embedded-image limits;
+near/mid variants retain shared embedded image bytes.
+  Evidence: /tmp/valwood-authored-asset-validation.log
+Mature pine near/mid: 17,779/3,749 triangles; fir 17,766/3,879.
+Broadleaf near/mid: 18,300/3,249; young pine 17,667/3,100.
+All four far trees use two triangles. Three scanned grass clumps have
+420/500/450 triangles; deadwood near/mid 6,500/1,500.
+The authored composition has 283 placements: 26 trees and 257 props, 21 groups.
+PASS dense rigid grounding on 89 props:
+  CPU/model-stub regression uses an independent 33×9 rotated/scaled footprint
+  scan; worst support gap −0.170 m. Actual-model GL fixture independently scans
+  loaded model bounds at no more than 0.5 m spacing; worst gap −0.168 m.
+  Negative means embedded support, not a positive floating gap.
+PASS negative control (expected failure):
+  /tmp/valwood-scenery-grounding-negative-control.log
+  A temporary /tmp copy of world_scenery.cpp changed only the final supported
+  placement assignment into a discarded helper call, retaining the old center
+  height-minus-burial pose. The current CPU test then exited nonzero at the
+  independent max_support_gap<=.015f assertion. Its old center-only cliff gap
+  was 3.768 m. The harness verified the expected assertion; production source
+  was never reverted. This demonstrates that the regression catches the old
+  floating-cliff behavior rather than merely mirroring the new implementation.
+
+PRESERVATION
+PASS: 37/38 Seldonne root baseline files are byte-identical.
+All 35 authored-world/assets checked are unchanged. The only changed
+root file is projects/seldonne/equip_debug.log, a runtime diagnostic. UI layouts
+are separately classified and are unchanged. No log/layout was restored.
+PASS: original Desktop/Valwood-Map.jpg and retained world assets/map.jpg have
+identical SHA256:
+  1323e072540d785833b3af792bf782d46f43a15350c0711f50308dad53704086
+PASS: all seven archived conifer GLB/manifest backups exactly match their
+before/models/baseline_hashes.json sizes and hashes. Current cooked scenery
+assets intentionally differ from those historical backups.
+Machine-readable per-file baseline/current hashes are in preservation.json.
+
+EVIDENCE LOG FINGERPRINTS AT ASSEMBLY
+/tmp/valwood-authored-final-build.log
+  bytes=1581 sha256=244ba942cff1eee032e0e35d5a5e9b1e123deefe908162af2e63fb9df0496946
+/tmp/valwood-authored-strict-viewer.log
+  bytes=0 sha256=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+/tmp/valwood-authored-final-tests.log
+  bytes=40827 sha256=969cdbacd9ac6f657152b83d010033b3848d3a86f514f82efa7640b20bd15443
+/tmp/valwood-authored-final-temporal-native.log
+  bytes=334 sha256=ec0364f3d85e974589a4e5cd45905efe4fd54e4d5f7415e2cf35c5abc7d4d199
+/tmp/valwood-authored-final-scenery-native.log
+  bytes=5380 sha256=0cfc9b11814c73f053ab805027e92b51071b8e9ee154b0625fbacdd8c4e56267
+/tmp/valwood-authored-final-models-native.log
+  bytes=7844 sha256=715ee33e6b42a29778d1bd37a72660ee4ad693949223979a66e7996f48415e65
+/tmp/valwood-authored-atlas-sanitizers.log
+  bytes=2952 sha256=694592ae3d56d80601f40f38a09bf51c8af87c20564418fb7de7657cccbfe3dc
+/tmp/valwood-ecology-sanitizers.log
+  bytes=1216 sha256=2968e2016f3d6abae068dd33a51d606da9075fb4a03bf0dd7e2d7ab167facde4
+/tmp/valwood-world-scenery-grounding-asan-test.log
+  bytes=1185 sha256=c158d563489e4a292328e18e025e24679e8d69f55d3327500235a3355de1aa48
+/tmp/valwood-authored-asset-validation.log
+  bytes=1324 sha256=02b52e40f20cb44c192eab370bf827306ba53237cf46e5d32122ece0f903132d
+/tmp/valwood-scenery-grounding-negative-control.log
+  bytes=1063 sha256=e6bde53ecffa1b8dc6aa685e338465925535ff755a9f63831755f13258ef090b
+
+FINAL NATIVE PERFORMANCE DRIVER
+The sequential five-route benchmark exited0 after this audit was assembled.
+Its exact JSON/CSV results and limitations are recorded in RESULTS.md.
+
+Native scenery check: forest 3600 frames
+{"scene": "forest", "mean_fps": 59.95, "one_percent_low_fps": 57.78, "p99_ms": 16.751, "max_ms": 23.508, "within_45fps_budget_percent": 99.943, "mean_render_total_gpu_ms": 12.091, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: lake 3600 frames
+{"scene": "lake", "mean_fps": 59.95, "one_percent_low_fps": 59.09, "p99_ms": 16.722, "max_ms": 23.117, "within_45fps_budget_percent": 99.971, "mean_render_total_gpu_ms": 12.609, "mean_reflection_gpu_ms": 1.118, "loading_frames": 0}
+Native scenery check: ridge 1800 frames
+{"scene": "ridge", "mean_fps": 59.95, "one_percent_low_fps": 57.25, "p99_ms": 16.725, "max_ms": 23.035, "within_45fps_budget_percent": 99.881, "mean_render_total_gpu_ms": 12.254, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: coast 1800 frames
+{"scene": "coast", "mean_fps": 59.95, "one_percent_low_fps": 57.91, "p99_ms": 16.73, "max_ms": 22.985, "within_45fps_budget_percent": 99.94, "mean_render_total_gpu_ms": 11.966, "mean_reflection_gpu_ms": 1.131, "loading_frames": 0}
+Native scenery check: tour 5400 frames
+{"scene": "tour", "mean_fps": 59.95, "one_percent_low_fps": 58.4, "p99_ms": 16.752, "max_ms": 23.128, "within_45fps_budget_percent": 99.962, "mean_render_total_gpu_ms": 8.121, "mean_reflection_gpu_ms": 0.311, "loading_frames": 1911}

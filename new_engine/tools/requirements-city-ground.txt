@@ -1,0 +1,2 @@
+# Offline exact terrain/paving clipping; not a runtime game dependency.
+shapely==2.2.0

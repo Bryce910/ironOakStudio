@@ -1,0 +1,908 @@
+# BEP environment composition v1 — source-authentic purchased meshes
+# alias map_u map_v yaw_degrees scale burial_meters
+# Original six scenery files and all public routes remain untouched.
+# Creek plants are OUTSIDE the outer town wall; no planted water roots.
+# Full bounds checked against structures, routes, terrain and local water.
+
+# Pocket: western_garden
+bep_structure_storehouse 0.4852043651 0.3230154048 0.00000 1.000000 1.060 # garden_storehouse
+bep_structure_well 0.4854027778 0.3231212085 15.00000 1.000000 0.760 # garden_well
+bep_prop_bucket 0.4854345238 0.3231264987 12.00000 0.850000 0.015 # garden_well_bucket
+bep_prop_bench 0.4853234127 0.3231388424 0.00000 1.000000 0.020 # garden_rest_bench
+bep_prop_chest 0.4852589286 0.3230594897 23.00000 0.920000 0.015 # garden_delivery_chest
+bep_prop_barrel 0.4852539683 0.3229801369 15.00000 0.950000 0.015 # garden_cask_a
+bep_prop_barrel 0.4852559524 0.3229536860 -22.00000 0.850000 0.015 # garden_cask_b
+bep_prop_fence 0.4852142857 0.3231741103 0.00000 0.850000 0.030 # garden_boundary_a
+bep_prop_fence 0.4852569444 0.3231741103 0.00000 0.850000 0.030 # garden_boundary_b
+bep_prop_fence_broken 0.4851696429 0.3231741103 0.00000 0.850000 0.030 # garden_boundary_broken
+bep_prop_bench 0.4886170635 0.3228919672 -180.00000 1.000000 0.020 # east_garden_seat
+bep_prop_bucket 0.4886001984 0.3228937306 6.00000 0.900000 0.015 # east_garden_water
+bep_prop_fence 0.4886269841 0.3231564764 0.00000 0.850000 0.030 # east_garden_boundary_a
+bep_prop_fence 0.4886696429 0.3231564764 0.00000 0.850000 0.030 # east_garden_boundary_b
+bep_prop_fence_broken 0.4887142857 0.3231564764 0.00000 0.850000 0.030 # east_garden_boundary_broken
+bep_prop_barrel 0.4885773810 0.3230506727 23.00000 1.000000 0.015 # east_garden_cask_a
+bep_prop_barrel 0.4885932540 0.3230594897 -13.00000 0.900000 0.015 # east_garden_cask_b
+bep_prop_chest 0.4885694444 0.3229801369 9.00000 0.850000 0.015 # east_garden_chest
+bep_prop_bench 0.4888154762 0.3180426320 90.00000 1.000000 0.020 # north_verge_seat
+bep_prop_bucket 0.4888174603 0.3180056007 16.00000 0.850000 0.015 # north_verge_bucket
+bep_prop_chest 0.4855218254 0.3179015604 0.00000 0.850000 0.015 # tavern_back_chest
+bep_prop_barrel 0.4855009921 0.3178839265 18.00000 0.920000 0.015 # tavern_back_cask
+bep_prop_bucket 0.4855357143 0.3178821631 -12.00000 0.850000 0.015 # tavern_back_bucket
+bep_prop_bench 0.4851448413 0.3200176339 90.00000 0.900000 0.020 # residents_garden_seat
+
+# Pocket: tavern_west_green
+bep_nature_clover 0.4851569034 0.3184938316 -61.99838 0.857721 0.008 # tavern_west_green_000
+bep_nature_grass_broad 0.4851385195 0.3186838651 -78.59268 0.772322 0.008 # tavern_west_green_001
+bep_nature_clover 0.4851520227 0.3186272630 -114.68767 0.893254 0.008 # tavern_west_green_002
+bep_nature_fern 0.4851590085 0.3185755469 -12.23572 0.653221 0.008 # tavern_west_green_003
+bep_nature_clover 0.4851365935 0.3185779416 151.58234 0.775378 0.008 # tavern_west_green_004
+bep_nature_grass_broad 0.4851618148 0.3183564034 79.55819 0.867831 0.008 # tavern_west_green_005
+bep_nature_clover 0.4851881830 0.3185929213 -54.52990 0.911711 0.008 # tavern_west_green_006
+bep_nature_fern 0.4851497805 0.3185568067 -104.83195 0.730582 0.008 # tavern_west_green_007
+bep_nature_clover 0.4851574483 0.3184815241 46.62934 0.666757 0.008 # tavern_west_green_008
+bep_nature_grass_broad 0.4851856591 0.3185736166 -72.39965 0.901701 0.008 # tavern_west_green_009
+bep_nature_clover 0.4851428161 0.3185251198 -126.59109 0.757165 0.008 # tavern_west_green_010
+bep_nature_fern 0.4851316641 0.3183835745 63.92633 0.761876 0.008 # tavern_west_green_011
+bep_nature_clover 0.4852032491 0.3186478240 58.75186 0.860191 0.008 # tavern_west_green_012
+bep_nature_grass_broad 0.4851301941 0.3186839641 170.54415 0.804690 0.008 # tavern_west_green_013
+bep_nature_clover 0.4851325016 0.3184403669 161.43514 0.782101 0.008 # tavern_west_green_014
+bep_nature_fern 0.4851985579 0.3186462524 34.68707 0.726765 0.008 # tavern_west_green_015
+bep_nature_clover 0.4851267319 0.3184041840 -29.02127 0.878056 0.008 # tavern_west_green_016
+bep_nature_grass_broad 0.4851262476 0.3185659406 -25.63543 0.660860 0.008 # tavern_west_green_017
+bep_nature_clover 0.4851926938 0.3187293309 -97.43485 0.729879 0.008 # tavern_west_green_018
+bep_nature_fern 0.4851379890 0.3184097286 69.54268 0.828569 0.008 # tavern_west_green_019
+
+# Pocket: tavern_back_herbs
+bep_nature_clover 0.4855763351 0.3179510859 -21.55208 0.900422 0.008 # tavern_back_herbs_000
+bep_nature_grass_broad 0.4855345595 0.3179281785 23.37019 0.753504 0.008 # tavern_back_herbs_001
+bep_nature_clover 0.4855146562 0.3179576789 110.36153 0.836050 0.008 # tavern_back_herbs_002
+bep_nature_fern 0.4855546321 0.3179181878 -90.42139 0.792339 0.008 # tavern_back_herbs_003
+bep_nature_clover 0.4855291519 0.3178452648 -178.88640 0.688067 0.008 # tavern_back_herbs_004
+bep_nature_grass_broad 0.4854902751 0.3178574371 162.51884 0.667319 0.008 # tavern_back_herbs_005
+bep_nature_clover 0.4855674919 0.3179308908 -101.70429 0.804773 0.008 # tavern_back_herbs_006
+bep_nature_fern 0.4855584128 0.3178668817 50.33628 0.688788 0.008 # tavern_back_herbs_007
+bep_nature_clover 0.4854805136 0.3178167989 173.86399 0.714969 0.008 # tavern_back_herbs_008
+bep_nature_grass_broad 0.4855711182 0.3178407206 -140.57429 0.655047 0.008 # tavern_back_herbs_009
+bep_nature_clover 0.4855318608 0.3178466227 -44.30581 0.704205 0.008 # tavern_back_herbs_010
+bep_nature_fern 0.4855497690 0.3178353082 -39.87045 0.743876 0.008 # tavern_back_herbs_011
+bep_nature_clover 0.4855539207 0.3178503449 -170.67425 0.901653 0.008 # tavern_back_herbs_012
+bep_nature_grass_broad 0.4854993602 0.3177834175 169.88083 0.716156 0.008 # tavern_back_herbs_013
+
+# Pocket: brewer_back_verge
+bep_nature_clover 0.4851638448 0.3175096079 115.33427 0.733014 0.008 # brewer_back_verge_000
+bep_nature_grass_broad 0.4851175683 0.3172260310 -9.52368 0.728284 0.008 # brewer_back_verge_001
+bep_nature_clover 0.4851102743 0.3173282629 72.72828 0.909685 0.008 # brewer_back_verge_002
+bep_nature_fern 0.4851860297 0.3173635758 136.23351 0.862604 0.008 # brewer_back_verge_003
+bep_nature_clover 0.4851471162 0.3173472568 -153.75654 0.795309 0.008 # brewer_back_verge_004
+bep_nature_grass_broad 0.4851356379 0.3172840292 23.84813 0.936752 0.008 # brewer_back_verge_005
+bep_nature_clover 0.4851558727 0.3174561962 93.58978 0.770507 0.008 # brewer_back_verge_006
+bep_nature_fern 0.4851209195 0.3172745020 128.53471 0.716281 0.008 # brewer_back_verge_007
+bep_nature_clover 0.4850937454 0.3173318177 -114.84209 0.698190 0.008 # brewer_back_verge_008
+bep_nature_grass_broad 0.4851855739 0.3173234090 68.05960 0.828587 0.008 # brewer_back_verge_009
+bep_nature_clover 0.4851568233 0.3173607469 -175.91255 0.884894 0.008 # brewer_back_verge_010
+bep_nature_fern 0.4851374455 0.3173384981 153.84457 0.921566 0.008 # brewer_back_verge_011
+bep_nature_clover 0.4851958439 0.3173944352 -132.65392 0.812938 0.008 # brewer_back_verge_012
+bep_nature_grass_broad 0.4851401955 0.3174055035 56.53356 0.687117 0.008 # brewer_back_verge_013
+bep_nature_clover 0.4851511620 0.3173699124 92.76506 0.784093 0.008 # brewer_back_verge_014
+bep_nature_fern 0.4851526223 0.3172626865 127.59800 0.820320 0.008 # brewer_back_verge_015
+bep_nature_clover 0.4851020537 0.3174608809 -90.29768 0.689148 0.008 # brewer_back_verge_016
+bep_nature_grass_broad 0.4851531043 0.3173140006 -13.72673 0.845929 0.008 # brewer_back_verge_017
+
+# Pocket: residents_west_green
+bep_nature_clover 0.4851616540 0.3202584900 165.21858 0.789778 0.008 # residents_west_green_000
+bep_nature_grass_broad 0.4851550483 0.3201891321 -26.94933 0.734850 0.008 # residents_west_green_001
+bep_nature_clover 0.4851442223 0.3204245585 -32.94188 0.690831 0.008 # residents_west_green_002
+bep_nature_fern 0.4851697763 0.3201899971 169.28599 0.799842 0.008 # residents_west_green_003
+bep_nature_clover 0.4851325596 0.3199304626 36.15760 0.871672 0.008 # residents_west_green_004
+bep_nature_grass_broad 0.4851257545 0.3202268586 -143.70923 0.890580 0.008 # residents_west_green_005
+bep_nature_clover 0.4851638771 0.3201063823 -77.33394 0.917526 0.008 # residents_west_green_006
+bep_nature_fern 0.4851325145 0.3203090675 45.41956 0.935301 0.008 # residents_west_green_007
+bep_nature_clover 0.4851227191 0.3202797168 11.32194 0.703048 0.008 # residents_west_green_008
+bep_nature_grass_broad 0.4852141358 0.3200380684 -111.13998 0.885363 0.008 # residents_west_green_009
+bep_nature_clover 0.4851452635 0.3204099571 59.16817 0.807681 0.008 # residents_west_green_010
+bep_nature_fern 0.4851188916 0.3202606623 -66.10808 0.802967 0.008 # residents_west_green_011
+bep_nature_clover 0.4851781349 0.3201623065 -50.41515 0.876462 0.008 # residents_west_green_012
+bep_nature_grass_broad 0.4851355654 0.3201384368 -150.25358 0.817429 0.008 # residents_west_green_013
+bep_nature_clover 0.4851100085 0.3201326002 -151.62466 0.774239 0.008 # residents_west_green_014
+bep_nature_fern 0.4851620427 0.3200953161 -172.44164 0.652916 0.008 # residents_west_green_015
+bep_nature_clover 0.4851592164 0.3201271795 56.21906 0.903650 0.008 # residents_west_green_016
+bep_nature_grass_broad 0.4851668399 0.3200508849 -82.63034 0.733747 0.008 # residents_west_green_017
+bep_nature_clover 0.4851942940 0.3201927301 -35.36752 0.838628 0.008 # residents_west_green_018
+bep_nature_fern 0.4851092869 0.3202197654 99.29160 0.854511 0.008 # residents_west_green_019
+
+# Pocket: south_residents_verge
+bep_nature_clover 0.4851753790 0.3220545357 142.10095 0.750858 0.008 # south_residents_verge_000
+bep_nature_grass_broad 0.4851671831 0.3220204931 -127.65092 0.919311 0.008 # south_residents_verge_001
+bep_nature_clover 0.4851480407 0.3221233311 -136.40094 0.864219 0.008 # south_residents_verge_002
+bep_nature_fern 0.4851705011 0.3218788422 173.37336 0.784094 0.008 # south_residents_verge_003
+bep_nature_clover 0.4851329217 0.3221278293 142.90203 0.906489 0.008 # south_residents_verge_004
+bep_nature_grass_broad 0.4851567427 0.3219347572 116.86559 0.909854 0.008 # south_residents_verge_005
+bep_nature_clover 0.4852192838 0.3220058239 146.09511 0.775670 0.008 # south_residents_verge_006
+bep_nature_fern 0.4851457991 0.3219279117 -173.50999 0.743062 0.008 # south_residents_verge_007
+bep_nature_clover 0.4851346252 0.3220987504 26.22004 0.847545 0.008 # south_residents_verge_008
+bep_nature_grass_broad 0.4852222820 0.3218825068 -130.55689 0.687002 0.008 # south_residents_verge_009
+bep_nature_clover 0.4851479585 0.3218504991 83.00484 0.662313 0.008 # south_residents_verge_010
+bep_nature_fern 0.4851035019 0.3220309562 -91.33448 0.828331 0.008 # south_residents_verge_011
+bep_nature_clover 0.4852217566 0.3220624602 -152.82573 0.722991 0.008 # south_residents_verge_012
+bep_nature_grass_broad 0.4851417832 0.3221290222 91.87649 0.872331 0.008 # south_residents_verge_013
+bep_nature_clover 0.4851233319 0.3220407270 155.02404 0.900595 0.008 # south_residents_verge_014
+bep_nature_fern 0.4852149663 0.3218562584 32.05725 0.916236 0.008 # south_residents_verge_015
+bep_nature_clover 0.4851234186 0.3218027025 89.11327 0.856076 0.008 # south_residents_verge_016
+bep_nature_grass_broad 0.4851526525 0.3217927369 144.62228 0.752737 0.008 # south_residents_verge_017
+
+# Pocket: east_copse_floor
+bep_nature_clover 0.4888854743 0.3217801203 71.55407 0.654623 0.008 # east_copse_floor_000
+bep_nature_grass_broad 0.4888549642 0.3218768633 -121.56961 0.854107 0.008 # east_copse_floor_001
+bep_nature_clover 0.4887647180 0.3219085537 149.63513 0.685553 0.008 # east_copse_floor_002
+bep_nature_fern 0.4888622509 0.3216323819 -10.04121 0.799532 0.008 # east_copse_floor_003
+bep_nature_clover 0.4888422009 0.3216624994 70.32970 0.780615 0.008 # east_copse_floor_004
+bep_nature_grass_broad 0.4888067646 0.3219785068 -139.27158 0.687812 0.008 # east_copse_floor_005
+bep_nature_clover 0.4889086605 0.3216511300 79.14956 0.808534 0.008 # east_copse_floor_006
+bep_nature_fern 0.4888589679 0.3218488016 84.65395 0.815129 0.008 # east_copse_floor_007
+bep_nature_clover 0.4888111030 0.3218664850 -133.18073 0.734827 0.008 # east_copse_floor_008
+bep_nature_grass_broad 0.4888417838 0.3217530027 33.73335 0.932054 0.008 # east_copse_floor_009
+bep_nature_clover 0.4887715991 0.3217869232 94.18224 0.908133 0.008 # east_copse_floor_010
+bep_nature_fern 0.4888418341 0.3218193343 -145.09528 0.819169 0.008 # east_copse_floor_011
+bep_nature_clover 0.4888994142 0.3216251008 -38.66615 0.841353 0.008 # east_copse_floor_012
+bep_nature_grass_broad 0.4887680287 0.3217214894 67.34222 0.688259 0.008 # east_copse_floor_013
+bep_nature_clover 0.4888172143 0.3219690660 72.52432 0.844991 0.008 # east_copse_floor_014
+bep_nature_fern 0.4888925957 0.3219906063 -35.23847 0.893317 0.008 # east_copse_floor_015
+bep_nature_clover 0.4888267800 0.3218518634 -5.84435 0.765452 0.008 # east_copse_floor_016
+bep_nature_grass_broad 0.4888440810 0.3218145306 -23.79975 0.819311 0.008 # east_copse_floor_017
+bep_nature_clover 0.4888570664 0.3217361683 -47.31403 0.836062 0.008 # east_copse_floor_018
+bep_nature_fern 0.4887738506 0.3217298577 -121.80438 0.758503 0.008 # east_copse_floor_019
+
+# Pocket: east_north_green
+bep_nature_clover 0.4888877846 0.3185661341 -112.08550 0.761863 0.008 # east_north_green_000
+bep_nature_grass_broad 0.4888485423 0.3182378055 88.80938 0.754746 0.008 # east_north_green_001
+bep_nature_clover 0.4888573146 0.3182341841 -136.47223 0.881667 0.008 # east_north_green_002
+bep_nature_fern 0.4888385604 0.3182559002 -177.55882 0.786738 0.008 # east_north_green_003
+bep_nature_clover 0.4888087682 0.3182886734 -84.28908 0.847962 0.008 # east_north_green_004
+bep_nature_grass_broad 0.4888095590 0.3183829030 -122.04991 0.731835 0.008 # east_north_green_005
+bep_nature_clover 0.4889118845 0.3182820270 11.88982 0.784444 0.008 # east_north_green_006
+bep_nature_fern 0.4888032917 0.3185906604 68.89310 0.767476 0.008 # east_north_green_007
+bep_nature_clover 0.4888019025 0.3185809649 -172.17091 0.786475 0.008 # east_north_green_008
+bep_nature_grass_broad 0.4888589597 0.3183810907 25.87773 0.659926 0.008 # east_north_green_009
+bep_nature_clover 0.4888427506 0.3185346549 41.04809 0.740683 0.008 # east_north_green_010
+bep_nature_fern 0.4887903365 0.3183719165 152.04233 0.867716 0.008 # east_north_green_011
+bep_nature_clover 0.4888486495 0.3183640682 -168.95024 0.776786 0.008 # east_north_green_012
+bep_nature_grass_broad 0.4887795806 0.3183349922 3.91342 0.728167 0.008 # east_north_green_013
+bep_nature_clover 0.4888126544 0.3182443142 -55.15267 0.733620 0.008 # east_north_green_014
+bep_nature_fern 0.4888689463 0.3185975047 -177.05441 0.661074 0.008 # east_north_green_015
+bep_nature_clover 0.4888611266 0.3183997896 -143.03257 0.899435 0.008 # east_north_green_016
+bep_nature_grass_broad 0.4888418651 0.3185919284 58.81355 0.880628 0.008 # east_north_green_017
+bep_nature_clover 0.4888974098 0.3181755316 117.66401 0.901130 0.008 # east_north_green_018
+bep_nature_fern 0.4888015885 0.3185574284 1.60913 0.708331 0.008 # east_north_green_019
+
+# Pocket: south_west_garden
+bep_nature_clover 0.4854912241 0.3230465089 2.47158 0.814366 0.008 # south_west_garden_000
+bep_nature_grass_broad 0.4854354436 0.3229974212 -171.99622 0.697390 0.008 # south_west_garden_001
+bep_nature_clover 0.4854054535 0.3229415141 48.74858 0.665120 0.008 # south_west_garden_002
+bep_nature_fern 0.4854735720 0.3230047863 178.32148 0.743189 0.008 # south_west_garden_003
+bep_nature_clover 0.4852956931 0.3229577292 -165.82672 0.721577 0.008 # south_west_garden_004
+bep_nature_grass_broad 0.4854862343 0.3229685312 86.03854 0.743528 0.008 # south_west_garden_005
+bep_nature_clover 0.4856651986 0.3229703811 92.38484 0.706788 0.008 # south_west_garden_006
+bep_nature_fern 0.4855037957 0.3230094124 -137.64258 0.942284 0.008 # south_west_garden_007
+bep_nature_clover 0.4855032523 0.3229916698 69.63995 0.942880 0.008 # south_west_garden_008
+bep_nature_grass_broad 0.4855262332 0.3230428076 45.80832 0.691038 0.008 # south_west_garden_009
+bep_nature_clover 0.4854659339 0.3230434160 -34.77500 0.757854 0.008 # south_west_garden_010
+bep_nature_fern 0.4853532223 0.3230808497 145.43522 0.882614 0.008 # south_west_garden_011
+bep_nature_clover 0.4854867811 0.3229273555 -42.80160 0.764638 0.008 # south_west_garden_012
+bep_nature_grass_broad 0.4854865599 0.3231007895 -160.10826 0.772340 0.008 # south_west_garden_013
+bep_nature_clover 0.4853274198 0.3229173802 91.01831 0.928780 0.008 # south_west_garden_014
+bep_nature_fern 0.4855453339 0.3228306762 -166.91075 0.739153 0.008 # south_west_garden_015
+bep_nature_clover 0.4854637885 0.3230792733 92.18428 0.654918 0.008 # south_west_garden_016
+bep_nature_grass_broad 0.4854987178 0.3230188525 -43.12309 0.692715 0.008 # south_west_garden_017
+bep_nature_clover 0.4855585151 0.3231558678 155.50261 0.897770 0.008 # south_west_garden_018
+bep_nature_fern 0.4854775937 0.3230779206 -110.34299 0.884006 0.008 # south_west_garden_019
+bep_nature_clover 0.4854195961 0.3228561373 60.63781 0.806198 0.008 # south_west_garden_020
+bep_nature_grass_broad 0.4854707941 0.3228892764 -161.09811 0.693885 0.008 # south_west_garden_021
+
+# Pocket: south_east_green
+bep_nature_clover 0.4886877271 0.3229903274 31.07906 0.903759 0.008 # south_east_green_000
+bep_nature_grass_broad 0.4884445654 0.3230292947 137.62636 0.823228 0.008 # south_east_green_001
+bep_nature_clover 0.4883834099 0.3230666513 -88.71105 0.864684 0.008 # south_east_green_002
+bep_nature_fern 0.4886416342 0.3229477444 125.40673 0.863759 0.008 # south_east_green_003
+bep_nature_clover 0.4884650053 0.3231191989 -169.08516 0.736823 0.008 # south_east_green_004
+bep_nature_grass_broad 0.4885149284 0.3231071668 -8.41586 0.938176 0.008 # south_east_green_005
+bep_nature_clover 0.4885879053 0.3229817017 112.59062 0.717926 0.008 # south_east_green_006
+bep_nature_fern 0.4884266598 0.3230501053 -120.49987 0.676537 0.008 # south_east_green_007
+bep_nature_clover 0.4885277749 0.3230584348 -137.80172 0.786590 0.008 # south_east_green_008
+bep_nature_grass_broad 0.4886886059 0.3229201084 -50.52034 0.696554 0.008 # south_east_green_009
+bep_nature_clover 0.4884949123 0.3229489063 24.52847 0.792053 0.008 # south_east_green_010
+bep_nature_fern 0.4883675815 0.3230150615 54.48763 0.799833 0.008 # south_east_green_011
+bep_nature_clover 0.4886193507 0.3229963798 -18.34038 0.727663 0.008 # south_east_green_012
+bep_nature_grass_broad 0.4884513558 0.3229634353 117.35507 0.725733 0.008 # south_east_green_013
+bep_nature_clover 0.4883829916 0.3230342815 70.89309 0.652872 0.008 # south_east_green_014
+bep_nature_fern 0.4886792428 0.3229771840 85.57885 0.653903 0.008 # south_east_green_015
+bep_nature_clover 0.4884086667 0.3229111646 -15.01622 0.838222 0.008 # south_east_green_016
+bep_nature_grass_broad 0.4884318762 0.3231570610 -142.54734 0.879211 0.008 # south_east_green_017
+bep_nature_clover 0.4885711907 0.3228999811 89.95181 0.660135 0.008 # south_east_green_018
+bep_nature_fern 0.4884318502 0.3231798379 76.89348 0.705329 0.008 # south_east_green_019
+bep_nature_clover 0.4884770458 0.3229746391 144.80827 0.706423 0.008 # south_east_green_020
+bep_nature_grass_broad 0.4885813496 0.3230807699 125.16698 0.739777 0.008 # south_east_green_021
+
+# Pocket: northeast_wall_garden
+bep_nature_clover 0.4886726912 0.3181191356 72.11868 0.834847 0.008 # northeast_wall_garden_000
+bep_nature_grass_broad 0.4884724343 0.3179103021 173.21008 0.772020 0.008 # northeast_wall_garden_001
+bep_nature_clover 0.4885579775 0.3179828814 -126.08290 0.828655 0.008 # northeast_wall_garden_002
+bep_nature_fern 0.4886565733 0.3180352731 67.59773 0.700896 0.008 # northeast_wall_garden_003
+bep_nature_clover 0.4885928704 0.3179735889 29.47458 0.825071 0.008 # northeast_wall_garden_004
+bep_nature_grass_broad 0.4885908023 0.3180305981 36.70974 0.802591 0.008 # northeast_wall_garden_005
+bep_nature_clover 0.4886142029 0.3180950197 20.02132 0.902969 0.008 # northeast_wall_garden_006
+bep_nature_fern 0.4884505249 0.3179336875 -23.41744 0.844881 0.008 # northeast_wall_garden_007
+bep_nature_clover 0.4884754573 0.3180156414 133.27856 0.731317 0.008 # northeast_wall_garden_008
+bep_nature_grass_broad 0.4885499584 0.3179842058 -57.51348 0.732077 0.008 # northeast_wall_garden_009
+bep_nature_clover 0.4884660537 0.3180112383 147.64512 0.689150 0.008 # northeast_wall_garden_010
+bep_nature_fern 0.4884439658 0.3179638254 165.18397 0.814923 0.008 # northeast_wall_garden_011
+bep_nature_clover 0.4887042585 0.3180581010 138.30015 0.749074 0.008 # northeast_wall_garden_012
+bep_nature_grass_broad 0.4884443968 0.3180045941 -67.85490 0.723157 0.008 # northeast_wall_garden_013
+bep_nature_clover 0.4884740657 0.3180022694 92.04948 0.760960 0.008 # northeast_wall_garden_014
+bep_nature_fern 0.4886743886 0.3180742032 -18.54907 0.735769 0.008 # northeast_wall_garden_015
+bep_nature_clover 0.4885144469 0.3179111168 38.87957 0.889307 0.008 # northeast_wall_garden_016
+bep_nature_grass_broad 0.4884497768 0.3179216090 79.51077 0.934909 0.008 # northeast_wall_garden_017
+bep_nature_clover 0.4886632999 0.3180349321 -130.83077 0.779577 0.008 # northeast_wall_garden_018
+bep_nature_fern 0.4884678421 0.3180763835 -149.67601 0.767381 0.008 # northeast_wall_garden_019
+bep_nature_clover 0.4885553377 0.3180789221 13.65154 0.719140 0.008 # northeast_wall_garden_020
+bep_nature_grass_broad 0.4886812952 0.3180523133 -145.10619 0.686909 0.008 # northeast_wall_garden_021
+
+# Pocket: creek_northwest
+bep_nature_grass_long 0.4856052877 0.3159535948 -126.23584 0.861479 0.008 # creek_northwest_000
+bep_nature_reed 0.4855126218 0.3159963139 -67.98161 0.949820 0.008 # creek_northwest_001
+bep_nature_grass_broad 0.4854859380 0.3160133326 30.98808 1.012712 0.008 # creek_northwest_002
+bep_nature_clover 0.4856026956 0.3159892583 38.37789 0.802912 0.008 # creek_northwest_003
+bep_nature_grass_long 0.4854609684 0.3160029523 -144.98899 0.993743 0.008 # creek_northwest_004
+bep_nature_reed 0.4855276181 0.3159651808 6.53852 1.083732 0.008 # creek_northwest_005
+bep_nature_grass_broad 0.4856693939 0.3160437697 -151.92505 0.868789 0.008 # creek_northwest_006
+bep_nature_clover 0.4854286888 0.3160318291 60.71985 0.957995 0.008 # creek_northwest_007
+bep_nature_grass_long 0.4855501042 0.3160260731 -67.59731 0.805275 0.008 # creek_northwest_008
+bep_nature_reed 0.4856314288 0.3159614984 -38.14357 0.934902 0.008 # creek_northwest_009
+bep_nature_grass_broad 0.4854383587 0.3159805599 -145.75700 0.998430 0.008 # creek_northwest_010
+bep_nature_clover 0.4854204030 0.3159909071 157.23382 0.994373 0.008 # creek_northwest_011
+bep_nature_grass_long 0.4855617867 0.3160334071 -81.76559 0.805200 0.008 # creek_northwest_012
+bep_nature_reed 0.4855130553 0.3159888209 142.80242 0.987076 0.008 # creek_northwest_013
+bep_nature_grass_broad 0.4854112197 0.3160110615 -70.18504 1.132878 0.008 # creek_northwest_014
+bep_nature_clover 0.4856451109 0.3160202678 -114.29410 0.929495 0.008 # creek_northwest_015
+bep_nature_grass_long 0.4854215592 0.3160333236 -99.15889 0.904043 0.008 # creek_northwest_016
+bep_nature_reed 0.4855443795 0.3159813723 26.87920 0.823355 0.008 # creek_northwest_017
+bep_nature_grass_broad 0.4856213615 0.3159981803 -82.16452 1.050100 0.008 # creek_northwest_018
+bep_nature_clover 0.4855324103 0.3160047894 -1.00859 1.086031 0.008 # creek_northwest_019
+bep_nature_grass_long 0.4854362681 0.3160369158 -20.17604 0.788783 0.008 # creek_northwest_020
+bep_nature_reed 0.4856485952 0.3159600885 -65.76610 1.024525 0.008 # creek_northwest_021
+
+# Pocket: creek_north
+bep_nature_grass_long 0.4864143363 0.3160470085 -165.23271 1.018338 0.008 # creek_north_000
+bep_nature_reed 0.4862766572 0.3160114095 -113.74236 0.987967 0.008 # creek_north_001
+bep_nature_grass_broad 0.4863713844 0.3160363537 -89.26605 0.832051 0.008 # creek_north_002
+bep_nature_clover 0.4865180163 0.3159737806 -34.45429 0.974778 0.008 # creek_north_003
+bep_nature_grass_long 0.4862525805 0.3159472954 -47.61173 0.812249 0.008 # creek_north_004
+bep_nature_reed 0.4862521948 0.3159787665 87.52248 0.931826 0.008 # creek_north_005
+bep_nature_grass_broad 0.4864224872 0.3159620284 6.57857 0.799746 0.008 # creek_north_006
+bep_nature_clover 0.4863800135 0.3159919858 124.99531 1.097483 0.008 # creek_north_007
+bep_nature_grass_long 0.4863860286 0.3160512992 110.26263 0.857156 0.008 # creek_north_008
+bep_nature_reed 0.4865056960 0.3160618534 -59.36517 0.929430 0.008 # creek_north_009
+bep_nature_grass_broad 0.4863611379 0.3160165622 -168.28383 0.889306 0.008 # creek_north_010
+bep_nature_clover 0.4862915441 0.3160019427 28.74202 0.966954 0.008 # creek_north_011
+bep_nature_grass_long 0.4864090996 0.3159745158 -142.50628 0.900463 0.008 # creek_north_012
+bep_nature_reed 0.4863478554 0.3159766366 130.00903 0.794100 0.008 # creek_north_013
+bep_nature_grass_broad 0.4863634177 0.3159962942 -35.57897 0.979875 0.008 # creek_north_014
+bep_nature_clover 0.4864720338 0.3160129362 -88.94756 0.826555 0.008 # creek_north_015
+bep_nature_grass_long 0.4863479638 0.3160157719 92.95337 1.004037 0.008 # creek_north_016
+bep_nature_reed 0.4862992079 0.3160065314 -22.45809 0.997717 0.008 # creek_north_017
+bep_nature_grass_broad 0.4864440940 0.3159540891 -39.42632 0.967436 0.008 # creek_north_018
+bep_nature_clover 0.4862175422 0.3160249656 67.60210 0.931236 0.008 # creek_north_019
+bep_nature_grass_long 0.4862960624 0.3159387641 -166.08945 0.840204 0.008 # creek_north_020
+bep_nature_reed 0.4863885548 0.3160457113 134.13369 1.062439 0.008 # creek_north_021
+
+# Pocket: creek_northeast
+bep_nature_grass_long 0.4884561477 0.3160204619 32.32016 0.815582 0.008 # creek_northeast_000
+bep_nature_reed 0.4883067698 0.3160540092 -64.33214 1.073468 0.008 # creek_northeast_001
+bep_nature_grass_broad 0.4882719013 0.3159868712 -75.82084 1.144433 0.008 # creek_northeast_002
+bep_nature_clover 0.4884483224 0.3160021746 6.47236 1.021589 0.008 # creek_northeast_003
+bep_nature_grass_long 0.4883070501 0.3159523660 -31.01719 0.794300 0.008 # creek_northeast_004
+bep_nature_reed 0.4883300690 0.3160360506 169.25594 0.893382 0.008 # creek_northeast_005
+bep_nature_grass_broad 0.4884554619 0.3160172645 -26.82395 1.119621 0.008 # creek_northeast_006
+bep_nature_clover 0.4883437547 0.3160212774 177.29616 0.885054 0.008 # creek_northeast_007
+bep_nature_grass_long 0.4882631701 0.3160518007 -22.43588 0.979651 0.008 # creek_northeast_008
+bep_nature_reed 0.4884771810 0.3159860561 87.38316 0.797600 0.008 # creek_northeast_009
+bep_nature_grass_broad 0.4882811605 0.3160675944 -67.86702 0.969210 0.008 # creek_northeast_010
+bep_nature_clover 0.4883563217 0.3160506903 -27.17472 1.102150 0.008 # creek_northeast_011
+bep_nature_grass_long 0.4884857122 0.3160027621 -150.46077 1.093042 0.008 # creek_northeast_012
+bep_nature_reed 0.4883500520 0.3160460775 131.12130 0.875033 0.008 # creek_northeast_013
+bep_nature_grass_broad 0.4883758091 0.3160086252 157.51876 0.806063 0.008 # creek_northeast_014
+bep_nature_clover 0.4883532026 0.3160023491 167.72871 0.969925 0.008 # creek_northeast_015
+bep_nature_grass_long 0.4883020021 0.3159828311 -179.79522 1.003442 0.008 # creek_northeast_016
+bep_nature_reed 0.4884075010 0.3160053519 117.56298 0.984280 0.008 # creek_northeast_017
+bep_nature_grass_broad 0.4884037355 0.3159935711 -143.55820 0.788337 0.008 # creek_northeast_018
+bep_nature_clover 0.4883506780 0.3160132464 -0.12019 0.917434 0.008 # creek_northeast_019
+bep_nature_grass_long 0.4882766774 0.3160565878 155.21612 0.996553 0.008 # creek_northeast_020
+bep_nature_reed 0.4884591291 0.3160466078 -73.40952 1.038133 0.008 # creek_northeast_021
+
+# Pocket: creek_west_upper
+bep_nature_grass_long 0.4847890960 0.3174678536 -165.39686 0.987693 0.008 # creek_west_upper_000
+bep_nature_reed 0.4847332524 0.3175190823 -12.38988 1.137246 0.008 # creek_west_upper_001
+bep_nature_grass_broad 0.4847243829 0.3172819283 -105.98519 0.974839 0.008 # creek_west_upper_002
+bep_nature_clover 0.4847531855 0.3177361908 -75.64769 1.072581 0.008 # creek_west_upper_003
+bep_nature_grass_long 0.4847572279 0.3177058059 -155.59455 0.862535 0.008 # creek_west_upper_004
+bep_nature_reed 0.4847516976 0.3176326387 -19.62284 0.821309 0.008 # creek_west_upper_005
+bep_nature_grass_broad 0.4847774399 0.3174867621 -147.30654 1.077462 0.008 # creek_west_upper_006
+bep_nature_clover 0.4847329761 0.3175919194 -176.69931 0.874484 0.008 # creek_west_upper_007
+bep_nature_grass_long 0.4847154080 0.3176149412 -55.38513 1.060587 0.008 # creek_west_upper_008
+bep_nature_reed 0.4847708922 0.3175428594 137.35482 0.856351 0.008 # creek_west_upper_009
+bep_nature_grass_broad 0.4847464174 0.3173980308 -43.14222 0.801533 0.008 # creek_west_upper_010
+bep_nature_clover 0.4847512626 0.3176227263 88.50415 0.965034 0.008 # creek_west_upper_011
+bep_nature_grass_long 0.4847743684 0.3175510642 -162.51319 1.078148 0.008 # creek_west_upper_012
+bep_nature_reed 0.4847185206 0.3174099017 -44.40377 1.071369 0.008 # creek_west_upper_013
+bep_nature_grass_broad 0.4847417001 0.3172394105 -90.94517 0.962974 0.008 # creek_west_upper_014
+bep_nature_clover 0.4847529883 0.3176796557 -163.16705 1.126638 0.008 # creek_west_upper_015
+bep_nature_grass_long 0.4847446153 0.3177949007 80.30953 0.786888 0.008 # creek_west_upper_016
+bep_nature_reed 0.4847444080 0.3172394955 116.53064 0.839524 0.008 # creek_west_upper_017
+bep_nature_grass_broad 0.4847735706 0.3178575205 129.65790 0.793444 0.008 # creek_west_upper_018
+bep_nature_clover 0.4847623993 0.3175548258 -133.08312 0.977278 0.008 # creek_west_upper_019
+bep_nature_grass_long 0.4847266338 0.3172750015 -98.59497 1.004707 0.008 # creek_west_upper_020
+bep_nature_reed 0.4847833330 0.3176732485 -26.55618 0.799874 0.008 # creek_west_upper_021
+
+# Pocket: creek_west_mid
+bep_nature_grass_long 0.4847620223 0.3189081140 -42.91456 0.993082 0.008 # creek_west_mid_000
+bep_nature_reed 0.4847287917 0.3192377852 108.19362 0.922395 0.008 # creek_west_mid_001
+bep_nature_grass_broad 0.4847223548 0.3191810420 160.61214 0.927204 0.008 # creek_west_mid_002
+bep_nature_clover 0.4847607472 0.3193917754 141.25731 1.006823 0.008 # creek_west_mid_003
+bep_nature_grass_long 0.4847429935 0.3194303948 -64.33532 0.816505 0.008 # creek_west_mid_004
+bep_nature_reed 0.4847429953 0.3190439022 -133.53871 1.093452 0.008 # creek_west_mid_005
+bep_nature_grass_broad 0.4847596277 0.3192332044 177.25372 0.949487 0.008 # creek_west_mid_006
+bep_nature_clover 0.4847566748 0.3191942078 -52.30437 1.038814 0.008 # creek_west_mid_007
+bep_nature_grass_long 0.4847538152 0.3193018579 -20.57991 1.128865 0.008 # creek_west_mid_008
+bep_nature_reed 0.4847816891 0.3190405807 -114.49212 0.884227 0.008 # creek_west_mid_009
+bep_nature_grass_broad 0.4847368369 0.3188963365 -23.21609 0.846150 0.008 # creek_west_mid_010
+bep_nature_clover 0.4847414148 0.3190345314 147.74149 1.082758 0.008 # creek_west_mid_011
+bep_nature_grass_long 0.4847821885 0.3189130846 -160.09326 1.051764 0.008 # creek_west_mid_012
+bep_nature_reed 0.4847516977 0.3193333645 88.59405 1.092051 0.008 # creek_west_mid_013
+bep_nature_grass_broad 0.4847544260 0.3189806981 65.82459 0.908850 0.008 # creek_west_mid_014
+bep_nature_clover 0.4847749930 0.3189143819 -155.56688 1.016437 0.008 # creek_west_mid_015
+bep_nature_grass_long 0.4847374743 0.3190317337 11.14755 1.079191 0.008 # creek_west_mid_016
+bep_nature_reed 0.4847363483 0.3190901229 38.56862 0.966336 0.008 # creek_west_mid_017
+bep_nature_grass_broad 0.4847646033 0.3189500969 -137.30994 0.962443 0.008 # creek_west_mid_018
+bep_nature_clover 0.4847316360 0.3190628435 155.22789 1.019676 0.008 # creek_west_mid_019
+bep_nature_grass_long 0.4847555535 0.3190854217 7.73405 0.968497 0.008 # creek_west_mid_020
+bep_nature_reed 0.4847756384 0.3192154352 -96.82347 0.973159 0.008 # creek_west_mid_021
+
+# Pocket: creek_west_lower
+bep_nature_grass_long 0.4847909084 0.3225582022 -57.54990 0.916346 0.008 # creek_west_lower_000
+bep_nature_reed 0.4847348416 0.3227255589 17.70569 0.867848 0.008 # creek_west_lower_001
+bep_nature_grass_broad 0.4847369204 0.3227329824 135.80101 1.149222 0.008 # creek_west_lower_002
+bep_nature_clover 0.4847825840 0.3227440592 -168.28819 0.959182 0.008 # creek_west_lower_003
+bep_nature_grass_long 0.4847220209 0.3225402084 139.94572 1.104836 0.008 # creek_west_lower_004
+bep_nature_reed 0.4847377414 0.3228177366 44.99186 0.897363 0.008 # creek_west_lower_005
+bep_nature_grass_broad 0.4847641241 0.3227703647 84.93839 0.918771 0.008 # creek_west_lower_006
+bep_nature_clover 0.4847479089 0.3222962005 -161.87136 0.861408 0.008 # creek_west_lower_007
+bep_nature_grass_long 0.4847212549 0.3226327904 -71.71508 0.866711 0.008 # creek_west_lower_008
+bep_nature_reed 0.4847716290 0.3225426817 97.27457 1.114622 0.008 # creek_west_lower_009
+bep_nature_grass_broad 0.4847279442 0.3225134894 108.36113 0.808262 0.008 # creek_west_lower_010
+bep_nature_clover 0.4847551143 0.3225595138 136.89646 1.094315 0.008 # creek_west_lower_011
+bep_nature_grass_long 0.4847599099 0.3225160936 174.68482 0.816752 0.008 # creek_west_lower_012
+bep_nature_reed 0.4847355695 0.3228055469 -80.84167 0.999148 0.008 # creek_west_lower_013
+bep_nature_grass_broad 0.4847242719 0.3226506521 -40.28326 0.822855 0.008 # creek_west_lower_014
+bep_nature_clover 0.4847691800 0.3225271021 -5.86175 1.116430 0.008 # creek_west_lower_015
+bep_nature_grass_long 0.4847480769 0.3225809164 146.18881 0.858327 0.008 # creek_west_lower_016
+bep_nature_reed 0.4847400195 0.3226674956 142.89540 0.805873 0.008 # creek_west_lower_017
+bep_nature_grass_broad 0.4847757815 0.3226483222 150.26165 0.860650 0.008 # creek_west_lower_018
+bep_nature_clover 0.4847469691 0.3226323782 -31.99213 0.919255 0.008 # creek_west_lower_019
+bep_nature_grass_long 0.4847182360 0.3226151925 24.62451 1.073594 0.008 # creek_west_lower_020
+bep_nature_reed 0.4847847891 0.3226766768 9.89134 0.794357 0.008 # creek_west_lower_021
+
+# Pocket: creek_east_upper
+bep_nature_grass_long 0.4892420960 0.3173570797 118.70429 0.853708 0.008 # creek_east_upper_000
+bep_nature_reed 0.4892224268 0.3176456616 -66.45351 0.979268 0.008 # creek_east_upper_001
+bep_nature_grass_broad 0.4892263210 0.3177241460 -140.54400 0.989258 0.008 # creek_east_upper_002
+bep_nature_clover 0.4892600627 0.3172824577 155.10217 0.973537 0.008 # creek_east_upper_003
+bep_nature_grass_long 0.4892465437 0.3173091367 179.91149 1.041430 0.008 # creek_east_upper_004
+bep_nature_reed 0.4892328077 0.3171843279 -68.60603 0.814489 0.008 # creek_east_upper_005
+bep_nature_grass_broad 0.4892671264 0.3175901099 60.60334 0.936503 0.008 # creek_east_upper_006
+bep_nature_clover 0.4892358766 0.3175601152 -151.36025 1.061102 0.008 # creek_east_upper_007
+bep_nature_grass_long 0.4892155986 0.3172691477 -167.13237 1.119864 0.008 # creek_east_upper_008
+bep_nature_reed 0.4892574459 0.3176301142 19.28086 1.060910 0.008 # creek_east_upper_009
+bep_nature_grass_broad 0.4892304988 0.3172271188 14.59982 0.985937 0.008 # creek_east_upper_010
+bep_nature_clover 0.4892246701 0.3176206776 -151.41230 0.971456 0.008 # creek_east_upper_011
+bep_nature_grass_long 0.4892733843 0.3173750297 33.82666 1.100457 0.008 # creek_east_upper_012
+bep_nature_reed 0.4892366993 0.3176920344 -133.84551 0.907058 0.008 # creek_east_upper_013
+bep_nature_grass_broad 0.4892266471 0.3177358123 -161.33338 1.080051 0.008 # creek_east_upper_014
+bep_nature_clover 0.4892560520 0.3173587777 -129.91793 0.878775 0.008 # creek_east_upper_015
+bep_nature_grass_long 0.4892513456 0.3173712966 22.72107 1.044016 0.008 # creek_east_upper_016
+bep_nature_reed 0.4892509401 0.3176478505 25.71552 0.872358 0.008 # creek_east_upper_017
+bep_nature_grass_broad 0.4892573229 0.3176272674 142.99557 0.914750 0.008 # creek_east_upper_018
+bep_nature_clover 0.4892402447 0.3177350930 -75.12613 0.847191 0.008 # creek_east_upper_019
+bep_nature_grass_long 0.4892338530 0.3177365256 105.08766 0.960611 0.008 # creek_east_upper_020
+bep_nature_reed 0.4892725507 0.3175154873 -1.83987 1.003326 0.008 # creek_east_upper_021
+
+# Pocket: creek_east_mid
+bep_nature_grass_long 0.4892422895 0.3191474628 -100.00012 0.824204 0.008 # creek_east_mid_000
+bep_nature_reed 0.4892279230 0.3192665617 106.09337 0.797239 0.008 # creek_east_mid_001
+bep_nature_grass_broad 0.4892285115 0.3193289068 30.74844 0.869942 0.008 # creek_east_mid_002
+bep_nature_clover 0.4892601962 0.3194015018 117.23927 0.967814 0.008 # creek_east_mid_003
+bep_nature_grass_long 0.4892225540 0.3192069836 84.11272 1.052004 0.008 # creek_east_mid_004
+bep_nature_reed 0.4892247203 0.3191345398 149.93571 0.974232 0.008 # creek_east_mid_005
+bep_nature_grass_broad 0.4892569118 0.3192515539 121.63157 1.033862 0.008 # creek_east_mid_006
+bep_nature_clover 0.4892423665 0.3189490215 -65.97538 0.811152 0.008 # creek_east_mid_007
+bep_nature_grass_long 0.4892509436 0.3190702852 136.86729 1.069266 0.008 # creek_east_mid_008
+bep_nature_reed 0.4892526745 0.3189082922 40.07184 1.033140 0.008 # creek_east_mid_009
+bep_nature_grass_broad 0.4892266321 0.3192948617 82.90069 0.858676 0.008 # creek_east_mid_010
+bep_nature_clover 0.4892282276 0.3191332810 40.71937 0.989822 0.008 # creek_east_mid_011
+bep_nature_grass_long 0.4892656372 0.3194010180 176.23979 1.064060 0.008 # creek_east_mid_012
+bep_nature_reed 0.4892264769 0.3189230167 150.58335 1.012575 0.008 # creek_east_mid_013
+bep_nature_grass_broad 0.4892158281 0.3193082032 -81.99415 0.990201 0.008 # creek_east_mid_014
+bep_nature_clover 0.4892552317 0.3189733181 7.84720 0.946648 0.008 # creek_east_mid_015
+bep_nature_grass_long 0.4892104422 0.3190506292 -141.48280 0.822810 0.008 # creek_east_mid_016
+bep_nature_reed 0.4892151741 0.3189921807 -16.71263 0.879987 0.008 # creek_east_mid_017
+bep_nature_grass_broad 0.4892597983 0.3193398399 -14.95312 1.052579 0.008 # creek_east_mid_018
+bep_nature_clover 0.4892343535 0.3190674395 166.75356 0.870344 0.008 # creek_east_mid_019
+bep_nature_grass_long 0.4892187330 0.3189752024 -93.74021 1.119488 0.008 # creek_east_mid_020
+bep_nature_reed 0.4892511375 0.3192298807 -20.25081 0.879913 0.008 # creek_east_mid_021
+
+# Pocket: creek_east_lower
+bep_nature_grass_long 0.4892605311 0.3226896871 -103.77549 0.919744 0.008 # creek_east_lower_000
+bep_nature_reed 0.4892368743 0.3222018174 -45.03272 0.866016 0.008 # creek_east_lower_001
+bep_nature_grass_broad 0.4892318967 0.3222126684 0.38039 0.968316 0.008 # creek_east_lower_002
+bep_nature_clover 0.4892584340 0.3227268042 120.44312 0.894658 0.008 # creek_east_lower_003
+bep_nature_grass_long 0.4892531442 0.3224721302 151.96581 0.848509 0.008 # creek_east_lower_004
+bep_nature_reed 0.4892534320 0.3226278631 124.78592 0.781296 0.008 # creek_east_lower_005
+bep_nature_grass_broad 0.4892502219 0.3223420733 120.34739 1.029038 0.008 # creek_east_lower_006
+bep_nature_clover 0.4892416298 0.3223023911 82.76785 1.015953 0.008 # creek_east_lower_007
+bep_nature_grass_long 0.4892294179 0.3223413324 68.74135 1.039939 0.008 # creek_east_lower_008
+bep_nature_reed 0.4892534875 0.3226948249 89.02195 0.884017 0.008 # creek_east_lower_009
+bep_nature_grass_broad 0.4892533595 0.3225603131 179.83881 0.823245 0.008 # creek_east_lower_010
+bep_nature_clover 0.4892505827 0.3223251920 30.36164 0.920904 0.008 # creek_east_lower_011
+bep_nature_grass_long 0.4892428208 0.3225575857 -13.05586 0.885097 0.008 # creek_east_lower_012
+bep_nature_reed 0.4892369062 0.3222765966 104.09536 0.975698 0.008 # creek_east_lower_013
+bep_nature_grass_broad 0.4892396246 0.3225316833 1.27654 1.114074 0.008 # creek_east_lower_014
+bep_nature_clover 0.4892652691 0.3222433490 -117.23088 0.816474 0.008 # creek_east_lower_015
+bep_nature_grass_long 0.4892451780 0.3227104133 38.86672 1.099730 0.008 # creek_east_lower_016
+bep_nature_reed 0.4892283784 0.3226232271 0.03107 0.949975 0.008 # creek_east_lower_017
+bep_nature_grass_broad 0.4892693018 0.3223107774 6.24417 0.832000 0.008 # creek_east_lower_018
+bep_nature_clover 0.4892263071 0.3224526933 -5.75177 1.145507 0.008 # creek_east_lower_019
+bep_nature_grass_long 0.4892218926 0.3224323106 -55.62282 1.042254 0.008 # creek_east_lower_020
+bep_nature_reed 0.4892702526 0.3222225814 -176.74303 1.093956 0.008 # creek_east_lower_021
+
+# Pocket: creek_southwest
+bep_nature_grass_long 0.4858848906 0.3240405258 -144.96387 0.827108 0.008 # creek_southwest_000
+bep_nature_reed 0.4857151439 0.3239554852 -79.38605 0.788426 0.008 # creek_southwest_001
+bep_nature_grass_broad 0.4857497146 0.3240323851 132.40609 0.857087 0.008 # creek_southwest_002
+bep_nature_clover 0.4859971409 0.3239705753 26.49820 0.853864 0.008 # creek_southwest_003
+bep_nature_grass_long 0.4857813197 0.3240393357 98.41354 1.130113 0.008 # creek_southwest_004
+bep_nature_reed 0.4856863518 0.3240240367 -82.44973 0.973341 0.008 # creek_southwest_005
+bep_nature_grass_broad 0.4858568743 0.3240223953 155.55657 0.908140 0.008 # creek_southwest_006
+bep_nature_clover 0.4857948267 0.3240121094 155.40014 1.125175 0.008 # creek_southwest_007
+bep_nature_grass_long 0.4858764007 0.3239862644 51.14191 0.981148 0.008 # creek_southwest_008
+bep_nature_reed 0.4859350650 0.3239624591 -22.54593 1.026970 0.008 # creek_southwest_009
+bep_nature_grass_broad 0.4857509914 0.3239992804 92.98888 0.927354 0.008 # creek_southwest_010
+bep_nature_clover 0.4856818027 0.3240158037 160.31885 1.010364 0.008 # creek_southwest_011
+bep_nature_grass_long 0.4860298622 0.3239952945 -59.76131 1.002643 0.008 # creek_southwest_012
+bep_nature_reed 0.4858061228 0.3239328102 -34.28386 0.826423 0.008 # creek_southwest_013
+bep_nature_grass_broad 0.4857092756 0.3240215793 19.27888 1.016957 0.008 # creek_southwest_014
+bep_nature_clover 0.4859434300 0.3239962582 -22.16084 0.988398 0.008 # creek_southwest_015
+bep_nature_grass_long 0.4857647986 0.3239783688 -90.79124 1.011509 0.008 # creek_southwest_016
+bep_nature_reed 0.4858531184 0.3239513629 14.99641 0.807725 0.008 # creek_southwest_017
+bep_nature_grass_broad 0.4859322363 0.3239625856 -24.21850 1.035597 0.008 # creek_southwest_018
+bep_nature_clover 0.4858571597 0.3240084478 -44.64068 1.066263 0.008 # creek_southwest_019
+bep_nature_grass_long 0.4856930818 0.3240080665 -26.24060 1.080216 0.008 # creek_southwest_020
+bep_nature_reed 0.4859271064 0.3239774021 37.11246 0.905596 0.008 # creek_southwest_021
+
+# Pocket: creek_southeast
+bep_nature_grass_long 0.4882781009 0.3240353946 77.43308 0.845252 0.008 # creek_southeast_000
+bep_nature_reed 0.4879980155 0.3239979775 -178.90808 0.908131 0.008 # creek_southeast_001
+bep_nature_grass_broad 0.4881687581 0.3240265676 162.83826 1.009717 0.008 # creek_southeast_002
+bep_nature_clover 0.4882516580 0.3239477178 90.43100 0.812681 0.008 # creek_southeast_003
+bep_nature_grass_long 0.4880633086 0.3240415073 -59.67391 0.919102 0.008 # creek_southeast_004
+bep_nature_reed 0.4879884107 0.3240094967 -160.91349 1.145156 0.008 # creek_southeast_005
+bep_nature_grass_broad 0.4882492390 0.3239622142 -21.09002 0.988421 0.008 # creek_southeast_006
+bep_nature_clover 0.4880917624 0.3239521867 -46.84580 0.994661 0.008 # creek_southeast_007
+bep_nature_grass_long 0.4881692097 0.3239645756 171.37313 1.042692 0.008 # creek_southeast_008
+bep_nature_reed 0.4881550645 0.3240272025 161.22045 0.880811 0.008 # creek_southeast_009
+bep_nature_grass_broad 0.4880071113 0.3239681770 -154.96582 0.975527 0.008 # creek_southeast_010
+bep_nature_clover 0.4881479741 0.3240292796 -81.23587 0.932510 0.008 # creek_southeast_011
+bep_nature_grass_long 0.4881926551 0.3240149216 95.12106 1.122857 0.008 # creek_southeast_012
+bep_nature_reed 0.4881791261 0.3240156652 -2.32020 0.816384 0.008 # creek_southeast_013
+bep_nature_grass_broad 0.4880657097 0.3239994862 -82.22145 0.806854 0.008 # creek_southeast_014
+bep_nature_clover 0.4883119064 0.3240204241 78.29085 0.968410 0.008 # creek_southeast_015
+bep_nature_grass_long 0.4881016281 0.3239695322 -140.02520 1.062198 0.008 # creek_southeast_016
+bep_nature_reed 0.4881737390 0.3240119359 132.31315 0.874478 0.008 # creek_southeast_017
+bep_nature_grass_broad 0.4883142332 0.3239502562 -67.16788 0.869683 0.008 # creek_southeast_018
+bep_nature_clover 0.4879855015 0.3239717627 -63.79251 0.988237 0.008 # creek_southeast_019
+bep_nature_grass_long 0.4881083162 0.3239619546 -52.85045 0.951839 0.008 # creek_southeast_020
+bep_nature_reed 0.4883556123 0.3240031119 -76.60647 1.116016 0.008 # creek_southeast_021
+
+# Pocket: tavern_hedge
+bep_nature_bush_a 0.4851543807 0.3187124467 -130.62115 0.713769 0.015 # tavern_hedge_000
+bep_nature_bush_b 0.4851297449 0.3185456168 -51.86164 0.987512 0.015 # tavern_hedge_001
+bep_nature_bush_a 0.4851177899 0.3184989362 -137.50938 0.927728 0.015 # tavern_hedge_002
+bep_nature_bush_b 0.4851571977 0.3184297106 -72.23929 0.872774 0.015 # tavern_hedge_003
+bep_nature_bush_a 0.4851515450 0.3187642593 -161.66709 0.948688 0.015 # tavern_hedge_004
+bep_nature_bush_b 0.4851393037 0.3184539657 -127.42873 0.848619 0.015 # tavern_hedge_005
+bep_nature_bush_a 0.4851702946 0.3183915919 -128.77843 0.811747 0.015 # tavern_hedge_006
+bep_nature_bush_b 0.4851550448 0.3186083438 54.40493 0.818985 0.015 # tavern_hedge_007
+
+# Pocket: residents_hedge
+bep_nature_bush_a 0.4851779610 0.3199953974 -168.34473 1.015269 0.015 # residents_hedge_000
+bep_nature_bush_b 0.4851600278 0.3201742727 174.39153 0.818465 0.015 # residents_hedge_001
+bep_nature_bush_a 0.4851257602 0.3203971049 147.24088 0.935369 0.015 # residents_hedge_002
+bep_nature_bush_b 0.4852061024 0.3200428444 -131.16207 0.854001 0.015 # residents_hedge_003
+bep_nature_bush_a 0.4851570085 0.3202730916 124.10596 0.975880 0.015 # residents_hedge_004
+bep_nature_bush_b 0.4851114113 0.3199050275 -40.05920 1.008109 0.015 # residents_hedge_005
+bep_nature_bush_a 0.4851769806 0.3199426365 168.45473 1.035673 0.015 # residents_hedge_006
+bep_nature_bush_b 0.4851422222 0.3202733891 -69.29569 0.807326 0.015 # residents_hedge_007
+
+# Pocket: south_green_hedge
+bep_nature_bush_a 0.4854849095 0.3229452805 -131.69244 0.915030 0.015 # south_green_hedge_000
+bep_nature_bush_b 0.4853549062 0.3230905167 15.51140 0.772484 0.015 # south_green_hedge_001
+bep_nature_bush_a 0.4853261065 0.3229968892 39.72997 0.786907 0.015 # south_green_hedge_002
+bep_nature_bush_b 0.4854878506 0.3229958580 -89.19216 1.015189 0.015 # south_green_hedge_003
+bep_nature_bush_a 0.4853338785 0.3230565631 -11.48372 0.895787 0.015 # south_green_hedge_004
+bep_nature_bush_b 0.4853832081 0.3229427041 97.05097 0.887661 0.015 # south_green_hedge_005
+bep_nature_bush_a 0.4855061675 0.3228689322 -141.10349 0.840047 0.015 # south_green_hedge_006
+bep_nature_bush_b 0.4853058926 0.3230883669 -147.35621 0.781315 0.015 # south_green_hedge_007
+bep_nature_bush_a 0.4853071143 0.3228808104 161.44228 0.913412 0.015 # south_green_hedge_008
+
+# Pocket: east_green_hedge
+bep_nature_bush_a 0.4888323539 0.3216889931 -90.41613 0.969617 0.015 # east_green_hedge_000
+bep_nature_bush_b 0.4887919058 0.3216656149 36.40917 0.741796 0.015 # east_green_hedge_001
+bep_nature_bush_a 0.4888051524 0.3220926611 21.38768 0.852803 0.015 # east_green_hedge_002
+bep_nature_bush_b 0.4888500204 0.3217305635 -1.98446 0.682624 0.015 # east_green_hedge_003
+bep_nature_bush_a 0.4887624807 0.3218664496 -5.05651 0.913493 0.015 # east_green_hedge_004
+bep_nature_bush_b 0.4887731972 0.3219365389 -55.35295 0.702367 0.015 # east_green_hedge_005
+bep_nature_bush_a 0.4888243905 0.3220293794 104.87314 0.979408 0.015 # east_green_hedge_006
+bep_nature_bush_b 0.4887884147 0.3218795789 96.91081 0.872003 0.015 # east_green_hedge_007
+bep_nature_bush_a 0.4887583832 0.3219759028 -109.06467 0.800217 0.015 # east_green_hedge_008
+
+# Pocket: north_green_hedge
+bep_nature_bush_a 0.4888844206 0.3182869088 -76.01972 0.788821 0.015 # north_green_hedge_000
+bep_nature_bush_b 0.4887844355 0.3183458647 -57.80786 0.902773 0.015 # north_green_hedge_001
+bep_nature_bush_a 0.4887021705 0.3182678452 158.71161 0.792828 0.015 # north_green_hedge_002
+bep_nature_bush_b 0.4888472095 0.3183755514 -172.01091 0.957948 0.015 # north_green_hedge_003
+bep_nature_bush_a 0.4887648489 0.3180606279 142.91785 1.019596 0.015 # north_green_hedge_004
+bep_nature_bush_b 0.4887643880 0.3180608033 -23.43794 0.921748 0.015 # north_green_hedge_005
+bep_nature_bush_a 0.4888215201 0.3183745883 31.86906 0.956072 0.015 # north_green_hedge_006
+bep_nature_bush_b 0.4887990279 0.3183885217 137.44050 0.941435 0.015 # north_green_hedge_007
+bep_nature_bush_a 0.4887064674 0.3183942913 -127.75568 1.010061 0.015 # north_green_hedge_008
+
+# Pocket: creek_west_hedge
+bep_nature_bush_a 0.4846638576 0.3179388633 -175.04837 0.702730 0.015 # creek_west_hedge_000
+bep_nature_bush_b 0.4846472972 0.3177086639 -39.83102 0.896967 0.015 # creek_west_hedge_001
+bep_nature_bush_a 0.4846537743 0.3176295035 -49.00245 1.017607 0.015 # creek_west_hedge_002
+bep_nature_bush_b 0.4846803411 0.3179625174 -102.75732 1.005914 0.015 # creek_west_hedge_003
+bep_nature_bush_a 0.4846358312 0.3177240309 82.05008 0.999313 0.015 # creek_west_hedge_004
+bep_nature_bush_b 0.4846206190 0.3178406375 -99.11798 0.820547 0.015 # creek_west_hedge_005
+bep_nature_bush_a 0.4846814096 0.3180288814 -124.50677 0.763540 0.015 # creek_west_hedge_006
+bep_nature_bush_b 0.4846150985 0.3178662661 -19.52147 0.905989 0.015 # creek_west_hedge_007
+
+# Pocket: creek_east_hedge
+bep_nature_bush_a 0.4893427508 0.3176489307 -121.53958 0.755987 0.015 # creek_east_hedge_000
+bep_nature_bush_b 0.4893519287 0.3177687188 -6.48193 0.714569 0.015 # creek_east_hedge_001
+bep_nature_bush_a 0.4893283386 0.3175920922 105.30276 0.972542 0.015 # creek_east_hedge_002
+bep_nature_bush_b 0.4893594973 0.3180296748 117.63570 0.694192 0.015 # creek_east_hedge_003
+bep_nature_bush_a 0.4893358571 0.3177410267 -5.00634 1.005716 0.015 # creek_east_hedge_004
+bep_nature_bush_b 0.4893251541 0.3175765663 -78.58031 0.777791 0.015 # creek_east_hedge_005
+bep_nature_bush_a 0.4893878452 0.3177910261 -169.06381 1.024268 0.015 # creek_east_hedge_006
+bep_nature_bush_b 0.4893349453 0.3179150904 -112.66563 0.744435 0.015 # creek_east_hedge_007
+
+# Pocket: creek_south_hedge
+bep_nature_bush_a 0.4884626660 0.3241585477 155.98329 0.763579 0.015 # creek_south_hedge_000
+bep_nature_bush_b 0.4884563904 0.3242297213 108.51248 0.842091 0.015 # creek_south_hedge_001
+bep_nature_bush_a 0.4883144878 0.3242302928 -147.26355 0.797316 0.015 # creek_south_hedge_002
+bep_nature_bush_b 0.4884857519 0.3242021199 124.63230 0.974255 0.015 # creek_south_hedge_003
+bep_nature_bush_a 0.4883520064 0.3241591228 -123.80180 1.024994 0.015 # creek_south_hedge_004
+bep_nature_bush_b 0.4884203222 0.3241216939 -13.53636 0.761635 0.015 # creek_south_hedge_005
+bep_nature_bush_a 0.4884931084 0.3241754800 84.38735 0.963286 0.015 # creek_south_hedge_006
+bep_nature_bush_b 0.4883181356 0.3241548001 83.02270 1.011824 0.015 # creek_south_hedge_007
+
+# Pocket: northwest_oak_grove
+bep_nature_oak 0.4857810066 0.3156203834 -3.45848 1.017552 0.025 # northwest_oak_grove_000
+bep_nature_beech 0.4854247413 0.3157641790 134.60733 0.783141 0.025 # northwest_oak_grove_001
+bep_nature_oak 0.4854679174 0.3158279287 -75.44751 0.968152 0.025 # northwest_oak_grove_002
+bep_nature_beech 0.4855484263 0.3156204146 -160.51023 0.729346 0.025 # northwest_oak_grove_003
+bep_nature_oak 0.4852834761 0.3156359541 -160.99859 0.830470 0.025 # northwest_oak_grove_004
+
+# Pocket: northeast_beech_grove
+bep_nature_oak 0.4884521533 0.3158354408 -85.13434 0.820400 0.025 # northeast_beech_grove_000
+bep_nature_beech 0.4880654861 0.3155589080 -29.67761 0.798985 0.025 # northeast_beech_grove_001
+bep_nature_oak 0.4881382528 0.3158600962 173.22946 0.982068 0.025 # northeast_beech_grove_002
+bep_nature_beech 0.4883848397 0.3157451267 65.59741 0.875339 0.025 # northeast_beech_grove_003
+bep_nature_oak 0.4881388098 0.3155504603 -93.73594 0.725946 0.025 # northeast_beech_grove_004
+
+# Pocket: west_bank_grove
+bep_nature_oak 0.4846298388 0.3186636044 -58.28522 0.756714 0.025 # west_bank_grove_000
+bep_nature_beech 0.4844679331 0.3183299699 149.46235 0.740281 0.025 # west_bank_grove_001
+bep_nature_oak 0.4845433034 0.3180112380 23.32686 0.849935 0.025 # west_bank_grove_002
+bep_nature_beech 0.4846526393 0.3182919500 -142.39312 0.805293 0.025 # west_bank_grove_003
+bep_nature_oak 0.4845189554 0.3184149426 -76.73347 0.839064 0.025 # west_bank_grove_004
+
+# Pocket: east_bank_grove
+bep_nature_oak 0.4894478948 0.3183499222 30.43273 0.788196 0.025 # east_bank_grove_000
+bep_nature_beech 0.4893481383 0.3183459299 32.40672 0.941410 0.025 # east_bank_grove_001
+bep_nature_oak 0.4893179450 0.3186514648 -27.72146 0.851654 0.025 # east_bank_grove_002
+bep_nature_beech 0.4895080799 0.3181624011 -7.27748 0.863249 0.025 # east_bank_grove_003
+bep_nature_oak 0.4893562608 0.3187846791 -59.58848 0.785025 0.025 # east_bank_grove_004
+
+# Pocket: southwest_bank_grove
+bep_nature_oak 0.4855361908 0.3242447658 139.61240 0.987915 0.025 # southwest_bank_grove_000
+bep_nature_beech 0.4856301960 0.3242662064 -47.45843 0.929018 0.025 # southwest_bank_grove_001
+bep_nature_oak 0.4854142067 0.3244855244 170.97836 0.827591 0.025 # southwest_bank_grove_002
+bep_nature_beech 0.4857028898 0.3241415632 146.12740 0.816585 0.025 # southwest_bank_grove_003
+
+# Pocket: southeast_bank_grove
+bep_nature_oak 0.4884655425 0.3243640573 -105.04418 0.776577 0.025 # southeast_bank_grove_000
+bep_nature_beech 0.4883604253 0.3241713071 141.32780 1.029961 0.025 # southeast_bank_grove_001
+bep_nature_oak 0.4882634469 0.3244545776 22.00288 0.766715 0.025 # southeast_bank_grove_002
+bep_nature_beech 0.4884123695 0.3242120809 -4.94519 0.878692 0.025 # southeast_bank_grove_003
+
+# Pocket: rainforest_arrival_west
+bep_nature_fern 0.2347819768 0.6715818020 154.04498 1.025554 0.008 # rainforest_arrival_west_000
+bep_nature_grass_broad 0.2347168798 0.6715283614 20.81648 0.931126 0.008 # rainforest_arrival_west_001
+bep_nature_clover 0.2347208276 0.6713298522 23.65925 0.839366 0.008 # rainforest_arrival_west_002
+bep_nature_fern 0.2347968871 0.6714859097 -86.96940 1.068854 0.008 # rainforest_arrival_west_003
+bep_nature_fern 0.2347531149 0.6715502996 -17.53328 0.853637 0.008 # rainforest_arrival_west_004
+bep_nature_grass_broad 0.2347031065 0.6713890243 -179.73822 1.054603 0.008 # rainforest_arrival_west_005
+bep_nature_clover 0.2347804186 0.6715341873 105.78028 1.077919 0.008 # rainforest_arrival_west_006
+bep_nature_fern 0.2347189112 0.6713791417 -24.28324 0.874066 0.008 # rainforest_arrival_west_007
+bep_nature_fern 0.2347283929 0.6713373315 -63.66043 1.158922 0.008 # rainforest_arrival_west_008
+bep_nature_grass_broad 0.2347793953 0.6714631232 -32.96625 0.907054 0.008 # rainforest_arrival_west_009
+bep_nature_clover 0.2347047779 0.6715345674 96.60334 0.994884 0.008 # rainforest_arrival_west_010
+bep_nature_fern 0.2347576868 0.6715228972 -67.16378 0.971326 0.008 # rainforest_arrival_west_011
+bep_nature_fern 0.2347371460 0.6715596118 151.61601 1.004647 0.008 # rainforest_arrival_west_012
+bep_nature_grass_broad 0.2347265775 0.6715714231 3.77265 0.993401 0.008 # rainforest_arrival_west_013
+bep_nature_clover 0.2347499188 0.6715422759 -8.12486 0.924483 0.008 # rainforest_arrival_west_014
+bep_nature_fern 0.2347782515 0.6713343313 78.42684 0.805404 0.008 # rainforest_arrival_west_015
+bep_nature_fern 0.2347028353 0.6715752171 81.85463 0.843479 0.008 # rainforest_arrival_west_016
+bep_nature_grass_broad 0.2347348276 0.6715935983 133.68320 1.065290 0.008 # rainforest_arrival_west_017
+bep_nature_clover 0.2347533337 0.6713877531 -58.48582 1.058354 0.008 # rainforest_arrival_west_018
+bep_nature_fern 0.2347023210 0.6716155583 -77.80929 1.015944 0.008 # rainforest_arrival_west_019
+
+# Pocket: rainforest_arrival_east
+bep_nature_fern 0.2350391169 0.6714225018 73.44760 0.855121 0.008 # rainforest_arrival_east_000
+bep_nature_grass_broad 0.2349893628 0.6713106912 9.75681 1.060998 0.008 # rainforest_arrival_east_001
+bep_nature_clover 0.2350034366 0.6713203441 -94.60165 1.188805 0.008 # rainforest_arrival_east_002
+bep_nature_fern 0.2350631706 0.6714296157 112.96107 0.791015 0.008 # rainforest_arrival_east_003
+bep_nature_fern 0.2350159437 0.6712839627 -68.08447 0.933249 0.008 # rainforest_arrival_east_004
+bep_nature_grass_broad 0.2350150148 0.6713613112 90.69111 1.046971 0.008 # rainforest_arrival_east_005
+bep_nature_clover 0.2350079783 0.6713035114 -24.75850 1.006547 0.008 # rainforest_arrival_east_006
+bep_nature_fern 0.2349879363 0.6713188740 171.45437 0.993572 0.008 # rainforest_arrival_east_007
+bep_nature_fern 0.2350017608 0.6713048982 92.99848 1.147334 0.008 # rainforest_arrival_east_008
+bep_nature_grass_broad 0.2349926630 0.6712730435 -124.67197 1.053603 0.008 # rainforest_arrival_east_009
+bep_nature_clover 0.2350021920 0.6713420633 -11.32681 1.028583 0.008 # rainforest_arrival_east_010
+bep_nature_fern 0.2349971975 0.6712936668 -129.85322 0.986165 0.008 # rainforest_arrival_east_011
+bep_nature_fern 0.2350561898 0.6713636353 35.86306 1.183277 0.008 # rainforest_arrival_east_012
+bep_nature_grass_broad 0.2349635187 0.6714604233 -139.73415 0.908997 0.008 # rainforest_arrival_east_013
+bep_nature_clover 0.2349555107 0.6714820332 72.82896 1.153236 0.008 # rainforest_arrival_east_014
+bep_nature_fern 0.2350385440 0.6714566736 89.67866 0.975161 0.008 # rainforest_arrival_east_015
+bep_nature_fern 0.2349984269 0.6712806384 157.04989 1.025899 0.008 # rainforest_arrival_east_016
+bep_nature_grass_broad 0.2350142638 0.6713048205 -154.42165 1.130100 0.008 # rainforest_arrival_east_017
+bep_nature_clover 0.2350231462 0.6713726248 11.06410 0.989981 0.008 # rainforest_arrival_east_018
+bep_nature_fern 0.2349632336 0.6714721802 178.81032 0.783358 0.008 # rainforest_arrival_east_019
+
+# Pocket: rainforest_hollow_west
+bep_nature_fern 0.2348575313 0.6709049992 -46.09511 1.165919 0.008 # rainforest_hollow_west_000
+bep_nature_grass_broad 0.2348049512 0.6708554195 -107.29802 0.789852 0.008 # rainforest_hollow_west_001
+bep_nature_clover 0.2348463108 0.6707393919 171.53646 0.789222 0.008 # rainforest_hollow_west_002
+bep_nature_fern 0.2349068981 0.6709662595 -86.23392 0.816209 0.008 # rainforest_hollow_west_003
+bep_nature_fern 0.2348667845 0.6708985094 -151.63270 1.044825 0.008 # rainforest_hollow_west_004
+bep_nature_grass_broad 0.2347873592 0.6708711914 163.71645 1.135742 0.008 # rainforest_hollow_west_005
+bep_nature_clover 0.2348874897 0.6708180066 -178.11192 0.987949 0.008 # rainforest_hollow_west_006
+bep_nature_fern 0.2348301712 0.6709310364 -146.61834 1.026228 0.008 # rainforest_hollow_west_007
+bep_nature_fern 0.2347916133 0.6708252621 -89.31472 0.874931 0.008 # rainforest_hollow_west_008
+bep_nature_grass_broad 0.2348586080 0.6709054623 102.83617 0.947720 0.008 # rainforest_hollow_west_009
+bep_nature_clover 0.2348485988 0.6709648275 83.52980 0.851318 0.008 # rainforest_hollow_west_010
+bep_nature_fern 0.2348000596 0.6707039566 -103.48562 0.884228 0.008 # rainforest_hollow_west_011
+bep_nature_fern 0.2349103994 0.6708886481 148.91816 1.013134 0.008 # rainforest_hollow_west_012
+bep_nature_grass_broad 0.2348189755 0.6709530733 -15.50530 0.950648 0.008 # rainforest_hollow_west_013
+bep_nature_clover 0.2348490044 0.6707835608 120.95536 0.923483 0.008 # rainforest_hollow_west_014
+bep_nature_fern 0.2348701931 0.6707441772 -134.83113 0.850140 0.008 # rainforest_hollow_west_015
+bep_nature_fern 0.2348524239 0.6708734881 90.83386 1.101687 0.008 # rainforest_hollow_west_016
+bep_nature_grass_broad 0.2348165791 0.6706687028 140.27859 1.070239 0.008 # rainforest_hollow_west_017
+bep_nature_clover 0.2348881787 0.6706803005 -49.32941 0.804187 0.008 # rainforest_hollow_west_018
+bep_nature_fern 0.2348338712 0.6707395537 167.15793 1.085867 0.008 # rainforest_hollow_west_019
+
+# Pocket: rainforest_hollow_east
+bep_nature_fern 0.2351317619 0.6708489608 14.57546 0.792730 0.008 # rainforest_hollow_east_000
+bep_nature_grass_broad 0.2350505438 0.6707736353 62.58693 1.101245 0.008 # rainforest_hollow_east_001
+bep_nature_clover 0.2350747244 0.6706109590 113.60684 0.820270 0.008 # rainforest_hollow_east_002
+bep_nature_fern 0.2351552044 0.6708443983 -59.15327 0.806586 0.008 # rainforest_hollow_east_003
+bep_nature_fern 0.2350484775 0.6707965957 -87.38209 0.980438 0.008 # rainforest_hollow_east_004
+bep_nature_grass_broad 0.2350732565 0.6705831453 -156.54885 1.077472 0.008 # rainforest_hollow_east_005
+bep_nature_clover 0.2351462087 0.6708504916 -175.38565 0.988522 0.008 # rainforest_hollow_east_006
+bep_nature_fern 0.2350902914 0.6705726949 159.43084 0.996271 0.008 # rainforest_hollow_east_007
+bep_nature_fern 0.2350652806 0.6708712901 158.47692 1.059437 0.008 # rainforest_hollow_east_008
+bep_nature_grass_broad 0.2351115058 0.6708902641 -43.10097 0.793092 0.008 # rainforest_hollow_east_009
+bep_nature_clover 0.2350656928 0.6706021587 106.24080 1.112291 0.008 # rainforest_hollow_east_010
+bep_nature_fern 0.2350544225 0.6708903968 -130.89075 1.080230 0.008 # rainforest_hollow_east_011
+bep_nature_fern 0.2351158412 0.6708391949 139.41704 1.184109 0.008 # rainforest_hollow_east_012
+bep_nature_grass_broad 0.2351088024 0.6708442199 94.48699 0.846645 0.008 # rainforest_hollow_east_013
+bep_nature_clover 0.2350458183 0.6707966156 74.23038 1.188877 0.008 # rainforest_hollow_east_014
+bep_nature_fern 0.2351402058 0.6708703377 168.93601 1.179576 0.008 # rainforest_hollow_east_015
+bep_nature_fern 0.2350575544 0.6708551295 50.24240 1.042860 0.008 # rainforest_hollow_east_016
+bep_nature_grass_broad 0.2350582775 0.6708677305 179.72310 0.910353 0.008 # rainforest_hollow_east_017
+bep_nature_clover 0.2351168805 0.6708909686 -167.39417 0.793562 0.008 # rainforest_hollow_east_018
+bep_nature_fern 0.2350566390 0.6708682248 -48.64980 1.035346 0.008 # rainforest_hollow_east_019
+
+# Pocket: rainforest_cathedral_west
+bep_nature_fern 0.2348968615 0.6702150497 -76.37614 1.155367 0.008 # rainforest_cathedral_west_000
+bep_nature_grass_broad 0.2347769184 0.6702231470 -61.01758 1.131810 0.008 # rainforest_cathedral_west_001
+bep_nature_clover 0.2347653418 0.6701958716 175.34680 0.919795 0.008 # rainforest_cathedral_west_002
+bep_nature_fern 0.2348796457 0.6701370827 -157.64326 1.173157 0.008 # rainforest_cathedral_west_003
+bep_nature_fern 0.2347700404 0.6700946218 -126.43356 0.807132 0.008 # rainforest_cathedral_west_004
+bep_nature_grass_broad 0.2348024426 0.6700981840 -149.09397 1.131727 0.008 # rainforest_cathedral_west_005
+bep_nature_clover 0.2348412664 0.6700541784 177.16167 0.873189 0.008 # rainforest_cathedral_west_006
+bep_nature_fern 0.2347829999 0.6701968111 158.08185 0.977335 0.008 # rainforest_cathedral_west_007
+bep_nature_fern 0.2347697646 0.6702295495 -134.98452 0.901057 0.008 # rainforest_cathedral_west_008
+bep_nature_grass_broad 0.2348632797 0.6700449677 49.71151 0.993304 0.008 # rainforest_cathedral_west_009
+bep_nature_clover 0.2348155649 0.6702981289 174.40990 0.979756 0.008 # rainforest_cathedral_west_010
+bep_nature_fern 0.2347804800 0.6700301518 -90.91960 0.880114 0.008 # rainforest_cathedral_west_011
+bep_nature_fern 0.2348868050 0.6700200525 3.14326 1.139552 0.008 # rainforest_cathedral_west_012
+bep_nature_grass_broad 0.2347966829 0.6700545044 73.95811 0.786251 0.008 # rainforest_cathedral_west_013
+bep_nature_clover 0.2347740855 0.6701978805 -99.31847 0.876964 0.008 # rainforest_cathedral_west_014
+bep_nature_fern 0.2348782051 0.6700240181 5.84752 0.922554 0.008 # rainforest_cathedral_west_015
+bep_nature_fern 0.2347940307 0.6700447161 116.72509 0.926391 0.008 # rainforest_cathedral_west_016
+bep_nature_grass_broad 0.2347838455 0.6701301586 126.21612 0.781915 0.008 # rainforest_cathedral_west_017
+bep_nature_clover 0.2348793666 0.6700787408 -110.45213 0.939671 0.008 # rainforest_cathedral_west_018
+bep_nature_fern 0.2347853601 0.6701426470 -154.77232 1.183643 0.008 # rainforest_cathedral_west_019
+
+# Pocket: rainforest_cathedral_east
+bep_nature_fern 0.2351589074 0.6701048757 109.99164 0.888369 0.008 # rainforest_cathedral_east_000
+bep_nature_grass_broad 0.2351034901 0.6699192538 -32.68158 0.990074 0.008 # rainforest_cathedral_east_001
+bep_nature_clover 0.2350998694 0.6697973014 15.10904 0.872317 0.008 # rainforest_cathedral_east_002
+bep_nature_fern 0.2351960717 0.6699949602 153.93354 1.000534 0.008 # rainforest_cathedral_east_003
+bep_nature_fern 0.2351160051 0.6700236371 104.60788 1.131126 0.008 # rainforest_cathedral_east_004
+bep_nature_grass_broad 0.2350663638 0.6700492243 145.60959 1.053265 0.008 # rainforest_cathedral_east_005
+bep_nature_clover 0.2351472726 0.6700375578 -92.07560 1.154442 0.008 # rainforest_cathedral_east_006
+bep_nature_fern 0.2351042882 0.6698865848 -88.06694 1.050109 0.008 # rainforest_cathedral_east_007
+bep_nature_fern 0.2351352994 0.6700618416 -179.34409 0.847854 0.008 # rainforest_cathedral_east_008
+bep_nature_grass_broad 0.2351573995 0.6700469098 -104.57864 1.170746 0.008 # rainforest_cathedral_east_009
+bep_nature_clover 0.2350987699 0.6700849911 -159.36500 1.017620 0.008 # rainforest_cathedral_east_010
+bep_nature_fern 0.2350946932 0.6700159977 -122.64552 0.807778 0.008 # rainforest_cathedral_east_011
+bep_nature_fern 0.2351424630 0.6699773365 -158.83245 1.112608 0.008 # rainforest_cathedral_east_012
+bep_nature_grass_broad 0.2351354909 0.6700886818 -111.87696 0.991191 0.008 # rainforest_cathedral_east_013
+bep_nature_clover 0.2350872109 0.6700712029 165.91182 0.790598 0.008 # rainforest_cathedral_east_014
+bep_nature_fern 0.2351440764 0.6701263936 -42.14989 1.118120 0.008 # rainforest_cathedral_east_015
+bep_nature_fern 0.2351448644 0.6700421398 -109.45841 0.834585 0.008 # rainforest_cathedral_east_016
+bep_nature_grass_broad 0.2350637715 0.6700213135 -88.41068 1.107851 0.008 # rainforest_cathedral_east_017
+bep_nature_clover 0.2351417152 0.6700642814 2.74974 0.884186 0.008 # rainforest_cathedral_east_018
+bep_nature_fern 0.2350807454 0.6698642003 -28.03588 0.843082 0.008 # rainforest_cathedral_east_019
+
+# Pocket: rainforest_north_west
+bep_nature_fern 0.2348513568 0.6686403259 -33.19423 0.888502 0.008 # rainforest_north_west_000
+bep_nature_grass_broad 0.2348192759 0.6685923901 141.29490 1.093492 0.008 # rainforest_north_west_001
+bep_nature_clover 0.2348195011 0.6688486514 88.21804 1.048691 0.008 # rainforest_north_west_002
+bep_nature_fern 0.2348503154 0.6686344933 -23.93471 0.956175 0.008 # rainforest_north_west_003
+bep_nature_fern 0.2348210533 0.6685911479 63.66672 0.895943 0.008 # rainforest_north_west_004
+bep_nature_grass_broad 0.2348440539 0.6687524157 88.67516 0.991648 0.008 # rainforest_north_west_005
+bep_nature_clover 0.2349024832 0.6687486763 -70.26342 0.835993 0.008 # rainforest_north_west_006
+bep_nature_fern 0.2347825484 0.6686280669 -30.48768 1.080437 0.008 # rainforest_north_west_007
+bep_nature_fern 0.2348306273 0.6687790950 152.80155 0.805143 0.008 # rainforest_north_west_008
+bep_nature_grass_broad 0.2348331999 0.6686910083 166.97784 1.097808 0.008 # rainforest_north_west_009
+bep_nature_clover 0.2348512980 0.6685437542 101.54577 0.984779 0.008 # rainforest_north_west_010
+bep_nature_fern 0.2348243109 0.6685726570 -44.28376 1.167919 0.008 # rainforest_north_west_011
+bep_nature_fern 0.2348863616 0.6685494503 -172.11550 0.811627 0.008 # rainforest_north_west_012
+bep_nature_grass_broad 0.2348489822 0.6686316004 -100.43874 1.151108 0.008 # rainforest_north_west_013
+bep_nature_clover 0.2348338229 0.6686806508 -152.31840 1.001214 0.008 # rainforest_north_west_014
+bep_nature_fern 0.2348981888 0.6685529722 154.11787 1.065480 0.008 # rainforest_north_west_015
+bep_nature_fern 0.2348078430 0.6685442980 -154.96763 0.937655 0.008 # rainforest_north_west_016
+bep_nature_grass_broad 0.2347835720 0.6687705040 122.36963 0.852440 0.008 # rainforest_north_west_017
+bep_nature_clover 0.2348616967 0.6686735771 -164.80500 1.065423 0.008 # rainforest_north_west_018
+bep_nature_fern 0.2347844471 0.6685427287 87.05304 1.029079 0.008 # rainforest_north_west_019
+
+# Pocket: rainforest_north_east
+bep_nature_fern 0.2351257284 0.6684108074 127.88243 1.139206 0.008 # rainforest_north_east_000
+bep_nature_grass_broad 0.2351090768 0.6683332657 -75.18483 0.872192 0.008 # rainforest_north_east_001
+bep_nature_clover 0.2351327542 0.6683550155 48.94211 0.820196 0.008 # rainforest_north_east_002
+bep_nature_fern 0.2351590634 0.6685885666 -89.44654 1.188386 0.008 # rainforest_north_east_003
+bep_nature_fern 0.2350809099 0.6685839436 63.14990 1.147070 0.008 # rainforest_north_east_004
+bep_nature_grass_broad 0.2351071317 0.6684837449 -82.06956 0.797072 0.008 # rainforest_north_east_005
+bep_nature_clover 0.2351735269 0.6683579756 158.07717 0.983404 0.008 # rainforest_north_east_006
+bep_nature_fern 0.2351224318 0.6683934169 83.81770 1.107662 0.008 # rainforest_north_east_007
+bep_nature_fern 0.2350675163 0.6685170221 102.23890 0.903047 0.008 # rainforest_north_east_008
+bep_nature_grass_broad 0.2351332662 0.6685716268 177.15009 0.838513 0.008 # rainforest_north_east_009
+bep_nature_clover 0.2350924500 0.6683585485 174.39865 1.060526 0.008 # rainforest_north_east_010
+bep_nature_fern 0.2351379205 0.6684551247 -140.21727 1.120042 0.008 # rainforest_north_east_011
+bep_nature_fern 0.2351224901 0.6683517451 128.91213 0.899214 0.008 # rainforest_north_east_012
+bep_nature_grass_broad 0.2350742697 0.6684164866 170.76292 0.821412 0.008 # rainforest_north_east_013
+bep_nature_clover 0.2351039172 0.6683501365 -152.59440 0.794257 0.008 # rainforest_north_east_014
+bep_nature_fern 0.2351652984 0.6683921065 116.77920 0.943864 0.008 # rainforest_north_east_015
+bep_nature_fern 0.2350998961 0.6684069845 -88.86984 1.189029 0.008 # rainforest_north_east_016
+bep_nature_grass_broad 0.2351266319 0.6685371636 -83.50161 0.887926 0.008 # rainforest_north_east_017
+bep_nature_clover 0.2351477432 0.6682560922 56.76927 0.906017 0.008 # rainforest_north_east_018
+bep_nature_fern 0.2351100563 0.6685718875 47.23391 0.800334 0.008 # rainforest_north_east_019
+
+# Pocket: rainforest_pool_farbank
+bep_nature_fern 0.2345986779 0.6695780154 172.98040 1.031613 0.008 # rainforest_pool_farbank_000
+bep_nature_grass_broad 0.2345726722 0.6694636113 -125.17995 1.108430 0.008 # rainforest_pool_farbank_001
+bep_nature_clover 0.2345689462 0.6696287736 148.45126 1.189341 0.008 # rainforest_pool_farbank_002
+bep_nature_fern 0.2345995651 0.6696494091 -79.36836 0.934853 0.008 # rainforest_pool_farbank_003
+bep_nature_fern 0.2345914634 0.6694474578 41.06641 0.960222 0.008 # rainforest_pool_farbank_004
+bep_nature_grass_broad 0.2345780234 0.6696250705 -58.85644 1.046591 0.008 # rainforest_pool_farbank_005
+bep_nature_clover 0.2346181295 0.6695621370 90.73131 0.818250 0.008 # rainforest_pool_farbank_006
+bep_nature_fern 0.2345679691 0.6695454292 134.90786 0.870840 0.008 # rainforest_pool_farbank_007
+bep_nature_fern 0.2345691766 0.6694877973 80.33632 1.011301 0.008 # rainforest_pool_farbank_008
+bep_nature_grass_broad 0.2346425181 0.6695352540 39.36701 1.119603 0.008 # rainforest_pool_farbank_009
+bep_nature_clover 0.2345870673 0.6697969507 135.50870 0.919575 0.008 # rainforest_pool_farbank_010
+bep_nature_fern 0.2345706695 0.6696818294 -99.29678 0.968384 0.008 # rainforest_pool_farbank_011
+bep_nature_fern 0.2345996862 0.6696260501 -94.33159 1.156259 0.008 # rainforest_pool_farbank_012
+bep_nature_grass_broad 0.2345736775 0.6697569980 -29.43534 1.056761 0.008 # rainforest_pool_farbank_013
+bep_nature_clover 0.2346105823 0.6694476122 34.30311 0.934761 0.008 # rainforest_pool_farbank_014
+bep_nature_fern 0.2346126686 0.6695559170 -18.38757 0.998174 0.008 # rainforest_pool_farbank_015
+bep_nature_fern 0.2345794766 0.6694180181 -83.51947 1.083971 0.008 # rainforest_pool_farbank_016
+bep_nature_grass_broad 0.2346020852 0.6695546338 9.22439 0.856910 0.008 # rainforest_pool_farbank_017
+bep_nature_clover 0.2346119208 0.6695401364 145.48411 0.967155 0.008 # rainforest_pool_farbank_018
+bep_nature_fern 0.2345723727 0.6697447590 -28.06874 1.143404 0.008 # rainforest_pool_farbank_019
+
+# Pocket: rainforest_pool_northbank
+bep_nature_fern 0.2348952375 0.6691070536 91.69917 1.051496 0.008 # rainforest_pool_northbank_000
+bep_nature_grass_broad 0.2347222925 0.6691459542 80.43781 1.047548 0.008 # rainforest_pool_northbank_001
+bep_nature_clover 0.2346749999 0.6690760467 -111.58572 1.182856 0.008 # rainforest_pool_northbank_002
+bep_nature_fern 0.2348080040 0.6691422619 123.19569 0.966151 0.008 # rainforest_pool_northbank_003
+bep_nature_fern 0.2347387809 0.6691697016 169.32354 1.133768 0.008 # rainforest_pool_northbank_004
+bep_nature_grass_broad 0.2347472304 0.6690816576 151.08929 0.997422 0.008 # rainforest_pool_northbank_005
+bep_nature_clover 0.2348540261 0.6690679394 -4.48205 0.980881 0.008 # rainforest_pool_northbank_006
+bep_nature_fern 0.2347131169 0.6691163558 -42.46220 0.983594 0.008 # rainforest_pool_northbank_007
+bep_nature_fern 0.2347352884 0.6690654776 113.56948 0.989382 0.008 # rainforest_pool_northbank_008
+bep_nature_grass_broad 0.2347837200 0.6691165208 -130.07651 0.979351 0.008 # rainforest_pool_northbank_009
+bep_nature_clover 0.2347600419 0.6691140876 -132.09914 1.148418 0.008 # rainforest_pool_northbank_010
+bep_nature_fern 0.2347134351 0.6691391085 171.68139 0.841344 0.008 # rainforest_pool_northbank_011
+bep_nature_fern 0.2347981545 0.6690990414 37.37402 1.160294 0.008 # rainforest_pool_northbank_012
+bep_nature_grass_broad 0.2347119642 0.6690565069 -93.29950 0.782837 0.008 # rainforest_pool_northbank_013
+bep_nature_clover 0.2347263580 0.6691622500 -71.00433 0.947818 0.008 # rainforest_pool_northbank_014
+bep_nature_fern 0.2348186283 0.6690686159 175.00205 0.848558 0.008 # rainforest_pool_northbank_015
+bep_nature_fern 0.2347248281 0.6691618254 116.87218 0.926612 0.008 # rainforest_pool_northbank_016
+bep_nature_grass_broad 0.2347455941 0.6691482952 102.21664 1.108783 0.008 # rainforest_pool_northbank_017
+bep_nature_clover 0.2347999575 0.6691317442 -28.06962 0.805338 0.008 # rainforest_pool_northbank_018
+bep_nature_fern 0.2346569714 0.6691225000 -87.77350 0.883818 0.008 # rainforest_pool_northbank_019
+
+# Pocket: rainforest_hollow_scrub
+bep_nature_bush_a 0.2348311573 0.6708904312 83.33407 0.891189 0.015 # rainforest_hollow_scrub_000
+bep_nature_bush_b 0.2347770532 0.6707325801 134.71331 0.876064 0.015 # rainforest_hollow_scrub_001
+bep_nature_palm 0.2347736262 0.6707254664 158.36167 1.044886 0.015 # rainforest_hollow_scrub_002
+bep_nature_bush_a 0.2348429183 0.6709288015 34.77651 0.846692 0.015 # rainforest_hollow_scrub_003
+bep_nature_bush_b 0.2347594840 0.6710747891 -68.89771 0.812710 0.015 # rainforest_hollow_scrub_004
+bep_nature_palm 0.2347446027 0.6708673534 40.45211 0.964855 0.015 # rainforest_hollow_scrub_005
+bep_nature_bush_a 0.2348147643 0.6710959094 -46.67159 0.793841 0.015 # rainforest_hollow_scrub_006
+bep_nature_bush_b 0.2347198440 0.6710521501 73.73309 0.914849 0.015 # rainforest_hollow_scrub_007
+bep_nature_palm 0.2347424725 0.6710036026 141.68112 0.637251 0.015 # rainforest_hollow_scrub_008
+bep_nature_bush_a 0.2348122275 0.6708783237 -135.64611 0.921708 0.015 # rainforest_hollow_scrub_009
+bep_nature_bush_b 0.2347561794 0.6710185153 -97.96926 0.907165 0.015 # rainforest_hollow_scrub_010
+bep_nature_palm 0.2347835373 0.6710800712 -109.77078 1.047338 0.015 # rainforest_hollow_scrub_011
+
+# Pocket: rainforest_canopy_scrub
+bep_nature_bush_a 0.2352933913 0.6698314468 -87.59417 1.116483 0.015 # rainforest_canopy_scrub_000
+bep_nature_bush_b 0.2351991055 0.6700241144 132.35440 0.841041 0.015 # rainforest_canopy_scrub_001
+bep_nature_palm 0.2351513088 0.6701427091 -104.95407 0.945023 0.015 # rainforest_canopy_scrub_002
+bep_nature_bush_a 0.2353026638 0.6699916048 29.57500 1.087949 0.015 # rainforest_canopy_scrub_003
+bep_nature_bush_b 0.2351739159 0.6701795733 80.71344 0.918791 0.015 # rainforest_canopy_scrub_004
+bep_nature_palm 0.2351556981 0.6699842020 -118.79909 1.024005 0.015 # rainforest_canopy_scrub_005
+bep_nature_bush_a 0.2352695578 0.6697865526 -125.51063 1.002466 0.015 # rainforest_canopy_scrub_006
+bep_nature_bush_b 0.2351740358 0.6699619425 163.23243 0.887518 0.015 # rainforest_canopy_scrub_007
+bep_nature_palm 0.2351840258 0.6701347515 -144.63150 0.892875 0.015 # rainforest_canopy_scrub_008
+bep_nature_bush_a 0.2352827712 0.6698965491 41.11904 0.773392 0.015 # rainforest_canopy_scrub_009
+bep_nature_bush_b 0.2352143684 0.6699966144 -27.53965 0.839919 0.015 # rainforest_canopy_scrub_010
+bep_nature_palm 0.2351562602 0.6701084130 -144.87375 0.877912 0.015 # rainforest_canopy_scrub_011
+
+# Pocket: rainforest_far_scrub
+bep_nature_bush_a 0.2348178788 0.6687148055 -112.23995 0.959214 0.015 # rainforest_far_scrub_000
+bep_nature_bush_b 0.2346940116 0.6683899892 28.18650 0.779964 0.015 # rainforest_far_scrub_001
+bep_nature_palm 0.2347666479 0.6686121444 -117.81452 1.046137 0.015 # rainforest_far_scrub_002
+bep_nature_bush_a 0.2348549884 0.6685298601 116.82241 0.980273 0.015 # rainforest_far_scrub_003
+bep_nature_bush_b 0.2347449663 0.6686051869 -42.93397 0.843535 0.015 # rainforest_far_scrub_004
+bep_nature_palm 0.2347126963 0.6684011458 101.55124 0.741884 0.015 # rainforest_far_scrub_005
+bep_nature_bush_a 0.2348599526 0.6685665651 160.26764 1.118062 0.015 # rainforest_far_scrub_006
+bep_nature_bush_b 0.2347106403 0.6684936550 25.71069 1.046455 0.015 # rainforest_far_scrub_007
+bep_nature_palm 0.2347626568 0.6684311849 176.69702 0.912987 0.015 # rainforest_far_scrub_008
+bep_nature_bush_a 0.2348606288 0.6686326800 -137.36692 1.087733 0.015 # rainforest_far_scrub_009
+bep_nature_bush_b 0.2347074630 0.6684162290 125.96383 1.046518 0.015 # rainforest_far_scrub_010
+bep_nature_palm 0.2347619788 0.6684042547 26.28464 0.906475 0.015 # rainforest_far_scrub_011
+
+# Pocket: rainforest_south_crown
+bep_nature_oak 0.2345625488 0.6710015933 145.79640 0.999379 0.025 # rainforest_south_crown_000
+bep_nature_beech 0.2344975023 0.6710519964 79.42019 0.896053 0.025 # rainforest_south_crown_001
+bep_nature_oak 0.2344007831 0.6710938825 25.82348 1.057763 0.025 # rainforest_south_crown_002
+bep_nature_beech 0.2344731261 0.6713837837 100.97850 0.984541 0.025 # rainforest_south_crown_003
+
+# Pocket: rainforest_north_crown
+bep_nature_oak 0.2356249862 0.6687188285 14.09495 1.089410 0.025 # rainforest_north_crown_000
+bep_nature_beech 0.2354941832 0.6685784451 -123.93214 1.078065 0.025 # rainforest_north_crown_001
+bep_nature_oak 0.2354973813 0.6686760515 -161.88547 0.961086 0.025 # rainforest_north_crown_002
+bep_nature_beech 0.2356236545 0.6686166302 2.63935 1.118322 0.025 # rainforest_north_crown_003

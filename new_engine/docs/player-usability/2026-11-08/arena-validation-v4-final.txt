@@ -1,0 +1,1 @@
+{"ok":true,"checked_documents":5,"components_validated":0,"authored_entities":0,"seed_entities":11,"skeletal_assets_validated":1,"capabilities":["typed-components-v1","scene-id-closure-v1","skeletal-knight-v1","landscape-v1"]}

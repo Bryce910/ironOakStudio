@@ -1,0 +1,216 @@
+{
+  "schema": "valwood.npc-memory",
+  "version": 2,
+  "profile": {
+    "npc_id": "npc_mara_fenwick",
+    "actor_id": 0,
+    "name": "Mara Fenwick",
+    "role": "Tavern keeper",
+    "faction": "Valdoa townsfolk",
+    "summary": "Keeps a warm tavern near the castle market. Generous with travelers, fiercely protective of family, and wary of the eastern jungle road.",
+    "traits": [
+      "observant",
+      "protective",
+      "hospitable"
+    ],
+    "appearance": {
+      "age_years": 38,
+      "height_cm": 168,
+      "weight_kg": 67,
+      "build": "Sturdy",
+      "skin_tone": "Warm olive",
+      "eye_color": "Hazel",
+      "hair_color": "Dark brown",
+      "hair_style": "Loose braid",
+      "hair_texture": "Wavy",
+      "hair_thickness": "coarse",
+      "hair_density": "dense",
+      "facial_hair": "",
+      "distinguishing_features": "A small scar on her left eyebrow."
+    }
+  },
+  "memories": [
+    {
+      "id": "family",
+      "parent_id": "core",
+      "kind": "relationship",
+      "title": "Family comes first",
+      "body": "Her family is her strongest connection to Valdoa.",
+      "tags": [
+        "family",
+        "valdoa"
+      ],
+      "importance": 0.95,
+      "confidence": 1,
+      "emotion": 0.8,
+      "source": "authored",
+      "shareable": false,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "brother",
+      "parent_id": "family",
+      "kind": "event",
+      "title": "A brother on the road",
+      "body": "Her brother travels through the jungle to deliver grain.",
+      "tags": [
+        "brother",
+        "jungle",
+        "grain"
+      ],
+      "importance": 0.9,
+      "confidence": 1,
+      "emotion": 0.6,
+      "source": "authored",
+      "shareable": false,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "rescue",
+      "parent_id": "brother",
+      "kind": "event",
+      "title": "You brought him home",
+      "body": "The player escorted her brother through a dangerous stretch of forest.",
+      "tags": [
+        "player",
+        "help",
+        "jungle"
+      ],
+      "importance": 0.95,
+      "confidence": 1,
+      "emotion": 0.9,
+      "source": "witnessed",
+      "shareable": true,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "trade",
+      "parent_id": "core",
+      "kind": "knowledge",
+      "title": "Life at the tavern",
+      "body": "The tavern connects merchants, guards, and travelers.",
+      "tags": [
+        "tavern",
+        "market"
+      ],
+      "importance": 0.75,
+      "confidence": 1,
+      "emotion": 0,
+      "source": "authored",
+      "shareable": false,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "supply",
+      "parent_id": "trade",
+      "kind": "goal",
+      "title": "Keep the larder full",
+      "body": "She hopes to secure a reliable grain delivery before winter.",
+      "tags": [
+        "grain",
+        "winter",
+        "trade"
+      ],
+      "importance": 0.85,
+      "confidence": 1,
+      "emotion": 0.2,
+      "source": "authored",
+      "shareable": true,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "rumor",
+      "parent_id": "trade",
+      "kind": "belief",
+      "title": "Trouble beyond the creek",
+      "body": "A traveler claimed bandits are gathering near Old Tanthoon. It has not been independently confirmed.",
+      "tags": [
+        "bandits",
+        "old-tanthoon",
+        "jungle"
+      ],
+      "importance": 0.75,
+      "confidence": 0.45,
+      "emotion": -0.7,
+      "source": "hearsay",
+      "shareable": true,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    },
+    {
+      "id": "past",
+      "parent_id": "core",
+      "kind": "event",
+      "title": "The night of the fire",
+      "body": "A torch fire once damaged her first inn.",
+      "tags": [
+        "fire",
+        "torch",
+        "danger"
+      ],
+      "importance": 0.9,
+      "confidence": 1,
+      "emotion": -0.9,
+      "source": "witnessed",
+      "shareable": false,
+      "occurred_hour": 0,
+      "half_life_hours": 0,
+      "enabled": true
+    }
+  ],
+  "layout": {
+    "positions": {
+      "core": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "family": {
+        "x": -155.884572681199,
+        "y": 89.99999999999994,
+        "z": -73.61215932167727
+      },
+      "brother": {
+        "x": -281.4582562299426,
+        "y": 162.49999999999991,
+        "z": -20.7984514257153
+      },
+      "rescue": {
+        "x": -407.03193977868625,
+        "y": 234.99999999999986,
+        "z": 44.63131801702338
+      },
+      "trade": {
+        "x": 1.1021821192326179e-14,
+        "y": -180,
+        "z": -1.0409497792752502e-14
+      },
+      "supply": {
+        "x": -139.91610646269584,
+        "y": -293.34021741370475,
+        "z": 7.649659136591637
+      },
+      "rumor": {
+        "x": 139.9161064626959,
+        "y": -293.3402174137047,
+        "z": -84.39561779655963
+      },
+      "past": {
+        "x": 155.88457268119896,
+        "y": 89.99999999999997,
+        "z": 73.61215932167727
+      }
+    }
+  }
+}

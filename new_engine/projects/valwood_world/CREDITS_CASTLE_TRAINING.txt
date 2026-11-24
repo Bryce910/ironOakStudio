@@ -1,0 +1,21 @@
+Castle west-court practice animation
+===================================
+Animated Defender AKA Brigand.
+Concept: Konstantin Maystrenko. Model: AnthonyMyers.
+Retopology, rigging, source animation: Danimal.
+Source: https://opengameart.org/content/animated-defender-aka-brigand
+License: Creative Commons Attribution3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+
+Valwood modifications: supplied Attack-two handed2 frames33..113 evaluated
+offline; four authored quaternion recovery poses close the drill; root motion
+removed; soles grounded; fixed source tessellation before skinning; source
+poleaxe rigidly retargeted to the evaluated two-hand grip line to remove
+mocap wrist roll; fixed1.82m reference scale; legacy PBR material adaptation.
+Twenty-four static poses blend on the GPU. Material image bytes and sampler
+policies are identical to the existing attributed Defender resident assets.
+The master of arms uses four existing resident breathing poses.
+
+The original Blender source and CC BY3.0 notice remain unchanged under
+assets/characters/incoming/danimal_defender/.
+No embedded source scripts are executed or included in the runtime assets.

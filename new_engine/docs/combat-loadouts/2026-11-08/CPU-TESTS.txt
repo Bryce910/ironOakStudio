@@ -1,0 +1,7 @@
+PASS all melee loadouts: five directions, profile damage/speed/stamina, affordable 3-hit combos, actual reach, matching block cost, edged-only lethal severance and one defeat, arena equip/reset, invalid selection
+
+PASS strategic policy: won3 rounds in25.98s, health52.0, hits13, parries8
+PASS shared clock/resources, nearest/front target, independent simultaneous hits/guard, per-actor events, arrow death once, combo3/TTL/energy/cancellation
+PASS all5 angles, matching/timed/wrong/low-stamina guards, riposte, reach, dodge cooldown, anti-mash,3-round win/loss/retry, pause/invalid-time/leave and30..144Hz strikes
+
+world_arena_combat: 169002 checks passed; all36 config pairs, true8-way attacks/sharedHP,8 real sequential wins, carry/corpses/pause, moving physical non-focus arrow + exact event, immunity/ground/wall/TTL/bounds

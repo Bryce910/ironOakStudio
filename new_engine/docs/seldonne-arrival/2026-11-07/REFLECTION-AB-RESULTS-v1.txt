@@ -1,0 +1,25 @@
+REFLECTION A/B — keep optimized policy
+RX5300 native Linux; finalart4;3300 matched motion poses;1600x900 scale1.
+Optimized 44.00FPS / 22.727ms; legacy 38.16FPS / 26.207ms.
+Gain +15.31% FPS; 3.480ms saved (13.28% shorter frames).
+
+Zone                         optimized  legacy   FPS gain
+arrival-camp                   29.58   26.24   +12.72%
+central-creek                  38.55   32.97   +16.91%
+eastern-woodland               41.01   37.75    +8.64%
+great-south-river              45.03   38.20   +17.88%
+north-rocky-crown              40.74   35.15   +15.89%
+rolling-meadow                 46.53   41.49   +12.17%
+town-approach                  66.25   51.07   +29.72%
+town-market                    58.93   47.76   +23.39%
+waterfront-bridge              90.43   81.69   +10.69%
+west-river-bank                43.78   41.22    +6.21%
+woodland-creek-bridge          31.59   26.60   +18.78%
+
+All runtime guards pass.4421 unused mirrors skipped versus4421 rendered; local consumers0.
+Identical complete graphics fields; actual preset label Custom in both.
+1%low25.02vs22.32FPS;p9935.36vs40.13ms;max117.44vs90.61ms.
+Frames above45FPSbudget:1875/3300 optimized;2366/3300 legacy.
+No45FPS floor, AAA completion, Windows FPS or full gameplay guarantee.
+Bound JSON: /home/computer/Desktop/final_engine/new_engine/docs/seldonne-arrival/2026-11-07/REFLECTION-AB-RESULTS-v1.json
+JSON SHA256: 552b61ec1fc6e017e7afc6556cab1ca361f00dd6f9c9d99fd4e46818ad42b99b

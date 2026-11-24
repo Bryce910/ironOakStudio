@@ -1,0 +1,28 @@
+Valwood — Third-person movement and combat flow — Linux
+
+Use the stable launchers in /home/computer/Desktop/final_engine.
+Launch_Valwood_Arena.sh opens arena setup in third person.
+Demo, editor, arena, jousting and world share one executable and shader bank.
+
+This generation retains the improved run-to-walk pose blend, physical blunt-hit
+interruptions and shorter reaction entry, plus the smoothly expanded camera
+room for two or three nearby live opponents. Player movement speed, weapon
+reach, difficulty and attack timing are retained.
+
+Quick steps now keep the selected skeletal character, equipment and appearance
+active. They reuse the owned backward start/walk/stop captures rather than
+switching to the legacy character body. Dodge distance, stamina, cooldown and
+invulnerability timing are unchanged. This is not a new authored roll capture.
+
+Final-binary checks: six ordinary-controller/live-AI arena scenes with knights
+and orcs, quick steps on all four melee rigs, twelve CPU step/fresh-attack cases
+at 30/60/120 Hz, and 1,524 equipment-transition checks. Actual renderer footage
+and scope are recorded under review/. Prior flow-generation anatomical contact,
+locomotion and Jolt camera regression results are inherited, not claimed rerun.
+
+The private rehearsal uses SDL virtual-controller inputs and marked offscreen
+focus accommodation. It does not certify natural controller feel, hardware FPS,
+every model variant, rough-terrain gait or AAA perfection. The desktop was
+locked during this final private review; hands-on play remains valuable.
+
+Live progress and authored worlds are preserved. No Windows package was built.

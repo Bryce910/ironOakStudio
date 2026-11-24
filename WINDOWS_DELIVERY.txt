@@ -1,0 +1,35 @@
+Valwood Windows x64 designer orientation - 2 November 2026
+First day: learning the system and exploring what is already available.
+
+ZIP: Valwood_Windows_Orientation_2026-11-02.zip
+Size: 20,998,555,613 bytes (21.00 GB /19.56 GiB)
+SHA256: b0c6930073421971f4f8632bf388726a46a8a2afa0feed52558939811c7bb1db
+Checksum: Valwood_Windows_Orientation_2026-11-02.zip.sha256
+
+1. Extract the ENTIRE ZIP to a short local writable path on Windows 10/11 x64.
+2. Read READ_ME_FIRST.txt.
+3. Run Install_city.bat, Install_jungle.bat or Install_grandstone.bat.
+4. In the new seed folder read ARTIST_START_HERE.md, then run
+   Create_Artist_Workspace.bat. Keep the seed untouched.
+5. Launch_Editor.bat from the separate work folder opens the selected project.
+6. Practice a small prop, copy/paste, End to terrain, Undo/Redo, Apply+Save,
+   close/reopen, and Return_Changes.bat. Send the return for owner review.
+
+Python, DLLs, current runtime assets, guides and return tools are bundled.
+This is the custom SDL/OpenGL engine; Unity/Python installation is not needed.
+A GPU manufacturer OpenGL driver is required.
+
+Allow ZIP 21GB + extracted transport 22.59GB, then selected seed and work folder:
+city 15.39GB each, jungle 6.96GB each, Grandstone 24.51GB each.
+Approximately 100GB free covers the largest selection with filesystem margin.
+
+All 2,311 archive members passed hash/length/CRC and metadata/dependency checks.
+Six native editor workflows plus actual graph Compile/reload passed on Linux.
+All three current scenes opened in the final Windows executable under Wine/AMD.
+Full-size installation, input/save/reopen/return and sustained performance on
+THE DESIGNER'S ACTUAL WINDOWS PC remain first-day acceptance steps.
+
+City architecture moves need rebuilt collision. Grandstone architecture is
+combined into source chunks. Learn and explore before structural production.
+The prior Nov 1 ZIP and existing Valwood_Artist_Work remain historical revisions.
+Full report: new_engine/docs/editor-readiness/2026-11-02/READINESS_REPORT.md

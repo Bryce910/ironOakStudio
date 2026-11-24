@@ -1,0 +1,5 @@
+world_designer_assets.o: \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_assets.cpp \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_assets.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_scenery.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_authoring_limits.h

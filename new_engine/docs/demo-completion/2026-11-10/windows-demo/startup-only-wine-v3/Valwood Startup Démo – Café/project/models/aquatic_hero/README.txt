@@ -1,0 +1,1 @@
+Animation: Quaternius Universal Animation Library Standard, CC0, Swim_Fwd_Loop and Swim_Idle_Loop. Retargeted onto the existing purchased Valwood hero; hero meshes/textures retain their existing ownership/license. No downloaded code executed.

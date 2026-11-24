@@ -1,0 +1,168 @@
+[New LWP 82700]
+[New LWP 82645]
+[New LWP 82613]
+[New LWP 82612]
+[New LWP 82611]
+[New LWP 82610]
+[New LWP 82609]
+[New LWP 82608]
+[New LWP 82607]
+[New LWP 82606]
+[New LWP 82605]
+[New LWP 82604]
+[New LWP 82603]
+[New LWP 82602]
+[New LWP 82601]
+[New LWP 82600]
+[New LWP 82599]
+[New LWP 82598]
+[New LWP 82597]
+[New LWP 82596]
+[New LWP 82595]
+[New LWP 82594]
+[New LWP 82593]
+[New LWP 82592]
+[New LWP 82591]
+[New LWP 82590]
+[New LWP 82589]
+
+warning: "target:/home/computer/Desktop/final_engine/new_engine/rpg_grandstone": could not open as an executable file: Input/output error.
+
+warning: `target:/home/computer/Desktop/final_engine/new_engine/rpg_grandstone': can't open to read symbols: Input/output error.
+
+warning: Could not load vsyscall page because no executable was specified
+
+warning: Target and debugger are in different PID namespaces; thread lists and other data are likely unreliable.  Connect to gdbserver inside the container.
+0x000077a213fd914b in ?? ()
+
+Thread 28 (LWP 82589 "SDLAudioP2"):
+#0  0x000077a21c8ecbdf in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 27 (LWP 82590 "llvmpipe-0"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xffffffffffe85400 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 26 (LWP 82591 "llvmpipe-1"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xffffffffffefc000 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 25 (LWP 82592 "llvmpipe-2"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x00000000018e2785 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 24 (LWP 82593 "llvmpipe-3"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xfffffffffff99200 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 23 (LWP 82594 "llvmpipe-4"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xfffffffffe8a0e9e in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 22 (LWP 82595 "llvmpipe-5"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x000000000008f300 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 21 (LWP 82596 "llvmpipe-6"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x00000000001cddc5 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 20 (LWP 82597 "llvmpipe-7"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xffffffffffaed500 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 19 (LWP 82598 "llvmpipe-8"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xffffffffffc7ba00 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 18 (LWP 82599 "llvmpipe-9"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xfffffffff4eba798 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 17 (LWP 82600 "llvmpipe-10"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000001936674 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 16 (LWP 82601 "llvmpipe-11"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0xffffffffffb07e9e in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 15 (LWP 82602 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 14 (LWP 82603 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 13 (LWP 82604 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 12 (LWP 82605 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 11 (LWP 82606 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 10 (LWP 82607 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 9 (LWP 82608 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 8 (LWP 82609 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 7 (LWP 82610 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 6 (LWP 82611 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 5 (LWP 82612 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 4 (LWP 82613 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 3 (LWP 82645 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x0000000000000000 in ?? ()
+
+Thread 2 (LWP 82700 "rpg_grandstone"):
+#0  0x000077a21c898e51 in ?? ()
+#1  0x000077a195fc3b40 in ?? ()
+#2  0x0000000000000000 in ?? ()
+
+Thread 1 (LWP 82584 "rpg_grandstone"):
+#0  0x000077a213fd914b in ?? ()
+#1  0x000077a211c7dd5c in ?? ()
+#2  0x000061d330ff30a0 in ?? ()
+#3  0x000061d2ff89fe90 in ?? ()
+#4  0x0000000000000770 in ?? ()
+#5  0x0000000001800000 in ?? ()
+#6  0x000061d322a948a0 in ?? ()
+#7  0x000061d322a934b0 in ?? ()
+[Inferior 1 (process 82584) detached]

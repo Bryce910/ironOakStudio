@@ -1,0 +1,14 @@
+Valwood — plain father / third-person opening (Linux)
+
+Start: /home/computer/Desktop/final_engine/Launch_Valwood_Demo.sh
+A new journey starts in third person. V or right-stick click switches view.
+Your camera choice is kept through transport, checkpoint load and retry.
+The protagonist starts in plain work clothes using the same purchased face
+and accepted combat skeleton. The sword loan does not grant plate armor.
+Equipping roadwarden mail in the inventory selects the armored appearance;
+removing it returns to plain clothes, at a safe loading boundary.
+Arena character selection remains independent.
+
+The main working world, authoring, progress and input settings are shared
+through CURRENT_VALWOOD.json. This generation contains Linux work only.
+See review/FINAL_REVIEW.json for checks and remaining presentation limits.

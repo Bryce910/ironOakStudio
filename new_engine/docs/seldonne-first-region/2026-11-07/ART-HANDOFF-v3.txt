@@ -1,0 +1,55 @@
+Seldonne first-region art candidate, revision 3
+
+Current project: build/seldonne-first-region-2026-11-07/project-v3
+Current manifest: build/seldonne-first-region-2026-11-07/ART-MANIFEST-v3.json
+Manifest SHA256: e7f195bb70385706154fa6c7263eae10c88537d98f13fee9423a3c231e0f2a96
+
+The candidate has 1,959 purchased-source placements and 33 aliases, with the
+castle-village modules relocated to the southwestern town and a three-person
+camp at the northwestern arrival. Temperate oak/beech canopy, shrubs, ferns,
+rocks and groundcover supplement the editable ecology regions. All model,
+texture and audio banks remain read-only links. No engine source changed.
+
+The active source rows have complete 14-field transforms with explicit final
+pivotY. Manifest source_row is a 1-based line number; source_row_text binds
+the exact encoded row. Its coordinates reflect the encoded UV round-trip.
+The collision consumer applies production float/radian conversion before
+using the original source UCX/model revisions and actual visual fallback.
+
+Keep city_showcase.json and publisher_showcase.json enabled. The City renderer
+requires ground/city.coverage even though this region has no source ground
+mesh. Its 1,575,425 samples are all zero at exactly the 1537x1025 editable base
+field bounds (-12416,4864), 1m spacing. Positive samples would discard visible
+editable terrain; never restore the unrelated former city coverage file.
+Keep ground/showcase.height as the uncarved base. The external
+effective-placement-v1.height is an art sampler, not a replacement base.
+
+All nine NPCs use the production terrain/support callback. None has a saved
+actor_floors override. Rowan, Bram and Ellis remain around the camp. The six
+town residents use varied sidewalk offsets inside the cleared arrival street;
+Innkeeper, Grocer and Villager have short supported patrols.
+
+Verified walking route from the market to the south waterfront bridge uses
+the outside-east street loop, not a diagonal through the existing houses.
+Local X/Z waypoints (add world X -12288 and world Z 4992):
+  (320,590),(320,530),(405,530),(405,645),(350,645),(350,650)
+
+CPU acceptance is closed:
+  collision-proof-v4/RESULTS.json binds the exact manifest, all source controls,
+  model bytes, production source dependencies, build and raw result.
+  Actual production atlas/navigation/Jolt tests pass for all nine NPC routes,
+  including 45 NPC clearance probes, the camp-to-town and waterfront routes,
+  both bridge decks, four rail probes and 339 submerged riverbed probes.
+  6,795 walking, 1,946 running ground probes; 1,161 walking and 362 running
+  bridge probes; zero query heap fallbacks and zero physics errors.
+  Production mask load/sample tests and native project schema validator pass.
+
+Actual rendered appearance, generated foliage blockers, physical controller
+input and sustained hardware performance still require the root agent's
+runtime review. The CPU route evidence does not claim those checks.
+
+Revisions 1 and 2, their failed runtime artifacts and their backup controls
+remain unchanged for traceability. For a portable add-on, exclude inherited
+assets/seldonne-first-region/pre-art-controls-v1 backups and historical art
+manifests from active authoring-document discovery; preserve active revision 3
+controls and their separately bound evidence.

@@ -1,0 +1,8603 @@
+{
+  "schema_version": 1,
+  "description": "Purchased village architecture and a deliberately composed Merchants Lane: cooper deliveries, stacked merchandise, bakery supplies, an inn tasting table, source cloth bunting and street lamps. Every food and stacked crate has a measured real-mesh support; overhead ropes attach to actual fa\u00e7ade triangles. Four existing travelers circulate on separate strips, total population 64; the main avenue and 806 metre walking loop remain open.",
+  "provenance": [
+    "assets/purchased/medieval_village/PROVENANCE.json",
+    "assets/purchased/market_goods/PROVENANCE.json"
+  ],
+  "replacements": [
+    {
+      "label": "home_1_0",
+      "alias": "purchased_house_a",
+      "scale": 1,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_1_1",
+      "alias": "purchased_house_b",
+      "scale": 1,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_2_0",
+      "alias": "purchased_house_b",
+      "scale": 1.06,
+      "yaw_degrees": 0,
+      "x": 53.7,
+      "z": -22
+    },
+    {
+      "label": "home_2_1",
+      "alias": "purchased_house_a",
+      "scale": 1.0,
+      "yaw_degrees": 180,
+      "x": 53.4,
+      "z": 16
+    },
+    {
+      "label": "home_0_0",
+      "alias": "purchased_house_c",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_0_1",
+      "alias": "purchased_house_d",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_0_2",
+      "alias": "purchased_house_e",
+      "scale": 1.0,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_0_3",
+      "alias": "purchased_house_f",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_0_4",
+      "alias": "purchased_house_a",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_1_2",
+      "alias": "purchased_house_b",
+      "scale": 1.0,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "home_2_2",
+      "alias": "purchased_house_c",
+      "scale": 1.0,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_3_0",
+      "alias": "purchased_house_d",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_3_1",
+      "alias": "purchased_house_e",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_3_2",
+      "alias": "purchased_house_f",
+      "scale": 1.0,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_3_3",
+      "alias": "purchased_house_a",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "home_3_4",
+      "alias": "purchased_house_b",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_0_0",
+      "alias": "purchased_house_c",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_0_1",
+      "alias": "purchased_house_d",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_0_2",
+      "alias": "purchased_house_e",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_0_3",
+      "alias": "purchased_house_f",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_0_4",
+      "alias": "purchased_house_a",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_0_5",
+      "alias": "purchased_house_b",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_1_0",
+      "alias": "purchased_house_c",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_1_1",
+      "alias": "purchased_house_d",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_1_2",
+      "alias": "purchased_house_e",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_1_3",
+      "alias": "purchased_house_f",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_1_4",
+      "alias": "purchased_house_a",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_1_5",
+      "alias": "purchased_house_b",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_2_0",
+      "alias": "purchased_house_c",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_2_1",
+      "alias": "purchased_house_d",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_2_2",
+      "alias": "purchased_house_e",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_2_3",
+      "alias": "purchased_house_f",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_2_4",
+      "alias": "purchased_house_a",
+      "scale": 0.92,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_2_5",
+      "alias": "purchased_house_b",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "outer_home_3_0",
+      "alias": "purchased_house_c",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_3_1",
+      "alias": "purchased_house_d",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_3_2",
+      "alias": "purchased_house_e",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_3_3",
+      "alias": "purchased_house_f",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_3_4",
+      "alias": "purchased_house_a",
+      "scale": 0.92,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "outer_home_3_5",
+      "alias": "purchased_house_b",
+      "scale": 0.9600000000000001,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "southwest_wall_0",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -197.94285714285715,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_1",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -183.82857142857142,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_2",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -169.71428571428572,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_3",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -155.6,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_4",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -141.4857142857143,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_5",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -127.37142857142858,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_6",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -113.25714285714287,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_7",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -99.14285714285714,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_8",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -85.02857142857144,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_9",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -70.91428571428571,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_10",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -56.80000000000001,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_11",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -42.68571428571428,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_12",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -28.571428571428584,
+      "z": 205.0
+    },
+    {
+      "label": "southwest_wall_13",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -14.457142857142856,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_0",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 14.457142857142857,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_1",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 28.57142857142857,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_2",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 42.68571428571428,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_3",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 56.8,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_4",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 70.91428571428571,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_5",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 85.02857142857142,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_6",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 99.14285714285714,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_7",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 113.25714285714287,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_8",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 127.37142857142857,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_9",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 141.4857142857143,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_10",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 155.6,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_11",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 169.71428571428572,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_12",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 183.82857142857142,
+      "z": 205.0
+    },
+    {
+      "label": "southeast_wall_13",
+      "alias": "purchased_wall",
+      "scale": 0.7060865619782758,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 197.94285714285715,
+      "z": 205.0
+    },
+    {
+      "label": "west_wall_0",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -197.8074649851919,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_1",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -183.42239495557567,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_2",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -169.03732492595947,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_3",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -154.65225489634324,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_4",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -140.26718486672704,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_5",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -125.88211483711082,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_6",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -111.4970448074946,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_7",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -97.11197477787837,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_8",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -82.72690474826217,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_9",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -68.34183471864594,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_10",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -53.95676468902974,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_11",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -39.57169465941351,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_12",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -25.186624629797308,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_13",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -10.801554600181078,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_14",
+      "alias": "purchased_gate",
+      "scale": 0.72,
+      "yaw_degrees": 0,
+      "burial": 0.1
+    },
+    {
+      "label": "west_wall_15",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 10.802647476741246,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_16",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 25.18763655253819,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_17",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 39.57262562833514,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_18",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 53.957614704132084,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_19",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 68.34260377992904,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_20",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 82.72759285572597,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_21",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 97.11258193152293,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_22",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 111.49757100731988,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_23",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 125.8825600831168,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_24",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 140.26754915891377,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_25",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 154.65253823471068,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_26",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 169.03752731050764,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_27",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 183.4225163863046,
+      "x": -205.0
+    },
+    {
+      "label": "west_wall_28",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 197.80750546210157,
+      "x": -205.0
+    },
+    {
+      "label": "east_wall_0",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -197.80750546210152,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_1",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -183.42251638630458,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_2",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -169.03752731050764,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_3",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -154.65253823471068,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_4",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -140.26754915891374,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_5",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -125.8825600831168,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_6",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -111.49757100731985,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_7",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -97.1125819315229,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_8",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -82.72759285572597,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_9",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -68.34260377992902,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_10",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -53.957614704132084,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_11",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -39.57262562833512,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_12",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -25.18763655253818,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_13",
+      "alias": "purchased_wall",
+      "scale": 0.7196288700847333,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": -10.802647476741214,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_14",
+      "alias": "purchased_gate",
+      "scale": 0.72,
+      "yaw_degrees": 180,
+      "burial": 0.1
+    },
+    {
+      "label": "east_wall_15",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 10.801554600181081,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_16",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 25.186624629797297,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_17",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 39.57169465941351,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_18",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 53.956764689029725,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_19",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 68.34183471864594,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_20",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 82.72690474826216,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_21",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 97.11197477787837,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_22",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 111.4970448074946,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_23",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 125.8821148371108,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_24",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 140.26718486672704,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_25",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 154.65225489634324,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_26",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 169.03732492595947,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_27",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 183.42239495557567,
+      "x": 205.0
+    },
+    {
+      "label": "east_wall_28",
+      "alias": "purchased_wall",
+      "scale": 0.7196329199109225,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "z": 197.8074649851919,
+      "x": 205.0
+    },
+    {
+      "label": "north_wall_0",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -197.93103448275863,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_1",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -183.79310344827587,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_2",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -169.6551724137931,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_3",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -155.51724137931035,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_4",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -141.3793103448276,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_5",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -127.24137931034483,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_6",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -113.10344827586206,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_7",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -98.96551724137932,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_8",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -84.82758620689656,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_9",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -70.68965517241378,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_10",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -56.551724137931046,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_11",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -42.413793103448285,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_12",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -28.275862068965523,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_13",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -14.137931034482762,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_14",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 0.0,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_15",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 14.137931034482762,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_16",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 28.275862068965523,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_17",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 42.413793103448285,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_18",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 56.551724137931046,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_19",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 70.68965517241378,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_20",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 84.82758620689657,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_21",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 98.9655172413793,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_22",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 113.10344827586209,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_23",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 127.24137931034483,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_24",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 141.37931034482756,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_25",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 155.51724137931035,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_26",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 169.65517241379308,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_27",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 183.79310344827587,
+      "z": -205.0
+    },
+    {
+      "label": "north_wall_28",
+      "alias": "purchased_wall",
+      "scale": 0.7072694516535151,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 197.9310344827586,
+      "z": -205.0
+    },
+    {
+      "label": "castle_southwest_0",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -60.075,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southwest_1",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -50.225,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southwest_2",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -40.375,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southwest_3",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -30.525,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southwest_4",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -20.675000000000004,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southwest_5",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -10.824999999999996,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_0",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 10.825,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_1",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 20.675,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_2",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 30.525,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_3",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 40.375,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_4",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 50.224999999999994,
+      "z": -55.0
+    },
+    {
+      "label": "castle_southeast_5",
+      "alias": "purchased_wall",
+      "scale": 0.4927598021093332,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 60.075,
+      "z": -55.0
+    },
+    {
+      "label": "castle_north_0",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -59.583333333333336,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_1",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -48.75,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_2",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -37.91666666666667,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_3",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -27.083333333333336,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_4",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -16.25,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_5",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": -5.416666666666664,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_6",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 5.416666666666671,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_7",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 16.25,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_8",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 27.08333333333333,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_9",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 37.91666666666667,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_10",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 48.75,
+      "z": -195.0
+    },
+    {
+      "label": "castle_north_11",
+      "alias": "purchased_wall",
+      "scale": 0.5419524050271854,
+      "yaw_degrees": 90.0,
+      "burial": 0.1,
+      "x": 59.58333333333333,
+      "z": -195.0
+    },
+    {
+      "label": "castle_west_0",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -189.6153846153846
+    },
+    {
+      "label": "castle_west_1",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -178.84615384615384
+    },
+    {
+      "label": "castle_west_2",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -168.07692307692307
+    },
+    {
+      "label": "castle_west_3",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -157.30769230769232
+    },
+    {
+      "label": "castle_west_4",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -146.53846153846155
+    },
+    {
+      "label": "castle_west_5",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -135.76923076923077
+    },
+    {
+      "label": "castle_west_6",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -125.0
+    },
+    {
+      "label": "castle_west_7",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -114.23076923076923
+    },
+    {
+      "label": "castle_west_8",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -103.46153846153847
+    },
+    {
+      "label": "castle_west_9",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -92.6923076923077
+    },
+    {
+      "label": "castle_west_10",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -81.92307692307692
+    },
+    {
+      "label": "castle_west_11",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -71.15384615384616
+    },
+    {
+      "label": "castle_west_12",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": -65.0,
+      "z": -60.38461538461539
+    },
+    {
+      "label": "castle_east_0",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -189.6153846153846
+    },
+    {
+      "label": "castle_east_1",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -178.84615384615384
+    },
+    {
+      "label": "castle_east_2",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -168.07692307692307
+    },
+    {
+      "label": "castle_east_3",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -157.30769230769232
+    },
+    {
+      "label": "castle_east_4",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -146.53846153846155
+    },
+    {
+      "label": "castle_east_5",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -135.76923076923077
+    },
+    {
+      "label": "castle_east_6",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -125.0
+    },
+    {
+      "label": "castle_east_7",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -114.23076923076923
+    },
+    {
+      "label": "castle_east_8",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -103.46153846153847
+    },
+    {
+      "label": "castle_east_9",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -92.6923076923077
+    },
+    {
+      "label": "castle_east_10",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -81.92307692307692
+    },
+    {
+      "label": "castle_east_11",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -71.15384615384616
+    },
+    {
+      "label": "castle_east_12",
+      "alias": "purchased_wall",
+      "scale": 0.5387455860625275,
+      "yaw_degrees": 0.0,
+      "burial": 0.1,
+      "x": 65.0,
+      "z": -60.38461538461539
+    },
+    {
+      "label": "market_barrel_0_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "market_barrel_0_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "market_barrel_0_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "market_barrel_1_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "market_barrel_1_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "market_barrel_1_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_0_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_0_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_0_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_1_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_1_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_1_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_2_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_2_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_2_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_3_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_3_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_3_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_4_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_4_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_4_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_5_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_5_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_5_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_6_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_6_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_6_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "barrel_7_0",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "barrel_7_1",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 11.459155902616466
+    },
+    {
+      "label": "barrel_7_2",
+      "alias": "purchased_barrel",
+      "scale": 1.1202314987827868,
+      "yaw_degrees": 22.918311805232932
+    },
+    {
+      "label": "cargo_0_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_0_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_0_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_0_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_0_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_0_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_1_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_1_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_1_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_1_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_1_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_1_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_2_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_2_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_2_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_2_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_2_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_2_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_3_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_3_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_3_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_3_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_3_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_3_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_4_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_4_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_4_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_4_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_4_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_4_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_5_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_5_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_5_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_5_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_5_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_5_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_6_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_6_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_6_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_6_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_6_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_6_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_7_0",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_7_1",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_7_2",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_7_3",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    },
+    {
+      "label": "cargo_7_4",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 0.0
+    },
+    {
+      "label": "cargo_7_5",
+      "alias": "purchased_crate",
+      "scale": 0.88,
+      "yaw_degrees": 5.729577951308233
+    }
+  ],
+  "placements": [
+    {
+      "label": "purchased_home_0",
+      "alias": "purchased_house_a",
+      "x": -55,
+      "z": 106,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "purchased_shop_a_0",
+      "alias": "purchased_shop_a",
+      "x": -40,
+      "z": -6,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "purchased_shop_b_0",
+      "alias": "purchased_shop_b",
+      "x": -40,
+      "z": 24,
+      "yaw_degrees": 0,
+      "burial": 0.15
+    },
+    {
+      "label": "purchased_shop_table_0",
+      "alias": "starting_table",
+      "x": -40,
+      "z": 24,
+      "parent_structure": "purchased_shop_b_0"
+    },
+    {
+      "label": "purchased_home_1",
+      "alias": "purchased_house_b",
+      "x": 55,
+      "z": 106,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "purchased_shop_a_1",
+      "alias": "purchased_shop_a",
+      "x": 40,
+      "z": -6,
+      "yaw_degrees": 180
+    },
+    {
+      "label": "purchased_shop_b_1",
+      "alias": "purchased_shop_b",
+      "x": 40,
+      "z": 24,
+      "yaw_degrees": 180,
+      "burial": 0.15
+    },
+    {
+      "label": "purchased_shop_table_1",
+      "alias": "starting_table",
+      "x": 40,
+      "z": 24,
+      "parent_structure": "purchased_shop_b_1"
+    },
+    {
+      "label": "purchased_shop_c_0",
+      "alias": "purchased_shop_c",
+      "x": -40,
+      "z": 9,
+      "yaw_degrees": 0,
+      "burial": 0.1
+    },
+    {
+      "label": "purchased_shop_d_0",
+      "alias": "purchased_shop_d",
+      "x": -40,
+      "z": 39,
+      "yaw_degrees": 0,
+      "burial": 0.1
+    },
+    {
+      "label": "purchased_shop_c_1",
+      "alias": "purchased_shop_c",
+      "x": 40,
+      "z": 9,
+      "yaw_degrees": 180,
+      "burial": 0.1
+    },
+    {
+      "label": "purchased_shop_d_1",
+      "alias": "purchased_shop_d",
+      "x": 40,
+      "z": 39,
+      "yaw_degrees": 180,
+      "burial": 0.1
+    },
+    {
+      "label": "lane_west_brewers",
+      "alias": "purchased_house_c",
+      "x": 51.4,
+      "z": 1,
+      "yaw_degrees": 0,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_west_merchant",
+      "alias": "purchased_house_d",
+      "x": 52.8,
+      "z": 32,
+      "yaw_degrees": 0,
+      "scale": 0.98
+    },
+    {
+      "label": "lane_west_coopers",
+      "alias": "purchased_house_e",
+      "x": 53.0,
+      "z": 46,
+      "yaw_degrees": 180,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_east_bakers",
+      "alias": "purchased_house_a",
+      "x": 70.1,
+      "z": -22,
+      "yaw_degrees": 0,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_east_stores",
+      "alias": "purchased_house_e",
+      "x": 67.81,
+      "z": -12,
+      "yaw_degrees": 90,
+      "scale": 0.96
+    },
+    {
+      "label": "lane_east_factors",
+      "alias": "purchased_house_b",
+      "x": 69.5,
+      "z": -2.7,
+      "yaw_degrees": 180,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_east_inn",
+      "alias": "purchased_house_c",
+      "x": 71.3,
+      "z": 12,
+      "yaw_degrees": 180,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_east_clothiers",
+      "alias": "purchased_house_d",
+      "x": 70.05,
+      "z": 33,
+      "yaw_degrees": 180,
+      "scale": 0.98
+    },
+    {
+      "label": "lane_east_spire",
+      "alias": "purchased_house_f",
+      "x": 67.5,
+      "z": 46,
+      "yaw_degrees": 0,
+      "scale": 1.0
+    },
+    {
+      "label": "lane_bread_counter",
+      "alias": "purchased_shop_d",
+      "x": 56.3,
+      "z": -13,
+      "yaw_degrees": 0,
+      "burial": 0.1
+    },
+    {
+      "label": "lane_west_brewers_barrel_0",
+      "alias": "purchased_barrel",
+      "x": 58.35,
+      "z": -5.2,
+      "yaw_degrees": 0,
+      "scale": 0.99
+    },
+    {
+      "label": "lane_west_brewers_barrel_1",
+      "alias": "purchased_barrel",
+      "x": 58.45,
+      "z": -4.1,
+      "yaw_degrees": 13,
+      "scale": 1.04
+    },
+    {
+      "label": "lane_west_brewers_barrel_2",
+      "alias": "purchased_barrel",
+      "x": 58.35,
+      "z": -3.0,
+      "yaw_degrees": -9,
+      "scale": 0.93
+    },
+    {
+      "label": "lane_west_brewers_crate",
+      "alias": "purchased_crate",
+      "x": 58.42,
+      "z": 1.5,
+      "yaw_degrees": 3,
+      "scale": 0.76
+    },
+    {
+      "label": "lane_west_brewers_crate_2",
+      "alias": "purchased_crate",
+      "x": 58.5,
+      "z": 2.5,
+      "yaw_degrees": -8,
+      "scale": 0.76
+    },
+    {
+      "label": "lane_west_merchant_crate_0",
+      "alias": "purchased_crate",
+      "x": 58.5,
+      "z": 27.2,
+      "yaw_degrees": 0,
+      "scale": 0.88
+    },
+    {
+      "label": "lane_west_merchant_crate_1",
+      "alias": "purchased_crate",
+      "x": 58.5,
+      "z": 28.3,
+      "yaw_degrees": 4,
+      "scale": 0.88
+    },
+    {
+      "label": "lane_west_merchant_crate_2",
+      "alias": "purchased_crate",
+      "x": 58.5,
+      "z": 29.4,
+      "yaw_degrees": 0,
+      "scale": 0.88
+    },
+    {
+      "label": "lane_west_coopers_barrel_0",
+      "alias": "purchased_barrel",
+      "x": 59.0,
+      "z": 45.7,
+      "yaw_degrees": 5,
+      "scale": 0.96
+    },
+    {
+      "label": "lane_west_coopers_barrel_1",
+      "alias": "purchased_barrel",
+      "x": 59.0,
+      "z": 46.8,
+      "yaw_degrees": -12,
+      "scale": 1.06
+    },
+    {
+      "label": "lane_east_bakers_barrel",
+      "alias": "purchased_barrel",
+      "x": 64.65,
+      "z": -22.4,
+      "yaw_degrees": 4,
+      "scale": 0.96
+    },
+    {
+      "label": "lane_east_bakers_crate",
+      "alias": "purchased_crate",
+      "x": 64.5,
+      "z": -20.8,
+      "yaw_degrees": -3,
+      "scale": 0.72
+    },
+    {
+      "label": "lane_east_stores_crate_0",
+      "alias": "purchased_crate",
+      "x": 64.3,
+      "z": -12.9,
+      "yaw_degrees": -4,
+      "scale": 0.74
+    },
+    {
+      "label": "lane_east_stores_crate_1",
+      "alias": "purchased_crate",
+      "x": 64.3,
+      "z": -11.9,
+      "yaw_degrees": 4,
+      "scale": 0.74
+    },
+    {
+      "label": "lane_east_factors_barrel",
+      "alias": "purchased_barrel",
+      "x": 64.4,
+      "z": -2.8,
+      "yaw_degrees": 10,
+      "scale": 0.98
+    },
+    {
+      "label": "lane_east_inn_barrel",
+      "alias": "purchased_barrel",
+      "x": 64.05,
+      "z": 8.6,
+      "yaw_degrees": 0,
+      "scale": 0.96
+    },
+    {
+      "label": "lane_east_clothiers_crate_0",
+      "alias": "purchased_crate",
+      "x": 64.1,
+      "z": 33.1,
+      "yaw_degrees": -4,
+      "scale": 0.8
+    },
+    {
+      "label": "lane_east_clothiers_crate_1",
+      "alias": "purchased_crate",
+      "x": 64.1,
+      "z": 34.1,
+      "yaw_degrees": 0,
+      "scale": 0.8
+    },
+    {
+      "label": "lane_entry_delivery_crate_0",
+      "alias": "purchased_crate",
+      "x": 59.0,
+      "z": 44.0,
+      "scale": 0.8,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "lane_entry_delivery_crate_1",
+      "alias": "purchased_crate",
+      "x": 59.0,
+      "z": 48.2,
+      "scale": 0.8,
+      "yaw_degrees": 8
+    },
+    {
+      "label": "lane_entry_inn_barrel",
+      "alias": "purchased_barrel",
+      "x": 64.25,
+      "z": 42.3,
+      "scale": 0.96,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "dress_cooper_crate_0",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 41.6,
+      "scale": 0.82,
+      "yaw_degrees": -5
+    },
+    {
+      "label": "dress_cooper_crate_1",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 42.8,
+      "scale": 0.82,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "dress_cooper_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 59.2,
+      "z": 39.9,
+      "scale": 0.95,
+      "yaw_degrees": 9
+    },
+    {
+      "label": "dress_cooper_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 59.2,
+      "z": 38.8,
+      "scale": 0.83,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "dress_cooper_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 59.1,
+      "z": 40.7,
+      "scale": 0.72,
+      "yaw_degrees": 22
+    },
+    {
+      "label": "dress_cooper_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 59.2,
+      "z": 36.9,
+      "scale": 1,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "dress_cooper_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 59.35,
+      "z": 37.65,
+      "scale": 0.87,
+      "yaw_degrees": -6
+    },
+    {
+      "label": "dress_cooper_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 58.65,
+      "z": 37.55,
+      "scale": 0.8,
+      "yaw_degrees": 28
+    },
+    {
+      "label": "dress_cooper_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 59.2,
+      "z": 50.2,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_inn_table",
+      "alias": "starting_table",
+      "x": 64.05,
+      "z": 36.65,
+      "scale": 0.68,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_inn_small_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 64.15,
+      "z": 38.4,
+      "scale": 1.02,
+      "yaw_degrees": 5
+    },
+    {
+      "label": "dress_inn_small_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 64.15,
+      "z": 39.1,
+      "scale": 0.88,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "dress_inn_small_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 64.15,
+      "z": 40.0,
+      "scale": 1.12,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "dress_inn_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 64.15,
+      "z": 44.1,
+      "scale": 1,
+      "yaw_degrees": 7
+    },
+    {
+      "label": "dress_inn_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 64.25,
+      "z": 45,
+      "scale": 0.95,
+      "yaw_degrees": -9
+    },
+    {
+      "label": "dress_inn_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 64.25,
+      "z": 45.9,
+      "scale": 0.82,
+      "yaw_degrees": 24
+    },
+    {
+      "label": "dress_inn_sack_3",
+      "alias": "purchased_prop_sack",
+      "x": 63.95,
+      "z": 47.2,
+      "scale": 1.1,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "dress_inn_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 64.1,
+      "z": 48.9,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_cloth_crate_0",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 30.8,
+      "scale": 0.84,
+      "yaw_degrees": -5
+    },
+    {
+      "label": "dress_cloth_crate_1",
+      "alias": "purchased_crate",
+      "x": 59.2,
+      "z": 32.0,
+      "scale": 0.76,
+      "yaw_degrees": 6
+    },
+    {
+      "label": "dress_cloth_crate_2",
+      "alias": "purchased_crate",
+      "x": 59.2,
+      "z": 33.1,
+      "scale": 0.9,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_cloth_logs",
+      "alias": "purchased_prop_logs",
+      "x": 59.25,
+      "z": 34.7,
+      "scale": 0.9,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_cloth_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 59.15,
+      "z": 25.9,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_cloth_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 64.1,
+      "z": 29.5,
+      "scale": 1,
+      "yaw_degrees": 10
+    },
+    {
+      "label": "dress_cloth_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 64.2,
+      "z": 30.45,
+      "scale": 0.85,
+      "yaw_degrees": -15
+    },
+    {
+      "label": "dress_cloth_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 64.2,
+      "z": 31.3,
+      "scale": 0.92,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "dress_cloth_east_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 64.15,
+      "z": 27.8,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_inn_firewood",
+      "alias": "purchased_prop_logs",
+      "x": 64.15,
+      "z": 23.3,
+      "scale": 0.9,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_inn_mid_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 64.05,
+      "z": 19.4,
+      "scale": 0.98,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "dress_inn_mid_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 64.05,
+      "z": 20.3,
+      "scale": 0.86,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "dress_inn_mid_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 64.05,
+      "z": 21.15,
+      "scale": 0.78,
+      "yaw_degrees": 16
+    },
+    {
+      "label": "dress_mid_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 64.2,
+      "z": 17.7,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_baker_crate_0",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 13,
+      "scale": 0.9,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "dress_baker_crate_1",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 14,
+      "scale": 0.82,
+      "yaw_degrees": 3
+    },
+    {
+      "label": "dress_baker_crate_2",
+      "alias": "purchased_crate",
+      "x": 59.1,
+      "z": 15,
+      "scale": 0.98,
+      "yaw_degrees": -3
+    },
+    {
+      "label": "dress_baker_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 59.15,
+      "z": 11,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_brewer_small_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 58.95,
+      "z": 5,
+      "scale": 0.95,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "dress_brewer_small_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 58.95,
+      "z": 5.85,
+      "scale": 1.01,
+      "yaw_degrees": -3
+    },
+    {
+      "label": "dress_brewer_small_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 58.95,
+      "z": 6.7,
+      "scale": 1.0699999999999998,
+      "yaw_degrees": -10
+    },
+    {
+      "label": "dress_brewer_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 59.2,
+      "z": -9.5,
+      "scale": 0.9,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_brewer_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 59.2,
+      "z": -8.7,
+      "scale": 1.0,
+      "yaw_degrees": 11
+    },
+    {
+      "label": "dress_brewer_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 59.2,
+      "z": -7.9,
+      "scale": 0.9,
+      "yaw_degrees": 22
+    },
+    {
+      "label": "dress_brewer_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 59.15,
+      "z": -1,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_factor_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 64.2,
+      "z": -6.4,
+      "scale": 1,
+      "yaw_degrees": 90
+    },
+    {
+      "label": "dress_west_market_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": -33,
+      "z": 29,
+      "scale": 0.95,
+      "yaw_degrees": -12
+    },
+    {
+      "label": "dress_west_market_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": -34.1,
+      "z": 30.2,
+      "scale": 0.85,
+      "yaw_degrees": -36
+    },
+    {
+      "label": "dress_west_market_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": -32.6,
+      "z": 31.4,
+      "scale": 1,
+      "yaw_degrees": 22
+    },
+    {
+      "label": "dress_west_market_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": -34,
+      "z": 25,
+      "scale": 0.95,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_west_market_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": -34,
+      "z": 26,
+      "scale": 1.0999999999999999,
+      "yaw_degrees": 13
+    },
+    {
+      "label": "dress_west_market_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": -34,
+      "z": 27,
+      "scale": 0.95,
+      "yaw_degrees": 26
+    },
+    {
+      "label": "dress_west_market_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": -32,
+      "z": 32.7,
+      "scale": 1,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_west_market_crate",
+      "alias": "purchased_crate",
+      "x": -34,
+      "z": 33.8,
+      "scale": 0.9,
+      "yaw_degrees": -7
+    },
+    {
+      "label": "dress_east_market_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 33,
+      "z": 29,
+      "scale": 0.95,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "dress_east_market_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 34.2,
+      "z": 30.1,
+      "scale": 0.85,
+      "yaw_degrees": 46
+    },
+    {
+      "label": "dress_east_market_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 32.65,
+      "z": 31.4,
+      "scale": 1,
+      "yaw_degrees": -28
+    },
+    {
+      "label": "dress_east_market_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 34,
+      "z": 25,
+      "scale": 0.95,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_east_market_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 34,
+      "z": 26,
+      "scale": 1.0999999999999999,
+      "yaw_degrees": 13
+    },
+    {
+      "label": "dress_east_market_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 34,
+      "z": 27,
+      "scale": 0.95,
+      "yaw_degrees": 26
+    },
+    {
+      "label": "dress_east_market_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 32,
+      "z": 32.7,
+      "scale": 1,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "dress_east_market_crate",
+      "alias": "purchased_crate",
+      "x": 34,
+      "z": 33.8,
+      "scale": 0.9,
+      "yaw_degrees": 7
+    },
+    {
+      "label": "final_delivery_crate_0",
+      "alias": "purchased_crate",
+      "x": 20.6,
+      "z": 29.4,
+      "scale": 0.95,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "final_delivery_crate_1",
+      "alias": "purchased_crate",
+      "x": 21.7,
+      "z": 29.8,
+      "scale": 0.85,
+      "yaw_degrees": 9
+    },
+    {
+      "label": "final_delivery_crate_2",
+      "alias": "purchased_crate",
+      "x": 21.2,
+      "z": 31.2,
+      "scale": 0.82,
+      "yaw_degrees": -4
+    },
+    {
+      "label": "final_delivery_crate_3",
+      "alias": "purchased_crate",
+      "x": 27.4,
+      "z": 27.8,
+      "scale": 0.92,
+      "yaw_degrees": 16
+    },
+    {
+      "label": "final_delivery_crate_4",
+      "alias": "purchased_crate",
+      "x": 28.5,
+      "z": 27.4,
+      "scale": 0.8,
+      "yaw_degrees": -9
+    },
+    {
+      "label": "final_delivery_crate_5",
+      "alias": "purchased_crate",
+      "x": 29.5,
+      "z": 28.2,
+      "scale": 0.88,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "final_delivery_cart",
+      "alias": "village_cart",
+      "x": 28.3,
+      "z": 30.8,
+      "scale": 0.9,
+      "yaw_degrees": -19
+    },
+    {
+      "label": "final_delivery_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 30.4,
+      "z": 30.2,
+      "scale": 1,
+      "yaw_degrees": 22
+    },
+    {
+      "label": "final_delivery_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 30.7,
+      "z": 33.1,
+      "scale": 0.86,
+      "yaw_degrees": -14
+    },
+    {
+      "label": "final_delivery_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 26.2,
+      "z": 31.8,
+      "scale": 0.9,
+      "yaw_degrees": 48
+    },
+    {
+      "label": "final_delivery_sack_3",
+      "alias": "purchased_prop_sack",
+      "x": 21,
+      "z": 27.7,
+      "scale": 0.9,
+      "yaw_degrees": 31
+    },
+    {
+      "label": "final_delivery_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 30.8,
+      "z": 28.6,
+      "scale": 0.98,
+      "yaw_degrees": 7
+    },
+    {
+      "label": "final_delivery_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 26.9,
+      "z": 29.4,
+      "scale": 0.87,
+      "yaw_degrees": -9
+    },
+    {
+      "label": "final_delivery_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 20.5,
+      "z": 32.8,
+      "scale": 0.92,
+      "yaw_degrees": 3
+    },
+    {
+      "label": "final_delivery_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 31.8,
+      "z": 29.6,
+      "scale": 1,
+      "yaw_degrees": -14
+    },
+    {
+      "label": "final_tasting_table",
+      "alias": "starting_table",
+      "x": 30.4,
+      "z": 17.2,
+      "scale": 0.9,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "final_tasting_stool_0",
+      "alias": "starting_stump",
+      "x": 28.7,
+      "z": 16.5,
+      "scale": 0.55,
+      "yaw_degrees": 12
+    },
+    {
+      "label": "final_tasting_stool_1",
+      "alias": "starting_stump",
+      "x": 32.2,
+      "z": 17.8,
+      "scale": 0.6,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "final_tasting_stool_2",
+      "alias": "starting_stump",
+      "x": 29.6,
+      "z": 19.5,
+      "scale": 0.48,
+      "yaw_degrees": 16
+    },
+    {
+      "label": "final_tasting_lamp",
+      "alias": "purchased_prop_lamp",
+      "x": 33,
+      "z": 15.5,
+      "scale": 1,
+      "yaw_degrees": 15
+    },
+    {
+      "label": "final_tasting_cask",
+      "alias": "purchased_barrel",
+      "x": 32.3,
+      "z": 19.2,
+      "scale": 0.9,
+      "yaw_degrees": -9
+    },
+    {
+      "label": "final_counter_crate_0",
+      "alias": "purchased_crate",
+      "x": 26.8,
+      "z": 11.8,
+      "scale": 0.9,
+      "yaw_degrees": 11
+    },
+    {
+      "label": "final_counter_crate_1",
+      "alias": "purchased_crate",
+      "x": 27.8,
+      "z": 12.6,
+      "scale": 0.8,
+      "yaw_degrees": -8
+    },
+    {
+      "label": "final_counter_crate_2",
+      "alias": "purchased_crate",
+      "x": 21,
+      "z": 15.5,
+      "scale": 0.86,
+      "yaw_degrees": 3
+    },
+    {
+      "label": "final_counter_crate_3",
+      "alias": "purchased_crate",
+      "x": 20.7,
+      "z": 3.3,
+      "scale": 0.94,
+      "yaw_degrees": -12
+    },
+    {
+      "label": "final_counter_crate_4",
+      "alias": "purchased_crate",
+      "x": 26.9,
+      "z": 2.9,
+      "scale": 0.88,
+      "yaw_degrees": 8
+    },
+    {
+      "label": "final_counter_crate_5",
+      "alias": "purchased_crate",
+      "x": 21.1,
+      "z": -1.8,
+      "scale": 0.82,
+      "yaw_degrees": 0
+    },
+    {
+      "label": "final_counter_sack_0",
+      "alias": "purchased_prop_sack",
+      "x": 28.4,
+      "z": 10.9,
+      "scale": 1,
+      "yaw_degrees": 37
+    },
+    {
+      "label": "final_counter_sack_1",
+      "alias": "purchased_prop_sack",
+      "x": 26.9,
+      "z": 14.1,
+      "scale": 0.85,
+      "yaw_degrees": -17
+    },
+    {
+      "label": "final_counter_sack_2",
+      "alias": "purchased_prop_sack",
+      "x": 20.8,
+      "z": 17.5,
+      "scale": 0.92,
+      "yaw_degrees": 61
+    },
+    {
+      "label": "final_counter_sack_3",
+      "alias": "purchased_prop_sack",
+      "x": 20.2,
+      "z": 4.7,
+      "scale": 0.95,
+      "yaw_degrees": 28
+    },
+    {
+      "label": "final_counter_sack_4",
+      "alias": "purchased_prop_sack",
+      "x": 27.6,
+      "z": 1.1,
+      "scale": 0.86,
+      "yaw_degrees": 78
+    },
+    {
+      "label": "final_counter_sack_5",
+      "alias": "purchased_prop_sack",
+      "x": 26.7,
+      "z": 4.4,
+      "scale": 0.9,
+      "yaw_degrees": -16
+    },
+    {
+      "label": "final_counter_cask_0",
+      "alias": "purchased_prop_barrel_small",
+      "x": 20.5,
+      "z": 19.5,
+      "scale": 0.9,
+      "yaw_degrees": 8
+    },
+    {
+      "label": "final_counter_cask_1",
+      "alias": "purchased_prop_barrel_small",
+      "x": 21.1,
+      "z": 20.3,
+      "scale": 1,
+      "yaw_degrees": 11
+    },
+    {
+      "label": "final_counter_cask_2",
+      "alias": "purchased_prop_barrel_small",
+      "x": 27.2,
+      "z": 16.4,
+      "scale": 0.9,
+      "yaw_degrees": -5
+    },
+    {
+      "label": "final_counter_cask_3",
+      "alias": "purchased_prop_barrel_small",
+      "x": 20.7,
+      "z": 1,
+      "scale": 0.95,
+      "yaw_degrees": 4
+    },
+    {
+      "label": "final_counter_logs",
+      "alias": "purchased_prop_logs",
+      "x": 29.8,
+      "z": 7.1,
+      "scale": 0.8,
+      "yaw_degrees": 17
+    },
+    {
+      "label": "final_verge_0_0",
+      "alias": "fern0",
+      "x": 43.67545804181859,
+      "z": 26.896704001328658,
+      "scale": 0.8306421154126266,
+      "yaw_degrees": -130.01062623665237
+    },
+    {
+      "label": "final_verge_0_1",
+      "alias": "fern1",
+      "x": 44.720487813079664,
+      "z": 29.090677895659653,
+      "scale": 0.7764615622157363,
+      "yaw_degrees": -55.220728868227425
+    },
+    {
+      "label": "final_verge_0_2",
+      "alias": "fern2",
+      "x": 43.85310358645374,
+      "z": 28.186926253874987,
+      "scale": 0.8858239893260473,
+      "yaw_degrees": 151.8129748561886
+    },
+    {
+      "label": "final_verge_0_3",
+      "alias": "starting_wildflower",
+      "x": 45.461559856321635,
+      "z": 27.335699165660277,
+      "scale": 1.4088990101375525,
+      "yaw_degrees": 21.919425977583558
+    },
+    {
+      "label": "final_verge_0_4",
+      "alias": "starting_celandine",
+      "x": 45.755093802154676,
+      "z": 27.685753773767676,
+      "scale": 1.181339737977038,
+      "yaw_degrees": -133.11887513655756
+    },
+    {
+      "label": "final_verge_0_5",
+      "alias": "fern0",
+      "x": 43.1297558152084,
+      "z": 28.66470985611274,
+      "scale": 1.0588350298170326,
+      "yaw_degrees": 60.54306066755436
+    },
+    {
+      "label": "final_verge_0_6",
+      "alias": "fern1",
+      "x": 43.219250091037075,
+      "z": 27.447166829661807,
+      "scale": 1.0618206940409176,
+      "yaw_degrees": -3.289099323539233
+    },
+    {
+      "label": "final_verge_0_7",
+      "alias": "fern2",
+      "x": 43.612807757682745,
+      "z": 28.29233061547871,
+      "scale": 0.803293374345137,
+      "yaw_degrees": -131.93312213531362
+    },
+    {
+      "label": "final_verge_0_8",
+      "alias": "starting_wildflower",
+      "x": 44.10786175537046,
+      "z": 28.46055678348256,
+      "scale": 1.48499213832657,
+      "yaw_degrees": -129.0459235857729
+    },
+    {
+      "label": "final_verge_0_9",
+      "alias": "starting_celandine",
+      "x": 44.575560314082935,
+      "z": 26.629670714468098,
+      "scale": 1.1709932895797661,
+      "yaw_degrees": 52.1815441121384
+    },
+    {
+      "label": "final_verge_0_10",
+      "alias": "fern0",
+      "x": 43.968154403688544,
+      "z": 27.528177075998215,
+      "scale": 0.922275476367825,
+      "yaw_degrees": -161.05658991363345
+    },
+    {
+      "label": "final_verge_0_11",
+      "alias": "fern1",
+      "x": 43.187148249323286,
+      "z": 26.948039639906234,
+      "scale": 0.7214143522238045,
+      "yaw_degrees": 62.79092904040198
+    },
+    {
+      "label": "final_verge_0_12",
+      "alias": "fern2",
+      "x": 44.58134211757795,
+      "z": 26.909285346681084,
+      "scale": 1.057765698371994,
+      "yaw_degrees": -36.743532320461526
+    },
+    {
+      "label": "final_verge_0_13",
+      "alias": "starting_wildflower",
+      "x": 44.02722729390954,
+      "z": 28.24539082319665,
+      "scale": 1.400211738500684,
+      "yaw_degrees": -133.8878316002605
+    },
+    {
+      "label": "final_verge_0_14",
+      "alias": "starting_celandine",
+      "x": 43.95985657800699,
+      "z": 26.503114309394512,
+      "scale": 1.3562414150498758,
+      "yaw_degrees": -122.07057573596532
+    },
+    {
+      "label": "final_verge_0_15",
+      "alias": "fern0",
+      "x": 45.14766305552565,
+      "z": 26.740950199899302,
+      "scale": 0.7209842991319098,
+      "yaw_degrees": -169.4010764073289
+    },
+    {
+      "label": "final_verge_1_0",
+      "alias": "fern0",
+      "x": 44.27379640354967,
+      "z": 16.975071228478964,
+      "scale": 0.9679732290167871,
+      "yaw_degrees": -5.418703551115016
+    },
+    {
+      "label": "final_verge_1_1",
+      "alias": "fern1",
+      "x": 43.17825497531051,
+      "z": 18.92387444326314,
+      "scale": 1.0449209770896761,
+      "yaw_degrees": -85.35739068059368
+    },
+    {
+      "label": "final_verge_1_2",
+      "alias": "fern2",
+      "x": 44.96033234535607,
+      "z": 17.68588963513571,
+      "scale": 0.7299800941749097,
+      "yaw_degrees": -113.27546725162772
+    },
+    {
+      "label": "final_verge_1_3",
+      "alias": "starting_wildflower",
+      "x": 44.39852931956407,
+      "z": 15.269420309361466,
+      "scale": 1.2112003466500827,
+      "yaw_degrees": -63.36292101864646
+    },
+    {
+      "label": "final_verge_1_4",
+      "alias": "starting_celandine",
+      "x": 46.23284199287355,
+      "z": 17.445728842241373,
+      "scale": 1.3677558365112328,
+      "yaw_degrees": 153.60470785350623
+    },
+    {
+      "label": "final_verge_1_5",
+      "alias": "fern0",
+      "x": 43.831796474475716,
+      "z": 17.0540671187388,
+      "scale": 0.8624036341033656,
+      "yaw_degrees": -157.99757132033812
+    },
+    {
+      "label": "final_verge_1_6",
+      "alias": "fern1",
+      "x": 42.52979726991114,
+      "z": 16.380360397551698,
+      "scale": 0.9855626277695763,
+      "yaw_degrees": 45.27347935971778
+    },
+    {
+      "label": "final_verge_1_7",
+      "alias": "fern2",
+      "x": 44.93707166404379,
+      "z": 17.01115290717115,
+      "scale": 0.9608817234394259,
+      "yaw_degrees": -82.66462451956748
+    },
+    {
+      "label": "final_verge_1_8",
+      "alias": "starting_wildflower",
+      "x": 44.637833608351045,
+      "z": 15.458159852241742,
+      "scale": 1.2449024591408517,
+      "yaw_degrees": 130.43217796238338
+    },
+    {
+      "label": "final_verge_1_9",
+      "alias": "starting_celandine",
+      "x": 42.421657055548216,
+      "z": 17.74425873554993,
+      "scale": 1.4482388450991333,
+      "yaw_degrees": -161.20849816554198
+    },
+    {
+      "label": "final_verge_1_10",
+      "alias": "fern0",
+      "x": 44.13923394811428,
+      "z": 19.19128982326177,
+      "scale": 0.8199623699309443,
+      "yaw_degrees": -92.98032743075929
+    },
+    {
+      "label": "final_verge_1_11",
+      "alias": "fern1",
+      "x": 43.24562130545763,
+      "z": 15.55452661680674,
+      "scale": 0.991024619530391,
+      "yaw_degrees": 104.48086842156533
+    },
+    {
+      "label": "final_verge_1_12",
+      "alias": "fern2",
+      "x": 45.00176469066929,
+      "z": 16.195373131808854,
+      "scale": 1.0746241851307023,
+      "yaw_degrees": 6.995813648121754
+    },
+    {
+      "label": "final_verge_1_13",
+      "alias": "starting_wildflower",
+      "x": 42.978030751703265,
+      "z": 16.2521422393843,
+      "scale": 1.3054676816984274,
+      "yaw_degrees": -113.66573351797688
+    },
+    {
+      "label": "final_verge_1_14",
+      "alias": "starting_celandine",
+      "x": 44.48969646912039,
+      "z": 16.70018851534936,
+      "scale": 1.144633289043386,
+      "yaw_degrees": -124.51728576189669
+    },
+    {
+      "label": "final_verge_1_15",
+      "alias": "fern0",
+      "x": 44.56308859353102,
+      "z": 17.485785672453314,
+      "scale": 1.0558262757248436,
+      "yaw_degrees": -137.10566182832275
+    },
+    {
+      "label": "final_verge_2_0",
+      "alias": "fern0",
+      "x": 35.952391848878044,
+      "z": 14.734116958249167,
+      "scale": 1.0270229575202379,
+      "yaw_degrees": 6.509540211585346
+    },
+    {
+      "label": "final_verge_2_1",
+      "alias": "fern1",
+      "x": 35.936620461611895,
+      "z": 17.1147358776764,
+      "scale": 1.1028538106316248,
+      "yaw_degrees": -137.69220108666516
+    },
+    {
+      "label": "final_verge_2_2",
+      "alias": "fern2",
+      "x": 34.90151082641912,
+      "z": 16.52200943553225,
+      "scale": 1.0526261491380229,
+      "yaw_degrees": -126.99425439558311
+    },
+    {
+      "label": "final_verge_2_3",
+      "alias": "starting_wildflower",
+      "x": 36.3294170869995,
+      "z": 16.82315131694906,
+      "scale": 1.3121187343231413,
+      "yaw_degrees": -112.16199604570765
+    },
+    {
+      "label": "final_verge_2_4",
+      "alias": "starting_celandine",
+      "x": 35.55792869394603,
+      "z": 16.36933800658856,
+      "scale": 1.2833196485318221,
+      "yaw_degrees": 127.79475390221847
+    },
+    {
+      "label": "final_verge_2_5",
+      "alias": "fern0",
+      "x": 35.847514060476655,
+      "z": 15.001544332138428,
+      "scale": 1.0211525863583553,
+      "yaw_degrees": 78.68733165532416
+    },
+    {
+      "label": "final_verge_2_6",
+      "alias": "fern1",
+      "x": 36.8473506002018,
+      "z": 15.276193816898882,
+      "scale": 0.7996316825693986,
+      "yaw_degrees": -19.28555904903905
+    },
+    {
+      "label": "final_verge_2_7",
+      "alias": "fern2",
+      "x": 36.06598196182525,
+      "z": 15.654825177599559,
+      "scale": 0.8213588959307888,
+      "yaw_degrees": 138.99093589112374
+    },
+    {
+      "label": "final_verge_2_8",
+      "alias": "starting_wildflower",
+      "x": 35.455683690563774,
+      "z": 15.026760212091407,
+      "scale": 1.2955978763525202,
+      "yaw_degrees": -85.76639206805622
+    },
+    {
+      "label": "final_verge_2_9",
+      "alias": "starting_celandine",
+      "x": 35.64256000429833,
+      "z": 14.602022273233636,
+      "scale": 1.1771333884369855,
+      "yaw_degrees": -71.66529969290069
+    },
+    {
+      "label": "final_verge_2_10",
+      "alias": "fern0",
+      "x": 34.76204151210594,
+      "z": 14.48222080895977,
+      "scale": 0.8910191378640625,
+      "yaw_degrees": -57.15375180559886
+    },
+    {
+      "label": "final_verge_2_11",
+      "alias": "fern1",
+      "x": 36.00644805698092,
+      "z": 15.131626083670922,
+      "scale": 0.8725852440930135,
+      "yaw_degrees": 7.611312051820477
+    }
+  ],
+  "attachments": [
+    {
+      "label": "bench_goods_0_bread",
+      "alias": "purchased_goods_bread",
+      "parent": "market_bench_0",
+      "local_xz": [
+        -0.02,
+        -0.85
+      ],
+      "yaw_degrees": 12,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "bench_goods_0_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_bench_0",
+      "local_xz": [
+        0.05,
+        0.78
+      ],
+      "yaw_degrees": -17,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "bench_goods_0_tankard",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_bench_0",
+      "local_xz": [
+        0.3,
+        -0.17
+      ],
+      "yaw_degrees": 24,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_0_bread",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_table_0",
+      "local_xz": [
+        0.02,
+        -0.85
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_0_chicken",
+      "alias": "purchased_goods_chicken",
+      "parent": "purchased_shop_table_0",
+      "local_xz": [
+        -0.02,
+        0.8
+      ],
+      "yaw_degrees": -12,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_0_tankard",
+      "alias": "purchased_goods_tankard",
+      "parent": "purchased_shop_table_0",
+      "local_xz": [
+        0.3,
+        -0.15
+      ],
+      "yaw_degrees": 18,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_0_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_table_0",
+      "local_xz": [
+        -0.2,
+        0.05
+      ],
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "bench_goods_1_bread",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_bench_1",
+      "local_xz": [
+        -0.02,
+        -0.85
+      ],
+      "yaw_degrees": 12,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "bench_goods_1_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_bench_1",
+      "local_xz": [
+        0.05,
+        0.78
+      ],
+      "yaw_degrees": -17,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "bench_goods_1_tankard",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_bench_1",
+      "local_xz": [
+        0.3,
+        -0.17
+      ],
+      "yaw_degrees": 24,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_1_bread",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_table_1",
+      "local_xz": [
+        0.02,
+        -0.85
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_1_chicken",
+      "alias": "purchased_goods_chicken",
+      "parent": "purchased_shop_table_1",
+      "local_xz": [
+        -0.02,
+        0.8
+      ],
+      "yaw_degrees": -12,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_1_tankard",
+      "alias": "purchased_goods_tankard",
+      "parent": "purchased_shop_table_1",
+      "local_xz": [
+        0.3,
+        -0.15
+      ],
+      "yaw_degrees": 18,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "shop_goods_1_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_table_1",
+      "local_xz": [
+        -0.2,
+        0.05
+      ],
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.68,
+        0.8
+      ]
+    },
+    {
+      "label": "counter_tankard_market_stall_0_0_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_0_0_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_0_1_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_0_1_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_0_2_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_0_2_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_0_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_0_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_1_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_1_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_2_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_market_stall_1_2_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_0_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_0_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_1_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_1_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_2_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_0_2_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_0_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_0_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_1_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_1_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_2_0",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -0.58,
+        -0.78
+      ],
+      "yaw_degrees": 8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "counter_tankard_inner_market_stall_1_2_1",
+      "alias": "purchased_goods_tankard",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        0.58,
+        -0.78
+      ],
+      "yaw_degrees": -8,
+      "surface_y_range": [
+        0.955,
+        0.97
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_0_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_0_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_0_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_0_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_1_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_1_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_1_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_1_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_2_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_2_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_2_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_0_2_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_0",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_0_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_0_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_0_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_0_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_1_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_1_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_1_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_1_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_2_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_2_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_2_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_1_2_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_1",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_0_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_0_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_0_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_0_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_1_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_1_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_1_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_1_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_2_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_2_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_2_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_0_2_2_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_0_2",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_0_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_0_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_0_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_0_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_1_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_1_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_1_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_1_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_2_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_2_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_2_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_0_2_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_0",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_0_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_0_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_0_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_0_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_1_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_1_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_1_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_1_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_2_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_2_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_2_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_1_2_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_1",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_0_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_0_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_0_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_0_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_1_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_1_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_1_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_1_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_2_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_2_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_2_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_market_stall_1_2_2_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "market_stall_1_2",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_0_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_0_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_0_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_0_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_1_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_1_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_1_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_1_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_2_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_2_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_2_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_0_2_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_0",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_0_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_0_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_0_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_0_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_1_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_1_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_1_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_1_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_2_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_2_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_2_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_1_2_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_1",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_0_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_0_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_0_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_0_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_1_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_1_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_1_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_1_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_2_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_2_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_2_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_0_2_2_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_0_2",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_0_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_0_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_0_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_0_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_1_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_1_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_1_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_1_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_2_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_2_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_2_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_0_2_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_0",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_0_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_0_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_0_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_0_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_1_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_1_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_1_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_1_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_2_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_2_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_2_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_1_2_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_1",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_0_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_0_0_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_0_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_0_1_1",
+      "alias": "purchased_goods_bread",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -1.6099999999999999,
+        -0.69,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_1_0_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_1_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        -0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_1_1_0",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        0.23,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_1_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        0.23,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        -0.46,
+        0.46,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_2_0_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        0.9199999999999999,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_2_0_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        0.9199999999999999,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_2_1_0",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        1.38,
+        -0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "bin_goods_inner_market_stall_1_2_2_1_1",
+      "alias": "purchased_goods_chicken",
+      "parent": "inner_market_stall_1_2",
+      "local_xz": [
+        1.38,
+        0.31
+      ],
+      "surface_y_range": [
+        1.075,
+        1.085
+      ],
+      "container_inner_bounds_xz": [
+        0.69,
+        1.6099999999999999,
+        -0.595,
+        0.595
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_0",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        -0.37,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        -0.37,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        -0.37,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_3",
+      "alias": "purchased_goods_tankard",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        0.3,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_4",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        0.3,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_0_5",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_d_0",
+      "local_xz": [
+        0.3,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_0",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        -0.37,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        -0.37,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        -0.37,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_3",
+      "alias": "purchased_goods_tankard",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        0.3,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_4",
+      "alias": "purchased_goods_bread",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        0.3,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "new_shop_goods_1_5",
+      "alias": "purchased_goods_cheese",
+      "parent": "purchased_shop_d_1",
+      "local_xz": [
+        0.3,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        -0.37,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        -0.37,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        -0.37,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_3",
+      "alias": "purchased_goods_bread",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        0.3,
+        -1.7
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_4",
+      "alias": "purchased_goods_cheese",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        0.3,
+        -0.95
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_counter_goods_5",
+      "alias": "purchased_goods_chicken",
+      "parent": "lane_bread_counter",
+      "local_xz": [
+        0.3,
+        -0.2
+      ],
+      "surface_y_range": [
+        0.95,
+        1.12
+      ]
+    },
+    {
+      "label": "lane_entry_delivery_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "lane_entry_delivery_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "surface_y_range": [
+        0.9,
+        1.01
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "lane_entry_delivery_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "lane_entry_delivery_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "surface_y_range": [
+        0.9,
+        1.01
+      ],
+      "scale": 0.9
+    },
+    {
+      "label": "dress_cooper_stack_0",
+      "alias": "purchased_crate",
+      "parent": "dress_cooper_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.57,
+      "yaw_degrees": -7,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_cooper_stack_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "dress_cooper_stack_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.68,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_cooper_stack_1",
+      "alias": "purchased_crate",
+      "parent": "dress_cooper_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.57,
+      "yaw_degrees": 6,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_cooper_stack_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_cooper_stack_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.68,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        -0.32,
+        -0.93
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        0.32,
+        -0.93
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        -0.32,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_3",
+      "alias": "purchased_goods_tankard",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        0.32,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_4",
+      "alias": "purchased_goods_bread",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        -0.32,
+        0.93
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_inn_table_goods_5",
+      "alias": "purchased_goods_tankard",
+      "parent": "dress_inn_table",
+      "local_xz": [
+        0.32,
+        0.93
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "dress_cloth_stack_0",
+      "alias": "purchased_crate",
+      "parent": "dress_cloth_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.52,
+      "yaw_degrees": 5,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_cloth_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_cloth_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_cloth_stack_2",
+      "alias": "purchased_crate",
+      "parent": "dress_cloth_crate_2",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.52,
+      "yaw_degrees": 5,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_baker_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "dress_baker_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.95,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_baker_goods_1",
+      "alias": "purchased_goods_bread",
+      "parent": "dress_baker_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.95,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_baker_goods_2",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_baker_crate_2",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.95,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_west_market_stack",
+      "alias": "purchased_crate",
+      "parent": "dress_west_market_crate",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.58,
+      "yaw_degrees": -3,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_west_market_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_west_market_stack",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.8,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_east_market_stack",
+      "alias": "purchased_crate",
+      "parent": "dress_east_market_crate",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.58,
+      "yaw_degrees": -3,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "dress_east_market_cheese",
+      "alias": "purchased_goods_cheese",
+      "parent": "dress_east_market_stack",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.8,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_stack_0",
+      "alias": "purchased_crate",
+      "parent": "final_delivery_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.55,
+      "yaw_degrees": 4,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "final_delivery_stack_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "final_delivery_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "final_delivery_crate_2",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_stack_3",
+      "alias": "purchased_crate",
+      "parent": "final_delivery_crate_3",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.55,
+      "yaw_degrees": 4,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_3",
+      "alias": "purchased_goods_bread",
+      "parent": "final_delivery_stack_3",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_4",
+      "alias": "purchased_goods_cheese",
+      "parent": "final_delivery_crate_4",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_stack_5",
+      "alias": "purchased_crate",
+      "parent": "final_delivery_crate_5",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.55,
+      "yaw_degrees": 4,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_delivery_goods_5",
+      "alias": "purchased_goods_tankard",
+      "parent": "final_delivery_stack_5",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_tasting_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        -0.31,
+        -1
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_tasting_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        0.32,
+        -1
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_tasting_goods_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        -0.31,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_tasting_goods_3",
+      "alias": "purchased_goods_tankard",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        0.32,
+        0
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_tasting_goods_4",
+      "alias": "purchased_goods_bread",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        -0.31,
+        0.95
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_tasting_goods_5",
+      "alias": "purchased_goods_tankard",
+      "parent": "final_tasting_table",
+      "local_xz": [
+        0.32,
+        0.95
+      ],
+      "scale": 0.85,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.73,
+        0.76
+      ]
+    },
+    {
+      "label": "final_counter_goods_0",
+      "alias": "purchased_goods_bread",
+      "parent": "final_counter_crate_0",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_counter_goods_1",
+      "alias": "purchased_goods_cheese",
+      "parent": "final_counter_crate_1",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_counter_goods_2",
+      "alias": "purchased_goods_chicken",
+      "parent": "final_counter_crate_2",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_counter_goods_3",
+      "alias": "purchased_goods_cheese",
+      "parent": "final_counter_crate_3",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_counter_goods_4",
+      "alias": "purchased_goods_bread",
+      "parent": "final_counter_crate_4",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    },
+    {
+      "label": "final_counter_goods_5",
+      "alias": "purchased_goods_tankard",
+      "parent": "final_counter_crate_5",
+      "local_xz": [
+        0,
+        0
+      ],
+      "scale": 0.9,
+      "yaw_degrees": 0,
+      "surface_y_range": [
+        0.9,
+        1.01
+      ]
+    }
+  ],
+  "removals": [
+    "outer_tower_4",
+    "outer_tower_5"
+  ],
+  "masonry_runs": [
+    {
+      "id": "southwest_wall",
+      "a": [
+        -205,
+        205
+      ],
+      "b": [
+        -7.4,
+        205
+      ],
+      "panels": [
+        "southwest_wall_0",
+        "southwest_wall_1",
+        "southwest_wall_2",
+        "southwest_wall_3",
+        "southwest_wall_4",
+        "southwest_wall_5",
+        "southwest_wall_6",
+        "southwest_wall_7",
+        "southwest_wall_8",
+        "southwest_wall_9",
+        "southwest_wall_10",
+        "southwest_wall_11",
+        "southwest_wall_12",
+        "southwest_wall_13"
+      ]
+    },
+    {
+      "id": "southeast_wall",
+      "a": [
+        7.4,
+        205
+      ],
+      "b": [
+        205,
+        205
+      ],
+      "panels": [
+        "southeast_wall_0",
+        "southeast_wall_1",
+        "southeast_wall_2",
+        "southeast_wall_3",
+        "southeast_wall_4",
+        "southeast_wall_5",
+        "southeast_wall_6",
+        "southeast_wall_7",
+        "southeast_wall_8",
+        "southeast_wall_9",
+        "southeast_wall_10",
+        "southeast_wall_11",
+        "southeast_wall_12",
+        "southeast_wall_13"
+      ]
+    },
+    {
+      "id": "north_wall",
+      "a": [
+        -205,
+        -205
+      ],
+      "b": [
+        205,
+        -205
+      ],
+      "panels": [
+        "north_wall_0",
+        "north_wall_1",
+        "north_wall_2",
+        "north_wall_3",
+        "north_wall_4",
+        "north_wall_5",
+        "north_wall_6",
+        "north_wall_7",
+        "north_wall_8",
+        "north_wall_9",
+        "north_wall_10",
+        "north_wall_11",
+        "north_wall_12",
+        "north_wall_13",
+        "north_wall_14",
+        "north_wall_15",
+        "north_wall_16",
+        "north_wall_17",
+        "north_wall_18",
+        "north_wall_19",
+        "north_wall_20",
+        "north_wall_21",
+        "north_wall_22",
+        "north_wall_23",
+        "north_wall_24",
+        "north_wall_25",
+        "north_wall_26",
+        "north_wall_27",
+        "north_wall_28"
+      ]
+    },
+    {
+      "id": "castle_southwest",
+      "a": [
+        -65,
+        -55
+      ],
+      "b": [
+        -5.9,
+        -55
+      ],
+      "panels": [
+        "castle_southwest_0",
+        "castle_southwest_1",
+        "castle_southwest_2",
+        "castle_southwest_3",
+        "castle_southwest_4",
+        "castle_southwest_5"
+      ]
+    },
+    {
+      "id": "castle_southeast",
+      "a": [
+        5.9,
+        -55
+      ],
+      "b": [
+        65,
+        -55
+      ],
+      "panels": [
+        "castle_southeast_0",
+        "castle_southeast_1",
+        "castle_southeast_2",
+        "castle_southeast_3",
+        "castle_southeast_4",
+        "castle_southeast_5"
+      ]
+    },
+    {
+      "id": "castle_north",
+      "a": [
+        -65,
+        -195
+      ],
+      "b": [
+        65,
+        -195
+      ],
+      "panels": [
+        "castle_north_0",
+        "castle_north_1",
+        "castle_north_2",
+        "castle_north_3",
+        "castle_north_4",
+        "castle_north_5",
+        "castle_north_6",
+        "castle_north_7",
+        "castle_north_8",
+        "castle_north_9",
+        "castle_north_10",
+        "castle_north_11"
+      ]
+    },
+    {
+      "id": "castle_west",
+      "a": [
+        -65,
+        -195
+      ],
+      "b": [
+        -65,
+        -55
+      ],
+      "panels": [
+        "castle_west_0",
+        "castle_west_1",
+        "castle_west_2",
+        "castle_west_3",
+        "castle_west_4",
+        "castle_west_5",
+        "castle_west_6",
+        "castle_west_7",
+        "castle_west_8",
+        "castle_west_9",
+        "castle_west_10",
+        "castle_west_11",
+        "castle_west_12"
+      ]
+    },
+    {
+      "id": "castle_east",
+      "a": [
+        65,
+        -195
+      ],
+      "b": [
+        65,
+        -55
+      ],
+      "panels": [
+        "castle_east_0",
+        "castle_east_1",
+        "castle_east_2",
+        "castle_east_3",
+        "castle_east_4",
+        "castle_east_5",
+        "castle_east_6",
+        "castle_east_7",
+        "castle_east_8",
+        "castle_east_9",
+        "castle_east_10",
+        "castle_east_11",
+        "castle_east_12"
+      ]
+    },
+    {
+      "id": "west_south",
+      "a": [
+        -205,
+        3.6101529388427736
+      ],
+      "b": [
+        -205,
+        205
+      ],
+      "panels": [
+        "west_wall_15",
+        "west_wall_16",
+        "west_wall_17",
+        "west_wall_18",
+        "west_wall_19",
+        "west_wall_20",
+        "west_wall_21",
+        "west_wall_22",
+        "west_wall_23",
+        "west_wall_24",
+        "west_wall_25",
+        "west_wall_26",
+        "west_wall_27",
+        "west_wall_28"
+      ]
+    },
+    {
+      "id": "west_north",
+      "a": [
+        -205,
+        -205
+      ],
+      "b": [
+        -205,
+        -3.609019585372973
+      ],
+      "panels": [
+        "west_wall_0",
+        "west_wall_1",
+        "west_wall_2",
+        "west_wall_3",
+        "west_wall_4",
+        "west_wall_5",
+        "west_wall_6",
+        "west_wall_7",
+        "west_wall_8",
+        "west_wall_9",
+        "west_wall_10",
+        "west_wall_11",
+        "west_wall_12",
+        "west_wall_13"
+      ]
+    },
+    {
+      "id": "east_south",
+      "a": [
+        205,
+        3.609019585372973
+      ],
+      "b": [
+        205,
+        205
+      ],
+      "panels": [
+        "east_wall_15",
+        "east_wall_16",
+        "east_wall_17",
+        "east_wall_18",
+        "east_wall_19",
+        "east_wall_20",
+        "east_wall_21",
+        "east_wall_22",
+        "east_wall_23",
+        "east_wall_24",
+        "east_wall_25",
+        "east_wall_26",
+        "east_wall_27",
+        "east_wall_28"
+      ]
+    },
+    {
+      "id": "east_north",
+      "a": [
+        205,
+        -205
+      ],
+      "b": [
+        205,
+        -3.6101529388427736
+      ],
+      "panels": [
+        "east_wall_0",
+        "east_wall_1",
+        "east_wall_2",
+        "east_wall_3",
+        "east_wall_4",
+        "east_wall_5",
+        "east_wall_6",
+        "east_wall_7",
+        "east_wall_8",
+        "east_wall_9",
+        "east_wall_10",
+        "east_wall_11",
+        "east_wall_12",
+        "east_wall_13"
+      ]
+    }
+  ],
+  "side_gate_joins": [
+    {
+      "gate": "west_wall_14",
+      "negative_run": "west_north",
+      "positive_run": "west_south",
+      "source_section_y": [
+        1.0,
+        3.0,
+        5.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "penetration_m": 0.002
+    },
+    {
+      "gate": "east_wall_14",
+      "negative_run": "east_north",
+      "positive_run": "east_south",
+      "source_section_y": [
+        1.0,
+        3.0,
+        5.0,
+        8.0,
+        10.0,
+        12.0
+      ],
+      "penetration_m": 0.002
+    }
+  ],
+  "rejected_complete_castle_source": {
+    "source": "SM_Castle.FBX",
+    "reason": "The provided composite has disconnected elevated turret and wall masses, confirmed in neutral and native views. The complete original village_keep remains the live keep; purchased composite is retained for source assembly review."
+  },
+  "authored_lanes": [
+    {
+      "id": "merchants_lane",
+      "title": "Merchants Lane",
+      "description": "A paved trading street with eleven staggered fa\u00e7ades, three supported cloth-bunting spans and distinct near-field cooper, clothier, bakery and inn cargo pockets. Four existing travelers use separate return strips; total population remains 64.",
+      "a": [
+        61.75,
+        -27
+      ],
+      "b": [
+        61.75,
+        49
+      ],
+      "half_width": 2.9,
+      "clearance_radius_m": 0.37,
+      "entrance_xz": [
+        61.75,
+        47
+      ],
+      "view_target_xz": [
+        61.4,
+        -18
+      ],
+      "frontage_labels": [
+        "home_2_0",
+        "home_2_1",
+        "lane_west_brewers",
+        "lane_west_merchant",
+        "lane_west_coopers",
+        "lane_east_bakers",
+        "lane_east_stores",
+        "lane_east_factors",
+        "lane_east_inn",
+        "lane_east_clothiers",
+        "lane_east_spire"
+      ],
+      "prop_labels": [
+        "lane_west_brewers_barrel_0",
+        "lane_west_brewers_barrel_1",
+        "lane_west_brewers_barrel_2",
+        "lane_west_brewers_crate",
+        "lane_west_brewers_crate_2",
+        "lane_west_merchant_crate_0",
+        "lane_west_merchant_crate_1",
+        "lane_west_merchant_crate_2",
+        "lane_west_coopers_barrel_0",
+        "lane_west_coopers_barrel_1",
+        "lane_east_bakers_barrel",
+        "lane_east_bakers_crate",
+        "lane_east_stores_crate_0",
+        "lane_east_stores_crate_1",
+        "lane_east_factors_barrel",
+        "lane_east_inn_barrel",
+        "lane_east_clothiers_crate_0",
+        "lane_east_clothiers_crate_1",
+        "lane_entry_delivery_crate_0",
+        "lane_entry_delivery_crate_1",
+        "lane_entry_inn_barrel",
+        "lane_entry_delivery_goods_0",
+        "lane_entry_delivery_goods_1",
+        "dress_cooper_crate_0",
+        "dress_cooper_stack_0",
+        "dress_cooper_stack_goods_0",
+        "dress_cooper_crate_1",
+        "dress_cooper_stack_1",
+        "dress_cooper_stack_goods_1",
+        "dress_cooper_cask_0",
+        "dress_cooper_cask_1",
+        "dress_cooper_cask_2",
+        "dress_cooper_sack_0",
+        "dress_cooper_sack_1",
+        "dress_cooper_sack_2",
+        "dress_cooper_lamp",
+        "dress_inn_table",
+        "dress_inn_table_goods_0",
+        "dress_inn_table_goods_1",
+        "dress_inn_table_goods_2",
+        "dress_inn_table_goods_3",
+        "dress_inn_table_goods_4",
+        "dress_inn_table_goods_5",
+        "dress_inn_small_cask_0",
+        "dress_inn_small_cask_1",
+        "dress_inn_small_cask_2",
+        "dress_inn_sack_0",
+        "dress_inn_sack_1",
+        "dress_inn_sack_2",
+        "dress_inn_sack_3",
+        "dress_inn_lamp",
+        "dress_cloth_crate_0",
+        "dress_cloth_stack_0",
+        "dress_cloth_crate_1",
+        "dress_cloth_cheese",
+        "dress_cloth_crate_2",
+        "dress_cloth_stack_2",
+        "dress_cloth_logs",
+        "dress_cloth_lamp",
+        "dress_cloth_sack_0",
+        "dress_cloth_sack_1",
+        "dress_cloth_sack_2",
+        "dress_cloth_east_lamp",
+        "dress_inn_firewood",
+        "dress_inn_mid_sack_0",
+        "dress_inn_mid_sack_1",
+        "dress_inn_mid_sack_2",
+        "dress_mid_lamp",
+        "dress_baker_crate_0",
+        "dress_baker_goods_0",
+        "dress_baker_crate_1",
+        "dress_baker_goods_1",
+        "dress_baker_crate_2",
+        "dress_baker_goods_2",
+        "dress_baker_lamp",
+        "dress_brewer_small_cask_0",
+        "dress_brewer_small_cask_1",
+        "dress_brewer_small_cask_2",
+        "dress_brewer_sack_0",
+        "dress_brewer_sack_1",
+        "dress_brewer_sack_2",
+        "dress_brewer_lamp",
+        "dress_factor_lamp"
+      ],
+      "walking_route_xz": [
+        [
+          61.75,
+          51
+        ],
+        [
+          61.75,
+          40
+        ],
+        [
+          61.75,
+          20
+        ],
+        [
+          61.75,
+          0
+        ],
+        [
+          61.75,
+          -20
+        ],
+        [
+          61.75,
+          -35
+        ]
+      ]
+    }
+  ],
+  "overhead_rows": [
+    {
+      "id": "dress_bunting_entry",
+      "west_parent": "lane_west_merchant",
+      "east_parent": "lane_east_clothiers",
+      "z": 39,
+      "elevation": 6.7,
+      "flags": 7
+    },
+    {
+      "id": "dress_bunting_inn",
+      "west_parent": "home_2_1",
+      "east_parent": "lane_east_inn",
+      "source_sides": [
+        "min",
+        "max"
+      ],
+      "z": 16.8,
+      "elevation": 6.5,
+      "flags": 6
+    },
+    {
+      "id": "dress_bunting_brewery",
+      "west_parent": "lane_west_brewers",
+      "east_parent": "lane_east_inn",
+      "z": 6,
+      "elevation": 6.2,
+      "flags": 5
+    }
+  ],
+  "dressing_pockets": [
+    {
+      "id": "cooper-delivery",
+      "labels": [
+        "dress_cooper_crate_0",
+        "dress_cooper_stack_0",
+        "dress_cooper_stack_goods_0",
+        "dress_cooper_crate_1",
+        "dress_cooper_stack_1",
+        "dress_cooper_stack_goods_1",
+        "dress_cooper_cask_0",
+        "dress_cooper_cask_1",
+        "dress_cooper_cask_2",
+        "dress_cooper_sack_0",
+        "dress_cooper_sack_1",
+        "dress_cooper_sack_2",
+        "dress_cooper_lamp"
+      ]
+    },
+    {
+      "id": "inn-tasting-and-provisions",
+      "labels": [
+        "dress_inn_table",
+        "dress_inn_table_goods_0",
+        "dress_inn_table_goods_1",
+        "dress_inn_table_goods_2",
+        "dress_inn_table_goods_3",
+        "dress_inn_table_goods_4",
+        "dress_inn_table_goods_5",
+        "dress_inn_small_cask_0",
+        "dress_inn_small_cask_1",
+        "dress_inn_small_cask_2",
+        "dress_inn_sack_0",
+        "dress_inn_sack_1",
+        "dress_inn_sack_2",
+        "dress_inn_sack_3",
+        "dress_inn_lamp"
+      ]
+    },
+    {
+      "id": "clothier-warehouse",
+      "labels": [
+        "dress_cloth_crate_0",
+        "dress_cloth_stack_0",
+        "dress_cloth_crate_1",
+        "dress_cloth_cheese",
+        "dress_cloth_crate_2",
+        "dress_cloth_stack_2",
+        "dress_cloth_logs",
+        "dress_cloth_lamp",
+        "dress_cloth_sack_0",
+        "dress_cloth_sack_1",
+        "dress_cloth_sack_2",
+        "dress_cloth_east_lamp"
+      ]
+    },
+    {
+      "id": "bakery-and-brewer-deliveries",
+      "labels": [
+        "dress_inn_firewood",
+        "dress_inn_mid_sack_0",
+        "dress_inn_mid_sack_1",
+        "dress_inn_mid_sack_2",
+        "dress_mid_lamp",
+        "dress_baker_crate_0",
+        "dress_baker_goods_0",
+        "dress_baker_crate_1",
+        "dress_baker_goods_1",
+        "dress_baker_crate_2",
+        "dress_baker_goods_2",
+        "dress_baker_lamp",
+        "dress_brewer_small_cask_0",
+        "dress_brewer_small_cask_1",
+        "dress_brewer_small_cask_2",
+        "dress_brewer_sack_0",
+        "dress_brewer_sack_1",
+        "dress_brewer_sack_2",
+        "dress_brewer_lamp",
+        "dress_factor_lamp"
+      ]
+    },
+    {
+      "id": "market-provisioning",
+      "labels": [
+        "dress_west_market_sack_0",
+        "dress_west_market_sack_1",
+        "dress_west_market_sack_2",
+        "dress_west_market_cask_0",
+        "dress_west_market_cask_1",
+        "dress_west_market_cask_2",
+        "dress_west_market_lamp",
+        "dress_west_market_crate",
+        "dress_west_market_stack",
+        "dress_west_market_cheese",
+        "dress_east_market_sack_0",
+        "dress_east_market_sack_1",
+        "dress_east_market_sack_2",
+        "dress_east_market_cask_0",
+        "dress_east_market_cask_1",
+        "dress_east_market_cask_2",
+        "dress_east_market_lamp",
+        "dress_east_market_crate",
+        "dress_east_market_stack",
+        "dress_east_market_cheese"
+      ]
+    },
+    {
+      "id": "market-close-deliveries-and-seating",
+      "labels": [
+        "final_delivery_crate_0",
+        "final_delivery_stack_0",
+        "final_delivery_goods_0",
+        "final_delivery_crate_1",
+        "final_delivery_goods_1",
+        "final_delivery_crate_2",
+        "final_delivery_goods_2",
+        "final_delivery_crate_3",
+        "final_delivery_stack_3",
+        "final_delivery_goods_3",
+        "final_delivery_crate_4",
+        "final_delivery_goods_4",
+        "final_delivery_crate_5",
+        "final_delivery_stack_5",
+        "final_delivery_goods_5",
+        "final_delivery_cart",
+        "final_delivery_sack_0",
+        "final_delivery_sack_1",
+        "final_delivery_sack_2",
+        "final_delivery_sack_3",
+        "final_delivery_cask_0",
+        "final_delivery_cask_1",
+        "final_delivery_cask_2",
+        "final_delivery_lamp",
+        "final_tasting_table",
+        "final_tasting_goods_0",
+        "final_tasting_goods_1",
+        "final_tasting_goods_2",
+        "final_tasting_goods_3",
+        "final_tasting_goods_4",
+        "final_tasting_goods_5",
+        "final_tasting_stool_0",
+        "final_tasting_stool_1",
+        "final_tasting_stool_2",
+        "final_tasting_lamp",
+        "final_tasting_cask",
+        "final_counter_crate_0",
+        "final_counter_goods_0",
+        "final_counter_crate_1",
+        "final_counter_goods_1",
+        "final_counter_crate_2",
+        "final_counter_goods_2",
+        "final_counter_crate_3",
+        "final_counter_goods_3",
+        "final_counter_crate_4",
+        "final_counter_goods_4",
+        "final_counter_crate_5",
+        "final_counter_goods_5",
+        "final_counter_sack_0",
+        "final_counter_sack_1",
+        "final_counter_sack_2",
+        "final_counter_sack_3",
+        "final_counter_sack_4",
+        "final_counter_sack_5",
+        "final_counter_cask_0",
+        "final_counter_cask_1",
+        "final_counter_cask_2",
+        "final_counter_cask_3",
+        "final_counter_logs",
+        "final_verge_0_0",
+        "final_verge_0_1",
+        "final_verge_0_2",
+        "final_verge_0_3",
+        "final_verge_0_4",
+        "final_verge_0_5",
+        "final_verge_0_6",
+        "final_verge_0_7",
+        "final_verge_0_8",
+        "final_verge_0_9",
+        "final_verge_0_10",
+        "final_verge_0_11",
+        "final_verge_0_12",
+        "final_verge_0_13",
+        "final_verge_0_14",
+        "final_verge_0_15",
+        "final_verge_1_0",
+        "final_verge_1_1",
+        "final_verge_1_2",
+        "final_verge_1_3",
+        "final_verge_1_4",
+        "final_verge_1_5",
+        "final_verge_1_6",
+        "final_verge_1_7",
+        "final_verge_1_8",
+        "final_verge_1_9",
+        "final_verge_1_10",
+        "final_verge_1_11",
+        "final_verge_1_12",
+        "final_verge_1_13",
+        "final_verge_1_14",
+        "final_verge_1_15",
+        "final_verge_2_0",
+        "final_verge_2_1",
+        "final_verge_2_2",
+        "final_verge_2_3",
+        "final_verge_2_4",
+        "final_verge_2_5",
+        "final_verge_2_6",
+        "final_verge_2_7",
+        "final_verge_2_8",
+        "final_verge_2_9",
+        "final_verge_2_10",
+        "final_verge_2_11"
+      ]
+    }
+  ]
+}

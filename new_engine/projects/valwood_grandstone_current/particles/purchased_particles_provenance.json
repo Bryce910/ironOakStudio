@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "recipe": 1,
+  "source": "User-provided purchased BIG Environment Pack sprite artwork; private project use.",
+  "source_archive": "/home/computer/Downloads/Buildings&PropsTextures.zip",
+  "archive_bytes": 1646305053,
+  "archive_sha256": null,
+  "archive_sha256_note": "Not computed: bounded member inspection avoids reading the full1.6GB archive. Individual source members are CRC-checked and SHA256-recorded.",
+  "source_members": [
+    {
+      "member": "Buildings&PropsTextures/Torchfire_Sheet.png",
+      "bytes": 1597156,
+      "crc32": "42a829c1",
+      "sha256": "fc1ab5a45aaf33d9063a5407a7d765482de1251b8754f59088c07026921174fe",
+      "dimensions": [
+        1350,
+        2048
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "member": "Buildings&PropsTextures/Campfire_Sheet.png",
+      "bytes": 4802293,
+      "crc32": "d49a4074",
+      "sha256": "7b832fe7482f828b837fdac7fd2f38dcb0b5b5ce5076d77780b23ce3cdc2cfb6",
+      "dimensions": [
+        2700,
+        4096
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "member": "Buildings&PropsTextures/Fire_Smoke.png",
+      "bytes": 20040,
+      "crc32": "a241429e",
+      "sha256": "a67dba10cf0a83bf244a54d29a0560f0b08e13e15cf887da3f1fb4e38d02d1d3",
+      "dimensions": [
+        128,
+        128
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "member": "Buildings&PropsTextures/Spark_Sharp.png",
+      "bytes": 6609,
+      "crc32": "fa3d66d2",
+      "sha256": "0ea7d6804ebbd60dec2ba68f10702e4a10bed30edeff0e35416edb07c730c53e",
+      "dimensions": [
+        64,
+        64
+      ],
+      "mode": "RGBA"
+    }
+  ],
+  "license": "User identifies this content as purchased. No separate license/EULA/README exists in the supplied archive. No open-license or redistribution rights are asserted.",
+  "source_preservation": "Original ZIP unchanged; selected original PNG bytes retained under assets/purchased/bep_particles/source.",
+  "layout": {
+    "fire_layers": 144,
+    "torch_layers": [
+      0,
+      71
+    ],
+    "campfire_layers": [
+      72,
+      143
+    ],
+    "source_grid": [
+      9,
+      8
+    ],
+    "source_frame_order": "Top-left row-major, inferred from the visibly regular9x8 sheet; no authored timing metadata supplied.",
+    "layer_pixel_rows": "Bottom-to-top: first RGBA row is GL v=0 at flame base.",
+    "authored_fps": null,
+    "playback_rate": "Runtime adaptation23.625fps:72frames x21loops per64second phase. No FPS value is asserted from source."
+  },
+  "color": {
+    "rgb": "sRGB decode, multiply by original alpha in linear light, per-channel float Lanczos resize, clamp RGB<=coverage, sRGB encode and round to RGBA8.",
+    "alpha": "Linear original coverage, Lanczos resized and clamped; not radiance.",
+    "campfire": "Source alpha is uniformly255 over black RGB. Runtime must use additive/premultiplied radiance, never source-alpha black cards.",
+    "mipmaps": "Runtime creates independent texture-array layer mips; no cross-frame atlas filtering."
+  },
+  "runtime_format": {
+    "magic": "VFX1",
+    "magic_uint": 827868758,
+    "header": "4 little-endian uint32: magic,width,height,layers",
+    "data": "Tightly packed RGBA8 contiguous layers; no compression or trailing bytes."
+  },
+  "outputs": [
+    {
+      "file": "purchased_fire.vfx",
+      "bytes": 18874384,
+      "sha256": "b1dd76aac543c84badbd6c737a1236d22b2343795631db70eb0404e6308560b3",
+      "dimensions": [
+        128,
+        256
+      ],
+      "layers": 144
+    },
+    {
+      "file": "purchased_smoke.vfx",
+      "bytes": 65552,
+      "sha256": "871b9821c377524e7931f5648913280a78eb23937977bac1cc0a6dd8bff2cc07",
+      "dimensions": [
+        128,
+        128
+      ],
+      "layers": 1
+    }
+  ],
+  "spark": "Original Spark_Sharp.png preserved and inspected; this recipe does not add a runtime spark texture. Existing bounded analytic ember geometry remains available.",
+  "changes": [
+    "144 fire layers resampled to128x256; smoke to128x128.",
+    "No full archive extraction, model import, source script execution, engine settings mutation, or new render target."
+  ]
+}

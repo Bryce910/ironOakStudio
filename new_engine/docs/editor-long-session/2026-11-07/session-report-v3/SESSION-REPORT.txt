@@ -1,0 +1,57 @@
+EDITOR LONG-SESSION TEST REPORT
+
+Both full measured sessions and their separate fresh-process reopen checks passed.
+
+Linux native:
+  Active measured editing: 20.60 minutes; 130 large edits; 390 Undo/Redo actions; 13 repeated recipe blocks.
+  All fixture actions including history/cap warm-up: 203 edits; 485 Undo/Redo actions.
+  Engine checks: 8629 workflow + 18 reopen; GL errors 0; remaining texture references 0.
+  Startup: 27.14 seconds (separate from measured editing). Owned-process samples: 1544; peak observed RSS: 936.1 MiB.
+  Editing matched-cohort median p95: 502.0 -> 502.5 ms (40 paired recipe/stage cohorts).
+  Settled camera matched-cohort median p95: 19.0 -> 19.1 ms (9 paired recipe cohorts).
+  Same-workload memory/latency/frame-pacing plateau gates passed; Save All and exact saved-scene reopen passed.
+
+Windows executable under Wine:
+  Active measured editing: 20.64 minutes; 120 large edits; 360 Undo/Redo actions; 12 repeated recipe blocks.
+  All fixture actions including history/cap warm-up: 193 edits; 455 Undo/Redo actions.
+  Engine checks: 8111 workflow + 18 reopen; GL errors 0; remaining texture references 0.
+  Startup: 33.31 seconds (separate from measured editing). Owned-process samples: 1564; peak observed RSS: 1161.3 MiB.
+  Editing matched-cohort median p95: 673.6 -> 668.9 ms (40 paired recipe/stage cohorts).
+  Settled camera matched-cohort median p95: 19.2 -> 19.1 ms (9 paired recipe cohorts).
+  Same-workload memory/latency/frame-pacing plateau gates passed; Save All and exact saved-scene reopen passed.
+
+Authenticated workflow reuse — Linux native:
+  The original complete v2 engine run is retained byte for byte, including its original aggregate outcome.
+  The same process identity and measured samples were reanalyzed under policy revision3; a real fresh-process reopen followed.
+  AMD resident backing uses each sample’s paired VRAM+GTT sum with the original10%/96MiB growth allowance.
+  Individual domain shifts are informational. RSS, latency, frame pacing and collision gates remain enforced.
+  Original aggregate: /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/RESULTS.json (SHA256 61a8c6d3bce1bf8490222c5d5bef5b44426fe2d13ce393bee7f5fbe1b40e1caf)
+  Original aggregate passed: False; original case failures: ['Equivalent-state memory or published collision counts do not plateau']
+
+Authenticated workflow reuse — Windows executable under Wine:
+  The original complete v2 engine run is retained byte for byte, including its original aggregate outcome.
+  The same process identity and measured samples were reanalyzed under policy revision3; a real fresh-process reopen followed.
+  AMD resident backing uses each sample’s paired VRAM+GTT sum with the original10%/96MiB growth allowance.
+  Individual domain shifts are informational. RSS, latency, frame pacing and collision gates remain enforced.
+  Original aggregate: /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-windows-v2/RESULTS.json (SHA256 f979ded6f7611a56968d636fbe6a2194c34722f3f59780a5ae87f7d58e71a807)
+  Original aggregate passed: True; original case failures: []
+
+Measured scenarios:
+  Terrain: raise, lower, smooth and rolling hills at 128 m radius (256 m brush width); raise at 256 m radius (512 m width).
+  Vegetation: forest, grass-only, rocks-only and grass clearing at 128 m radius; forest at 256 m radius.
+  Each measured gesture is followed by Undo, Redo and another Undo to the same baseline.
+  History retention warm-up, cancelled/budget-rejected edits, generated blockers, grass grounding and an 81-point terrain/walk-height grid are checked by the fixture.
+
+Windows update packaging: 1,246 CPU checks passed, independently of the measured rendering sessions.
+
+Scope and units:
+  Memory is exact-owned-process RSS; 1 MiB = 1,048,576 bytes. It includes caches/driver allocations and is not total VRAM.
+  Memory curves use only identical settled baselines after the first measured recipe block.
+  Performance summaries are medians of paired cohort p95s, not whole-session p95s. All underlying per-cohort plateau gates passed.
+  Windows executable testing used Wine on this Linux computer. A physical receiving Windows PC and physical input still require testing.
+  These bounded editor scenarios do not certify every editing workload, AAA quality, or sustained gameplay frame rate.
+
+Evidence:
+  Linux native: /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v3/RESULTS.json (SHA256 e4ff612c0b023c71a0d18516671d6d9c5e142fe6cc73120a98ab0f0adeb36d8a)
+  Windows executable under Wine: /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-windows-v3/RESULTS.json (SHA256 e356f8eec79b9eac0c21483f207787fb74f9d5ea9196f3d4eba96e941230e13b)
+  Packaging: /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/EDITOR_STABILITY_CPU_ACCEPTANCE-v2.json (SHA256 ae27bb5adc046fd3aed3a8ea4b68f9a849639b393b6a85aba46a1fd5d67d55ca)

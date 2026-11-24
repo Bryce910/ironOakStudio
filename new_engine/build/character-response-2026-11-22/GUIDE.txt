@@ -1,0 +1,36 @@
+CHARACTER RESPONSE — 2026-11-22
+
+Launch the normal game: /home/computer/Desktop/final_engine/Launch_Valwood.sh demo
+
+Changes:
+- A stationary turn yields immediately to walking input.
+- Slow walking shortens turn travel rather than stretching the entire turn.
+  Left/right 90-degree starts now reach the walking loop in about 0.62 s at 60 FPS;
+  previously 0.93 s/right and 1.88 s/left. 180-degree starts take about 0.77 s, previously 1.95 s.
+- Releasing a short turning start uses the existing 180 ms pose bridge, with
+  no queued full stopping stride. Indoor walking remains capped at 1.25 m/s.
+- Camper talk cycles are 3.6–3.7 s instead of about 8 s; listening/warming hands
+  are faster too, while breathing retains its original pace. Social blends
+  settle in roughly one-third of a second.
+- Hair no longer adds an untinted pale rim from viewing angle alone;
+  transmission requires actual backlighting. A bounded contour coverage
+  band smooths the strand edges consistently in color/depth/shadow passes.
+
+Validation:
+- 24 held/interrupted starts, 36 release cases at 60/23/15 FPS, 27 independent
+ analog/release/collision cases; cap/feet/clearance/pause checks passed.
+- Armed pose hashes match the preceding runtime.
+- Three camper GLBs checked at 10/23/30/60/144 FPS, with planted feet and seams.
+- Four hair tiers rendered; production native RX 5300 apartment/camp review,
+ Bram conversation, normal clean exit, preserved live saves/world/settings.
+- See review/NATIVE_ACCEPTANCE.json and linked reports/recordings.
+
+Known limits:
+Hair shape still uses the original card geometry. Camper gestures are authored
+joint clips, not newly recorded acting. The interior camera contracts near
+walls/furniture; this pass does not redesign its framing. This is a focused
+correction pass, not a claim that all art/animation is now AAA.
+
+The previous indoor audio, volume controls, night lighting and water-cache
+fixes are retained. No Windows package was built. Rebuild with
+python3 tools/build_candidate.py, then regenerate reviewed input hashes.

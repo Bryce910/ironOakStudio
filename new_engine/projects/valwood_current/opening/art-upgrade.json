@@ -1,0 +1,424 @@
+{
+  "art": {
+    "character_or_hand_animation_added": false,
+    "coffee": {
+      "latte_art_removed": true,
+      "original_geometry_unchanged": true,
+      "source_texture_sha256": "5f6c4d92a5002a3f815875e90508dde0f6670e99322e7033cc1f1453ed7192d4",
+      "texture_index": 47
+    },
+    "collision_bodies_added": 0,
+    "cost_usd": 0,
+    "derived_embedded_images": [
+      {
+        "embedded_bytes": 1660227,
+        "height": 1024,
+        "name": "Art | dry scanned worn wooden coffee table / base",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "87bfda18427d6861c7a5274ce9232bb7440c48d69b47848bcd49da36dc67dc0e",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_diff_2k.jpg",
+            "sha256": "165cdba449d56ea8e9675116622b95d7af372b7d7c47b8a98a03fcc630f1d51c"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_nor_gl_2k.jpg",
+            "sha256": "a90aaa321194fb41d6e44776c6ee88134e4be416051357a3c9e323cc447c4cf0"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_arm_2k.jpg",
+            "sha256": "7f6bf892105ec6be35bcdf4fbd8cac9f804c98457ae1cf23f4660f3b35e7c5a2"
+          }
+        ],
+        "texture_index": 44,
+        "width": 1024
+      },
+      {
+        "embedded_bytes": 1575452,
+        "height": 1024,
+        "name": "Art | dry scanned worn wooden coffee table / normal",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "c208e4166ca75141319d9cd404011994d19fad33ece4e78bb4b5d9c7195287c7",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_diff_2k.jpg",
+            "sha256": "165cdba449d56ea8e9675116622b95d7af372b7d7c47b8a98a03fcc630f1d51c"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_nor_gl_2k.jpg",
+            "sha256": "a90aaa321194fb41d6e44776c6ee88134e4be416051357a3c9e323cc447c4cf0"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_arm_2k.jpg",
+            "sha256": "7f6bf892105ec6be35bcdf4fbd8cac9f804c98457ae1cf23f4660f3b35e7c5a2"
+          }
+        ],
+        "texture_index": 45,
+        "width": 1024
+      },
+      {
+        "embedded_bytes": 784324,
+        "height": 1024,
+        "name": "Art | dry scanned worn wooden coffee table / arm",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "b3d8a67b228fdddcfe358cbd53f1d5193f5e52593b02924a0c48bef2e57014cd",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_diff_2k.jpg",
+            "sha256": "165cdba449d56ea8e9675116622b95d7af372b7d7c47b8a98a03fcc630f1d51c"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_nor_gl_2k.jpg",
+            "sha256": "a90aaa321194fb41d6e44776c6ee88134e4be416051357a3c9e323cc447c4cf0"
+          },
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/wood_table_worn/source/wood_table_worn_arm_2k.jpg",
+            "sha256": "7f6bf892105ec6be35bcdf4fbd8cac9f804c98457ae1cf23f4660f3b35e7c5a2"
+          }
+        ],
+        "texture_index": 46,
+        "width": 1024
+      },
+      {
+        "embedded_bytes": 164275,
+        "height": 512,
+        "name": "Art | ordinary cold coffee",
+        "operation": "Replace only coffee UV island with dark coffee and a restrained meniscus; preserve ceramic and original geometry",
+        "sha256": "b4fe672e0de649347d557bf0e58ee381fb46e5d3b84e7cd848f1977b53e56f3f",
+        "source_inputs": [
+          {
+            "path": "models/apartment/coffee_cup.glb",
+            "sha256": "0895e52c420de6635eb67fffd8146c78d2bccca5b935b463cec48af0a7fe29f3"
+          }
+        ],
+        "texture_index": 47,
+        "width": 512
+      },
+      {
+        "embedded_bytes": 252874,
+        "height": 512,
+        "name": "Art | weathered neutral woven work-bag canvas / base",
+        "operation": "Embedded PNG; downsampled to at most 512 px",
+        "sha256": "9bad766ab5c44523abc6067326fb0f4e76b9b2e96aa3877f57e421aebce11dc0",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_col_1_1k.jpg",
+            "sha256": "aeb7a1487b77aec55e39de662def4d371f5c7c617f62d1f291d7f9932ffebdc9"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_nor_gl_1k.jpg",
+            "sha256": "f6955bbdead9f023f2357f6f8808ed49627d10882cd2a3cb6b5a5ace155abc45"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_rough_1k.jpg",
+            "sha256": "3d90ac40b5c32a15649cc8525b7eeed133ea46b63a0e3eae5e34911d5c967e3a"
+          }
+        ],
+        "texture_index": 48,
+        "width": 512
+      },
+      {
+        "embedded_bytes": 513916,
+        "height": 512,
+        "name": "Art | weathered neutral woven work-bag canvas / normal",
+        "operation": "Embedded PNG; downsampled to at most 512 px",
+        "sha256": "30f156bf234ef98aa02d91de33aa5cfa4178bd38dc2ff2877c767a453671a59f",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_col_1_1k.jpg",
+            "sha256": "aeb7a1487b77aec55e39de662def4d371f5c7c617f62d1f291d7f9932ffebdc9"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_nor_gl_1k.jpg",
+            "sha256": "f6955bbdead9f023f2357f6f8808ed49627d10882cd2a3cb6b5a5ace155abc45"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_rough_1k.jpg",
+            "sha256": "3d90ac40b5c32a15649cc8525b7eeed133ea46b63a0e3eae5e34911d5c967e3a"
+          }
+        ],
+        "texture_index": 49,
+        "width": 512
+      },
+      {
+        "embedded_bytes": 1489,
+        "height": 512,
+        "name": "Art | weathered neutral woven work-bag canvas / arm",
+        "operation": "Embedded PNG; downsampled to at most 512 px",
+        "sha256": "24a406d6cf66690a35fcca70faf49ac5bc658c46b9833f7e5a2709643a49ef0a",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_col_1_1k.jpg",
+            "sha256": "aeb7a1487b77aec55e39de662def4d371f5c7c617f62d1f291d7f9932ffebdc9"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_nor_gl_1k.jpg",
+            "sha256": "f6955bbdead9f023f2357f6f8808ed49627d10882cd2a3cb6b5a5ace155abc45"
+          },
+          {
+            "path": "assets/polyhaven/milestone/fabric_pattern_07/textures/fabric_pattern_07_rough_1k.jpg",
+            "sha256": "3d90ac40b5c32a15649cc8525b7eeed133ea46b63a0e3eae5e34911d5c967e3a"
+          }
+        ],
+        "texture_index": 50,
+        "width": 512
+      },
+      {
+        "embedded_bytes": 1272547,
+        "height": 1024,
+        "name": "Art | scanned everyday pen and short pencil / base",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "bdcbff4d8bbf7ae7ce18c49c3e88a4206d9ca972cecd323defd56bd5d2ccbc06",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/stationery_supplies/stationery_supplies.glb",
+            "sha256": "26c665662a941ed5fe330b10fa679ba3f5a9184dc972f364a79590243e4b534f"
+          }
+        ],
+        "texture_index": 51,
+        "width": 1024
+      },
+      {
+        "embedded_bytes": 1057944,
+        "height": 1024,
+        "name": "Art | scanned everyday pen and short pencil / normal",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "e9ad190bdb99bb0f6d700d969e900bd2d7dcb0b4d926d4dce0502e0dba9f0887",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/stationery_supplies/stationery_supplies.glb",
+            "sha256": "26c665662a941ed5fe330b10fa679ba3f5a9184dc972f364a79590243e4b534f"
+          }
+        ],
+        "texture_index": 52,
+        "width": 1024
+      },
+      {
+        "embedded_bytes": 1434390,
+        "height": 1024,
+        "name": "Art | scanned everyday pen and short pencil / arm",
+        "operation": "Embedded PNG; downsampled to at most 1024 px",
+        "sha256": "e80a8283c0851fa9de46e46dbaecdebadb3998e10b84c885cb055dd22aedd72b",
+        "source_inputs": [
+          {
+            "path": "assets/polyhaven/opening_upgrade/2026-11-03/stationery_supplies/stationery_supplies.glb",
+            "sha256": "26c665662a941ed5fe330b10fa679ba3f5a9184dc972f364a79590243e4b534f"
+          }
+        ],
+        "texture_index": 53,
+        "width": 1024
+      }
+    ],
+    "existing_story_anchors_unchanged": true,
+    "license_url": "https://polyhaven.com/license",
+    "muted_existing_materials": [
+      "Set | faded blue bookcloth",
+      "Gaming | blue game case",
+      "Gaming | purple game case",
+      "Gaming | cream game sleeve",
+      "Gaming | muted teal controls"
+    ],
+    "policy": "Optional isolated art pass; dry worn furniture, selected desk belongings, neutral canvas and ordinary coffee. No duplicated table, full stationery display, extra floor obstacles, source edits or character claims.",
+    "source_assets_unchanged": true,
+    "source_license": "CC0-1.0",
+    "stationery": {
+      "selected": [
+        {
+          "desk_contact": null,
+          "maximum": [
+            -2.3335461315356723,
+            0.819446288383007,
+            1.1229604410145604
+          ],
+          "minimum": [
+            -2.373493388137968,
+            0.8116,
+            0.9869269303106264
+          ],
+          "node": "stationery_supplies_pen_red",
+          "original_node_translation_baked": true,
+          "triangles": 672
+        },
+        {
+          "desk_contact": {
+            "maximum_support_y": 0.9252978805001664,
+            "minimum_support_y": 0.9251523549454392,
+            "minimum_vertical_clearance": 0.0008,
+            "real_desk_triangle_samples": 5
+          },
+          "maximum": [
+            -4.1420375159332155,
+            0.9340170914407658,
+            -4.098978286120356
+          ],
+          "minimum": [
+            -4.257083590316669,
+            0.9260978805001664,
+            -4.138967197593167
+          ],
+          "node": "stationery_supplies_pencil_used",
+          "original_node_translation_baked": true,
+          "triangles": 306
+        }
+      ],
+      "sha256": "26c665662a941ed5fe330b10fa679ba3f5a9184dc972f364a79590243e4b534f",
+      "source": "assets/polyhaven/opening_upgrade/2026-11-03/stationery_supplies/stationery_supplies.glb",
+      "source_display_layout_not_imported": true,
+      "source_url": "https://polyhaven.com/a/stationery_supplies",
+      "unsupported_old_desk_props_removed": 6
+    },
+    "table": {
+      "accepted_top_y": 0.8103035774515264,
+      "geometry_positions_unchanged": true,
+      "maximum": [
+        -1.525,
+        0.8103035774515264,
+        1.7915572308815435
+      ],
+      "minimum": [
+        -3.0749999999999997,
+        0.18,
+        0.9084427691184567
+      ],
+      "replacement": "Existing table material and UVs only",
+      "triangles": 1000,
+      "unused_scanned_table": "Small Wooden Table 01 was intentionally not placed: its proportions do not fit the locked coffee-table props."
+    },
+    "triangles_after": 96083,
+    "triangles_before": 94667,
+    "version": 1,
+    "work_bag": {
+      "additions": [
+        "Shallow sewn front pocket",
+        "Restrained seam stitching",
+        "Top zipper and pull",
+        "Soft webbing carry handle"
+      ],
+      "badge_preserved": true,
+      "original_body_geometry_unchanged": true,
+      "original_handle_parts_replaced": 3,
+      "source_url": "https://polyhaven.com/a/fabric_pattern_07",
+      "texture_resolution": 512
+    }
+  },
+  "camera_settings_unchanged": true,
+  "collision_unchanged": false,
+  "geometry_modified": true,
+  "home_mid_sha256": "09bb342f375459e1963b026a8b83e407bb45547bb3c282457e5774a4a966636c",
+  "home_sha256": "09bb342f375459e1963b026a8b83e407bb45547bb3c282457e5774a4a966636c",
+  "inherited_from": {
+    "path": "/home/computer/Desktop/final_engine/new_engine/build/opening-art-upgrade/v2/project/opening/art-upgrade.json",
+    "previous_home_sha256": "78153d64a3475c212fda1ad7810ef5f4e2544e895a8458d77508c7ac0946583a",
+    "sha256": "2b472317f40fd57b4717cf842c64faae85a2a0c22237883259f6c75099fe431d"
+  },
+  "layout_sha256": "2d684902191962fdf3d0abf1498b7c9284e54dc0144cf2c4eb4c20058d749920",
+  "lighting": {
+    "emission_materials_unchanged": true,
+    "geometry_collision_and_gameplay_unchanged": true,
+    "native_visual_review_required": true,
+    "retune": {
+      "all_light_positions_preserved": true,
+      "only_window_and_ceiling_power_changed": true,
+      "prior_indirect_scale": [
+        0.28,
+        0.31,
+        0.38
+      ],
+      "reason": "v1 native visual review found the bag and table underexposed",
+      "source_v1_shader_sha256": "fc97dc6803ec53ad503929b1bd9854ad1ee19c1320f74b5af9d0b143c9f30845",
+      "source_v1_studio_sha256": "5afb35ab784ed6f455276ac0d602af7c853d6c26ae5b00726c4b752da7b1d09a"
+    },
+    "room_switch_positions_preserved": true,
+    "schema": "valwood.opening-home-art-lighting",
+    "scope": "Private home shader bounds and seven established Studio light rows only; shared shaders and exterior lighting unchanged.",
+    "shader": {
+      "after_sha256": "ff2aeff70caaf5badf7ace7931d7ec480e1fb8165afa7975d0dd4308d6030a64",
+      "before_sha256": "952df2a1455eece0857ef801ab684848d5f331004bc84158969e778a6e764129",
+      "bounds": {
+        "maximum": [
+          -3494.0,
+          604.0,
+          -10994.0
+        ],
+        "minimum": [
+          -3506.0,
+          599.0,
+          -11006.0
+        ]
+      },
+      "extra_texture_samples": 0,
+      "indirect_scale": [
+        0.45,
+        0.46,
+        0.48
+      ],
+      "path": "shaders/world_foliage.fs.glsl",
+      "sunlight_scale": 0.1,
+      "vegetation_actors_grass_excluded": true
+    },
+    "studio": {
+      "after_sha256": "7beb77ae8e5fb4fcb1d31bf6f4c82c055d9740151998f095aabc6535ea704194",
+      "before_sha256": "d7d7d3fa2ca292222938d605a7d6ca9a162c1e689773e9543eaca02aa873368d",
+      "lights": [
+        {
+          "after": "light -3504.69 601.60 -10996.48 4.5 3.8 1 0.68 0.4 0 -45 180 0",
+          "before": "light -3504.69 601.60 -10996.48 4.5 1.35 1 .78 .55 0 -45 180 0",
+          "name": "Living floor lamp",
+          "position_preserved": true,
+          "room": "living"
+        },
+        {
+          "after": "light -3495.3 602.15 -10996.9 6.5 1.8 0.55 0.7 1 0 -45 180 0",
+          "before": "light -3495.3 602.15 -10996.9 8.0 2.4 .72 .84 1 0 -45 180 0",
+          "name": "Cool window key",
+          "position_preserved": true,
+          "room": null
+        },
+        {
+          "after": "light -3501 602.95 -10998.7 5 1.2 1 0.8 0.58 0 -45 180 0",
+          "before": "light -3501 602.95 -10998.7 8 .55 1 .91 .78 0 -45 180 0",
+          "name": "Existing living ceiling fill",
+          "position_preserved": true,
+          "room": "living"
+        },
+        {
+          "after": "light -3500.22 601.58 -11004.48 3.1 1.05 1 0.84 0.65 0 -45 180 0",
+          "before": "light -3500.22 601.58 -11004.48 3.8 .9 1 .88 .69 0 -45 180 0",
+          "name": "Kitchen undercabinet bar",
+          "position_preserved": true,
+          "room": "kitchen"
+        },
+        {
+          "after": "light -3500.22 602.45 -11001.25 4.5 1.15 1 0.76 0.49 0 -45 180 0",
+          "before": "light -3500.22 602.45 -11001.25 4.8 .9 1 .82 .61 0 -45 180 0",
+          "name": "Kitchen pendant",
+          "position_preserved": true,
+          "room": "kitchen"
+        },
+        {
+          "after": "light -3494.97 600.99 -11003.97 2.6 0.85 1 0.7 0.42 0 -45 180 0",
+          "before": "light -3494.97 600.99 -11003.97 2.6 .65 1 .79 .54 0 -45 180 0",
+          "name": "Bedroom lamp",
+          "position_preserved": true,
+          "room": "bedroom"
+        },
+        {
+          "after": "light -3495.65 602.55 -10999.55 3 1 1 0.85 0.67 0 -45 180 0",
+          "before": "light -3495.65 602.55 -10999.55 3.4 .85 1 .90 .78 0 -45 180 0",
+          "name": "Bathroom practical",
+          "position_preserved": true,
+          "room": "bathroom"
+        }
+      ],
+      "path": "world.studio",
+      "total_light_count_after": 7,
+      "total_light_count_before": 7
+    },
+    "version": 2
+  },
+  "schema": "valwood.opening-art-upgrade",
+  "scope": "Inherited free apartment art and evening lighting; purchased furniture composition is documented separately in opening/finward.json. Detailed prior-pass texture slot evidence describes that pass; current model hashes above describe this build.",
+  "version": 2,
+  "historical_only": true,
+  "superseded_by": "opening/reference.json"
+}

@@ -1,0 +1,27 @@
+/usr/bin/ld: /tmp/ccGVUR23.o: in function `world_arena_combat::Arena::start(WorldTrainingCombat&, bool) [clone .isra.0]':
+world_blood_effects_test.cpp:(.text+0xe5): undefined reference to `WorldTrainingCombat::start_shared_arena(bool)'
+/usr/bin/ld: /tmp/ccGVUR23.o: in function `world_arena_combat::Arena::projectiles(double, WorldTrainingCombat&, std::array<world_arena_combat::Vec3, 8ul> const&)':
+world_blood_effects_test.cpp:(.text._ZN18world_arena_combat5Arena11projectilesEdR19WorldTrainingCombatRKSt5arrayINS_4Vec3ELm8EE[_ZN18world_arena_combat5Arena11projectilesEdR19WorldTrainingCombatRKSt5arrayINS_4Vec3ELm8EE]+0xe17): undefined reference to `WorldTrainingCombat::damage_opponent(TrainingOpponent&, unsigned int, float, TrainingDirection, TrainingEvents&)'
+/usr/bin/ld: /tmp/ccGVUR23.o: in function `world_arena_combat::Arena::update(double, WorldTrainingCombat&, world_arena_combat::Vec3, float, bool, unsigned int)':
+world_blood_effects_test.cpp:(.text._ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj[_ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj]+0x1ae): undefined reference to `WorldTrainingCombat::clear_buffer()'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text._ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj[_ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj]+0x77f): undefined reference to `WorldTrainingCombat::update_shared(double, TrainingTarget*, unsigned long, TrainingEvents&, bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text._ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj[_ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj]+0xc2e): undefined reference to `WorldTrainingCombat::finish_shared_arena(bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text._ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj[_ZN18world_arena_combat5Arena6updateEdR19WorldTrainingCombatNS_4Vec3Efbj]+0xcee): undefined reference to `WorldTrainingCombat::finish_shared_arena(bool)'
+/usr/bin/ld: /tmp/ccGVUR23.o: in function `main':
+world_blood_effects_test.cpp:(.text.startup+0x3415): undefined reference to `WorldTrainingCombat::start_arena(float, float, float, bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3441): undefined reference to `WorldTrainingCombat::update(double, double, double, bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x356e): undefined reference to `WorldTrainingCombat::choose(TrainingDirection)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3586): undefined reference to `WorldTrainingCombat::attack()'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3600): undefined reference to `WorldTrainingCombat::update(double, double, double, bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3921): undefined reference to `WorldTrainingCombat::update(double, double, double, bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3bef): undefined reference to `WorldTrainingCombat::choose(TrainingDirection)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3c07): undefined reference to `WorldTrainingCombat::attack()'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3ecd): undefined reference to `WorldTrainingCombat::set_guard(bool)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3f0e): undefined reference to `WorldTrainingCombat::choose(TrainingDirection)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x3f1d): undefined reference to `WorldTrainingCombat::attack()'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x43f5): undefined reference to `WorldTrainingCombat::choose(TrainingDirection)'
+/usr/bin/ld: world_blood_effects_test.cpp:(.text.startup+0x4421): undefined reference to `WorldTrainingCombat::set_guard(bool)'
+/usr/bin/ld: /tmp/ccIqCj5F.o: in function `world_combat_vfx::System::update(WorldTrainingCombat const&, world_combat_vfx::Input const&, double)':
+world_combat_vfx.cpp:(.text+0x25c1): undefined reference to `WorldTrainingCombat::engaged() const'
+/usr/bin/ld: world_combat_vfx.cpp:(.text+0x2600): undefined reference to `WorldTrainingCombat::engaged() const'
+collect2: error: ld returned 1 exit status

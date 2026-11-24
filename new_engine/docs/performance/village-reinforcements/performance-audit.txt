@@ -1,0 +1,75 @@
+Read-only reinforcement performance audit — 2026-10-26
+
+Scope
+Reviewed watch-close-final.json, its CSV/world JSON, the watch update/draw path,
+shared pose upload/draw implementation, scenery aliases and reflection calls.
+No builds, tests, cooking, native rendering or changes to engine/assets were
+started by this audit. Other native profiles were running sequentially.
+
+Measured evidence
+The 1,680 post-warmup watch-close samples report 57.85 mean FPS, 24.76 FPS
+1% low, 35.261 ms p99 and 47.827 ms maximum. There are 49 samples over the
+22.222 ms budget. Of those, 46 fall in frames 385–454 or 1098–1277; the
+remaining 1,430 measured frames have three misses. The first burst has 14/70
+misses, mean frame 19.363 ms/update 3.665 ms; the second has 32/180,
+19.233 ms/update 3.674 ms. Normal spans average approximately 16.85–17.02 ms
+per frame and 2.03–2.21 ms update.
+
+The bursts cross several submission/wait locations: 13 updates exceed 10 ms,
+three render CPU samples exceed 10 ms, and frame419 spends 28.380 ms in the
+editor stage. Example frame399: update26.934 ms; frame1245: prior present
+37.888 ms; frame1266: render CPU17.824 ms. GPU elapsed-stage outliers also
+occur in different passes (shadow, foliage, terrain and reflection). GPU
+stage values are delayed estimates and present_ms belongs to the previous
+swap; individual rows do not prove which call caused the delay.
+
+Slow samples concentrate at sweep phases360–599 of the720-frame turn;
+phases0–359 and600–719 have no over-budget samples. Reflection is normally
+off through much of the first troublesome direction (near-zero reflection
+GPU values), so an unconditional new reflection draw is not an adequate
+explanation. The near-zero to ~3 ms reflection transition later in the turn
+does add ordinary GPU work. Misses are not unusually close to watch pose
+boundaries: 8/49 are within one frame of either visible watch actor's pose
+boundary versus256/1680 overall (16.3% versus15.2%).
+
+Code findings
+world_village_watch_update uses fixed arrays for four actors/eight batches,
+has no hot allocations, and only two actors qualify within180 m in this
+profile. WorldModelPoseBlend keeps reserved staging and prelinked adjacent
+pose VAOs. Changed weights upload placements/weights only (24-byte GPU
+instances), not the20,174-triangle pose meshes or textures. Normally this is
+two one-instance uploads per frame here, plus an occasional emptied batch;
+load/target linking is outside the frame loop. Color, shadow and reflection
+reuse those uploaded weights. No synchronous asset loading, uncapped loop,
+per-frame pose relinking or supported watch source defect was found.
+
+The four new guards, two mounted models and tools do add real geometry and
+approximately48 MiB of unique mipmapped images according to ASSET_IMPORTS.md.
+Near/mid assets and eight poses share their image cache ownership; this is
+not an eightfold texture upload. Shared upload functions call glBufferData
+and glGetError, so a driver wait can be accounted in update. That remains a
+possible wait location, not evidence that these tiny new uploads are the
+cause. Existing population and pets already make many more such uploads.
+
+Lightweight live system observation (not synchronized to the finished watch
+run, and therefore not causal proof)
+At20:14:30 UTC: MemAvailable1,959,860 kB; swap free44 kB of2,097,148 kB.
+RX5300 sysfs: VRAM2,956,410,880/3,204,448,256 bytes (92.3%); GTT use
+2,143,875,072 bytes; GPU busy99%, memory busy42%. A later pressure read
+showed memory full avg10=2.91%, avg60=3.29%, and IO full avg10=4.66%,
+avg60=4.40%; CPU some avg10=.26%. These observations support investigating
+memory/IO or driver contention. Full swap alone does not prove active
+paging; VRAM below physical capacity does not exclude residency contention.
+The sandbox /proc process namespace exposed only this audit's codex/bash/
+python3 COMM names, so no host process attribution was possible or claimed.
+No private command arguments were read.
+
+Conclusion and useful next isolation
+The new watch source is bounded and no actionable source bug is established
+by this trace. Retain this failed smoothness result. A controlled same-view
+paired run should record system PSI/VRAM/GTT and narrow CPU timestamps around
+actor uploads versus other update work, without changing visible quality.
+One staged watch-disable diagnostic can isolate its incremental cost, but
+must be recorded separately and cannot replace the integrated acceptance
+profile. Existing farm-tools-final reports59.52 mean/48.23 low/p9919.917 ms;
+it is a different view, so it neither proves nor disproves a watch regression.

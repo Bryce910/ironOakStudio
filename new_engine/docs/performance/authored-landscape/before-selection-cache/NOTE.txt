@@ -1,0 +1,1 @@
+Animated authored build before caching conservative visibility selections. Ten of15600 measured intervals exceed22.222ms, with59.95FPS means throughout. Retained for comparison, not replaced or hidden by the subsequent pass.

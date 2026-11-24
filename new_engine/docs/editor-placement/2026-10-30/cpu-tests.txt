@@ -1,0 +1,2 @@
+make test-world-designer: passed
+318 designer contracts, real ImGui payload release/viewport rejection, 7,000-entry UI virtualization, workspace and camera contracts.

@@ -1,0 +1,35 @@
+Thomas animation continuity update — Linux Valwood, 21 November 2026
+
+Restart the usual Valwood launcher after publication. This generation owns its
+application source and native dependency closure. The preceding hair correction
+and character generations remain frozen and available for rollback.
+
+The reviewed problems occur where a captured start joins the walking/running
+loop and where a crouched running pivot is interrupted by a stop. A frozen
+outgoing pose previously lost its limb velocity during the handoff. The update
+carries bounded outgoing joint motion through the blend and gives the larger
+pivot-to-stop posture change time to recover. At capture completion, the visual
+pose also consumes the accepted remainder of the frame instead of holding the
+endpoint while physics has already continued into the loop.
+
+Full-body unarmed captures already contain their own foot swing. The legacy
+procedural toe-off correction could lift both boots during a grounded walk;
+it is suppressed for that authored full-body path. Combat retains its existing
+toe-off behavior. During the longer pivot-to-stop recovery, new foot plants wait
+for the visible foot motion to settle, avoiding a premature anchor and release.
+Physics still owns accepted root displacement and collision.
+No purchased animation keys, retargeted body meshes or source clips are replaced.
+
+The replacement preview uses production material/shadow/temporal/post passes.
+Its matte studio floor receiver also corrects an excessive QA-only shadow bias
+that made boot shadows appear detached. It does not move the actor or floor.
+The actual game scene is checked separately with the final native executable.
+
+The verified hair opacity correction is retained byte for byte. Character detail
+stays in F10 > Quality > Characters / models: Low, Medium, High, Ultra. Existing
+settings, working worlds, saves and mode-state locations are retained.
+
+Evidence and review limits are recorded in review/FINAL_REVIEW.json. This work
+does not certify complete AAA quality or every possible world/input combination.
+Earlier facial features, purchased assets and animation coverage are documented
+in ../thomas-character-finish-2026-11-21/GUIDE.txt.

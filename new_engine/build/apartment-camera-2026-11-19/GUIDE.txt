@@ -1,0 +1,18 @@
+Valwood — Apartment camera and doorway repair (unpublished candidate)
+
+Baseline: father-idle-polish-2026-11-19, including accepted neutral stance/head posture.
+Source: owned source-v1, private 104-unit native build closure. No Windows work.
+Public launch.py uses the live working world after guarded promotion; all review
+fixtures use private_configuration and owned world/area snapshots.
+
+This candidate is not approved or published. Required before promotion:
+- Reviewed exact source/recompile scope in review/SOURCE_CHANGE_SCOPE.json.
+- Current-source CPU reviews at review/apartment-camera/CPU_REVIEW.json and
+  review/apartment-collision/CPU_REVIEW.json, passed with inputs_sha256.
+- Native apartment-walk, opening-natural, walking-stowed EXECUTION.json reviews.
+- FINAL_REVIEW passed and native_visual_passed; final approved binary SHA.
+- Latest post-close progress plain absolute-path-to-SHA256 inventory.
+
+Guarded promotion changes the runtime pointer and shader bindings only. It
+preserves live scene authoring, latest saves/settings, with backup/rollback.
+No promotion, game launch, game close, or live changes occurred during scaffold.

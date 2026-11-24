@@ -1,0 +1,20 @@
+Valwood — Linux surface and armor polish, 17 November 2026
+
+Use Launch_Valwood.sh demo, editor, arena, joust or world as before.
+All modes use one executable, shared shaders and the existing texture-quality bank.
+The editor and demo share new_engine/projects/valwood_current.
+
+Arena setup: choose Armor finish in battle: Clean armor, Blood-marked or Battle-bloodied.
+Opposing human knights mix clean/light/heavy stable blood marks. This finish follows
+animation and retained/detached bodies without replacing original source textures.
+Orc materials remain intact. No extra texture sets or extra character draw passes.
+
+Editable source-scene terrain now loads its real dirt normal and roughness maps.
+Empty ground masks no longer replace litter textures. Imported eight-layer terrain
+retains its authored PBR path. Two redundant arena wood decks are removed; the arena
+sand surface, collision slab, perimeter and spectator platforms are retained.
+
+All saves and graphics preferences stay in their existing locations.
+Native acceptance, screenshots and remaining limits: review/FINAL_REVIEW.json.
+Previous generation and original arena scene are retained for rollback.
+No Windows build or package was made.

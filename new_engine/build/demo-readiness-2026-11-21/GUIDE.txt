@@ -1,0 +1,35 @@
+Valwood — Demo readiness and campsite regression repair
+
+Launch through /home/computer/Desktop/final_engine/Launch_Valwood_Demo.sh.
+Begin the Journey starts the apartment; Continue Checkpoint restores progress.
+F1 opens How to Play from the title or pause menu. Both keyboard/mouse and
+controller controls are listed. Known Playtest Issues is available there too.
+The real first-journey completion opens Thanks for Playing and asks for Discord
+feedback. Continue Exploring resumes without replaying completion rewards.
+
+This build preserves the AAA merge's existing animation, environment, water,
+combat and tools. It adds the studio/loading/help/ending presentation and fixes
+camp texture admission priority. Nearby camp essentials restore before distant
+city scenery. Derived, precision-checked BC7 caches reduce camp texture memory
+without changing source image resolution or geometry. Original assets remain.
+
+Character rendering: reactive silhouettes use the upstream antialiased image
+rather than raw jittered samples in the display-resolution upscaler. Outdoor
+actors use desaturated canopy fill and no world-anchored terrain wet films or
+landscape moss/dirt projections. No new NPC motion vectors are claimed.
+
+Known limitations
+- NPC idles remain limited blended poses. Distant tree silhouettes repeat.
+- Better camp props, more tree variety, terrain art and water-bank composition
+  remain art work. This pass does not complete the entire visual wishlist.
+- Last prior camp performance was about 23 FPS on RX 5300. The final scene needs
+  further optimization; restored missing geometry adds work. Texture memory
+  savings are not an FPS claim.
+- The older scripted first-journey combat test fails the same line115 assertion
+  in both the unmodified AAA merge and this build. No combat source was changed.
+- Ending restore UI was tested with an explicitly labeled private fixture. This
+  is not evidence of a new full native apartment-to-ending playthrough.
+- Native Linux build only. No Windows build was prepared.
+
+Review evidence is in review/; original live saves/settings are not test inputs
+that this build overwrites. Private test copies are under review/native-ui-*.

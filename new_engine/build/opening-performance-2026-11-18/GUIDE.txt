@@ -1,0 +1,43 @@
+Valwood opening performance and ground polish - 18 November 2026
+
+The normal Linux launchers use one runtime for Demo, Editor, Arena, Joust and
+World. The existing renderer passes, lighting, shaders, source textures,
+foliage density, combat timing and controls are preserved.
+
+This release removes unused baked-light floats from pose vertex buffers when
+those poses have no baked-light stream. All positions, normals, UVs, tangents
+and packed source paint stay exact. Identical immutable triangle-index buffers
+are shared with explicit lifetime ownership. The native GPU regression covers
+13 real pose pairs, synthetic geometry, five forward/reverse blend weights,
+invalid-state containment, texture ownership and shared-buffer release.
+
+Matched 1600x900 full-resolution opening views improved from19-24FPS to30-37FPS,
+with frame times reduced36-41%. The sum of tracked peak GPU allocations fell
+from3728MiB to3090MiB: about638MiB saved. This is logical allocation tracking,
+not a driver VRAM-residency measurement.
+
+The ordinary World-exploration opening idle view averaged43.59FPS, versus38.49
+before, on the same RX5300 and saved Balanced settings. Automatic rendering
+reached1120x630 in a1600x900 window. Its1%low was38.93FPS. This idle check does
+not certify sustained movement/combat performance. It is not a locked60FPS,
+and legacy animation-bank startup remains slow.
+
+An extra forest depth pass was tested and rejected because it had mixed
+results between enclosed woodland and open approaches. Its experimental
+source/binary/reports remain under review/prepass-prototype; they are not the
+shipping implementation or the source of the reported final measurements.
+
+The existing arrival leaf beds have broader soft boundaries and a warmer
+woodland palette. Soil coverage extends along the first bend. No new image,
+material layer, paint stamp or render pass was added. Grass masks retain16free
+slots for the designer. Pale exposed rock faces and coarse distant terrain
+still need further art work; the scene is not claimed to be AAA-finished.
+
+Terrain shape, rivers, collision, placements, NPC routes, dialogue, quests and
+saved progress are preserved. Native human/Orc sword-contact, first/third-person
+poses, controller jousting and shared editor/game shader-lifecycle checks
+passed. The full editor UI and complete quest playthrough were not rerun in
+this storage-only pass. All104 application units have verified dependency
+receipts, with unchanged objects reused and the model unit rebuilt.
+
+No Windows build or new asset purchase was performed.

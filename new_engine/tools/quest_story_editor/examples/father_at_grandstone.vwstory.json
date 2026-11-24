@@ -1,0 +1,361 @@
+{
+  "schema": "valwood.quest-story",
+  "version": 1,
+  "title": "A father at Grandstone",
+  "logline": "A modern father enters Valwood. Earn the dwarves’ trust before the later knight transformation.",
+  "chapters": [
+    {
+      "id": "modern_dad",
+      "title": "01 · An ordinary father",
+      "summary": "Modern everyday clothes, familiar family life, then an unexpected crossing. Outfit and cinematic work are planning notes."
+    },
+    {
+      "id": "grandstone",
+      "title": "02 · The doors of Grandstone",
+      "summary": "Meet the gatekeeper, inspect the oath stone, and return for the dwarves’ welcome."
+    },
+    {
+      "id": "knight",
+      "title": "03 · An oath and armor",
+      "summary": "Later hero production milestone: keep the same face/body and equip modular knight armor. This beat does not change the model in game."
+    }
+  ],
+  "beats": [
+    {
+      "id": "home",
+      "chapter": "modern_dad",
+      "title": "A normal day",
+      "body": "Introduce the father and what he stands to lose. Everyday modern clothes. Keep the family moment grounded.",
+      "next": [
+        "arrival"
+      ]
+    },
+    {
+      "id": "arrival",
+      "chapter": "grandstone",
+      "title": "Snow before the gate",
+      "body": "The grand entrance frames a lone father. The gatekeeper offers a simple test of respect.",
+      "next": [
+        "oath"
+      ]
+    },
+    {
+      "id": "oath",
+      "chapter": "knight",
+      "title": "A promise worth keeping",
+      "body": "After earning trust, plan the same hero’s eventual knight equipment. Armor transformation is a future character integration task.",
+      "next": []
+    }
+  ],
+  "layout": {
+    "positions": {
+      "beat:home": {
+        "x": 70,
+        "y": 80
+      },
+      "beat:arrival": {
+        "x": 70,
+        "y": 560
+      },
+      "beat:oath": {
+        "x": 70,
+        "y": 1040
+      },
+      "quest:30": {
+        "x": 380,
+        "y": 560
+      },
+      "dialogue:40": {
+        "x": 690,
+        "y": 560
+      },
+      "line:40:41": {
+        "x": 690,
+        "y": 730
+      },
+      "line:40:42": {
+        "x": 960,
+        "y": 730
+      },
+      "dialogue:60": {
+        "x": 1000,
+        "y": 560
+      },
+      "line:60:61": {
+        "x": 1000,
+        "y": 730
+      },
+      "dialogue:70": {
+        "x": 70,
+        "y": 750
+      },
+      "line:70:71": {
+        "x": 70,
+        "y": 920
+      }
+    }
+  },
+  "native": {
+    "name": "A father at Grandstone",
+    "entities": [
+      {
+        "id": "9007199254740993",
+        "name": "Grandstone gatekeeper",
+        "active": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "18446744073709551614",
+        "name": "Oath stone marker",
+        "active": true,
+        "position": {
+          "x": 8,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ],
+    "flags": [
+      {
+        "id": "10",
+        "name": "Offer accepted",
+        "initial": false
+      },
+      {
+        "id": "11",
+        "name": "Welcome paid",
+        "initial": false
+      }
+    ],
+    "counters": [
+      {
+        "id": "20",
+        "name": "Oath stone inspected",
+        "initial": 0,
+        "minimum": 0,
+        "maximum": 1
+      },
+      {
+        "id": "21",
+        "name": "Story reward coins",
+        "initial": 0,
+        "minimum": 0,
+        "maximum": 1000000
+      }
+    ],
+    "quests": [
+      {
+        "id": "30",
+        "name": "A welcome at Grandstone",
+        "chapter": "grandstone",
+        "objectives": [
+          {
+            "id": "31",
+            "counter": "20",
+            "text": "Inspect the oath stone beside the gate",
+            "required": 1,
+            "event": "Interact",
+            "entity": "18446744073709551614"
+          }
+        ]
+      }
+    ],
+    "encounters": [],
+    "triggers": [],
+    "dialogues": [
+      {
+        "id": "40",
+        "speaker": "9007199254740993",
+        "entry": "41",
+        "name": "The gatekeeper’s offer",
+        "chapter": "grandstone",
+        "lines": [
+          {
+            "id": "41",
+            "text": "You carry no banner, traveler. Show respect to the oath stone, then return. Will you accept?",
+            "choices": [
+              {
+                "text": "I will honor your custom.",
+                "next": "42",
+                "conditions": [
+                  {
+                    "kind": "Flag",
+                    "key": "10",
+                    "compare": "Equal",
+                    "value": 0
+                  }
+                ],
+                "actions": [
+                  {
+                    "kind": "SetFlag",
+                    "key": "10",
+                    "value": 1
+                  },
+                  {
+                    "kind": "SetQuest",
+                    "key": "30",
+                    "value": 1
+                  }
+                ]
+              },
+              {
+                "text": "I need more time.",
+                "next": "0",
+                "conditions": [],
+                "actions": []
+              }
+            ]
+          },
+          {
+            "id": "42",
+            "text": "The stone stands beside the gate. Return when you have read its promise.",
+            "choices": [
+              {
+                "text": "I will return.",
+                "next": "0",
+                "conditions": [],
+                "actions": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "60",
+        "speaker": "9007199254740993",
+        "entry": "61",
+        "name": "A dwarven welcome",
+        "chapter": "grandstone",
+        "lines": [
+          {
+            "id": "61",
+            "text": "A promise matters more than a banner. Grandstone welcomes you. Take these 25 coins for the road.",
+            "choices": [
+              {
+                "text": "Thank you. I will remember.",
+                "next": "0",
+                "conditions": [],
+                "actions": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "70",
+        "speaker": "9007199254740993",
+        "entry": "71",
+        "name": "The stone awaits",
+        "chapter": "grandstone",
+        "lines": [
+          {
+            "id": "71",
+            "text": "Read the oath stone beside the gate, then speak with me again.",
+            "choices": [
+              {
+                "text": "I understand.",
+                "next": "0",
+                "conditions": [],
+                "actions": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "id": "50",
+        "name": "Offer the gatekeeper’s test",
+        "event": "Interact",
+        "entity": "9007199254740993",
+        "key": "0",
+        "once": false,
+        "cooldown": 0,
+        "conditions": [
+          {
+            "kind": "Flag",
+            "key": "10",
+            "compare": "Equal",
+            "value": 0
+          }
+        ],
+        "actions": [
+          {
+            "kind": "Speak",
+            "key": "40",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": "51",
+        "name": "Pay the welcome once",
+        "event": "Interact",
+        "entity": "9007199254740993",
+        "key": "0",
+        "once": false,
+        "cooldown": 0,
+        "conditions": [
+          {
+            "kind": "Quest",
+            "key": "30",
+            "compare": "Equal",
+            "value": 2
+          },
+          {
+            "kind": "Flag",
+            "key": "11",
+            "compare": "Equal",
+            "value": 0
+          }
+        ],
+        "actions": [
+          {
+            "kind": "SetFlag",
+            "key": "11",
+            "value": 1
+          },
+          {
+            "kind": "AddCounter",
+            "key": "21",
+            "value": 25
+          },
+          {
+            "kind": "Speak",
+            "key": "60",
+            "value": 1
+          }
+        ]
+      },
+      {
+        "id": "52",
+        "name": "Remind the traveler",
+        "event": "Interact",
+        "entity": "9007199254740993",
+        "key": "0",
+        "once": false,
+        "cooldown": 0,
+        "conditions": [
+          {
+            "kind": "Quest",
+            "key": "30",
+            "compare": "Equal",
+            "value": 1
+          }
+        ],
+        "actions": [
+          {
+            "kind": "Speak",
+            "key": "70",
+            "value": 1
+          }
+        ]
+      }
+    ]
+  }
+}

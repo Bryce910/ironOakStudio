@@ -1,0 +1,29 @@
+# Apartment Level — Prop Manifest
+# Format: model_path  x  y  z  rot_x  rot_y  rot_z  scale  coll_type
+# coll_type: 0=NONE  1=AABB  2=MESH
+#
+# Apartment interior centre: (0, 99.5 floor, -4000)
+# All props use coordinates relative to the world origin.
+# Add your GLB models to models/apartment/ and reference them below.
+#
+# ── Desk + Monitor area (far wall, z ≈ -4006 to -4008) ───────
+# models/apartment/desk.glb      1.5  99.5  -4006.5  0  0  0  1.0  1
+# models/apartment/monitor.glb   1.5  100.6 -4006.8  0  0  0  1.0  0
+# models/apartment/desk_chair.glb 0.0 99.5  -4004.5  0  3.14 0  1.0  1
+#
+# ── Living area (centre / near wall) ─────────────────────────
+# models/apartment/couch.glb    -2.0  99.5  -3997.0  0  0  0  1.0  1
+# models/apartment/coffee_table.glb 0.0 99.5 -3997.5  0  0  0  1.0  1
+# models/apartment/tv_stand.glb  0.0  99.5  -3994.0  0  3.14 0  1.0  1
+#
+# ── Kitchen area (side wall) ─────────────────────────────────
+# models/apartment/kitchen_counter.glb -4.5 99.5 -4001.0  0  1.5708  0  1.0  1
+# models/apartment/refrigerator.glb   -5.0 99.5 -3996.0  0  1.5708  0  1.0  1
+#
+# ── Lighting / decor ─────────────────────────────────────────
+# models/apartment/floor_lamp.glb    3.5  99.5  -3996.5  0  0  0  1.0  0
+# models/apartment/bookshelf.glb    -4.8  99.5  -4003.0  0  1.5708  0  1.0  1
+# models/apartment/window_frame.glb  0.0  101.5 -3991.2  0  0  0  1.0  0
+#
+# Uncomment lines as models become available.
+# Run the prop placer (F8 in editor) and press S to save changes back here.

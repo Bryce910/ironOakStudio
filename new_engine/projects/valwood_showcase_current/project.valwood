@@ -1,0 +1,7 @@
+# Valwood project version 1
+# The atlas renderer resolves named landmarks to safe terrain spawns.
+name=Legends of Valwood | Visual Upgrade
+terrain=valwood_atlas
+spawn=-11692.800000 6294.677261 0
+camera=0 0.16 7
+day_fraction=0.32

@@ -1,0 +1,18 @@
+Animations: Quaternius Universal Animation Library [Standard]
+Creator: Quaternius
+Source: https://quaternius.itch.io/universal-animation-library
+Clips: Swim_Idle_Loop and Swim_Fwd_Loop, retargeted to the existing owned knight.
+The existing character geometry and materials retain their original licence.
+
+-------------------------------------------------------
+License:
+CC0 1.0 Universal (CC0 1.0) 
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+
+------------------------------------------------------
+Models by @Quaternius
+Consider supporting me on Patreon!
+
+https://www.patreon.com/quaternius
+

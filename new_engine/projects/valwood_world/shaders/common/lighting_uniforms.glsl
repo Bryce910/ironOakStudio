@@ -1,0 +1,1 @@
+../../../../shaders/common/lighting_uniforms.glsl

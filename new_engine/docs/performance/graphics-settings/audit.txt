@@ -1,0 +1,206 @@
+Graphics settings / adaptive frame-budget source audit
+2026-10-26; read-only renderer audit. No build, test, cook or GPU run performed.
+Source inspected: engine/world_viewer.cpp, performance.c/.h, world_temporal.cpp/.h,
+world_sky.cpp/.h, world_occlusion.cpp/.h, world_weather.cpp/.h,
+world_water_scene.cpp, and their current GLSL shaders.
+
+Observed baseline evidence
+--------------------------
+The existing docs/performance/wildmesh/native/*.json reports are observations
+from prior native runs, not measurements of proposed settings or adaptation:
+  farm:       58.83 mean FPS, p99 20.902 ms, max21.681 ms, 0 >22.222 ms;
+              GPU16.360 / shadow1.870 / main foliage6.022 / reflection2.482 ms.
+  market:     59.95 mean FPS, p99 16.735 ms, max16.911 ms, 0 >22.222 ms;
+              GPU16.275 / shadow3.147 / main foliage7.103 / reflection0 ms.
+  woodland:   59.95 mean FPS, p99 16.734 ms, max16.873 ms, 0 >22.222 ms;
+              GPU12.610 / shadow1.302 / main foliage6.182 / reflection0 ms.
+  rainforest: 55.48 mean FPS, p99 22.176 ms, max22.921 ms, 13 >22.222 ms;
+              GPU16.069 / shadow2.617 / main foliage6.513 / reflection1.130 ms.
+GPU values are delayed snapshots, not exact attribution of individual misses.
+Woodland mean raw_editor13.277 ms with GPU12.610 ms /59.95 FPS demonstrates
+that editor-side submission/backpressure timing cannot be treated as pure CPU
+work. A CPU/GPU bottleneck classification must not sum CPU and GPU timings:
+their pipelines overlap. Isolated present/editor stalls are not evidence that
+the image should be permanently downscaled.
+
+Existing integration hooks and actual available controls
+-------------------------------------------------------
+1. world_viewer.cpp Target::resize (~248): HDR color8 + depth nominal4 +
+   indirect8 bytes per internal pixel. Currently target dimensions equal the
+   drawable. Separating render dimensions from drawable dimensions is the
+   largest broadly useful control: terrain/foliage fragment cost, water copies,
+   TAA, AO, weather, main sky and reflections then scale with pixel count.
+   90% linear scale has81% pixels;85% has72.25%;75% has56.25%.
+   This does not reduce shadow raster size, triangles/draw calls, simulation,
+   image residency, decode/upload stalls, or all CPU-side selection costs.
+
+2. Shadow::init (~650): defaults2048, but castle/wildlife scenic launch uses
+   3072; VALWOOD_SHADOW_RESOLUTION permits2048/3072/4096. This launch-prefix
+   difference should become explicit preset state, consistent after travel.
+   Current light_program (~910) always forces uSoftShadows=1. All three
+   material shaders already support a4-tap alternative to9-tap filtering.
+   Shadow proxy meshes are implemented and should stay enabled in every
+   ordinary preset; disabling them increases cost without better main color.
+   Screen-resolution reduction cannot reduce shadow-map raster cost.
+
+3. Reflection (~2571): independently allocated, half of INTERNAL dimensions,
+   floor320x180, refreshed every ready visible-water frame. A preset can vary
+   this scale without removing reflected subjects or temporal correctness.
+   Keep main, sea, pond and creek mirror culling unions intact. Do not silently
+   omit fauna/architecture/trees to meet a frame target. Skipping alternate
+   reflection frames is a larger correctness/temporal change than lower mirror
+   resolution and needs explicit reprojection/held-camera treatment.
+
+4. world_sky.cpp (~131): two cached half-resolution targets,12 view steps and
+   2 light samples in fixed GLSL. Main cloud cost in these reports is only
+   ~0.17-0.23 ms, so sacrificing the sky first will not recover a multi-ms miss.
+   Quality-step controls require actual shader/module APIs; they are not
+   currently runtime fields despite stats exposing12/2.
+
+5. world_occlusion.cpp: half-resolution16-tap AO and8 contact-ray steps,
+   two edge-aware blur passes, full HDR compose. Cost ~0.86-1.00 ms here.
+   AO must continue to attenuate the indirect attachment only; contact rays
+   attenuate direct light. Reducing its working resolution or sample count is
+   a quality option, not permission to multiply AO over final direct+fog.
+   Changing AO tap count must also change its normalized sample positions;
+   changing contact count must retain the same physical ray length.
+
+6. Weather: half-resolution fog + full-resolution composition/particles;
+   fixed8 ray steps, bounded8 terrain rows/update, stable terrain cache.
+   Keep physical rain/wind/time and water response identical across presets.
+   Artistic intensity sliders are not GPU-quality settings. Existing disable
+   environment variables are QA toggles, not a coherent user preset system.
+
+7. Terrain64 cells/tile, procedural foliage caps/distances and authored scenery
+   have intentional coverage/LOD overlaps. Do not change streaming topology,
+   collision, protected root selection, paths, animal counts or animation time
+   as an automatic response to a low FPS sample. Fixed CPU-bound scenes need
+   profiling/selection work or explicit view-distance tiers; DRS alone cannot
+   solve them. Texture sampling bias/anisotropy does not free image residency.
+
+Dynamic render-resolution correctness requirements
+-------------------------------------------------
+Current viewer conflates drawable and Target dimensions in several places.
+Keep two independent dimension pairs:
+  drawable: final default-FBO viewport, native UI/display size, screenshots,
+            default-framebuffer readback and window aspect;
+  internal: scene target viewport, jitter in pixel units, TAA/color/depth size,
+            water capture, AO/weather frame dimensions, foliage uPixelScale,
+            mirror target sizing and post input texel size.
+The final pass (~2802) must fill the DRAWABLE viewport even if its scene input
+is smaller. post.uResolution currently defines input neighbor texel offsets;
+keep it equal to internal resolution unless adding a separate output uniform.
+Full-screen normalized UVs already permit a simple upscale. This is spatial
+upscaling of the existing internal-resolution TAA, not temporal superresolution.
+The passive ImGui frame (~2846), loading-window center and capture sequences
+currently use target.w/h: use drawable dimensions there. Retain drawable
+aspect in Camera/projection; bucket rounding must not change horizontal FOV.
+Set jitter NDC from internal width/height consistently in terrain, sky, water,
+AO/weather and TAA. Reflections and directional shadows stay unjittered.
+
+Apply a scale change only before a fresh ready scene, never on a held loading
+image. A held image's old color/depth textures and old TAA matrices must stay
+valid. Set temporal_cut/reset on dimension or quality discontinuity. Reset
+query/controller history separately. Current Target, TAA, AO and weather
+resizers release old targets first; DRS adds allocation failure and churn
+paths. Do not leave latest_color pointing to a deleted texture. Failed changes
+must restore a valid prior configuration or stop safely; no partial dimensions.
+Commit only a discrete bucket when it changes; no allocation each frame.
+Do not repeatedly allocate all resolution buckets on a3GB card. Main+TAA+AO+
+weather+water+reflection+sky targets together are roughly83.5 bytes/internal
+pixel when all paths have been allocated (~114.7 MiB at1600x900), excluding
+shadow targets and persistent scene assets. DRS helps this modest transient
+budget, not the much larger full-resolution imported image pool.
+
+Timing/controller design (proposed initial thresholds; requires native tuning)
+---------------------------------------------------------------------------
+WorldQueries (~336) is a4-slot nonblocking timestamp ring. It currently runs
+only when launch->profile is set and returns just a retained milliseconds
+value. Normal adaptive play needs always-on TOTAL timing, with explicit fresh
+sample serial, source rendered frame and configuration epoch in each slot.
+Consume each completed sample once. Poll availability; never GL_QUERY_RESULT
+on an unavailable slot, never glFinish. Discard old-epoch samples after scale
+or preset changes and suppress stale data. Existing ring iteration is slot
+order, not guaranteed source-frame order, so order completed samples by frame
+or consume aggregates without treating their slot order as consecutive time.
+The main interval begins before shadow and ends after post; excludes UI/present.
+
+Controller state should distinguish user ceiling (preset/manual render scale)
+from effective adaptive state. A lower GPU workload can recover only toward
+the user's ceiling. Fixed mode must never adjust. Persist intent, not a
+temporary emergency downgrade as the next launch's permanent user choice.
+
+Suggested first policy:
+  -Target60 FPS =16.667 ms; desired GPU headroom14.5-15.0 ms.45 FPS floor is
+   22.222 ms, not an average-FPS target.
+  -Discrete linear scale buckets1.00,.95,.90,.85,.80,.75,.70; a user-visible
+   minimum setting may differ. No hidden reduction beyond that bound.
+  -EWMA over~0.5 s valid samples, plus fixed-size60-fresh-sample p90/runs.
+   Use real elapsed time/sample timestamps for cooldowns, not clamped dt.
+  -Down one bucket on >=0.5 s EWMA>16.2 ms, or8 consecutive fresh>17 ms.
+   Emergency down one/two buckets after3 consecutive fresh>21 ms, bounded by
+   minimum. Do not punish an isolated long raw editor/present sample.
+  -Upscale only after5 s EWMA<12.5 ms and p90<14 ms; >=8 s since last reduction.
+   Clear promotion counters on a heavy sample. Keep at least1 s between normal
+   downward commits, with separately bounded emergency handling.
+  -Warm120 ready rendered samples after startup; exclude held/loading frames,
+   wildlife commit/decode/upload, minimized/unfocused/zero drawable, resize,
+   teleport/camera cuts, settings application and invalid timestamps. After a
+   resize/config epoch wait30 fresh rendered samples before normal decisions;
+   a real sustained >22ms emergency may be allowed sooner by explicit policy.
+  -Do not feed cheap held-image total GPU samples into an upscale decision.
+   Do not use viewer smoothed fps (94/6%) or clamped dt for control.
+  -Use CPU update timing as a diagnostic guard, not editor/present cost as a
+   CPU-work estimator. If GPU remains low while repeated total frame cost is
+   high, report CPU/system limited; avoid repeatedly lowering image quality.
+   If GPU query timing is unavailable, hold a conservative preset and expose
+   telemetry; do not invent fresh GPU samples from the last known value.
+
+Reasonable explicit preset ladder
+---------------------------------
+Keep PBR materials, source geometry, foliage coverage, animation/collision and
+lighting direction unchanged. Example starting points, not measured guarantees:
+  Performance: shadow2048/4tap, mirror~.33, main ceiling1.0/adaptive min.70;
+  Balanced:    shadow2048/9tap, mirror.50, main ceiling1.0/adaptive min.75;
+  High:        shadow3072/9tap, mirror.50, main ceiling1.0/adaptive min.80;
+  Cinematic:   shadow4096/9tap, mirror.75-1.0, native main, adaptation opt-in.
+Keep current clouds/contact/weather present by default; optional higher sample
+quality can be exposed only when its shader settings are actually implemented.
+Better hardware can select larger reflection/shadow targets and native/higher
+display resolution. Avoid claiming ray tracing, GI, volumetric fog quality
+tiers or temporal superresolution that these shaders do not implement.
+
+Meaningful tests against actual controller/integration
+----------------------------------------------------
+Pure controller tests should execute its real shared implementation:
+ -Fresh-vs-stale query serials; missing, zero, NaN/Inf, out-of-order and old
+  epoch samples; ring wrapping; no state change on each rejected sample.
+ -Steady12ms climbs slowly to ceiling; sustained19ms drops;3x23ms emergency;
+  isolated100ms CPU/present stall with healthy GPU does not reduce scale.
+ -Alternating thresholds do not flap; manual ceiling/minimum and fixed mode
+  honored; downward/upward cooldowns use monotonic time; behavior remains
+  equivalent for45/60/120Hz sample cadence and duplicated/no-query frames.
+ -Loading/resize/focus/teleport intervals cannot accumulate promotion credit;
+  cheap held images cannot upscale; config epoch rejects late old queries.
+ -CPU/system-limited trace does not drain every quality tier; diagnostics
+  distinguish unmet floor from quality control having reached its minimum.
+
+Offscreen GL integration (root controls actual GPU scheduling):
+ -Change odd drawable/internal dimensions and all scale buckets; full drawable
+  output/no black strip; unchanged FOV/UI coordinates; coherent color/depth;
+  finite AO/weather/water and history reset; no sample of deleted textures.
+ -Hold a prior view while destination loads, request a settings change, resume
+  without reallocating the held input or mixing old/new matrices.
+ -Repeated stationary frames allocate nothing; only bucket transitions resize;
+  allocation failure path leaves a valid state and cleanup returns owners0.
+ -Same input path under manual fixed and adaptive-disabled is identical.
+
+Native acceptance must include representative market/creek/rainforest/wildlife
+and walking/turning scenes with adaptive decisions logged (scale, preset epoch,
+fresh GPU, decision reason, transition count). Report actual rendered size and
+min/median scale alongside FPS. Include ordinary resize/scale-transition costs
+in user-experience frame statistics even when excluded from controller voting;
+do not hide adaptation stalls. Compare a fixed-quality baseline separately.
+60-target /45-floor is a controllable rendering budget goal; system/present or
+source asset residency stalls need separate evidence and cannot be eliminated
+by a resolution controller alone.

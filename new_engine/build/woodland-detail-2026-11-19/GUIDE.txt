@@ -1,0 +1,51 @@
+Valwood woodland, water and swimming update - Linux
+
+Use Launch_Valwood.sh demo, editor, arena, joust or world. The five modes share
+one rebuilt native executable and the reviewed shader bank. No Windows package
+is prepared in this pass.
+
+Graphics: press F10, or use Pause > Graphics. In Quality > Water choose Low,
+Medium, High or Ultra, then Apply and save. These change real reflection work,
+not swimming or collision. Low uses sky reflections and skips scene reflection
+passes. Medium uses smaller mirrors and a shorter single-sample screen-space
+reflection. High uses filtered reflections. Ultra allows full-resolution
+mirrors and a longer reflection trace. The advanced reflection cap can reduce
+the selected tier further; choosing a new water tier resets that cap to full.
+Turning Water reflections off overrides every tier. Existing v1-v5 settings
+load as High without changing saved files until Apply. New default is Medium.
+
+The woodland changes use existing purchased vegetation and existing free
+materials: bank boulders, low stones, fallen logs, roots, varied undergrowth,
+local litter and distant tree groups. Terrain heights, water footprints,
+quest records and the established swim routes are preserved. Existing solid
+objects retain their movement blockers; new boulders/logs have blockers.
+
+Four owned oak/beech imports now retain their source leaf transmission masks,
+linear tints and view dependency. Other models retain their existing material
+response. The river reflection compositor and roughness filtering are corrected.
+A conservative sole-river support bound avoids reflection geometry pixels
+that cannot be sampled, while retaining the full reflected sky and resolution.
+
+First-person swim registration uses the captured head through the existing
+entry/shore bridge. World body poses, weapon contacts and third-person meshes
+stay authoritative. This registration removes the sampled detached shoulder
+cuts, but the ordinary native review also shows that hands are outside the
+view during the sampled surface stroke. First-person stroke presentation is
+unfinished; the CPU cap-zero result is not proof of visible connected hands.
+
+Remaining visual work includes irregular creek-bank shaping, stretched ground
+detail and more varied canopy composition. Medium water can show stepped
+reflections; High and Ultra filter them. Looking steeply down while treading
+can still expose proximal arm caps in the software pose sweep. A moving native
+review and its exact scope are recorded separately; an idle screenshot does
+not certify the swim cycle.
+
+On the RX 5300, water quality alone does not make the current maximum-detail
+scene smooth. The Performance preset also reduces foliage and shadow cost.
+All measured frame intervals and tier tradeoffs are retained in the review.
+
+review/FINAL_REVIEW.json records visual acceptance, actual hardware timings,
+swim/control checks and known limitations. review/CHANGESET.json binds the
+exact reviewed source, binary, asset overlay, shaders and evidence used for
+publication. This incremental update is not a AAA certification, a claim of
+publisher-reference parity, or a guarantee of sustained frame rate.

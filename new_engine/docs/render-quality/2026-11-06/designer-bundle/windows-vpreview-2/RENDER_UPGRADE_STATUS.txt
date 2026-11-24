@@ -1,0 +1,25 @@
+{
+  "current_render_test_scope": [
+    "The actual RX 5300 shared-material fixture passed 30 full shader compile/link cases and 2,796 actual GLSL direct, wetness and metallic-indirect cases.",
+    "The actual RX 5300 rooted-grass fixture passed 1,800 transformed-instance cases.",
+    "Final exact-runtime scene/render approval remains pending. This preview does not authorize an archive."
+  ],
+  "edition": "Valwood World Designer: Landscape and rendering, 2026-11-06",
+  "editor_executable_sha256": "a1afbc97af0a189932956ecab5c1e60fc14a95f606f98359c05141ac31cb836c",
+  "evidence": [
+    {
+      "sha256": "91f54fe1d85c2649bd38e63ed202a2250d3acf76d07f20291217d359a5a7f599",
+      "source": "docs/render-quality/2026-11-06/foliage-hardware-gl.log"
+    },
+    {
+      "sha256": "069582cfdc91d3e273f8de183e81554e206300c1c8f2e670338a7762414e4af3",
+      "source": "docs/render-quality/2026-11-06/material-hardware-gl.log"
+    }
+  ],
+  "generated_growth": "Visual scenery; terrain/river collision is separate and generated trees/rocks do not add solid collision.",
+  "physical_windows_acceptance": "pending",
+  "runtime_build_plan_sha256": "91a45d524c2ef84b980b56b3688fed38435bc8ecebeb7c10e053fa2119c8611a",
+  "shader_override_receipt_sha256": "008df2ebe0ea0b92c2595ac84dcf21839d82b544eef5f90b302f0a94fa05c74b",
+  "studio_version": 8,
+  "sustained_performance_certified": false
+}

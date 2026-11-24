@@ -1,0 +1,19 @@
+Valwood — Third-person combat rebound polish — Linux
+
+Use the stable launchers in /home/computer/Desktop/final_engine.
+Launch_Valwood_Arena.sh opens arena setup with third person enabled.
+Demo, editor, arena, jousting and world share one executable and shader bank.
+
+This pass smooths the hero weapon rewind after actual steel contact for sword,
+sword/shield, axe and staff. It follows the same owned captured path, with the
+same impact pose, combat outcome and existing recovery window. It does not
+change attack speed, reach, stamina or difficulty.
+
+The earlier Staff diagnostic was stranded by its private test clearing the
+ordinary equipment-lowering request. That fixture is corrected; the complete
+mixed-weapon rehearsal now tests the actual lower/commit/raise handoff.
+Final acceptance reports and actual game footage are in review/.
+
+Prior third-person camera, grounded feet, surface, lighting and texture work
+are inherited. Authored worlds and live saves remain unchanged. No Windows
+package was prepared. This is a measured improvement, not an AAA certification.

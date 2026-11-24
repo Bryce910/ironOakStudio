@@ -1,0 +1,11 @@
+Valwood battlefield repair candidate — Linux
+
+Built candidate: c9ba5bffc8fb5e7db9abea417e6f1f67328a4ba20593e86f71e0f29b0dba968b.
+Status: source/data checks and18-object rebuild passed. Native review pending. Not published; no native acceptance.
+This generation starts from the N3 candidate whose native review found a central battlefield mud-coverage regression and a 54-second local retry loading delay. Reviewed terrain-only mud paint, destination-readiness/retry suppression and a fixed-ambush scabbard contact correction have been adopted by exact preimage checks; native review remains pending. The published demo, player saves, coins and settings remain unchanged.
+
+The complete apartment/TV, battlefield, forest/bridge, campsite, first quest, village and ending sequence is retained. All authored cinematics remain at every preset. F10 graphics settings retain Cinematic and independent High/Ultra effects, water, foliage, shadows, and original 4K color texture options where supplied by the purchased assets. On capable hardware, fixed native comparisons use automatic image quality off and render scale 100%.
+
+The current RX 5300 benchmark remains below target. The diagnostic baseline measured about22.5FPS at1200×675 with missing scenery under texture pressure. This is not an N4 measurement or a matched full-quality comparison. Native visual, controls, loading and performance checks remain required after the repaired build.
+
+Known limits include repeated distant tree silhouettes, some paired animation/accessory clipping, and incomplete close-up character presentation. No Windows build is being prepared.

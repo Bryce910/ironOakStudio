@@ -1,0 +1,28 @@
+NATIVE V2 AMD RESIDENCY DIAGNOSTIC
+
+Engine passed 8629 checks over 20.60 measured minutes, 130 large edits and 390 Undo/Redo actions.
+Original v2 aggregate remains FAILED and unchanged. Only the per-domain AMD memory plateau check rejected it.
+
+All 1544 owned-process samples contain both VRAM/GTT values; 176 observations match settled baselines.
+VRAM/GTT correlation: -0.997669595.
+Pointwise VRAM+GTT resident sum: 2895.844..2913.520 MiB; p95 2907.020 MiB.
+Across ten exact-operation early/late cohorts, combined p95 change is -6.500..6.500 MiB (maximum absolute change <0.224%).
+Largest measured GTT step: +103.609 MiB; simultaneous VRAM -102.219 MiB; combined change 1.391 MiB.
+RSS/private memory and all editing/frame-pacing cohort gates passed.
+
+The observed VRAM/GTT resident-backing counters redistribute while their pointwise sum remains within the original plateau allowance. Individual domain growth is not by itself evidence of a leak.
+CPU placement, requested/preferred memory and total logical allocations were not recorded. These observations do not prove logical allocations were unchanged. Duplicate-FD per-field maxima can conservatively overcount during migration; original raw samples are retained.
+Official semantics: https://www.kernel.org/doc/html/latest/gpu/drm-usage-stats.html
+
+Raw SHA256 bindings:
+75dc172cb4dc8c3559e16a45530f69e5589b93f6dde5c71379c0fe4fb3ed2b77  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow-resource-monitor.json
+f03487a70ed11ee4041a94ca9604eda1e819316f85a35f2b93d34fbe2f96d0cc  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow-QA.json
+332ae2c75bb3ad4c580b7f52bc1f6b49da648f94c6a82250df053c5a7c9e2050  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow-RESULT.json
+bf2fb5684b137a1aa6b8c0c8b157fdfc3edd951262a8c442f2616778429a00a5  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.json.world.json
+19e4dc4007def413812160a1e57d021e1b2e6db56869c68160cd6213cabd13cd  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.json
+fdba27f911f784a40281afc271304745406a6a1cecea2c46be7a277561798f3f  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.log
+8e43eeb9df2179c587478da94518ea4d2023d2d7aed565930bea2940de244f12  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.json.csv
+cc20ed9a9c5531ce5ea301cd385cc626d4e2d40c8b700582863a503c6f823aa4  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.world.studio
+5a71d151cc1d281cd8fcaa45abe2ec917f36aace7b8ca4cfe92b2c61c44c84ba  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow.world.vwproject
+1435e473dfc9c1d7a0b1e690596681be82d36ef3e5cc354c895993d03c543da0  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/workflow-progress.jsonl
+61a8c6d3bce1bf8490222c5d5bef5b44426fe2d13ce393bee7f5fbe1b40e1caf  /home/computer/Desktop/final_engine/new_engine/docs/editor-long-session/2026-11-07/runtime-native-v2/RESULTS.json

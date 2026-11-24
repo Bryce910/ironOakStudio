@@ -1,0 +1,30 @@
+AAA merge build — Linux Valwood, 21 November 2026
+Launch: ./Launch_Valwood_AAA_Merge.sh [world|demo|editor|arena|joust]
+Base: Codex's woodland-polish-2026-11-21 + AAA lighting candidate (aaa-lighting-2026-11-20).
+Rebuild: python3 -B build_merge.py   Check: python3 -B check_unified.py
+
+Rendering / performance (RX 5300, camp, 1600x900, auto scale 0.75, 2048 shadows):
+  - Vegetation shader variant without hair/skin/interior/castle/tavern/storm/armor
+    paths for trees, plants, rocks and authored scenery (full shader kept near the
+    opening house, castle and tavern). Reflections use it too.
+  - Water reflections refresh every other frame while the camera is nearly still.
+  - Foliage depth prepass kept opt-in (VALWOOD_FOLIAGE_PREPASS=1): measured slower.
+  - Camp: 59.0 ms (published, before) -> 43.4 ms / 23 fps. Creek 27 fps, bridge 30 fps.
+Lighting:
+  - Canopy-filtered sun fill (green-gold) under tree crowns, terrain + plants.
+  - Auto exposure neutral band floor -5.6 -> -4.7 (forest camp opens ~+0.3 EV).
+  - Far shadows, fog shafts, creek caustics, bloom chain, exposure, upscaler (earlier work).
+Temporal upscaling (VALWOOD_TAAU=0 disables): display-resolution accumulation of the
+  jittered render samples, clamped to the render-resolution TAA result; falls back to
+  Catmull-Rom upscale when history is invalid.
+Ambience (VALWOOD_AMBIENCE=0 disables): campfire loop (synthesised, audio/), creek by
+  nearest water, wind bed, birds by day / crickets & owl after dusk, hero footsteps on
+  skeletal foot plants. Previously the world mode was silent apart from music.
+Animation: camp travellers and village residents ease between their sparse idle keys
+  instead of constant-speed linear blends (walk cycles unchanged).
+Scenery / world (tools/patch_world_studio.py; backups in backup/):
+  smoke, camp/woodland ecology, trail litter colour/scale, rain off, weather footprint.
+Engine fixes: sky cloud gate arc, bridge piers in water snapshot, fern clustering,
+  grass-edge terrain tint, shader-bank resolution for every module (glsl_load + readers).
+Not done: NPC per-object motion vectors (actors keep reactive TAA), distant tree variety,
+  splash/loading screens, true skeletal animation for NPCs (they use baked pose sets).

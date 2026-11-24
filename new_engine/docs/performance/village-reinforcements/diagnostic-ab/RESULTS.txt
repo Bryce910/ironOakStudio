@@ -1,0 +1,79 @@
+Controlled engine-only A/B diagnostic — 2026-10-26
+
+Both runs completed successfully on the native AMD Radeon RX5300. This is
+diagnostic evidence, not an integrated performance acceptance pass.
+
+                       A: current / watch OFF    B: saved scene / watch OFF
+Mean FPS               52.70                     57.00
+1% low FPS             11.14                     23.60
+P99 frame ms           46.752                    36.682
+Maximum frame ms       261.630                   50.465
+Over22.222ms samples   197 /1680                 103 /1680
+Mean GPU ms            17.189                    16.408
+Mean foliage GPU ms    7.252                     6.964
+Mean update CPU ms     2.448                     2.304
+Castle records         2678                      2640
+Total scene records    5289                      5251
+Loaded image entries   308                       302
+Encoded images MiB     372.046792                364.177238
+Peak system VRAM B     2996744192                2981093376
+Physical VRAM B        3204448256                3204448256
+Peak system GTT B      2623832064                2106609664
+Peak child RSS KiB     712812                    702364
+Peak child swap KiB    0                         0
+System full-memory PSI 3.372%                    2.227%
+System full-IO PSI     4.244%                    3.517%
+
+The PSI percentages are elapsed full-stall counter deltas divided by sample
+wall duration over the entire process lifetime, including asset startup.
+GPU memory includes other desktop/apps and driver residency. RSS/swap is
+limited to the launched game and its descendants; no private process argv or
+other processes' memory was inspected. Resources were sampled every0.5s.
+
+Method and preservation
+The same /tmp binary runs both scenes sequentially, under the common game
+lock. Both use hero-mid / sweep /1800 frames /120 warmup /1600x900 / noHUD,
+normal16.05 afternoon lighting,3072px shadow map and9tap soft shadows.
+Native renderer, frame count, watch-disabled state, actual source counts,
+shadow settings and zero GL/cache cleanup errors were checked automatically.
+
+The temporary viewer changes only the watch load guard and its matching
+required-load/error condition. All other production objects are linked
+unchanged using the actual Makefile compiler flags/libraries/object order.
+Production source, objects, rpg and recorded scenery/ground inputs remain
+byte-identical: post-run-preservation.json has every check true.
+
+A opens the current project. B is a /tmp project overlay using the exact
+saved2640-record castle file and saved village_ground_history.png from
+the before/ directory. Its other three scenery sources, models, shaders,
+fonts and unchanged ground files link to the current project. The current
+compiled atlas and12new mask rectangles remain in both runs. Consequently B
+is an almost-old-scene control, not a rollback to the old engine executable.
+
+Source/binary proof: build-manifest.json records production and temporary
+viewer/binary SHA256, all exact linked object hashes, compile/link argv and
+scenery/ground input hashes. viewer-watch-off.diff gives the sole source
+change. world_viewer_watch_off.cpp and diagnostic-runner.py preserve the QA
+source/driver. The temporary executable remains at
+/tmp/valwood-reinforcement-ab/rpg-watch-off, SHA256:
+e4de1a00115d0f53f336f7bf6e44522ed17ed5deb595e91087e5b95338445be2
+
+Interpretation
+Disabling watch does not recover smoothness in the current scene. Removing
+the added static reinforcements improves this sequential trial, but the
+almost-old scene also fails and is well below its historical59.95FPS hero-mid
+result. The shared watch update is therefore not the sole cause, and the
+current evidence does not establish a watch algorithm defect.
+
+The static additions/residency could contribute: B loads six fewer images,
+has lower mean GPU time and lower GTT peak. However, aggregate memory/IO full
+stall pressure also drops materially between A and B, while both exhibit
+system pressure and neither owned game swaps. One fixed-order pair cannot
+separate static-asset GPU pressure from changing external memory/driver
+conditions. Preserve both failures; do not replace them with a favorable
+rerun or label this integrated acceptance complete. A later same-condition
+paired order-reversed control or narrowed per-stage upload timings would
+provide stronger causal evidence before any visible quality reduction.
+
+No production fix, quality reduction, extra native run or interactive user
+launch was performed. Both native jobs have exited and the GPU is idle.

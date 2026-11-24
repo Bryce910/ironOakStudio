@@ -1,0 +1,12 @@
+usage: npc_memory_editor.py [-h] [--serve] [--no-browser] [--port PORT]
+
+Serve the bundled offline NPC memory editor on loopback only. No
+upload/install/write API, third-party scripts, cloud storage or accounts. The
+browser explicitly downloads project and engine files. This server serves only
+four fixed application resources; it exposes no directory listing.
+
+options:
+  -h, --help    show this help message and exit
+  --serve
+  --no-browser
+  --port PORT

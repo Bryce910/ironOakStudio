@@ -1,0 +1,156 @@
+{
+  "schema": "valwood.finward-reference-opening",
+  "version": 1,
+  "source_layout_copied": true,
+  "cook_root": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/finward_house_props/scene-cooked-v3",
+  "cook_review_sha256": "c2dd51cc30aaf1957893bf12c66e97fa4679ab516db1616d1452c82833340107",
+  "navigation": "/home/computer/Desktop/final_engine/new_engine/docs/opening-finward-reference/2026-11-03/nav-v3",
+  "shader": {
+    "original_sha256": "ff2aeff70caaf5badf7ace7931d7ec480e1fb8165afa7975d0dd4308d6030a64",
+    "sha256": "55b8be3f1c3394b8b5cc407e4d4196d221f454b7883f8394c6fdec74d0e5750a",
+    "scope": "Private imported interior bounds only; legacy city bake behavior retained outdoors.",
+    "full_bake_replaces_ambient": true,
+    "baked_interior_sun_disabled": true,
+    "interior_reflections": "Normalized room captures with no outdoor sky fallback; original outdoor blend retained elsewhere.",
+    "practical_limitation": "Native practical highlights use 10% source intensity in addition to the source combined bake.",
+    "independent_window_emission_boxes": 28,
+    "switch_limitation": "Combined source bake approximated as30% daylight baseline plus70% switched room light; no separately baked electric/daylight banks supplied.",
+    "previous_reference_sha256": "65170113fb8c072b72bf7fe79065f7dd33b236183366040e2806f6065408de9a",
+    "cinematic_polish": {
+      "before_sha256": "65170113fb8c072b72bf7fe79065f7dd33b236183366040e2806f6065408de9a",
+      "sha256": "891a8e01f84b5a8ab7659ab7bad4c74a435fb6781f90bb7ffe433006aaa7c12a",
+      "window_domains": 8,
+      "window_emission_scale": 0.4,
+      "maximum_interior_midtone_lift": 0.18,
+      "scope": "Private interior shader only; source geometry/textures/bake bytes and outdoor shading unchanged."
+    },
+    "before_grass_temporal_sha256": "891a8e01f84b5a8ab7659ab7bad4c74a435fb6781f90bb7ffe433006aaa7c12a",
+    "grass_temporal_update": "Rooted outdoor grass speed varying only; interior lighting policy retained.",
+    "before_visual_cohesion_sha256": "4237436369181aae5e09c6d63d0311c4a2db68095b7ecbb77e5e39621005001b",
+    "ground_blend": "Mode2 explicit7.875 tag only; continuous reviewed dirt/grass weights."
+  },
+  "practicals": 7,
+  "render_meshes": [
+    {
+      "path": "models/opening/home.glb",
+      "offset": [
+        -3.0,
+        2.59999942779541,
+        1.5
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_a.glb",
+      "offset": [
+        -8.5,
+        -0.0003991280391346663,
+        -6.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_b_a.glb",
+      "offset": [
+        -3.5000009536743164,
+        -0.006568135693669319,
+        -2.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_m1_0_b_b.glb",
+      "offset": [
+        -3.37957501411438,
+        -0.0009448414202779531,
+        -6.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_0_0_a.glb",
+      "offset": [
+        3.499999523162842,
+        -0.0009700012160465121,
+        -3.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_0_0_b.glb",
+      "offset": [
+        10.991250038146973,
+        -0.003977321553975344,
+        -3.000000238418579
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_m1.glb",
+      "offset": [
+        24.25,
+        -4.812730658443343e-09,
+        0.26361533999443054
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_a_a.glb",
+      "offset": [
+        19.671260833740234,
+        -0.0005223083426244557,
+        -1.0
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_a_b.glb",
+      "offset": [
+        19.905471801757812,
+        -0.00014717801241204143,
+        -4.338292121887207
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_b_a.glb",
+      "offset": [
+        25.25,
+        -0.001897552516311407,
+        -3.499999523162842
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_1_0_b_b.glb",
+      "offset": [
+        29.70677947998047,
+        -0.006882728077471256,
+        -2.5
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_2_m1.glb",
+      "offset": [
+        36.0,
+        -0.010312898084521294,
+        0.5539494752883911
+      ]
+    },
+    {
+      "path": "models/opening/finward_scene_2_0.glb",
+      "offset": [
+        34.5,
+        -0.007089496124535799,
+        -3.499999761581421
+      ]
+    },
+    {
+      "path": "models/opening/home_story.glb",
+      "offset": [
+        0.0,
+        0.5099999705289094,
+        0.0
+      ]
+    },
+    {
+      "path": "models/opening/home_enclosure.glb",
+      "offset": [
+        0.0,
+        -0.15500000000000003,
+        0.0
+      ]
+    }
+  ],
+  "scope": "Supplied demo arrangement with cinematic polish; native acceptance recorded separately."
+}

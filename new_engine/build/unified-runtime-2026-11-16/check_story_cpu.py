@@ -1,0 +1,6 @@
+from pathlib import Path
+import hashlib,json,subprocess,time
+N=Path(__file__).resolve().parent;D=N/'review/cpu';source=D/'world_first_journey_current_policy_test.cpp';binary=D/'world_first_journey_current_policy_test'
+command=['g++','-std=c++17','-O2','-I',str(N/'source-v1'),str(source),str(N/'runtime-native-v1/native-objects/engine/world_training_combat.cpp.o'),'-o',str(binary)]
+start=time.monotonic();subprocess.run(command,check=True);r=subprocess.run([str(binary)],text=True,capture_output=True);output=r.stdout+r.stderr;(D/'world_first_journey_current_policy_test.log').write_text(output)
+p=D/'REVIEW.json';d=json.loads(p.read_text());d['checks']=[x for x in d['checks'] if x['name'] not in ('world_first_journey_test','world_first_journey_current_policy_test')];d['checks'].append(dict(name='world_first_journey_current_policy_test',passed=r.returncode==0,elapsed=time.monotonic()-start,command=command,output=output,source_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),policy='Late matched guard/parry, then varied counterattacks during recovery or stagger. No assigned health, terminal result or hit counts.',legacy_policy_failure_retained='legacy-guard-policy-failure.log'));d['passed']=all(x['passed'] for x in d['checks']);p.write_text(json.dumps(d,indent=2)+'\n');print(output,end='');raise SystemExit(r.returncode)

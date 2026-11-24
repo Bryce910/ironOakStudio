@@ -1,0 +1,6 @@
+Private N5 battlefield demo candidate. Native acceptance and publication remain separate requirements.
+ExactN2 scenery admission restores earlier tested camp coverage; N4experimentalproxy/retrypolicy, newretentionexperiment and dependenterroroverlay are NOT adopted.
+Retains newfieldprops/terrain/mud, naturalpronedagger, logicalmeleeaim/free-look, and one-rockrelocation.
+Cinematic, independentUltra foliage/water/shadows/effects and original4K color options remain. NoWindows work.
+N4full route passed but had missingcampassets and21.1FPS; this generation has no performance/visual acceptance yet.
+Full normalcontrols journey, intentional defeat/retry, three escape fights, bridge, conversations, roadfight, reward and ending must pass onthisbinary before publication. Existing coarsepairedimpact and legacytexturepressure gaps remain disclosed.

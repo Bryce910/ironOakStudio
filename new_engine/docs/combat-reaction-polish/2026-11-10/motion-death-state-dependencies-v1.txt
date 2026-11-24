@@ -1,0 +1,25 @@
+CPU_STATE: \
+ /home/computer/Desktop/final_engine/new_engine/docs/combat-reaction-polish/2026-11-10/motion_death_state_v1.cpp \
+ engine/world_combat_motion.cpp engine/world_program_epoch.h \
+ engine/world_combat_motion.h engine/world_training_combat.h \
+ engine/world_weapon_loadout.h engine/world_combat_anatomy.h \
+ engine/world_combat_difficulty.h engine/world_platform.h \
+ engine/world_combat_presentation.h engine/world_models.h \
+ engine/world_combat_attack_entry.h engine/world_combat_continuity.h \
+ engine/world_combat_transition.h engine/world_combat_death_transition.h \
+ engine/world_combat_locomotion.h engine/world_rigid_weapon_pose.h \
+ engine/world_combat_physical_grips.h engine/world_arm_grip_stream.h \
+ engine/world_arm_grip_ik_math.h engine/world_aquatic_animation.h \
+ engine/world_combat_fatality.h engine/world_atlas.h \
+ engine/world_combat_weapon_sockets.inc \
+ engine/world_combat_fatality_geometry.inc \
+ engine/world_neck_blood_geometry.inc \
+ engine/world_combat_anatomy_runtime.inc engine/world_detached_physics.h \
+ engine/world_combat_locomotion_runtime.inc \
+ engine/world_combat_arm_grips_runtime.inc \
+ engine/world_combat_death_runtime.inc \
+ engine/world_combat_anatomy_actions.inc
+CPU_STATE: engine/world_training_combat.cpp \
+ engine/world_training_combat.h engine/world_weapon_loadout.h \
+ engine/world_combat_anatomy.h engine/world_combat_difficulty.h \
+ engine/world_platform.h engine/world_melee_contact.h

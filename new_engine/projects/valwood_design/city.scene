@@ -1,0 +1,7 @@
+VALWOOD_CITY_LOOK 1
+sun .98 .92 .82
+sky .40 .42 .44
+ground .135 .145 .115
+fog .40 .43 .46
+zenith .15 .25 .39
+haze .00038

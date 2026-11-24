@@ -1,0 +1,43 @@
+LEGENDS OF VALWOOD - A PLACE AT THE FIRE
+Windows playtest | 10 November 2026
+
+Begin in the apartment, start NEW GAME on the television, and arrive at the
+travelers' campfire. Meet all three travelers, ask Bram for a weapon, recover
+the stolen provisions, and follow Rowan's lead into town. This chapter ends
+with Hugh at the Copper Lantern; Mara is your next lead.
+
+THIS UPDATE
+- Clearer traveler checklist, directions, distances and chapter milestones.
+- Conversation close-ups keep NPC bodies planted. Existing idle animations
+  now respond to approach, speaking and listening with distinct timing.
+- Reworked campsite and roadside planting, clearer town paving, and more
+  grounded shop foundations.
+- Foliage/shadow rendering cleanup retains existing scenery detail and wind.
+- Portable Windows package with fresh local saves and included weather audio.
+  Shared image packaging preserves the original texture and geometry data.
+
+START AND CONTROLS
+Extract the entire ZIP, then open Valwood Demo.exe. Keep bin and project
+beside it. Unity and the world editor are not required.
+
+Keyboard: WASD/mouse, E interact, Left Shift sprint, Space jump/dodge.
+LMB attacks; RMB guards; mouse/arrows choose combat direction.
+Z stows/draws the weapon; V changes camera after the loan; I opens inventory.
+Controller: right-stick cuts; LT + direction guards; X jumps while exploring
+and attacks during combat. RT also attacks. B dodges during combat.
+D-pad Down stows/draws; RS click changes camera; View opens inventory.
+
+Pause > GRAPHICS AND DISPLAY offers Performance, Balanced, Cinematic and
+Custom presets, plus Low/Medium/High/Ultra foliage detail distance.
+The packaged default is Balanced with automatic resolution adjustment.
+
+PLAYTEST LIMITS
+Existing character art remains provisional; facial animation and lip sync
+are unfinished. Outdoor loading and frame pacing still need improvement.
+Compatibility testing uses Wine on Linux; receiving-PC Windows graphics,
+controller and audio behavior still need verification. Ordinary manual
+Begin/cinematic/controller checks may remain pending in a Limited Playtest
+archive; its ZIP validation metadata states that scope explicitly.
+
+Saves stay in project\saves. Include logs\demo.log, your input device,
+graphics preset, location and expected/actual behavior when reporting a bug.

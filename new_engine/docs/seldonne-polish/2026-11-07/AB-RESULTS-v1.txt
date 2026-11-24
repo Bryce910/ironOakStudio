@@ -1,0 +1,24 @@
+AUTHORED-FIRST CLEAN A/B — keep enabled
+3300 matched motion frames each;1600x900 Balanced scale1; RX5300 native Linux.
+On 38.65FPS (25.872ms), off 38.08FPS (26.263ms): +1.51% / 0.391ms saved.
+
+Zone                         on FPS   off FPS   change
+arrival-camp                  27.62    27.04    +2.13%
+central-creek                 32.93    32.51    +1.30%
+eastern-woodland              37.56    36.53    +2.83%
+great-south-river             38.57    37.88    +1.81%
+north-rocky-crown             35.15    35.77    -1.72%
+rolling-meadow                41.35    41.30    +0.14%
+town-approach                 53.63    51.05    +5.06%
+town-market                   49.17    47.44    +3.66%
+waterfront-bridge             83.08    84.60    -1.80%
+west-river-bank               41.15    39.69    +3.68%
+woodland-creek-bridge         26.65    26.65    +0.00%
+
+Both exact ownership/hardware/source/collision/NPC/bridge/GL/asset/ref guards passed.
+Loading similar: critical assets on12.19s/off11.92s; near cover2.51s/2.50s; reasons overlap.
+1%low on22.26/off22.96FPS; largest frame on121.19/off90.00ms. No pacing cure.
+Single on-then-off pair. No45FPSfloor, Windows, or repeated statistical claim.
+Original overlapping on-run excluded. New art needs final check.
+Bound JSON: /home/computer/Desktop/final_engine/new_engine/docs/seldonne-polish/2026-11-07/AB-RESULTS-v1.json
+JSON SHA256: b27f2f2c4564cb6e49121344d5ab2fdddc690a31a5844579b2162d51be3e621b

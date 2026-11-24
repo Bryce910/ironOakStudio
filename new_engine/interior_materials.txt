@@ -1,0 +1,7 @@
+# id|display_name|albedo_path|uv_scale|flags(W/F/C)|fallback_r|fallback_g|fallback_b
+# Example Poly Haven entry:
+# white_brick_ph|White Brick PH|textures/interiors/white_brick/albedo.png|2.50|W|0.84|0.84|0.82
+# oak_floor_ph|Oak Floor PH|textures/interiors/oak_floor/albedo.png|3.00|F|0.46|0.31|0.18
+# ceiling_paint_ph|Ceiling Paint PH|textures/interiors/ceiling_paint/albedo.png|2.00|C|0.83|0.83|0.80
+wood_cabinet_worn|Wood Floor (Worn)|ground/wood_floors/wood_cabinet_worn_long_diff_1k.png|0.15|F|0.40|0.28|0.16
+castle_brick|Apartment Wall|ground/apartment_wall/castle_brick_07_diff_1k.png|0.05|W|0.37|0.23|0.16

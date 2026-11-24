@@ -1,0 +1,520 @@
+{
+  "version": 1,
+  "name": "Publisher Medieval Village",
+  "active_geometry_catalog": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/city-ground-final/catalog.json",
+  "catalog_sha256": "12a51a46e7491b8a5bec55d9fc5ed70fcb6ea861313260c4b00089c9d298cb98",
+  "origin": [
+    -1310.4000000000012,
+    24.1,
+    -10207.584747454583
+  ],
+  "assets": 99,
+  "placed_assets": 94,
+  "instances": 5327,
+  "source_geometry_and_paint": true,
+  "ground": {
+    "bounds": [
+      -1359.2756065368665,
+      -10245.56152357763,
+      -1241.8630813598645,
+      -10140.375297686516
+    ],
+    "grid": [
+      1025,
+      1025
+    ],
+    "coverage": 0.741862224866151,
+    "height_range": [
+      23.735866199639855,
+      31.984640676544398
+    ],
+    "support_field_sha256": "3b4fef248c4df7d00fbfd4e3bcdd45965c40fd9061c0227e34b261540eaeef88"
+  },
+  "collision": {
+    "bodies": 53,
+    "vertices": 21541,
+    "triangles": 42022,
+    "method": "exact source UCX, not visual AABBs",
+    "walking_route_verified": false
+  },
+  "saves": "Private city saves; original main project unchanged",
+  "gameplay": "Authored environment review and walking; old main quest coordinates are not relocated",
+  "asset_aliases": {
+    "SM_Boundary_Gate_01": "nm_city_0_sm_boundary_gate_01",
+    "SM_Boundary_Gate_02": "nm_city_1_sm_boundary_gate_02",
+    "SM_Boundary_Wall_01": "nm_city_2_sm_boundary_wall_01",
+    "SM_Boundary_Wall_02": "nm_city_3_sm_boundary_wall_02",
+    "SM_Boundary_Wall_Corner": "nm_city_4_sm_boundary_wall_corner",
+    "SM_Castle": "nm_city_5_sm_castle",
+    "SM_Castle_Centre": "nm_city_6_sm_castle_centre",
+    "SM_Castle_Pillar_01": "nm_city_7_sm_castle_pillar_01",
+    "SM_Castle_Pillar_02": "nm_city_8_sm_castle_pillar_02",
+    "SM_Castle_Side_01": "nm_city_9_sm_castle_side_01",
+    "SM_Castle_Side_02": "nm_city_10_sm_castle_side_02",
+    "SM_Ground_Mesh": "nm_city_11_sm_ground_mesh",
+    "SM_House_Five": "nm_city_12_sm_house_five",
+    "SM_House_Four__paint_8a3d3838bd": "nm_city_13_sm_house_four__paint_8a3d3838bd",
+    "SM_House_Light__paint_0f357fc32a": "nm_city_14_sm_house_light__paint_0f357fc32a",
+    "SM_House_One": "nm_city_15_sm_house_one",
+    "SM_House_One__paint_f35e01eef0": "nm_city_16_sm_house_one__paint_f35e01eef0",
+    "SM_House_Six__paint_67656b59e0": "nm_city_17_sm_house_six__paint_67656b59e0",
+    "SM_House_Six__paint_6d3eaeff22": "nm_city_18_sm_house_six__paint_6d3eaeff22",
+    "SM_House_Three": "nm_city_19_sm_house_three",
+    "SM_House_Three__paint_21ce49a20d": "nm_city_20_sm_house_three__paint_21ce49a20d",
+    "SM_House_Three__paint_21ce49a20d__mat_1067289f": "nm_city_21_sm_house_three__paint_21ce49a20d__mat_1067289f",
+    "SM_House_Two": "nm_city_22_sm_house_two",
+    "SM_House_Two__paint_364618db0f": "nm_city_23_sm_house_two__paint_364618db0f",
+    "SM_House_Two__paint_9e047627a9": "nm_city_24_sm_house_two__paint_9e047627a9",
+    "SM_King_Statue__paint_61e1e3073b": "nm_city_25_sm_king_statue__paint_61e1e3073b",
+    "SM_Shop_01__paint_6453b1b712": "nm_city_26_sm_shop_01__paint_6453b1b712",
+    "SM_Shop_02": "nm_city_27_sm_shop_02",
+    "SM_Shop_02__paint_17ca9bc22f": "nm_city_28_sm_shop_02__paint_17ca9bc22f",
+    "SM_Shop_03__paint_65189a6870": "nm_city_29_sm_shop_03__paint_65189a6870",
+    "SM_Shop_03__paint_97777873ab": "nm_city_30_sm_shop_03__paint_97777873ab",
+    "SM_Shop_04__paint_82d7efc2b9": "nm_city_31_sm_shop_04__paint_82d7efc2b9",
+    "SM_Street_Lamp": "nm_city_32_sm_street_lamp",
+    "SM_Wooden_Bed": "nm_city_33_sm_wooden_bed",
+    "SM_Wooden_Cart": "nm_city_34_sm_wooden_cart",
+    "SM_Wooden_Cart_Wheel": "nm_city_35_sm_wooden_cart_wheel",
+    "SM_Wooden_Plough": "nm_city_36_sm_wooden_plough",
+    "SM_Wooden_Stairs_01": "nm_city_37_sm_wooden_stairs_01",
+    "dressing_-1_-1": "nm_city_38_dressing__1__1",
+    "dressing_-1_1": "nm_city_39_dressing__1_1",
+    "dressing_-1_2": "nm_city_40_dressing__1_2",
+    "dressing_-1_3": "nm_city_41_dressing__1_3",
+    "dressing_-1_4": "nm_city_42_dressing__1_4",
+    "dressing_-2_-1": "nm_city_43_dressing__2__1",
+    "dressing_-3_-1": "nm_city_44_dressing__3__1",
+    "dressing_0_-1": "nm_city_45_dressing_0__1",
+    "dressing_0_-2": "nm_city_46_dressing_0__2",
+    "dressing_0_0": "nm_city_47_dressing_0_0",
+    "dressing_0_1": "nm_city_48_dressing_0_1",
+    "dressing_0_2": "nm_city_49_dressing_0_2",
+    "dressing_0_3": "nm_city_50_dressing_0_3",
+    "dressing_1_-1": "nm_city_51_dressing_1__1",
+    "dressing_1_-2": "nm_city_52_dressing_1__2",
+    "dressing_1_-3": "nm_city_53_dressing_1__3",
+    "dressing_1_0": "nm_city_54_dressing_1_0",
+    "dressing_1_1": "nm_city_55_dressing_1_1",
+    "dressing_2_0": "nm_city_56_dressing_2_0",
+    "dressing_3_-1": "nm_city_57_dressing_3__1",
+    "dressing_3_0": "nm_city_58_dressing_3_0",
+    "dressing_4_0": "nm_city_59_dressing_4_0",
+    "foliage_-1_-1": "nm_city_60_foliage__1__1",
+    "foliage_-2_-1": "nm_city_61_foliage__2__1",
+    "foliage_0_-1": "nm_city_62_foliage_0__1",
+    "foliage_0_0": "nm_city_63_foliage_0_0",
+    "foliage_0_1": "nm_city_64_foliage_0_1",
+    "foliage_1_-1": "nm_city_65_foliage_1__1",
+    "foliage_1_-2": "nm_city_66_foliage_1__2",
+    "foliage_1_0": "nm_city_67_foliage_1_0",
+    "foliage_2_0": "nm_city_68_foliage_2_0",
+    "SM_Ribbon_Modular_01": "nm_city_70_sm_ribbon_modular_01",
+    "SM_Ribbon_Modular_02": "nm_city_71_sm_ribbon_modular_02",
+    "SM_Ribbon_Modular_03": "nm_city_72_sm_ribbon_modular_03",
+    "SM_City_Castle_Backdrop_Plinth": "nm_city_69_sm_city_castle_backdrop_plinth",
+    "SM_City_Boundary_Rock_Foundations": "nm_city_boundary_rock_foundations",
+    "BEP_Countryside_Terrain_0_0": "bep_country_terrain_0_0",
+    "BEP_Countryside_Terrain_1_0": "bep_country_terrain_1_0",
+    "BEP_Countryside_Terrain_2_0": "bep_country_terrain_2_0",
+    "BEP_Countryside_Terrain_3_0": "bep_country_terrain_3_0",
+    "BEP_Countryside_Terrain_0_1": "bep_country_terrain_0_1",
+    "BEP_Countryside_Terrain_1_1": "bep_country_terrain_1_1",
+    "BEP_Countryside_Terrain_2_1": "bep_country_terrain_2_1",
+    "BEP_Countryside_Terrain_3_1": "bep_country_terrain_3_1",
+    "BEP_Countryside_Terrain_0_2": "bep_country_terrain_0_2",
+    "BEP_Countryside_Terrain_1_2": "bep_country_terrain_1_2",
+    "BEP_Countryside_Terrain_2_2": "bep_country_terrain_2_2",
+    "BEP_Countryside_Terrain_3_2": "bep_country_terrain_3_2",
+    "BEP_Countryside_Terrain_0_3": "bep_country_terrain_0_3",
+    "BEP_Countryside_Terrain_1_3": "bep_country_terrain_1_3",
+    "BEP_Countryside_Terrain_2_3": "bep_country_terrain_2_3",
+    "BEP_Countryside_Terrain_3_3": "bep_country_terrain_3_3",
+    "BEP_Reforged_oak": "bep_nature_oak",
+    "BEP_Reforged_beech": "bep_nature_beech",
+    "BEP_Reforged_bush_a": "bep_nature_bush_a",
+    "BEP_Reforged_bush_b": "bep_nature_bush_b",
+    "BEP_Reforged_fern": "bep_nature_fern",
+    "BEP_Reforged_clover": "bep_nature_clover",
+    "BEP_Reforged_grass_long": "bep_nature_grass_long",
+    "BEP_Reforged_grass_broad": "bep_nature_grass_broad",
+    "BEP_Reforged_medium_rock": "bep_nature_rock"
+  },
+  "previous_geometry_backup": "/home/computer/Desktop/final_engine/new_engine/projects/valwood_city_showcase/qa/geometry-backups/20261102T195639.462860Z",
+  "cpu_models": {
+    "models": 198,
+    "unique_models": 195,
+    "failures": 0,
+    "cpu_prepare_budget_mib": 768,
+    "maximum_reported_model_cpu_mib": 465.81,
+    "baseline_unchanged_146_bindings": {
+      "models": 146,
+      "unique_models": 143,
+      "failures": 0,
+      "cpu_prepare_budget_mib": 768,
+      "maximum_reported_model_cpu_mib": 465.81,
+      "baseline": {
+        "models": 138,
+        "failures": 0,
+        "cpu_prepare_budget_mib": 768,
+        "maximum_reported_model_cpu_mib": 465.81,
+        "log": "qa/all-models-cpu-datum.log",
+        "log_sha256": "c579ce2d4e507d4e71fadd5a22ef9813511d14b082289d3974d069294a1ec4f7",
+        "source_core": "source RGB paint and strict facade v2; cloth5 UV/tangent required without paint"
+      },
+      "additional_logs": [
+        {
+          "path": "qa/ribbon-cpu-check.log",
+          "sha256": "b0536e6c035421b39a38ca47de17d32584f9e845cda1132f917f7cca43738d40"
+        },
+        {
+          "path": "qa/plinth-cpu-check.log",
+          "sha256": "efb91d562b77270695926ffbdc4f71eecd5e45c0f7c4bec87a44953e7f14f31a"
+        }
+      ],
+      "baseline_assets_unchanged": true,
+      "new_unique_models": 5,
+      "new_unique_model_paths": [
+        "/home/computer/Desktop/final_engine/new_engine/assets/purchased/medieval_village/publisher-backdrop/models/SM_City_Castle_Backdrop_Plinth_mid.glb",
+        "/home/computer/Desktop/final_engine/new_engine/assets/purchased/medieval_village/publisher-backdrop/models/SM_City_Castle_Backdrop_Plinth_near.glb",
+        "/home/computer/Desktop/final_engine/new_engine/assets/purchased/medieval_village/publisher-bunting/models/SM_Ribbon_Modular_01.glb",
+        "/home/computer/Desktop/final_engine/new_engine/assets/purchased/medieval_village/publisher-bunting/models/SM_Ribbon_Modular_02.glb",
+        "/home/computer/Desktop/final_engine/new_engine/assets/purchased/medieval_village/publisher-bunting/models/SM_Ribbon_Modular_03.glb"
+      ],
+      "source_core": "Packed RGB8 source paint; strict facade v2 and cloth UV/tangent; source geometry unchanged, dynamic sky retained"
+    },
+    "additional_terrain32": {
+      "log": "qa/countryside-terrain-final-cpu.log",
+      "sha256": "f61a7addb0395daa41ce9506eefb333cb288793d526cfa0ac4172c91e326028b"
+    },
+    "additional_vegetation_rock18": {
+      "log": "qa/countryside-vegetation-rock-cpu.log",
+      "sha256": "a09dcc6e948cddce78d5bb0b2b2d87c0cc463bf3b36690730d76ad1a4bce068d"
+    },
+    "installed_model_byte_certification": "/home/computer/Desktop/final_engine/new_engine/docs/village/2026-11-02/dry-town-ground/final-model-byte-certification.json",
+    "installed_model_byte_certification_sha256": "8e95b761b9f19aa441d812827e243c60331027ddcdbaf608c81708ca0e5ff180",
+    "changed_open_meadow34": {
+      "models": 34,
+      "failures": 0,
+      "log": "qa/countryside-open-meadow-cpu34.log",
+      "budget_mib": 768,
+      "notes": "Changed32terrain+2fern native CPUpreparePASS; allunchanged roles retain prior CPU validation"
+    },
+    "changed_final38": {
+      "models": 38,
+      "failures": 0,
+      "log": "qa/countryside-final-cpu38.log",
+      "budget_mib": 768,
+      "notes": "32terrain+4grass+2plinth CPUpreparePASS; unchangedrolesretainpriorvalidation"
+    },
+    "plinth_v2": {
+      "models": 2,
+      "failures": 0,
+      "log": "qa/plinth-v2-cpu2.log",
+      "unchanged_bindings": 194
+    },
+    "boundary_foundations": {
+      "models": 2,
+      "failures": 0,
+      "log": "qa/boundary-cpu2.log",
+      "unchanged_bindings": 196
+    },
+    "boundary_material": {
+      "models": 2,
+      "failures": 0,
+      "log": "qa/boundary-material-cpu2.log",
+      "unchanged_bindings": 196,
+      "collision_unchanged": true
+    },
+    "alignment_cleanup": {
+      "terrain_models": 32,
+      "terrain_failures": 0,
+      "terrain_log": "qa/cleanup-terrain-cpu32.log",
+      "source_model_validation": "4changed plinth/foundation models alreadyvalidated bysourceagent",
+      "changed_model_bindings": 36,
+      "unchanged_bindings": 162
+    },
+    "town_entrance8": {
+      "models": 8,
+      "failures": 0,
+      "log": "/home/computer/Desktop/final_engine/new_engine/docs/countryside/2026-11-02/town-lip/changed-models-cpu.log",
+      "sha256": "32df72b7c7cf8bed238096d68cfec359ad9da8c2c9eace488fbc965913adc53f"
+    },
+    "ground_envelope14": {
+      "models": 14,
+      "failures": 0,
+      "log": "/home/computer/Desktop/final_engine/new_engine/docs/village/2026-11-02/dry-town-ground/final-models-cpu.log",
+      "sha256": "fafb31c5b1f3369076d33eda37f27fa051ab596c45377d8a27bd4aeb3a91f517"
+    }
+  },
+  "countryside": {
+    "source_catalog": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/city-ground-final/catalog.json",
+    "source_catalog_sha256": "12a51a46e7491b8a5bec55d9fc5ed70fcb6ea861313260c4b00089c9d298cb98",
+    "terrain_tiles": 16,
+    "region_size_m": [
+      440,
+      460
+    ],
+    "height": "ground/countryside.height",
+    "height_sha256": "22a456caa2860a3da49fa41ac72de98cb3306ab99463e3099334f0a504498a26",
+    "coverage": "ground/countryside.coverage",
+    "coverage_sha256": "1f0b81bd6c9a2959b253a7ace83a91e984620a7c137357f574ffadd40254da75",
+    "sampling": "Unchanged original source height priority, then countryside fallback",
+    "source_house104_translation_delta": [
+      -20,
+      0,
+      -8
+    ],
+    "vertical_scale": 0.18,
+    "road_half_width": 3.2,
+    "road_shoulder_width": 18,
+    "castle_ridge": {
+      "native_xz_bounds": [
+        [
+          -177.36804580688477,
+          169.28230056762695
+        ],
+        [
+          -69.49284362792969,
+          269.6528030395508
+        ]
+      ],
+      "support_world_y": 49.1,
+      "feather_metres": 55,
+      "unchanged_below_native_z": 85,
+      "walkable_castle": false
+    },
+    "terrain_HIGH_split": 260,
+    "contact_audit": "/home/computer/Desktop/final_engine/new_engine/docs/village/2026-11-02/dry-town-ground/geometry-audit/presentation-source-and-roots.json",
+    "town_ground_transition": {
+      "feather_metres": 12.0,
+      "applied_after_road_grading": true,
+      "source_catalog": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/countryside-cleanup/catalog.json",
+      "source_catalog_sha256": "4dbf9336cd99024db6aa84a5525b7239ccf591553f603e706a69a59a39d13f20",
+      "source_primary_field_unchanged": true,
+      "coverage_unchanged": true,
+      "changed_models": 8,
+      "nearby_contact_candidates": 220,
+      "contact_changes": 204
+    },
+    "ground_envelope": {
+      "actual_source_area_m2": 9177.58916960537,
+      "rectangle_cut_removed": true,
+      "changed_terrain_assets": [
+        "BEP_Countryside_Terrain_1_0",
+        "BEP_Countryside_Terrain_2_0",
+        "BEP_Countryside_Terrain_1_1",
+        "BEP_Countryside_Terrain_2_1",
+        "BEP_Countryside_Terrain_0_2",
+        "BEP_Countryside_Terrain_1_2",
+        "BEP_Countryside_Terrain_2_2"
+      ],
+      "refitted_plants": 1182,
+      "cleared_dressing": 575,
+      "source_geometry_unchanged": true,
+      "original_terrain_fit_retained": true,
+      "exact_source_footprint": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/city-ground-support/source-ground-footprint.wkb",
+      "tree_collar_settlement": [
+        {
+          "index": 304,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            149.998399371287,
+            -84.9787294565193
+          ],
+          "vertical_delta": -0.1262588746181251,
+          "maximum_original_exposure_m": 0.1012588746181251
+        },
+        {
+          "index": 305,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            113.48850062958695,
+            -51.24110019694295
+          ],
+          "vertical_delta": -0.08175894376204837,
+          "maximum_original_exposure_m": 0.056758943762048375
+        },
+        {
+          "index": 308,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            109.93852433045339,
+            -19.600959895490416
+          ],
+          "vertical_delta": -0.08576015531985134,
+          "maximum_original_exposure_m": 0.06076015531985135
+        },
+        {
+          "index": 310,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -123.17619778277842,
+            -70.55250131872967
+          ],
+          "vertical_delta": -0.10257178615347726,
+          "maximum_original_exposure_m": 0.07757178615347726
+        },
+        {
+          "index": 312,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -165.5133932590332,
+            62.56429991936557
+          ],
+          "vertical_delta": -0.09093438811891516,
+          "maximum_original_exposure_m": 0.06593438811891517
+        },
+        {
+          "index": 314,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -118.61112057302803,
+            76.15837194767846
+          ],
+          "vertical_delta": -0.1899228748667646,
+          "maximum_original_exposure_m": 0.1649228748667646
+        },
+        {
+          "index": 315,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -159.34356799963038,
+            31.973046246905
+          ],
+          "vertical_delta": -0.10378393303197128,
+          "maximum_original_exposure_m": 0.07878393303197129
+        },
+        {
+          "index": 320,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -184.7504559400287,
+            57.161148078584176
+          ],
+          "vertical_delta": -0.16694080083799676,
+          "maximum_original_exposure_m": 0.14194080083799676
+        },
+        {
+          "index": 323,
+          "alias": "bep_nature_beech",
+          "native_xz": [
+            -201.4402193603347,
+            66.13471391122832
+          ],
+          "vertical_delta": -1.0141813633154384,
+          "maximum_original_exposure_m": 0.9891813633154385
+        },
+        {
+          "index": 324,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -137.30243842992806,
+            -76.99815272429953
+          ],
+          "vertical_delta": -0.12697396537367708,
+          "maximum_original_exposure_m": 0.10197396537367709
+        },
+        {
+          "index": 325,
+          "alias": "bep_nature_beech",
+          "native_xz": [
+            -110.63532639201163,
+            0.6878038858761073
+          ],
+          "vertical_delta": -0.10929608688885536,
+          "maximum_original_exposure_m": 0.08429608688885537
+        },
+        {
+          "index": 330,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -124.41159087831855,
+            46.062122163216
+          ],
+          "vertical_delta": -0.13460831178075025,
+          "maximum_original_exposure_m": 0.10960831178075026
+        },
+        {
+          "index": 331,
+          "alias": "bep_nature_beech",
+          "native_xz": [
+            -153.2830479014906,
+            -60.310296667457955
+          ],
+          "vertical_delta": -0.08132972639847011,
+          "maximum_original_exposure_m": 0.056329726398470115
+        },
+        {
+          "index": 334,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -159.44850397573066,
+            -2.5191872539659954
+          ],
+          "vertical_delta": -0.10962935767174428,
+          "maximum_original_exposure_m": 0.08462935767174429
+        },
+        {
+          "index": 336,
+          "alias": "bep_nature_beech",
+          "native_xz": [
+            -86.7214171322432,
+            -19.947258313727872
+          ],
+          "vertical_delta": -0.14314087522460425,
+          "maximum_original_exposure_m": 0.11814087522460426
+        },
+        {
+          "index": 343,
+          "alias": "bep_nature_oak",
+          "native_xz": [
+            -104.04652989350917,
+            70.81377650250539
+          ],
+          "vertical_delta": -0.1896866002068421,
+          "maximum_original_exposure_m": 0.16468660020684212
+        }
+      ]
+    },
+    "collision_validation": "PASS actualJolt primary-priority/fallback398m loop + all9 residentialstreetsegments600m",
+    "collision_route": "/home/computer/Desktop/final_engine/new_engine/docs/village/2026-11-02/dry-town-ground/final-installed-cpu/report.json",
+    "collision_route_sha256": "9b442528701224c2e33f915652dca38146fefc3190a502482981fd5bdd647079",
+    "route_meters": 398.253752,
+    "route_sweeps": 3233,
+    "residential_street_audit": "/home/computer/Desktop/final_engine/new_engine/docs/village/2026-11-02/dry-town-ground/final-street-audit.json"
+  },
+  "layout_provenance": {
+    "original_city_placements": 275,
+    "unchanged_original_city_placements": 274,
+    "approved_single_house_relocation": 104,
+    "countryside_additional_instances": 5771,
+    "original_castle_backdrop_walkable": false
+  },
+  "visible_sky": {
+    "config": "city.sky",
+    "config_sha256": "2d76240075d1961d77fdc6d85e1ce1c4a10efd74caf307cd2414a55c47b5913f",
+    "source_brightness": 1.5,
+    "source_contrast": 2.5,
+    "source_turns": -0.1687459945678711,
+    "independent_of_material_IBL": true
+  },
+  "installed_catalog_snapshot": "qa/installed-countryside-catalog.json",
+  "placement_scale_preflight": {
+    "rows": 5902,
+    "minimum_uniform_scale": 0.15,
+    "tree_maximum_uniform_scale": 2,
+    "static_maximum_uniform_scale": 4,
+    "failures": 0
+  },
+  "source_ground_support_revision": {
+    "original_field_sha256": "824bcc77dc1f6fecee7f60c184f28800e6f6d9e0b429c465e331edff13992c21",
+    "repaired_field": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/city-ground-walkable/ground/showcase.height",
+    "repaired_field_sha256": "3b4fef248c4df7d00fbfd4e3bcdd45965c40fd9061c0227e34b261540eaeef88",
+    "coverage_sha256": "edbcb6d021041cd6d09057abde51280c767f5ba3342314621e5a228c9656b11e",
+    "source_covered_samples_sha256": "cd5350865b8c327862e684ae529105608a2a52bee95c8a8f68917e9c23945f17",
+    "audit_path": "/home/computer/Desktop/final_engine/new_engine/assets/purchased/bep_reforged/city-ground-walkable/ground-support-audit.json",
+    "audit_sha256": "9b4a285267790effc3e1e1bd74c794645c2da8ed3900254f5d0b4cdb3a43561b"
+  },
+  "reviewed_house_translations": 18
+}

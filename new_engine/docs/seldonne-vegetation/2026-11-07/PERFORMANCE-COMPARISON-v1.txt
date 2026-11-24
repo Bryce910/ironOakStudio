@@ -1,0 +1,17 @@
+Fresh native parent/vegetation comparison
+Both actual 3,300 step flights PASS; 22 identical planned points and 3,300 exact recorded camera poses. Actual 1600x900 scale 1, automatic off, identical Custom graphics; no capture readbacks or loading motion samples.
+
+Parent -> new
+Mean FPS: 43.98684 -> 43.75318 (-0.531%)
+Mean frame: 22.73407 -> 22.85548ms (+0.12141ms)
+1% low FPS: 25.47420 -> 24.36057
+p99: 35.41669 -> 36.34836ms
+Worst frame: 91.34200 -> 118.71313ms
+Camp: 29.558 -> 28.921FPS
+Woodland bridge: 31.546 -> 31.476FPS
+Frames over 45 FPS budget: 1883 -> 1902 of 3,300
+Frames over 30 FPS budget: 238 -> 278 of 3,300
+
+Observed tradeoff: denser art (+960 authored instances) and new runtime retain nearly the same average, with slower camp and worse tail/outlier in this single pair. Neither sustains 45 FPS. Contact was inactive throughout the cinematic flight; active gameplay bending/recovery cost is NOT measured here. No shader-only causal or GPU-stage cost claim.
+
+Evidence: PERFORMANCE-COMPARISON-v1.json, independent 2,295 binding/hash/timing assertions.

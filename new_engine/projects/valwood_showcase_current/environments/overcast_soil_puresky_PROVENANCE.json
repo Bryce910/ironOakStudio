@@ -1,0 +1,19 @@
+{
+  "asset": "Overcast Soil (Pure Sky)",
+  "authors": [
+    "Jarod Guest (sky edits)",
+    "Sergej Majboroda (original)"
+  ],
+  "source": "https://polyhaven.com/a/overcast_soil_puresky",
+  "download": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/overcast_soil_puresky_4k.hdr",
+  "license": "CC0-1.0",
+  "license_url": "https://polyhaven.com/license",
+  "bytes": 16949123,
+  "sha256": "717958e9dfd092fcead82ff4691f3d615088803dd1888bb638ba948669021140",
+  "md5": "8c05e24908d99a6c4c5c1a63d753df3f",
+  "dimensions": [
+    4096,
+    2048
+  ],
+  "runtime_applied": false
+}

@@ -1,0 +1,46 @@
+Console guidance and contrast follow-up: R10 / C11
+
+These scripts are preparation only. The root owner closes any live game,
+reviews the native captures, activates the accepted result and launches it.
+
+From /home/computer/Desktop/final_engine/new_engine:
+
+1. Complete tools/check_opening_console.py acceptance into
+   docs/console-guidance/2026-11-05/native-v2. This must pass25 exact apartment
+   checks,10 stage captures and the final image. The previous R9/native-v1
+   functional success remains retained evidence; it is not activated.
+
+2. Root writes docs/console-guidance/2026-11-05/VISUAL_REVIEW.json containing
+   accepted:true and native_result_sha256 matching native-v2/results.json.
+
+3. Read-only validation:
+   python3 docs/console-guidance/2026-11-05/activate.py
+
+   Explicit root-only activation, after the read-only validation passes:
+   python3 docs/console-guidance/2026-11-05/activate.py --activate
+
+   --candidate, --runtime, --native-result and --visual-review can select
+   another fresh immutable follow-up pair. The reviewed source count is80.
+
+4. Root-only ordinary launch and verification:
+   python3 docs/console-guidance/2026-11-05/launch_normal.py
+
+   Startup verification waits up to45 seconds for the actual executable,
+   ordinary arguments/environment, physical F310, PulseAudio and completed
+   material preparation. It sends no input and imposes no frame limit. The
+   game remains running after verification; the keeper waits for its exit.
+   Root should yield its exec session after1000ms and leave it alive. A timeout leaves the game alone
+   for root inspection and records the failure instead of claiming success.
+
+Activation preserves the accepted C9 launcher, C9 bound origin, intermediate
+source origin and C11 origin, prior acceptance record, and ordinary backups
+of C9/source/candidate saves and private preferences. It does not rewrite
+any save. C9, intermediate source and candidate user-state bytes must agree.
+A mismatched or newer save stops activation; nothing is overwritten.
+
+Required proofs remain separate: fresh dual-platform compile/data/80-source
+proofs,5535 core checks, targeted apartment acceptance, exact visual review,
+and the retained accepted R8/C9 full68-check journey regression. The targeted
+run ends during transport and does not claim a fresh outdoor/combat replay.
+Windows compilation is required; these scripts do not update a Windows
+installer or claim physical Windows testing.

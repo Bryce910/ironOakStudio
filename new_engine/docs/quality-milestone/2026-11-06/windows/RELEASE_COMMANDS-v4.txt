@@ -1,0 +1,23 @@
+Run from /home/computer/Desktop/final_engine/new_engine.
+
+Root first completes ACCEPTANCE-v4.json using ACCEPTANCE-v4.template.json and actual checks.
+Data-plan SHA: 487770f636beff0ec9df10b4a64ffc06d249e4a6480cba606ccd53595623cef7
+Windows executable SHA: 8e81ee17f18bdaab39866b00736cad37de24230be1646d173a274e1f9583d9c9
+
+Prepare final plan; no archive is started:
+python3 -B /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/build_designer_bundle_v4.py --plan --data-plan /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/DATA_PLAN-v4.json --acceptance /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/ACCEPTANCE-v4.json --guides /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/guides --plan-path /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/FINAL_BUILD_PLAN-v4.json
+
+The command returns the final plan SHA. Root GO must name that exact SHA.
+Substitute that SHA for RETURNED_PLAN_SHA256 below.
+
+Build the full standalone four-area ZIP by streaming/deduplicating source payloads:
+python3 -B /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/build_designer_bundle_v4.py --build --plan-path /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/FINAL_BUILD_PLAN-v4.json --go-sha256 RETURNED_PLAN_SHA256
+
+Independently verify every stored ZIP member CRC/SHA and all four project/runtime/bootstrap bindings, without extraction:
+python3 -B /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/verify_designer_bundle.py --plan /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/FINAL_BUILD_PLAN-v4.json --plan-sha256 RETURNED_PLAN_SHA256 --revision 4
+
+Archive: /home/computer/Desktop/final_engine/new_engine/releases/Valwood-World-Designer-Quality-Milestone-Windows-2026-11-06.zip
+SHA sidecar: same path plus .sha256
+Build receipt: /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/BUNDLE_BUILD_RESULT.json
+Independent verification: /home/computer/Desktop/final_engine/new_engine/docs/quality-milestone/2026-11-06/windows/final-verification-v4/RESULTS.json
+Physical Windows receiving-PC acceptance remains pending; Wine checks retain their actual scope.

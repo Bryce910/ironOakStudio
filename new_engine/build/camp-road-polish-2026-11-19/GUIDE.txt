@@ -1,0 +1,16 @@
+Valwood — campsite and village road polish (Linux)
+
+Run /home/computer/Desktop/final_engine/Launch_Valwood_Demo.sh
+Begin the Journey starts the apartment; Continue Checkpoint keeps your progress.
+
+This pass adds composed understory and grounded detail across the camp and
+village approach, reworks woodland litter patches, refines the cooking fire,
+and improves traveler animation cadence and objective/nameplate placement.
+The apartment collision repair, civilian opening, equipment and saves are retained.
+
+The campers use existing baked idle sequences. New acted cooking/seated or
+facial animation is not included. See review/FINAL_REVIEW.json for actual
+native results, measured performance and remaining limitations.
+
+V or right-stick click changes view; Z or D-pad Down draws/stows your weapon.
+I or View opens inventory. Esc or Menu pauses. Linux only; no Windows build.

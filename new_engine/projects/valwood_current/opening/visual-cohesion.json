@@ -1,0 +1,400 @@
+{
+  "version": 1,
+  "review": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04",
+  "changes": {
+    "lighting": {
+      "studio_before": "look 0 2 1 1 16.2675544121 -84.2842953297 .1 0 .3 .08",
+      "studio_after": "look 0 1.25 1.15 1.05 16.2675544121 -84.2842953297 .18 0 .3 .05",
+      "source_grade_sha256": "2ddf477b3a8160edb126f80c576497c741d0f7dfabee523ee5e7af650926ed20",
+      "grade_sha256": "d8f72008939b3686b41b7d15335e05d2ffdf28cfa05da9b2f73f14a7fb3d7c2d",
+      "effective_source_grade": 0.18,
+      "sky_side": 512,
+      "sky_contrast": 1.05,
+      "sky_brightness": 1.0,
+      "sky_extra_gpu_bytes": 7077888,
+      "source_hdr_unchanged": true
+    },
+    "models": [
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_0/a8fbaa5163642c96aef74f75/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_0/asset_near.glb",
+        "sha256": "924007411406fe6953777418711f18c333ae828683db089791d6d8e1d1b83471",
+        "installed_sha256": "924007411406fe6953777418711f18c333ae828683db089791d6d8e1d1b83471"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_0/a8fbaa5163642c96aef74f75/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_0/asset_near.glb",
+        "sha256": "924007411406fe6953777418711f18c333ae828683db089791d6d8e1d1b83471",
+        "installed_sha256": "924007411406fe6953777418711f18c333ae828683db089791d6d8e1d1b83471"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_0/a8fbaa5163642c96aef74f75/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_0/asset_mid.glb",
+        "sha256": "fb36c6a66e00fbd8826653d45361010c1d8963be37fef8a4aadd340859ba54b3",
+        "installed_sha256": "fb36c6a66e00fbd8826653d45361010c1d8963be37fef8a4aadd340859ba54b3"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_1/asset_near.glb",
+        "sha256": "d48aa9cf902ba92cc23bb022c7348c911b9755ec05721f00826fc474b3740666",
+        "installed_sha256": "d48aa9cf902ba92cc23bb022c7348c911b9755ec05721f00826fc474b3740666"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_1/asset_near.glb",
+        "sha256": "d48aa9cf902ba92cc23bb022c7348c911b9755ec05721f00826fc474b3740666",
+        "installed_sha256": "d48aa9cf902ba92cc23bb022c7348c911b9755ec05721f00826fc474b3740666"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_1/6c2c1a2e52c319ecf898e594/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_1/asset_mid.glb",
+        "sha256": "a9cf4d797f8f85e2186668a33d1191d611c1b889eeeebfb4adc0a053920da9d6",
+        "installed_sha256": "a9cf4d797f8f85e2186668a33d1191d611c1b889eeeebfb4adc0a053920da9d6"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_2/7a8ff971f8338093903b88f8/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_2/asset_near.glb",
+        "sha256": "6c422499c2d8622012c0ad7ba39a50669a0ea152057a7e6a69f33a2901c45a2e",
+        "installed_sha256": "6c422499c2d8622012c0ad7ba39a50669a0ea152057a7e6a69f33a2901c45a2e"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_2/7a8ff971f8338093903b88f8/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_2/asset_near.glb",
+        "sha256": "6c422499c2d8622012c0ad7ba39a50669a0ea152057a7e6a69f33a2901c45a2e",
+        "installed_sha256": "6c422499c2d8622012c0ad7ba39a50669a0ea152057a7e6a69f33a2901c45a2e"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_2/7a8ff971f8338093903b88f8/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_2/asset_mid.glb",
+        "sha256": "b62d5d8d612d47b9f542c6bfc9ee7746ee329719aa015cb830a2a5a30c411415",
+        "installed_sha256": "b62d5d8d612d47b9f542c6bfc9ee7746ee329719aa015cb830a2a5a30c411415"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_3/46e9a27e667435ee64f06b69/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_3/asset_near.glb",
+        "sha256": "f75186e6500c1b22f2ce32e75bf33ab9d8028abe0d1534eb60895ec410bb1df9",
+        "installed_sha256": "f75186e6500c1b22f2ce32e75bf33ab9d8028abe0d1534eb60895ec410bb1df9"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_3/46e9a27e667435ee64f06b69/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_3/asset_near.glb",
+        "sha256": "f75186e6500c1b22f2ce32e75bf33ab9d8028abe0d1534eb60895ec410bb1df9",
+        "installed_sha256": "f75186e6500c1b22f2ce32e75bf33ab9d8028abe0d1534eb60895ec410bb1df9"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_0_3/46e9a27e667435ee64f06b69/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_0_3/asset_mid.glb",
+        "sha256": "65026400d04166b6b161ecb3e19ce9ca309a7b751615102db70c45d4560bc2ba",
+        "installed_sha256": "65026400d04166b6b161ecb3e19ce9ca309a7b751615102db70c45d4560bc2ba"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_0/870cb8aa30db3461d4d452de/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_0/asset_near.glb",
+        "sha256": "16f0dbeb0501ec6ee277819235e6b85bdef51d47bbd448324d9a7e914879b96d",
+        "installed_sha256": "16f0dbeb0501ec6ee277819235e6b85bdef51d47bbd448324d9a7e914879b96d"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_0/870cb8aa30db3461d4d452de/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_0/asset_near.glb",
+        "sha256": "16f0dbeb0501ec6ee277819235e6b85bdef51d47bbd448324d9a7e914879b96d",
+        "installed_sha256": "16f0dbeb0501ec6ee277819235e6b85bdef51d47bbd448324d9a7e914879b96d"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_0/870cb8aa30db3461d4d452de/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_0/asset_mid.glb",
+        "sha256": "22deebd9af7723551e44fbda3c525147f462f7b3a11c0899ab46341edeb717b8",
+        "installed_sha256": "22deebd9af7723551e44fbda3c525147f462f7b3a11c0899ab46341edeb717b8"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_1/130303ea6a64a8842bd153c6/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_1/asset_near.glb",
+        "sha256": "ca315fe6a1135589e70afce8a00ba1d4cac82d32bd543b9ddfa59921bd9252d8",
+        "installed_sha256": "ca315fe6a1135589e70afce8a00ba1d4cac82d32bd543b9ddfa59921bd9252d8"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_1/130303ea6a64a8842bd153c6/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_1/asset_near.glb",
+        "sha256": "ca315fe6a1135589e70afce8a00ba1d4cac82d32bd543b9ddfa59921bd9252d8",
+        "installed_sha256": "ca315fe6a1135589e70afce8a00ba1d4cac82d32bd543b9ddfa59921bd9252d8"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_1/130303ea6a64a8842bd153c6/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_1/asset_mid.glb",
+        "sha256": "4357f40eed80c97593e65dc025fb3a06415da853e880762056b2f79ac50c186f",
+        "installed_sha256": "4357f40eed80c97593e65dc025fb3a06415da853e880762056b2f79ac50c186f"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_2/34ce0871f7c089f1b2f1748b/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_2/asset_near.glb",
+        "sha256": "105314526f9b2864111fbee662bf4aa39d51e3b17209a429a202007ec7817fd7",
+        "installed_sha256": "105314526f9b2864111fbee662bf4aa39d51e3b17209a429a202007ec7817fd7"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_2/34ce0871f7c089f1b2f1748b/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_2/asset_near.glb",
+        "sha256": "105314526f9b2864111fbee662bf4aa39d51e3b17209a429a202007ec7817fd7",
+        "installed_sha256": "105314526f9b2864111fbee662bf4aa39d51e3b17209a429a202007ec7817fd7"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_2/34ce0871f7c089f1b2f1748b/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_1_2/asset_mid.glb",
+        "sha256": "d35ec1ca768bd46073b657dfd97c8b8d2f143628eb089ae811e5f139cf8345b5",
+        "installed_sha256": "d35ec1ca768bd46073b657dfd97c8b8d2f143628eb089ae811e5f139cf8345b5"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_3/516022ddc6f526912d97a3b3/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_3/asset_near.glb",
+        "sha256": "b719fa9dc16a6c74f37e150bcd4b77645a673fc726faf166952484953433545b",
+        "installed_sha256": "b719fa9dc16a6c74f37e150bcd4b77645a673fc726faf166952484953433545b"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_3/516022ddc6f526912d97a3b3/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_3/asset_near.glb",
+        "sha256": "b719fa9dc16a6c74f37e150bcd4b77645a673fc726faf166952484953433545b",
+        "installed_sha256": "b719fa9dc16a6c74f37e150bcd4b77645a673fc726faf166952484953433545b"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_1_3/516022ddc6f526912d97a3b3/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_1_3/asset_mid.glb",
+        "sha256": "ec62af093bcc3c9b084a46b6b0ff2a49b9a90a1a72f5eb53fc492c2d36d11e55",
+        "installed_sha256": "ec62af093bcc3c9b084a46b6b0ff2a49b9a90a1a72f5eb53fc492c2d36d11e55"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_0/e6fbd7ba6fba4a8d6303810d/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_0/asset_near.glb",
+        "sha256": "51730164f5d213c6d170b6c5438a65b37715c64f16d1e27edd3e8309cc475e35",
+        "installed_sha256": "51730164f5d213c6d170b6c5438a65b37715c64f16d1e27edd3e8309cc475e35"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_0/e6fbd7ba6fba4a8d6303810d/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_0/asset_near.glb",
+        "sha256": "51730164f5d213c6d170b6c5438a65b37715c64f16d1e27edd3e8309cc475e35",
+        "installed_sha256": "51730164f5d213c6d170b6c5438a65b37715c64f16d1e27edd3e8309cc475e35"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_0/e6fbd7ba6fba4a8d6303810d/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_0/asset_mid.glb",
+        "sha256": "9227dd2cdae4c5ff6d2d88cc6039b14c6988bef0b8312a18b78338cc2fb8622d",
+        "installed_sha256": "9227dd2cdae4c5ff6d2d88cc6039b14c6988bef0b8312a18b78338cc2fb8622d"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_1/ffd40ec8cbf5d5cde05b6240/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_2_1/asset_near.glb",
+        "sha256": "c1fe1a22179324232deace731181ee78b44d678dbda32cc0a8b45d5982840224",
+        "installed_sha256": "c1fe1a22179324232deace731181ee78b44d678dbda32cc0a8b45d5982840224"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_1/ffd40ec8cbf5d5cde05b6240/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_2_1/asset_near.glb",
+        "sha256": "c1fe1a22179324232deace731181ee78b44d678dbda32cc0a8b45d5982840224",
+        "installed_sha256": "c1fe1a22179324232deace731181ee78b44d678dbda32cc0a8b45d5982840224"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_1/ffd40ec8cbf5d5cde05b6240/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/models/bep_country_terrain_2_1/asset_mid.glb",
+        "sha256": "59ff4500e6be565fdaae717496a411b0abf475ed100a0c2ff8ab20c0cbe42ca9",
+        "installed_sha256": "59ff4500e6be565fdaae717496a411b0abf475ed100a0c2ff8ab20c0cbe42ca9"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_2/a231b27cfd612120c6a45085/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_2/asset_near.glb",
+        "sha256": "dca435fa20e2c20cb2305c747044a50ddc959de04122fe02f2424a4ab80b2edf",
+        "installed_sha256": "dca435fa20e2c20cb2305c747044a50ddc959de04122fe02f2424a4ab80b2edf"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_2/a231b27cfd612120c6a45085/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_2/asset_near.glb",
+        "sha256": "dca435fa20e2c20cb2305c747044a50ddc959de04122fe02f2424a4ab80b2edf",
+        "installed_sha256": "dca435fa20e2c20cb2305c747044a50ddc959de04122fe02f2424a4ab80b2edf"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_2/a231b27cfd612120c6a45085/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_2/asset_mid.glb",
+        "sha256": "c53c51eba3510f00a0b117e978e5bf22e2b50a509ee5bd98cfc6f135871f2404",
+        "installed_sha256": "c53c51eba3510f00a0b117e978e5bf22e2b50a509ee5bd98cfc6f135871f2404"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_3/6be0458c4dcbb1c34ce97f2a/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_3/asset_near.glb",
+        "sha256": "40b3addbccc891e2386dfe2f11da789731193e3c3e4107418a5ad0ee5f2ce40c",
+        "installed_sha256": "40b3addbccc891e2386dfe2f11da789731193e3c3e4107418a5ad0ee5f2ce40c"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_3/6be0458c4dcbb1c34ce97f2a/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_3/asset_near.glb",
+        "sha256": "40b3addbccc891e2386dfe2f11da789731193e3c3e4107418a5ad0ee5f2ce40c",
+        "installed_sha256": "40b3addbccc891e2386dfe2f11da789731193e3c3e4107418a5ad0ee5f2ce40c"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_2_3/6be0458c4dcbb1c34ce97f2a/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_2_3/asset_mid.glb",
+        "sha256": "5f1401a90bd96d08063b757c1ded0cae86dddad766cb53c3b7ad869ecad289ea",
+        "installed_sha256": "5f1401a90bd96d08063b757c1ded0cae86dddad766cb53c3b7ad869ecad289ea"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_0/48925f043c3d9ff9942d5716/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_0/asset_near.glb",
+        "sha256": "a96a301ecf4a825a2e1712911562f011127b881bf869860977f084af0ae9012c",
+        "installed_sha256": "a96a301ecf4a825a2e1712911562f011127b881bf869860977f084af0ae9012c"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_0/48925f043c3d9ff9942d5716/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_0/asset_near.glb",
+        "sha256": "a96a301ecf4a825a2e1712911562f011127b881bf869860977f084af0ae9012c",
+        "installed_sha256": "a96a301ecf4a825a2e1712911562f011127b881bf869860977f084af0ae9012c"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_0/48925f043c3d9ff9942d5716/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_0/asset_mid.glb",
+        "sha256": "d91124f97eebfba142fd7dc72a9470045d711c1bdcb321d18ea4836dd9ed084b",
+        "installed_sha256": "d91124f97eebfba142fd7dc72a9470045d711c1bdcb321d18ea4836dd9ed084b"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_1/0725e1c2e648b98d73bed68a/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_1/asset_near.glb",
+        "sha256": "31b6602a53f8161366a61b08fe266b95d31b0c4677ed8aa4de3f4fd938293571",
+        "installed_sha256": "31b6602a53f8161366a61b08fe266b95d31b0c4677ed8aa4de3f4fd938293571"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_1/0725e1c2e648b98d73bed68a/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_1/asset_near.glb",
+        "sha256": "31b6602a53f8161366a61b08fe266b95d31b0c4677ed8aa4de3f4fd938293571",
+        "installed_sha256": "31b6602a53f8161366a61b08fe266b95d31b0c4677ed8aa4de3f4fd938293571"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_1/0725e1c2e648b98d73bed68a/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_1/asset_mid.glb",
+        "sha256": "0cbc8b0affcd16c5fa9418c0808906ba3f7ee19d386d29a8bcfb50b313868991",
+        "installed_sha256": "0cbc8b0affcd16c5fa9418c0808906ba3f7ee19d386d29a8bcfb50b313868991"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_2/4b04565a3c38cdc79abeff39/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_2/asset_near.glb",
+        "sha256": "1e9175f02154e4850d6b3323edf470a9a167b4c71fb40968ee70248e867accbf",
+        "installed_sha256": "1e9175f02154e4850d6b3323edf470a9a167b4c71fb40968ee70248e867accbf"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_2/4b04565a3c38cdc79abeff39/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_2/asset_near.glb",
+        "sha256": "1e9175f02154e4850d6b3323edf470a9a167b4c71fb40968ee70248e867accbf",
+        "installed_sha256": "1e9175f02154e4850d6b3323edf470a9a167b4c71fb40968ee70248e867accbf"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_2/4b04565a3c38cdc79abeff39/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_2/asset_mid.glb",
+        "sha256": "e5e762f762b392b00826e4943bc0d5e87fb568ad49b3a3331eff3a1d7f190208",
+        "installed_sha256": "e5e762f762b392b00826e4943bc0d5e87fb568ad49b3a3331eff3a1d7f190208"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_3/cc0edd9566d6874a4a2128ad/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_3/asset_near.glb",
+        "sha256": "9f00ee36e9f1d44fe3eca34f9a1538d661ecf6ea603e93f4093bdf9d3f2ec35b",
+        "installed_sha256": "9f00ee36e9f1d44fe3eca34f9a1538d661ecf6ea603e93f4093bdf9d3f2ec35b"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_3/cc0edd9566d6874a4a2128ad/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_3/asset_near.glb",
+        "sha256": "9f00ee36e9f1d44fe3eca34f9a1538d661ecf6ea603e93f4093bdf9d3f2ec35b",
+        "installed_sha256": "9f00ee36e9f1d44fe3eca34f9a1538d661ecf6ea603e93f4093bdf9d3f2ec35b"
+      },
+      {
+        "relative_path": "models/imports/bep_country_terrain_3_3/cc0edd9566d6874a4a2128ad/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/bep_country_terrain_3_3/asset_mid.glb",
+        "sha256": "d548d17f21bbf2a487b1fbc8d8ed7ae651c36e19916403473144ebe89acc9c73",
+        "installed_sha256": "d548d17f21bbf2a487b1fbc8d8ed7ae651c36e19916403473144ebe89acc9c73"
+      },
+      {
+        "relative_path": "models/imports/nm_city_11_sm_ground_mesh/cc569c144ec48650c8892896/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/nm_city_11_sm_ground_mesh/asset_near.glb",
+        "sha256": "582eba2ec83e4b01da7c40c7eebb4e860ce2e4af7afd5b274c2f10cc8fe7827e",
+        "installed_sha256": "582eba2ec83e4b01da7c40c7eebb4e860ce2e4af7afd5b274c2f10cc8fe7827e"
+      },
+      {
+        "relative_path": "models/imports/nm_city_11_sm_ground_mesh/cc569c144ec48650c8892896/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/nm_city_11_sm_ground_mesh/asset_near.glb",
+        "sha256": "582eba2ec83e4b01da7c40c7eebb4e860ce2e4af7afd5b274c2f10cc8fe7827e",
+        "installed_sha256": "582eba2ec83e4b01da7c40c7eebb4e860ce2e4af7afd5b274c2f10cc8fe7827e"
+      },
+      {
+        "relative_path": "models/imports/nm_city_11_sm_ground_mesh/cc569c144ec48650c8892896/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/models/nm_city_11_sm_ground_mesh/asset_mid.glb",
+        "sha256": "9b5563ee0a174819c6cb63a1640d8c2c1033f9ee81edb6f616a8c6a8b94bbfd6",
+        "installed_sha256": "9b5563ee0a174819c6cb63a1640d8c2c1033f9ee81edb6f616a8c6a8b94bbfd6"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_broad/c7a6b2b766e39b3f882e061f/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_broad_near.glb",
+        "sha256": "6b5d49c63f836d5c82f82dd4ce7299f2e3cf0384b01fc27a48bf1fc72492109b",
+        "installed_sha256": "6b5d49c63f836d5c82f82dd4ce7299f2e3cf0384b01fc27a48bf1fc72492109b"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_broad/c7a6b2b766e39b3f882e061f/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_broad_near.glb",
+        "sha256": "6b5d49c63f836d5c82f82dd4ce7299f2e3cf0384b01fc27a48bf1fc72492109b",
+        "installed_sha256": "6b5d49c63f836d5c82f82dd4ce7299f2e3cf0384b01fc27a48bf1fc72492109b"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_broad/c7a6b2b766e39b3f882e061f/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_broad_mid.glb",
+        "sha256": "48e724757d0a96b12c22276e5780c25989ee7d083e28ce75cdd65fe41c6248b1",
+        "installed_sha256": "48e724757d0a96b12c22276e5780c25989ee7d083e28ce75cdd65fe41c6248b1"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_long/1d0b8738ded932866f3b3a83/asset.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_long_near.glb",
+        "sha256": "d0f40cdbacac440c98644cb51430d9c23611c119bb1d3c98a2a867b36ce01b63",
+        "installed_sha256": "d0f40cdbacac440c98644cb51430d9c23611c119bb1d3c98a2a867b36ce01b63"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_long/1d0b8738ded932866f3b3a83/asset_near.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_long_near.glb",
+        "sha256": "d0f40cdbacac440c98644cb51430d9c23611c119bb1d3c98a2a867b36ce01b63",
+        "installed_sha256": "d0f40cdbacac440c98644cb51430d9c23611c119bb1d3c98a2a867b36ce01b63"
+      },
+      {
+        "relative_path": "models/imports/bep_nature_grass_long/1d0b8738ded932866f3b3a83/asset_mid.glb",
+        "candidate": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/grass/models/bep_nature_grass_long_mid.glb",
+        "sha256": "abe0d93f6a53a90b5d0047351184977678309edb7733737e67711d64cd261325",
+        "installed_sha256": "abe0d93f6a53a90b5d0047351184977678309edb7733737e67711d64cd261325"
+      }
+    ],
+    "shader": {
+      "before_sha256": "4237436369181aae5e09c6d63d0311c4a2db68095b7ecbb77e5e39621005001b",
+      "sha256": "55b8be3f1c3394b8b5cc407e4d4196d221f454b7883f8394c6fdec74d0e5750a",
+      "scope": "Tagged ground shoulders and bounded town entrance material blend; previous wind and apartment policy retained."
+    },
+    "placements": [
+      {
+        "relative_path": "scenery/bep_environment_instances.txt",
+        "before_sha256": "93d38c4608b6e4a399d3c4c1d02055427d32e5bd9b5f21d618a10909b7026ddc",
+        "sha256": "93d38c4608b6e4a399d3c4c1d02055427d32e5bd9b5f21d618a10909b7026ddc"
+      },
+      {
+        "relative_path": "scenery/castle_streets_instances.txt",
+        "before_sha256": "05626b3a45c5515aec635cd445b6e9bacc8e730719e8da90638f548e2ee92b47",
+        "sha256": "05626b3a45c5515aec635cd445b6e9bacc8e730719e8da90638f548e2ee92b47"
+      },
+      {
+        "relative_path": "scenery/starting_area_instances.txt",
+        "before_sha256": "bc21d59543d8757080a4bafbab213293d7ed4c0a6f0361fe4820ef526f10309d",
+        "sha256": "bc21d59543d8757080a4bafbab213293d7ed4c0a6f0361fe4820ef526f10309d"
+      },
+      {
+        "relative_path": "scenery/tanthoon_bandit_camp_instances.txt",
+        "before_sha256": "799bad1fae1eeb491631296f0697c74726ee9216bde77f7ce20a60ec34ed99b2",
+        "sha256": "799bad1fae1eeb491631296f0697c74726ee9216bde77f7ce20a60ec34ed99b2"
+      }
+    ],
+    "town_entrance_review": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/entrance-v2/ENTRANCE_REVIEW.json",
+    "source_paint_decoder": {
+      "vertex_shader_sha256": "22a5cb9025721d92e983f99ca046866079562f958df77ba39e0137998ea1563c",
+      "review": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/source-paint-decoder/REVIEW.json"
+    },
+    "dry_soil_review": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/dry-soil-v1/SOIL_REVIEW.json",
+    "subsurface_seal_review": "/home/computer/Desktop/final_engine/new_engine/docs/visual-cohesion/2026-11-04/ground/seal-v1/SEAL_REVIEW.json"
+  },
+  "original_ground_surfaces_physics_and_story_unchanged": true,
+  "subsurface_seal_added": true,
+  "grass_contact_patches_refit": 4,
+  "source_archives_unchanged": true
+}

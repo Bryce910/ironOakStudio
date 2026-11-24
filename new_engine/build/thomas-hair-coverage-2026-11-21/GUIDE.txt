@@ -1,0 +1,20 @@
+Thomas hair coverage correction — Linux Valwood,21 November2026
+
+Restart the usual Valwood launcher after publication. This shader-only update
+uses the exact previously verified character executable, models, motion and
+facial system. The shader bank is an owned copy. The preceding generation stays
+frozen and available for rollback.
+
+Thomas hair now uses the authored linear alpha gain and deterministic threshold
+for color and shadow. Visible individual pixels are no longer randomly punched
+out of partial hair coverage. Existing instance/LOD fades and every other
+material branch retain their behavior. Texture filtering and temporal AA remain.
+The previous video previews incorrectly clipped the already-linear alpha at.5;
+replacement character previews use the production material path.
+
+Character detail stays in F10 > Quality > Characters / models: Low,Medium,High,
+Ultra. The saved choice and all state/settings locations remain unchanged.
+The original hair-card geometry can still show clumps and fine silhouette aliasing;
+this update corrects the avoidable transparency defects, not the source hairstyle.
+The inherited facial and captured movement features remain as documented in the
+previous generation's GUIDE.txt. Review evidence is in review/FINAL_REVIEW.json.

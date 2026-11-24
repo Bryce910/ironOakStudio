@@ -1,0 +1,12 @@
+active=0
+preset_begin
+name=Real Player
+model=models/main_guy.glb
+scale=0.0200
+anim_idle=Regular_Jump
+anim_walk=Punch_Combo_1
+anim_run=Punch_Combo_1
+anim_attack=Walking
+anim_attack2=Running
+anim_jump=Idle_11
+preset_end

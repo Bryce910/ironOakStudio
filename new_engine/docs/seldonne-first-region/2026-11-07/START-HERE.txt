@@ -1,0 +1,51 @@
+Seldonne — first region exploration and world design
+
+Open these shortcuts from /home/computer/Desktop/final_engine:
+  Play_Seldonne_Region.sh — walk around the region
+  Edit_Seldonne_Region.sh — edit the region
+Only one Valwood session can run at a time.
+
+Editable project:
+/home/computer/Desktop/final_engine/new_engine/build/seldonne-first-region-2026-11-07/editor-workcopy-v2
+
+Navigation:
+  In the editor: RMB + WASD flies; Q/E changes height while navigating.
+  Wheel zooms; RMB + wheel adjusts flight speed; Shift moves faster.
+  F11 switches between the designer and game view.
+  Ctrl+P opens the editor command palette.
+  Ctrl+S saves the applied world; Ctrl+Shift+S applies a draft, then saves.
+  In game view: WASD walks; V changes first/third person; H hides tools.
+
+Start at the northwest grove campsite with Rowan, Bram and Ellis, a fire and
+roast chicken. Follow the road south toward the market and waterfront bridge.
+Explore the interior creeks, meadow, eastern woodland and northern rocky rise.
+The 1280 x 768 metre region targets about 5–10 minutes across its routes.
+
+Scope and remaining work:
+This is an exploration and editor region. It does not replace the apartment
+opening, combat arena, quest progression or hero model. Those systems remain in
+their separate existing projects/launchers.
+
+The full environment was reviewed on native Linux and the accepted Windows
+executable under Wine. Wine testing is not physical Windows hardware testing.
+The recorded full-resolution route averaged about 38 FPS on the RX 5300; its
+original timing job failed window-title ownership gates, so this is diagnostic
+performance data, not a fully accepted timing benchmark. Distant fog/terrain
+LOD transitions and ordinary third-person camera collision need further polish.
+Player/NPC trunk, bridge and structure collision has separate production proofs.
+
+This project currently uses 16/16 surface ribbons, 58/64 terrain cache tiles and
+56 paint tiles. Extend water by editing existing ribbons or plan capacity work
+before adding more separate ones. It is not an unlimited terrain editor.
+
+The editable region owns its ordinary authoring files and texture cache. Four
+asset-bank directories are shared symlinks; they are not OS read-only. Importing
+new assets may append to those banks. The frozen project-v9 is preserved as the
+reviewed source; make future revisions in editable copies.
+
+Latest final-v9 check: the four-view Windows/Wine sky/water run passed,
+but its direct camp-to-town cut required191.46seconds of loading. Prior full-v8
+checks also had town waits (~30s native /~185s Wine across two cuts). All
+recovered; the exact blocking subsystem is not isolated. Ordinary walking
+latency needs further checking. Third-person camera mode changes, but this
+exploration project has no newly integrated playable hero/combat.

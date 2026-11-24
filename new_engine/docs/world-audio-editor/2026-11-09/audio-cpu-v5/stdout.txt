@@ -1,0 +1,2 @@
+MIXER_RMS near=0.0598755 fade_out_half=0.044997 fade_in_half=0.0179418 right_L=0.0316925 right_R=0.078537 left_L=0.078537 left_R=0.0316925 half_distance=0.029953 single=0.0199585 additive_two=0.0399323 hot_allocations=0
+PASS 10791 world sound mixer checks: actual WAV/UTF8 conversion, stereo RMS/distance/additive/fades/mute,64logical/16voice virtualization/cursors, entry-only shots/audition, allocation-free updates/queue saturation, transactional rollback, singleton cinema reuse and legacy isolation

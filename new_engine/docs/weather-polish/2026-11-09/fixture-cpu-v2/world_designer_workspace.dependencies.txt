@@ -1,0 +1,8 @@
+world_designer_workspace.o: \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_workspace.cpp \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_platform.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_workspace.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_viewport.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer_assets.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_scenery.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_authoring_limits.h

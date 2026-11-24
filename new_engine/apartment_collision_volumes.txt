@@ -1,0 +1,1 @@
+# uid x y z yaw pitch width height depth shape enabled nav_blocker motion_enabled move_x move_y move_z motion_period motion_phase

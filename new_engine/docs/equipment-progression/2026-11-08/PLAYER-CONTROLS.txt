@@ -1,0 +1,31 @@
+VALWOOD — VISIBLE EQUIPMENT AND SHARED PROGRESSION
+
+I / controller View-Back-Share: open inventory.
+Mouse, D-pad or left stick: select an item. X: equip/use.
+U / controller Y: remove selected armor. B / Esc: close.
+Return sticks/triggers to neutral after closing.
+
+BODY: travel harness over civilian clothes, or the green-and-gold mail outfit.
+HEAD: iron helmet, or the current character's exposed head.
+HANDS: equipped leather gloves, or bare hands.
+FEET: equipped travel boots, or civilian shoes/leg wraps.
+The same equipment selection renders in third person, first-person arms,
+shadow views and the story swimming bank. No gear loads during an equip.
+
+One player profile now owns your items, selected equipment and money.
+Arena victories earn 10 copper per opponent. Only complete victories pay.
+The town merchant and arena quartermaster sell provisions and armor.
+Open inventory during arena Setup/Results, or beside the town greeters, to shop:
+mail 45c; helmet 20c; gloves 6c; boots 8c; bread 3c; apple 2c; draught 5c.
+100 copper = 1 silver; 100 silver = 1 gold.
+
+The arena's winnings and owned melee equipment carry into the story, and
+story rewards/purchases carry back to the arena. The bow remains practice-only.
+Loading or restarting a checkpoint keeps owned equipment, consumed items,
+purchases and spent coins. Quest tokens follow the current story checkpoint.
+Starting the story again keeps the same demo character's earned belongings;
+Rowan's 12-copper reward and the raider's loot cannot be farmed by replaying.
+
+Old story and arena saves are imported once. Their original files are kept.
+Your current profile is shared-profile/player.progress beside the two projects.
+Keep the shared-profile folder when moving the updated projects together.

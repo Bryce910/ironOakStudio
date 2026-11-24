@@ -1,0 +1,43 @@
+Free village character imports
+==============================
+
+Animated Defender AKA Brigand
+Concept: Konstantin Maystrenko. Model: AnthonyMyers.
+Retopology, rigging and animation: Danimal.
+Source: https://opengameart.org/content/animated-defender-aka-brigand
+License: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+Changes for Valwood: legacy materials converted to PBR; images capped at 1024px;
+body normalized to 1.82m; root motion removed; supplied walking cycle sampled;
+ambient weapon carry and breathing idle authored; static poses exported to GLB.
+
+Modular RPG Characters
+Creator: System G6 (Qoma).
+Source: https://opengameart.org/content/modular-rpg-characters
+License: CC0 1.0 Universal
+https://creativecommons.org/publicdomain/zero/1.0/
+Changes for Valwood: selected male civilian, vendor and ranger outfits;
+diffuse maps atlased; body normalized to 1.82m; source Idle animation sampled;
+Run animation adapted into a grounded slower gait (no source Walk clip exists);
+authored bow/quiver; static poses exported to GLB.
+
+Sintel female travelers and traders
+Art: copyright Blender Foundation | www.sintel.org
+Original character modeling: Angela Guenette. Original rig: Nathan Vegdahl.
+Game adaptation and supplied walk/idle: Sintel The Game contributors.
+Source: https://github.com/jonburesh/sintelgame
+Art license: Creative Commons Attribution3.0 Unported
+https://durian.blender.org/sharing/
+https://creativecommons.org/licenses/by/3.0/
+Game project modifications: MIT, copyright2016 Jonathan Buresh.
+Changes for Valwood: fixed rest triangulation, bounded source-texture atlases,
+secondary-UV AO remapped into primary UV, documented legacy-PBR approximation,
+source skeleton clips sampled offline, closed out-and-back idle, sole grounding,
+1.82m normalization and source +Y rotated into glTF+Z. No lighting baked in.
+Original sources, notices, map hashes and inspection remain under
+assets/characters/incoming/newcandidate/sintelgame. Source rig UI/game scripts
+are not executed or embedded in runtime GLBs.
+
+Original downloads, source-page evidence, license text and SHA-256 provenance
+are retained in assets/characters/incoming. Downloaded source files are kept
+unchanged. No purchase or paid asset pack was used for these character imports.

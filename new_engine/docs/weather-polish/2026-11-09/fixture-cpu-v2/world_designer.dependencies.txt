@@ -1,0 +1,17 @@
+world_designer.o: \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer.cpp \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_transform_math.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_entity_graph.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_designer.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_authoring_identity.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_studio.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_runtime_editors.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_shader_graph.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_surface_authoring.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_authoring_limits.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_ecology.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_structure_splines.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_soundscape.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_weather_authoring.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_prefab.h \
+ /home/computer/Desktop/final_engine/new_engine/build/weather-polish-2026-11-09/source-v1/engine/world_studio_tools.h

@@ -1,0 +1,10 @@
+Valwood campsite vegetation and forest-floor pass
+
+Linux runtime and C++ source are byte-identical to woodland-detail-2026-11-19.
+The owned 204-file shader bank retains 203 originals and fixes terrain material projection tiling in one fragment shader. No Windows build was prepared.
+
+The camp uses varied owned tree models, matching trunk collision meshes, detailed near grass, leaf litter, fallen wood, roots and mossy rocks. Creek margins use narrower, blended gravel with grounded bank plants and stones. Terrain height, road/water ribbons and story routes remain unchanged.
+
+Use the normal root Launch_Valwood.sh launcher after this generation is published by CURRENT_VALWOOD.json. Graphics settings and saves are retained. Full-resolution maximum detail is expensive on the RX 5300; use the graphics quality controls and automatic scaling as needed.
+
+review/FINAL_REVIEW.json and the retained native images describe the tested scope and remaining visual gaps. This pass does not certify AAA or publisher-reference parity.

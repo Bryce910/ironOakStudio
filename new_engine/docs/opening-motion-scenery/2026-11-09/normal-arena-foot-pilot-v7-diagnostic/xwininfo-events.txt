@@ -1,0 +1,19 @@
+
+xwininfo: Window id: 0x6800008 "Legends of Valwood | A Place in the Watch"
+
+  Someone wants these events:
+      KeyPress
+      KeyRelease
+      ButtonPress
+      ButtonRelease
+      EnterWindow
+      LeaveWindow
+      PointerMotion
+      KeymapState
+      Exposure
+      StructureNotify
+      FocusChange
+      PropertyChange
+  Do not propagate these events:
+  Override redirection?: No
+

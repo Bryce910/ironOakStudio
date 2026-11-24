@@ -1,0 +1,7 @@
+Physical attributes browser QA
+Existing Mara profile and all seven memories preserved across version 1 draft migration.
+Height 174.5 cm, hair strand thickness fine and density dense persisted across reload.
+Height 0 disabled project save and engine export and showed a range error.
+Restored the original unspecified appearance values; reload retained blanks and enabled export.
+Editor left open on core profile with Physical attributes expanded.
+Screenshot evidence unavailable: browser capture repeatedly returned zero viewport width or CDP capture timeout. Temporary viewport override was reset.

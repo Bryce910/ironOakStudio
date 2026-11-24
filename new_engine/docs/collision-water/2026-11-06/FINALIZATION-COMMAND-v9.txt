@@ -1,0 +1,14 @@
+# ROOT ONLY: exact final runtime9 / private candidate6. NOT EXECUTED.
+# v8 is not accepted; no previous failed report is rebound.
+# Run only after both actual v9 six-case core aggregates and both full journeys pass.
+# Supplemental actual water-motion pairs and independent root visual/animation inspection remain required before installation.
+# Filename prepare_finalization_v8.py is historical; --revision v9 selects only actual v9 evidence and supplied runtimes.
+python3 /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/prepare_finalization_v8.py --revision v9 --native-runtime /home/computer/Desktop/final_engine/new_engine/build/collision-water-2026-11-06/runtime-native-v9 --native-plan-sha256 d13f01ad1c2d43552e30a716830bb059556b6329a48e058c7950a660858dba38 --windows-runtime /home/computer/Desktop/final_engine/new_engine/build/collision-water-2026-11-06/runtime-windows-v9 --windows-plan-sha256 b85ad075c1ddc25d43665c4112e9ca6153166c17cbedae02105c80ceaedbb0d2 --candidate /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CANDIDATE-v6.json --candidate-sha256 255c2726912c5099ced8b93d404b4d0f57cfa412ff15b14a9ca84859769d510d --protocol /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CPU-v6.json --payload-proof /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/COLLISION_PAYLOAD_BINDING_CPU-v6.json --write --output /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/finalization-v9
+
+# The generated finalization-v9/INSTALL-COMMAND.txt remains UNEXECUTED.
+# It includes --opening-journey INSTALL-JOURNEY-native-v9.json to update the Opening launcher in the actual seven-target transaction.
+# Supply a separately authored ROOT-VISUAL-REVIEW-v9.json only after actual inspection.
+
+# AFTER the actual root-approved installation succeeds, prepare only a NEW continuity merge proposal:
+python3 /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/source-continuity/prepare_installed_record.py --candidate /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/source-continuity/CANDIDATE-v9.json --installer-receipt /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/CURRENT.json --output /home/computer/Desktop/final_engine/new_engine/docs/collision-water/2026-11-06/source-continuity/INSTALLED-MERGE-PROPOSAL-v9.json
+# Proposal helper requires exact four launchers in this actual transaction preview (including Opening), checks their current hashes, and never writes CURRENT.

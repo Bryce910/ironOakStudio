@@ -1,0 +1,6931 @@
+{
+  "schema": 1,
+  "base_rows": 535,
+  "added_rows": 146,
+  "existing_rows_byte_preserved": true,
+  "zones": {
+    "physical_trade_signs": 3,
+    "individual_trade_possessions": 6,
+    "restrained_foundation_growth": 7,
+    "tavern_served_tables": 18,
+    "composed_forest_pockets": 90,
+    "natural_pool_reed_fringe": 18,
+    "pool_canopy_framing": 4
+  },
+  "placements": [
+    {
+      "id": "finish_sign_arcade_baker",
+      "alias": "demo_sign_baker",
+      "local_xz": [
+        -70.56351069629966,
+        30.250000000167347
+      ],
+      "world_xz": [
+        -1380.9635106962996,
+        -10177.334747454413
+      ],
+      "yaw_degrees": 90.0,
+      "scale": 1.0,
+      "burial_m": 0.0,
+      "elevation_m": 2.55,
+      "zone": "physical_trade_signs",
+      "parent": "demo_finish_instances.txt:5"
+    },
+    {
+      "id": "finish_sign_arcade_apothecary",
+      "alias": "demo_sign_herbalist",
+      "local_xz": [
+        -64.63375707484077,
+        -15.550000000113869
+      ],
+      "world_xz": [
+        -1375.0337570748409,
+        -10223.134747454695
+      ],
+      "yaw_degrees": -90.0,
+      "scale": 1.0,
+      "burial_m": 0.0,
+      "elevation_m": 2.55,
+      "zone": "physical_trade_signs",
+      "parent": "demo_finish_instances.txt:13"
+    },
+    {
+      "id": "finish_sign_tavern",
+      "alias": "demo_sign_tavern",
+      "local_xz": [
+        -147.89999999979355,
+        -73.80999980911416
+      ],
+      "world_xz": [
+        -1458.2999999997937,
+        -10281.394747263696
+      ],
+      "yaw_degrees": 0.0,
+      "scale": 1.0,
+      "burial_m": 0.0,
+      "elevation_m": 2.55,
+      "zone": "physical_trade_signs",
+      "parent": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "finish_trade_0_1",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -69.30999999994327,
+        25.7814574868922
+      ],
+      "world_xz": [
+        -1379.7099999999434,
+        -10181.80328996769
+      ],
+      "yaw_degrees": 119.0,
+      "scale": 0.65,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.6114265830362632,
+      "minimum_actor_route_obb_gap_m": 21.138097634831425,
+      "minimum_other_source_obb_gap_m": 0.3414265830929821
+    },
+    {
+      "id": "finish_wall_green_0_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.50999999994326,
+        25.20033175532863
+      ],
+      "world_xz": [
+        -1379.9099999999435,
+        -10182.384415699253
+      ],
+      "yaw_degrees": 67,
+      "scale": 0.245,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.8336557109623871,
+      "minimum_actor_route_obb_gap_m": 21.472462879262217,
+      "minimum_other_source_obb_gap_m": 0.1636557110191177
+    },
+    {
+      "id": "finish_wall_green_0_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.50999999994326,
+        24.753311961818195
+      ],
+      "world_xz": [
+        -1379.9099999999435,
+        -10182.831435492762
+      ],
+      "yaw_degrees": -159,
+      "scale": 0.29500000000000004,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.8021251496216958,
+      "minimum_actor_route_obb_gap_m": 21.505334485540203,
+      "minimum_other_source_obb_gap_m": 0.13212514967842992
+    },
+    {
+      "id": "finish_wall_green_1_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.51000000050172,
+        12.726246552310911
+      ],
+      "world_xz": [
+        -1379.910000000502,
+        -10194.85850090227
+      ],
+      "yaw_degrees": 98,
+      "scale": 0.245,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.47420152515624514,
+      "minimum_actor_route_obb_gap_m": 26.184655949173845,
+      "minimum_other_source_obb_gap_m": 0.18770591300263106
+    },
+    {
+      "id": "finish_trade_2_0",
+      "alias": "purchased_prop_barrel_small",
+      "local_xz": [
+        -64.06000000010434,
+        27.851425990809147
+      ],
+      "world_xz": [
+        -1374.4600000001044,
+        -10179.733321463771
+      ],
+      "yaw_degrees": -90.0,
+      "scale": 0.65,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.8820016868859196,
+      "minimum_actor_route_obb_gap_m": 15.623345669363623,
+      "minimum_other_source_obb_gap_m": 0.20216980978702637
+    },
+    {
+      "id": "finish_trade_2_1",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -64.02000000010433,
+        33.83371660779829
+      ],
+      "world_xz": [
+        -1374.4200000001044,
+        -10173.751030846783
+      ],
+      "yaw_degrees": -61.0,
+      "scale": 0.65,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.0285947263955406,
+      "minimum_actor_route_obb_gap_m": 15.421426583197317,
+      "minimum_other_source_obb_gap_m": 0.341426583092975
+    },
+    {
+      "id": "finish_trade_2_3",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -64.35000000010433,
+        34.46343140958661
+      ],
+      "world_xz": [
+        -1374.7500000001044,
+        -10173.121316044993
+      ],
+      "yaw_degrees": -3.0,
+      "scale": 0.52,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.762191533535988,
+      "minimum_actor_route_obb_gap_m": 15.79856776677791,
+      "minimum_other_source_obb_gap_m": 0.7185677666735728
+    },
+    {
+      "id": "finish_wall_green_2_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -63.820000000104336,
+        34.3453598842513
+      ],
+      "world_xz": [
+        -1374.2200000001044,
+        -10173.23938757033
+      ],
+      "yaw_degrees": 129,
+      "scale": 0.245,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.248525969467551,
+      "minimum_actor_route_obb_gap_m": 15.23127322517854,
+      "minimum_other_source_obb_gap_m": 0.15127322507420615
+    },
+    {
+      "id": "finish_wall_green_2_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -63.820000000104336,
+        34.738931635369006
+      ],
+      "world_xz": [
+        -1374.2200000001044,
+        -10172.845815819212
+      ],
+      "yaw_degrees": -97,
+      "scale": 0.29500000000000004,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.270052933413473,
+      "minimum_actor_route_obb_gap_m": 15.239027438998946,
+      "minimum_other_source_obb_gap_m": 0.15902743889461135
+    },
+    {
+      "id": "finish_trade_3_0",
+      "alias": "purchased_prop_barrel_small",
+      "local_xz": [
+        -65.73000000019017,
+        -20.35660968028965
+      ],
+      "world_xz": [
+        -1376.1300000001902,
+        -10227.94135713487
+      ],
+      "yaw_degrees": -90.0,
+      "scale": 0.65,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 2.248459799126921,
+      "minimum_actor_route_obb_gap_m": 37.20456185671748,
+      "minimum_other_source_obb_gap_m": 0.42200168699025653
+    },
+    {
+      "id": "finish_trade_3_1",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -65.69000000019018,
+        -13.599051287955666
+      ],
+      "world_xz": [
+        -1376.0900000001902,
+        -10221.183798742537
+      ],
+      "yaw_degrees": -61.0,
+      "scale": 0.65,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "individual_trade_possessions",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.611426582902809,
+      "minimum_actor_route_obb_gap_m": 34.01295752052903,
+      "minimum_other_source_obb_gap_m": 0.34142658309299634
+    },
+    {
+      "id": "finish_wall_green_3_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.49000000019018,
+        -13.021102214927101
+      ],
+      "world_xz": [
+        -1375.8900000001902,
+        -10220.605849669508
+      ],
+      "yaw_degrees": 160,
+      "scale": 0.245,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.8387532463404886,
+      "minimum_actor_route_obb_gap_m": 33.60616292174134,
+      "minimum_other_source_obb_gap_m": 0.16875324653067025
+    },
+    {
+      "id": "finish_wall_green_3_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.49000000019018,
+        -12.57652600490513
+      ],
+      "world_xz": [
+        -1375.8900000001902,
+        -10220.161273459486
+      ],
+      "yaw_degrees": -66,
+      "scale": 0.29500000000000004,
+      "burial_m": 0,
+      "elevation_m": 0,
+      "zone": "restrained_foundation_growth",
+      "parent": null,
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 0.7962345951014008,
+      "minimum_actor_route_obb_gap_m": 33.34619621909207,
+      "minimum_other_source_obb_gap_m": 0.126234595291578
+    },
+    {
+      "id": "finish_tavern_service_0_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -151.04999999979356,
+        -78.57999999984902
+      ],
+      "world_xz": [
+        -1461.4499999997936,
+        -10286.16474745443
+      ],
+      "yaw_degrees": 0.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.7490524671397476,
+      "minimum_actor_route_obb_gap_m": 0.6673617849358684,
+      "minimum_other_source_obb_gap_m": 7.159406343588699
+    },
+    {
+      "id": "finish_tavern_service_0_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -150.76999999979355,
+        -78.77999999984903
+      ],
+      "world_xz": [
+        -1461.1699999997936,
+        -10286.36474745443
+      ],
+      "yaw_degrees": 47.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8256732602587054,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.4893078093779484,
+      "minimum_actor_route_obb_gap_m": 0.41621718794762064,
+      "minimum_other_source_obb_gap_m": 7.205717557181146
+    },
+    {
+      "id": "finish_tavern_service_0_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -151.24999999979354,
+        -78.37999999984902
+      ],
+      "world_xz": [
+        -1461.6499999997936,
+        -10285.964747454429
+      ],
+      "yaw_degrees": 94.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.001284756690103,
+      "minimum_actor_route_obb_gap_m": 1.0165329393801816,
+      "minimum_other_source_obb_gap_m": 6.940143876321969
+    },
+    {
+      "id": "finish_tavern_service_1_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -148.94999999979353,
+        -78.57999999984902
+      ],
+      "world_xz": [
+        -1459.3499999997937,
+        -10286.16474745443
+      ],
+      "yaw_degrees": 19.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.6217000851203944,
+      "minimum_actor_route_obb_gap_m": 0.6792277460161409,
+      "minimum_other_source_obb_gap_m": 8.910230683446315
+    },
+    {
+      "id": "finish_tavern_service_1_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -148.66999999979353,
+        -78.77999999984903
+      ],
+      "world_xz": [
+        -1459.0699999997937,
+        -10286.36474745443
+      ],
+      "yaw_degrees": 66.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.3946862541135663,
+      "minimum_actor_route_obb_gap_m": 0.8077310830377111,
+      "minimum_other_source_obb_gap_m": 9.259590738612843
+    },
+    {
+      "id": "finish_tavern_service_1_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -149.14999999979355,
+        -78.37999999984902
+      ],
+      "world_xz": [
+        -1459.5499999997937,
+        -10285.964747454429
+      ],
+      "yaw_degrees": 113.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.8848363472509422,
+      "minimum_actor_route_obb_gap_m": 0.7875845793216008,
+      "minimum_other_source_obb_gap_m": 8.730074146393065
+    },
+    {
+      "id": "finish_tavern_service_2_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -141.04999999979356,
+        -78.57999999984902
+      ],
+      "world_xz": [
+        -1451.4499999997936,
+        -10286.16474745443
+      ],
+      "yaw_degrees": 38.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.6073759799121414,
+      "minimum_actor_route_obb_gap_m": 0.6929956623601603,
+      "minimum_other_source_obb_gap_m": 7.793543806461187
+    },
+    {
+      "id": "finish_tavern_service_2_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -140.76999999979355,
+        -78.77999999984903
+      ],
+      "world_xz": [
+        -1451.1699999997936,
+        -10286.36474745443
+      ],
+      "yaw_degrees": 85.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8256732602587054,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.968086965060707,
+      "minimum_actor_route_obb_gap_m": 0.3994009586487759,
+      "minimum_other_source_obb_gap_m": 7.694426517925507
+    },
+    {
+      "id": "finish_tavern_service_2_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -141.24999999979354,
+        -78.37999999984902
+      ],
+      "world_xz": [
+        -1451.6499999997936,
+        -10285.964747454429
+      ],
+      "yaw_degrees": 132.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 1.47451573058034,
+      "minimum_actor_route_obb_gap_m": 1.0412761203991288,
+      "minimum_other_source_obb_gap_m": 8.360368058641747
+    },
+    {
+      "id": "finish_tavern_service_3_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -138.94999999979353,
+        -78.57999999984902
+      ],
+      "world_xz": [
+        -1449.3499999997937,
+        -10286.16474745443
+      ],
+      "yaw_degrees": 57.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.7097494396200887,
+      "minimum_actor_route_obb_gap_m": 0.6860837233989754,
+      "minimum_other_source_obb_gap_m": 7.512754555823264
+    },
+    {
+      "id": "finish_tavern_service_3_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -138.66999999979353,
+        -78.77999999984903
+      ],
+      "world_xz": [
+        -1449.0699999997937,
+        -10286.36474745443
+      ],
+      "yaw_degrees": 104.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.06069943954855,
+      "minimum_actor_route_obb_gap_m": 0.7957475681248862,
+      "minimum_other_source_obb_gap_m": 7.383037182697251
+    },
+    {
+      "id": "finish_tavern_service_3_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -139.14999999979355,
+        -78.37999999984902
+      ],
+      "world_xz": [
+        -1449.5499999997937,
+        -10285.964747454429
+      ],
+      "yaw_degrees": 151.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.573544018834188,
+      "minimum_actor_route_obb_gap_m": 0.7789227893345751,
+      "minimum_other_source_obb_gap_m": 7.860608676649804
+    },
+    {
+      "id": "finish_tavern_service_4_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -139.84999999979354,
+        -82.97999999984903
+      ],
+      "world_xz": [
+        -1450.2499999997935,
+        -10290.56474745443
+      ],
+      "yaw_degrees": 76.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 2.908256746414748,
+      "minimum_actor_route_obb_gap_m": 1.634754467478751,
+      "minimum_other_source_obb_gap_m": 3.7417544003457337
+    },
+    {
+      "id": "finish_tavern_service_4_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -139.56999999979354,
+        -83.17999999984903
+      ],
+      "world_xz": [
+        -1449.9699999997936,
+        -10290.76474745443
+      ],
+      "yaw_degrees": 123.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8256732536072289,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.283118822724583,
+      "minimum_actor_route_obb_gap_m": 1.4416111364782294,
+      "minimum_other_source_obb_gap_m": 3.7521177714958895
+    },
+    {
+      "id": "finish_tavern_service_4_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -140.04999999979356,
+        -82.77999999984903
+      ],
+      "world_xz": [
+        -1450.4499999997936,
+        -10290.36474745443
+      ],
+      "yaw_degrees": 170.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 2.737558384934427,
+      "minimum_actor_route_obb_gap_m": 1.9296899312463427,
+      "minimum_other_source_obb_gap_m": 3.883219114228872
+    },
+    {
+      "id": "finish_tavern_service_5_0",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -137.74999999979354,
+        -82.97999999984903
+      ],
+      "world_xz": [
+        -1448.1499999997936,
+        -10290.56474745443
+      ],
+      "yaw_degrees": 95.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.040570973163367,
+      "minimum_actor_route_obb_gap_m": 2.130569352606612,
+      "minimum_other_source_obb_gap_m": 3.1429964581178638
+    },
+    {
+      "id": "finish_tavern_service_5_1",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -137.46999999979354,
+        -83.17999999984903
+      ],
+      "world_xz": [
+        -1447.8699999997937,
+        -10290.76474745443
+      ],
+      "yaw_degrees": 142.0,
+      "scale": 0.38,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 3.7899116895403826,
+      "minimum_actor_route_obb_gap_m": 2.216172756475572,
+      "minimum_other_source_obb_gap_m": 2.972232301900263
+    },
+    {
+      "id": "finish_tavern_service_5_2",
+      "alias": "purchased_goods_tankard",
+      "local_xz": [
+        -137.94999999979353,
+        -82.77999999984903
+      ],
+      "world_xz": [
+        -1448.3499999997937,
+        -10290.36474745443
+      ],
+      "yaw_degrees": -171.0,
+      "scale": 0.48,
+      "burial_m": 0,
+      "elevation_m": 0.8110000071525574,
+      "zone": "tavern_served_tables",
+      "parent": "castle_streets_instances.txt:3",
+      "ground_height_min_m": 24.0,
+      "ground_height_max_m": 24.0,
+      "minimum_road_obb_gap_m": 4.281692214746075,
+      "minimum_actor_route_obb_gap_m": 2.267362687385485,
+      "minimum_other_source_obb_gap_m": 3.398710821060007
+    },
+    {
+      "id": "finish_forest_pocket_0_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26747.4097081701,
+        9625.496705929329
+      ],
+      "local_xz": [
+        -25437.0097081701,
+        19833.081453383908
+      ],
+      "yaw_degrees": 0,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.7666778564453,
+      "ground_height_max_m": 137.14720153808594,
+      "minimum_road_obb_gap_m": 33.35141529649848,
+      "minimum_actor_route_obb_gap_m": 33.35141529649848,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26748.814302180937,
+        9626.242673431083
+      ],
+      "local_xz": [
+        -25438.414302180936,
+        19833.827420885664
+      ],
+      "yaw_degrees": 47,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 139.1717071533203,
+      "ground_height_max_m": 139.53179931640625,
+      "minimum_road_obb_gap_m": 34.89804535146508,
+      "minimum_actor_route_obb_gap_m": 34.89804535146508,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26747.87358993976,
+        9624.056328491524
+      ],
+      "local_xz": [
+        -25437.47358993976,
+        19831.641075946107
+      ],
+      "yaw_degrees": 94,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.9960479736328,
+      "ground_height_max_m": 137.6922607421875,
+      "minimum_road_obb_gap_m": 34.15486367414335,
+      "minimum_actor_route_obb_gap_m": 34.15486367414335,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26746.952887895925,
+        9626.862478245375
+      ],
+      "local_xz": [
+        -25436.552887895923,
+        19834.447225699958
+      ],
+      "yaw_degrees": 141,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.60569763183594,
+      "ground_height_max_m": 136.6616668701172,
+      "minimum_road_obb_gap_m": 32.69604838846054,
+      "minimum_actor_route_obb_gap_m": 32.69604838846054,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26749.927848937154,
+        9625.155696597483
+      ],
+      "local_xz": [
+        -25439.527848937152,
+        19832.740444052062
+      ],
+      "yaw_degrees": -172,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 140.48428344726562,
+      "ground_height_max_m": 142.0374755859375,
+      "minimum_road_obb_gap_m": 35.73855042651528,
+      "minimum_actor_route_obb_gap_m": 35.73855042651528,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26746.17000388532,
+        9624.332612195878
+      ],
+      "local_xz": [
+        -25435.770003885318,
+        19831.91735965046
+      ],
+      "yaw_degrees": -125,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.55471801757812,
+      "ground_height_max_m": 134.68914794921875,
+      "minimum_road_obb_gap_m": 32.86918759975481,
+      "minimum_actor_route_obb_gap_m": 32.86918759975481,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26748.612969200367,
+        9627.776920803088
+      ],
+      "local_xz": [
+        -25438.212969200365,
+        19835.36166825767
+      ],
+      "yaw_degrees": -78,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.7530059814453,
+      "ground_height_max_m": 139.8141632080078,
+      "minimum_road_obb_gap_m": 34.01445257370437,
+      "minimum_actor_route_obb_gap_m": 34.01445257370437,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26749.170215817183,
+        9623.243526583728
+      ],
+      "local_xz": [
+        -25438.77021581718,
+        19830.828274038307
+      ],
+      "yaw_degrees": -31,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.41517639160156,
+      "ground_height_max_m": 140.20704650878906,
+      "minimum_road_obb_gap_m": 35.745533155479045,
+      "minimum_actor_route_obb_gap_m": 35.745533155479045,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_0_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26745.459082358848,
+        9626.424644975932
+      ],
+      "local_xz": [
+        -25435.059082358846,
+        19834.00939243051
+      ],
+      "yaw_degrees": 16,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.33749389648438,
+      "ground_height_max_m": 134.81565856933594,
+      "minimum_road_obb_gap_m": 30.96643747167739,
+      "minimum_actor_route_obb_gap_m": 30.96643747167739,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26744.537316474532,
+        9601.863268883957
+      ],
+      "local_xz": [
+        -25434.13731647453,
+        19809.448016338538
+      ],
+      "yaw_degrees": 31,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.2795867919922,
+      "ground_height_max_m": 134.4208526611328,
+      "minimum_road_obb_gap_m": 30.414583939376147,
+      "minimum_actor_route_obb_gap_m": 30.414583939376147,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26746.10150305737,
+        9601.575741175671
+      ],
+      "local_xz": [
+        -25435.701503057368,
+        19809.160488630252
+      ],
+      "yaw_degrees": 78,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.15423583984375,
+      "ground_height_max_m": 134.16212463378906,
+      "minimum_road_obb_gap_m": 32.266584338172734,
+      "minimum_actor_route_obb_gap_m": 32.266584338172734,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26744.00646285108,
+        9600.446205762559
+      ],
+      "local_xz": [
+        -25433.60646285108,
+        19808.030953217138
+      ],
+      "yaw_degrees": 125,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.30499267578125,
+      "ground_height_max_m": 134.43878173828125,
+      "minimum_road_obb_gap_m": 29.513920716396033,
+      "minimum_actor_route_obb_gap_m": 29.513920716396033,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26745.027376315968,
+        9603.217469804793
+      ],
+      "local_xz": [
+        -25434.627376315966,
+        19810.802217259374
+      ],
+      "yaw_degrees": 172,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.29196166992188,
+      "ground_height_max_m": 134.37181091308594,
+      "minimum_road_obb_gap_m": 31.381016568726455,
+      "minimum_actor_route_obb_gap_m": 31.381016568726455,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26746.299327748962,
+        9600.032248251666
+      ],
+      "local_xz": [
+        -25435.89932774896,
+        19807.616995706245
+      ],
+      "yaw_degrees": -141,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.0962371826172,
+      "ground_height_max_m": 134.18807983398438,
+      "minimum_road_obb_gap_m": 31.55317619807772,
+      "minimum_actor_route_obb_gap_m": 31.55317619807772,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26742.842723500766,
+        9601.720665983481
+      ],
+      "local_xz": [
+        -25432.442723500764,
+        19809.30541343806
+      ],
+      "yaw_degrees": -94,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.5438232421875,
+      "ground_height_max_m": 134.56475830078125,
+      "minimum_road_obb_gap_m": 29.121692613019754,
+      "minimum_actor_route_obb_gap_m": 29.121692613019754,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26746.896440023804,
+        9602.903342466332
+      ],
+      "local_xz": [
+        -25436.496440023802,
+        19810.488089920913
+      ],
+      "yaw_degrees": -47,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.2959747314453,
+      "ground_height_max_m": 134.53237915039062,
+      "minimum_road_obb_gap_m": 33.095422238191546,
+      "minimum_actor_route_obb_gap_m": 33.095422238191546,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26744.518047711364,
+        9599.003927516853
+      ],
+      "local_xz": [
+        -25434.118047711363,
+        19806.588674971434
+      ],
+      "yaw_degrees": 0,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.2685546875,
+      "ground_height_max_m": 134.32286071777344,
+      "minimum_road_obb_gap_m": 29.77982492774598,
+      "minimum_actor_route_obb_gap_m": 29.77982492774598,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_1_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26743.58461084641,
+        9603.801918908042
+      ],
+      "local_xz": [
+        -25433.18461084641,
+        19811.386666362625
+      ],
+      "yaw_degrees": 47,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 134.45632934570312,
+      "ground_height_max_m": 134.6231231689453,
+      "minimum_road_obb_gap_m": 29.70707135302365,
+      "minimum_actor_route_obb_gap_m": 29.70707135302365,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26725.864969086484,
+        9597.071345900824
+      ],
+      "local_xz": [
+        -25415.464969086483,
+        19804.656093355406
+      ],
+      "yaw_degrees": 62,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.60723876953125,
+      "ground_height_max_m": 135.72203063964844,
+      "minimum_road_obb_gap_m": 11.13753412491257,
+      "minimum_actor_route_obb_gap_m": 11.13753412491257,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26726.91246174186,
+        9595.874637504476
+      ],
+      "local_xz": [
+        -25416.51246174186,
+        19803.459384959056
+      ],
+      "yaw_degrees": 109,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.6100616455078,
+      "ground_height_max_m": 135.62196350097656,
+      "minimum_road_obb_gap_m": 12.2677590786626,
+      "minimum_actor_route_obb_gap_m": 12.2677590786626,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26724.568898173875,
+        9596.290273785684
+      ],
+      "local_xz": [
+        -25414.168898173873,
+        19803.875021240267
+      ],
+      "yaw_degrees": 156,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.74179077148438,
+      "ground_height_max_m": 135.80572509765625,
+      "minimum_road_obb_gap_m": 9.648751564095026,
+      "minimum_actor_route_obb_gap_m": 9.648751564095026,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26727.09002840325,
+        9597.828477628189
+      ],
+      "local_xz": [
+        -25416.69002840325,
+        19805.413225082768
+      ],
+      "yaw_degrees": -157,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.31996154785156,
+      "ground_height_max_m": 135.4669189453125,
+      "minimum_road_obb_gap_m": 12.672210432837883,
+      "minimum_actor_route_obb_gap_m": 12.672210432837883,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26726.10903354428,
+        9594.541967948138
+      ],
+      "local_xz": [
+        -25415.709033544277,
+        19802.12671540272
+      ],
+      "yaw_degrees": -110,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.62948608398438,
+      "ground_height_max_m": 135.70651245117188,
+      "minimum_road_obb_gap_m": 10.634125134635465,
+      "minimum_actor_route_obb_gap_m": 10.634125134635465,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26724.44815599589,
+        9598.011889148253
+      ],
+      "local_xz": [
+        -25414.04815599589,
+        19805.596636602833
+      ],
+      "yaw_degrees": -63,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.7767333984375,
+      "ground_height_max_m": 135.79318237304688,
+      "minimum_road_obb_gap_m": 10.376830396896377,
+      "minimum_actor_route_obb_gap_m": 10.376830396896377,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26728.359972357033,
+        9596.421595443015
+      ],
+      "local_xz": [
+        -25417.95997235703,
+        19804.006342897595
+      ],
+      "yaw_degrees": -16,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.33505249023438,
+      "ground_height_max_m": 135.46827697753906,
+      "minimum_road_obb_gap_m": 13.540352586460045,
+      "minimum_actor_route_obb_gap_m": 13.540352586460045,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26724.07425489131,
+        9594.842097819053
+      ],
+      "local_xz": [
+        -25413.67425489131,
+        19802.426845273636
+      ],
+      "yaw_degrees": 31,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.77613830566406,
+      "ground_height_max_m": 135.82908630371094,
+      "minimum_road_obb_gap_m": 8.93704068179581,
+      "minimum_actor_route_obb_gap_m": 8.93704068179581,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_2_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26726.32209227268,
+        9599.182518637097
+      ],
+      "local_xz": [
+        -25415.922092272678,
+        19806.76726609168
+      ],
+      "yaw_degrees": 78,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.10263061523438,
+      "ground_height_max_m": 135.5198974609375,
+      "minimum_road_obb_gap_m": 11.839599293092657,
+      "minimum_actor_route_obb_gap_m": 11.839599293092657,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26718.25100321431,
+        9631.030973494177
+      ],
+      "local_xz": [
+        -25407.85100321431,
+        19838.615720948757
+      ],
+      "yaw_degrees": 93,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.971923828125,
+      "ground_height_max_m": 136.03915405273438,
+      "minimum_road_obb_gap_m": 3.8022551936262037,
+      "minimum_actor_route_obb_gap_m": 3.8022551936262037,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26718.328911507746,
+        9629.442489264868
+      ],
+      "local_xz": [
+        -25407.928911507744,
+        19837.02723671945
+      ],
+      "yaw_degrees": 140,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.00428771972656,
+      "ground_height_max_m": 136.02005004882812,
+      "minimum_road_obb_gap_m": 4.7222223866779816,
+      "minimum_actor_route_obb_gap_m": 4.7222223866779816,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26716.750079914123,
+        9631.223594122652
+      ],
+      "local_xz": [
+        -25406.350079914122,
+        19838.808341577234
+      ],
+      "yaw_degrees": -173,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.09915161132812,
+      "ground_height_max_m": 136.1623992919922,
+      "minimum_road_obb_gap_m": 2.264865757776942,
+      "minimum_actor_route_obb_gap_m": 2.264865757776942,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26719.681399441815,
+        9630.863685077013
+      ],
+      "local_xz": [
+        -25409.281399441814,
+        19838.448432531593
+      ],
+      "yaw_degrees": -126,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.853515625,
+      "ground_height_max_m": 135.9120330810547,
+      "minimum_road_obb_gap_m": 5.385449088492639,
+      "minimum_actor_route_obb_gap_m": 5.385449088492639,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26716.871597959667,
+        9628.896831645436
+      ],
+      "local_xz": [
+        -25406.471597959666,
+        19836.481579100015
+      ],
+      "yaw_degrees": -79,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.09759521484375,
+      "ground_height_max_m": 136.1826629638672,
+      "minimum_road_obb_gap_m": 2.9426279585234374,
+      "minimum_actor_route_obb_gap_m": 2.9426279585234374,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26717.724538594255,
+        9632.64801274472
+      ],
+      "local_xz": [
+        -25407.324538594254,
+        19840.232760199302
+      ],
+      "yaw_degrees": -32,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.02809143066406,
+      "ground_height_max_m": 136.0465545654297,
+      "minimum_road_obb_gap_m": 3.2333722757226324,
+      "minimum_actor_route_obb_gap_m": 3.2333722757226324,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26719.803154904843,
+        9628.972322939311
+      ],
+      "local_xz": [
+        -25409.40315490484,
+        19836.557070393894
+      ],
+      "yaw_degrees": 15,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.8624725341797,
+      "ground_height_max_m": 135.91273498535156,
+      "minimum_road_obb_gap_m": 6.004683881106179,
+      "minimum_actor_route_obb_gap_m": 6.004683881106179,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26715.46307081033,
+        9630.39564897105
+      ],
+      "local_xz": [
+        -25405.063070810327,
+        19837.98039642563
+      ],
+      "yaw_degrees": 62,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.20977783203125,
+      "ground_height_max_m": 136.2762908935547,
+      "minimum_road_obb_gap_m": 1.3776033200020201,
+      "minimum_actor_route_obb_gap_m": 1.3776033200020201,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_3_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26719.920314957068,
+        9632.401889332308
+      ],
+      "local_xz": [
+        -25409.520314957066,
+        19839.98663678689
+      ],
+      "yaw_degrees": 109,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.7903289794922,
+      "ground_height_max_m": 135.90806579589844,
+      "minimum_road_obb_gap_m": 4.772059093012555,
+      "minimum_actor_route_obb_gap_m": 4.772059093012555,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26729.528514428683,
+        9670.759606943246
+      ],
+      "local_xz": [
+        -25419.12851442868,
+        19878.34435439783
+      ],
+      "yaw_degrees": 124,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.73770141601562,
+      "ground_height_max_m": 138.06863403320312,
+      "minimum_road_obb_gap_m": 9.037767983828871,
+      "minimum_actor_route_obb_gap_m": 9.037767983828871,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26728.603154189997,
+        9669.466138629907
+      ],
+      "local_xz": [
+        -25418.203154189996,
+        19877.050886084486
+      ],
+      "yaw_degrees": 171,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.2967987060547,
+      "ground_height_max_m": 137.39596557617188,
+      "minimum_road_obb_gap_m": 8.230576771569442,
+      "minimum_actor_route_obb_gap_m": 8.230576771569442,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26728.471672938267,
+        9671.842639502172
+      ],
+      "local_xz": [
+        -25418.071672938266,
+        19879.427386956755
+      ],
+      "yaw_degrees": -142,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.19483947753906,
+      "ground_height_max_m": 137.80755615234375,
+      "minimum_road_obb_gap_m": 8.233183845024488,
+      "minimum_actor_route_obb_gap_m": 8.233183845024488,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26730.545806219743,
+        9669.74022664423
+      ],
+      "local_xz": [
+        -25420.14580621974,
+        19877.32497409881
+      ],
+      "yaw_degrees": -95,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.00991821289062,
+      "ground_height_max_m": 138.18338012695312,
+      "minimum_road_obb_gap_m": 9.940012730213834,
+      "minimum_actor_route_obb_gap_m": 9.940012730213834,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26727.122034521646,
+        9669.943411657718
+      ],
+      "local_xz": [
+        -25416.722034521645,
+        19877.5281591123
+      ],
+      "yaw_degrees": -48,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.9505615234375,
+      "ground_height_max_m": 136.85218811035156,
+      "minimum_road_obb_gap_m": 6.37846108568882,
+      "minimum_actor_route_obb_gap_m": 6.37846108568882,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26730.120018768237,
+        9672.354004494126
+      ],
+      "local_xz": [
+        -25419.720018768236,
+        19879.938751948706
+      ],
+      "yaw_degrees": -1,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.18756103515625,
+      "ground_height_max_m": 138.2337188720703,
+      "minimum_road_obb_gap_m": 10.38400131075132,
+      "minimum_actor_route_obb_gap_m": 10.38400131075132,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26729.466731405675,
+        9668.18212758629
+      ],
+      "local_xz": [
+        -25419.066731405674,
+        19875.76687504087
+      ],
+      "yaw_degrees": 46,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.36338806152344,
+      "ground_height_max_m": 137.64271545410156,
+      "minimum_road_obb_gap_m": 8.492596464752612,
+      "minimum_actor_route_obb_gap_m": 8.492596464752612,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26726.948744981346,
+        9671.992892772832
+      ],
+      "local_xz": [
+        -25416.548744981344,
+        19879.577640227413
+      ],
+      "yaw_degrees": 93,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 136.22854614257812,
+      "ground_height_max_m": 136.69325256347656,
+      "minimum_road_obb_gap_m": 6.911566332025489,
+      "minimum_actor_route_obb_gap_m": 6.911566332025489,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_4_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26731.688276664652,
+        9670.797541279026
+      ],
+      "local_xz": [
+        -25421.28827666465,
+        19878.382288733606
+      ],
+      "yaw_degrees": 140,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.2795867919922,
+      "ground_height_max_m": 138.44412231445312,
+      "minimum_road_obb_gap_m": 10.888801485288841,
+      "minimum_actor_route_obb_gap_m": 10.888801485288841,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26700.577518905553,
+        9648.37457338586
+      ],
+      "local_xz": [
+        -25390.17751890555,
+        19855.95932084044
+      ],
+      "yaw_degrees": 155,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.1998291015625,
+      "ground_height_max_m": 137.26734924316406,
+      "minimum_road_obb_gap_m": 8.543226407272725,
+      "minimum_actor_route_obb_gap_m": 8.543226407272725,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26699.048975804468,
+        9647.935360638918
+      ],
+      "local_xz": [
+        -25388.648975804466,
+        19855.5201080935
+      ],
+      "yaw_degrees": -158,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.3424072265625,
+      "ground_height_max_m": 137.35398864746094,
+      "minimum_road_obb_gap_m": 9.370229580704311,
+      "minimum_actor_route_obb_gap_m": 9.370229580704311,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26700.42169169056,
+        9649.879761526468
+      ],
+      "local_xz": [
+        -25390.02169169056,
+        19857.46450898105
+      ],
+      "yaw_degrees": -111,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.20819091796875,
+      "ground_height_max_m": 137.2812957763672,
+      "minimum_road_obb_gap_m": 6.989917289980221,
+      "minimum_actor_route_obb_gap_m": 6.989917289980221,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26700.74187337076,
+        9646.943837074745
+      ],
+      "local_xz": [
+        -25390.34187337076,
+        19854.528584529326
+      ],
+      "yaw_degrees": -64,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.2096405029297,
+      "ground_height_max_m": 137.25404357910156,
+      "minimum_road_obb_gap_m": 10.143859081590175,
+      "minimum_actor_route_obb_gap_m": 10.143859081590175,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26698.18442198091,
+        9649.229212137829
+      ],
+      "local_xz": [
+        -25387.78442198091,
+        19856.813959592408
+      ],
+      "yaw_degrees": -17,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.37112426757812,
+      "ground_height_max_m": 137.44789123535156,
+      "minimum_road_obb_gap_m": 7.5454038218683905,
+      "minimum_actor_route_obb_gap_m": 7.5454038218683905,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26702.031251359218,
+        9649.256980824131
+      ],
+      "local_xz": [
+        -25391.631251359217,
+        19856.841728278712
+      ],
+      "yaw_degrees": 30,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.11868286132812,
+      "ground_height_max_m": 137.1340789794922,
+      "minimum_road_obb_gap_m": 8.250688480374665,
+      "minimum_actor_route_obb_gap_m": 8.250688480374665,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26698.92851347099,
+        9646.392655614041
+      ],
+      "local_xz": [
+        -25388.52851347099,
+        19853.977403068624
+      ],
+      "yaw_degrees": 77,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.34451293945312,
+      "ground_height_max_m": 137.39178466796875,
+      "minimum_road_obb_gap_m": 10.648579760695034,
+      "minimum_actor_route_obb_gap_m": 10.648579760695034,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26699.321292937937,
+        9650.943250215894
+      ],
+      "local_xz": [
+        -25388.921292937936,
+        19858.527997670477
+      ],
+      "yaw_degrees": 124,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.29612731933594,
+      "ground_height_max_m": 137.35726928710938,
+      "minimum_road_obb_gap_m": 6.035514354760744,
+      "minimum_actor_route_obb_gap_m": 6.035514354760744,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_5_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26702.293944030203,
+        9647.063125056258
+      ],
+      "local_xz": [
+        -25391.893944030202,
+        19854.64787251084
+      ],
+      "yaw_degrees": 171,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.0722198486328,
+      "ground_height_max_m": 137.16287231445312,
+      "minimum_road_obb_gap_m": 9.812618048818798,
+      "minimum_actor_route_obb_gap_m": 9.812618048818798,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26727.376829232573,
+        9712.042344648053
+      ],
+      "local_xz": [
+        -25416.97682923257,
+        19919.627092102633
+      ],
+      "yaw_degrees": -174,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.39285278320312,
+      "ground_height_max_m": 135.43699645996094,
+      "minimum_road_obb_gap_m": 7.89089641756143,
+      "minimum_actor_route_obb_gap_m": 7.89089641756143,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26725.90597907153,
+        9712.647284027424
+      ],
+      "local_xz": [
+        -25415.505979071528,
+        19920.232031482003
+      ],
+      "yaw_degrees": -127,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.50302124023438,
+      "ground_height_max_m": 135.51486206054688,
+      "minimum_road_obb_gap_m": 6.707806514670911,
+      "minimum_actor_route_obb_gap_m": 6.707806514670911,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26728.1893892285,
+        9713.318910240798
+      ],
+      "local_xz": [
+        -25417.7893892285,
+        19920.90365769538
+      ],
+      "yaw_degrees": -80,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.31932067871094,
+      "ground_height_max_m": 135.37818908691406,
+      "minimum_road_obb_gap_m": 8.022092925417496,
+      "minimum_actor_route_obb_gap_m": 8.022092925417496,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26726.617186622938,
+        9710.818840709437
+      ],
+      "local_xz": [
+        -25416.217186622936,
+        19918.403588164016
+      ],
+      "yaw_degrees": -33,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.45262145996094,
+      "ground_height_max_m": 135.49578857421875,
+      "minimum_road_obb_gap_m": 7.904708194598036,
+      "minimum_actor_route_obb_gap_m": 7.904708194598036,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26726.03178670344,
+        9714.19830867417
+      ],
+      "local_xz": [
+        -25415.631786703438,
+        19921.78305612875
+      ],
+      "yaw_degrees": 14,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.4601593017578,
+      "ground_height_max_m": 135.52403259277344,
+      "minimum_road_obb_gap_m": 5.612348431594314,
+      "minimum_actor_route_obb_gap_m": 5.612348431594314,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26729.064258880175,
+        9711.831247233677
+      ],
+      "local_xz": [
+        -25418.664258880173,
+        19919.415994688257
+      ],
+      "yaw_degrees": 61,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.29164123535156,
+      "ground_height_max_m": 135.3072052001953,
+      "minimum_road_obb_gap_m": 9.886674071007903,
+      "minimum_actor_route_obb_gap_m": 9.886674071007903,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26724.85355988205,
+        9711.512883825917
+      ],
+      "local_xz": [
+        -25414.453559882048,
+        19919.0976312805
+      ],
+      "yaw_degrees": 108,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.56210327148438,
+      "ground_height_max_m": 135.59950256347656,
+      "minimum_road_obb_gap_m": 5.992415965973781,
+      "minimum_actor_route_obb_gap_m": 5.992415965973781,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26727.987284418592,
+        9714.83582792252
+      ],
+      "local_xz": [
+        -25417.58728441859,
+        19922.420575377102
+      ],
+      "yaw_degrees": 155,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.32127380371094,
+      "ground_height_max_m": 135.38034057617188,
+      "minimum_road_obb_gap_m": 7.296948505483818,
+      "minimum_actor_route_obb_gap_m": 7.296948505483818,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_6_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26727.90780939773,
+        9709.948527083421
+      ],
+      "local_xz": [
+        -25417.507809397728,
+        19917.533274538
+      ],
+      "yaw_degrees": -158,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 135.35340881347656,
+      "ground_height_max_m": 135.43704223632812,
+      "minimum_road_obb_gap_m": 9.02987053769569,
+      "minimum_actor_route_obb_gap_m": 9.02987053769569,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26690.0132149281,
+        9691.906562039992
+      ],
+      "local_xz": [
+        -25379.6132149281,
+        19899.491309494573
+      ],
+      "yaw_degrees": -143,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.03720092773438,
+      "ground_height_max_m": 138.080078125,
+      "minimum_road_obb_gap_m": 18.45144822119894,
+      "minimum_actor_route_obb_gap_m": 18.45144822119894,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26689.235989582212,
+        9693.294103971128
+      ],
+      "local_xz": [
+        -25378.83598958221,
+        19900.87885142571
+      ],
+      "yaw_degrees": -96,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.076416015625,
+      "ground_height_max_m": 138.08367919921875,
+      "minimum_road_obb_gap_m": 19.59982083787029,
+      "minimum_actor_route_obb_gap_m": 19.59982083787029,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26691.442846402366,
+        9692.402573438409
+      ],
+      "local_xz": [
+        -25381.042846402364,
+        19899.98732089299
+      ],
+      "yaw_degrees": -49,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.956298828125,
+      "ground_height_max_m": 138.01254272460938,
+      "minimum_road_obb_gap_m": 17.228859659171945,
+      "minimum_actor_route_obb_gap_m": 17.228859659171945,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26688.65801179138,
+        9691.419280560356
+      ],
+      "local_xz": [
+        -25378.25801179138,
+        19899.004028014937
+      ],
+      "yaw_degrees": -2,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.1121826171875,
+      "ground_height_max_m": 138.1405029296875,
+      "minimum_road_obb_gap_m": 17.840100201870325,
+      "minimum_actor_route_obb_gap_m": 17.840100201870325,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26690.29776490101,
+        9694.431705917084
+      ],
+      "local_xz": [
+        -25379.89776490101,
+        19902.016453371667
+      ],
+      "yaw_degrees": 45,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.99737548828125,
+      "ground_height_max_m": 138.04981994628906,
+      "minimum_road_obb_gap_m": 17.762864216568843,
+      "minimum_actor_route_obb_gap_m": 17.762864216568843,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26691.204770309316,
+        9690.693229147722
+      ],
+      "local_xz": [
+        -25380.804770309314,
+        19898.2779766023
+      ],
+      "yaw_degrees": 92,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.00399780273438,
+      "ground_height_max_m": 138.01333618164062,
+      "minimum_road_obb_gap_m": 18.015635951457725,
+      "minimum_actor_route_obb_gap_m": 18.015635951457725,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26687.706633991078,
+        9693.058474084562
+      ],
+      "local_xz": [
+        -25377.306633991077,
+        19900.643221539143
+      ],
+      "yaw_degrees": 139,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.13145446777344,
+      "ground_height_max_m": 138.16197204589844,
+      "minimum_road_obb_gap_m": 19.28367545558031,
+      "minimum_actor_route_obb_gap_m": 19.28367545558031,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26692.226416897418,
+        9693.717070637565
+      ],
+      "local_xz": [
+        -25381.826416897416,
+        19901.301818092146
+      ],
+      "yaw_degrees": -174,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 137.91793823242188,
+      "ground_height_max_m": 137.9517822265625,
+      "minimum_road_obb_gap_m": 16.26927007201242,
+      "minimum_actor_route_obb_gap_m": 16.26927007201242,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_7_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26689.12917731866,
+        9689.935651226477
+      ],
+      "local_xz": [
+        -25378.72917731866,
+        19897.52039868106
+      ],
+      "yaw_degrees": -127,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.0933074951172,
+      "ground_height_max_m": 138.16522216796875,
+      "minimum_road_obb_gap_m": 16.072318499736255,
+      "minimum_actor_route_obb_gap_m": 16.072318499736255,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26675.64388706135,
+        9668.02593207771
+      ],
+      "local_xz": [
+        -25365.243887061348,
+        19875.610679532292
+      ],
+      "yaw_degrees": -112,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 139.27430725097656,
+      "ground_height_max_m": 139.9208526611328,
+      "minimum_road_obb_gap_m": 3.207805404456509,
+      "minimum_actor_route_obb_gap_m": 3.207805404456509,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26675.896325091624,
+        9669.596163554219
+      ],
+      "local_xz": [
+        -25365.496325091623,
+        19877.1809110088
+      ],
+      "yaw_degrees": -65,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 139.36769104003906,
+      "ground_height_max_m": 139.47354125976562,
+      "minimum_road_obb_gap_m": 3.140092468264793,
+      "minimum_actor_route_obb_gap_m": 3.140092468264793,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26677.072479312927,
+        9667.526935446167
+      ],
+      "local_xz": [
+        -25366.672479312925,
+        19875.111682900748
+      ],
+      "yaw_degrees": -18,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.9368438720703,
+      "ground_height_max_m": 139.08348083496094,
+      "minimum_road_obb_gap_m": 1.8221687371004793,
+      "minimum_actor_route_obb_gap_m": 1.8221687371004793,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26674.27905451052,
+        9668.485552454078
+      ],
+      "local_xz": [
+        -25363.87905451052,
+        19876.070299908657
+      ],
+      "yaw_degrees": 29,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 140.59263610839844,
+      "ground_height_max_m": 141.53810119628906,
+      "minimum_road_obb_gap_m": 4.656483342901801,
+      "minimum_actor_route_obb_gap_m": 4.656483342901801,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26677.435002458064,
+        9669.828493012252
+      ],
+      "local_xz": [
+        -25367.035002458062,
+        19877.413240466834
+      ],
+      "yaw_degrees": 76,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.90701293945312,
+      "ground_height_max_m": 139.03407287597656,
+      "minimum_road_obb_gap_m": 1.0530489814762474,
+      "minimum_actor_route_obb_gap_m": 1.0530489814762474,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26675.82439126153,
+        9666.33495627431
+      ],
+      "local_xz": [
+        -25365.424391261527,
+        19873.91970372889
+      ],
+      "yaw_degrees": 123,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 139.32249450683594,
+      "ground_height_max_m": 139.4438018798828,
+      "minimum_road_obb_gap_m": 3.6539470759074715,
+      "minimum_actor_route_obb_gap_m": 3.6539470759074715,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26674.551260186778,
+        9670.361180135289
+      ],
+      "local_xz": [
+        -25364.151260186776,
+        19877.94592758987
+      ],
+      "yaw_degrees": 170,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 140.40640258789062,
+      "ground_height_max_m": 141.16883850097656,
+      "minimum_road_obb_gap_m": 4.09909426243428,
+      "minimum_actor_route_obb_gap_m": 4.09909426243428,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26678.50294318437,
+        9668.070680533323
+      ],
+      "local_xz": [
+        -25368.102943184367,
+        19875.655427987906
+      ],
+      "yaw_degrees": -143,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 138.84483337402344,
+      "ground_height_max_m": 138.89865112304688,
+      "minimum_road_obb_gap_m": 0.4485824359493562,
+      "minimum_actor_route_obb_gap_m": 0.4485824359493562,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_8_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26673.72705123272,
+        9667.030064448034
+      ],
+      "local_xz": [
+        -25363.327051232718,
+        19874.614811902615
+      ],
+      "yaw_degrees": -96,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 140.8681182861328,
+      "ground_height_max_m": 142.80673217773438,
+      "minimum_road_obb_gap_m": 4.992768951559901,
+      "minimum_actor_route_obb_gap_m": 4.992768951559901,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_0",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26670.428526998265,
+        9684.348844329405
+      ],
+      "local_xz": [
+        -25360.028526998263,
+        19891.933591783985
+      ],
+      "yaw_degrees": -81,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 146.9615478515625,
+      "ground_height_max_m": 147.8235626220703,
+      "minimum_road_obb_gap_m": 14.429317920157628,
+      "minimum_actor_route_obb_gap_m": 14.429317920157628,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_1",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26671.601485139006,
+        9685.422865301744
+      ],
+      "local_xz": [
+        -25361.201485139005,
+        19893.007612756322
+      ],
+      "yaw_degrees": -34,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 145.56387329101562,
+      "ground_height_max_m": 145.86328125,
+      "minimum_road_obb_gap_m": 15.071509131819903,
+      "minimum_actor_route_obb_gap_m": 15.071509131819903,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_2",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26671.238418640994,
+        9683.070584188981
+      ],
+      "local_xz": [
+        -25360.838418640993,
+        19890.65533164356
+      ],
+      "yaw_degrees": 13,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 145.95443725585938,
+      "ground_height_max_m": 147.12841796875,
+      "minimum_road_obb_gap_m": 12.878857463621197,
+      "minimum_actor_route_obb_gap_m": 12.878857463621197,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_3",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26669.644159487707,
+        9685.5566466272
+      ],
+      "local_xz": [
+        -25359.244159487705,
+        19893.14139408178
+      ],
+      "yaw_degrees": 60,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 147.7039031982422,
+      "ground_height_max_m": 148.3944091796875,
+      "minimum_road_obb_gap_m": 16.029307120135663,
+      "minimum_actor_route_obb_gap_m": 16.029307120135663,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_4",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26672.951807133435,
+        9684.649473081445
+      ],
+      "local_xz": [
+        -25362.551807133434,
+        19892.234220536026
+      ],
+      "yaw_degrees": 107,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 142.2560577392578,
+      "ground_height_max_m": 144.3796844482422,
+      "minimum_road_obb_gap_m": 13.200118527842475,
+      "minimum_actor_route_obb_gap_m": 13.200118527842475,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_5",
+      "alias": "showcase_sorrel",
+      "world_xz": [
+        -26669.51993782282,
+        9682.911330279307
+      ],
+      "local_xz": [
+        -25359.11993782282,
+        19890.496077733886
+      ],
+      "yaw_degrees": 154,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 148.43484497070312,
+      "ground_height_max_m": 148.64614868164062,
+      "minimum_road_obb_gap_m": 14.286302267175907,
+      "minimum_actor_route_obb_gap_m": 14.286302267175907,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_6",
+      "alias": "bep_nature_bush_b",
+      "world_xz": [
+        -26671.022258701265,
+        9686.85776833031
+      ],
+      "local_xz": [
+        -25360.622258701263,
+        19894.44251578489
+      ],
+      "yaw_degrees": -159,
+      "scale": 0.43,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 145.88465881347656,
+      "ground_height_max_m": 146.63059997558594,
+      "minimum_road_obb_gap_m": 16.336720904412118,
+      "minimum_actor_route_obb_gap_m": 16.336720904412118,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_7",
+      "alias": "bep_nature_clover",
+      "world_xz": [
+        -26672.697305295336,
+        9682.608485349881
+      ],
+      "local_xz": [
+        -25362.297305295335,
+        19890.193232804464
+      ],
+      "yaw_degrees": -112,
+      "scale": 0.54,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 143.25901794433594,
+      "ground_height_max_m": 144.82907104492188,
+      "minimum_road_obb_gap_m": 11.778712048877873,
+      "minimum_actor_route_obb_gap_m": 11.778712048877873,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_forest_pocket_9_8",
+      "alias": "bep_nature_fern",
+      "world_xz": [
+        -26668.307649702878,
+        9684.758589893943
+      ],
+      "local_xz": [
+        -25357.907649702876,
+        19892.343337348524
+      ],
+      "yaw_degrees": -65,
+      "scale": 0.65,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "composed_forest_pockets",
+      "parent": null,
+      "ground_height_min_m": 148.81280517578125,
+      "ground_height_max_m": 149.9843292236328,
+      "minimum_road_obb_gap_m": 15.831363953436187,
+      "minimum_actor_route_obb_gap_m": 15.831363953436187,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_0_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26728.488916480146,
+        9629.229512401393
+      ],
+      "local_xz": [
+        -25418.088916480145,
+        19836.81425985597
+      ],
+      "yaw_degrees": 0,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.616455078125,
+      "ground_height_max_m": 134.735107421875,
+      "minimum_road_obb_gap_m": 14.035096994287226,
+      "minimum_actor_route_obb_gap_m": 14.035096994287226,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_0_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26729.10273286391,
+        9629.81261815909
+      ],
+      "local_xz": [
+        -25418.70273286391,
+        19837.397365613673
+      ],
+      "yaw_degrees": 71,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.59878540039062,
+      "ground_height_max_m": 134.73902893066406,
+      "minimum_road_obb_gap_m": 14.320532820383587,
+      "minimum_actor_route_obb_gap_m": 14.320532820383587,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_1_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26731.76613179165,
+        9631.42051112906
+      ],
+      "local_xz": [
+        -25421.36613179165,
+        19839.00525858364
+      ],
+      "yaw_degrees": 37,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.5510711669922,
+      "ground_height_max_m": 134.6801300048828,
+      "minimum_road_obb_gap_m": 16.575475198065718,
+      "minimum_actor_route_obb_gap_m": 16.575475198065718,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_1_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26732.4677002069,
+        9631.631502699069
+      ],
+      "local_xz": [
+        -25422.0677002069,
+        19839.21625015365
+      ],
+      "yaw_degrees": 108,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.46559143066406,
+      "ground_height_max_m": 134.67526245117188,
+      "minimum_road_obb_gap_m": 17.048492087844725,
+      "minimum_actor_route_obb_gap_m": 17.048492087844725,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_2_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26735.818109767624,
+        9631.555356582312
+      ],
+      "local_xz": [
+        -25425.418109767623,
+        19839.140104036895
+      ],
+      "yaw_degrees": 74,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.28536987304688,
+      "ground_height_max_m": 134.45053100585938,
+      "minimum_road_obb_gap_m": 20.43084294786397,
+      "minimum_actor_route_obb_gap_m": 20.43084294786397,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_2_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26736.515649561683,
+        9631.312566912658
+      ],
+      "local_xz": [
+        -25426.11564956168,
+        19838.89731436724
+      ],
+      "yaw_degrees": 145,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.23342895507812,
+      "ground_height_max_m": 134.4425506591797,
+      "minimum_road_obb_gap_m": 21.025931771839605,
+      "minimum_actor_route_obb_gap_m": 21.025931771839605,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_3_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26738.24469773278,
+        9630.336439935123
+      ],
+      "local_xz": [
+        -25427.84469773278,
+        19837.921187389704
+      ],
+      "yaw_degrees": 111,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.21238708496094,
+      "ground_height_max_m": 134.39016723632812,
+      "minimum_road_obb_gap_m": 23.100398124980718,
+      "minimum_actor_route_obb_gap_m": 23.100398124980718,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_3_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26738.883010750418,
+        9629.825079437473
+      ],
+      "local_xz": [
+        -25428.483010750417,
+        19837.409826892053
+      ],
+      "yaw_degrees": -178,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.1858673095703,
+      "ground_height_max_m": 134.40672302246094,
+      "minimum_road_obb_gap_m": 23.713125999203537,
+      "minimum_actor_route_obb_gap_m": 23.713125999203537,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_4_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26743.610667874822,
+        9620.963712539873
+      ],
+      "local_xz": [
+        -25433.21066787482,
+        19828.548459994454
+      ],
+      "yaw_degrees": 148,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.17788696289062,
+      "ground_height_max_m": 134.38682556152344,
+      "minimum_road_obb_gap_m": 30.85686525240224,
+      "minimum_actor_route_obb_gap_m": 30.85686525240224,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_4_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26743.8261176071,
+        9619.8748078805
+      ],
+      "local_xz": [
+        -25433.426117607098,
+        19827.45955533508
+      ],
+      "yaw_degrees": -141,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.1550750732422,
+      "ground_height_max_m": 134.4052276611328,
+      "minimum_road_obb_gap_m": 31.223633777110802,
+      "minimum_actor_route_obb_gap_m": 31.223633777110802,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_5_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26744.182606713108,
+        9614.544039908591
+      ],
+      "local_xz": [
+        -25433.782606713106,
+        19822.128787363174
+      ],
+      "yaw_degrees": -175,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.28074645996094,
+      "ground_height_max_m": 134.48789978027344,
+      "minimum_road_obb_gap_m": 33.04316008821818,
+      "minimum_actor_route_obb_gap_m": 33.04316008821818,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_5_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26744.11602440306,
+        9613.406852176502
+      ],
+      "local_xz": [
+        -25433.71602440306,
+        19820.99159963108
+      ],
+      "yaw_degrees": -104,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.32337951660156,
+      "ground_height_max_m": 134.5282745361328,
+      "minimum_road_obb_gap_m": 32.560325912201904,
+      "minimum_actor_route_obb_gap_m": 32.560325912201904,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_6_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26742.909913156374,
+        9607.552347823268
+      ],
+      "local_xz": [
+        -25432.509913156373,
+        19815.13709527785
+      ],
+      "yaw_degrees": -138,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.56954956054688,
+      "ground_height_max_m": 134.6594696044922,
+      "minimum_road_obb_gap_m": 30.112731569194583,
+      "minimum_actor_route_obb_gap_m": 30.112731569194583,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_6_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26742.540810889932,
+        9606.574708041158
+      ],
+      "local_xz": [
+        -25432.14081088993,
+        19814.15945549574
+      ],
+      "yaw_degrees": -67,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.5572052001953,
+      "ground_height_max_m": 134.66905212402344,
+      "minimum_road_obb_gap_m": 29.375105988107634,
+      "minimum_actor_route_obb_gap_m": 29.375105988107634,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_7_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26739.000660377675,
+        9601.272589323538
+      ],
+      "local_xz": [
+        -25428.600660377673,
+        19808.85733677812
+      ],
+      "yaw_degrees": -101,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.51173400878906,
+      "ground_height_max_m": 134.6914825439453,
+      "minimum_road_obb_gap_m": 24.79713415195756,
+      "minimum_actor_route_obb_gap_m": 24.79713415195756,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_7_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26738.366616751508,
+        9600.747807500891
+      ],
+      "local_xz": [
+        -25427.966616751506,
+        19808.332554955472
+      ],
+      "yaw_degrees": -30,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.47178649902344,
+      "ground_height_max_m": 134.6845245361328,
+      "minimum_road_obb_gap_m": 23.912311886006403,
+      "minimum_actor_route_obb_gap_m": 23.912311886006403,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_8_0",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26736.150117154193,
+        9599.543414409034
+      ],
+      "local_xz": [
+        -25425.75011715419,
+        19807.128161863613
+      ],
+      "yaw_degrees": -64,
+      "scale": 0.42,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.44927978515625,
+      "ground_height_max_m": 134.60470581054688,
+      "minimum_road_obb_gap_m": 21.61231450367044,
+      "minimum_actor_route_obb_gap_m": 21.61231450367044,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_pool_reed_8_1",
+      "alias": "bep_nature_reed",
+      "world_xz": [
+        -26735.447464871995,
+        9599.34186751053
+      ],
+      "local_xz": [
+        -25425.047464871994,
+        19806.92661496511
+      ],
+      "yaw_degrees": 7,
+      "scale": 0.52,
+      "burial_m": 0.01,
+      "elevation_m": 0.0,
+      "zone": "natural_pool_reed_fringe",
+      "parent": null,
+      "ground_height_min_m": 134.4163055419922,
+      "ground_height_max_m": 134.62319946289062,
+      "minimum_road_obb_gap_m": 20.73932804898638,
+      "minimum_actor_route_obb_gap_m": 20.73932804898638,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_canopy_1",
+      "alias": "bep_nature_beech",
+      "world_xz": [
+        -26756.0,
+        9631.496705929329
+      ],
+      "local_xz": [
+        -25445.6,
+        19839.081453383908
+      ],
+      "yaw_degrees": 83,
+      "scale": 0.745,
+      "burial_m": 0,
+      "elevation_m": 0.0,
+      "zone": "pool_canopy_framing",
+      "parent": null,
+      "ground_height_min_m": 143.60379028320312,
+      "ground_height_max_m": 143.96771240234375,
+      "minimum_road_obb_gap_m": 39.950110514083576,
+      "minimum_actor_route_obb_gap_m": 39.950110514083576,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_canopy_2",
+      "alias": "bep_nature_oak",
+      "world_xz": [
+        -26682.0,
+        9653.496705929329
+      ],
+      "local_xz": [
+        -25371.6,
+        19861.081453383908
+      ],
+      "yaw_degrees": 166,
+      "scale": 0.78,
+      "burial_m": 0,
+      "elevation_m": 0.0,
+      "zone": "pool_canopy_framing",
+      "parent": null,
+      "ground_height_min_m": 138.5569610595703,
+      "ground_height_max_m": 138.654296875,
+      "minimum_road_obb_gap_m": 5.10120393249937,
+      "minimum_actor_route_obb_gap_m": 5.10120393249937,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_canopy_3",
+      "alias": "bep_nature_beech",
+      "world_xz": [
+        -26656.0,
+        9679.496705929329
+      ],
+      "local_xz": [
+        -25345.6,
+        19887.081453383908
+      ],
+      "yaw_degrees": -111,
+      "scale": 0.815,
+      "burial_m": 0,
+      "elevation_m": 0.0,
+      "zone": "pool_canopy_framing",
+      "parent": null,
+      "ground_height_min_m": 153.15440368652344,
+      "ground_height_max_m": 153.2427215576172,
+      "minimum_road_obb_gap_m": 23.668471281347035,
+      "minimum_actor_route_obb_gap_m": 23.668471281347035,
+      "minimum_other_source_obb_gap_m": null
+    },
+    {
+      "id": "finish_canopy_4",
+      "alias": "bep_nature_oak",
+      "world_xz": [
+        -26648.0,
+        9674.496705929329
+      ],
+      "local_xz": [
+        -25337.6,
+        19882.081453383908
+      ],
+      "yaw_degrees": -28,
+      "scale": 0.85,
+      "burial_m": 0,
+      "elevation_m": 0.0,
+      "zone": "pool_canopy_framing",
+      "parent": null,
+      "ground_height_min_m": 153.12002563476562,
+      "ground_height_max_m": 153.38125610351562,
+      "minimum_road_obb_gap_m": 30.487817359976393,
+      "minimum_actor_route_obb_gap_m": 30.487817359976393,
+      "minimum_other_source_obb_gap_m": null
+    }
+  ],
+  "model_revisions": {
+    "bep_nature_beech": {
+      "file": "projects/valwood_world/models/bep_nature_beech_near.glb",
+      "grounding": "Root",
+      "collision": "Trunk",
+      "bounds_min": [
+        -8.499588012695312,
+        0.0,
+        -6.901731014251709
+      ],
+      "bounds_max": [
+        7.427899360656738,
+        26.024887084960938,
+        9.170038223266602
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_beech_near.glb",
+          "sha256": "01a9fab8a0c3f41ddb1980165c3eb483fdf7e0aa6406b28e168405f58a765fc7",
+          "bounds_min": [
+            -8.499588012695312,
+            0.0,
+            -6.901731014251709
+          ],
+          "bounds_max": [
+            7.427899360656738,
+            26.0,
+            9.170038223266602
+          ],
+          "triangles": 2928
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_beech_mid.glb",
+          "sha256": "8b42a574330c4a0bb649e555e41bba9012b0b5272105e89fb7ad0bd8fc3728f2",
+          "bounds_min": [
+            -8.499588012695312,
+            0.0,
+            -6.901731014251709
+          ],
+          "bounds_max": [
+            7.427899360656738,
+            26.024887084960938,
+            9.170038223266602
+          ],
+          "triangles": 1464
+        }
+      ]
+    },
+    "bep_nature_bush_b": {
+      "file": "projects/valwood_world/models/bep_nature_bush_b_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.568376898765564,
+        0.0,
+        -0.6002836227416992
+      ],
+      "bounds_max": [
+        0.568376898765564,
+        2.601080894470215,
+        0.6002832651138306
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_b_near.glb",
+          "sha256": "e87b0cd181e538032fe4467030ae0bc66cba406323287c14ab4fcb4639b78921",
+          "bounds_min": [
+            -0.568376898765564,
+            0.0,
+            -0.6002836227416992
+          ],
+          "bounds_max": [
+            0.568376898765564,
+            2.6000001430511475,
+            0.6002832651138306
+          ],
+          "triangles": 1378
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_bush_b_mid.glb",
+          "sha256": "5b9e61b16b83dbaeb85041f766731b4f7bf78cb4d485fd9b735a7a2f05d7247b",
+          "bounds_min": [
+            -0.568376898765564,
+            0.0,
+            -0.6002836227416992
+          ],
+          "bounds_max": [
+            0.568376898765564,
+            2.601080894470215,
+            0.6002832651138306
+          ],
+          "triangles": 689
+        }
+      ]
+    },
+    "bep_nature_clover": {
+      "file": "projects/valwood_world/models/bep_nature_clover_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.5431368947029114,
+        0.0,
+        -0.5513845086097717
+      ],
+      "bounds_max": [
+        0.5431368947029114,
+        0.2200000286102295,
+        0.5513845086097717
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_clover_near.glb",
+          "sha256": "a6b8e4fe0406f6cdcb983820811a6d962312890fc9fa8f4c4be0ba867abf23e0",
+          "bounds_min": [
+            -0.5431368947029114,
+            0.0,
+            -0.5513845086097717
+          ],
+          "bounds_max": [
+            0.5431368947029114,
+            0.2200000286102295,
+            0.5513845086097717
+          ],
+          "triangles": 121
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_clover_mid.glb",
+          "sha256": "509442f0b4474229a901e691ac08865f8e35156f7711ae0f7b679e97189ab5d5",
+          "bounds_min": [
+            -0.5431368947029114,
+            0.0,
+            -0.5513845086097717
+          ],
+          "bounds_max": [
+            0.5431368947029114,
+            0.2200000286102295,
+            0.5513845086097717
+          ],
+          "triangles": 59
+        }
+      ]
+    },
+    "bep_nature_fern": {
+      "file": "projects/valwood_world/models/bep_nature_fern_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.7451407313346863,
+        0.0,
+        -0.8749336004257202
+      ],
+      "bounds_max": [
+        0.749424934387207,
+        0.9499999284744263,
+        0.8749334812164307
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_fern_near.glb",
+          "sha256": "f8336254c37d366e249b0c9c52d9dbdd141c735ec243e609cd9dc76c6967f691",
+          "bounds_min": [
+            -0.7451407313346863,
+            0.0,
+            -0.8749336004257202
+          ],
+          "bounds_max": [
+            0.7451407313346863,
+            0.9499999284744263,
+            0.8749334812164307
+          ],
+          "triangles": 1083
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_fern_mid.glb",
+          "sha256": "63086b748f9c0ded5ad909803093bb85632309d0fb6b6b115adcb03b0906ec4b",
+          "bounds_min": [
+            -0.736036479473114,
+            0.0,
+            -0.8627454042434692
+          ],
+          "bounds_max": [
+            0.749424934387207,
+            0.9284546375274658,
+            0.8660228252410889
+          ],
+          "triangles": 540
+        }
+      ]
+    },
+    "bep_nature_oak": {
+      "file": "projects/valwood_world/models/bep_nature_oak_near.glb",
+      "grounding": "Root",
+      "collision": "Trunk",
+      "bounds_min": [
+        -7.958400249481201,
+        0.0,
+        -10.618611335754395
+      ],
+      "bounds_max": [
+        7.742401123046875,
+        22.005756378173828,
+        9.946481704711914
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_oak_near.glb",
+          "sha256": "111106b0d6012e1aa3343eddfcfa76b2a9afa61dcdd801f8edaf89a775dcf5f9",
+          "bounds_min": [
+            -7.958400249481201,
+            0.0,
+            -10.618611335754395
+          ],
+          "bounds_max": [
+            7.742401123046875,
+            22.0,
+            9.946481704711914
+          ],
+          "triangles": 3532
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_oak_mid.glb",
+          "sha256": "a845489857a05de022f6c30915556bb3a295dc04b8a987f675cdb6104727e6b1",
+          "bounds_min": [
+            -7.958400249481201,
+            0.0,
+            -10.618611335754395
+          ],
+          "bounds_max": [
+            7.742401123046875,
+            22.005756378173828,
+            9.946481704711914
+          ],
+          "triangles": 1766
+        }
+      ]
+    },
+    "bep_nature_reed": {
+      "file": "projects/valwood_world/models/bep_nature_reed_near.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -1.0102099180221558,
+        0.0,
+        -1.004063606262207
+      ],
+      "bounds_max": [
+        1.0099549293518066,
+        1.2512447834014893,
+        1.0040634870529175
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_nature_reed_near.glb",
+          "sha256": "a151221f642a46b11fce7b4a83fdc73180801415b21ac03317ab3d75a9e1c9fa",
+          "bounds_min": [
+            -1.0099550485610962,
+            0.0,
+            -1.004063606262207
+          ],
+          "bounds_max": [
+            1.0099549293518066,
+            1.2500001192092896,
+            1.0040634870529175
+          ],
+          "triangles": 824
+        },
+        {
+          "file": "projects/valwood_world/models/bep_nature_reed_mid.glb",
+          "sha256": "2c3a1c7197ee768d2c0885f7a1f0ebb8a863295e63017884aab1c4cbb06eb81b",
+          "bounds_min": [
+            -1.0102099180221558,
+            0.0,
+            -1.004063606262207
+          ],
+          "bounds_max": [
+            1.0099549293518066,
+            1.2512447834014893,
+            1.0040634870529175
+          ],
+          "triangles": 453
+        }
+      ]
+    },
+    "bep_prop_bucket": {
+      "file": "projects/valwood_world/models/bep_prop_bucket_near.glb",
+      "grounding": "Support",
+      "collision": "None",
+      "bounds_min": [
+        -0.27951499819755554,
+        0.0,
+        -0.23089098930358887
+      ],
+      "bounds_max": [
+        0.27951499819755554,
+        0.8710379004478455,
+        0.23089098930358887
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/bep_prop_bucket_near.glb",
+          "sha256": "892fb343abb3017e1e76bcf6367a180fbc52f852488a7c61b6f3e448458c1483",
+          "bounds_min": [
+            -0.27951499819755554,
+            0.0,
+            -0.23089098930358887
+          ],
+          "bounds_max": [
+            0.27951499819755554,
+            0.8710379004478455,
+            0.23089098930358887
+          ],
+          "triangles": 1672
+        },
+        {
+          "file": "projects/valwood_world/models/bep_prop_bucket_mid.glb",
+          "sha256": "751cd565d8a0d8fbe628e0d88c8bdc2b13cd32689750f9eb1ad9fc81f5770000",
+          "bounds_min": [
+            -0.2669612765312195,
+            0.0,
+            -0.23060688376426697
+          ],
+          "bounds_max": [
+            0.2669612765312195,
+            0.8683013916015625,
+            0.23060688376426697
+          ],
+          "triangles": 479
+        }
+      ]
+    },
+    "demo_sign_baker": {
+      "file": "projects/valwood_world/models/demo_sign_baker_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.08799999952316284,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.08799999952316284,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_baker_near.glb",
+          "sha256": "e98f946a92325419326d0ad845cb4355a3385e08487f96c50975cda6b084fdd9",
+          "bounds_min": [
+            -0.08799999952316284,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.08799999952316284,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 464
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_baker_mid.glb",
+          "sha256": "6ade3934ddd402b50cfc930395f126565fc3cd1dd0fb9a47d14c9a8df8167b8a",
+          "bounds_min": [
+            -0.08799999952316284,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.08799999952316284,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 336
+        }
+      ]
+    },
+    "demo_sign_herbalist": {
+      "file": "projects/valwood_world/models/demo_sign_herbalist_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.07000000029802322,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.07000000029802322,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_herbalist_near.glb",
+          "sha256": "5ae2e8f20412dbf1129aca0c4e10f61d5acb11aafac9a1db81fee6668f6fbed3",
+          "bounds_min": [
+            -0.07000000029802322,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07000000029802322,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 182
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_herbalist_mid.glb",
+          "sha256": "eae4ec8118ee34875c11f94a2f34a7c50f8a9965794218d18380a9675bce957d",
+          "bounds_min": [
+            -0.07000000029802322,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07000000029802322,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 134
+        }
+      ]
+    },
+    "demo_sign_tavern": {
+      "file": "projects/valwood_world/models/demo_sign_tavern_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.07400000095367432,
+        0.0,
+        -0.02500000037252903
+      ],
+      "bounds_max": [
+        0.07400000095367432,
+        0.949999988079071,
+        0.9200000166893005
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/demo_sign_tavern_near.glb",
+          "sha256": "08d28842ea2ab34b52a764a363b6bd680f60eb60c58229b9ee21007576b78387",
+          "bounds_min": [
+            -0.07400000095367432,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07400000095367432,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 492
+        },
+        {
+          "file": "projects/valwood_world/models/demo_sign_tavern_mid.glb",
+          "sha256": "c875f9d16b4f508ac98a10f9840f9d34c7fb4d2c3788293ef7c320045f96b9f3",
+          "bounds_min": [
+            -0.07400000095367432,
+            0.0,
+            -0.02500000037252903
+          ],
+          "bounds_max": [
+            0.07400000095367432,
+            0.949999988079071,
+            0.9200000166893005
+          ],
+          "triangles": 444
+        }
+      ]
+    },
+    "purchased_goods_bread": {
+      "file": "projects/valwood_world/models/purchased_goods_bread_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.21288233995437622,
+        0.0,
+        -0.21014763414859772
+      ],
+      "bounds_max": [
+        0.21030735969543457,
+        0.16270148823969066,
+        0.21022318303585052
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_bread_near.glb",
+          "sha256": "3c72aa01628a43c5b561a44b440a96f22aa6e6732fcbb94379b30ac09daffc52",
+          "bounds_min": [
+            -0.2098698914051056,
+            0.0,
+            -0.21014763414859772
+          ],
+          "bounds_max": [
+            0.21030735969543457,
+            0.16087894824704563,
+            0.21022318303585052
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_bread_mid.glb",
+          "sha256": "5a09c4a69ea79dad2c6fdc20bc66434ebecf14a8e297cbd3f3e042fdf24861be",
+          "bounds_min": [
+            -0.21288233995437622,
+            0.0,
+            -0.2096966952085495
+          ],
+          "bounds_max": [
+            0.21019238233566284,
+            0.16270148823969066,
+            0.20938512682914734
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_goods_cheese": {
+      "file": "projects/valwood_world/models/purchased_goods_cheese_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.15035223960876465,
+        0.0,
+        -0.15039728581905365
+      ],
+      "bounds_max": [
+        0.15062734484672546,
+        0.15387093157914933,
+        0.14988680183887482
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_cheese_near.glb",
+          "sha256": "14a2799b1b854b427908d6e1b93e52970b9674158ba27d769be9545d904f6a58",
+          "bounds_min": [
+            -0.15035223960876465,
+            0.0,
+            -0.150181844830513
+          ],
+          "bounds_max": [
+            0.15062734484672546,
+            0.15387093157914933,
+            0.14988680183887482
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_cheese_mid.glb",
+          "sha256": "e63876abf1b191f0b59a72967bd78dfda8f103a989593081aa28a9642b876fcb",
+          "bounds_min": [
+            -0.15035223960876465,
+            0.0,
+            -0.15039728581905365
+          ],
+          "bounds_max": [
+            0.14931343495845795,
+            0.15365296919480897,
+            0.1494344025850296
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_goods_tankard": {
+      "file": "projects/valwood_world/models/purchased_goods_tankard_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.12901996076107025,
+        0.0,
+        -0.09509652853012085
+      ],
+      "bounds_max": [
+        0.12940433621406555,
+        0.24026211936143227,
+        0.09271596372127533
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_goods_tankard_near.glb",
+          "sha256": "d23a8ad9dcabab3aa12d71fe5040f868be65e6c08ce90bfbed94e6bc55261482",
+          "bounds_min": [
+            -0.12901996076107025,
+            0.0,
+            -0.09249262511730194
+          ],
+          "bounds_max": [
+            0.12916839122772217,
+            0.24016062820737716,
+            0.09271596372127533
+          ],
+          "triangles": 3822
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_goods_tankard_mid.glb",
+          "sha256": "1e71a58da422f0653a8713bb135b2fb0180d400707f0301f876410b906375676",
+          "bounds_min": [
+            -0.12886810302734375,
+            0.0,
+            -0.09509652853012085
+          ],
+          "bounds_max": [
+            0.12940433621406555,
+            0.24026211936143227,
+            0.0920296460390091
+          ],
+          "triangles": 930
+        }
+      ]
+    },
+    "purchased_prop_barrel_small": {
+      "file": "projects/valwood_world/models/purchased_prop_barrel_small_near.glb",
+      "grounding": "Foundation",
+      "collision": "Box",
+      "bounds_min": [
+        -0.2397402822971344,
+        0.0,
+        -0.24307432770729065
+      ],
+      "bounds_max": [
+        0.2397402822971344,
+        0.5795306080690352,
+        0.24307432770729065
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_barrel_small_near.glb",
+          "sha256": "0b71eb1cf3b2c669965c259bbfca79903484d7f983040f9d164383a7deb2c79a",
+          "bounds_min": [
+            -0.2397402822971344,
+            0.0,
+            -0.24307432770729065
+          ],
+          "bounds_max": [
+            0.2397402822971344,
+            0.5792214274406433,
+            0.24307432770729065
+          ],
+          "triangles": 1006
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_barrel_small_mid.glb",
+          "sha256": "fcadd26aa27f4d04bac4373ec1b9e32441872afda521bcb857615f842f6f3ea5",
+          "bounds_min": [
+            -0.2397402822971344,
+            0.0,
+            -0.23940178751945496
+          ],
+          "bounds_max": [
+            0.2397402822971344,
+            0.5795306080690352,
+            0.2394292801618576
+          ],
+          "triangles": 497
+        }
+      ]
+    },
+    "purchased_prop_rope": {
+      "file": "projects/valwood_world/models/purchased_prop_rope_near.glb",
+      "grounding": "Foundation",
+      "collision": "None",
+      "bounds_min": [
+        -0.030894000083208084,
+        0.0,
+        -0.3321670591831207
+      ],
+      "bounds_max": [
+        0.030894000083208084,
+        0.05876375362277031,
+        0.3321670591831207
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/purchased_prop_rope_near.glb",
+          "sha256": "94cd50c73654c9540839b1b07969580649fda35dcc90950dc84c939abdf98c8b",
+          "bounds_min": [
+            -0.030894000083208084,
+            0.0,
+            -0.3321670591831207
+          ],
+          "bounds_max": [
+            0.030894000083208084,
+            0.05876375362277031,
+            0.3321670591831207
+          ],
+          "triangles": 120
+        },
+        {
+          "file": "projects/valwood_world/models/purchased_prop_rope_mid.glb",
+          "sha256": "50301af7f9f8bb6f4b483bf789054b43be35771b3d3298683a1df8fe2a3fa996",
+          "bounds_min": [
+            -0.030894000083208084,
+            0.0,
+            -0.3321670591831207
+          ],
+          "bounds_max": [
+            0.030894000083208084,
+            0.05876375362277031,
+            0.3321670591831207
+          ],
+          "triangles": 120
+        }
+      ]
+    },
+    "showcase_sorrel": {
+      "file": "projects/valwood_world/models/showcase_sorrel.glb",
+      "grounding": "Root",
+      "collision": "None",
+      "bounds_min": [
+        -0.1155829131603241,
+        0.0,
+        -0.12292821705341339
+      ],
+      "bounds_max": [
+        0.1155829131603241,
+        0.0563465915620327,
+        0.12292821705341339
+      ],
+      "lods": [
+        {
+          "file": "projects/valwood_world/models/showcase_sorrel.glb",
+          "sha256": "aff049702b0468101afd8ab0f9fd9c762cc00968de0f9e4b6b1c163b551827d3",
+          "bounds_min": [
+            -0.1155829131603241,
+            0.0,
+            -0.12292821705341339
+          ],
+          "bounds_max": [
+            0.1155829131603241,
+            0.0563465915620327,
+            0.12292821705341339
+          ],
+          "triangles": 2260
+        }
+      ]
+    }
+  },
+  "support_checks": [
+    {
+      "id": "polish_tavern_table_0_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.42,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_0_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.6,
+        3.6
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_1_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        4.58,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_1_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.4,
+        3.6
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_2_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.42,
+        -3.8800000000000003
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_2_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.6,
+        -3.5
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_2_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.0,
+        -3.66
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_2_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.86,
+        -3.9800000000000004
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_3_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.78,
+        -1.18
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_tavern_table_3_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        6.6000000000000005,
+        -0.8
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_0_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -8.35,
+        -7.43
+      ],
+      "support_elevation_m": 0.7209999737739563,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_0_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -7.55,
+        -7.43
+      ],
+      "support_elevation_m": 0.7209999737739563,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_0_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.45,
+        -7.43
+      ],
+      "support_elevation_m": 0.7209999737739563,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_0_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -3.5,
+        -7.43
+      ],
+      "support_elevation_m": 0.7209999737739563,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_0_4",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -2.55,
+        -7.43
+      ],
+      "support_elevation_m": 0.7209999737739563,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_1_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -8.35,
+        -7.43
+      ],
+      "support_elevation_m": 1.721000033378601,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_1_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -7.55,
+        -7.43
+      ],
+      "support_elevation_m": 1.721000033378601,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_1_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.45,
+        -7.43
+      ],
+      "support_elevation_m": 1.721000033378601,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_1_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -3.5,
+        -7.43
+      ],
+      "support_elevation_m": 1.721000033378601,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_1_4",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -2.55,
+        -7.43
+      ],
+      "support_elevation_m": 1.721000033378601,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_2_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -8.35,
+        -7.43
+      ],
+      "support_elevation_m": 2.5710000572204588,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_2_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -7.55,
+        -7.43
+      ],
+      "support_elevation_m": 2.5710000572204588,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_2_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.45,
+        -7.43
+      ],
+      "support_elevation_m": 2.5710000572204588,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_2_3",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -3.5,
+        -7.43
+      ],
+      "support_elevation_m": 2.5710000572204588,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_back_bar_stock_2_4",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -2.55,
+        -7.43
+      ],
+      "support_elevation_m": 2.5710000572204588,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_0_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -7.6,
+        -3.7
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_0_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -7.3,
+        -3.5
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_1_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -6.1,
+        -3.7
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_1_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.8,
+        -3.5
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_2_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.4,
+        -3.7
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_2_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.1000000000000005,
+        -3.5
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_3_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -2.4,
+        -3.7
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "polish_bar_service_3_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -2.1,
+        -3.5
+      ],
+      "support_elevation_m": 1.1359999952316284,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_sign_arcade_baker",
+      "parent": "demo_finish_instances.txt:5",
+      "actual_source_wall_triangle_probe": true,
+      "parent_local_xy": [
+        -1.358695652173913,
+        2.7717391304347823
+      ],
+      "parent_front_z": 3.1712261988364143,
+      "clearance_m": 0.015,
+      "minimum_head_clearance_m": 2.4
+    },
+    {
+      "id": "finish_sign_arcade_apothecary",
+      "parent": "demo_finish_instances.txt:13",
+      "actual_source_wall_triangle_probe": true,
+      "parent_local_xy": [
+        1.4880952380952381,
+        3.0357142857142856
+      ],
+      "parent_front_z": 2.2639900937634643,
+      "clearance_m": 0.015,
+      "minimum_head_clearance_m": 2.4
+    },
+    {
+      "id": "finish_sign_tavern",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_wall_triangle_probe": true,
+      "parent_local_xy": [
+        -2.9,
+        2.55
+      ],
+      "parent_front_z": 8.175000190734863,
+      "clearance_m": 0.015,
+      "minimum_head_clearance_m": 2.4
+    },
+    {
+      "id": "finish_tavern_service_0_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -6.05,
+        3.42
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_0_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -5.77,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8256732602587054,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_0_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -6.25,
+        3.62
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_1_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -3.95,
+        3.42
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_1_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -3.67,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_1_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        -4.15,
+        3.62
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_2_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        3.95,
+        3.42
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_2_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        4.23,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8256732602587054,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_2_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        3.75,
+        3.62
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_3_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        6.05,
+        3.42
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_3_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        6.33,
+        3.2199999999999998
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_3_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.85,
+        3.62
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_4_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.15,
+        -0.98
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_4_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        5.430000000000001,
+        -1.18
+      ],
+      "support_elevation_m": 0.8256732536072289,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_4_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        4.95,
+        -0.78
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_5_0",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        7.25,
+        -0.98
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_5_1",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        7.53,
+        -1.18
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    },
+    {
+      "id": "finish_tavern_service_5_2",
+      "parent": "castle_streets_instances.txt:3",
+      "actual_source_triangle_probe": true,
+      "local_xz": [
+        7.05,
+        -0.78
+      ],
+      "support_elevation_m": 0.8110000071525574,
+      "clearance_m": 0.006
+    }
+  ],
+  "optional_rejections": [
+    {
+      "id": "polish_delivery_0_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -136,
+        51
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -1.7472601079940797
+      ]
+    },
+    {
+      "id": "polish_delivery_0_1",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -135.15,
+        51.2
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -1.8786622812774056
+      ]
+    },
+    {
+      "id": "polish_delivery_0_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -136.65,
+        51.55
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.196055757444574
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_0_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -136.9,
+        51.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.2741766288876506
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_0_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -136.55,
+        52.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.8423988557841664
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_0_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -136.20000000000002,
+        51.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.3116051641837876
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_0_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -135.85,
+        52.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.900703688578636
+      ]
+    },
+    {
+      "id": "polish_delivery_1_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -126,
+        51
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -1.8948112448579137
+      ]
+    },
+    {
+      "id": "polish_delivery_1_1",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -125.15,
+        51.2
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -1.8571206685578927
+      ]
+    },
+    {
+      "id": "polish_delivery_1_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -126.65,
+        51.55
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.1530308877374544
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_1_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.9,
+        51.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.308320717367368
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_1_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -126.55000000000001,
+        52.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.819839768334634
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_1_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.2,
+        51.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.2817044958502013
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_1_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -125.85000000000001,
+        52.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "cross_55",
+        -2.8615910208134467
+      ]
+    },
+    {
+      "id": "polish_delivery_3_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -126,
+        -22
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.08444236103617409
+      ]
+    },
+    {
+      "id": "polish_delivery_3_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -126.65,
+        -21.45
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.44802676665763086
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_3_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.9,
+        -21.2
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.5787648606794807
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_3_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -126.55000000000001,
+        -21.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.6043281214492638
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_3_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.2,
+        -21.2
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.0868305386733893
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_3_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -125.85000000000001,
+        -21.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.05253725852125013
+      ]
+    },
+    {
+      "id": "polish_delivery_5_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -126,
+        102
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.06826254979079993
+      ]
+    },
+    {
+      "id": "polish_delivery_5_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -126.65,
+        102.55
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.4403883363083515
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_5_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.9,
+        102.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.6159511710418323
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_5_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -126.55000000000001,
+        103.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.6488515439367727
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_5_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.2,
+        102.8
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.09863636614243043
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_5_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -125.85000000000001,
+        103.0
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.17282028830995644
+      ]
+    },
+    {
+      "id": "polish_wall_herbs_6_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -151.85,
+        -68.0
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "polish_delivery_6_0",
+        0.07752413156515559
+      ]
+    },
+    {
+      "id": "polish_tavern_table_0_2",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -149.99999999979354,
+        -78.55999999984903
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_tavern_table_0_3",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -149.85999999979356,
+        -78.87999999984902
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_tavern_table_1_2",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -139.99999999979354,
+        -78.55999999984903
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_tavern_table_1_3",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -139.85999999979356,
+        -78.87999999984902
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_tavern_table_3_2",
+      "alias": "purchased_goods_bread",
+      "local_xz": [
+        -138.79999999979356,
+        -82.95999999984902
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_tavern_table_3_3",
+      "alias": "purchased_goods_cheese",
+      "local_xz": [
+        -138.65999999979354,
+        -83.27999999984903
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "castle_streets_instances.txt:3"
+    },
+    {
+      "id": "polish_arcade_footing_0_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.45495803344257,
+        31.754007065844608
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:210",
+        0.058211716325839546
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_0_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.44342664621111,
+        31.011338224578072
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:211",
+        -0.482265122599987
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_1_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.54986262933805,
+        20.167689254278052
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:218",
+        0.013291448467160905
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_1_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.37612856563685,
+        19.309434339691162
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:219",
+        -0.585979076752956
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_1",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -69.33000000050173,
+        13.782115051113099
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.3098021210886458
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_2_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -70.9654632074725,
+        7.3500350157003504
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:41",
+        0.05221218441141673
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_2_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -70.80176482906003,
+        6.833425096333348
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:41",
+        -0.14243758552881047
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_3_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -70.90423607223586,
+        -4.045146838303085
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:230",
+        -0.22475960105330106
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_3_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -70.78550145170242,
+        -5.3089750909365305
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:231",
+        -0.17832589372197205
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_4_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -63.930556931551635,
+        29.401885026514943
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:52",
+        -0.10420294709615519
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_5_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -64.17515256643959,
+        16.375920341278835
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:244",
+        0.0790762805286569
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_5_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -64.27625096667472,
+        17.214264530477642
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:245",
+        -0.4272825519006247
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_6_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.22879201258615,
+        3.9005028490518443
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:60",
+        -0.1218470788701751
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_6_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.18844110683553,
+        4.949819823850438
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        -0.031224506059054136
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_6",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.32000000015798,
+        10.217884948965118
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.23051166422267289
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_7_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.44174977841756,
+        -7.368449336151019
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:255",
+        0.05352606369289692
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_7_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.68621727363853,
+        -6.485279900303287
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:256",
+        -0.26413665791823604
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_8_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.48106371329737,
+        -19.819584008212537
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:70",
+        0.03074152667939245
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_8_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.63661506771624,
+        -18.878067584007994
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:70",
+        -0.12885868007851542
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_9_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -68.6800006354898,
+        26.595594098728146
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.07952066491223453
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_9_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -68.56499797747163,
+        26.29923602852642
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.3405415723916906
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_9_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -68.65560468730779,
+        26.37150254832555
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.0871853883999113
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_9_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -68.46591184440085,
+        26.276367861933647
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.304470192955817
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_9_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -68.69080390255738,
+        26.466061945165688
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.11637743489619268
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_9",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -68.44528720836372,
+        26.17476955968971
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        -0.2953457534191094
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_10_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -77.28020889216506,
+        26.433414484069115
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        0.0662569321415134
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_10_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -77.07169945725403,
+        26.54576277298096
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        -0.36015142810053646
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_10_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -77.19958516133495,
+        26.438517657378778
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        -0.028417184336404944
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_10_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -77.13101216196843,
+        26.12278123047841
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        -0.2507851621408861
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_10",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -77.15100941198435,
+        26.076220671798257
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        -0.20361328317851246
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_11_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.7395142862311,
+        7.442150109547634
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.16217311816526714
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_11_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.78038483224624,
+        7.059964075037903
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.19047067462040623
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_11_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.94118968004747,
+        7.11876780877643
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.28819069034329103
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_11_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.85206044091251,
+        7.105249613409963
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.029963538312995586
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_11_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.85121253399186,
+        7.1660522676298
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.2223855079154623
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_11",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -69.80918882533108,
+        6.8728569967245505
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.027105183102148822
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_12_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.80003610528868,
+        6.4407381252541285
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.10743783454036604
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_12_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.79548843519835,
+        6.233065066340889
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.17181458235996716
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_12_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.95320742403655,
+        6.236459619110698
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.21305028722613095
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_12_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.89111384234111,
+        6.0703147722808675
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.1689176165325933
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_12_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -69.87179360168976,
+        6.1843303926603665
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.1249928199473328
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_12",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -69.76326139332113,
+        6.122962403739699
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.1448199673686167
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_13_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -77.76631929061978,
+        2.7364978436361973
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        0.013444349397360611
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_13_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -77.58545840781541,
+        2.7186270296666315
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        -0.4415445221260228
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_13_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -77.84785516233022,
+        2.765644992625625
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        0.09552803156739742
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_13_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -77.58961991708297,
+        2.8163481014016387
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        -0.36631853379067536
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_13_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -77.78265542549306,
+        2.7563744586371017
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        0.04694984740035579
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_13",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -77.67913039637043,
+        2.375529709409496
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:7",
+        -0.22189920324886714
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_14_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -64.73112563311402,
+        33.77936869765181
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.18767072643399285
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_14_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -64.75960125949578,
+        33.7585331398559
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.2541271718742616
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_15_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -64.75705582913079,
+        29.057762748236595
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.2809656367878287
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_15_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.01218868386376,
+        29.036138983174048
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        -0.302370025874254
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_15_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -64.73524163388434,
+        29.12237900455093
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.08827459601296106
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_15",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -64.68748610874552,
+        29.350349384563003
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.24124232761030984
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_16_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -64.79860788324241,
+        29.900566864679288
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.2825841144179483
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_16_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.00287017701645,
+        29.85383504818372
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        -0.26899509463619153
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_16_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -64.71247882845576,
+        29.79578778331384
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.36543100344774093
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_16_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -64.84445791629756,
+        29.962998295762524
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        -0.07900591146939384
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_16",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -64.77485104226432,
+        30.087277326450963
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.13317967175925471
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_17_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -56.94417438694674,
+        32.93044934574584
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        0.015804840167241707
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_17_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -57.13723853077849,
+        33.02984551601941
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        -0.48724606119613156
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_17_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -56.89922984322313,
+        33.38373889490291
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        0.09565084893343112
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_17_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -57.019177243592516,
+        33.21357989767381
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        -0.35792250653736346
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_17_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -56.92855932336306,
+        33.303792960088415
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        0.04695510483183085
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_17",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -57.05086960291178,
+        33.62447029042497
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        -0.2076043931336926
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_18_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.83655778885819,
+        4.563412017690169
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        0.010116415047967564
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_18_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -66.04455499511435,
+        4.640931537117973
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.04141995146269151
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_18_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.79184146031761,
+        4.50137830038801
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        0.027424217577468823
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_18_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.83851405102128,
+        4.750540542648065
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.3184323206184795
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_18_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.6883136769837,
+        4.549446535789057
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        -0.07806964771245362
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_18",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.70753629392905,
+        4.814560996353057
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        -0.3230219216535346
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_19_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.69817011927536,
+        4.472645019367677
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        0.014963963064523966
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_19_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.81623878535636,
+        4.666776598181386
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.20490396264741284
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_19_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.66691462222285,
+        4.572949485947894
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        -0.03574919701018686
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_19_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.51374448672709,
+        4.698341246920006
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:60",
+        0.012397198144984856
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_19_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -65.38196726687949,
+        4.597885650239756
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        0.0427053083962079
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_19",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.51472360873836,
+        4.702091096219656
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:62",
+        -0.2808858314704423
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_20_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -66.14705668027294,
+        5.400705128917534
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.2561667564984881
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_20_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -66.10381350040213,
+        5.322132434156186
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.1658562369220017
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_20_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -66.03558031395626,
+        5.294746474103145
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.23154627465123057
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_20",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.838178802609,
+        5.554989231070204
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.22107416599848595
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_21_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -59.275443018859974,
+        9.557621430960474
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:11",
+        -0.07945008686032651
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_21_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -59.20880451056371,
+        9.972963781059489
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:11",
+        -0.32250719781151105
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_21_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -59.16325830595146,
+        9.968186306025105
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:11",
+        0.05157059965782196
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_21_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -59.271378744884366,
+        9.942325149827004
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:11",
+        -0.3654689850628685
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_21",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -59.28786610641655,
+        10.236117814599234
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:11",
+        -0.18909495364281526
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_22_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -66.14004968327986,
+        -13.615588830785068
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_5",
+        0.2568761430032235
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_22_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.89496830025836,
+        -13.427032194311666
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_5",
+        0.3836743570005702
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_23_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -66.29728190699778,
+        -18.77209879733812
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        0.03542399720163303
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_23_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -66.23063623988328,
+        -18.670835130935764
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        -0.36317637306591166
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_23_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -66.06895781049728,
+        -18.886185681607984
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        -0.040702248286553555
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_23_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.72590114022543,
+        -18.687396859772534
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        -0.26977564260001685
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_23_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -66.01705877144154,
+        -18.898905043625824
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        -0.029883456756721216
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_23",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -65.73464410706102,
+        -18.637649100224344
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:71",
+        -0.08586749199241694
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_25_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -60.25301198613837,
+        -14.390929590783394
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        -0.041635573487013744
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_25_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -60.338526606639036,
+        -14.115333800666832
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        -0.42183533537835416
+      ]
+    },
+    {
+      "id": "polish_arcade_footing_25_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -60.317122725844726,
+        -14.199044917804054
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        -0.446476142680325
+      ]
+    },
+    {
+      "id": "polish_arcade_delivery_bucket_25",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -60.275078978205876,
+        -13.889904739825473
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        -0.19409907397459136
+      ]
+    },
+    {
+      "id": "demo_work_corner_2_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -134,
+        -68
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.027152066300836997
+      ]
+    },
+    {
+      "id": "demo_work_corner_2_1",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -133.15,
+        -67.9
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.6859854699039715
+      ]
+    },
+    {
+      "id": "demo_work_green_2_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -133.98000000000002,
+        -66.89999999999999
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.051949310394196035
+      ]
+    },
+    {
+      "id": "demo_work_green_2_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -133.54000000000002,
+        -67.1
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.13763894594292225
+      ]
+    },
+    {
+      "id": "demo_work_corner_3_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -126,
+        -65
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.07017024370750524
+      ]
+    },
+    {
+      "id": "demo_work_corner_3_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -126.65,
+        -64.6
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.42723064004993827
+      ]
+    },
+    {
+      "id": "demo_work_green_3_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -127.3,
+        -64.1
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.9787409472133471
+      ]
+    },
+    {
+      "id": "demo_work_green_3_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -126.86,
+        -63.89999999999999
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.7697141135123197
+      ]
+    },
+    {
+      "id": "demo_work_green_3_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.42,
+        -64.1
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.0808637919657006
+      ]
+    },
+    {
+      "id": "demo_work_green_3_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -125.98,
+        -63.89999999999999
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.07979725179152986
+      ]
+    },
+    {
+      "id": "demo_work_corner_4_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -134,
+        66
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.03898476983009769
+      ]
+    },
+    {
+      "id": "demo_work_corner_4_1",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -133.15,
+        66.1
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.6465088936900819
+      ]
+    },
+    {
+      "id": "demo_work_green_4_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -133.98000000000002,
+        67.10000000000001
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.045083941981824416
+      ]
+    },
+    {
+      "id": "demo_work_green_4_4",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -133.54000000000002,
+        66.9
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.12401473360910498
+      ]
+    },
+    {
+      "id": "demo_work_corner_5_0",
+      "alias": "bep_prop_barrel",
+      "local_xz": [
+        -126,
+        113
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.02273702411670009
+      ]
+    },
+    {
+      "id": "demo_work_corner_5_2",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -126.65,
+        113.4
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.4331202245229774
+      ]
+    },
+    {
+      "id": "demo_work_green_5_0",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -127.3,
+        113.9
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.9711433898288596
+      ]
+    },
+    {
+      "id": "demo_work_green_5_1",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -126.86,
+        114.10000000000001
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.7262603818716818
+      ]
+    },
+    {
+      "id": "demo_work_green_5_2",
+      "alias": "starting_celandine",
+      "local_xz": [
+        -126.42,
+        113.9
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        -0.09660701997491261
+      ]
+    },
+    {
+      "id": "demo_work_green_5_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -125.98,
+        114.10000000000001
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "west_high_street",
+        0.10753838591089859
+      ]
+    },
+    {
+      "id": "finish_trade_0_0",
+      "alias": "purchased_prop_barrel_small",
+      "local_xz": [
+        -69.26999999994327,
+        32.57615834825084
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:210",
+        -0.14310195522956093
+      ]
+    },
+    {
+      "id": "finish_trade_0_2",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -68.74999999994327,
+        31.771522719932058
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        -0.07422552350880085
+      ]
+    },
+    {
+      "id": "finish_trade_0_3",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -68.97999999994326,
+        25.0662258172755
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.3285677666168453
+      ]
+    },
+    {
+      "id": "finish_wall_green_0_0",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.66999999994327,
+        25.42384165208385
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        0.06050988316535211
+      ]
+    },
+    {
+      "id": "finish_wall_green_0_2",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.66999999994327,
+        24.976821858573413
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:5",
+        -0.02896040138679723
+      ]
+    },
+    {
+      "id": "finish_trade_1_0",
+      "alias": "purchased_prop_barrel_small",
+      "local_xz": [
+        -69.27000000050172,
+        21.022356185756653
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:218",
+        -0.0984821720378406
+      ]
+    },
+    {
+      "id": "finish_trade_1_1",
+      "alias": "purchased_prop_rope",
+      "local_xz": [
+        -69.31000000050172,
+        13.37987943252179
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.282138909055745
+      ]
+    },
+    {
+      "id": "finish_trade_1_2",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -68.75000000050173,
+        20.11732604392621
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_2",
+        0.018843606631484433
+      ]
+    },
+    {
+      "id": "finish_trade_1_3",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -68.98000000050172,
+        12.575408195339172
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        -0.09495496455985208
+      ]
+    },
+    {
+      "id": "finish_wall_green_1_0",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.67000000050172,
+        12.97764381393048
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:6",
+        0.015100495605352648
+      ]
+    },
+    {
+      "id": "finish_wall_green_1_2",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.67000000050172,
+        12.474849290691346
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:6",
+        -0.00018146676779906556
+      ]
+    },
+    {
+      "id": "finish_wall_green_1_3",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -69.51000000050172,
+        12.223452029071776
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_3",
+        0.3257945284806697
+      ]
+    },
+    {
+      "id": "finish_trade_tool_2",
+      "alias": "village_toolkit_claw_hammer",
+      "local_xz": [
+        -64.06000000010434,
+        27.851425990809147
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "finish_trade_2_0"
+    },
+    {
+      "id": "finish_trade_2_2",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -64.58000000010433,
+        28.559855142821018
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_1",
+        0.3039407645067952
+      ]
+    },
+    {
+      "id": "finish_wall_green_2_0",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -63.66000000010434,
+        34.14857400869245
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        0.016797190696500763
+      ]
+    },
+    {
+      "id": "finish_wall_green_2_2",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -63.66000000010434,
+        34.542145759810154
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:9",
+        -0.002001292340523264
+      ]
+    },
+    {
+      "id": "finish_trade_tool_3",
+      "alias": "village_toolkit_claw_hammer",
+      "local_xz": [
+        -65.73000000019017,
+        -20.35660968028965
+      ],
+      "reason": "unsupported_source_footprint",
+      "detail": "finish_trade_3_0"
+    },
+    {
+      "id": "finish_trade_3_2",
+      "alias": "purchased_prop_sack",
+      "local_xz": [
+        -66.25000000019017,
+        -19.5563725022501
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:70",
+        -0.17917597143188857
+      ]
+    },
+    {
+      "id": "finish_trade_3_3",
+      "alias": "bep_prop_bucket",
+      "local_xz": [
+        -66.02000000019018,
+        -12.887729351920509
+      ],
+      "reason": "public_road_obb",
+      "detail": [
+        "bakers_arcade_5",
+        0.32856776648340535
+      ]
+    },
+    {
+      "id": "finish_wall_green_3_0",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.33000000019018,
+        -13.243390319938088
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        0.05260802230702666
+      ]
+    },
+    {
+      "id": "finish_wall_green_3_2",
+      "alias": "bep_nature_clover",
+      "local_xz": [
+        -65.33000000019018,
+        -12.798814109916115
+      ],
+      "reason": "source_obb",
+      "detail": [
+        "demo_finish_instances.txt:13",
+        -0.02889240467328591
+      ]
+    }
+  ],
+  "forest": {
+    "rejected_forest_candidates": {
+      "support_relief": 9
+    }
+  },
+  "protected_sources": {
+    "authored": "d2c640ad40e4b2bef5b8ceff6d97f93653bc46426aeb7ade6e8b49d5f8fe709e",
+    "starting_area": "18943b502ae02d5474db2f263db6f888a2ab805d4b34d151d62fa5129db59cf6",
+    "rainforest": "6b514812b92c36ec2e1d6b18f1fea32f0e21463f224d0173ab16b7afe23080cc",
+    "castle_village": "d2652c6b8f548662451a08b3d2ea7b0752d94903f2c62490e50892e161f02ec8",
+    "tanthoon_bandit_camp": "58052455d7e5a7130eeb6264ad60c482e00376b1e95a0fd06c13f7ebe0dff07b",
+    "castle_streets": "f3682959838d5fb708e48aa2d128bce52f99c9f5855573d4c094ec15b50080c9",
+    "bep_environment": "8b679d25a52af25498f2973f9808cf85f38e31873f946da3d12553559fbf04b3",
+    "demo_finish": "3cb8810caa8c3654e840a76244d447a88ddc2371c37086d4690412ecade0ea18"
+  },
+  "recipe_sha256": "475d5d001d3113201e0ceb8fe7add426c20392b994842b3767a70995d49fbe84",
+  "new_texture_images": 0,
+  "staged_sha256": "6549653f193398a36f9f947a0d2af7ef86de015e32a124178a4a5f802ac246a1",
+  "runtime_published": true
+}

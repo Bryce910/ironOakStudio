@@ -1,0 +1,11 @@
+Visual upgrade, 2026-10-30
+
+Forest Leaves 03: Poly Haven, CC0, https://polyhaven.com/a/forest_leaves_03
+License: https://polyhaven.com/license
+Diffuse, OpenGL normal, ARM and displacement source downloaded through the public API; 2K source; source sizes and hashes recorded in forest_leaves_03.provenance.json.
+
+Window timber: existing Poly Haven Brown Planks 08 CC0 material, https://polyhaven.com/a/brown_planks_08
+Window stone: existing project village stone material; original project provenance retained.
+Window assemblies and plant compositions: original procedural geometry/placement for Valwood.
+Grass clusters, palms, shrubs, roots and ferns: existing owned/project assets, existing licenses retained.
+Characters: existing purchased Shield Knight and existing live NPC. Original geometry and animations retained. No newly purchased character is included.

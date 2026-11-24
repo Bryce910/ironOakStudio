@@ -1,0 +1,25 @@
+Valwood Windows Opening Apartment controls and animated TV r5 add-on — 2026-11-03
+
+Required base: a fresh extracted copy of Valwood_Windows_Orientation_2026-11-02.zip.
+Original ZIP SHA256:
+b0c6930073421971f4f8632bf388726a46a8a2afa0feed52558939811c7bb1db
+
+Extract this ENTIRE opening add-on into that extracted transport folder, beside
+bundle-index.json, its original installer, bin/python and the blobs directory.
+Keep all original transport files. No combat or Grandstone add-on is required.
+
+Run Install_Opening.bat with the new output name below. It creates a NEW independent opening seed outside the
+transport folder. An existing destination is rejected; artist work is preserved.
+Keep earlier opening/playtest folders. The installer rejects an existing destination.
+This refresh includes independent room light switches and an animated television, alongside the gaming corner and enclosed bathroom. Read OPENING_GUIDE.md for the controls.
+Allow about16GB free for that installed seed, in addition to the extracted base.
+Recommended new folder for this refresh:
+Install_Opening.bat --output "%USERPROFILE%\Desktop\Valwood_Opening_Apartment_Controls_r5_Seed"
+
+Inside the installed seed, read OPENING_GUIDE.md and run Launch_Opening.bat.
+The seed begins without saved progress and keeps its own settings/checkpoints.
+Unity and a separate Python installation are not needed.
+
+The current Linux runtime passed the extended 33-check journey/control workflow.
+This add-on contains the newly built Windows runtime; Windows/Wine compatibility results are recorded with the release evidence.
+Actual Windows GPU/controller/audio rehearsal remains outstanding; retain logs/opening-latest.log.

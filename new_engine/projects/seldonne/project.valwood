@@ -1,0 +1,5 @@
+# Valwood project version 1
+name=Valwood Studio | Seldonne
+spawn=-14 42 3.14
+camera=0 0.16 7
+day_fraction=0.32

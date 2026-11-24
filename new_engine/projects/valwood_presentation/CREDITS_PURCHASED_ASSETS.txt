@@ -1,0 +1,65 @@
+USER-PROVIDED PURCHASED ASSETS
+
+These sources were supplied by the project owner as purchased content.
+No Creative Commons or other open license is asserted for these purchases.
+The original Downloads archives remain unchanged.
+
+Medieval_Village_ALL.rar
+  Six house families, four shop families, boundary walls, two closed side
+  gates, barrels and crates. Near houses retain repeating source roof/stone
+  UVs and shared PBR maps; mid facades retain source-corrected atlases.
+  Near houses now retain shared source-UV wood/plaster materials and scalar
+  red paint masks; bounded atlases cover residual decals/windows. Previous
+  mid geometry/material/image bytes remain unchanged; sources are retained.
+  The converted composite SM_Castle is the vendor's background-only asset
+  and is inactive; the complete original village keep remains in the scene.
+  Runtime models: purchased_village_*.glb
+  Sources and conversion records: assets/purchased/medieval_village/
+  Offline cooker: tools/build_purchased_village.py
+
+  The authored village_stall_red/blue/gold aliases also use purchased Tent1,
+  Tent2 and Tent3 cloth albedo/normal/ARM and resident source wood maps.
+  Their original structures, counter supports and collisions are preserved;
+  cloth geometry and UVs are authored adaptations. Purchased pixels remain
+  proprietary rather than inheriting the original prototype mesh's CC0 label.
+  Records: assets/purchased/market_canopies/PROVENANCE.json
+  Offline cooker: tools/build_source_market_canopies.py
+
+Medieval_Village/ (owner-provided UE4.26 source project)
+  Material-instance/master-graph metadata and full TextureSource PNGs were
+  read as data without launching Unreal or executing project scripts.
+  Recovered wood/plaster RGB masks, third plaster albedo and soil/stone
+  ground PBR maps retain source hashes and purchase provenance.
+  Original source project files remain unchanged.
+  Source audit: assets/purchased/medieval_village/unreal-material-source-audit.json
+  Source reader: tools/audit_purchased_village_source.py
+
+NPC_Character_Pack_Update.zip
+  All five supplied male families are active: Character01 merchants,
+  Character02 craftsmen, Character03 traders, Character04 wayfarers and
+  Character05 travelers. Forty-four static poses render 29 purchased male
+  residents. The retained female civilians, guards and archers keep their
+  separate source credits; the complete village crowd contains 64 residents.
+  No animation clips were supplied: relaxed idles and an IK walking cycle
+  were authored offline for this custom engine. Character01/02 FBXs contain
+  meshes without a usable armature or skin weights in the UE4, UE5 and Unity
+  variants. Their matching Character04 bind rig was adapted offline using
+  closest-triangle skin-weight transfer; donor hashes, measured distances
+  and conversions are recorded in the purchased character manifest.
+  Runtime models: purchased_character_*.glb
+  Sources and conversion records: assets/purchased/characters/
+  Offline cooker: tools/build_purchased_characters.py
+
+fantasy-food-8-props-pack(1).zip
+  Bread, cheese and roast chicken for market displays.
+tavern-drinks-tableware-props(1).zip
+  Wooden tankards for tables and market displays.
+  Runtime models: purchased_goods_*.glb
+  Sources and conversion records: assets/purchased/market_goods/
+  Offline cooker: tools/build_purchased_market_goods.py
+
+The model manifests retain selected archive members, original-file hashes,
+material conversions, geometric and image budgets, and derived asset hashes.
+Unused purchased models are not loaded into the running scene.
+
+Source-UV facade pass: all six near houses retain authored wood/plaster UVs, tangents and scalar red vertex paint with shared original prepared PBR/mask image bytes. Residual decals/windows use bounded 1K/512/256 atlases. Source HeightLerp is an explicitly approximate native reconstruction; no Unreal runtime is included. All mid GLBs and original Downloads remain unchanged.

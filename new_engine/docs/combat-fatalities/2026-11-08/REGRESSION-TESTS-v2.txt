@@ -1,0 +1,3 @@
+PASS 34646 blood lifecycle checks: real body events, simultaneous defenders, deduplication, wave rebasing, retry, pause, duration expiry, world anchoring, finite inputs and fixed saturation budgets
+world_first_journey: 827 checks; fresh controls, earned weapon, real duel, defeat/retry, one-time reward, restart and corrupt rollback at 30/60/144 Hz
+world_first_journey_checkpoint: 1261 checks; exact legacy schema, atomic nested progress, earned ledger, corruption rollback and no replayed rewards

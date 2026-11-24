@@ -1,0 +1,22 @@
+WEATHER THUNDER RECORDINGS
+
+The four source recordings are dedicated to the public domain under CC0 1.0.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+
+near-crack-01.wav: Fission9 — https://freesound.org/people/Fission9/sounds/534023/
+Source: https://cdn.freesound.org/previews/534/534023_9395330-hq.mp3
+Public HQ preview derivative, converted/trimmed/levelled as declared in manifest.
+
+near-crack-02.wav: seth-m — https://freesound.org/people/seth-m/sounds/458015/
+Source: https://cdn.freesound.org/previews/458/458015_3366749-hq.mp3
+Public HQ preview derivative, converted/trimmed/levelled as declared in manifest.
+
+distant-rumble-01.wav: Fission9 — https://freesound.org/people/Fission9/sounds/581124/
+Source: https://cdn.freesound.org/previews/581/581124_9395330-hq.mp3
+Public HQ preview derivative, converted/trimmed/levelled as declared in manifest.
+
+distant-rumble-02.wav: dr19 — https://freesound.org/people/dr19/sounds/414064/
+Source: https://cdn.freesound.org/previews/414/414064_5984825-hq.mp3
+Public HQ preview derivative, converted/trimmed/levelled as declared in manifest.
+
+The prior project amb_thunder.wav is NOT included in this bank; its upstream redistribution grant was not recorded. No new license assertion is made about that older file.

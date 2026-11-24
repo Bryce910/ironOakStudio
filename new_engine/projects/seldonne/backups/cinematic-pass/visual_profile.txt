@@ -1,0 +1,13 @@
+toon_shading=0
+weather_override=0
+exposure_mul=1.12
+bloom_enabled=1
+bloom_strength=0.14
+ssao_strength=0.48
+fxaa_enabled=1
+height_fog_density=0.012
+height_fog_base=8
+fog_density=0.0016
+wetness=0.10
+overcast=0.12
+dof_aperture=0

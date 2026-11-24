@@ -1,0 +1,48 @@
+VISIBLE EQUIPMENT + ONE PLAYER PROFILE — 2026-11-08
+
+The accepted local opening/story and arena launchers now use the same owned
+items, equipped armor, available money, purchases and reward receipts.
+
+Equipment
+- Four independent armor slots visibly select body clothing/mail, helmet,
+  gloves and footwear. Empty body/head/hands/feet have civilian alternatives.
+- Selection follows the player in third person, first-person arms, shadows,
+  swimming and all available weapon loadouts, including the arena bow.
+- Equipping selects already-loaded primitives; it does not reload assets.
+- Uses existing purchased assets. Dedicated hero/animation refinement remains
+  separate; the original first-person sleeve shapes remain visibly rough.
+
+Progression
+- Arena victories pay 10 copper for every selected defeated opponent. Incomplete
+  fights and defeats pay nothing. Repeated result frames cannot duplicate money.
+- Arena Setup/Results inventory and the town merchant sell armor and provisions.
+- Purchases, consumed provisions and gear survive checkpoint reloads/restarts.
+- Quest tokens follow the checkpoint; the story reward and raider loot are once
+  only. Already-owned mail/helm do not block supplies or duplicate armor.
+- Old story/arena progress is imported once; later imports retain selected gear.
+- The bow is still loaned for arena practice and is filtered from story use.
+
+Controls
+I / controller View-Back: inventory. Select using mouse, D-pad or left stick.
+X: equip/use. U / controller Y: remove armor. B / Esc: close.
+
+Acceptance
+- Final native arena: 84 checks, 45 captured checkpoints, genuine wins/losses,
+  all five weapon choices, directional combat and exactly 90 private test coins.
+- Final native story: 37 checks, 18 captured journey checkpoints, complete
+  apartment/TV/camp/fight/loot/reward/town/save-load flow; 765.598 metres walked.
+  No scripted pose, story-state or health writes, and no streaming failures.
+- Normal UI integration: buy mail45c and helmet20c from earned90c; equip14%
+  protection; load story with25c and same gear; loot supplies without duplicating
+  already-owned armor; repeat search andF8 preserve exact totals.
+- 1,891 unified profile checks; existing inventory/combat/motion regression
+  suites and250 equipment-mask cycles passed.
+- Original user save/settings files preserved. No QA coins copied to the user.
+- Native arena mean59.96 FPS; story49.38 FPS. These workflows include streaming,
+  captures and save/load, and do not certify a strict minimum frame rate.
+
+Platforms
+Local Linux launchers updated and accepted. Windows executable compiled as a
+candidate; Windows graphics/input acceptance and portable ZIP refresh remain.
+Keep shared-profile/player.progress beside both prepared projects when moving
+the accepted local projects. CURRENT.json records exact binaries and evidence.

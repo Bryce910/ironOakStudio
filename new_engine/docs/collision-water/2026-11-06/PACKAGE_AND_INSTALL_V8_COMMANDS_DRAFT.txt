@@ -1,0 +1,90 @@
+Final runtime v8: root-only command sequence (DRAFT; NOT EXECUTED)
+
+Runtime revision and archive revision are independent. The next unused private
+archive revision is candidate5, built from the clean final runtime/source v8.
+Do not rename/rebind diagnostic v7 or previous v6 evidence as final v8.
+
+Prerequisites: both actual runtime-v8 READY files, exact BUILD_PLAN SHAs, all
+12 direct core cases plus both full journeys, actual clicked/saved R12/depth1
+Pond provenance/captures, and independent root inspection of actual images.
+No new runtime or archive hash is assumed here before those files exist.
+
+Water/packaging agent owns the following CPU-only private package operations:
+
+  python3 docs/collision-water/2026-11-06/build_windows_overlay.py \
+    --runtime-root ABSOLUTE_RUNTIME_WINDOWS_V8 \
+    --runtime-plan-sha256 EXACT_WINDOWS_V8_PLAN_SHA --revision 5
+
+  python3 docs/collision-water/2026-11-06/test_windows_overlay.py \
+    --candidate-receipt docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CANDIDATE-v5.json \
+    --revision 5
+
+  python3 docs/collision-water/2026-11-06/test_collision_payload_binding.py \
+    --runtime-plan ABSOLUTE_RUNTIME_WINDOWS_V8/BUILD_PLAN.json \
+    --candidate-receipt docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CANDIDATE-v5.json
+
+The protocol receipt must have its actual final archive SHA, Windows plan SHA
+and executable SHA. The payload test writes COLLISION_PAYLOAD_BINDING_CPU.json;
+preserve the final version under a new versioned proof filename before any
+later test run. Expected current counts are987 protocol and235 payload checks,
+including all201 shipped collision members and41 runtime/DLL/Python members.
+These are technical checks, not visual approval or physical Windows testing.
+
+Root then validates the actual final artifacts (CPU only):
+
+  python3 docs/collision-water/2026-11-06/prepare_finalization_v8.py \
+    --revision v8 \
+    --native-runtime ABSOLUTE_RUNTIME_NATIVE_V8 --native-plan-sha256 NATIVE_V8_PLAN_SHA \
+    --windows-runtime ABSOLUTE_RUNTIME_WINDOWS_V8 --windows-plan-sha256 WINDOWS_V8_PLAN_SHA \
+    --candidate docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CANDIDATE-v5.json \
+    --candidate-sha256 ACTUAL_CANDIDATE5_ZIP_SHA \
+    --protocol docs/collision-water/2026-11-06/WINDOWS_OVERLAY_CPU-v5.json \
+    --payload-proof FINAL_VERSIONED_PAYLOAD_PROOF \
+    --write --output docs/collision-water/2026-11-06/finalization-v8
+
+This writes raw-backed full-journey adapters only after both real journeys
+pass. The output INSTALL-COMMAND.txt is not executed by the finalizer.
+It records source delta since v5, historical full-nine coverage honestly,
+current direct four-route reruns, all direct final workflows and exact ZIP bytes.
+
+Read-only seven-target native preflight, using the generated actual adapter:
+
+  python3 docs/collision-water/2026-11-06/install_local.py \
+    --runtime ABSOLUTE_RUNTIME_NATIVE_V8 --plan-sha NATIVE_V8_PLAN_SHA \
+    --target quality-editor --target quality-opening --target playtests \
+    --target environment-editors \
+    --opening-journey docs/collision-water/2026-11-06/finalization-v8/INSTALL-JOURNEY-native-v8.json
+
+Exact seven targets:
+quality-editor, quality-opening, playtest-city, playtest-jungle,
+playtest-grandstone, environment-city, environment-grandstone.
+
+Root installation GO is the finalizer's generated command, only AFTER root
+authors ROOT-VISUAL-REVIEW-v8.json for the actual new native binary. The minimum
+installer visual gate is passed:true plus native_binary_sha256 equal to the
+actual accepted binary; the review should also list exact Windows binding,
+actual inspected image references/hashes, reviewer, time and limitations.
+A pending template or a prior v6 approval must not be supplied as v8 approval.
+
+For GO, install_local additionally needs native water/workflow and full-journey
+adapter, Windows water/workflow and full-journey adapter, actual native
+Grandstone obstacle report (24 source partitions), the native full-journey
+opening gate, and --run. Root must already have closed the owned application;
+the installer acquires the instance lock and refuses any active Valwood
+process. It never kills a process.
+
+Preservation contract: ordinary backups of all mutable project controls,
+saves/preferences/shaders, launchers and prior CURRENT; dynamic live-map and
+active model revision audit; only new plan-selected collision payload and two
+guarded water shaders; no model/ground/audio bank copying or world.studio,
+project.valwood, asset identity, save or artist workspace rewrite. Launcher
+changes occur only after all selected targets pass preflight, and shared
+playtest runtime changes require all three playtest projects prepared.
+
+Existing Windows artist workspaces remain untouched by Linux installation.
+The new cumulative Windows archive is used with the existing full bundle,
+preserving original project identities and authenticated NPC/wind update data.
+Receiving physical Windows graphics/controller acceptance remains pending.
+
+Publication is separate and owned by root. None of these preparation helpers
+publishes the candidate, changes live CURRENT, or supplies visual approval.

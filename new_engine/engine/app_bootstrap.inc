@@ -1,0 +1,22 @@
+    SDL_Init(SDL_INIT_VIDEO|SDL_INIT_AUDIO);
+    audio_init(g_options.master_vol);
+    audio_set_volumes(g_options.master_vol,g_options.music_vol,g_options.sfx_vol);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION,3);SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION,3);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK,SDL_GL_CONTEXT_PROFILE_CORE);
+    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER,1);SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE,24);
+    SDL_GL_SetAttribute(SDL_GL_MULTISAMPLEBUFFERS,1);SDL_GL_SetAttribute(SDL_GL_MULTISAMPLESAMPLES,4);
+    SDL_Window *win=SDL_CreateWindow("Lords of Mashito",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,WIN_W,WIN_H,SDL_WINDOW_OPENGL|SDL_WINDOW_RESIZABLE);
+    SDL_GLContext ctx=SDL_GL_CreateContext(win);
+    SDL_GL_SetSwapInterval(1);glEnable(GL_DEPTH_TEST);glEnable(GL_MULTISAMPLE);
+    glClearColor(0.04f,0.03f,0.06f,1.0f);
+    srand((unsigned)time(NULL));
+    editor_ui_startup(&g_editor_ui,win,ctx);
+
+    int win_w=WIN_W,win_h=WIN_H;
+    HUD hud; hud_init(&hud,win_w,win_h);
+    splash_init();
+    input_runtime_try_open_gamepad(&input_rt);
+    pfx_init(&g_pfx, win_w, win_h);
+    shader_lab_refresh(&g_shader_lab);
+    reflect_init(&g_reflect, win_w, win_h);
+    bool show_startup_splash=true;

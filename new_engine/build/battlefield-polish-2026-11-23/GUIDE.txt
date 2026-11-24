@@ -1,0 +1,15 @@
+Valwood battlefield polish candidate — Linux
+
+Built candidate: 019d39dbb7c1a1d82a59be1b64e6093e30671b181e459855554f4f6056626b9a.
+Status: CPU checks and build passed; native visual, controls, loading and performance review pending. Not published or certified AAA.
+The tested published N1 demo and the separate N2 diagnostic baseline remain unchanged.
+
+This candidate preserves the complete opening: apartment/TV, battlefield arrival and duck/struggle, three escape fights, forest/bridge, campsite introduction, road encounter, provisions/reward, village and Thanks for playing.
+Changes: nearby-first scenery coverage within the existing memory cap; retained material fallbacks for single-mesh assets; defer the first hidden battlefield render-bank preparation in the apartment; 54 owned props/plants, varied ground-material zones, and real shallow ruts/berms in two existing terrain tiles.
+
+Graphics: F10 opens graphics settings. Cinematic and independent High/Ultra effects, water, foliage distance/density, shadows and original 4K color texture options remain available. Native 4K applies where the purchased source assets provide it. All authored cinematics remain at every preset. Presets preserve independent texture/display choices. Select native 100% resolution and disable automatic image quality when comparing fixed-resolution output on capable hardware.
+A reduced material fallback under memory pressure is temporary coverage, not proof every selected High/Ultra texture is resident. Near requests still use the selected edge; the automatic pool can grow on supported hardware with verified free memory.
+
+Known limits: the previous published route passed its full normal-input rehearsal, but its RX 5300 campsite benchmark was about 20 FPS at 1200x675 rendering in a 1600x900 window. The target was unmet. This candidate's actual frame pacing and visual improvement remain unmeasured. Character close-ups, repeated distant tree silhouettes and some paired animation remain below the target standard. Terrain CPU tests prove sampled support/slope safety, not native movement or appearance.
+Do not infer acceptance from the build, manifests, diagrams or CPU tests. Fresh private native review and exact scene/build receipts are required before guarded publication. Saves, coins and user settings are excluded from scene publication.
+No Windows build is being prepared.

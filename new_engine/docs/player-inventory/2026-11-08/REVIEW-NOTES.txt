@@ -1,0 +1,5 @@
+Post-rehearsal review items:
+- Synchronize new-game story weapon with inventory after the loan grant; a previous run's weapon must not survive a fresh game.
+- Inventory filter changes should focus/select the first visible item for controller navigation.
+- Block any same-frame mouse or gameplay event after inventory closes until all controls return neutral.
+- Verify actual mouse target selection, controller equip/use/close, persisted loot and consumed items with the renderer.

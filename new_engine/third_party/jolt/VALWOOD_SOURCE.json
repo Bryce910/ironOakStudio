@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/jrouwe/JoltPhysics/releases/tag/v5.6.0",
+  "tag": "v5.6.0",
+  "archive_sha256": "6e069ee0172478cc78182047aac87e5310ba14a67a53348ae14cc37801fd3f8e",
+  "license": "MIT",
+  "scope": "Jolt and Build only; no vendor sample assets"
+}

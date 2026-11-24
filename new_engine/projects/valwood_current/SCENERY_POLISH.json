@@ -1,0 +1,73 @@
+{
+  "bank_material_dabs_reused": 21,
+  "bank_material_family": 1,
+  "canonical_surface_library_images": 12,
+  "clear_combat_apron_radius_m": 4,
+  "counts": {
+    "near_aliases": {
+      "bep_nature_bush_a": 22,
+      "bep_nature_bush_b": 11,
+      "bep_nature_clover": 160,
+      "bep_nature_fern": 80,
+      "opening_verge_grass_broad": 295,
+      "opening_verge_grass_long": 296
+    },
+    "new_model_files": 0,
+    "new_texture_files": 0,
+    "paint_dabs_reused": 21,
+    "preserved_camp_clumps": 22,
+    "recomposed": 864,
+    "remote_donors": 132,
+    "renderer_merged_records": 8163,
+    "serialized_records": 8161,
+    "unchanged_solids": 76
+  },
+  "gpu_review_pending": true,
+  "grass_counts": {
+    "opening_verge_grass_broad": 89,
+    "opening_verge_grass_long": 502
+  },
+  "grass_far_m": 75,
+  "grass_near_split_m": 18,
+  "grounded_fern_records": 92,
+  "local_atlas_grass_casts_shadows": false,
+  "low_card_patch_islands": 128,
+  "manifest_sha256": "2a23985af98d00fc99e16cbfe120f2910c83d8080ebae92488a205d15d2c4ab6",
+  "material_only_optimization": true,
+  "maximum_axis_stretch": 1.12,
+  "meadow_tint": [
+    0.43,
+    0.57,
+    0.37
+  ],
+  "mid_lod_geometry": "Same mesh reused; no triangle reduction",
+  "moved_inner_photo_accents": 64,
+  "moved_shrubs": 6,
+  "new_local_asset_aliases": {
+    "opening_verge_grass_broad": "cinematic_grass_0",
+    "opening_verge_grass_long": "cinematic_grass_1"
+  },
+  "new_nonblocking_props": 8,
+  "new_prop_effective_cast_shadow": true,
+  "new_prop_shadow_draw_distance_m": 30,
+  "new_shadow_casters": 8,
+  "paint_footprints_and_feathers_unchanged": true,
+  "paint_strokes_consolidated": 13,
+  "patch_tuft_sites": 4608,
+  "photographic_replacements": 591,
+  "project": "scenery-project-v11",
+  "replaced_photographic_tufts": 384,
+  "retained_photo_accents": 207,
+  "rooted_interactive_wind_family": "Exact cinematic_grass_0/1 stems",
+  "schema": "valwood.opening-scenery-polish.v11",
+  "scope": "Fresh4sameimmutablebanks; richerownedatlasgrassonlylocalaliases, layeredclover/fern/shrubs andscallopedlitterislands.3mcentralstripand4mcombatapronkeptclear.AllterrainwaterrouteheightsunchangedpendingexactCPUproof.",
+  "source_records": 8169,
+  "source_terrain_and_water_heights_unchanged": true,
+  "source_transform_normalization": {
+    "appearance_and_geometry_preserved": true,
+    "maximum_linear_matrix_coefficient_delta": 1.3877787807814457e-17,
+    "rows": 33
+  },
+  "visible_fern_source_pivot_gap_m": 0.3516409695148468,
+  "walkable_route_width_m": 3
+}

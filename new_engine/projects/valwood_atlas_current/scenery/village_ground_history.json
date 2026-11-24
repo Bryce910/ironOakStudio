@@ -1,0 +1,445 @@
+{
+  "schema_version": 1,
+  "description": "District-wide material history from actual foundations, market and service cargo, authored streets, cart wheels, courtyard foot traffic and local drainage.",
+  "bounds_local_xz": [
+    -225,
+    -225,
+    225,
+    225
+  ],
+  "side": 2049,
+  "traffic": [
+    {
+      "id": "crown-footway",
+      "points": [
+        [
+          0,
+          -145
+        ],
+        [
+          0,
+          220
+        ]
+      ],
+      "width": 1.35,
+      "strength": 0.64
+    },
+    {
+      "id": "market-browsing",
+      "points": [
+        [
+          17,
+          -12
+        ],
+        [
+          17,
+          32
+        ],
+        [
+          18.8,
+          32
+        ],
+        [
+          18.8,
+          -12
+        ]
+      ],
+      "width": 0.58,
+      "strength": 0.83
+    },
+    {
+      "id": "merchants-walk-west",
+      "points": [
+        [
+          60.95,
+          -25
+        ],
+        [
+          60.95,
+          47
+        ]
+      ],
+      "width": 0.52,
+      "strength": 0.76
+    },
+    {
+      "id": "merchants-walk-east",
+      "points": [
+        [
+          62.55,
+          -25
+        ],
+        [
+          62.55,
+          47
+        ]
+      ],
+      "width": 0.52,
+      "strength": 0.72
+    },
+    {
+      "id": "cross-street-footway",
+      "points": [
+        [
+          -90,
+          55
+        ],
+        [
+          90,
+          55
+        ]
+      ],
+      "width": 1.1,
+      "strength": 0.54
+    },
+    {
+      "id": "delivery-wheel-left",
+      "points": [
+        [
+          -0.72,
+          105
+        ],
+        [
+          -0.72,
+          58
+        ],
+        [
+          10.4,
+          42
+        ],
+        [
+          27.55,
+          31.3
+        ]
+      ],
+      "width": 0.15,
+      "strength": 0.89
+    },
+    {
+      "id": "delivery-wheel-right",
+      "points": [
+        [
+          0.72,
+          105
+        ],
+        [
+          0.72,
+          58
+        ],
+        [
+          11.6,
+          43
+        ],
+        [
+          28.95,
+          30.3
+        ]
+      ],
+      "width": 0.15,
+      "strength": 0.89
+    },
+    {
+      "id": "eastern-service",
+      "points": [
+        [
+          30.5,
+          31
+        ],
+        [
+          30,
+          19
+        ],
+        [
+          29.5,
+          6
+        ],
+        [
+          27,
+          -18
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.58
+    },
+    {
+      "id": "western-service",
+      "points": [
+        [
+          -32,
+          33
+        ],
+        [
+          -30,
+          17
+        ],
+        [
+          -29,
+          -18
+        ]
+      ],
+      "width": 0.65,
+      "strength": 0.5
+    },
+    {
+      "id": "market-row-west-footway",
+      "points": [
+        [
+          -83,
+          54.3
+        ],
+        [
+          88,
+          54.3
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.68
+    },
+    {
+      "id": "market-row-east-footway",
+      "points": [
+        [
+          -83,
+          55.7
+        ],
+        [
+          88,
+          55.7
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.72
+    },
+    {
+      "id": "southgate-west-footway",
+      "points": [
+        [
+          -36.7,
+          56
+        ],
+        [
+          -36.7,
+          174
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.75
+    },
+    {
+      "id": "southgate-east-footway",
+      "points": [
+        [
+          -35.3,
+          56
+        ],
+        [
+          -35.3,
+          174
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.68
+    },
+    {
+      "id": "coopers-west-footway",
+      "points": [
+        [
+          -81,
+          150.3
+        ],
+        [
+          81,
+          150.3
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.67
+    },
+    {
+      "id": "coopers-east-footway",
+      "points": [
+        [
+          -81,
+          151.7
+        ],
+        [
+          81,
+          151.7
+        ]
+      ],
+      "width": 0.55,
+      "strength": 0.72
+    },
+    {
+      "id": "castle-entry-way",
+      "points": [
+        [
+          0,
+          -60
+        ],
+        [
+          0,
+          -133
+        ]
+      ],
+      "width": 1.1,
+      "strength": 0.6
+    }
+  ],
+  "drainage": [
+    {
+      "id": "well-overflow",
+      "points": [
+        [
+          18.7,
+          39.2
+        ],
+        [
+          22,
+          38
+        ],
+        [
+          27,
+          35.8
+        ],
+        [
+          32,
+          33
+        ]
+      ],
+      "width": 0.35,
+      "strength": 0.76
+    },
+    {
+      "id": "merchants-west-gutter",
+      "points": [
+        [
+          59.05,
+          -26
+        ],
+        [
+          59.05,
+          49
+        ]
+      ],
+      "width": 0.23,
+      "strength": 0.63
+    },
+    {
+      "id": "merchants-east-gutter",
+      "points": [
+        [
+          64.45,
+          -26
+        ],
+        [
+          64.45,
+          49
+        ]
+      ],
+      "width": 0.25,
+      "strength": 0.66
+    },
+    {
+      "id": "market-row-north-gutter",
+      "points": [
+        [
+          -80,
+          52.35
+        ],
+        [
+          86,
+          52.35
+        ]
+      ],
+      "width": 0.24,
+      "strength": 0.48
+    },
+    {
+      "id": "market-row-south-gutter",
+      "points": [
+        [
+          -80,
+          57.65
+        ],
+        [
+          86,
+          57.65
+        ]
+      ],
+      "width": 0.24,
+      "strength": 0.48
+    },
+    {
+      "id": "southgate-west-gutter",
+      "points": [
+        [
+          -38.65,
+          62
+        ],
+        [
+          -38.65,
+          171
+        ]
+      ],
+      "width": 0.24,
+      "strength": 0.48
+    },
+    {
+      "id": "southgate-east-gutter",
+      "points": [
+        [
+          -33.35,
+          62
+        ],
+        [
+          -33.35,
+          171
+        ]
+      ],
+      "width": 0.24,
+      "strength": 0.48
+    },
+    {
+      "id": "coopers-north-gutter",
+      "points": [
+        [
+          -78,
+          148.35
+        ],
+        [
+          78,
+          148.35
+        ]
+      ],
+      "width": 0.24,
+      "strength": 0.48
+    }
+  ],
+  "damp_pockets": [
+    {
+      "id": "well-draw-water",
+      "center": [
+        18.7,
+        39.2
+      ],
+      "radii": [
+        2.15,
+        1.35
+      ],
+      "strength": 0.78
+    },
+    {
+      "id": "inn-washing",
+      "center": [
+        64.3,
+        39.8
+      ],
+      "radii": [
+        0.85,
+        1.8
+      ],
+      "strength": 0.4
+    }
+  ]
+}

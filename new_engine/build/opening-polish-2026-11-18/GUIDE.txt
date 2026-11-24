@@ -1,0 +1,24 @@
+Valwood — third-person opening polish (Linux)
+
+Run /home/computer/Desktop/final_engine/Launch_Valwood_Demo.sh
+Choose BEGIN THE JOURNEY to start from the apartment.
+A new journey starts in third person, wearing plain work clothes.
+V or right-stick click switches first/third person; your choice persists.
+Exploration has closer shoulder framing; combat pulls back for visibility.
+The apartment camera blends from the last opening shot into player control.
+Stowed movement now uses captured human arm swing; combat footwork remains.
+The campsite and first road have regrouped understory and varied ground.
+Outfit changes reuse identical attack tables; other loading costs remain.
+
+Follow the prompts: read the bills, play the TV game, arrive in the meadows,
+speak with the three travelers, receive the sword, recover the supplies,
+return to camp and follow the road into town. The town is this demo's endpoint.
+I / View opens inventory. Z / D-pad Down draws or stows the weapon.
+Esc / Menu pauses; use the pause menu for checkpoints and graphics.
+Continue Checkpoint preserves your existing progress and equipped armour.
+
+The existing face and finger animation still need further art work.
+The first NPC cinematic uses subtitles and in-game shots; narration awaits
+its supplied recording. First-person underwater sleeve framing needs polish.
+See review/FINAL_REVIEW.json for exact checks and performance limits.
+Linux update only; no Windows build was prepared.

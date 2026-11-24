@@ -1,0 +1,471 @@
+Final release build
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c engine/performance.c -o engine/performance.o
+Checking build dependencies...
+OK: sdl2
+OK: SDL2_mixer
+OK: SDL2_ttf
+g++ main.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/world_atlas.o engine/world_tiles.o engine/world_walk.o engine/world_viewer.o engine/world_models.o engine/world_cover.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o rpg -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+g++ -std=c++17 -O2 -Wall -Wextra -I. -Ithird_party/imgui -Ithird_party/imgui/backends -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DENGINE_ENABLE_IMGUI=1 -c engine/world_viewer.cpp -o engine/world_viewer.o
+Checking build dependencies...
+OK: sdl2
+OK: SDL2_mixer
+OK: SDL2_ttf
+g++ main.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/world_atlas.o engine/world_tiles.o engine/world_walk.o engine/world_viewer.o engine/world_models.o engine/world_cover.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o rpg -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+
+
+Full current test suite
+cc -std=c99 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/project_runtime_test.c engine/project_runtime.c -o /tmp/valwood-project-runtime-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-project-runtime-test
+Invalid value for --frames: -2
+Missing value for --project
+Invalid value for --view: missing
+Invalid value for --landmark: 
+Invalid value for --landmark: ../seldonne
+Invalid value for --landmark: name/child
+Invalid value for --landmark: white knight
+Invalid value for --landmark: north.east
+Invalid value for --landmark: name;echo
+Invalid value for --landmark: 
+
+Invalid value for --landmark: é
+Invalid value for --landmark: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+Missing value for --landmark
+Invalid value for --scenic: ../lake
+Missing value for --scenic
+[Project] Malformed project settings in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Malformed project settings in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Invalid spawn, camera, or clock in /tmp/valwood-project-test-yD8zoU/project.valwood
+[Project] Opened Unit Test at /tmp/valwood-project-test-yD8zoU
+[Project] Opened Valwood Atlas at /tmp/valwood-project-test-yD8zoU
+[Project] Opened Valwood Engine at /tmp/valwood-project-test-yD8zoU
+PASS project launch/landmark validation, isolated atlas bounds, import copies, duplicate protection, malformed assets, project state
+cc -std=c99 -O1 -g -fsanitize=address -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/audio_shutdown_test.c engine/audio.c -o /tmp/valwood-audio-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+ASAN_OPTIONS=detect_leaks=0 /tmp/valwood-audio-test
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+[Audio] optional SFX not found: sound_effects/snd_step.wav
+[Audio] optional SFX not found: sound_effects/snd_run.wav
+[Audio] optional SFX not found: sound_effects/snd_attack.wav
+[Audio] optional SFX not found: sound_effects/snd_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_death.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_die.wav
+[Audio] optional SFX not found: sound_effects/snd_jump.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball.wav
+[Audio] optional SFX not found: sound_effects/snd_fireball_hit.wav
+[Audio] optional SFX not found: sound_effects/snd_heal.wav
+[Audio] optional SFX not found: sound_effects/snd_menu_click.wav
+[Audio] optional SFX not found: sound_effects/snd_level_up.wav
+[Audio] optional SFX not found: sound_effects/snd_growl.wav
+[Audio] optional SFX not found: sound_effects/snd_enemy_atk.wav
+[Audio] SFX: sound_effects/amb_wind.wav
+[Audio] optional SFX not found: sound_effects/amb_bird.wav
+[Audio] optional SFX not found: sound_effects/amb_cricket.wav
+[Audio] optional SFX not found: sound_effects/amb_lava.wav
+[Audio] optional SFX not found: sound_effects/amb_crow.wav
+[Audio] optional SFX not found: sound_effects/amb_river.wav
+[Audio] optional SFX not found: sound_effects/amb_thunder.wav
+[Audio] optional SFX not found: sound_effects/amb_owl.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_rain.wav
+[Audio] optional SFX not found: sound_effects/amb_loop_night.wav
+[Audio] optional SFX not found: sound_effects/snd_dash.wav
+[Audio] optional SFX not found: sound_effects/snd_shield.wav
+[Audio] optional SFX not found: sound_effects/snd_meteor.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_0.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_1.wav
+[Audio] optional SFX not found: sound_effects/snd_animal_2.wav
+[Audio] optional SFX not found: sound_effects/amb_waterfall.wav
+[Audio] optional music not found: background_music/mus_explore.ogg
+[Audio] optional music not found: background_music/mus_combat.ogg
+[Audio] optional music not found: background_music/mus_menu.ogg
+[Audio] optional music not found: background_music/mus_biome_mountain.ogg
+[Audio] optional music not found: background_music/mus_biome_forest.ogg
+[Audio] optional music not found: background_music/mus_biome_lava.ogg
+[Audio] optional music not found: background_music/mus_biome_plains.ogg
+PASS shared audio fallback ownership, shutdown, and reinitialization
+g++ tests/studio_integration.o ufbx.o engine/audio.o engine/save.o engine/pause_menu.o engine/frame_runtime.o engine/input_runtime.o engine/combat.o engine/player_world.o engine/render_runtime.o engine/effects.o engine/editor_ui.o engine/asset_system.o engine/app_bootstrap.o engine/editor_runtime_state.o engine/editor_selection.o engine/project_runtime.o engine/performance.o engine/thumbnail_runtime.o engine/grass_scatter.o engine/texture_cache.o engine/world_atlas.o engine/world_tiles.o engine/world_walk.o engine/world_viewer.o engine/world_models.o engine/world_cover.o engine/editor_ui_imgui.o third_party/imgui/imgui.o third_party/imgui/imgui_draw.o third_party/imgui/imgui_tables.o third_party/imgui/imgui_widgets.o third_party/imgui/backends/imgui_impl_sdl2.o third_party/imgui/backends/imgui_impl_opengl3.o -o /tmp/valwood-studio-integration -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-studio-integration
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+Load 'imports/models/sign_idle.fbx': File not found
+Load 'imports/models/sign_idle.glb': cgltf parse failed (6)
+Load 'imports/models/sign_walk.fbx': File not found
+Load 'imports/models/sign_walk.glb': cgltf parse failed (6)
+Load 'imports/models/sign_run.fbx': File not found
+Load 'imports/models/sign_run.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack.fbx': File not found
+Load 'imports/models/sign_attack.glb': cgltf parse failed (6)
+Load 'imports/models/sign_attack2.fbx': File not found
+Load 'imports/models/sign_attack2.glb': cgltf parse failed (6)
+Load 'imports/models/sign_jump.fbx': File not found
+Load 'imports/models/sign_jump.glb': cgltf parse failed (6)
+Load 'imports/models/sign_death.fbx': File not found
+Load 'imports/models/sign_death.glb': cgltf parse failed (6)
+Load 'imports/models/sign_roll.fbx': File not found
+Load 'imports/models/sign_roll.glb': cgltf parse failed (6)
+Load 'imports/models/sign_block.fbx': File not found
+Load 'imports/models/sign_block.glb': cgltf parse failed (6)
+Load 'imports/models/sign_hit.fbx': File not found
+Load 'imports/models/sign_hit.glb': cgltf parse failed (6)
+[PropPlacer] Found 8 models in palette
+[PropPlacer] Found 1 models in palette
+[Assets] No cooked manifest at cooked/asset_manifest.csv, using raw assets
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=4540174)
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[Prop] 'imports/models/sign.glb' at (5.0,3.0,7.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[Scene] imports/models/sign_2.glb: 1 glTF meshes
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[Scene] imports/models/sign.glb: 1 glTF meshes
+[NPC] model[0] loaded: imports/models/sign.glb
+[SculptEd] Saved to terrain_sculpt.bin
+[PathEd] Saved 0 paths to paths_custom.txt
+[WZone] Saved 0 zones to water_zones.txt
+[Terrain] 'ground/cobblestone_path.png' not found — using sRGB fallback
+[Terrain] 'ground/cobblestone_path_nor.png' not found — using flat fallback
+[Terrain] 'ground/cobblestone_path_rgh.png' not found — using flat fallback
+[PathMat] albedo:fallback normal:fallback rough:fallback
+[WFalls] Saved 0 waterfalls to waterfalls.txt
+[RiverEd] C array:
+static const float river_custom[]={
+    };
+[RiverEd] Saved 0 points to river_custom.txt
+[PropPlacer] Saved 1 props to props_custom.txt
+[PropPlacer] C array:
+    prop_register(&g_props,"imports/models/sign.glb", 9.00f,4.00f,11.00f, 0,0.0f,0, 1.000f, PROP_COLL_AABB,0,0,0,0); /* pickable=0 item=0 count=1 */
+[ForestEd] Saved 0 trees to forest_custom.txt
+[GrassPaint] Saved to grass_mask.bin
+[WornPath] Saved to worn_path_mask.bin
+[TerrainBrush] Saved styles to terrain_style_mask.bin
+[FarmField] Saved to farm_field_mask.bin
+[WindEd] Saved 0 zones to wind_zones.txt
+[PlightEd] Saved 1 lights to placed_lights.txt
+[DecalEd] Saved 0 decals to decals_custom.txt
+[SzoneEd] Saved 0 sound zones to sound_zones.txt
+[VisualProfile] Saved visual_profile.txt
+[MarkerEd] Saved world_markers.txt
+[WorldFX] Saved world_fx_custom.txt
+[SpawnEd] Saved 0 spawn points to spawns_custom.txt
+[SpawnEd] C array:
+[NpcEd] Saved 0 NPC spawns to npcs_custom.txt
+[Terrain] Heightmap rebaked
+[Prop] 'imports/models/sign.glb' at (9.0,4.0,11.0) rot=(0.0,0.0,0.0) scale=1.00 coll=1
+[PropPlacer] Loaded 1 props from props_custom.txt
+[SculptEd] Loaded from terrain_sculpt.bin
+[PlightEd] Loaded 1 lights from placed_lights.txt
+PASS studio integration: validated import, search, model placement, transform/collision, Save World, landscape/light/readable round trip, shader compilation, shared-resource lifetime, terrain buffer cleanup, grass paint texture invalidation and async thumbnail cancellation
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/grass_scatter_test.c engine/grass_scatter.c -lm -o /tmp/valwood-grass-test
+/tmp/valwood-grass-test
+Grass scatter: deterministic roots, deferred emission, LOD retention, masks, bounds, negative coordinates, full field budget passed.
+Full field 157207 blades; quadrants 38297 40429 41892 36589
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/performance_test.c engine/performance.c -lm -o /tmp/valwood-performance-test
+/tmp/valwood-performance-test
+[Profile] /tmp/valwood-performance-test-77.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-77.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-77.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+cc -std=c99 -O2 -Wall -Wextra -Werror -DTEXTURE_CACHE_TESTING -I. tests/texture_cache_test.c engine/texture_cache.c -o /tmp/valwood-texture-cache-test
+/tmp/valwood-texture-cache-test
+Texture cache: exact content, forced collisions, color space, sampler policy, mesh-field references, failed uploads, capacity fallback and teardown passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DTEXTURE_CACHE_GL_OTHER_TU -c tests/texture_cache_gl_test.c -o /tmp/valwood-texture-cache-gl-other.o
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/texture_cache_gl_test.c /tmp/valwood-texture-cache-gl-other.o engine/texture_cache.c -o /tmp/valwood-texture-cache-gl-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-texture-cache-gl-test
+Texture cache renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+[GL] Embedded sRGB texture (2x2 ch=4 size=84)
+Texture cache GL: exact pixels, full dimensions, color spaces, sampler state, cross-TU ownership and deletion passed.
+cc -std=c99 -O2 -Wall -Wextra -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  tests/shader_equivalence.c -o /tmp/valwood-shader-equivalence -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-shader-equivalence
+PASS: 72 terrain/static PBR image cases, maximum linear RGBA difference 5.81145287e-06
+PASS: 168 SSAO blur image cases, max difference float source 6.13927841e-06 / R8 source 0.00313746929; R8 output max 1 code value(s)
+Shader equivalence renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_atlas_test.c engine/world_atlas.c -lm -o /tmp/valwood-world-atlas-test
+/tmp/valwood-world-atlas-test
+Ulasse headwall: middle summit 2279.7m, saddles 1664.0m / 1670.6m
+Brandalhall: natural baseline 1123.5m, foundation 1130.8m, max pad slope 0.120
+Callieut: natural baseline 1029.5m, foundation 1030.2m, max pad slope 0.639
+Rustpatch: natural baseline 413.0m, foundation 410.6m, max pad slope 0.221
+World atlas: geography, 15 dry landmarks, finite bounds, coordinate round trips, continuous seams and exact 8-hour 100.8 km width passed.
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_tiles_test.c engine/world_tiles.c -lm -pthread -o /tmp/valwood-world-tiles-test
+/tmp/valwood-world-tiles-test
+World tiles: bounded coverage, negative coordinates, coarse-first queues, seam normals, skirts, cancellation, reset and shutdown passed.
+cc -std=c99 -O2 -I. -c engine/world_atlas.c -o /tmp/valwood-cover-atlas.o
+g++ -std=c++17 -O2 -Wall -Wextra -Werror -I. tests/world_cover_test.cpp engine/world_cover.cpp /tmp/valwood-cover-atlas.o -lm -o /tmp/valwood-world-cover-test
+/tmp/valwood-world-cover-test
+World cover: deterministic roots, independent anchors, bounded staging, cancellation, water exclusion and caps passed (29 initial pumps; grass 46000, trees 7000; grass <25m 32185, >60m 2120).
+Overlapping capped fields retained 4101 protected grass roots and 314 trees; 4096-budget pumps mean 0.507 ms, max 0.916 ms (178 calls).
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_walk_test.c engine/world_walk.c -lm -o /tmp/valwood-world-walk-test
+/tmp/valwood-world-walk-test
+World walking: actual helper at45/60/mixed FPS, threshold slopes, diagonal speed, downhill, short rises and finite inputs passed.
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. -c engine/texture_cache.c -o /tmp/valwood-world-models-cache.o
+g++ -std=c++17 -O2 -Wall -Wextra -Werror -I. -I/usr/include/SDL2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/opus -I/usr/include/x86_64-linux-gnu -I/usr/include/pipewire-0.3 -I/usr/include/spa-0.2 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/libinstpatch-2 -pthread -D_REENTRANT -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_REENTRANT -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16  -DWORLD_MODELS_TEST_WRAP_UNIFORM_LOCATION tests/world_models_gl_test.cpp engine/world_models.cpp /tmp/valwood-world-models-cache.o -Wl,--wrap=glGetUniformLocation -o /tmp/valwood-world-models-gl-test -lSDL2_mixer -lSDL2_ttf -lSDL2  -lGL -lm -lstdc++ -pthread
+/tmp/valwood-world-models-gl-test
+World models renderer: llvmpipe (LLVM 20.1.2, 256 bits)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_1.glb: 1 meshes, 2384 triangles, height 0.77 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_2.glb: 1 meshes, 2248 triangles, height 0.89 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_1.glb: 1 meshes, 7499 triangles, height 1.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_2.glb: 1 meshes, 7500 triangles, height 1.90 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2700448)
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2548347)
+[GL] Embedded sRGB texture (450x860 ch=4 size=320547)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_near.glb: 4 meshes, 15496 triangles, height 25.00 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_mid.glb: 4 meshes, 3277 triangles, height 25.00 m
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1953169)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_far.glb: 1 meshes, 2 triangles, height 26.50 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2839282)
+[GL] Embedded sRGB texture (710x790 ch=4 size=605873)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_near.glb: 4 meshes, 15484 triangles, height 22.00 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_mid.glb: 4 meshes, 3413 triangles, height 22.00 m
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1365833)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_far.glb: 1 meshes, 2 triangles, height 23.32 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2465846)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_cliff_01.glb: 1 meshes, 18000 triangles, height 10.26 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_0.glb: 1 meshes, 6000 triangles, height 1.80 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_1.glb: 1 meshes, 5999 triangles, height 2.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_2.glb: 1 meshes, 6000 triangles, height 3.20 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=2527992)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_0.glb: 1 meshes, 420 triangles, height 0.26 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_1.glb: 1 meshes, 500 triangles, height 0.27 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=940281)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_2.glb: 1 meshes, 450 triangles, height 0.35 m
+World models GL: twenty real assets, color/shadow pixels, bounds, invalid instances, alternating programs and shared texture cleanup passed.
+cc -std=c99 -O2 -Wall -Wextra -Werror -I. tests/world_atlas_lod_test.c engine/world_atlas.c engine/world_tiles.c -lm -pthread -o /tmp/valwood-world-atlas-lod-test
+/tmp/valwood-world-atlas-lod-test
+Atlas cells32 LOD4/5: 26364 possible border vertices; maximum gap 19.570923 m at -40960.0 -24896.0; actual covering skirt 24.0 m
+Atlas cells32 LOD5/6: 8164 possible border vertices; maximum gap 56.680847 m at -40960.0 -24960.0; actual covering skirt 96.0 m
+Atlas cells64 LOD4/5: 52636 possible border vertices; maximum gap 17.896731 m at -32768.0 -22560.0; actual covering skirt 24.0 m
+Atlas cells64 LOD5/6: 16272 possible border vertices; maximum gap 19.570923 m at -40960.0 -24896.0; actual covering skirt 96.0 m
+World atlas LOD skirts cover every possible far-ring border, including negative coordinates and the outer ocean.
+
+
+Native Radeon model/color/shadow checks
+World models renderer: AMD Radeon RX 5300 (radeonsi, navi14, LLVM 20.1.2, DRM 3.64, 7.0.0-38-generic)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=776567)
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=647254)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/silver_fir.glb: 3 meshes, 65000 triangles, height 14.92 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=930729)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_0.glb: 1 meshes, 784 triangles, height 0.65 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_1.glb: 1 meshes, 2384 triangles, height 0.77 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/woodland_fern_2.glb: 1 meshes, 2248 triangles, height 0.89 m
+[GL] Embedded sRGB texture (1024x1024 ch=3 size=194307)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_0.glb: 1 meshes, 7500 triangles, height 1.10 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_1.glb: 1 meshes, 7499 triangles, height 1.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/mossy_boulder_2.glb: 1 meshes, 7500 triangles, height 1.90 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2700448)
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2548347)
+[GL] Embedded sRGB texture (450x860 ch=4 size=320547)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_near.glb: 4 meshes, 15496 triangles, height 25.00 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_mid.glb: 4 meshes, 3277 triangles, height 25.00 m
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1953169)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_pine_far.glb: 1 meshes, 2 triangles, height 26.50 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2839282)
+[GL] Embedded sRGB texture (710x790 ch=4 size=605873)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_near.glb: 4 meshes, 15484 triangles, height 22.00 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_mid.glb: 4 meshes, 3413 triangles, height 22.00 m
+[GL] Embedded sRGB texture (1024x1536 ch=4 size=1365833)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_fir_far.glb: 1 meshes, 2 triangles, height 23.32 m
+[GL] Embedded sRGB texture (2048x2048 ch=3 size=2465846)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_cliff_01.glb: 1 meshes, 18000 triangles, height 10.26 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_0.glb: 1 meshes, 6000 triangles, height 1.80 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_1.glb: 1 meshes, 5999 triangles, height 2.50 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_rock_2.glb: 1 meshes, 6000 triangles, height 3.20 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=2527992)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_0.glb: 1 meshes, 420 triangles, height 0.26 m
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_1.glb: 1 meshes, 500 triangles, height 0.27 m
+[GL] Embedded sRGB texture (2048x2048 ch=4 size=940281)
+[WorldModels] /home/computer/Desktop/final_engine/new_engine/projects/valwood_world/models/cinematic_grass_2.glb: 1 meshes, 450 triangles, height 0.35 m
+World models GL: twenty real assets, color/shadow pixels, bounds, invalid instances, alternating programs and shared texture cleanup passed.
+
+
+Targeted ASan/UBSan, leak detection disabled
++ export ASAN_OPTIONS=detect_leaks=0:halt_on_error=1
++ ASAN_OPTIONS=detect_leaks=0:halt_on_error=1
++ export UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1
++ UBSAN_OPTIONS=halt_on_error=1:print_stacktrace=1
++ cinematic_san_flags=(-O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I.)
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. -c engine/world_atlas.c -o /tmp/valwood-cinematic-atlas-sanitized.o
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. -c engine/world_tiles.c -o /tmp/valwood-cinematic-tiles-sanitized.o -pthread
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. tests/world_atlas_test.c /tmp/valwood-cinematic-atlas-sanitized.o -o /tmp/valwood-cinematic-atlas-sanitized -lm
++ /tmp/valwood-cinematic-atlas-sanitized
+Ulasse headwall: middle summit 2279.7m, saddles 1664.0m / 1670.6m
+Brandalhall: natural baseline 1123.5m, foundation 1130.8m, max pad slope 0.120
+Callieut: natural baseline 1029.5m, foundation 1030.2m, max pad slope 0.639
+Rustpatch: natural baseline 413.0m, foundation 410.6m, max pad slope 0.221
+World atlas: geography, 15 dry landmarks, finite bounds, coordinate round trips, continuous seams and exact 8-hour 100.8 km width passed.
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. tests/world_tiles_test.c /tmp/valwood-cinematic-tiles-sanitized.o -o /tmp/valwood-cinematic-tiles-sanitized -pthread -lm
++ /tmp/valwood-cinematic-tiles-sanitized
+World tiles: bounded coverage, negative coordinates, coarse-first queues, seam normals, skirts, cancellation, reset and shutdown passed.
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. tests/world_walk_test.c engine/world_walk.c -o /tmp/valwood-cinematic-walk-sanitized -lm
++ /tmp/valwood-cinematic-walk-sanitized
+World walking: actual helper at45/60/mixed FPS, threshold slopes, diagonal speed, downhill, short rises and finite inputs passed.
++ cc -std=c99 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. tests/world_atlas_lod_test.c /tmp/valwood-cinematic-atlas-sanitized.o /tmp/valwood-cinematic-tiles-sanitized.o -o /tmp/valwood-cinematic-lod-sanitized -pthread -lm
++ /tmp/valwood-cinematic-lod-sanitized
+Atlas cells32 LOD4/5: 26364 possible border vertices; maximum gap 19.570923 m at -40960.0 -24896.0; actual covering skirt 24.0 m
+Atlas cells32 LOD5/6: 8164 possible border vertices; maximum gap 56.680847 m at -40960.0 -24960.0; actual covering skirt 96.0 m
+Atlas cells64 LOD4/5: 52636 possible border vertices; maximum gap 17.896731 m at -32768.0 -22560.0; actual covering skirt 24.0 m
+Atlas cells64 LOD5/6: 16272 possible border vertices; maximum gap 19.570923 m at -40960.0 -24896.0; actual covering skirt 96.0 m
+World atlas LOD skirts cover every possible far-ring border, including negative coordinates and the outer ocean.
++ c++ -std=c++17 -O1 -g -Wall -Wextra -Werror -fsanitize=address,undefined -fno-omit-frame-pointer -I. tests/world_cover_test.cpp engine/world_cover.cpp /tmp/valwood-cinematic-atlas-sanitized.o -o /tmp/valwood-cinematic-cover-sanitized -lm
++ /tmp/valwood-cinematic-cover-sanitized
+World cover: deterministic roots, independent anchors, bounded staging, cancellation, water exclusion and caps passed (29 initial pumps; grass 46000, trees 7000; grass <25m 32185, >60m 2120).
+Overlapping capped fields retained 4101 protected grass roots and 314 trees; 4096-budget pumps mean 1.105 ms, max 2.459 ms (178 calls).
++ printf 'PASS: current atlas, tiles, walk, real atlas LOD32/64, and cover ASan/UBSan checks.\n'
+PASS: current atlas, tiles, walk, real atlas LOD32/64, and cover ASan/UBSan checks.
+
+
+Strict viewer syntax compilation
+
+
+Preserved tool-output transcript: profiler regression, sanitizer and negative control
+Profiler buffer validation transcript — 23 October 2026
+
+This file preserves output returned by completed tool calls. Those calls were not
+originally redirected to a log file. It is a transcript, not a new test run.
+No native GL context or renderer process was used.
+
+Release command: make test-performance
+Compiler: cc -std=c99 -O2 -Wall -Wextra -Werror -I. [SDL_CFLAGS]
+  tests/performance_test.c engine/performance.c -lm
+Exit code: 0
+[Profile] /tmp/valwood-performance-test-20.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-20.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-20.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+
+Negative control: copied current engine/performance.c to
+  /tmp/valwood-performance-null-buffer.c and replaced only the explicit buffer
+  setvbuf argument with the preceding NULL-buffer implementation.
+Compiled the same tests/performance_test.c against that temporary source.
+The control exited nonzero and stderr contained csv_stat.st_size==0, as checked
+by the Python harness. Core dumps were disabled. Temporary profiler outputs were
+removed after the control; production sources were not reverted.
+PASS negative control: old NULL-buffer implementation fails the short-capture no-flush assertion
+
+Sanitizer command:
+cc -std=c99 -Wall -Wextra -Werror -I. tests/performance_test.c -O1 -g
+  -fsanitize=address,undefined -fno-omit-frame-pointer engine/performance.c -lm
+  -o /tmp/valwood-performance-sanitized-test
+ASAN_OPTIONS=detect_leaks=0 /tmp/valwood-performance-sanitized-test
+Exit code: 0
+[Profile] /tmp/valwood-performance-test-23.json: 35.59 FPS, p95 60.00 ms, 50.00% within 45 FPS budget (10 samples)
+[Profile] /tmp/valwood-performance-test-23.json: 50.00 FPS, p95 24.00 ms, 50.00% within 45 FPS budget (10000 samples)
+[Profile] /tmp/valwood-performance-test-23.json: 0.00 FPS, p95 0.00 ms, 0.00% within 45 FPS budget (0 samples)
+PASS performance: warmup, exact tail/budget statistics, worst-frame IDs, long-run growth, CSV and profile lifecycle
+
+The added regression checks: 200 rows stay buffered before close; disabling via
+engine_perf_begin(NULL,0) flushes all 201 CSV lines before reset; the 10,000-sample
+run closes with all 10,002 CSV lines retained. Existing exact statistics and
+repeated lifecycle tests remain in the same executable.
+
+
+All13 cinematic GLB validation
+VALID cinematic_pine_near 15496 triangles 9 embedded images
+VALID cinematic_pine_far 2 triangles 1 embedded images
+VALID cinematic_fir_near 15484 triangles 6 embedded images
+VALID cinematic_fir_far 2 triangles 1 embedded images
+VALID cinematic_cliff_01 18000 triangles 3 embedded images
+VALID cinematic_rock_0 6000 triangles 3 embedded images
+VALID cinematic_rock_1 5999 triangles 3 embedded images
+VALID cinematic_rock_2 6000 triangles 3 embedded images
+VALID cinematic_pine_mid 3277 triangles 9 embedded images
+VALID cinematic_fir_mid 3413 triangles 6 embedded images
+VALID cinematic_grass_0 420 triangles 3 embedded images
+VALID cinematic_grass_1 500 triangles 3 embedded images
+VALID cinematic_grass_2 450 triangles 3 embedded images
+All cinematic GLBs satisfy runtime limits; near/mid embedded texture bytes are shared.
+
+
+Stable native visual captures
+Native stable view: forest
+Native stable view: lake
+Native stable view: ridge
+Native stable view: coast
+
+
+Corrected grounded ridge/coast visual captures
+Native stable view: ridge
+Native stable view: coast
+
+
+Final sequential benchmark driver
+Native scenery check: forest 3600 frames
+{"scene": "forest", "mean_fps": 59.95, "one_percent_low_fps": 59.38, "p99_ms": 16.73, "max_ms": 19.086, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.038, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: lake 3600 frames
+{"scene": "lake", "mean_fps": 59.95, "one_percent_low_fps": 59.74, "p99_ms": 16.722, "max_ms": 16.798, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 12.121, "mean_reflection_gpu_ms": 0.944, "loading_frames": 0}
+Native scenery check: ridge 1800 frames
+{"scene": "ridge", "mean_fps": 59.95, "one_percent_low_fps": 58.87, "p99_ms": 16.733, "max_ms": 20.709, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 11.641, "mean_reflection_gpu_ms": 0.0, "loading_frames": 0}
+Native scenery check: coast 1800 frames
+{"scene": "coast", "mean_fps": 59.95, "one_percent_low_fps": 59.23, "p99_ms": 16.728, "max_ms": 18.643, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 11.718, "mean_reflection_gpu_ms": 1.041, "loading_frames": 0}
+Native scenery check: tour 5400 frames
+{"scene": "tour", "mean_fps": 59.95, "one_percent_low_fps": 59.56, "p99_ms": 16.734, "max_ms": 17.021, "within_45fps_budget_percent": 100.0, "mean_render_total_gpu_ms": 6.529, "mean_reflection_gpu_ms": 0.21, "loading_frames": 2690}

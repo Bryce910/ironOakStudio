@@ -1,0 +1,1 @@
+# No hostile enemies in the engine sample

@@ -1,0 +1,14 @@
+Valwood — Linux animation polish, 17 November 2026
+
+Use Launch_Valwood.sh demo, editor, arena, joust or world as before.
+The editor and demo share new_engine/projects/valwood_current.
+Saved scenes, progress, controls and graphics preferences remain in their existing locations.
+
+This generation improves walking-foot support, braking and sideways corrective steps,
+shortens the civilian woman's stride, restores stronger civilian arm/torso counter-swing,
+and staggers road departures. Civilian original files are retained; the derived poses
+are in this generation's assets/walkers folder.
+
+Native acceptance and visual/performance limits are recorded in review/FINAL_REVIEW.json.
+The previous unified-runtime-2026-11-16 generation is retained for rollback.
+No Windows package was built or updated.

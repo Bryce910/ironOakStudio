@@ -1,0 +1,72 @@
+VALWOOD — CAMP POLISH (Linux, 21 November 2026)
+
+Launch: /home/computer/Desktop/final_engine/Launch_Valwood.sh demo
+All modes use the same native binary and reviewed shader bank. No Windows work was performed.
+
+Graphics > Quality > Environmental effects > Smoke, atmosphere and life:
+Low / Medium / High / Ultra. Controls wind-driven cooking-fire smoke, drifting
+leaves, insects, dusk fireflies, local bird population and light-shaft detail.
+Graphics > Quality > Scenery texture detail:
+Low 512 / Medium 1K / High 2K / Ultra 4K.
+This independent setting applies to trees, buildings and props after restart.
+Older saved profiles migrate to High 2K; character texture choices are preserved.
+Memory admission remains enforced. These scenery tiers use 1024 / 1280 / 1536 /
+2048 MiB limits respectively. High replaces the old fixed 1280 MiB world cap
+with an explicit 2K quality budget; it does not bypass failed admissions.
+The separate smoke/effects setting does not require a restart.
+Water quality, foliage distance/density, character textures and render scale
+remain separate controls. Higher effects quality adds detail and range.
+The existing cooking-fire smoke source follows actual weather and local Studio wind.
+Two bounded woodland breeze fields drive both the foliage and the smoke. It is not a second
+stacked emitter. Dynamic particles stay within bounded per-category budgets.
+
+Camp changes: count-neutral tree-family/form replacements, two purchased-source
+birches, source-baked far cards, solid roots/twigs/pebbles/moss and litter, scanned
+distant outcrops, weathered bridge surface and hearth coals/ash. The original
+high-detail camp compound (tent, roasting frame, spit, chicken, stones and logs)
+uses the previously repaired nearest-owner material admission and BC7 cache.
+
+The three camp travelers now use continuously sampled skeletal acting clips
+on their existing rigs. These are authored breathing/listening/talking/warming
+motions, not newly purchased motion-capture performances. New previous-pose
+motion vectors cover the three campers; the hero's shared facial-morph palette
+now supports correct previous-frame bank offsets. Landscape moss/dirt projection
+remains excluded from character materials. Walking/controller clips were audited
+against the previous character-polish generation, not indiscriminately reverted.
+
+Presentation: Iron Oak loading/splash, title/controls/known issues, and an explicit
+Thanks for playing ending asking for Discord feedback. No external feedback URL.
+
+Still limited: some legacy town/distant NPC idles and distant tree silhouettes
+repeat. Five named tree types supply many additional forms/sizes; this is not
+an assertion of ten newly acquired botanical species. Birds are distant simple
+silhouettes. Camp acting is not facial dialogue/lip-sync production. More art
+and optimization are needed before any claim of AAA quality or 60 FPS delivery.
+
+Validation reports are under review/. Private test saves do not modify live progress.
+The effects/settings policy passed its migration and corruption checks, including older-save migration,
+corrupt-input rollback and preservation of display and texture choices. Actual
+RX 5300 captures show the roasting support restored, a wind-bent smoke plume,
+three animated travelers and their motion-vector draws without GL errors.
+Medium river reflections now validate the surrounding depth support of a hit;
+unsupported single-pixel foliage hits fall back to the actual sky. The native
+matched creek view confirms reduced stippling, with some thin-geometry artifacts
+and unfinished bank art still visible. Low remains the cheapest water mode.
+
+Performance remains limited. The 1,200-frame camp checks measured about 18 FPS
+at 1600x900/full resolution with Ultra foliage, about 23 FPS at 75% render scale
+with richer Balanced settings, and about 30 FPS on Performance at 85% scale.
+These are short, settled camp samples, not sustained full-demo benchmarks.
+Keep Ultra available for stronger hardware. No live settings were changed.
+
+Remaining art: improve the broad flat camp path, pale exposed distant hills,
+angular creek banks, and close-up tent/timber detail. The complete opening,
+controller and swim/dive rehearsal still needs an unlocked desktop; scripted
+fly-through captures do not verify walking or physical camera collisions.
+No claim of AAA visual parity or a flawless complete demo is made.
+
+Activation acceptance: final native High seven-view camp/creek/apartment/return route
+and Low camp run passed with zero texture-admission failures and GL errors. High
+ended with all167wanted groups resident. Low kept character detail High while
+reducing tracked textures to622,012,084bytes (~593MiB); median last600frames
+was29.85FPS at85% render scale. This is not a full interactive rehearsal.

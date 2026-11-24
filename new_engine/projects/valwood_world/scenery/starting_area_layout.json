@@ -1,0 +1,639 @@
+{
+  "schema_version": 1,
+  "title": "Valwood | Silverpine Waystation",
+  "description": "A compact weathered stone waystation, working camp, forest grove and overlook, composed around a walkable return loop.",
+  "origin": {
+    "map_uv": [
+      0.511,
+      0.252
+    ],
+    "world_xz": [
+      1108.8,
+      -14063.783392
+    ],
+    "camera_yaw_radians": -0.55,
+    "right_xz": [
+      0.8525245220595057,
+      -0.5226872289306592
+    ],
+    "forward_xz": [
+      -0.5226872289306592,
+      -0.8525245220595057
+    ],
+    "model_yaw_for_right_degrees": 31.51267873219528
+  },
+  "bounds": {
+    "min_rf": [
+      -125,
+      -40
+    ],
+    "max_rf": [
+      125,
+      180
+    ],
+    "feather_m": 10
+  },
+  "preserve": {
+    "spawn_radius_m": 4,
+    "original_trail": true,
+    "source_instances": "authored_instances.txt",
+    "settlement_foundations": true,
+    "reference_map": true
+  },
+  "pads": [
+    {
+      "id": "gate",
+      "center_rf": [
+        -0.25,
+        14
+      ],
+      "center_xz": [
+        1101.269248,
+        -14075.588064
+      ],
+      "half_size_rf": [
+        9,
+        7
+      ],
+      "target_height_m": 335.25,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 8,
+      "material": "stone_gravel",
+      "surface_half_size_rf": [
+        6,
+        5
+      ]
+    },
+    {
+      "id": "courtyard",
+      "center_rf": [
+        -0.8,
+        43
+      ],
+      "center_xz": [
+        1085.64243,
+        -14100.023797
+      ],
+      "half_size_rf": [
+        19,
+        17
+      ],
+      "target_height_m": 334.25,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 12,
+      "material": "stone_gravel",
+      "surface_half_size_rf": [
+        11,
+        10
+      ]
+    },
+    {
+      "id": "ruin_tower",
+      "center_rf": [
+        -32,
+        27
+      ],
+      "center_xz": [
+        1067.40666,
+        -14070.075563
+      ],
+      "half_size_rf": [
+        9,
+        9
+      ],
+      "target_height_m": 335.0,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 8,
+      "material": "stone_gravel",
+      "surface_half_size_rf": [
+        8.2,
+        8.2
+      ]
+    },
+    {
+      "id": "workshop",
+      "center_rf": [
+        32,
+        61
+      ],
+      "center_xz": [
+        1104.196864,
+        -14132.513379
+      ],
+      "half_size_rf": [
+        15,
+        11
+      ],
+      "target_height_m": 333.9,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 10,
+      "material": "forest_litter"
+    },
+    {
+      "id": "overlook",
+      "center_rf": [
+        46,
+        98
+      ],
+      "center_xz": [
+        1096.79278,
+        -14171.374408
+      ],
+      "half_size_rf": [
+        13,
+        10
+      ],
+      "target_height_m": 332.5,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 12,
+      "material": "forest_litter"
+    },
+    {
+      "id": "grove",
+      "center_rf": [
+        -15,
+        117
+      ],
+      "center_xz": [
+        1034.857726,
+        -14155.688453
+      ],
+      "half_size_rf": [
+        19,
+        17
+      ],
+      "target_height_m": 330.6,
+      "slope_rf": [
+        0,
+        0
+      ],
+      "feather_m": 14,
+      "material": "forest_litter"
+    }
+  ],
+  "paths": [
+    {
+      "id": "arrival",
+      "points_rf": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.25,
+          14
+        ],
+        [
+          -0.5,
+          28
+        ],
+        [
+          -0.8,
+          43
+        ]
+      ],
+      "points_xz": [
+        [
+          1108.8,
+          -14063.783392
+        ],
+        [
+          1101.269248,
+          -14075.588064
+        ],
+        [
+          1093.738495,
+          -14087.392735
+        ],
+        [
+          1085.64243,
+          -14100.023797
+        ]
+      ],
+      "half_width_m": 1.5,
+      "feather_m": 1.1,
+      "material": "compacted_gravel"
+    },
+    {
+      "id": "waystation_loop",
+      "points_rf": [
+        [
+          -0.8,
+          43
+        ],
+        [
+          16,
+          46
+        ],
+        [
+          32,
+          59
+        ],
+        [
+          46,
+          78
+        ],
+        [
+          47,
+          98
+        ],
+        [
+          30,
+          116
+        ],
+        [
+          8,
+          124
+        ],
+        [
+          -16,
+          118
+        ],
+        [
+          -34,
+          103
+        ],
+        [
+          -44,
+          81
+        ],
+        [
+          -37,
+          61
+        ],
+        [
+          -20,
+          48
+        ],
+        [
+          -0.8,
+          43
+        ]
+      ],
+      "points_xz": [
+        [
+          1085.64243,
+          -14100.023797
+        ],
+        [
+          1098.39678,
+          -14111.362516
+        ],
+        [
+          1105.242238,
+          -14130.80833
+        ],
+        [
+          1107.246524,
+          -14154.323917
+        ],
+        [
+          1097.645304,
+          -14171.897095
+        ],
+        [
+          1073.744017,
+          -14178.356853
+        ],
+        [
+          1050.80698,
+          -14173.677931
+        ],
+        [
+          1033.482515,
+          -14156.01829
+        ],
+        [
+          1025.977382,
+          -14133.822052
+        ],
+        [
+          1028.951255,
+          -14109.83964
+        ],
+        [
+          1045.372672,
+          -14096.44796
+        ],
+        [
+          1066.660523,
+          -14094.250824
+        ],
+        [
+          1085.64243,
+          -14100.023797
+        ]
+      ],
+      "half_width_m": 1.5,
+      "feather_m": 1.0,
+      "material": "forest_litter"
+    }
+  ],
+  "clearings": [
+    {
+      "id": "gate",
+      "center_rf": [
+        -0.25,
+        14
+      ],
+      "center_xz": [
+        1101.269248,
+        -14075.588064
+      ],
+      "inner_radii_rf": [
+        10,
+        8
+      ],
+      "outer_radii_rf": [
+        17,
+        15
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.06,
+      "feathered": true
+    },
+    {
+      "id": "courtyard",
+      "center_rf": [
+        -0.8,
+        43
+      ],
+      "center_xz": [
+        1085.64243,
+        -14100.023797
+      ],
+      "inner_radii_rf": [
+        20,
+        18
+      ],
+      "outer_radii_rf": [
+        27,
+        25
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.06,
+      "feathered": true
+    },
+    {
+      "id": "ruin_tower",
+      "center_rf": [
+        -32,
+        27
+      ],
+      "center_xz": [
+        1067.40666,
+        -14070.075563
+      ],
+      "inner_radii_rf": [
+        10,
+        10
+      ],
+      "outer_radii_rf": [
+        17,
+        17
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.22,
+      "feathered": true
+    },
+    {
+      "id": "workshop",
+      "center_rf": [
+        32,
+        61
+      ],
+      "center_xz": [
+        1104.196864,
+        -14132.513379
+      ],
+      "inner_radii_rf": [
+        16,
+        12
+      ],
+      "outer_radii_rf": [
+        23,
+        19
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.22,
+      "feathered": true
+    },
+    {
+      "id": "overlook",
+      "center_rf": [
+        46,
+        98
+      ],
+      "center_xz": [
+        1096.79278,
+        -14171.374408
+      ],
+      "inner_radii_rf": [
+        14,
+        11
+      ],
+      "outer_radii_rf": [
+        21,
+        18
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.22,
+      "feathered": true
+    },
+    {
+      "id": "grove",
+      "center_rf": [
+        -15,
+        117
+      ],
+      "center_xz": [
+        1034.857726,
+        -14155.688453
+      ],
+      "inner_radii_rf": [
+        20,
+        18
+      ],
+      "outer_radii_rf": [
+        27,
+        25
+      ],
+      "tree_density_inner": 0,
+      "grass_density_inner": 0.22,
+      "feathered": true
+    }
+  ],
+  "building_footprints": [
+    {
+      "id": "arrival_arch",
+      "alias": "starting_gate",
+      "center_rf": [
+        -0.25,
+        14
+      ],
+      "half_size_rf": [
+        3.705119,
+        1.335985
+      ],
+      "yaw_rf_degrees": 0,
+      "scale": 1,
+      "burial_m": 0.3,
+      "passage_half_width_m": 1.750665,
+      "passage_half_height_m": 2.1
+    },
+    {
+      "id": "closed_ruin_tower",
+      "alias": "starting_tower",
+      "center_rf": [
+        -32,
+        27
+      ],
+      "half_size_rf": [
+        7.919224,
+        7.919224
+      ],
+      "yaw_rf_degrees": 0,
+      "scale": 1,
+      "burial_m": 0.08,
+      "closed": true
+    }
+  ],
+  "native_views": [
+    {
+      "id": "arrival",
+      "position_rf": [
+        0,
+        -5
+      ],
+      "target_rf": [
+        0,
+        34
+      ],
+      "position_xz": [
+        1111.413436,
+        -14059.520769
+      ],
+      "yaw_radians": -0.55,
+      "pitch_radians": 0.015,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "courtyard",
+      "position_rf": [
+        4,
+        31
+      ],
+      "target_rf": [
+        8,
+        38
+      ],
+      "position_xz": [
+        1096.006794,
+        -14092.302401
+      ],
+      "yaw_radians": -0.03085388575347714,
+      "pitch_radians": -0.1,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "workshop",
+      "position_rf": [
+        29,
+        64
+      ],
+      "target_rf": [
+        33,
+        70
+      ],
+      "position_xz": [
+        1100.071228,
+        -14133.502891
+      ],
+      "yaw_radians": 0.03800260354756746,
+      "pitch_radians": -0.1,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "overlook",
+      "position_rf": [
+        42,
+        93
+      ],
+      "target_rf": [
+        50,
+        100
+      ],
+      "position_xz": [
+        1095.996118,
+        -14165.021036
+      ],
+      "yaw_radians": 0.3019663271732721,
+      "pitch_radians": -0.06,
+      "eye_height_m": 1.75
+    },
+    {
+      "id": "grove",
+      "position_rf": [
+        -32,
+        119
+      ],
+      "target_rf": [
+        -24,
+        125
+      ],
+      "position_xz": [
+        1019.319435,
+        -14148.507819
+      ],
+      "yaw_radians": 0.37729521800161214,
+      "pitch_radians": -0.08,
+      "eye_height_m": 1.75
+    }
+  ],
+  "budgets": {
+    "new_records_max": 1450,
+    "total_with_baseline_max": 1800,
+    "new_records_target": [
+      1300,
+      1420
+    ],
+    "route_clear_width_m": [
+      2.8,
+      3.5
+    ],
+    "eye_height_m": 1.75,
+    "capsule_radius_m": 0.37,
+    "gate_opening_width_m": 3.50133
+  },
+  "authoring": {
+    "instance_file": "starting_area_instances.txt",
+    "manifest_file": "starting_area_manifest.json",
+    "model_manifest": "models/starting_manifest.json",
+    "preserve_existing_outputs": true
+  },
+  "route_metrics": {
+    "arrival_m": 43.007,
+    "loop_m": 264.242,
+    "full_walk_return_m": 350.257,
+    "authored_footprint_m": [
+      250,
+      220
+    ],
+    "validation": "proposed; actual terrain/collision validation follows integrated pads and model bounds"
+  }
+}

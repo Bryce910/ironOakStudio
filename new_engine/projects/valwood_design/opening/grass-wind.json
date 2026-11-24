@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "rooted_tip_swing_gain_approx": 2.3,
+  "small_grass_amplitude_gain": 1.6666666666666667,
+  "rooted_maximum_bend_m": 0.18,
+  "rooted_maximum_bend_height_fraction": 0.22,
+  "roots_fixed": true,
+  "color_shadow_same_vertex_shader": true,
+  "temporal_speed_matches_rooted_deformation": true
+}

@@ -1,0 +1,7 @@
+Collision, water and NPC editor update (draft; publication requires root approval).
+
+The Windows archive is a cumulative update for the existing full World Designer bundle. Extract the update beside the original full bundle, then use its included update instructions. Preserve existing artist workspaces and backups; do not replace them with a seed.
+
+Automatic structural collision rebuilds, source-floor NPC placement and saved walking paths, refined water/shorelines, and the final editor controls were checked on the exact supplied executables. Each final platform ran all six core workflows and the full apartment-to-town combat/retry/reward/save journey. The historical native v5 nine-route Grandstone rehearsal is separate from the four-route rerun on each final executable.
+
+Imported base ground remains fixed. Patrols cannot cross between atlas ground and imported source-floor navigation. Physical Windows graphics/controller smoke testing on the receiving computer remains pending.

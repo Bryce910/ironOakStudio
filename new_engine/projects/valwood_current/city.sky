@@ -1,0 +1,4 @@
+VALWOOD_CITY_SKY 1
+panorama "assets/seldonne-first-region/sky/overcast_soil_puresky_4k.hdr"
+material 0.65 1.0 0
+cube 512

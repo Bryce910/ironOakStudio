@@ -1,0 +1,99 @@
+LEGAL guard0 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel4 minr1.55 maxr1.6 x-0.95551270618 z1.28335321261 yaw2.50159263611 t0.666103379721
+LEGAL guard1 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel20 minr1.35 maxr1.6 x0.254909130583 z1.5795636534 yaw-2.98159265518 t0.777545417258
+LEGAL guard2 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel155 minr1.35 maxr1.8 x-0.143846449145 z1.79424307134 yaw3.06159257889 t0.997247054839
+LEGAL guard3 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel24 minr1.75 maxr2 x-0.318636413228 z1.97445456675 yaw2.98159265518 t0.991283714075
+LEGAL guard4 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel6 minr1.85 maxr2 x0.159829387938 z1.99360341261 yaw-3.06159257889 t0.962616238897
+LEGAL guard1 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk1 gait0 steel10 minr1.35 maxr1.4 x0.695632192981 z1.21494685155 yaw-2.62159276009 t0.809478623478
+LEGAL guard1 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk1 gait0.25 steel17 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.832398901454
+LEGAL guard1 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk1 gait0.5 steel20 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.828422147948
+LEGAL guard1 phase0 enemy_attack0 contact_pose_time0.18 lead0 walk1 gait0.75 steel18 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.829561500424
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.18 lead0 walk0 gait0 steel85 minr1.35 maxr1.8 x1.18689240955 z1.35325031245 yaw-2.4215927124 t0.803551390629
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.24 lead0 walk0 gait0 steel127 minr1.35 maxr2.05 x1.41228896248 z1.48591382202 yaw-2.38159275055 t0.862188848364
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.3 lead0 walk0 gait0 steel63 minr1.6 maxr2.25 x1.01860428258 z1.77902931834 yaw-2.62159276009 t0.988030476836
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.36 lead0 walk0 gait0 hits86
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.42 lead0 walk0 gait0 hits63
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.48 lead0 walk0 gait0 hits57
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.54 lead0 walk0 gait0 hits64
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.6 lead0 walk0 gait0 hits88
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.66 lead0 walk0 gait0 steel21 minr1.35 maxr1.65 x0.327804395812 z1.61710985344 yaw-2.94159269333 t0.778442196427
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.18 lead0 walk0 gait0 hits72
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.24 lead0 walk0 gait0 hits68
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.3 lead0 walk0 gait0 hits67
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.36 lead0 walk0 gait0 hits67
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.42 lead0 walk0 gait0 hits69
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.48 lead0 walk0 gait0 hits72
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.54 lead0 walk0 gait0 hits73
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.6 lead0 walk0 gait0 hits101
+LEGAL guard1 phase1 enemy_attack1 contact_pose_time0.66 lead0 walk0 gait0 steel14 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.884780480211
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.18 lead0 walk0 gait0 steel1 minr1.35 maxr1.35 x0.373080125562 z1.29742484172 yaw-2.86159276962 t0.762585683935
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.24 lead0 walk0 gait0 steel1 minr1.35 maxr1.35 x0.16161147984 z1.3402916584 yaw-3.02159261703 t0.798951445022
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.3 lead0 walk0 gait0 hits102
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.36 lead0 walk0 gait0 hits87
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.42 lead0 walk0 gait0 hits86
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.48 lead0 walk0 gait0 hits82
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.54 lead0 walk0 gait0 hits81
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.6 lead0 walk0 gait0 hits89
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.66 lead0 walk0 gait0 steel18 minr1.35 maxr1.55 x0.660206170852 z1.40236507799 yaw-2.70159268379 t0.755348619807
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.18 lead0 walk0 gait0 steel11 minr1.35 maxr1.4 x0.695632192981 z1.21494685155 yaw-2.62159276009 t0.821476737067
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.24 lead0 walk0 gait0 steel8 minr1.35 maxr1.4 x0.695632192981 z1.21494685155 yaw-2.62159276009 t0.82900229386
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.3 lead0 walk0 gait0 steel2 minr1.35 maxr1.35 x0.717101367193 z1.14379439987 yaw-2.58159255981 t0.818735738117
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.36 lead0 walk0 gait0 steel1 minr1.35 maxr1.35 x0.717101367193 z1.14379439987 yaw-2.58159255981 t0.842433974704
+NONE guard1 phase1 enemy_attack3 contact_pose_time0.42 lead0 walk0 gait0 hits90
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.48 lead0 walk0 gait0 steel1 minr1.35 maxr1.35 x0.623401886981 z1.19744314575 yaw-2.66159272194 t0.917194120881
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.54 lead0 walk0 gait0 steel9 minr1.35 maxr1.45 x0.617612224346 z1.31188991167 yaw-2.70159268379 t0.949490159869
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.6 lead0 walk0 gait0 steel2 minr1.65 maxr1.65 x0.455986820131 z1.58574147321 yaw-2.86159276962 t0.995931997956
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.66 lead0 walk0 gait0 steel17 minr1.85 maxr2.15 x0.40727212813 z2.00913648457 yaw-2.94159269333 t0.980336088891
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.18 lead0 walk0 gait0 steel7 minr1.35 maxr1.35 x0.670788186089 z1.17155589256 yaw-2.62159276009 t0.81650868837
+NONE guard1 phase1 enemy_attack4 contact_pose_time0.24 lead0 walk0 gait0 hits87
+NONE guard1 phase1 enemy_attack4 contact_pose_time0.3 lead0 walk0 gait0 hits87
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.36 lead0 walk0 gait0 steel7 minr1.35 maxr1.4 x1.00429852726 z0.975389393086 yaw-2.34159255028 t0.796003849225
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.42 lead0 walk0 gait0 steel69 minr1.35 maxr1.95 x1.39884437725 z1.35857808323 yaw-2.34159255028 t0.833190893118
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.48 lead0 walk0 gait0 steel67 minr1.35 maxr2.25 x0.873175903385 z1.8547409096 yaw-2.70159268379 t0.93768497506
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.54 lead0 walk0 gait0 steel35 minr1.7 maxr2.35 x0.722162178214 z1.91858848854 yaw-2.7815926075 t0.938453280976
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.6 lead0 walk0 gait0 steel35 minr1.8 maxr2.35 x0.566529079556 z1.97016364854 yaw-2.86159276962 t0.966796964624
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.66 lead0 walk0 gait0 steel62 minr1.8 maxr2.35 x0.40727212813 z2.00913648457 yaw-2.94159269333 t0.850763910792
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.18 lead0.09 walk0 gait0 steel43 minr1.35 maxr1.55 x0.715757722089 z1.37484213031 yaw-2.66159272194 t0.841375437141
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.24 lead0.09 walk0 gait0 steel79 minr1.35 maxr1.75 x0.988124328441 z1.44433732609 yaw-2.54159259796 t0.831215749651
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.3 lead0.09 walk0 gait0 steel127 minr1.35 maxr2.05 x1.41228896248 z1.48591382202 yaw-2.38159275055 t0.862188848364
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.36 lead0.09 walk0 gait0 steel16 minr1.7 maxr2 x0.923558351083 z1.77398984556 yaw-2.66159272194 t0.995860539846
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.42 lead0.09 walk0 gait0 hits79
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.48 lead0.09 walk0 gait0 hits54
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.54 lead0.09 walk0 gait0 hits61
+NONE guard1 phase1 enemy_attack0 contact_pose_time0.6 lead0.09 walk0 gait0 hits78
+LEGAL guard1 phase1 enemy_attack0 contact_pose_time0.66 lead0.09 walk0 gait0 steel12 minr1.35 maxr1.55 x0.307937462732 z1.51910319565 yaw-2.94159269333 t0.766170149167
+LEGAL guard1 phase1 enemy_attack1 contact_pose_time0.18 lead0.09 walk0 gait0 steel2 minr1.35 maxr1.35 x0.623401886981 z1.19744314575 yaw-2.66159272194 t0.797738402802
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.24 lead0.09 walk0 gait0 hits72
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.3 lead0.09 walk0 gait0 hits68
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.36 lead0.09 walk0 gait0 hits65
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.42 lead0.09 walk0 gait0 hits67
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.48 lead0.09 walk0 gait0 hits71
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.54 lead0.09 walk0 gait0 hits72
+NONE guard1 phase1 enemy_attack1 contact_pose_time0.6 lead0.09 walk0 gait0 hits90
+LEGAL guard1 phase1 enemy_attack1 contact_pose_time0.66 lead0.09 walk0 gait0 steel2 minr1.35 maxr1.35 x0.670788186089 z1.17155589256 yaw-2.62159276009 t0.87735745608
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.18 lead0.09 walk0 gait0 steel9 minr1.35 maxr1.45 x0.617612224346 z1.31188991167 yaw-2.70159268379 t0.781385103576
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.24 lead0.09 walk0 gait0 steel1 minr1.35 maxr1.35 x0.424664856832 z1.28146781441 yaw-2.82159256935 t0.7537105855
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.3 lead0.09 walk0 gait0 steel1 minr1.35 maxr1.35 x0.16161147984 z1.3402916584 yaw-3.02159261703 t0.798951445022
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.36 lead0.09 walk0 gait0 hits103
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.42 lead0.09 walk0 gait0 hits87
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.48 lead0.09 walk0 gait0 hits83
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.54 lead0.09 walk0 gait0 hits84
+NONE guard1 phase1 enemy_attack2 contact_pose_time0.6 lead0.09 walk0 gait0 hits86
+LEGAL guard1 phase1 enemy_attack2 contact_pose_time0.66 lead0.09 walk0 gait0 steel7 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.739031335838
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.18 lead0.09 walk0 gait0 steel17 minr1.35 maxr1.45 x0.720476199873 z1.25833781053 yaw-2.62159276009 t0.814862025003
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.24 lead0.09 walk0 gait0 steel14 minr1.35 maxr1.45 x0.720476199873 z1.25833781053 yaw-2.62159276009 t0.827010103721
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.3 lead0.09 walk0 gait0 steel8 minr1.35 maxr1.4 x0.695632192981 z1.21494685155 yaw-2.62159276009 t0.82900229386
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.36 lead0.09 walk0 gait0 steel2 minr1.35 maxr1.35 x0.717101367193 z1.14379439987 yaw-2.58159255981 t0.820987791929
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.42 lead0.09 walk0 gait0 steel1 minr1.35 maxr1.35 x0.717101367193 z1.14379439987 yaw-2.58159255981 t0.853632156492
+NONE guard1 phase1 enemy_attack3 contact_pose_time0.48 lead0.09 walk0 gait0 hits88
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.54 lead0.09 walk0 gait0 steel5 minr1.35 maxr1.4 x0.596315251092 z1.26665232851 yaw-2.70159268379 t0.935846540905
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.6 lead0.09 walk0 gait0 steel6 minr1.5 maxr1.6 x0.56363877324 z1.49743491788 yaw-2.7815926075 t0.983262277352
+LEGAL guard1 phase1 enemy_attack3 contact_pose_time0.66 lead0.09 walk0 gait0 steel12 minr1.75 maxr2 x0.475405252854 z1.9426759497 yaw-2.90159273148 t0.987210532954
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.18 lead0.09 walk0 gait0 steel19 minr1.35 maxr1.45 x0.669579804535 z1.28614263803 yaw-2.66159272194 t0.830086826356
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.24 lead0.09 walk0 gait0 steel8 minr1.35 maxr1.4 x0.695632192981 z1.21494685155 yaw-2.62159276009 t0.822573510058
+NONE guard1 phase1 enemy_attack4 contact_pose_time0.3 lead0.09 walk0 gait0 hits87
+NONE guard1 phase1 enemy_attack4 contact_pose_time0.36 lead0.09 walk0 gait0 hits87
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.42 lead0.09 walk0 gait0 steel20 minr1.35 maxr1.5 x1.03338216767 z1.08725401611 yaw-2.38159275055 t0.811329564006
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.48 lead0.09 walk0 gait0 steel105 minr1.35 maxr2.15 x1.15751707046 z1.69193801056 yaw-2.54159259796 t0.892805749344
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.54 lead0.09 walk0 gait0 steel45 minr1.55 maxr2.35 x0.798307601733 z1.88817503771 yaw-2.74159264565 t0.935479287284
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.6 lead0.09 walk0 gait0 steel31 minr1.75 maxr2.35 x0.566529079556 z1.97016364854 yaw-2.86159276962 t0.99290538516
+LEGAL guard1 phase1 enemy_attack4 contact_pose_time0.66 lead0.09 walk0 gait0 steel57 minr1.8 maxr2.35 x0.326602323559 z2.02381593092 yaw-2.98159265518 t0.913822284652

@@ -1,0 +1,1 @@
+{"ok":false,"file":"assets","error":"Authoring asset folders must be local directories"}
